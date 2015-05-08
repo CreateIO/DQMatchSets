@@ -1,18 +1,19 @@
-{ "charts": {
-  "version": "1.0.0",
-  "template": {
-    "property": [
-      "./scripts/charts/detailCharts.json",
-      "property"
-    ],
-    "radar": [
-      "./scripts/charts/detailRadarCharts.json",
-      "property"
-    ],
-    "marketData": [
-      "../../scripts/charts/detailMarketData.json",
-      "marketData"
-    ]
-  }
-}
+{ "versions": [
+  {
+    "version": "1.0.0",
+    "template": {
+      "property": [
+        "./scripts/charts/detailCharts.json",
+        "property"
+      ],
+      "radar": [
+        "./scripts/charts/detailRadarCharts.json",
+        "property"
+      ],
+      "marketData": [
+        "../../scripts/charts/detailMarketData.json",
+        "marketData"
+      ]
+    }
+  }]
 }
