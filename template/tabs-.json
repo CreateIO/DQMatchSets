@@ -45,6 +45,7 @@
                 "hasCharts": false,
                 "deny": ""
               },
+   	      { name: 'ESRI', url: 'ESRI.html', hasCharts: false, deny:'Limited Monthly DC_Public_Access'},
               {
                 "name": "Build It!",
                 "url": "building_definition.html",
