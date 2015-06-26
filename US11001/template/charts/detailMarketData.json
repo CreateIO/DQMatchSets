@@ -1,0 +1,2125 @@
+{
+  "multifamily-avg-ask-rent": {
+    "meta": {
+      "title": "Average Asking Rent",
+      "chartType": "NeighborhoodBarChart",
+      "vAxis": "",
+      "hAxis": "Average Asking Rent ($)",
+      "fields": [
+        {
+          "label": "Washington DC Totals",
+          "value": [
+            "multiFamily",
+            "dcTotal",
+            "avgAskRent"
+          ]
+        },
+        {
+          "label": "Anacostia/Southeast",
+          "value": [
+            "multiFamily",
+            "anacostia",
+            "avgAskRent"
+          ]
+        },
+        {
+          "label": "Brightwood/Fort Totten",
+          "value": [
+            "multiFamily",
+            "brightwood",
+            "avgAskRent"
+          ]
+        },
+        {
+          "label": "Capitol Hill/H St/NoMa",
+          "value": [
+            "multiFamily",
+            "capitolHill",
+            "avgAskRent"
+          ]
+        },
+        {
+          "label": "Columbia Hts/Logan Ci/Shaw",
+          "value": [
+            "multiFamily",
+            "columbiaHts",
+            "avgAskRent"
+          ]
+        },
+        {
+          "label": "Connecticut Ave/Georgetown",
+          "value": [
+            "multiFamily",
+            "connAve",
+            "avgAskRent"
+          ]
+        },
+        {
+          "label": "Downtown/Chinatown",
+          "value": [
+            "multiFamily",
+            "downtown",
+            "avgAskRent"
+          ]
+        },
+        {
+          "label": "Dupont Circle/Adams Morgan",
+          "value": [
+            "multiFamily",
+            "dupontCir",
+            "avgAskRent"
+          ]
+        },
+        {
+          "label": "Foggy Bottom/GWU West End",
+          "value": [
+            "multiFamily",
+            "foggyBottom",
+            "avgAskRent"
+          ]
+        },
+        {
+          "label": "Southwest/Navy Yard",
+          "value": [
+            "multiFamily",
+            "southwest",
+            "avgAskRent"
+          ]
+        }
+      ]
+    }
+  },
+  "multifamily-inventory": {
+    "meta": {
+      "title": "Inventory",
+      "chartType": "NeighborhoodLongBarChart",
+      "vAxis": "",
+      "hAxis": "Number of Units",
+      "fields": [
+        {
+          "label": "Anacostia/Southeast",
+          "value": [
+            "multiFamily",
+            "anacostia",
+            "inventory"
+          ]
+        },
+        {
+          "label": "Brightwood/Fort Totten",
+          "value": [
+            "multiFamily",
+            "brightwood",
+            "inventory"
+          ]
+        },
+        {
+          "label": "Capitol Hill/H St/NoMa",
+          "value": [
+            "multiFamily",
+            "capitolHill",
+            "inventory"
+          ]
+        },
+        {
+          "label": "Columbia Hts/Logan Ci/Shaw",
+          "value": [
+            "multiFamily",
+            "columbiaHts",
+            "inventory"
+          ]
+        },
+        {
+          "label": "Connecticut Ave/Georgetown",
+          "value": [
+            "multiFamily",
+            "connAve",
+            "inventory"
+          ]
+        },
+        {
+          "label": "Downtown/Chinatown",
+          "value": [
+            "multiFamily",
+            "downtown",
+            "inventory"
+          ]
+        },
+        {
+          "label": "Dupont Circle/Adams Morgan",
+          "value": [
+            "multiFamily",
+            "dupontCir",
+            "inventory"
+          ]
+        },
+        {
+          "label": "Foggy Bottom/GWU West End",
+          "value": [
+            "multiFamily",
+            "foggyBottom",
+            "inventory"
+          ]
+        },
+        {
+          "label": "Southwest/Navy Yard",
+          "value": [
+            "multiFamily",
+            "southwest",
+            "inventory"
+          ]
+        }
+      ]
+    }
+  },
+  "multifamily-vac-rate": {
+    "meta": {
+      "title": "Vacancy Rate",
+      "chartType": "PercentBarChart",
+      "vAxis": "",
+      "hAxis": "Vacancy Rate (%)",
+      "fields": [
+        {
+          "label": "Washington DC Totals",
+          "value": [
+            "multiFamily",
+            "dcTotal",
+            "vacancyRate"
+          ]
+        },
+        {
+          "label": "Anacostia/Southeast",
+          "value": [
+            "multiFamily",
+            "anacostia",
+            "vacancyRate"
+          ]
+        },
+        {
+          "label": "Brightwood/Fort Totten",
+          "value": [
+            "multiFamily",
+            "brightwood",
+            "vacancyRate"
+          ]
+        },
+        {
+          "label": "Capitol Hill/H St/NoMa",
+          "value": [
+            "multiFamily",
+            "capitolHill",
+            "vacancyRate"
+          ]
+        },
+        {
+          "label": "Columbia Hts/Logan Ci/Shaw",
+          "value": [
+            "multiFamily",
+            "columbiaHts",
+            "vacancyRate"
+          ]
+        },
+        {
+          "label": "Connecticut Ave/Georgetown",
+          "value": [
+            "multiFamily",
+            "connAve",
+            "vacancyRate"
+          ]
+        },
+        {
+          "label": "Downtown/Chinatown",
+          "value": [
+            "multiFamily",
+            "downtown",
+            "vacancyRate"
+          ]
+        },
+        {
+          "label": "Dupont Circle/Adams Morgan",
+          "value": [
+            "multiFamily",
+            "dupontCir",
+            "vacancyRate"
+          ]
+        },
+        {
+          "label": "Foggy Bottom/GWU West End",
+          "value": [
+            "multiFamily",
+            "foggyBottom",
+            "vacancyRate"
+          ]
+        },
+        {
+          "label": "Southwest/Navy Yard",
+          "value": [
+            "multiFamily",
+            "southwest",
+            "vacancyRate"
+          ]
+        }
+      ]
+    }
+  },
+  "multifamily-avg-eff-rent": {
+    "meta": {
+      "title": "Average Effective Rent",
+      "chartType": "NeighborhoodBarChart",
+      "vAxis": "",
+      "hAxis": "Average Effective Rent ($)",
+      "fields": [
+        {
+          "label": "Washington DC Totals",
+          "value": [
+            "multiFamily",
+            "dcTotal",
+            "averageEffRent"
+          ]
+        },
+        {
+          "label": "Anacostia/Southeast",
+          "value": [
+            "multiFamily",
+            "anacostia",
+            "averageEffRent"
+          ]
+        },
+        {
+          "label": "Brightwood/Fort Totten",
+          "value": [
+            "multiFamily",
+            "brightwood",
+            "averageEffRent"
+          ]
+        },
+        {
+          "label": "Capitol Hill/H St/NoMa",
+          "value": [
+            "multiFamily",
+            "capitolHill",
+            "averageEffRent"
+          ]
+        },
+        {
+          "label": "Columbia Hts/Logan Ci/Shaw",
+          "value": [
+            "multiFamily",
+            "columbiaHts",
+            "averageEffRent"
+          ]
+        },
+        {
+          "label": "Connecticut Ave/Georgetown",
+          "value": [
+            "multiFamily",
+            "connAve",
+            "averageEffRent"
+          ]
+        },
+        {
+          "label": "Downtown/Chinatown",
+          "value": [
+            "multiFamily",
+            "downtown",
+            "averageEffRent"
+          ]
+        },
+        {
+          "label": "Dupont Circle/Adams Morgan",
+          "value": [
+            "multiFamily",
+            "dupontCir",
+            "averageEffRent"
+          ]
+        },
+        {
+          "label": "Foggy Bottom/GWU West End",
+          "value": [
+            "multiFamily",
+            "foggyBottom",
+            "averageEffRent"
+          ]
+        },
+        {
+          "label": "Southwest/Navy Yard",
+          "value": [
+            "multiFamily",
+            "southwest",
+            "averageEffRent"
+          ]
+        }
+      ]
+    }
+  },
+  "multifamily-under-const": {
+    "meta": {
+      "title": "Under Construction",
+      "chartType": "NeighborhoodLongBarChart",
+      "vAxis": "",
+      "hAxis": "Number of Units",
+      "fields": [
+        {
+          "label": "Anacostia/Southeast",
+          "value": [
+            "multiFamily",
+            "anacostia",
+            "underConst"
+          ]
+        },
+        {
+          "label": "Brightwood/Fort Totten",
+          "value": [
+            "multiFamily",
+            "brightwood",
+            "underConst"
+          ]
+        },
+        {
+          "label": "Capitol Hill/H St/NoMa",
+          "value": [
+            "multiFamily",
+            "capitolHill",
+            "underConst"
+          ]
+        },
+        {
+          "label": "Columbia Hts/Logan Ci/Shaw",
+          "value": [
+            "multiFamily",
+            "columbiaHts",
+            "underConst"
+          ]
+        },
+        {
+          "label": "Connecticut Ave/Georgetown",
+          "value": [
+            "multiFamily",
+            "connAve",
+            "underConst"
+          ]
+        },
+        {
+          "label": "Downtown/Chinatown",
+          "value": [
+            "multiFamily",
+            "downtown",
+            "underConst"
+          ]
+        },
+        {
+          "label": "Dupont Circle/Adams Morgan",
+          "value": [
+            "multiFamily",
+            "dupontCir",
+            "underConst"
+          ]
+        },
+        {
+          "label": "Foggy Bottom/GWU West End",
+          "value": [
+            "multiFamily",
+            "foggyBottom",
+            "underConst"
+          ]
+        },
+        {
+          "label": "Southwest/Navy Yard",
+          "value": [
+            "multiFamily",
+            "southwest",
+            "underConst"
+          ]
+        }
+      ]
+    }
+  },
+  "multifamily-absp-ytd": {
+    "meta": {
+      "title": "Absorption YTD",
+      "chartType": "NeighborhoodLongBarChart",
+      "vAxis": "",
+      "hAxis": "Number of Units",
+      "fields": [
+        {
+          "label": "Anacostia/Southeast",
+          "value": [
+            "multiFamily",
+            "anacostia",
+            "ytdNetAbsp"
+          ]
+        },
+        {
+          "label": "Brightwood/Fort Totten",
+          "value": [
+            "multiFamily",
+            "brightwood",
+            "ytdNetAbsp"
+          ]
+        },
+        {
+          "label": "Capitol Hill/H St/NoMa",
+          "value": [
+            "multiFamily",
+            "capitolHill",
+            "ytdNetAbsp"
+          ]
+        },
+        {
+          "label": "Columbia Hts/Logan Ci/Shaw",
+          "value": [
+            "multiFamily",
+            "columbiaHts",
+            "ytdNetAbsp"
+          ]
+        },
+        {
+          "label": "Connecticut Ave/Georgetown",
+          "value": [
+            "multiFamily",
+            "connAve",
+            "ytdNetAbsp"
+          ]
+        },
+        {
+          "label": "Downtown/Chinatown",
+          "value": [
+            "multiFamily",
+            "downtown",
+            "ytdNetAbsp"
+          ]
+        },
+        {
+          "label": "Dupont Circle/Adams Morgan",
+          "value": [
+            "multiFamily",
+            "dupontCir",
+            "ytdNetAbsp"
+          ]
+        },
+        {
+          "label": "Foggy Bottom/GWU West End",
+          "value": [
+            "multiFamily",
+            "foggyBottom",
+            "ytdNetAbsp"
+          ]
+        },
+        {
+          "label": "Southwest/Navy Yard",
+          "value": [
+            "multiFamily",
+            "southwest",
+            "ytdNetAbsp"
+          ]
+        }
+      ]
+    }
+  },
+
+  "officeA-avg-ask-rate": {
+    "meta": {
+      "title": "Average Asking Rent",
+      "chartType": "OfficeBarChart",
+      "vAxis": "",
+      "hAxis": "Average Asking Rent ($/sf)",
+      "fields": [
+        {
+          "label": "DC Total",
+          "value": [
+            "officeA",
+            "dcTotal",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "NoMa",
+          "value": [
+            "officeA",
+            "noma",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "West End",
+          "value": [
+            "officeA",
+            "westEnd",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "Capitol Hill",
+          "value": [
+            "officeA",
+            "capitolHill",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "Georgetown",
+          "value": [
+            "officeA",
+            "georgetown",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "CBD",
+          "value": [
+            "officeA",
+            "CBD",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "East End",
+          "value": [
+            "officeA",
+            "eastEnd",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "Capitol Riverfront",
+          "value": [
+            "officeA",
+            "capitolRiver",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "Uptown",
+          "value": [
+            "officeA",
+            "uptown",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "Southwest",
+          "value": [
+            "officeA",
+            "southwest",
+            "wgtAvgAskLease"
+          ]
+        }
+      ]
+    }
+  },
+  "officeA-rba": {
+    "meta": {
+      "title": "RBA",
+      "chartType": "OfficeBarChart",
+      "vAxis": "",
+      "hAxis": "Square Feet (SF)",
+      "fields": [
+        {
+          "label": "Totals",
+          "value": [
+            "officeA",
+            "dcTotal",
+            "RBA"
+          ]
+        },
+        {
+          "label": "NoMa",
+          "value": [
+            "officeA",
+            "noma",
+            "RBA"
+          ]
+        },
+        {
+          "label": "West End",
+          "value": [
+            "officeA",
+            "westEnd",
+            "RBA"
+          ]
+        },
+        {
+          "label": "Capitol Hill",
+          "value": [
+            "officeA",
+            "capitolHill",
+            "RBA"
+          ]
+        },
+        {
+          "label": "Georgetown",
+          "value": [
+            "officeA",
+            "georgetown",
+            "RBA"
+          ]
+        },
+        {
+          "label": "CBD",
+          "value": [
+            "officeA",
+            "CBD",
+            "RBA"
+          ]
+        },
+        {
+          "label": "East End",
+          "value": [
+            "officeA",
+            "eastEnd",
+            "RBA"
+          ]
+        },
+        {
+          "label": "Capitol Riverfront",
+          "value": [
+            "officeA",
+            "capitolRiver",
+            "RBA"
+          ]
+        },
+        {
+          "label": "Uptown",
+          "value": [
+            "officeA",
+            "uptown",
+            "RBA"
+          ]
+        },
+        {
+          "label": "Southwest",
+          "value": [
+            "officeA",
+            "southwest",
+            "RBA"
+          ]
+        }
+      ]
+    }
+  },
+  "officeA-tot-vac": {
+    "meta": {
+      "title": "Total Vacancy",
+      "chartType": "PercentBarChart",
+      "vAxis": "",
+      "hAxis": "Vacancy Rate (%)",
+      "fields": [
+        {
+          "label": "DC Total",
+          "value": [
+            "officeA",
+            "dcTotal",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "NoMa",
+          "value": [
+            "officeA",
+            "noma",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "West End",
+          "value": [
+            "officeA",
+            "westEnd",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "Capitol Hill",
+          "value": [
+            "officeA",
+            "capitolHill",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "Georgetown",
+          "value": [
+            "officeA",
+            "georgetown",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "CBD",
+          "value": [
+            "officeA",
+            "CBD",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "East End",
+          "value": [
+            "officeA",
+            "eastEnd",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "Capitol Riverfront",
+          "value": [
+            "officeA",
+            "capitolRiver",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "Uptown",
+          "value": [
+            "officeA",
+            "uptown",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "Southwest",
+          "value": [
+            "officeA",
+            "southwest",
+            "totalVacancy"
+          ]
+        }
+      ]
+    }
+  },
+  "officeA-lease-act": {
+    "meta": {
+      "title": "Leasing Activity",
+      "chartType": "OfficeBarChart",
+      "vAxis": "",
+      "hAxis": "Leased Square Feet (SF)",
+      "fields": [
+        {
+          "label": "DC Total",
+          "value": [
+            "officeA",
+            "dcTotal",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "NoMa",
+          "value": [
+            "officeA",
+            "noma",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "West End",
+          "value": [
+            "officeA",
+            "westEnd",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "Capitol Hill",
+          "value": [
+            "officeA",
+            "capitolHill",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "Georgetown",
+          "value": [
+            "officeA",
+            "georgetown",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "CBD",
+          "value": [
+            "officeA",
+            "CBD",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "East End",
+          "value": [
+            "officeA",
+            "eastEnd",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "Capitol Riverfront",
+          "value": [
+            "officeA",
+            "capitolRiver",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "Uptown",
+          "value": [
+            "officeA",
+            "uptown",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "Southwest",
+          "value": [
+            "officeA",
+            "southwest",
+            "leasingActivity"
+          ]
+        }
+      ]
+    }
+  },
+  "officeA-absorp-cur-qtr": {
+    "meta": {
+      "title": "Absorption Current Quarter",
+      "chartType": "OfficeBarChart",
+      "vAxis": "",
+      "hAxis": "Square Feet (SF)",
+      "fields": [
+        {
+          "label": "DC Total",
+          "value": [
+            "officeA",
+            "dcTotal",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "NoMa",
+          "value": [
+            "officeA",
+            "noma",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "West End",
+          "value": [
+            "officeA",
+            "westEnd",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "Capitol Hill",
+          "value": [
+            "officeA",
+            "capitolHill",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "Georgetown",
+          "value": [
+            "officeA",
+            "georgetown",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "CBD",
+          "value": [
+            "officeA",
+            "CBD",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "East End",
+          "value": [
+            "officeA",
+            "eastEnd",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "Capitol Riverfront",
+          "value": [
+            "officeA",
+            "capitolRiver",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "Uptown",
+          "value": [
+            "officeA",
+            "uptown",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "Southwest",
+          "value": [
+            "officeA",
+            "southwest",
+            "netAbspCur"
+          ]
+        }
+      ]
+    }
+  },
+  "officeA-absp-ytd": {
+    "meta": {
+      "title": "Absorption YTD",
+      "chartType": "OfficeBarChart",
+      "vAxis": "",
+      "hAxis": "Square Feet (SF)",
+      "fields": [
+        {
+          "label": "DC Total",
+          "value": [
+            "officeA",
+            "dcTotal",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "NoMa",
+          "value": [
+            "officeA",
+            "noma",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "West End",
+          "value": [
+            "officeA",
+            "westEnd",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "Capitol Hill",
+          "value": [
+            "officeA",
+            "capitolHill",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "Georgetown",
+          "value": [
+            "officeA",
+            "georgetown",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "CBD",
+          "value": [
+            "officeA",
+            "CBD",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "East End",
+          "value": [
+            "officeA",
+            "eastEnd",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "Capitol Riverfront",
+          "value": [
+            "officeA",
+            "capitolRiver",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "Uptown",
+          "value": [
+            "officeA",
+            "uptown",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "Southwest",
+          "value": [
+            "officeA",
+            "southwest",
+            "netAbspYTD"
+          ]
+        }
+      ]
+    }
+  },
+
+  "officeBC-avg-ask-rate": {
+    "meta": {
+      "title": "Average Asking Rate",
+      "chartType": "OfficeBarChart",
+      "vAxis": "",
+      "hAxis": "Average Asking Rent ($/sf)",
+      "fields": [
+        {
+          "label": "DC Total",
+          "value": [
+            "officeBC",
+            "dcTotal",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "NoMa",
+          "value": [
+            "officeBC",
+            "noma",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "West End",
+          "value": [
+            "officeBC",
+            "westEnd",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "Capitol Hill",
+          "value": [
+            "officeBC",
+            "capitolHill",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "Georgetown",
+          "value": [
+            "officeBC",
+            "georgetown",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "CBD",
+          "value": [
+            "officeBC",
+            "CBD",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "East End",
+          "value": [
+            "officeBC",
+            "eastEnd",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "Capitol Riverfront",
+          "value": [
+            "officeBC",
+            "capitolRiver",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "Uptown",
+          "value": [
+            "officeBC",
+            "uptown",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "Southwest",
+          "value": [
+            "officeBC",
+            "southwest",
+            "wgtAvgAskLease"
+          ]
+        }
+      ]
+    }
+  },
+  "officeBC-rba": {
+    "meta": {
+      "title": "RBA",
+      "chartType": "OfficeBarChart",
+      "vAxis": "",
+      "hAxis": "Square Feet (SF)",
+      "fields": [
+        {
+          "label": "NoMa",
+          "value": [
+            "officeBC",
+            "noma",
+            "RBA"
+          ]
+        },
+        {
+          "label": "West End",
+          "value": [
+            "officeBC",
+            "westEnd",
+            "RBA"
+          ]
+        },
+        {
+          "label": "Capitol Hill",
+          "value": [
+            "officeBC",
+            "capitolHill",
+            "RBA"
+          ]
+        },
+        {
+          "label": "Georgetown",
+          "value": [
+            "officeBC",
+            "georgetown",
+            "RBA"
+          ]
+        },
+        {
+          "label": "CBD",
+          "value": [
+            "officeBC",
+            "CBD",
+            "RBA"
+          ]
+        },
+        {
+          "label": "East End",
+          "value": [
+            "officeBC",
+            "eastEnd",
+            "RBA"
+          ]
+        },
+        {
+          "label": "Capitol Riverfront",
+          "value": [
+            "officeBC",
+            "capitolRiver",
+            "RBA"
+          ]
+        },
+        {
+          "label": "Uptown",
+          "value": [
+            "officeBC",
+            "uptown",
+            "RBA"
+          ]
+        },
+        {
+          "label": "Southwest",
+          "value": [
+            "officeBC",
+            "southwest",
+            "RBA"
+          ]
+        }
+      ]
+    }
+  },
+  "officeBC-tot-vac": {
+    "meta": {
+      "title": "Vacancy Rate (%)",
+      "chartType": "PercentBarChart",
+      "vAxis": "",
+      "hAxis": "Vacancy Rate (%)",
+      "fields": [
+        {
+          "label": "DC Total",
+          "value": [
+            "officeBC",
+            "dcTotal",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "NoMa",
+          "value": [
+            "officeBC",
+            "noma",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "West End",
+          "value": [
+            "officeBC",
+            "westEnd",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "Capitol Hill",
+          "value": [
+            "officeBC",
+            "capitolHill",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "Georgetown",
+          "value": [
+            "officeBC",
+            "georgetown",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "CBD",
+          "value": [
+            "officeBC",
+            "CBD",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "East End",
+          "value": [
+            "officeBC",
+            "eastEnd",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "Capitol Riverfront",
+          "value": [
+            "officeBC",
+            "capitolRiver",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "Uptown",
+          "value": [
+            "officeBC",
+            "uptown",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "Southwest",
+          "value": [
+            "officeBC",
+            "southwest",
+            "totalVacancy"
+          ]
+        }
+      ]
+    }
+  },
+  "officeBC-lease-act": {
+    "meta": {
+      "title": "Leasing Activity",
+      "chartType": "OfficeBarChart",
+      "vAxis": "",
+      "hAxis": "Leased Square Feet (SF)",
+      "fields": [
+        {
+          "label": "DC Total",
+          "value": [
+            "officeBC",
+            "dcTotal",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "NoMa",
+          "value": [
+            "officeBC",
+            "noma",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "West End",
+          "value": [
+            "officeBC",
+            "westEnd",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "Capitol Hill",
+          "value": [
+            "officeBC",
+            "capitolHill",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "Georgetown",
+          "value": [
+            "officeBC",
+            "georgetown",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "CBD",
+          "value": [
+            "officeBC",
+            "CBD",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "East End",
+          "value": [
+            "officeBC",
+            "eastEnd",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "Capitol Riverfront",
+          "value": [
+            "officeBC",
+            "capitolRiver",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "Uptown",
+          "value": [
+            "officeBC",
+            "uptown",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "Southwest",
+          "value": [
+            "officeBC",
+            "southwest",
+            "leasingActivity"
+          ]
+        }
+      ]
+    }
+  },
+  "officeBC-absorp-cur-qtr": {
+    "meta": {
+      "title": "Absorption Current Quarter",
+      "chartType": "OfficeBarChart",
+      "vAxis": "",
+      "hAxis": "Square Feet (SF)",
+      "fields": [
+        {
+          "label": "DC Total",
+          "value": [
+            "officeBC",
+            "dcTotal",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "NoMa",
+          "value": [
+            "officeBC",
+            "noma",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "West End",
+          "value": [
+            "officeBC",
+            "westEnd",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "Capitol Hill",
+          "value": [
+            "officeBC",
+            "capitolHill",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "Georgetown",
+          "value": [
+            "officeBC",
+            "georgetown",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "CBD",
+          "value": [
+            "officeBC",
+            "CBD",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "East End",
+          "value": [
+            "officeBC",
+            "eastEnd",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "Capitol Riverfront",
+          "value": [
+            "officeBC",
+            "capitolRiver",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "Uptown",
+          "value": [
+            "officeBC",
+            "uptown",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "Southwest",
+          "value": [
+            "officeBC",
+            "southwest",
+            "netAbspCur"
+          ]
+        }
+      ]
+    }
+  },
+  "officeBC-absp-ytd": {
+    "meta": {
+      "title": "Absorption YTD",
+      "chartType": "OfficeBarChart",
+      "vAxis": "",
+      "hAxis": "Square Feet (SF)",
+      "fields": [
+        {
+          "label": "DC Total",
+          "value": [
+            "officeBC",
+            "dcTotal",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "NoMa",
+          "value": [
+            "officeBC",
+            "noma",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "West End",
+          "value": [
+            "officeBC",
+            "westEnd",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "Capitol Hill",
+          "value": [
+            "officeBC",
+            "capitolHill",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "Georgetown",
+          "value": [
+            "officeBC",
+            "georgetown",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "CBD",
+          "value": [
+            "officeBC",
+            "CBD",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "East End",
+          "value": [
+            "officeBC",
+            "eastEnd",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "Capitol Riverfront",
+          "value": [
+            "officeBC",
+            "capitolRiver",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "Uptown",
+          "value": [
+            "officeBC",
+            "uptown",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "Southwest",
+          "value": [
+            "officeBC",
+            "southwest",
+            "netAbspYTD"
+          ]
+        }
+      ]
+    }
+  },
+
+  "officeAll-avg-ask-rate": {
+    "meta": {
+      "title": "Average Asking Rent",
+      "chartType": "OfficeBarChart",
+      "vAxis": "",
+      "hAxis": "Average Asking Rent ($/sf)",
+      "fields": [
+        {
+          "label": "DC Total",
+          "value": [
+            "officeAll",
+            "dcTotal",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "NoMa",
+          "value": [
+            "officeAll",
+            "noma",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "West End",
+          "value": [
+            "officeAll",
+            "westEnd",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "Capitol Hill",
+          "value": [
+            "officeAll",
+            "capitolHill",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "Georgetown",
+          "value": [
+            "officeAll",
+            "georgetown",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "CBD",
+          "value": [
+            "officeAll",
+            "CBD",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "East End",
+          "value": [
+            "officeAll",
+            "eastEnd",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "Capitol Riverfront",
+          "value": [
+            "officeAll",
+            "capitolRiver",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "Uptown",
+          "value": [
+            "officeAll",
+            "uptown",
+            "wgtAvgAskLease"
+          ]
+        },
+        {
+          "label": "Southwest",
+          "value": [
+            "officeAll",
+            "southwest",
+            "wgtAvgAskLease"
+          ]
+        }
+      ]
+    }
+  },
+  "officeAll-rba": {
+    "meta": {
+      "title": "RBA",
+      "chartType": "OfficeBarChart",
+      "vAxis": "",
+      "hAxis": "Square Feet (SF)",
+      "fields": [
+        {
+          "label": "NoMa",
+          "value": [
+            "officeAll",
+            "noma",
+            "RBA"
+          ]
+        },
+        {
+          "label": "West End",
+          "value": [
+            "officeAll",
+            "westEnd",
+            "RBA"
+          ]
+        },
+        {
+          "label": "Capitol Hill",
+          "value": [
+            "officeAll",
+            "capitolHill",
+            "RBA"
+          ]
+        },
+        {
+          "label": "Georgetown",
+          "value": [
+            "officeAll",
+            "georgetown",
+            "RBA"
+          ]
+        },
+        {
+          "label": "CBD",
+          "value": [
+            "officeAll",
+            "CBD",
+            "RBA"
+          ]
+        },
+        {
+          "label": "East End",
+          "value": [
+            "officeAll",
+            "eastEnd",
+            "RBA"
+          ]
+        },
+        {
+          "label": "Capitol Riverfront",
+          "value": [
+            "officeAll",
+            "capitolRiver",
+            "RBA"
+          ]
+        },
+        {
+          "label": "Uptown",
+          "value": [
+            "officeAll",
+            "uptown",
+            "RBA"
+          ]
+        },
+        {
+          "label": "Southwest",
+          "value": [
+            "officeAll",
+            "southwest",
+            "RBA"
+          ]
+        }
+      ]
+    }
+  },
+  "officeAll-tot-vac": {
+    "meta": {
+      "title": "Vacancy Rate (%)",
+      "chartType": "PercentBarChart",
+      "vAxis": "",
+      "hAxis": "Vacancy Rate (%)",
+      "fields": [
+        {
+          "label": "DC Total",
+          "value": [
+            "officeAll",
+            "dcTotal",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "NoMa",
+          "value": [
+            "officeAll",
+            "noma",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "West End",
+          "value": [
+            "officeAll",
+            "westEnd",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "Capitol Hill",
+          "value": [
+            "officeAll",
+            "capitolHill",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "Georgetown",
+          "value": [
+            "officeAll",
+            "georgetown",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "CBD",
+          "value": [
+            "officeAll",
+            "CBD",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "East End",
+          "value": [
+            "officeAll",
+            "eastEnd",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "Capitol Riverfront",
+          "value": [
+            "officeAll",
+            "capitolRiver",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "Uptown",
+          "value": [
+            "officeAll",
+            "uptown",
+            "totalVacancy"
+          ]
+        },
+        {
+          "label": "Southwest",
+          "value": [
+            "officeAll",
+            "southwest",
+            "totalVacancy"
+          ]
+        }
+      ]
+    }
+  },
+  "officeAll-lease-act": {
+    "meta": {
+      "title": "Leasing Activity",
+      "chartType": "OfficeBarChart",
+      "vAxis": "",
+      "hAxis": "Leased Square Feet (SF)",
+      "fields": [
+        {
+          "label": "DC Total",
+          "value": [
+            "officeAll",
+            "dcTotal",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "NoMa",
+          "value": [
+            "officeAll",
+            "noma",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "West End",
+          "value": [
+            "officeAll",
+            "westEnd",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "Capitol Hill",
+          "value": [
+            "officeAll",
+            "capitolHill",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "Georgetown",
+          "value": [
+            "officeAll",
+            "georgetown",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "CBD",
+          "value": [
+            "officeAll",
+            "CBD",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "East End",
+          "value": [
+            "officeAll",
+            "eastEnd",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "Capitol Riverfront",
+          "value": [
+            "officeAll",
+            "capitolRiver",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "Uptown",
+          "value": [
+            "officeAll",
+            "uptown",
+            "leasingActivity"
+          ]
+        },
+        {
+          "label": "Southwest",
+          "value": [
+            "officeAll",
+            "southwest",
+            "leasingActivity"
+          ]
+        }
+      ]
+    }
+  },
+  "officeAll-absorp-cur-qtr": {
+    "meta": {
+      "title": "Absorption Current Quarter",
+      "chartType": "OfficeBarChart",
+      "vAxis": "",
+      "hAxis": "Square Feet (SF)",
+      "fields": [
+        {
+          "label": "DC Total",
+          "value": [
+            "officeAll",
+            "dcTotal",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "NoMa",
+          "value": [
+            "officeAll",
+            "noma",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "West End",
+          "value": [
+            "officeAll",
+            "westEnd",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "Capitol Hill",
+          "value": [
+            "officeAll",
+            "capitolHill",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "Georgetown",
+          "value": [
+            "officeAll",
+            "georgetown",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "CBD",
+          "value": [
+            "officeAll",
+            "CBD",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "East End",
+          "value": [
+            "officeAll",
+            "eastEnd",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "Capitol Riverfront",
+          "value": [
+            "officeAll",
+            "capitolRiver",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "Uptown",
+          "value": [
+            "officeAll",
+            "uptown",
+            "netAbspCur"
+          ]
+        },
+        {
+          "label": "Southwest",
+          "value": [
+            "officeAll",
+            "southwest",
+            "netAbspCur"
+          ]
+        }
+      ]
+    }
+  },
+  "officeAll-absp-ytd": {
+    "meta": {
+      "title": "Absorption YTD",
+      "chartType": "OfficeBarChart",
+      "vAxis": "",
+      "hAxis": "Square Feet (SF)",
+      "fields": [
+        {
+          "label": "DC Total",
+          "value": [
+            "officeAll",
+            "dcTotal",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "NoMa",
+          "value": [
+            "officeAll",
+            "noma",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "West End",
+          "value": [
+            "officeAll",
+            "westEnd",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "Capitol Hill",
+          "value": [
+            "officeAll",
+            "capitolHill",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "Georgetown",
+          "value": [
+            "officeAll",
+            "georgetown",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "CBD",
+          "value": [
+            "officeAll",
+            "CBD",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "East End",
+          "value": [
+            "officeAll",
+            "eastEnd",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "Capitol Riverfront",
+          "value": [
+            "officeAll",
+            "capitolRiver",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "Uptown",
+          "value": [
+            "officeAll",
+            "uptown",
+            "netAbspYTD"
+          ]
+        },
+        {
+          "label": "Southwest",
+          "value": [
+            "officeAll",
+            "southwest",
+            "netAbspYTD"
+          ]
+        }
+      ]
+    }
+  }
+}
