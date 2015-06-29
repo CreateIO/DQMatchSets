@@ -25,7 +25,7 @@
                 "name": "Tenants",
                 "url": "tenant.html",
                 "hasCharts": true,
-                "deny":""
+                "deny":"Limited Monthly"
               },
               {
                 "name": "Zoning",
