@@ -84,12 +84,6 @@
                 "url": "office_market.html",
                 "hasCharts": false,
                 "deny": ""
-              },
-              {
-                "name": "History",
-                "url": "office_market_history.html",
-                "hasCharts": false,
-                "deny": "Limited Monthly DC_Public_Access"
               }
             ]
           },
