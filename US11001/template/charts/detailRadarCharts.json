@@ -1,0 +1,36 @@
+{
+    "radar-chart": {
+        "meta": {
+            "title": "radar",
+            "chartType": "RadarChart",
+            "hAxis": "Radar",
+            "vAxis": "Radar",
+            "fields": [
+                {
+                    "label": "100",
+                    "value": ["scores", "demographics"]
+                } ,
+                {
+                    "label": "80",
+                    "value": ["scores", "expansion"]
+                } ,
+                {
+                    "label": "60",
+                    "value": ["scores", "opportunity"]
+                } ,
+                {
+                    "label": "40",
+                    "value": ["scores", "quality"]
+                } ,
+                {
+                    "label": "20",
+                    "value": ["scores", "trend"]
+                },
+                {
+                    "label": "0",
+                    "value": ["scores", "demographics"]
+                }
+            ]
+        }
+    }
+}

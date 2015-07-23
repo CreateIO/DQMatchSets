@@ -1,7 +1,7 @@
 {
   "versions": [
     {
-      "version": "1.0.1",
+      "version": "1.0.0",
       "description": "This is standard and default release",
       "template": {
         "tabs": [
@@ -25,7 +25,7 @@
                 "name": "Tenants",
                 "url": "tenant.html",
                 "hasCharts": true,
-                "deny":"Limited Monthly"
+                "deny":""
               },
               {
                 "name": "Zoning",
