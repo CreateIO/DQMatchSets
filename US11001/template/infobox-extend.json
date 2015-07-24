@@ -611,8 +611,8 @@
                         }
                     },
                     "wardinfo":{  
-                        "referenceid":"OBJECTID",
-                        "propertyid":"OBJECTID",
+                        "referenceid":"UNIQUEID",
+                        "propertyid":"UNIQUEID",
                         "offset":157,
                         "fieldtype":"business",
                         "photos":{  
