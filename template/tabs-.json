@@ -45,6 +45,12 @@
                 "hasCharts": false,
                 "deny": ""
               },
+              {
+                "name": "Infogroup",
+                "url": "infogroup.html",
+                "hasCharts": false,
+                "deny": ""
+              },
    	          {
                 "name": "ESRI", "url": "ESRI.html",
                 "hasCharts": "false",
