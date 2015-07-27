@@ -49,7 +49,7 @@
                 "name": "Infogroup",
                 "url": "infogroup.html",
                 "hasCharts": false,
-                "deny": ""
+                "deny": "Limited Monthly DC_Public_Access"
               },
               {
                 "name": "ESRI", "url": "ESRI.html",
