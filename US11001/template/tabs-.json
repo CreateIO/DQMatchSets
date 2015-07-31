@@ -45,7 +45,13 @@
                 "hasCharts": false,
                 "deny": ""
               },
-   	          {
+              {
+                "name": "Infogroup",
+                "url": "infogroup.html",
+                "hasCharts": false,
+                "deny":"Limited Monthly DC_Public_Access"
+              },
+              {
                 "name": "ESRI", "url": "ESRI.html",
                 "hasCharts": "false",
                 "deny":"Limited Monthly DC_Public_Access"
