@@ -17,7 +17,7 @@
                         "layerUsed": true,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendTDR.jade",
+                        "urlLegend": "../../legends/layerLegendTDR.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/TDR.png",
                         "functions": {
                             "addFunctions": {
@@ -60,7 +60,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendFloodLayer.jade",
+                        "urlLegend": "../../legends/layerLegendFloodLayer.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/FZ.png",
                         "functions": {
                             "addFunctions": {
@@ -103,7 +103,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendBID.jade",
+                        "urlLegend": "../../legends/layerLegendBID.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/BID.png",
                         "functions": {
                             "addFunctions": {
@@ -146,7 +146,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendCampus.jade",
+                        "urlLegend": "../../legends/layerLegendCampus.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/CAM.png",
                         "functions": {
                             "addFunctions": {
@@ -189,7 +189,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/wdcepNeighborhoods.jade",
+                        "urlLegend": "../../legends/wdcepNeighborhoods.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/WND.png",
                         "functions": {
                             "addFunctions": {
@@ -240,7 +240,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/wdcepChipotle.jade",
+                        "urlLegend": "../../legends/wdcepChipotle.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/CHP.png",
                         "functions": {
                             "addFunctions": { 
@@ -291,7 +291,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerRetailPip.jade",
+                        "urlLegend": "../../legends/layerRetailPip.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/RetP.png",
                         "functions": {
                             "addFunctions": {
@@ -362,7 +362,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerRetailDev.jade",
+                        "urlLegend": "../../legends/layerRetailDev.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/RetC.png",
                         "functions": {
                             "addFunctions": {
@@ -433,7 +433,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerResidentialPip.jade",
+                        "urlLegend": "../../legends/layerResidentialPip.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/ResP.png",
                         "functions": {
                             "addFunctions": {
@@ -504,7 +504,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerResidentialDev.jade",
+                        "urlLegend": "../../legends/layerResidentialDev.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/ResC.png",
                         "functions": {
                             "addFunctions": {
@@ -575,7 +575,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendRetailSitePoints.jade",
+                        "urlLegend": "../../legends/layerLegendRetailSitePoints.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/RSL.png",
                         "functions": {
                             "addFunctions": { 
@@ -626,7 +626,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/wdcepS.jade",
+                        "urlLegend": "../../legends/wdcepS.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/S.png",
                         "functions": {
                             "addFunctions": { 
@@ -677,7 +677,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/wdcepPB.jade",
+                        "urlLegend": "../../legends/wdcepPB.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PB.png",
                         "functions": {
                             "addFunctions": { 
@@ -728,7 +728,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/wdcepMOV.jade",
+                        "urlLegend": "../../legends/wdcepMOV.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/MOV.png",
                         "functions": {
                             "addFunctions": { 
@@ -781,7 +781,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/wdcepMOV.jade",
+                        "urlLegend": "../../legends/wdcepMOV.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/MOV.png",
                         "functions": {
                             "addFunctions": { 
@@ -883,7 +883,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/wdcep711.jade",
+                        "urlLegend": "../../legends/wdcep711.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/711.png",
                         "functions": {
                             "addFunctions": { 
@@ -934,7 +934,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendHistoricNeighborhoods.jade",
+                        "urlLegend": "../../legends/layerLegendHistoricNeighborhoods.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HDN.png",
                         "functions": {
                             "addFunctions": {
@@ -993,7 +993,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendHistoricCorridors.jade",
+                        "urlLegend": "../../legends/layerLegendHistoricCorridors.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HDC.png",
                         "functions": {
                             "addFunctions": {
@@ -1052,7 +1052,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendHistoricParks.jade",
+                        "urlLegend": "../../legends/layerLegendHistoricParks.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HDP.png",
                         "functions": {
                             "addFunctions": {
@@ -1111,7 +1111,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendHistoricInstitutions.jade",
+                        "urlLegend": "../../legends/layerLegendHistoricInstitutions.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HDI.png",
                         "functions": {
                             "addFunctions": {
@@ -1170,7 +1170,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerOverlayGovDip.jade",
+                        "urlLegend": "../../legends/layerOverlayGovDip.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/GD.png",
                         "functions": {
                             "addFunctions": {
@@ -1213,7 +1213,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerOverlayOpenSpace.jade",
+                        "urlLegend": "../../legends/layerOverlayOpenSpace.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/NOS.png",
                         "functions": {
                             "addFunctions": {
@@ -1256,7 +1256,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerOverlayNeighComm.jade",
+                        "urlLegend": "../../legends/layerOverlayNeighComm.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/NC.png",
                         "functions": {
                             "addFunctions": {
@@ -1299,7 +1299,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerOverlayMixedUse.jade",
+                        "urlLegend": "../../legends/layerOverlayMixedUse.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/DT.png",
                         "functions": {
                             "addFunctions": {
@@ -1342,7 +1342,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerOverlayHotel.jade",
+                        "urlLegend": "../../legends/layerOverlayHotel.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HTL.png",
                         "functions": {
                             "addFunctions": {
@@ -1385,7 +1385,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerOverlayArts.jade",
+                        "urlLegend": "../../legends/layerOverlayArts.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ART.png",
                         "functions": {
                             "addFunctions": {
@@ -1428,7 +1428,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendCEA.jade",
+                        "urlLegend": "../../legends/layerLegendCEA.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/CEA.png",
                         "functions": {
                             "addFunctions": {
@@ -1472,7 +1472,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendPUD.jade",
+                        "urlLegend": "../../legends/layerLegendPUD.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
                         "functions": {
                             "addFunctions": {
@@ -1515,7 +1515,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/wdcepPH.jade",
+                        "urlLegend": "../../legends/wdcepPH.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PH.png",
                         "functions": {
                             "addFunctions": { 
@@ -1568,7 +1568,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/wdcepPH.jade",
+                        "urlLegend": "../../legends/wdcepPH.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PH.png",
                         "functions": {
                             "addFunctions": { 
@@ -1619,7 +1619,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/wdcepGS.jade",
+                        "urlLegend": "../../legends/wdcepGS.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/GS.png",
                         "functions": {
                             "addFunctions": { 
@@ -1672,7 +1672,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/wdcepGS.jade",
+                        "urlLegend": "../../legends/wdcepGS.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/GS.png",
                         "functions": {
                             "addFunctions": { 
@@ -1723,7 +1723,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendMetroRail.jade",
+                        "urlLegend": "../../legends/layerLegendMetroRail.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/MET.png",
                         "functions": {
                             "addFunctions": {
@@ -1782,7 +1782,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendMetroBus.jade",
+                        "urlLegend": "../../legends/layerLegendMetroBus.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/MB.png",
                         "functions": {
                             "addFunctions": {
@@ -1825,7 +1825,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendSupermarket.jade",
+                        "urlLegend": "../../legends/layerLegendSupermarket.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/STC.png",
                         "functions": {
                             "addFunctions": {
@@ -1868,7 +1868,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendHUB.jade",
+                        "urlLegend": "../../legends/layerLegendHUB.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HUB.png",
                         "functions": {
                             "addFunctions": {
@@ -1911,7 +1911,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendTechnology.jade",
+                        "urlLegend": "../../legends/layerLegendTechnology.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HTD.png",
                         "functions": {
                             "addFunctions": {
@@ -1954,7 +1954,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendEnterprise.jade",
+                        "urlLegend": "../../legends/layerLegendEnterprise.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/EZ.png",
                         "functions": {
                             "addFunctions": {
@@ -1997,7 +1997,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendCoastalSurge.jade",
+                        "urlLegend": "../../legends/layerLegendCoastalSurge.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/CSA.png",
                         "functions": {
                             "addFunctions": {
@@ -2040,7 +2040,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerCensusTracts.jade",
+                        "urlLegend": "../../legends/layerCensusTracts.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/CEN.png",
                         "functions": {
                             "addFunctions": {
@@ -2099,7 +2099,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerZillow.jade",
+                        "urlLegend": "../../legends/layerZillow.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/NHD.png",
                         "functions": {
                             "addFunctions": {
@@ -2158,7 +2158,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerResidentialHeat.jade",
+                        "urlLegend": "../../legends/layerResidentialHeat.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/RDH.png",
                         "functions": {
                             "addFunctions": {
@@ -2201,7 +2201,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerOfficeHeat.jade",
+                        "urlLegend": "../../legends/layerOfficeHeat.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ODH.png",
                         "functions": {
                             "addFunctions": {
@@ -2244,7 +2244,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerRetailHeat.jade",
+                        "urlLegend": "../../legends/layerRetailHeat.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/RHM.png",
                         "functions": {
                             "addFunctions": {
@@ -2287,7 +2287,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendZoning",
+                        "urlLegend": "../../legends/layerLegendZoning",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png",
                         "functions": {
                             "addFunctions": { 
@@ -2366,7 +2366,7 @@
                         "isActive": false,
                         "layerUsed": false,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendRoadMap.jade",
+                        "urlLegend": "../../legends/layerLegendRoadMap.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/WRD.png",
                         "functions": {
                             "addFunctions": {
@@ -2586,7 +2586,7 @@
                         "isActive": false,
                         "layerUsed": false,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerLegendHousing.jade",
+                        "urlLegend": "../../legends/layerLegendHousing.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/test-images/bm-toner.png",
                         "functions": {
                             "addFunctions": {
@@ -2629,7 +2629,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerPropertyType.jade",
+                        "urlLegend": "../../legends/layerPropertyType.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png",
                         "functions": {
                             "addFunctions": {
@@ -2670,7 +2670,7 @@
                         "isActive": false,
                         "layerUsed": true,
                         "hasLegend": true,
-                        "urlLegend": ",./../legends/layerDevSitePlans.jade",
+                        "urlLegend": "../../legends/layerDevSitePlans.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/DSP.png",
                         "functions": {
                             "addFunctions": { 
