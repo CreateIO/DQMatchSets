@@ -44,7 +44,7 @@
                                         "param2": "transferDevRights"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "1",
                         "subCategory": "1"
@@ -87,7 +87,7 @@
                                         "param2": "FEMAfloodZones"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "1",
                         "subCategory": "5"
@@ -130,7 +130,7 @@
                                         "param2": "businessImprovementDistricts"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "2",
                         "subCategory": "1"
@@ -173,7 +173,7 @@
                                         "param2": "campuses"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "3",
                         "subCategory": "1"
@@ -218,13 +218,13 @@
                                 }
                             },
                             "emits": {
-                                // "emit1": {
-                                //     "type": "remove",
-                                //     "parameters": {
-                                //         "param1": "clearBillboard"
-                                //     }
-                                // }
-                            },
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
                         },
                         "category": "4",
                         "subCategory": "1"
@@ -269,13 +269,13 @@
                                 }
                             },
                             "emits": {
-                                // "emit1": {
-                                //     "type": "remove",
-                                //     "parameters": {
-                                //         "param1": "clearBillboard"
-                                //     }
-                                // }
-                            },
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
                         },
                         "category": "4",
                         "subCategory": "2"
@@ -340,13 +340,13 @@
                                 }
                             },
                             "emits": {
-                                // "emit1": {
-                                //     "type": "remove",
-                                //     "parameters": {
-                                //         "param1": "clearBillboard"
-                                //     }
-                                // }
-                            },
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
                         },
                         "category": "4",
                         "subCategory": "3"
@@ -411,13 +411,13 @@
                                 }
                             },
                             "emits": {
-                                // "emit1": {
-                                //     "type": "remove",
-                                //     "parameters": {
-                                //         "param1": "clearBillboard"
-                                //     }
-                                // }
-                            },
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
                         },
                         "category": "4",
                         "subCategory": "3"
@@ -482,13 +482,13 @@
                                 }
                             },
                             "emits": {
-                                // "emit1": {
-                                //     "type": "remove",
-                                //     "parameters": {
-                                //         "param1": "clearBillboard"
-                                //     }
-                                // }
-                            },
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
                         },
                         "category": "4",
                         "subCategory": "3"
@@ -553,13 +553,13 @@
                                 }
                             },
                             "emits": {
-                                // "emit1": {
-                                //     "type": "remove",
-                                //     "parameters": {
-                                //         "param1": "clearBillboard"
-                                //     }
-                                // }
-                            },
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
                         },
                         "category": "4",
                         "subCategory": "3"
@@ -610,7 +610,7 @@
                                         "param1": "clearBillboard"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "4",
                         "subCategory": "1"
@@ -655,13 +655,13 @@
                                 }
                             },
                             "emits": {
-                                // "emit1": {
-                                //     "type": "remove",
-                                //     "parameters": {
-                                //         "param1": "clearBillboard"
-                                //     }
-                                // }
-                            },
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
                         },
                         "category": "4",
                         "subCategory": "2"
@@ -706,13 +706,13 @@
                                 }
                             },
                             "emits": {
-                                // "emit1": {
-                                //     "type": "remove",
-                                //     "parameters": {
-                                //         "param1": "clearBillboard"
-                                //     }
-                                // }
-                            },
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
                         },
                         "category": "4",
                         "subCategory": "2"
@@ -757,13 +757,13 @@
                                 }
                             },
                             "emits": {
-                                // "emit1": {
-                                //     "type": "remove",
-                                //     "parameters": {
-                                //         "param1": "clearBillboard"
-                                //     }
-                                // }
-                            },
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
                         },
                         "category": "4",
                         "subCategory": "2"
@@ -810,13 +810,13 @@
                                 }
                             },
                             "emits": {
-                                // "emit1": {
-                                //     "type": "remove",
-                                //     "parameters": {
-                                //         "param1": "clearBillboard"
-                                //     }
-                                // }
-                            },
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
                         },
                         "category": "3",
                         "subCategory": "1"
@@ -861,13 +861,13 @@
                                 }
                             },
                             "emits": {
-                                // "emit1": {
-                                //     "type": "remove",
-                                //     "parameters": {
-                                //         "param1": "clearBillboard"
-                                //     }
-                                // }
-                            },
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
                         },
                         "category": "4",
                         "subCategory": "1"
@@ -912,13 +912,13 @@
                                 }
                             },
                             "emits": {
-                                // "emit1": {
-                                //     "type": "remove",
-                                //     "parameters": {
-                                //         "param1": "clearBillboard"
-                                //     }
-                                // }
-                            },
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
                         },
                         "category": "4",
                         "subCategory": "2"
@@ -977,7 +977,7 @@
                                         "param2": "HD-neighborhoods-label"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "1",
                         "subCategory": "3"
@@ -1036,7 +1036,7 @@
                                         "param2": "HD-corridors-label"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "1",
                         "subCategory": "3"
@@ -1095,7 +1095,7 @@
                                         "param2": "HD-parks-label"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "1",
                         "subCategory": "3"
@@ -1154,7 +1154,7 @@
                                         "param2": "HD-institutions-label"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "1",
                         "subCategory": "3"
@@ -1197,7 +1197,7 @@
                                         "param2": "overlay-govt-diplo"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "1",
                         "subCategory": "2"
@@ -1240,7 +1240,7 @@
                                         "param2": "overlay-open-space"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "1",
                         "subCategory": "2"
@@ -1283,7 +1283,7 @@
                                         "param2": "overlay-neigh-commercial"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "1",
                         "subCategory": "2"
@@ -1326,7 +1326,7 @@
                                         "param2": "overlay-mixed-used"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "1",
                         "subCategory": "2"
@@ -1369,7 +1369,7 @@
                                         "param2": "overlay-hotel"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "1",
                         "subCategory": "2"
@@ -1412,7 +1412,7 @@
                                         "param2": "overlay-arts"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "1",
                         "subCategory": "2"
@@ -1455,12 +1455,11 @@
                                         "param2": "centralEmployment"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "2",
                         "subCategory": "1"
                     },
-                    //we skipped 26 here. Please feel free to add a new layer here if needed. -B
                     "Planned Unit Development": {
                         "id": 27,
                         "displayName": "PUD",
@@ -1499,7 +1498,7 @@
                                         "param2": "PUD"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "1",
                         "subCategory": "1"
@@ -1544,13 +1543,13 @@
                                 }
                             },
                             "emits": {
-                                // "emit1": {
-                                //     "type": "remove",
-                                //     "parameters": {
-                                //         "param1": "clearBillboard"
-                                //     }
-                                // }
-                            },
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
                         },
                         "category": "4",
                         "subCategory": "2"
@@ -1597,13 +1596,13 @@
                                 }
                             },
                             "emits": {
-                                // "emit1": {
-                                //     "type": "remove",
-                                //     "parameters": {
-                                //         "param1": "clearBillboard"
-                                //     }
-                                // }
-                            },
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
                         },
                         "category": "3",
                         "subCategory": "1"
@@ -1648,13 +1647,13 @@
                                 }
                             },
                             "emits": {
-                                // "emit1": {
-                                //     "type": "remove",
-                                //     "parameters": {
-                                //         "param1": "clearBillboard"
-                                //     }
-                                // }
-                            },
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
                         },
                         "category": "4",
                         "subCategory": "2"
@@ -1701,13 +1700,13 @@
                                 }
                             },
                             "emits": {
-                                // "emit1": {
-                                //     "type": "remove",
-                                //     "parameters": {
-                                //         "param1": "clearBillboard"
-                                //     }
-                                // }
-                            },
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
                         },
                         "category": "3",
                         "subCategory": "1"
@@ -1766,7 +1765,7 @@
                                         "param2": "metroStationLabels"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "3",
                         "subCategory": "1"
@@ -1809,7 +1808,7 @@
                                         "param2": "metroBus"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "3",
                         "subCategory": "1"
@@ -1852,7 +1851,7 @@
                                         "param2": "supermarketTaxCredit"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "2",
                         "subCategory": "1"
@@ -1895,7 +1894,7 @@
                                         "param2": "HUB"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "2",
                         "subCategory": "1"
@@ -1938,7 +1937,7 @@
                                         "param2": "technology"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "2",
                         "subCategory": "1"
@@ -1981,7 +1980,7 @@
                                         "param2": "enterprise"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "2",
                         "subCategory": "1"
@@ -2024,7 +2023,7 @@
                                         "param2": "coastalSurge"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "1",
                         "subCategory": "5"
@@ -2083,7 +2082,7 @@
                                         "param2": "census-poly"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "3",
                         "subCategory": "1"
@@ -2142,7 +2141,7 @@
                                         "param2": "zillow-poly"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "3",
                         "subCategory": "1"
@@ -2185,7 +2184,7 @@
                                         "param2": "residentialHeat"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "1",
                         "subCategory": "4"
@@ -2228,7 +2227,7 @@
                                         "param2": "officeHeat"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "1",
                         "subCategory": "4"
@@ -2271,7 +2270,7 @@
                                         "param2": "retailHeat"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "1",
                         "subCategory": "4"
@@ -2335,22 +2334,8 @@
                                     "parameters": {
                                         "param1": "tileZoom"
                                     }
-                                },
-                                "emit2": {
-                                    "type": "add",
-                                    "parameters": {
-                                        "param1": "legendtabZoning",
-                                        "param2": "../../legends/layerLegendZoning.jade"
-                                    }
-                                },
-                                // "emit3": {
-                                //     "type": "remove",
-                                //     "parameters": {
-                                //         "param1": "legendtabZoning",
-                                //         "param2": "'
-                                //     }
-                                // }
-                            },
+                                }
+                            }
                         },
                         "category": "1",
                         "subCategory": "1"
@@ -2393,7 +2378,7 @@
                                         "param2": ""
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": null,
                         "subCategory": null
@@ -2438,21 +2423,7 @@
                                 }
                             },
                             "emits": {
-                                "emit1": {
-                                    "type": "add",
-                                    "parameters": {
-                                        "param1": "legendtabCurrentUse",
-                                        "param2": "../../legends/layerCurrentUse.jade"
-                                    }
-                                },
-                                // "emit2": {
-                                //     "type": "remove",
-                                //     "parameters": {
-                                //         "param1": "legendtabCurrentUse",
-                                //         "param2": "'
-                                //     }
-                                // }
-                            },
+                            }
                         },
                         "category": "1",
                         "subCategory": "1"
@@ -2497,21 +2468,7 @@
                                 }
                             },
                             "emits": {
-                                "emit1": {
-                                    "type": "add",
-                                    "parameters": {
-                                        "param1": "legendtabWard",
-                                        "param2": "../../legends/layerLegendWard.jade"
-                                    }
-                                },
-                                // "emit2": {
-                                //     "type": "remove",
-                                //     "parameters": {
-                                //         "param1": "legendtabWard",
-                                //         "param2": "'
-                                //     }
-                                // }
-                            },
+                            }
                         },
                         "category": "3",
                         "subCategory": "1"
@@ -2556,21 +2513,7 @@
                                 }
                             },
                             "emits": {
-                                "emit1": {
-                                    "type": "add",
-                                    "parameters": {
-                                        "param1": "legendtabSMD",
-                                        "param2": "../../legends/layerLegendSMD.jade"
-                                    }
-                                },
-                                // "emit2": {
-                                //     "type": "remove",
-                                //     "parameters": {
-                                //         "param1": "legendtabSMD",
-                                //         "param2": "'
-                                //     }
-                                // }
-                            },
+                            }
                         },
                         "category": "3",
                         "subCategory": "1"
@@ -2613,7 +2556,7 @@
                                         "param2": "housingPriority"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": null,
                         "subCategory": null
@@ -2654,7 +2597,7 @@
                                         "param1": "remove"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "1",
                         "subCategory": "1"
@@ -2705,7 +2648,7 @@
                                         "param1": "tileZoom"
                                     }
                                 }
-                            },
+                            }
                         },
                         "category": "4",
                         "subCategory": "1"
