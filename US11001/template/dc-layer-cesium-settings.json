@@ -81,7 +81,7 @@
                                         }
                                     },
                                     "material": "new Cesium.ColorMaterialProperty(color)",
-                                    "outlineColor": "Cesium.Color.LIGHTPINK",
+                                    "outlineColor": "Cesium.Color.CYAN",
                                     "outlineWidth": 3.0
                                 }
                             }
