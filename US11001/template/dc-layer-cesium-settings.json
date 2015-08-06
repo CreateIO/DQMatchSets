@@ -81,7 +81,7 @@
                                         }
                                     },
                                     "material": "new Cesium.ColorMaterialProperty(color)",
-                                    "outlineColor": "Cesium.Color.GAINSBORO",
+                                    "outlineColor": "Cesium.Color.LIGHTPINK",
                                     "outlineWidth": 3.0
                                 }
                             }
