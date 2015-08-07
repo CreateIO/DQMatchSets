@@ -1,0 +1,2660 @@
+{  
+    "versions":[  
+        {  
+            "version":"1.0.0",
+            "description":"This is standard and default release",
+            "template":{  
+                "allTheLayers": {
+                    "Transfer of Development Rights": {
+                        "id": 0,
+                        "displayName": "TDR",
+                        "mouseoverName": "Transfer of Development Rights",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendTDR.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/TDR.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "transferDevRights"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Transfer Development Rights'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "transferDevRights"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "1"
+                    },
+                    "FEMA Flood Zones": {
+                        "id": 1,
+                        "displayName": "FEMA Flood Zones",
+                        "mouseoverName": "FEMA Flood Zones",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendFloodLayer.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/FZ.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "FEMAfloodZones"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Hazard: Flood Zones'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "FEMAfloodZones"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "5"
+                    },
+                    "Business Improvement Districts": {
+                        "id": 2,
+                        "displayName": "BIDs",
+                        "mouseoverName": "Business Improvement Districts",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendBID.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/BID.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "businessImprovementDistricts"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Business Improvement Districts'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "businessImprovementDistricts"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "2",
+                        "subCategory": "1"
+                    },
+                    "Campus Area Zones": {
+                        "id": 3,
+                        "displayName": "Campus Areas",
+                        "mouseoverName": "Campus Area Zones",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendCampus.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/CAM.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "campuses"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Campus Zones'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "campuses"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "3",
+                        "subCategory": "1"
+                    },
+                    "WDCEP Neighborhoods": {
+                        "id": 4,
+                        "displayName": "Neighborhoods",
+                        "mouseoverName": "WDCEP Neighborhoods",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Limited"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/wdcepNeighborhoods.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/WND.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP-neighborhoods"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: WDCEP: neighborhoods'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP-neighborhoods"
+                                    }
+                                }
+                            },
+                            "emits": {
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "4",
+                        "subCategory": "1"
+                    },
+                    "Chipotle/Shophouse": {
+                        "id": 5,
+                        "displayName": "Chipotle/Shophouse",
+                        "mouseoverName": "Chipotle/Shophouse Locations",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Limited"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/wdcepChipotle.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/CHP.png",
+                        "functions": {
+                            "addFunctions": { 
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP - chipotle"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: WDCEP: Chipotle'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP - chipotle"
+                                    }
+                                }
+                            },
+                            "emits": {
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "4",
+                        "subCategory": "2"
+                    },
+                    "Retail Pipeline Projects": {
+                        "id": 6,
+                        "displayName": "Retail Pipeline Projects",
+                        "mouseoverName": "Retail Pipeline Projects",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Limited"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerRetailPip.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/RetP.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP-retail-pipe-bubble"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: WDCEP: Retail Pipeline Projects'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP-retail-pipe-bubble"
+                                    }
+                                }
+                            },
+                            "infoboxAdd": {
+                                "service": "infoBoxService",
+                                "functionName": "getCircles",
+                                "parameters": {
+                                    "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_retail_pipeline_geo.geojson",
+                                    "param2": null,
+                                    "param3": "retailsf",
+                                    "param4": 10000,
+                                    "param5": 100000,
+                                    "param6": 450000,
+                                    "param7": null
+                                }
+                            },
+                            "infoboxRemove": {
+                                "service": "infoBoxService",
+                                "functionName": "clearBufferRings",
+                                "parameters": {
+                                    "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_retail_pipeline_geo.geojson"
+                                }
+                            },
+                            "emits": {
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "4",
+                        "subCategory": "3"
+                    },
+                    "Retail Completed Projects": {
+                        "id": 7,
+                        "displayName": "Retail Completed Projects",
+                        "mouseoverName": "Retail Completed Projects",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Limited"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerRetailDev.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/RetC.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP-retail-com-bubble"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: WDCEP: Retail Completed Projects'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP-retail-com-bubble"
+                                    }
+                                }
+                            },
+                            "infoboxAdd": {
+                                "service": "infoBoxService",
+                                "functionName": "getCircles",
+                                "parameters": {
+                                    "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_retail_com_geo.geojson",
+                                    "param2": "status",
+                                    "param3": "retailsf",
+                                    "param4": 10000,
+                                    "param5": 100000,
+                                    "param6": 450000,
+                                    "param7": null
+                                }
+                            },
+                            "infoboxRemove": {
+                                "service": "infoBoxService",
+                                "functionName": "clearBufferRings",
+                                "parameters": {
+                                    "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_retail_com_geo.geojson"
+                                }
+                            },
+                            "emits": {
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "4",
+                        "subCategory": "3"
+                    },
+                    "Residential Pipeline Projects": {
+                        "id": 8,
+                        "displayName": "Residential Pipeline Projects",
+                        "mouseoverName": "Residential Pipeline Projects",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Limited"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerResidentialPip.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/ResP.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP-res-pipe-bubble"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: WDCEP: Residential Pipeline Projects'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP-res-pipe-bubble"
+                                    }
+                                }
+                            },
+                            "infoboxAdd": {
+                                "service": "infoBoxService",
+                                "functionName": "getCircles",
+                                "parameters": {
+                                    "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_resi_pipeline_geo.geojson",
+                                    "param2": null,
+                                    "param3": "resunits",
+                                    "param4": 100,
+                                    "param5": 400,
+                                    "param6": 1000,
+                                    "param7": 3500
+                                }
+                            },
+                            "infoboxRemove": {
+                                "service": "infoBoxService",
+                                "functionName": "clearBufferRings",
+                                "parameters": {
+                                    "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_resi_pipeline_geo.geojson"
+                                }
+                            },
+                            "emits": {
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "4",
+                        "subCategory": "3"
+                    },
+                    "Residential Completed Projects": {
+                        "id": 9,
+                        "displayName": "Residential Completed Projects",
+                        "mouseoverName": "Residential Completed Projects",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Limited"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerResidentialDev.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/ResC.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP-res-com-bubble"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: WDCEP: Residential Completed Projects'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP-res-com-bubble"
+                                    }
+                                }
+                            },
+                            "infoboxAdd": {
+                                "service": "infoBoxService",
+                                "functionName": "getCircles",
+                                "parameters": {
+                                    "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_resi_com_geo.geojson",
+                                    "param2": "status",
+                                    "param3": "resunits",
+                                    "param4": 100,
+                                    "param5": 400,
+                                    "param6": 1000,
+                                    "param7": 3500
+                                }
+                            },
+                            "infoboxRemove": {
+                                "service": "infoBoxService",
+                                "functionName": "clearBufferRings",
+                                "parameters": {
+                                    "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_resi_com_geo.geojson"
+                                }
+                            },
+                            "emits": {
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "4",
+                        "subCategory": "3"
+                    },
+                    "Retail Site Locations": {
+                        "id": 10,
+                        "displayName": "Retail Site Locations",
+                        "mouseoverName": "Retail Site Locations",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Limited"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendRetailSitePoints.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/RSL.png",
+                        "functions": {
+                            "addFunctions": { 
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP-retail-sites"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: WDCEP: Retail Sites'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP-retail-sites"
+                                    }
+                                }
+                            },
+                            "emits": {
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "4",
+                        "subCategory": "1"
+                    },
+                    "WDCEP - Subways": {
+                        "id": 11,
+                        "displayName": "Subways",
+                        "mouseoverName": "WDCEP - Subways",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Limited"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/wdcepS.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/S.png",
+                        "functions": {
+                            "addFunctions": { 
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP - subway"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: WDCEP: Subways'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP - subway"
+                                    }
+                                }
+                            },
+                            "emits": {
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "4",
+                        "subCategory": "2"
+                    },
+                    "WDCEP - Potbelly": {
+                        "id": 12,
+                        "displayName": "Potbelly",
+                        "mouseoverName": "WDCEP - Potbelly",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Limited"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/wdcepPB.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PB.png",
+                        "functions": {
+                            "addFunctions": { 
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP - potbelly"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: WDCEP: Potbelly'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP - potbelly"
+                                    }
+                                }
+                            },
+                            "emits": {
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "4",
+                        "subCategory": "2"
+                    },
+                    "WDCEP - Movie Theatres": {
+                        "id": 13,
+                        "displayName": "Movie Theatres",
+                        "mouseoverName": "WDCEP - Movie Theatres",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Limited"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/wdcepMOV.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/MOV.png",
+                        "functions": {
+                            "addFunctions": { 
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP - movies"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: WDCEP: Movie Theatres'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP - movies"
+                                    }
+                                }
+                            },
+                            "emits": {
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "4",
+                        "subCategory": "2"
+                    },
+                    "Movie Theatres": {
+                        "id": 52,
+                        "displayName": "Movie Theatres",
+                        "mouseoverName": "Movie Theatres",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Premium",
+                            "denyList2": "Monthly",
+                            "denyList3": "DC_Public_Access"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/wdcepMOV.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/MOV.png",
+                        "functions": {
+                            "addFunctions": { 
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP - movies"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: WDCEP: Movie Theatres'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP - movies"
+                                    }
+                                }
+                            },
+                            "emits": {
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "3",
+                        "subCategory": "1"
+                    },
+                    "WDCEP - Bookmarks": {
+                        "id": 14,
+                        "displayName": "Bookmarks",
+                        "mouseoverName": "WDCEP - Bookmarks",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Limited"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/wdcepBookmarks.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/BMK.png",
+                        "functions": {
+                            "addFunctions": { 
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP-bookmarks"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: WDCEP: Bookmarks'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP-bookmarks"
+                                    }
+                                }
+                            },
+                            "emits": {
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "4",
+                        "subCategory": "1"
+                    },
+                    "WDCEP - 711": {
+                        "id": 15,
+                        "displayName": "711",
+                        "mouseoverName": "WDCEP - 711",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Limited"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/wdcep711.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/711.png",
+                        "functions": {
+                            "addFunctions": { 
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP-711"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: WDCEP: 711'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP-711"
+                                    }
+                                }
+                            },
+                            "emits": {
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "4",
+                        "subCategory": "2"
+                    },
+                    "Historic Districts - Neighborhoods": {
+                        "id": 16,
+                        "displayName": "HD - Neighborhoods",
+                        "mouseoverName": "Historic Districts - Neighborhoods",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendHistoricNeighborhoods.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HDN.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HD-neighborhoods-poly"
+                                    }
+                                },
+                                "func2": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HD-neighborhoods-label"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Historic Distrcits - Neighborhoods'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HD-neighborhoods-poly"
+                                    }
+                                },
+                                "func2": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HD-neighborhoods-label"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "3"
+                    },
+                    "Historic Districts - Corridors": {
+                        "id": 17,
+                        "displayName": "HD - Corridors",
+                        "mouseoverName": "Historic Districts - Corridors",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendHistoricCorridors.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HDC.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HD-corridors-poly"
+                                    }
+                                },
+                                "func2": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HD-corridors-label"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Historic Districts - Corridors'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HD-corridors-poly"
+                                    }
+                                },
+                                "func2": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HD-corridors-label"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "3"
+                    },
+                    "Historic Districts - Parks": {
+                        "id": 18,
+                        "displayName": "HD - Parks",
+                        "mouseoverName": "Historic Districts - Parks",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendHistoricParks.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HDP.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HD-parks-poly"
+                                    }
+                                },
+                                "func2": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HD-parks-label"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Historic Distrcits - Parks'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HD-parks-poly"
+                                    }
+                                },
+                                "func2": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HD-parks-label"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "3"
+                    },
+                    "Historic Districts - Institutions": {
+                        "id": 18,
+                        "displayName": "HD - Institutions",
+                        "mouseoverName": "Historic Districts - Institutions",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendHistoricInstitutions.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HDI.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HD-institutions-poly"
+                                    }
+                                },
+                                "func2": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HD-institutions-label"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Historic Distrcits - Parks'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HD-institutions-poly"
+                                    }
+                                },
+                                "func2": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HD-institutions-label"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "3"
+                    },
+                    "Overlays - Government & Diplomatic": {
+                        "id": 19,
+                        "displayName": "Gov't & Diplomatic",
+                        "mouseoverName": "Overlays - Government & Diplomatic",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerOverlayGovDip.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/GD.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "overlay-govt-diplo"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Overlays - Government & Diplomatic'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "overlay-govt-diplo"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "2"
+                    },
+                    "Overlays - Open Space": {
+                        "id": 20,
+                        "displayName": "Open Space",
+                        "mouseoverName": "Overlays - Open Space",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerOverlayOpenSpace.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/NOS.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "overlay-open-space"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Overlays - Open Space'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "overlay-open-space"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "2"
+                    },
+                    "Overlays - Neighborhood Commercial": {
+                        "id": 21,
+                        "displayName": "Neighborhood Commercial",
+                        "mouseoverName": "Overlays - Neighborhood Commercial",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerOverlayNeighComm.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/NC.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "overlay-neigh-commercial"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Overlays - Neighborhood Commercial'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "overlay-neigh-commercial"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "2"
+                    },
+                    "Overlays - Mixed Use": {
+                        "id": 22,
+                        "displayName": "Mixed Use",
+                        "mouseoverName": "Overlays - Mixed Use",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerOverlayMixedUse.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/DT.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "overlay-mixed-used"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Overlays - Mixed Use'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "overlay-mixed-used"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "2"
+                    },
+                    "Overlays - Hotels": {
+                        "id": 23,
+                        "displayName": "Hotels",
+                        "mouseoverName": "Overlays - Hotels",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerOverlayHotel.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HTL.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "overlay-hotel"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Overlays - Hotels'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "overlay-hotel"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "2"
+                    },
+                    "Overlays - Arts": {
+                        "id": 24,
+                        "displayName": "Arts",
+                        "mouseoverName": "Overlays - Arts",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerOverlayArts.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ART.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "overlay-arts"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Overlays - Arts'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "overlay-arts"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "2"
+                    },
+                    "Central Employment Area": {
+                        "id": 25,
+                        "displayName": "CEA",
+                        "mouseoverName": "Central Employment Area",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendCEA.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/CEA.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "centralEmployment"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Central Employment Area'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "centralEmployment"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "2",
+                        "subCategory": "1"
+                    },
+                    "Planned Unit Development": {
+                        "id": 27,
+                        "displayName": "PUD",
+                        "mouseoverName": "Planned Unit Development",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendPUD.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "PUD"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Planned Unit Development'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "PUD"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "1"
+                    },
+                    "Pharmacies": {
+                        "id": 28,
+                        "displayName": "Pharmacies",
+                        "mouseoverName": "Pharmacies",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Limited"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/wdcepPH.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PH.png",
+                        "functions": {
+                            "addFunctions": { 
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP - pharmacy"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Pharmacies'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP - pharmacy"
+                                    }
+                                }
+                            },
+                            "emits": {
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "4",
+                        "subCategory": "2"
+                    },
+                    "Pharmacies Premium": {
+                        "id": 51,
+                        "displayName": "Pharmacies",
+                        "mouseoverName": "Pharmacies",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Premium",
+                            "denyList2": "Monthly",
+                            "denyList3": "DC_Public_Access"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/wdcepPH.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PH.png",
+                        "functions": {
+                            "addFunctions": { 
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP - pharmacy"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Pharmacies'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP - pharmacy"
+                                    }
+                                }
+                            },
+                            "emits": {
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "3",
+                        "subCategory": "1"
+                    },
+                    "Grocery Stores": {
+                        "id": 29,
+                        "displayName": "Grocery Stores",
+                        "mouseoverName": "Grocery Stores",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Limited"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/wdcepGS.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/GS.png",
+                        "functions": {
+                            "addFunctions": { 
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP - grocery"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Grocery Stores'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP - grocery"
+                                    }
+                                }
+                            },
+                            "emits": {
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "4",
+                        "subCategory": "2"
+                    },
+                    "Grocery Stores Premium": {
+                        "id": 50,
+                        "displayName": "Grocery Stores",
+                        "mouseoverName": "Grocery Stores",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Premium",
+                            "denyList2": "Monthly",
+                            "denyList3": "DC_Public_Access"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/wdcepGS.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/GS.png",
+                        "functions": {
+                            "addFunctions": { 
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP - grocery"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Grocery Stores'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "WDCEP - grocery"
+                                    }
+                                }
+                            },
+                            "emits": {
+                                "emit1": {
+                                    "type": "remove",
+                                    "parameters": {
+                                        "param1": "clearBillboard"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "3",
+                        "subCategory": "1"
+                    },
+                    "Metrorail Lines & Stations": {
+                        "id": 30,
+                        "displayName": "Metrorail",
+                        "mouseoverName": "Metrorail Lines & Stations",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendMetroRail.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/MET.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "metroRailAndStations"
+                                    }
+                                },
+                                "func2": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "metroStationLabels"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Metrorail Lines & Stations'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "metroRailAndStations"
+                                    }
+                                },
+                                "func2": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "metroStationLabels"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "3",
+                        "subCategory": "1"
+                    },
+                    "Metro Bus Stops": {
+                        "id": 31,
+                        "displayName": "Metrobus",
+                        "mouseoverName": "Metro Bus Stops",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendMetroBus.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/MB.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "metroBus"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Metro Bus Stops'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "metroBus"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "3",
+                        "subCategory": "1"
+                    },
+                    "Supermarket Tax Credit Zone": {
+                        "id": 32,
+                        "displayName": "SMTCZ",
+                        "mouseoverName": "Supermarket Tax Credit Zone",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendSupermarket.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/STC.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "supermarketTaxCredit"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Supermarket Tax Credit Zone'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "supermarketTaxCredit"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "2",
+                        "subCategory": "1"
+                    },
+                    "Historically Underutilized Businesses": {
+                        "id": 33,
+                        "displayName": "HUBs",
+                        "mouseoverName": "Historically Underutilized Businesses",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendHUB.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HUB.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HUB"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Historically Underutilized Businesses'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HUB"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "2",
+                        "subCategory": "1"
+                    },
+                    "High Technology Development Zone": {
+                        "id": 34,
+                        "displayName": "HTDZ",
+                        "mouseoverName": "High Technology Development Zone",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendTechnology.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HTD.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "technology"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: High Technology Development Zone'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "technology"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "2",
+                        "subCategory": "1"
+                    },
+                    "Enterprise Zones": {
+                        "id": 35,
+                        "displayName": "Enterprise Zones",
+                        "mouseoverName": "Enterprise Zones",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendEnterprise.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/EZ.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "enterprise"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Enterprise Zones'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "enterprise"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "2",
+                        "subCategory": "1"
+                    },
+                    "Coastal Surge": {
+                        "id": 36,
+                        "displayName": "Coastal Surge",
+                        "mouseoverName": "Coastal Surge",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendCoastalSurge.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/CSA.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "coastalSurge"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Hazard: Coastal Surge'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "coastalSurge"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "5"
+                    },
+                    "Census Tracts": {
+                        "id": 37,
+                        "displayName": "Census Tracts",
+                        "mouseoverName": "Census Tracts",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerCensusTracts.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/CEN.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "census-label"
+                                    }
+                                },
+                                "func2": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "census-poly"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Census Tracts'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "census-label"
+                                    }
+                                },
+                                "func2": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "census-poly"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "3",
+                        "subCategory": "1"
+                    },
+                    "Zillow Neighborhoods": {
+                        "id": 38,
+                        "displayName": "Neighborhoods",
+                        "mouseoverName": "Zillow Neighborhoods",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerZillow.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/NHD.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "zillow-label"
+                                    }
+                                },
+                                "func2": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "zillow-poly"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Zillow Neighborhoods'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "zillow-label"
+                                    }
+                                },
+                                "func2": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "zillow-poly"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "3",
+                        "subCategory": "1"
+                    },
+                    "Residential Density Heatmap": {
+                        "id": 39,
+                        "displayName": "Residential Density",
+                        "mouseoverName": "Residential Density Heatmap",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerResidentialHeat.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/RDH.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "residentialHeat"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Heatmap: Residential Density'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "residentialHeat"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "4"
+                    },
+                    "Office Density Heatmap": {
+                        "id": 40,
+                        "displayName": "Office Density",
+                        "mouseoverName": "Office Density Heatmap",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerOfficeHeat.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ODH.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "officeHeat"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Heatmap: Office Density'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "officeHeat"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "4"
+                    },
+                    "Retail Density Heatmap": {
+                        "id": 41,
+                        "displayName": "Retail Density",
+                        "mouseoverName": "Retail Density Heatmap",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerRetailHeat.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/RHM.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "retailHeat"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Heatmap: Retail Density'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "retailHeat"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "4"
+                    },
+                    "Zoning Districts": {
+                        "id": 42,
+                        "displayName": "Zoning",
+                        "mouseoverName": "Zoning Districts",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendZoning",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png",
+                        "functions": {
+                            "addFunctions": { 
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "zoning"
+                                    }
+                                },
+                                "func2": {
+                                    "service": "gltf3DService",
+                                    "functionName": "zoningLayer",
+                                    "parameters": {
+                                        "param1": null
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Zoning'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "zoning"
+                                    }
+                                },
+                                "func2": {
+                                    "service": "gltf3DService",
+                                    "functionName": "removeZoningLayer",
+                                    "parameters": {
+                                        "param1": null
+                                    }
+                                }
+                            },
+                            "emits": {
+                                "emit1": {
+                                    "type": "add",
+                                    "parameters": {
+                                        "param1": "tileZoom"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "1"
+                    },
+                    "Right of Way": {
+                        "id": 43,
+                        "displayName": "ROW",
+                        "mouseoverName": "Right of Way",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": false,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendRoadMap.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/WRD.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": ""
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Right of Way'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": ""
+                                    }
+                                }
+                            }
+                        },
+                        "category": null,
+                        "subCategory": null
+                    },
+                    "Existing Land Use": {
+                        "id": 44,
+                        "displayName": "Land Use",
+                        "mouseoverName": "Existing Land Use",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerCurrentUse.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/LU.png",
+                        "functions": {
+                            "addFunctions": { 
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "currentUse"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Existing Land Use'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "currentUse"
+                                    }
+                                }
+                            },
+                            "emits": {
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "1"
+                    },
+                    "Wards 2012": {
+                        "id": 45,
+                        "displayName": "Wards",
+                        "mouseoverName": "Wards 2012",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendWard.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/WRD.png",
+                        "functions": {
+                            "addFunctions": { 
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "wards2012"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Wards'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "wards2012"
+                                    }
+                                }
+                            },
+                            "emits": {
+                            }
+                        },
+                        "category": "3",
+                        "subCategory": "1"
+                    },
+                    "Single Member Districts": {
+                        "id": 46,
+                        "displayName": "SMD/ANC",
+                        "mouseoverName": "Single Member Districts",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendSMD.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/ANC.png",
+                        "functions": {
+                            "addFunctions": { 
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "SMD"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Single Member Districts'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "SMD"
+                                    }
+                                }
+                            },
+                            "emits": {
+                            }
+                        },
+                        "category": "3",
+                        "subCategory": "1"
+                    },
+                    "Housing Priority Area": {
+                        "id": 47,
+                        "displayName": "HPA",
+                        "mouseoverName": "Housing Priority Area",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": false,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendHousing.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/test-images/bm-toner.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "housingPriority"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Housing Priority Area'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "housingPriority"
+                                    }
+                                }
+                            }
+                        },
+                        "category": null,
+                        "subCategory": null
+                    },
+                    "Property Types": {
+                        "id": 48,
+                        "displayName": "Property Types",
+                        "mouseoverName": "Property Types",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerPropertyType.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "gltf3DService",
+                                    "functionName": "toggleParcelFills",
+                                    "parameters": {
+                                        "param1": "add"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Parcel Use Layer'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "gltf3DService",
+                                    "functionName": "toggleParcelFills",
+                                    "parameters": {
+                                        "param1": "remove"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "1"
+                    },
+                    "Development Site Plans": {
+                        "id": 49,
+                        "displayName": "Development Site Plans",
+                        "mouseoverName": "Development Site Plans",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Limited"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerDevSitePlans.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/DSP.png",
+                        "functions": {
+                            "addFunctions": { 
+                                "func1": {
+                                    "service": "gltf3DService",
+                                    "functionName": "WDTiles",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": ""
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'WDCEP: Site Plan TMS'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "gltf3DService",
+                                    "functionName": "removeSitesLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": ""
+                                    }
+                                }
+                            },
+                            "emits": {
+                                "emit1": {
+                                    "type": "add",
+                                    "parameters": {
+                                        "param1": "tileZoom"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "4",
+                        "subCategory": "1"
+                    }
+                }
+            }
+        }
+    ]
+}
