@@ -81,8 +81,8 @@
                                         }
                                     },
                                     "material": "new Cesium.ColorMaterialProperty(color)",
-                                    "outlineColor": "Cesium.Color.WHITE",
-                                    "outlineWidth": 2.0
+                                    "outlineColor": "Cesium.Color.LAVENDER",
+                                    "outlineWidth": 4.0
                                 }
                             }
                         },

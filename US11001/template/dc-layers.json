@@ -831,8 +831,8 @@
                         },
                         "isActive": false,
                         "layerUsed": true,
-                        "hasLegend": false,
-                        "urlLegend": null,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/wdcepBookmarks.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/BMK.png",
                         "functions": {
                             "addFunctions": { 
