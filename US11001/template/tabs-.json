@@ -22,10 +22,16 @@
                 "deny": ""
               },
               {
-                "name": "Tenants",
+                "name": "Listings",
                 "url": "tenant.html",
                 "hasCharts": true,
                 "deny":""
+              },
+              {
+                "name": "Tenants",
+                "url": "infogroup.html",
+                "hasCharts": false,
+                "deny":"Limited Monthly DC_Public_Access"
               },
               {
                 "name": "Zoning",
@@ -46,21 +52,10 @@
                 "deny": ""
               },
               {
-                "name": "Infogroup",
-                "url": "infogroup.html",
-                "hasCharts": false,
-                "deny":"Limited Monthly DC_Public_Access"
-              },
-              {
-                "name": "ESRI", "url": "ESRI.html",
-                "hasCharts": "false",
-                "deny":"Limited Monthly DC_Public_Access"
-              },
-              {
                 "name": "Build It!",
                 "url": "building_definition.html",
                 "hasCharts": false,
-                "deny": "Limited Monthly DC_Public_Access"
+                "deny": "Limited Monthly DC_Public_Access Premium"
               }
             ]
           },
@@ -69,9 +64,15 @@
             "tabs": [
               {
                 "name": "Demographics",
+                "url": "ESRI.html",
+                "hasCharts": "false",
+                "deny":"Limited Monthly DC_Public_Access"
+              },
+              {
+                "name": "Demographics",
                 "url": "demographics.html",
                 "hasCharts": true,
-                "deny": ""
+                "deny": "Premium Demo"
               },
               {
                 "name": "Economy",
