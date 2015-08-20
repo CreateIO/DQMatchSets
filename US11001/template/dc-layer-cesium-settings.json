@@ -2760,6 +2760,73 @@
                                 }
                             }
                         }
+                    },
+                    "great-streets": {
+                        "name": "great-streets",
+                        "removeName": "greatStreets.geojson",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/greatStreets.geojson",
+                        "cartographic": false,
+                        "id": {
+                            "exists": false
+                        },
+                        "labels": {
+                            "exists": true,
+                            "labelLayers": {
+                                "label1": {
+                                    "name": "labelgreatstreets",
+                                    "position": {
+                                        "x": "entity._properties.X",
+                                        "y": "entity._properties.Y",
+                                        "z": 50
+                                    },
+                                    "text": "entity.properties.NAME",
+                                    "font": "18px sans-serif",
+                                    "fillColor": "Cesium.Color.WHITE",
+                                    "outlineColor": "Cesium.Color.BLACK",
+                                    "outlineWidth": 1,
+                                    "style": "Cesium.LabelStyle.FILL",
+                                    "pixelOffset": "Cesium.Cartesian2.ZERO",
+                                    "eyeOffset": "Cesium.Cartesian3.ZERO",
+                                    "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
+                                    "verticalOrigin": "Cesium.VerticalOrigin.TOP",
+                                    "translucencyByDistance": {
+                                        "minElevation": 20000,
+                                        "maxElevation": 21000,
+                                        "minScale": 1.0,
+                                        "maxScale": 0.0
+                                    },
+                                    "scale": 1.0
+                                }
+                            }
+                        },
+                        "polygons": {
+                            "exists": true,
+                            "polygonLayers": {
+                                "polygon1": {
+                                    "type": "singleColor",
+                                    "name": null,
+                                    "color": {
+                                        "alpha": 0.8,
+                                        "type": "rgb",
+                                        "rgb": {
+                                            "r": 255,
+                                            "g": 199,
+                                            "b": 0,
+                                            "a": 0
+                                        }
+                                    },
+                                    "material": "new Cesium.ColorMaterialProperty(color)",
+                                    "outlineColor": "Cesium.Color.WHITE",
+                                    "outlineWidth": 4.0
+                                }
+                            }
+                        },
+                        "rasters": {
+                            "exists": false
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
                     }
                 }
             }

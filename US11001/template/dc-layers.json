@@ -2652,6 +2652,49 @@
                         },
                         "category": "4",
                         "subCategory": "1"
+                    },
+                    "Great Streets": {
+                        "id": 50,
+                        "displayName": "Great Streets",
+                        "mouseoverName": "Great Street Corridors",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": false,
+                        "urlLegend": "",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ART.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "great-streets"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: great-streets'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "great-streets"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "2",
+                        "subCategory": "1"
                     }
                 }
             }
