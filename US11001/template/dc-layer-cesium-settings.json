@@ -864,9 +864,9 @@
                     },
                     "metroBus": {
                         "name": "metroBus",
-                        "removeName": "busStop.geojson",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/busStop.geojson",
-                        "cartographic": false,
+                        "removeName": "metroBus.geojson",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/metroBus.geojson",
+                        "cartographic": true,
                         "id": {
                             "exists": false
                         },
@@ -883,12 +883,19 @@
                             "exists": true,
                             "billboardLayers": {
                                 "billboard1": {
-                                    "type": "maki",
+                                    "type": "custom",
+                                    "name": "metroBusBB",
+                                    "url": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/MB.png",
+                                    "position": {
+                                        "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                                        "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                                        "z": 5
+                                    },
                                     "NearFarScalar": {
-                                        "minElevation": 6000,
-                                        "maxElevation": 25000,
+                                        "minElevation": 3000,
+                                        "maxElevation": 15000,
                                         "minScale": 1.0,
-                                        "maxScale": 0.2
+                                        "maxScale": 0.3
                                     }
                                 }
                             }

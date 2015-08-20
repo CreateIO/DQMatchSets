@@ -1779,7 +1779,7 @@
                             "denyList1": null
                         },
                         "isActive": false,
-                        "layerUsed": true,
+                        "layerUsed": false,
                         "hasLegend": true,
                         "urlLegend": "../../legends/layerLegendMetroBus.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/MB.png",
@@ -2694,6 +2694,49 @@
                             }
                         },
                         "category": "2",
+                        "subCategory": "1"
+                    },
+                    "Metro Bus Stops": {
+                        "id": 51,
+                        "displayName": "Metro Bus",
+                        "mouseoverName": "Metro Bus Stops",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendMetroBus.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/MB.png",
+                        "functions": {
+                            "addFunctions": { 
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "metroBus"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Metro Bus Stops'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "metroBus"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "3",
                         "subCategory": "1"
                     }
                 }
