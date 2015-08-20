@@ -864,7 +864,7 @@
                     },
                     "metroBus": {
                         "name": "metroBus",
-                        "removeName": "metroBus.geojson",
+                        "removeName": "busStopBasic.geojson",
                         "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/busStopBasic.geojson",
                         "cartographic": true,
                         "id": {
