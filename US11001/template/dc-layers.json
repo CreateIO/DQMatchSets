@@ -1951,7 +1951,7 @@
                             "denyList1": null
                         },
                         "isActive": false,
-                        "layerUsed": true,
+                        "layerUsed": false,
                         "hasLegend": true,
                         "urlLegend": "../../legends/layerLegendEnterprise.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/EZ.png",
