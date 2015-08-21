@@ -1865,7 +1865,7 @@
                             "denyList1": null
                         },
                         "isActive": false,
-                        "layerUsed": true,
+                        "layerUsed": false,
                         "hasLegend": true,
                         "urlLegend": "../../legends/layerLegendHUB.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HUB.png",
@@ -2775,6 +2775,65 @@
                                     "parameters": {
                                         "param1": "$scope",
                                         "param2": "irb"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "2",
+                        "subCategory": "1"
+                    },
+                    "HUBs": {
+                        "id": 53,
+                        "displayName": "HUBs",
+                        "mouseoverName": "Historically Underutilized Businesses",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendHUB.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HDN.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HUB-qualified"
+                                    }
+                                },
+                                "func2": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HUB-redesignated"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Historically Underutilized Businesses'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HUB-qualified"
+                                    }
+                                },
+                                "func2": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "HUB-redesignated"
                                     }
                                 }
                             }

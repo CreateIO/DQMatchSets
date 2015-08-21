@@ -2868,6 +2868,86 @@
                         "billboards": {
                             "exists": false
                         }
+                    },
+                    "HUB-qualified": {
+                        "name": "HUB-qualified",
+                        "removeName": "HUBqualified.geojson",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/HUBqualified.geojson",
+                        "cartographic": false,
+                        "id": {
+                            "exists": false
+                        },
+                        "labels": {
+                            "exists": false
+                        },
+                        "polygons": {
+                            "exists": true,
+                            "polygonLayers": {
+                                "polygon1": {
+                                    "type": "singleColor",
+                                    "name": null,
+                                    "color": {
+                                        "alpha": 0.5,
+                                        "type": "rgb",
+                                        "rgb": {
+                                            "r": 0,
+                                            "g": 180,
+                                            "b": 0,
+                                            "a": 100
+                                        }
+                                    },
+                                    "material": "new Cesium.ColorMaterialProperty(color)",
+                                    "outlineColor": "Cesium.Color.WHITE",
+                                    "outlineWidth": 1
+                                }
+                            }
+                        },
+                        "rasters": {
+                            "exists": false
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
+                    },
+                    "HUB-redesignated": {
+                        "name": "HUB-qualified",
+                        "removeName": "HUBredesignated.geojson",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/HUBredesignated.geojson",
+                        "cartographic": false,
+                        "id": {
+                            "exists": false
+                        },
+                        "labels": {
+                            "exists": false
+                        },
+                        "polygons": {
+                            "exists": true,
+                            "polygonLayers": {
+                                "polygon1": {
+                                    "type": "singleColor",
+                                    "name": null,
+                                    "color": {
+                                        "alpha": 0.5,
+                                        "type": "rgb",
+                                        "rgb": {
+                                            "r": 107,
+                                            "g": 144,
+                                            "b": 198,
+                                            "a": 100
+                                        }
+                                    },
+                                    "material": "new Cesium.ColorMaterialProperty(color)",
+                                    "outlineColor": "Cesium.Color.WHITE",
+                                    "outlineWidth": 1
+                                }
+                            }
+                        },
+                        "rasters": {
+                            "exists": false
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
                     }
                 }
             }
