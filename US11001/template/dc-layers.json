@@ -2663,8 +2663,8 @@
                         },
                         "isActive": false,
                         "layerUsed": true,
-                        "hasLegend": false,
-                        "urlLegend": "",
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendGreatStreets.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/GSC.png",
                         "functions": {
                             "addFunctions": {
@@ -2749,8 +2749,8 @@
                         },
                         "isActive": false,
                         "layerUsed": true,
-                        "hasLegend": false,
-                        "urlLegend": "",
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendIRB.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HTD.png",
                         "functions": {
                             "addFunctions": {
