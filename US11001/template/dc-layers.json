@@ -2665,7 +2665,7 @@
                         "layerUsed": true,
                         "hasLegend": false,
                         "urlLegend": "",
-                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ART.png",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/GSC.png",
                         "functions": {
                             "addFunctions": {
                                 "func1": {
@@ -2794,7 +2794,7 @@
                         "layerUsed": true,
                         "hasLegend": true,
                         "urlLegend": "../../legends/layerLegendHUB.jade",
-                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HDN.png",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HUB.png",
                         "functions": {
                             "addFunctions": {
                                 "func1": {
