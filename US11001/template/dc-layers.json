@@ -2738,7 +2738,50 @@
                         },
                         "category": "3",
                         "subCategory": "1"
-                    }
+                    },
+                    "irb": {
+                        "id": 52,
+                        "displayName": "IRB",
+                        "mouseoverName": "IRB-Tax Exempt Bond Financing",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": false,
+                        "urlLegend": "",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HTD.png",
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "irb"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: IRB'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "irb"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "2",
+                        "subCategory": "1"
+                    },
                 }
             }
         }

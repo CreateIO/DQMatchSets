@@ -633,6 +633,40 @@
                             "exists": false
                         }
                     },
+                    "irb": {
+                        "name": "irb",
+                        "removeName": null,
+                        "url": null,
+                        "cartographic": false,
+                        "id": {
+                            "exists": false
+                        },
+                        "labels": {
+                            "exists": false
+                        },
+                        "polygons": {
+                            "exists": false
+                        },
+                        "rasters": {
+                            "exists": true,
+                            "rasterLayers": {
+                                "raster1": {
+                                    "name": "irb",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/IRB.png",
+                                    "xMin": -77.1227,
+                                    "yMin": 38.7908,
+                                    "xMax": -76.9084,
+                                    "yMax": 38.9970,
+                                    "alpha": 0.5,
+                                    "show": true,
+                                    "hasDropdown": false
+                                }
+                            }
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
+                    },
                     "HUB": {
                         "name": "HUB",
                         "removeName": "HUBlabels.geojson",
