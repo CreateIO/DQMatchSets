@@ -10,12 +10,23 @@ To add or change a template resource:
 5) Please be judicious with this command, as it will pull from github for every template request made (and there is a 5000 request per day limit)!
 6) When you are done, issue a pull request for your branch to merge with the baseline “test” branch.
 
-Files pushed into the template folder become immediately accessable in the dq-test.create.io server using the DQ/template HTTPS GET call.
-Files are normally cached locally on the server, but if that call includes "&cache=false", then a re-pull from the DQMatchSets repository
- will occur for each file accesed this way.
+Files pushed into the template folder and pushed to github become immediately accessable to both the dq-test.create.io,
+   and the dq-prod.create.io servers ON THE BRANCH pushed to or merged into (typically via a pull request).
 
-Note: the repository branch where pulls are made is currently set to 'master', but can be changed in the DQ server environment file (dq_env.sh)
+Note that template files are cached locally on each server...  If you make changes to an EXISTING template and you want
+   to see these changes show up on the DQ server, you must either
+   1) Run the create app locally with the command $ grunt serve:template=branch_name (where branch_name is the name of
+      the branch you are deploying to, and then execute the code that requires the template.  This option is typically
+      used during development, and is not recommended for final deployment to the servers.  To clear the cache for those,
+      use the following method:
+   2) To clear the cache on the test or prod servers for the github branch where you have pushed your changes to,
+      use the script (located in the top level of the DQMatchSets repository -- i.e. same location as this README file):
+         $ ./clear_cache branch_name
+      where "branch_name" is the name of the branch you have pushed your changes to.  This defaults to the dq-test server.
+      If you must clear the cache on the dq-prod server, add the optional server specifier:
+         $ ./clear_cache branch_name
 
-Example call to the DQ:
-https://dq-test.create.io/DQ/template?resource=tabs-&version=1.0.0  (normal, use local cache if available)
-https://dq-test.create.io/DQ/template?resource=tabs-&version=1.0.0&cache=false (do not use local cache, re-grab file from git repository
+
+Example call to the DQ for template data:
+https://dq-test.create.io/DQ/template?resource=tabs-&version=1.0.0&branch=test  (normal, use local cache if available)
+https://dq-test.create.io/DQ/template?resource=tabs-&version=1.0.0&cache=false&branch=test (do not use local cache, re-grab file from git repository
