@@ -926,10 +926,10 @@
                                         "z": 5
                                     },
                                     "NearFarScalar": {
-                                        "minElevation": 3000,
-                                        "maxElevation": 15000,
-                                        "minScale": 0.8,
-                                        "maxScale": 0.1
+                                        "minElevation": 4000,
+                                        "maxElevation": 12000,
+                                        "minScale": 0.7,
+                                        "maxScale": 0.0
                                     }
                                 }
                             }
