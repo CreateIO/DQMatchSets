@@ -37,7 +37,7 @@
                 "name": "Trepp",
                 "url": "trepp-general.html",
                 "hasCharts": false,
-                "deny":""
+                "deny":"Limited Monthly DC_Public_Access"
               },
               {
                 "name": "Zoning",
