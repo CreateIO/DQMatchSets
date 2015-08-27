@@ -31,7 +31,7 @@
                 "name": "Tenants",
                 "url": "infogroup.html",
                 "hasCharts": false,
-                "deny":"Limited Monthly DC_Public_Access"
+                "deny":"Limited Monthly DC_Public_Access beta_premium beta_freemium"
               },
               {
                 "name": "Zoning",
@@ -55,7 +55,7 @@
                 "name": "Build It!",
                 "url": "building_definition.html",
                 "hasCharts": false,
-                "deny": "Limited Monthly DC_Public_Access Premium"
+                "deny": "Limited Monthly DC_Public_Access Premium beta_premium beta_freemium"
               }
             ]
           },
@@ -66,7 +66,7 @@
                 "name": "Demographics",
                 "url": "ESRI.html",
                 "hasCharts": "false",
-                "deny":"Limited Monthly DC_Public_Access"
+                "deny":"Limited Monthly DC_Public_Access beta_premium beta_freemium"
               },
               {
                 "name": "Demographics",
