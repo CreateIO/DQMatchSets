@@ -5,7 +5,7 @@
       "description": "This is standard and default release",
       "template": {
         "tabs": [
-          {fr
+          {
             "id": "navProperty",
             "name": "Property",
             "tabs": [
