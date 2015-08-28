@@ -118,7 +118,7 @@
                 "name": "CMBS Loans",
                 "url": "financing.html",
                 "hasCharts": false,
-                "deny": ""
+                "deny": "Premium Demo beta-premium demo dev"
               },
               {
                 "id": "navDebt",
