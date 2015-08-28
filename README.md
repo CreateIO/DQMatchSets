@@ -21,10 +21,10 @@ Note that template files are cached locally on each server...  If you make chang
       use the following method:
    2) To clear the cache on the test or prod servers for the github branch where you have pushed your changes to,
       use the script (located in the top level of the DQMatchSets repository -- i.e. same location as this README file):
-         $ ./clear_cache branch_name
+         $ ./clear_cache.sh branch_name
       where "branch_name" is the name of the branch you have pushed your changes to.  This defaults to the dq-test server.
       If you must clear the cache on the dq-prod server, add the optional server specifier:
-         $ ./clear_cache branch_name
+         $ ./clear_cache.sh branch_name server=prod
 
 
 Example call to the DQ for template data:
