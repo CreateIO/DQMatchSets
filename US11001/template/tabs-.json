@@ -114,15 +114,15 @@
             "name": "Financing",
             "tabs": [
               {
-                "id": "navLoans",
-                "name": "CMBS Loans",
-                "url": "financing.html",
-                "hasCharts": false,
-                "deny": "Premium Demo beta-premium demo dev"
-              },
-              {
                 "id": "navDebt",
                 "name": "Debt",
+                "url": "financing.html",
+                "hasCharts": false,
+                "deny": ""
+              },
+              {
+                "id": "navLoans",
+                "name": "CMBS Loans",
                 "url": "financing.html",
                 "hasCharts": false,
                 "deny": ""
