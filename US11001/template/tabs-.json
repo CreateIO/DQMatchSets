@@ -36,12 +36,6 @@
                 "name": "Tenants",
                 "url": "infogroup.html",
                 "hasCharts": false,
-                "deny":"Limited Monthly DC_Public_Access beta_premium beta_freemium"
-              },
-              {
-                "name": "Trepp",
-                "url": "trepp-general.html",
-                "hasCharts": false,
                 "deny":"Limited Monthly DC_Public_Access"
               },
               {
@@ -70,7 +64,7 @@
                 "name": "Build It!",
                 "url": "building_definition.html",
                 "hasCharts": false,
-                "deny": "Limited Monthly DC_Public_Access Premium beta_premium beta_freemium"
+                "deny": "Limited Monthly DC_Public_Access Premium git stabeta-premium"
               }
             ]
           },
@@ -83,7 +77,7 @@
                 "name": "Demographics",
                 "url": "ESRI.html",
                 "hasCharts": "false",
-                "deny":"Limited Monthly DC_Public_Access beta_premium beta_freemium"
+                "deny":"Limited Monthly DC_Public_Access"
               },
               {
                 "id": "navDemographics",
