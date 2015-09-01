@@ -78,23 +78,11 @@
                 "name": "Demographics",
                 "url": "demographics.html",
                 "hasCharts": true,
-                "deny": "Premium Demo"
+                "deny": "Premium Demo beta_premium"
               },
               {
                 "name": "Economy",
                 "url": "economy.html",
-                "hasCharts": false,
-                "deny": ""
-              },
-              {
-                "name": "Apartment",
-                "url": "multi_family.html",
-                "hasCharts": false,
-                "deny": ""
-              },
-              {
-                "name": "Commercial",
-                "url": "office_market.html",
                 "hasCharts": false,
                 "deny": ""
               }
