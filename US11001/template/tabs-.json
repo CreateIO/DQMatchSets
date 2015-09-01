@@ -31,13 +31,13 @@
                 "name": "Tenants",
                 "url": "infogroup.html",
                 "hasCharts": false,
-                "deny":"Limited Monthly DC_Public_Access beta_premium beta_freemium"
+                "deny":"Limited Monthly DC_Public_Access beta_premium beta_freemium beta_fremium"
               },
               {
                 "name": "Trepp",
                 "url": "trepp-general.html",
                 "hasCharts": false,
-                "deny":"Limited Monthly DC_Public_Access"
+                "deny":"Limited Monthly DC_Public_Access Premium Freemium beta_premium beta_freemium beta_fremium"
               },
               {
                 "name": "Zoning",
@@ -61,7 +61,7 @@
                 "name": "Build It!",
                 "url": "building_definition.html",
                 "hasCharts": false,
-                "deny": "Limited Monthly DC_Public_Access Premium beta_premium beta_freemium"
+                "deny": "Limited Monthly DC_Public_Access Premium beta_premium beta_freemium beta_fremium"
               }
             ]
           },
@@ -72,7 +72,7 @@
                 "name": "Demographics",
                 "url": "ESRI.html",
                 "hasCharts": "false",
-                "deny":"Limited Monthly DC_Public_Access beta_premium beta_freemium"
+                "deny":"Limited Monthly DC_Public_Access beta_premium beta_freemium beta_fremium"
               },
               {
                 "name": "Demographics",
