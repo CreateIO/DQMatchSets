@@ -1067,7 +1067,7 @@
                     "wards2012": {
                         "name": "wards2012",
                         "removeName": "wards2012.geojson",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/wards2012.geojson",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/wards2012.geojson",
                         "cartographic": false,
                         "id": {
                             "exists": true,
