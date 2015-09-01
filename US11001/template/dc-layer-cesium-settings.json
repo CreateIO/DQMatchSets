@@ -1070,7 +1070,11 @@
                         "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/wards2012.geojson",
                         "cartographic": false,
                         "id": {
-                            "exists": false
+                            "exists": true,
+                            "objClass": "UserInfo",
+                            "id": "entity.properties.UNIQUEID",
+                            "name": "wardinfo",
+                            "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
                         },
                         "labels": {
                             "exists": true,
@@ -1710,7 +1714,8 @@
                             "exists": true,
                             "objClass": "UserInfo",
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_grocery_data"
+                            "name": "wdcep_grocery_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": true,
@@ -1777,9 +1782,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_subway_data"
+                            "name": "wdcep_subway_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": false
@@ -1819,9 +1825,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_potbelly_data"
+                            "name": "wdcep_potbelly_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": false
@@ -1861,9 +1868,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_movies_data"
+                            "name": "wdcep_movies_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": true,
@@ -1930,9 +1938,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_chipotle_data"
+                            "name": "wdcep_chipotle_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": false
@@ -2342,9 +2351,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_resi_com_data"
+                            "name": "wdcep_resi_com_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": false
@@ -2384,9 +2394,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_resi_pipeline_data"
+                            "name": "wdcep_resi_pipeline_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": false
@@ -2426,9 +2437,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_retail_com_data"
+                            "name": "wdcep_retail_com_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": false
@@ -2468,9 +2480,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_retail_pipeline_data"
+                            "name": "wdcep_retail_pipeline_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": false
@@ -2510,9 +2523,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_pharm_data"
+                            "name": "wdcep_pharm_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": true,
@@ -2579,9 +2593,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_711_data"
+                            "name": "wdcep_711_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": false
@@ -2621,9 +2636,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "retail_full"
+                            "name": "retail_full",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": false
@@ -2663,9 +2679,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "retail_marketable_data"
+                            "name": "retail_marketable_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": false
@@ -2740,9 +2757,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_neighborhoods_data"
+                            "name": "wdcep_neighborhoods_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": true,
