@@ -1071,6 +1071,7 @@
                         "cartographic": false,
                         "id": {
                             "exists": true,
+                            "poly": true,
                             "objClass": "UserInfo",
                             "id": "entity.properties.UNIQUEID",
                             "name": "wardinfo",
