@@ -291,54 +291,6 @@
                             "exists": false
                         }
                     },
-                    "zoning": {
-                        "name": "zoning",
-                        "removeName": "zoningLabels.geojson",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/zoningLabels.geojson",
-                        "cartographic": false,
-                        "id": {
-                            "exists": false
-                        },
-                        "labels": {
-                            "exists": true,
-                            "labelLayers": {
-                                "label1": {
-                                    "name": "zoningLabels",
-                                    "position": {
-                                        "x": "entity._properties.X",
-                                        "y": "entity._properties.Y",
-                                        "z": 20
-                                    },
-                                    "text": "entity.properties.ZONING",
-                                    "font": "13px sans-serif",
-                                    "fillColor": "Cesium.Color.WHITE",
-                                    "outlineColor": "Cesium.Color.BLACK",
-                                    "outlineWidth": 1,
-                                    "style": "Cesium.LabelStyle.FILL",
-                                    "pixelOffset": "Cesium.Cartesian2.ZERO",
-                                    "eyeOffset": "Cesium.Cartesian3.ZERO",
-                                    "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-                                    "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
-                                    "translucencyByDistance": {
-                                        "minElevation": 5000,
-                                        "maxElevation": 6000,
-                                        "minScale": 1.0,
-                                        "maxScale": 0.0
-                                    },
-                                    "scale": 1.0
-                                }
-                            }
-                        },
-                        "polygons": {
-                            "exists": false
-                        },
-                        "rasters": {
-                            "exists": false
-                        },
-                        "billboards": {
-                            "exists": false
-                        }
-                    },
                     "FEMAfloodZones": {
                         "name": "FEMAfloodZones",
                         "removeName": null,
@@ -2963,6 +2915,231 @@
                         },
                         "rasters": {
                             "exists": false
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
+                    },
+                    "DE-tot-pop": {
+                        "name": "DE-tot-pop",
+                        "removeName": null,
+                        "url": null,
+                        "cartographic": false,
+                        "id": {
+                            "exists": false
+                        },
+                        "labels": {
+                            "exists": false
+                        },
+                        "polygons": {
+                            "exists": false
+                        },
+                        "rasters": {
+                            "exists": true,
+                            "rasterLayers": {
+                                "raster1": {
+                                    "name": "tot-pop-top",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DE-pop-growth-top.png",
+                                    "xMin": -77.1208,
+                                    "yMin": 38.8929,
+                                    "xMax": -76.9086,
+                                    "yMax": 38.9965,
+                                    "alpha": 0.9,
+                                    "show": true,
+                                    "hasDropdown": false
+                                },
+                                "raster2": {
+                                    "name": "tot-pop-bottom",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DE-pop-growth-bottom.png",
+                                    "xMin": -77.0655,
+                                    "yMin": 38.7904,
+                                    "xMax": -76.9082,
+                                    "yMax": 38.8933,
+                                    "alpha": 0.9,
+                                    "show": true,
+                                    "hasDropdown": false
+                                }
+                            }
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
+                    },
+                    "DE-hh-income": {
+                        "name": "DE-hh-income",
+                        "removeName": null,
+                        "url": null,
+                        "cartographic": false,
+                        "id": {
+                            "exists": false
+                        },
+                        "labels": {
+                            "exists": false
+                        },
+                        "polygons": {
+                            "exists": false
+                        },
+                        "rasters": {
+                            "exists": true,
+                            "rasterLayers": {
+                                "raster1": {
+                                    "name": "hh-income-top",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DE-HHincome-growth-top.png",
+                                    "xMin": -77.1208,
+                                    "yMin": 38.8929,
+                                    "xMax": -76.9086,
+                                    "yMax": 38.9965,
+                                    "alpha": 0.9,
+                                    "show": true,
+                                    "hasDropdown": false
+                                },
+                                "raster2": {
+                                    "name": "hh-income-bottom",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DE-HHincome-growth-bottom.png",
+                                    "xMin": -77.0655,
+                                    "yMin": 38.7904,
+                                    "xMax": -76.9082,
+                                    "yMax": 38.8933,
+                                    "alpha": 0.9,
+                                    "show": true,
+                                    "hasDropdown": false
+                                }
+                            }
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
+                    },
+                    "DE-home-value": {
+                        "name": "DE-home-value",
+                        "removeName": null,
+                        "url": null,
+                        "cartographic": false,
+                        "id": {
+                            "exists": false
+                        },
+                        "labels": {
+                            "exists": false
+                        },
+                        "polygons": {
+                            "exists": false
+                        },
+                        "rasters": {
+                            "exists": true,
+                            "rasterLayers": {
+                                "raster1": {
+                                    "name": "home-value-top",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DE-home-value-growth-top.png",
+                                    "xMin": -77.1208,
+                                    "yMin": 38.8929,
+                                    "xMax": -76.9086,
+                                    "yMax": 38.9965,
+                                    "alpha": 0.9,
+                                    "show": true,
+                                    "hasDropdown": false
+                                },
+                                "raster2": {
+                                    "name": "home-value-bottom",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DE-home-value-growth-bottom.png",
+                                    "xMin": -77.0655,
+                                    "yMin": 38.7904,
+                                    "xMax": -76.9082,
+                                    "yMax": 38.8933,
+                                    "alpha": 0.9,
+                                    "show": true,
+                                    "hasDropdown": false
+                                }
+                            }
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
+                    },
+                    "DE-housing-units": {
+                        "name": "DE-housing-units",
+                        "removeName": null,
+                        "url": null,
+                        "cartographic": false,
+                        "id": {
+                            "exists": false
+                        },
+                        "labels": {
+                            "exists": false
+                        },
+                        "polygons": {
+                            "exists": false
+                        },
+                        "rasters": {
+                            "exists": true,
+                            "rasterLayers": {
+                                "raster1": {
+                                    "name": "housing-units-top",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DE-housing-units-growth-top.png",
+                                    "xMin": -77.1208,
+                                    "yMin": 38.8929,
+                                    "xMax": -76.9086,
+                                    "yMax": 38.9965,
+                                    "alpha": 0.9,
+                                    "show": true,
+                                    "hasDropdown": false
+                                },
+                                "raster2": {
+                                    "name": "housing-units-bottom",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DE-housing-units-growth-bottom.png",
+                                    "xMin": -77.0655,
+                                    "yMin": 38.7904,
+                                    "xMax": -76.9082,
+                                    "yMax": 38.8933,
+                                    "alpha": 0.9,
+                                    "show": true,
+                                    "hasDropdown": false
+                                }
+                            }
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
+                    },
+                    "DE-total-hh": {
+                        "name": "DE-total-hh",
+                        "removeName": null,
+                        "url": null,
+                        "cartographic": false,
+                        "id": {
+                            "exists": false
+                        },
+                        "labels": {
+                            "exists": false
+                        },
+                        "polygons": {
+                            "exists": false
+                        },
+                        "rasters": {
+                            "exists": true,
+                            "rasterLayers": {
+                                "raster1": {
+                                    "name": "total-hh-top",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DE-totHH-growth-top.png",
+                                    "xMin": -77.1208,
+                                    "yMin": 38.8929,
+                                    "xMax": -76.9086,
+                                    "yMax": 38.9965,
+                                    "alpha": 0.9,
+                                    "show": true,
+                                    "hasDropdown": false
+                                },
+                                "raster2": {
+                                    "name": "total-hh-bottom",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DE-totHH-growth-bottom.png",
+                                    "xMin": -77.0655,
+                                    "yMin": 38.7904,
+                                    "xMax": -76.9082,
+                                    "yMax": 38.8933,
+                                    "alpha": 0.9,
+                                    "show": true,
+                                    "hasDropdown": false
+                                }
+                            }
                         },
                         "billboards": {
                             "exists": false

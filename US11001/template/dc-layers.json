@@ -3077,33 +3077,31 @@
                         "urlLegend": "../../legends/layerLegendMetroBus.jade",
                         "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/MB.png",
                         "colors": {
-                            "type": "icon",
+                            "type": "?",
                             "hex": {
                             }
                         },
                         "functions": {
                             "addFunctions": { 
                                 "func1": {
-                                    "service": "mapOverlayService",
-                                    "functionName": "addLayer",
+                                    "service": "gltf3DService",
+                                    "functionName": "metroBusLayer",
                                     "parameters": {
-                                        "param1": "$scope",
-                                        "param2": "metroBus"
+                                        "param1": null
                                     }
                                 }
                             },
                             "piwikTrack": {
                                 "parameters": {
-                                    "param1": "'Data: Metro Bus Stops'"
+                                    "param1": "'Data: metro Bus'"
                                 }
                             },
                             "removeFunctions": {
                                 "func1": {
-                                    "service": "mapOverlayService",
-                                    "functionName": "removeLayer",
+                                    "service": "gltf3DService",
+                                    "functionName": "removeMetroBusLayer",
                                     "parameters": {
-                                        "param1": "$scope",
-                                        "param2": "metroBus"
+                                        "param1": null
                                     }
                                 }
                             }
