@@ -3104,6 +3104,14 @@
                                         "param1": null
                                     }
                                 }
+                            },
+                            "emits": {
+                                "emit1": {
+                                    "type": "add",
+                                    "parameters": {
+                                        "param1": "tileZoom"
+                                    }
+                                }
                             }
                         },
                         "category": "3",
@@ -3222,6 +3230,256 @@
                         },
                         "category": "2",
                         "subCategory": "1"
+                    },
+                    "Population Growth": {
+                        "id": 54,
+                        "displayName": "Population Growth",
+                        "mouseoverName": "Population Growth",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Limited"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendPopGrowth.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/EZ.png",
+                        "colors": {
+                            "type": "multi",
+                            "hex": {
+                                "hex1": "#fc8d62",
+                                "hex2": "#7570b3"
+                            }
+                        },
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "DE-tot-pop"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: geoenriched Population growth'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "DE-tot-pop"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "4"
+                    },
+                    "Households Growth": {
+                        "id": 55,
+                        "displayName": "Households Growth",
+                        "mouseoverName": "Total Households Growth",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Limited"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendTotalHouseholdsGrowth.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/EZ.png",
+                        "colors": {
+                            "type": "multi",
+                            "hex": {
+                                "hex1": "#fc8d62",
+                                "hex2": "#7570b3"
+                            }
+                        },
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "DE-total-hh"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: geoenriched Total Households growth'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "DE-total-hh"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "4"
+                    },
+                    "Household Income Growth": {
+                        "id": 56,
+                        "displayName": "Household Income Growth",
+                        "mouseoverName": "Total Household Income Growth",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Limited"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendTotalHouseholdIncomeGrowth.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/EZ.png",
+                        "colors": {
+                            "type": "multi",
+                            "hex": {
+                                "hex1": "#fc8d62",
+                                "hex2": "#7570b3"
+                            }
+                        },
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "DE-hh-income"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: geoenriched Total Household Income growth'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "DE-hh-income"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "4"
+                    },
+                    "Home Value Growth": {
+                        "id": 57,
+                        "displayName": "Home Value Growth",
+                        "mouseoverName": "Total Home Value Growth",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Limited"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendTotalHomeValueGrowth.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/EZ.png",
+                        "colors": {
+                            "type": "multi",
+                            "hex": {
+                                "hex1": "#fc8d62",
+                                "hex2": "#7570b3"
+                            }
+                        },
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "DE-home-value"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: geoenriched Total Home Value growth'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "DE-home-value"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "4"
+                    },
+                    "Housing Units Growth": {
+                        "id": 58,
+                        "displayName": "Housing Units Growth",
+                        "mouseoverName": "Total Housing Units Growth",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": "Limited"
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerLegendTotalHousingUnitsGrowth.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/EZ.png",
+                        "colors": {
+                            "type": "multi",
+                            "hex": {
+                                "hex1": "#fc8d62",
+                                "hex2": "#7570b3"
+                            }
+                        },
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "DE-housing-units"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: geoenriched Total Housing Units growth'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "DE-housing-units"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "1",
+                        "subCategory": "4"
                     }
                 }
             }
