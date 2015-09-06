@@ -718,11 +718,11 @@
                                         "alpha": 0.5,
                                         "assignments": {
                                             "color1": {
-                                                "field": "FINAL",
+                                                "field": "Final",
                                                 "hexValue": "#FFFF00"
                                             },
                                             "color2": {
-                                                "field": "PENDING",
+                                                "field": "Pending",
                                                 "hexValue": "#FF0730"
                                             }
                                         }
@@ -767,11 +767,11 @@
                                         "alpha": 0.5,
                                         "assignments": {
                                             "color1": {
-                                                "field": "FINAL",
+                                                "field": "Final",
                                                 "hexValue": "#FFFF00"
                                             },
                                             "color2": {
-                                                "field": "PENDING",
+                                                "field": "Pending",
                                                 "hexValue": "#FF0730"
                                             }
                                         }
