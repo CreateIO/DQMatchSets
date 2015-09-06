@@ -691,61 +691,102 @@
                             "exists": false
                         }
                     },
-                    "PUD": {
-                        "name": "PUD",
-                        "removeName": "PUDlabels.geojson",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/PUDlabels.geojson",
+                    "PUD1": {
+                        "name": "PUD1",
+                        "removeName": "PUD0915-basic-1.geojson",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/PUD0915-basic-1.geojson",
                         "cartographic": false,
                         "id": {
-                            "exists": false
+                            "exists": true,
+                            "poly": true,
+                            "objClass": "UserInfo",
+                            "id": "entity.properties.OBJECTID",
+                            "name": "PUD0915",
+                            "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
                         },
                         "labels": {
                             "exists": false
                         },
                         "polygons": {
-                            "exists": false
+                            "exists": true,
+                            "polygonLayers": {
+                                "polygon1": {
+                                    "type": "colorHash",
+                                    "name": "entity.properties.PUD_STATUS",
+                                    "color": {
+                                        "type": "random",
+                                        "alpha": 0.5,
+                                        "assignments": {
+                                            "color1": {
+                                                "field": "FINAL",
+                                                "hexValue": "#FFFF00"
+                                            },
+                                            "color2": {
+                                                "field": "PENDING",
+                                                "hexValue": "#FF0730"
+                                            }
+                                        }
+                                    },
+                                    "material": "new Cesium.ColorMaterialProperty(color)",
+                                    "outlineColor": "Cesium.Color.DODGERBLUE",
+                                    "outlineWidth": 2.0
+                                }
+                            }
                         },
                         "rasters": {
+                            "exists": false
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
+                    },
+                    "PUD2": {
+                        "name": "PUD2",
+                        "removeName": "PUD0915-basic-2.geojson",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/PUD0915-basic-2.geojson",
+                        "cartographic": false,
+                        "id": {
                             "exists": true,
-                            "rasterLayers": {
-                                "raster1": {
-                                    "name": "PUDtop",
-                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/PUDtop.png",
-                                    "xMin": -77.113,
-                                    "yMin": 38.8956,
-                                    "xMax": -76.9314,
-                                    "yMax": 38.9866,
-                                    "alpha": 0.8,
-                                    "show": true,
-                                    "hasDropdown": false
-                                },
-                                "raster2": {
-                                    "name": "PUDbottom",
-                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/PUDbottom.png",
-                                    "xMin": -77.0516,
-                                    "yMin": 38.8119,
-                                    "xMax": -76.9132,
-                                    "yMax": 38.8956,
-                                    "alpha": 0.8,
-                                    "show": true,
-                                    "hasDropdown": false
+                            "poly": true,
+                            "objClass": "UserInfo",
+                            "id": "entity.properties.OBJECTID",
+                            "name": "PUD0915",
+                            "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
+                        },
+                        "labels": {
+                            "exists": false
+                        },
+                        "polygons": {
+                            "exists": true,
+                            "polygonLayers": {
+                                "polygon1": {
+                                    "type": "colorHash",
+                                    "name": "entity.properties.PUD_STATUS",
+                                    "color": {
+                                        "type": "random",
+                                        "alpha": 0.5,
+                                        "assignments": {
+                                            "color1": {
+                                                "field": "FINAL",
+                                                "hexValue": "#FFFF00"
+                                            },
+                                            "color2": {
+                                                "field": "PENDING",
+                                                "hexValue": "#FF0730"
+                                            }
+                                        }
+                                    },
+                                    "material": "new Cesium.ColorMaterialProperty(color)",
+                                    "outlineColor": "Cesium.Color.DODGERBLUE",
+                                    "outlineWidth": 2.0
                                 }
                             }
                         },
+                        "rasters": {
+                            "exists": false
+                        },
                         "billboards": {
-                            "exists": true,
-                            "blankPolyLayer": true,
-                            "billboardLayers": {
-                                "billboard1": {
-                                    "type": "maki",
-                                    "NearFarScalar": {
-                                        "minElevation": 6000,
-                                        "maxElevation": 25000,
-                                        "minScale": 1.0,
-                                        "maxScale": 0.2
-                                    }
-                                }
-                            }
+                            "exists": false
                         }
                     },
                     "metroStationLabels": {

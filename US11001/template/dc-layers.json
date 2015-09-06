@@ -1664,7 +1664,15 @@
                                     "functionName": "addLayer",
                                     "parameters": {
                                         "param1": "$scope",
-                                        "param2": "PUD"
+                                        "param2": "PUD1"
+                                    }
+                                },
+                                "func2": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "PUD2"
                                     }
                                 }
                             },
@@ -1679,7 +1687,15 @@
                                     "functionName": "removeLayer",
                                     "parameters": {
                                         "param1": "$scope",
-                                        "param2": "PUD"
+                                        "param2": "PUD1"
+                                    }
+                                },
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "PUD2"
                                     }
                                 }
                             }
