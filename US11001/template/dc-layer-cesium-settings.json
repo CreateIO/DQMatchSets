@@ -701,7 +701,7 @@
                             "poly": true,
                             "objClass": "UserInfo",
                             "id": "entity.properties.UNIQUEID",
-                            "name": "PUD0915",
+                            "name": "pudinfo",
                             "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
                         },
                         "labels": {
@@ -750,7 +750,7 @@
                             "poly": true,
                             "objClass": "UserInfo",
                             "id": "entity.properties.UNIQUEID",
-                            "name": "PUD0915",
+                            "name": "pudinfo",
                             "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
                         },
                         "labels": {
