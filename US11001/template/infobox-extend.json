@@ -674,7 +674,7 @@
                         },
                         "viewDetailsBox":false,
                         "wdcepDetailsBox":false,
-                        "header":"location",
+                        "header":"PUD_NAME",
                         "boxValues":{  
                             "field1":{  
                                 "value":"PUD_ZONING",
