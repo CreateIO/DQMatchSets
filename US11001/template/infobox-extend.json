@@ -240,7 +240,7 @@
                         },
                         "viewDetailsBox":false,
                         "wdcepDetailsBox":false,
-                        "header":"location",
+                        "header":"PUD_NAME",
                         "boxValues":{  
                             "field1":{  
                                 "value":"label",
@@ -625,14 +625,8 @@
                         },
                         "viewDetailsBox":false,
                         "wdcepDetailsBox":false,
-                        "header":"location",
+                        "header":"NAME",
                         "boxValues":{  
-                            "field1":{  
-                                "value":"NAME",
-                                "display":"Name: ",
-                                "fieldtype":"text",
-                                "units":null
-                            },
                             "field2":{  
                                 "value":"REP_NAME",
                                 "display":"Status: ",
@@ -663,6 +657,49 @@
                                 "fieldtype":"text",
                                 "units":null
                             }   
+                        }
+                    },
+                    "pudinfo":{  
+                        "referenceid":"OBJECTID",
+                        "propertyid":"OBJECTID",
+                        "offset":157,
+                        "fieldtype":"business",
+                        "photos":{  
+                            "active":false,
+                            "value":null
+                        },
+                        "pdfs":{  
+                            "active":false,
+                            "value":null
+                        },
+                        "viewDetailsBox":false,
+                        "wdcepDetailsBox":false,
+                        "header":"location",
+                        "boxValues":{  
+                            "field1":{  
+                                "value":"PUD_ZONING",
+                                "display":"PUD Zoning: ",
+                                "fieldtype":"text",
+                                "units":null
+                            },
+                            "field2":{  
+                                "value":"PUD_STATUS",
+                                "display":"Status: ",
+                                "fieldtype":"text",
+                                "units":null
+                            },
+                            "field3":{  
+                                "value":"PUD_CASE_N",
+                                "display":"Site: ",
+                                "fieldtype":"text",
+                                "units":null
+                            },
+                            "field4":{  
+                                "value":"PUD_CHANGE",
+                                "display":"PUD Change: ",
+                                "fieldtype":"text",
+                                "units":null
+                            }
                         }
                     }
                 }
