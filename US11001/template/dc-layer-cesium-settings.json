@@ -700,7 +700,7 @@
                             "exists": true,
                             "poly": true,
                             "objClass": "UserInfo",
-                            "id": "entity.properties.OBJECTID",
+                            "id": "entity.properties.UNIQUEID",
                             "name": "PUD0915",
                             "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
                         },
@@ -749,7 +749,7 @@
                             "exists": true,
                             "poly": true,
                             "objClass": "UserInfo",
-                            "id": "entity.properties.OBJECTID",
+                            "id": "entity.properties.UNIQUEID",
                             "name": "PUD0915",
                             "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
                         },
