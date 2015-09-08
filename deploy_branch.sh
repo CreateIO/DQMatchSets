@@ -8,6 +8,9 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 BASEDIR="$DIR/../create"
 
+echo $DIR
+echo $BASEDIR
+
 branch=${1:-}
 
 git co -b $branch
