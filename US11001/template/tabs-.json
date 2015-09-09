@@ -22,10 +22,22 @@
                 "deny": ""
               },
               {
-                "name": "Tenants",
+                "name": "Listings",
                 "url": "tenant.html",
                 "hasCharts": true,
-                "deny":"Limited Monthly"
+                "deny":""
+              },
+              {
+                "name": "Tenants",
+                "url": "infogroup.html",
+                "hasCharts": false,
+                "deny":"Limited Monthly DC_Public_Access beta_premium beta_freemium beta_fremium Premium Monthly Premium Yearly"
+              },
+              {
+                "name": "Trepp",
+                "url": "trepp-general.html",
+                "hasCharts": false,
+                "deny":"Limited Monthly DC_Public_Access Premium Freemium beta_premium beta_freemium beta_fremium Premium Monthly Premium Yearly"
               },
               {
                 "name": "Zoning",
@@ -40,21 +52,22 @@
                 "deny": ""
               },
               {
+                "name": "Incentives",
+                "url": "incentives.html",
+                "hasCharts": false,
+                "deny": ""
+              },
+              {
                 "name": "Transit",
                 "url": "transportation.html",
                 "hasCharts": false,
                 "deny": ""
               },
-   	          {
-                "name": "ESRI", "url": "ESRI.html",
-                "hasCharts": "false",
-                "deny":"Limited Monthly DC_Public_Access"
-              },
               {
                 "name": "Build It!",
                 "url": "building_definition.html",
                 "hasCharts": false,
-                "deny": "Limited Monthly DC_Public_Access"
+                "deny": "Limited Monthly DC_Public_Access Premium beta_premium beta_freemium beta_fremium"
               }
             ]
           },
@@ -63,8 +76,8 @@
             "tabs": [
               {
                 "name": "Demographics",
-                "url": "demographics.html",
-                "hasCharts": true,
+                "url": "ESRI.html",
+                "hasCharts": "false",
                 "deny": ""
               },
               {
@@ -72,24 +85,6 @@
                 "url": "economy.html",
                 "hasCharts": false,
                 "deny": ""
-              },
-              {
-                "name": "Apartment",
-                "url": "multi_family.html",
-                "hasCharts": false,
-                "deny": ""
-              },
-              {
-                "name": "Commercial",
-                "url": "office_market.html",
-                "hasCharts": false,
-                "deny": ""
-              },
-              {
-                "name": "History",
-                "url": "office_market_history.html",
-                "hasCharts": false,
-                "deny": "Limited Monthly DC_Public_Access"
               }
             ]
           },
@@ -105,12 +100,6 @@
               {
                 "name": "Equity",
                 "url": "equity.html",
-                "hasCharts": false,
-                "deny": ""
-              },
-              {
-                "name": "Incentives",
-                "url": "incentives.html",
                 "hasCharts": false,
                 "deny": ""
               }

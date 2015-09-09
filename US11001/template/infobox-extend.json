@@ -609,6 +609,61 @@
                                 "units":null
                             }
                         }
+                    },
+                    "wardinfo":{  
+                        "referenceid":"UNIQUEID",
+                        "propertyid":"UNIQUEID",
+                        "offset":157,
+                        "fieldtype":"business",
+                        "photos":{  
+                            "active":false,
+                            "value":null
+                        },
+                        "pdfs":{  
+                            "active":false,
+                            "value":null
+                        },
+                        "viewDetailsBox":false,
+                        "wdcepDetailsBox":false,
+                        "header":"location",
+                        "boxValues":{  
+                            "field1":{  
+                                "value":"NAME",
+                                "display":"Name: ",
+                                "fieldtype":"text",
+                                "units":null
+                            },
+                            "field2":{  
+                                "value":"REP_NAME",
+                                "display":"Status: ",
+                                "fieldtype":"text",
+                                "units":null
+                            },
+                            "field3":{  
+                                "value":"URL",
+                                "display":"Site: ",
+                                "fieldtype":"text",
+                                "units":null
+                            },
+                            "field4":{  
+                                "value":"REP_PHONE",
+                                "display":"Phone: ",
+                                "fieldtype":"text",
+                                "units":null
+                            },
+                            "field5":{  
+                                "value":"REP_EMAIL",
+                                "display":"Email: ",
+                                "fieldtype":"text",
+                                "units":null
+                            },
+                            "field6":{  
+                                "value":"REP_OFFICE",
+                                "display":"Office: ",
+                                "fieldtype":"text",
+                                "units":null
+                            }   
+                        }
                     }
                 }
             }
