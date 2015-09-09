@@ -3523,6 +3523,14 @@
                                     "functionName": "addLayer",
                                     "parameters": {
                                         "param1": "$scope",
+                                        "param2": "comm-sub-label"
+                                    }
+                                },
+                                "func2": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
                                         "param2": "comm-sub"
                                     }
                                 }
@@ -3534,6 +3542,14 @@
                             },
                             "removeFunctions": {
                                 "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "comm-sub-label"
+                                    }
+                                },
+                                "func2": {
                                     "service": "mapOverlayService",
                                     "functionName": "removeLayer",
                                     "parameters": {

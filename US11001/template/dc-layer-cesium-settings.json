@@ -3195,34 +3195,7 @@
                             "exists": false
                         },
                         "labels": {
-                            "exists": true,
-                            "labelLayers": {
-                                "label1": {
-                                    "name": "submarket",
-                                    "position": {
-                                        "x": "entity._properties.Xcoord",
-                                        "y": "entity._properties.Ycoord",
-                                        "z": 400
-                                    },
-                                    "text": "entity._properties.submarket",
-                                    "font": "22px sans-serif",
-                                    "fillColor": "Cesium.Color.WHITE",
-                                    "outlineColor": "Cesium.Color.BLACK",
-                                    "outlineWidth": 1,
-                                    "style": "Cesium.LabelStyle.FILL",
-                                    "pixelOffset": "Cesium.Cartesian2.ZERO",
-                                    "eyeOffset": "Cesium.Cartesian3.ZERO",
-                                    "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-                                    "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
-                                    "translucencyByDistance": {
-                                        "minElevation": 50000,
-                                        "maxElevation": 80000,
-                                        "minScale": 1.0,
-                                        "maxScale": 0.0
-                                    },
-                                    "scale": 1.0
-                                }
-                            }
+                            "exists": false
                         },
                         "polygons": {
                             "exists": true,
@@ -3241,10 +3214,58 @@
                                         }
                                     },
                                     "material": "new Cesium.ColorMaterialProperty(color)",
-                                    "outlineColor": "Cesium.Color.SKYBLUE",
+                                    "outlineColor": "Cesium.Color.ORANGE",
                                     "outlineWidth": 4.0
                                 }
                             }
+                        },
+                        "rasters": {
+                            "exists": false
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
+                    },
+                    "comm-sub-label": {
+                        "name": "comm-sub-label",
+                        "removeName": "commercialSubMLabel.geojson",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/commercialSubMLabel.geojson",
+                        "cartographic": false,
+                        "id": {
+                            "exists": false
+                        },
+                        "labels": {
+                            "exists": true,
+                            "labelLayers": {
+                                "label1": {
+                                    "name": "submarket",
+                                    "position": {
+                                        "x": "entity._properties.Xcoord",
+                                        "y": "entity._properties.Ycoord",
+                                        "z": 400
+                                    },
+                                    "text": "entity._properties.submarket",
+                                    "font": "16px sans-serif",
+                                    "fillColor": "Cesium.Color.WHITE",
+                                    "outlineColor": "Cesium.Color.BLACK",
+                                    "outlineWidth": 1,
+                                    "style": "Cesium.LabelStyle.FILL",
+                                    "pixelOffset": "Cesium.Cartesian2.ZERO",
+                                    "eyeOffset": "Cesium.Cartesian3.ZERO",
+                                    "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
+                                    "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
+                                    "translucencyByDistance": {
+                                        "minElevation": 40000,
+                                        "maxElevation": 60000,
+                                        "minScale": 1.0,
+                                        "maxScale": 0.0
+                                    },
+                                    "scale": 1.0
+                                }
+                            }
+                        },
+                        "polygons": {
+                            "exists": false
                         },
                         "rasters": {
                             "exists": false
