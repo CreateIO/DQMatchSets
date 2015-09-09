@@ -789,43 +789,20 @@
                             "exists": false
                         }
                     },
-                    "metroStationLabels": {
-                        "name": "metroStationLabels",
-                        "removeName": "metroStationsNP.geojson",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/metroStationsNP.geojson",
-                        "cartographic": false,
+                    "metroStationbox": {
+                        "name": "metroStationbox",
+                        "removeName": "metroStationsDistrict.geojson",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/metroStationsDistrict.geojson",
+                        "cartographic": true,
                         "id": {
-                            "exists": false
+                            "exists": true,
+                            "objClass": "UserInfo",
+                            "id": "entity.properties.UNIQUEID",
+                            "name": "metroStationsDistrict",
+                            "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
                         },
                         "labels": {
-                            "exists": true,
-                            "labelLayers": {
-                                "label1": {
-                                    "name": "metrolabels",
-                                    "position": {
-                                        "x": "entity._properties.X",
-                                        "y": "entity._properties.Y",
-                                        "z": 30
-                                    },
-                                    "text": "entity.properties.NAME",
-                                    "font": "14px sans-serif",
-                                    "fillColor": "Cesium.Color.WHITE",
-                                    "outlineColor": "Cesium.Color.BLACK",
-                                    "outlineWidth": 1,
-                                    "style": "Cesium.LabelStyle.FILL",
-                                    "pixelOffset": "Cesium.Cartesian2.ZERO",
-                                    "eyeOffset": "Cesium.Cartesian3.ZERO",
-                                    "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-                                    "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
-                                    "translucencyByDistance": {
-                                        "minElevation": 8000,
-                                        "maxElevation": 9000,
-                                        "minScale": 1.0,
-                                        "maxScale": 0.0
-                                    },
-                                    "scale": 1.0
-                                }
-                            }
+                            "exists": false
                         },
                         "polygons": {
                             "exists": false
@@ -834,7 +811,25 @@
                             "exists": false
                         },
                         "billboards": {
-                            "exists": false
+                            "exists": true,
+                            "billboardLayers": {
+                                "billboard1": {
+                                    "type": "custom",
+                                    "name": "stationbillboards",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metro.png",
+                                    "position": {
+                                        "x": "entity.coordinates[0]",
+                                        "y": "entity.coordinates[1]",
+                                        "z": 20
+                                    },
+                                    "NearFarScalar": {
+                                        "minElevation": 3000,
+                                        "maxElevation": 4000,
+                                        "minScale": 1.0,
+                                        "maxScale": 0.0
+                                    }
+                                }
+                            }
                         }
                     },
                     "metroRailAndStations": {

@@ -1970,7 +1970,7 @@
                                     "functionName": "addLayer",
                                     "parameters": {
                                         "param1": "$scope",
-                                        "param2": "metroStationLabels"
+                                        "param2": "metroStationbox"
                                     }
                                 }
                             },
@@ -1993,7 +1993,7 @@
                                     "functionName": "removeLayer",
                                     "parameters": {
                                         "param1": "$scope",
-                                        "param2": "metroStationLabels"
+                                        "param2": "metroStationbox"
                                     }
                                 }
                             }
