@@ -797,7 +797,7 @@
                         "id": {
                             "exists": true,
                             "objClass": "UserInfo",
-                            "id": "entity.properties.OBJECTID",
+                            "id": "entity.properties.UNIQUEID",
                             "name": "metroStationsDistrict",
                             "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
                         },
