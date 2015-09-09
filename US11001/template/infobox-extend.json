@@ -703,8 +703,8 @@
                         }
                     },
                     "metroStationsDistrict":{  
-                        "referenceid":"UNIQUEID",
-                        "propertyid":"UNIQUEID",
+                        "referenceid":"OBJECTID",
+                        "propertyid":"OBJECTID",
                         "offset":157,
                         "fieldtype":"business",
                         "photos":{  
