@@ -3259,7 +3259,7 @@
                         "layerUsed": true,
                         "hasLegend": true,
                         "urlLegend": "../../legends/layerLegendPopGrowth.jade",
-                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/EZ.png",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/esri/PG.png",
                         "colors": {
                             "type": "multi",
                             "hex": {
@@ -3309,7 +3309,7 @@
                         "layerUsed": true,
                         "hasLegend": true,
                         "urlLegend": "../../legends/layerLegendTotalHouseholdsGrowth.jade",
-                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/EZ.png",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/esri/THG.png",
                         "colors": {
                             "type": "multi",
                             "hex": {
@@ -3359,7 +3359,7 @@
                         "layerUsed": true,
                         "hasLegend": true,
                         "urlLegend": "../../legends/layerLegendTotalHouseholdIncomeGrowth.jade",
-                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/EZ.png",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/esri/THI.png",
                         "colors": {
                             "type": "multi",
                             "hex": {
@@ -3409,7 +3409,7 @@
                         "layerUsed": true,
                         "hasLegend": true,
                         "urlLegend": "../../legends/layerLegendTotalHomeValueGrowth.jade",
-                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/EZ.png",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/esri/THV.png",
                         "colors": {
                             "type": "multi",
                             "hex": {
@@ -3459,7 +3459,7 @@
                         "layerUsed": true,
                         "hasLegend": true,
                         "urlLegend": "../../legends/layerLegendTotalHousingUnitsGrowth.jade",
-                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/EZ.png",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/esri/THU.png",
                         "colors": {
                             "type": "multi",
                             "hex": {
