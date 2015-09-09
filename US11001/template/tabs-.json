@@ -31,13 +31,13 @@
                 "name": "Tenants",
                 "url": "infogroup.html",
                 "hasCharts": false,
-                "deny":"Limited Monthly DC_Public_Access beta_premium beta_freemium beta_fremium"
+                "deny":"Limited Monthly DC_Public_Access beta_premium beta_freemium beta_fremium Premium Monthly Premium Yearly"
               },
               {
                 "name": "Trepp",
                 "url": "trepp-general.html",
                 "hasCharts": false,
-                "deny":"Limited Monthly DC_Public_Access Premium Freemium beta_premium beta_freemium beta_fremium"
+                "deny":"Limited Monthly DC_Public_Access Premium Freemium beta_premium beta_freemium beta_fremium Premium Monthly Premium Yearly"
               },
               {
                 "name": "Zoning",
@@ -49,6 +49,12 @@
                 "name": "Planning",
                 "url": "planning.html",
                 "hasCharts": true,
+                "deny": ""
+              },
+              {
+                "name": "Incentives",
+                "url": "incentives.html",
+                "hasCharts": false,
                 "deny": ""
               },
               {
@@ -72,13 +78,7 @@
                 "name": "Demographics",
                 "url": "ESRI.html",
                 "hasCharts": "false",
-                "deny":"Limited Monthly DC_Public_Access beta_premium beta_freemium beta_fremium"
-              },
-              {
-                "name": "Demographics",
-                "url": "demographics.html",
-                "hasCharts": true,
-                "deny": "Premium Demo beta_premium"
+                "deny": ""
               },
               {
                 "name": "Economy",
@@ -100,12 +100,6 @@
               {
                 "name": "Equity",
                 "url": "equity.html",
-                "hasCharts": false,
-                "deny": ""
-              },
-              {
-                "name": "Incentives",
-                "url": "incentives.html",
                 "hasCharts": false,
                 "deny": ""
               }
