@@ -3185,6 +3185,73 @@
                         "billboards": {
                             "exists": false
                         }
+                    },
+                    "comm-sub": {
+                        "name": "comm-sub",
+                        "removeName": "commSubLabel.geojson",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/commSubLabel.geojson",
+                        "cartographic": true,
+                        "id": {
+                            "exists": false
+                        },
+                        "labels": {
+                            "exists": true,
+                            "labelLayers": {
+                                "label1": {
+                                    "name": "submarket",
+                                    "position": {
+                                        "x": "entity._properties.Xcoord",
+                                        "y": "entity._properties.Ycoord",
+                                        "z": 400
+                                    },
+                                    "text": "entity._properties.submarket",
+                                    "font": "22px sans-serif",
+                                    "fillColor": "Cesium.Color.WHITE",
+                                    "outlineColor": "Cesium.Color.BLACK",
+                                    "outlineWidth": 1,
+                                    "style": "Cesium.LabelStyle.FILL",
+                                    "pixelOffset": "Cesium.Cartesian2.ZERO",
+                                    "eyeOffset": "Cesium.Cartesian3.ZERO",
+                                    "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
+                                    "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
+                                    "translucencyByDistance": {
+                                        "minElevation": 50000,
+                                        "maxElevation": 80000,
+                                        "minScale": 1.0,
+                                        "maxScale": 0.0
+                                    },
+                                    "scale": 1.0
+                                }
+                            }
+                        },
+                        "polygons": {
+                            "exists": true,
+                            "polygonLayers": {
+                                "polygon1": {
+                                    "type": "singleColor",
+                                    "name": null,
+                                    "color": {
+                                        "alpha": 0.0,
+                                        "type": "rgb",
+                                        "rgb": {
+                                            "r": 136,
+                                            "g": 176,
+                                            "b": 204,
+                                            "a": 0
+                                        }
+                                    },
+                                    "material": "new Cesium.ColorMaterialProperty(color)",
+                                    "outlineColor": "Cesium.Color.SKYBLUE",
+                                    "outlineWidth": 4.0
+                                }
+                            }
+                        },
+                        "rasters": {
+                            "exists": false
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
                     }
                 }
             }

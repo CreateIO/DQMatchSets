@@ -3496,6 +3496,55 @@
                         },
                         "category": "1",
                         "subCategory": "4"
+                    },
+                    "Commercial Submarkets": {
+                        "id": 59,
+                        "displayName": "Commercial Submarkets",
+                        "mouseoverName": "Commercial Submarkets",
+                        "denyToggle": false,
+                        "denyList": {
+                            "denyList1": null
+                        },
+                        "isActive": false,
+                        "layerUsed": true,
+                        "hasLegend": true,
+                        "urlLegend": "../../legends/layerCommercialSub.jade",
+                        "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/CS.png",
+                        "colors": {
+                            "type": "outline",
+                            "hex": {
+                                "hex1": "#88B0CC"
+                            }
+                        },
+                        "functions": {
+                            "addFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "addLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "comm-sub"
+                                    }
+                                }
+                            },
+                            "piwikTrack": {
+                                "parameters": {
+                                    "param1": "'Data: Commercial Submarkets'"
+                                }
+                            },
+                            "removeFunctions": {
+                                "func1": {
+                                    "service": "mapOverlayService",
+                                    "functionName": "removeLayer",
+                                    "parameters": {
+                                        "param1": "$scope",
+                                        "param2": "comm-sub"
+                                    }
+                                }
+                            }
+                        },
+                        "category": "3",
+                        "subCategory": "1"
                     }
                 }
             }
