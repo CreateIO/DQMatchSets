@@ -816,10 +816,10 @@
                                 "billboard1": {
                                     "type": "custom",
                                     "name": "stationbillboards",
-                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metro.png",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/maki/metroStation.png",
                                     "position": {
-                                        "x": "entity.coordinates[0]",
-                                        "y": "entity.coordinates[1]",
+                                        "x": "entity._coordinates[0]",
+                                        "y": "entity._coordinates[1]",
                                         "z": 20
                                     },
                                     "NearFarScalar": {
