@@ -818,8 +818,8 @@
                                     "name": "stationbillboards",
                                     "url": "https://s3.amazonaws.com/models-dc/geoJSON/maki/metroStation.png",
                                     "position": {
-                                        "x": "entity._coordinates[0]",
-                                        "y": "entity._coordinates[1]",
+                                        "x": "entity._properties.XCOORD",
+                                        "y": "entity._properties.YCOORD",
                                         "z": 20
                                     },
                                     "NearFarScalar": {
