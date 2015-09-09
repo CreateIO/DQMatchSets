@@ -3190,7 +3190,7 @@
                         "name": "comm-sub",
                         "removeName": "commSubLabel.geojson",
                         "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/commSubLabel.geojson",
-                        "cartographic": true,
+                        "cartographic": false,
                         "id": {
                             "exists": false
                         },
