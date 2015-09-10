@@ -73,7 +73,8 @@
                             }
                         },
                         "category": "1",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 1
                     },
                     "Planned Unit Development": {
                         "id": 27,
@@ -138,7 +139,8 @@
                             }
                         },
                         "category": "1",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 2
                     },
                     "Transfer of Development Rights": {
                         "id": 0,
@@ -192,7 +194,8 @@
                             }
                         },
                         "category": "1",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 3
                     },
                     "Property Types": {
                         "id": 48,
@@ -238,7 +241,8 @@
                             }
                         },
                         "category": "1",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 4
                     },
                     "Overlays - Arts": {
                         "id": 24,
@@ -287,7 +291,8 @@
                             }
                         },
                         "category": "1",
-                        "subCategory": "2"
+                        "subCategory": "2",
+                        "order": 1
                     },
                     "Overlays - Government & Diplomatic": {
                         "id": 19,
@@ -336,7 +341,8 @@
                             }
                         },
                         "category": "1",
-                        "subCategory": "2"
+                        "subCategory": "2",
+                        "order": 2
                     },
                     "Overlays - Hotels": {
                         "id": 23,
@@ -386,7 +392,8 @@
                             }
                         },
                         "category": "1",
-                        "subCategory": "2"
+                        "subCategory": "2",
+                        "order": 3
                     },
                     "Overlays - Mixed Use": {
                         "id": 22,
@@ -435,7 +442,8 @@
                             }
                         },
                         "category": "1",
-                        "subCategory": "2"
+                        "subCategory": "2",
+                        "order": 4
                     },
                     "Overlays - Neighborhood Commercial": {
                         "id": 21,
@@ -484,7 +492,8 @@
                             }
                         },
                         "category": "1",
-                        "subCategory": "2"
+                        "subCategory": "2",
+                        "order": 5
                     },
                     "Overlays - Open Space": {
                         "id": 20,
@@ -534,7 +543,8 @@
                             }
                         },
                         "category": "1",
-                        "subCategory": "2"
+                        "subCategory": "2",
+                        "order": 6
                     },
                     "Historic Districts - Corridors": {
                         "id": 17,
@@ -599,7 +609,8 @@
                             }
                         },
                         "category": "1",
-                        "subCategory": "3"
+                        "subCategory": "3",
+                        "order": 1
                     },
                     "Historic Districts - Institutions": {
                         "id": 18,
@@ -664,7 +675,8 @@
                             }
                         },
                         "category": "1",
-                        "subCategory": "3"
+                        "subCategory": "3",
+                        "order": 2
                     },
                     "Historic Districts - Neighborhoods": {
                         "id": 16,
@@ -729,7 +741,8 @@
                             }
                         },
                         "category": "1",
-                        "subCategory": "3"
+                        "subCategory": "3",
+                        "order": 3
                     },
                     "Historic Districts - Parks": {
                         "id": 18,
@@ -794,7 +807,8 @@
                             }
                         },
                         "category": "1",
-                        "subCategory": "3"
+                        "subCategory": "3",
+                        "order": 4
                     },
                     "Retail Density Heatmap": {
                         "id": 41,
@@ -847,7 +861,8 @@
                             }
                         },
                         "category": "1",
-                        "subCategory": "4"
+                        "subCategory": "4",
+                        "order": 1
                     },
                     "Office Density Heatmap": {
                         "id": 40,
@@ -900,7 +915,8 @@
                             }
                         },
                         "category": "1",
-                        "subCategory": "4"
+                        "subCategory": "4",
+                        "order": 2
                     },
                     "Residential Density Heatmap": {
                         "id": 39,
@@ -953,7 +969,8 @@
                             }
                         },
                         "category": "1",
-                        "subCategory": "4"
+                        "subCategory": "4",
+                        "order": 3
                     },
                     "FEMA Flood Zones": {
                         "id": 1,
@@ -1004,7 +1021,8 @@
                             }
                         },
                         "category": "1",
-                        "subCategory": "5"
+                        "subCategory": "5",
+                        "order": 1
                     },
                     "Coastal Surge": {
                         "id": 36,
@@ -1055,7 +1073,8 @@
                             }
                         },
                         "category": "1",
-                        "subCategory": "5"
+                        "subCategory": "5",
+                        "order": 2
                     },
                     "Zillow Neighborhoods": {
                         "id": 38,
@@ -1120,7 +1139,8 @@
                             }
                         },
                         "category": "2",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 1
                     },
                     "Commercial Submarkets": {
                         "id": 59,
@@ -1185,7 +1205,8 @@
                             }
                         },
                         "category": "2",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 2
                     },
                     "Neighborhood Profiles (WDCEP)": {
                         "id": 4,
@@ -1241,7 +1262,8 @@
                             }
                         },
                         "category": "2",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 3
                     },
                     "Campus Area Zones": {
                         "id": 3,
@@ -1297,7 +1319,8 @@
                             }
                         },
                         "category": "2",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 4
                     },
                     "Census Tracts": {
                         "id": 37,
@@ -1362,7 +1385,8 @@
                             }
                         },
                         "category": "2",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 5
                     },
                     "Wards 2012": {
                         "id": 45,
@@ -1420,7 +1444,8 @@
                             }
                         },
                         "category": "2",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 6
                     },
                     "Single Member Districts": {
                         "id": 46,
@@ -1472,7 +1497,8 @@
                             }
                         },
                         "category": "2",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 7
                     },
                     "Metrorail Lines & Stations": {
                         "id": 30,
@@ -1542,7 +1568,8 @@
                             }
                         },
                         "category": "2",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 8
                     },
                     "Metro Bus Stops": {
                         "id": 51,
@@ -1596,7 +1623,8 @@
                             }
                         },
                         "category": "2",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 9
                     },
                     "Grocery Stores (WDCEP)": {
                         "id": 29,
@@ -1652,7 +1680,8 @@
                             }
                         },
                         "category": "2",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 10
                     },
                     "Pharmacies (WDCEP)": {
                         "id": 28,
@@ -1708,7 +1737,8 @@
                             }
                         },
                         "category": "2",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 11
                     },
                     "Movie Theatres (WDCEP)": {
                         "id": 13,
@@ -1764,7 +1794,8 @@
                             }
                         },
                         "category": "2",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 12
                     },
                     "Available Retail Sites (WDCEP)": {
                         "id": 10,
@@ -1820,7 +1851,8 @@
                             }
                         },
                         "category": "3",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 1
                     },
                     "WDCEP Development Site Plans": {
                         "id": 49,
@@ -1876,7 +1908,8 @@
                             }
                         },
                         "category": "3",
-                        "subCategory": "2"
+                        "subCategory": "2",
+                        "order": 1
                     },
                     "Residential Pipeline Projects (WDCEP)": {
                         "id": 8,
@@ -1952,7 +1985,8 @@
                             }
                         },
                         "category": "3",
-                        "subCategory": "2"
+                        "subCategory": "2",
+                        "order": 2
                     },
                     "Residential Completed Projects (WDCEP)": {
                         "id": 9,
@@ -2028,7 +2062,8 @@
                             }
                         },
                         "category": "3",
-                        "subCategory": "2"
+                        "subCategory": "2",
+                        "order": 3
                     },
                     "Retail Pipeline Projects (WDCEP)": {
                         "id": 6,
@@ -2104,7 +2139,8 @@
                             }
                         },
                         "category": "3",
-                        "subCategory": "2"
+                        "subCategory": "2",
+                        "order": 4
                     },
                     "Retail Completed Projects (WDCEP)": {
                         "id": 7,
@@ -2180,7 +2216,8 @@
                             }
                         },
                         "category": "3",
-                        "subCategory": "2"
+                        "subCategory": "2",
+                        "order": 5
                     },
                     "Projected Housing Units Growth": {
                         "id": 58,
@@ -2230,7 +2267,8 @@
                             }
                         },
                         "category": "3",
-                        "subCategory": "3"
+                        "subCategory": "3",
+                        "order": 1
                     },
                     "Projected Home Value Growth": {
                         "id": 57,
@@ -2280,7 +2318,8 @@
                             }
                         },
                         "category": "3",
-                        "subCategory": "3"
+                        "subCategory": "3",
+                        "order": 2
                     },
                     "Projected Household Income Growth": {
                         "id": 56,
@@ -2330,7 +2369,8 @@
                             }
                         },
                         "category": "3",
-                        "subCategory": "3"
+                        "subCategory": "3",
+                        "order": 3
                     },
                     "Projected Households Growth": {
                         "id": 55,
@@ -2380,7 +2420,8 @@
                             }
                         },
                         "category": "3",
-                        "subCategory": "3"
+                        "subCategory": "3",
+                        "order": 4
                     },
                     "Projected Population Growth": {
                         "id": 54,
@@ -2430,7 +2471,8 @@
                             }
                         },
                         "category": "3",
-                        "subCategory": "3"
+                        "subCategory": "3",
+                        "order": 5
                     },
                     "Business Improvement Districts": {
                         "id": 2,
@@ -2487,7 +2529,8 @@
                             }
                         },
                         "category": "4",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 1
                     },
                     "Great Streets": {
                         "id": 50,
@@ -2536,7 +2579,8 @@
                             }
                         },
                         "category": "4",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 2
                     },
                     "HUBs": {
                         "id": 53,
@@ -2601,7 +2645,8 @@
                             }
                         },
                         "category": "4",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 3
                     },
                     "Supermarket Tax Credit Zone": {
                         "id": 32,
@@ -2650,7 +2695,8 @@
                             }
                         },
                         "category": "4",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 4
                     },
                     "High Technology Development Zone": {
                         "id": 34,
@@ -2699,7 +2745,8 @@
                             }
                         },
                         "category": "4",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 5
                     },
                     "Central Employment Area": {
                         "id": 25,
@@ -2748,7 +2795,8 @@
                             }
                         },
                         "category": "4",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 6
                     },
                     "irb": {
                         "id": 52,
@@ -2797,7 +2845,8 @@
                             }
                         },
                         "category": "4",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 7
                     },
                     "WDCEP Bookmarks": {
                         "id": 14,
@@ -2853,7 +2902,8 @@
                             }
                         },
                         "category": "5",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 1
                     },
                     "WDCEP - 711": {
                         "id": 15,
@@ -2909,7 +2959,8 @@
                             }
                         },
                         "category": "5",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 2
                     },
                     "WDCEP - Chipotle/Shophouse": {
                         "id": 5,
@@ -2965,7 +3016,8 @@
                             }
                         },
                         "category": "5",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 3
                     },
                     "WDCEP - Potbelly": {
                         "id": 12,
@@ -3021,7 +3073,8 @@
                             }
                         },
                         "category": "5",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 4
                     },
                     "WDCEP - Subways": {
                         "id": 11,
@@ -3077,7 +3130,8 @@
                             }
                         },
                         "category": "5",
-                        "subCategory": "1"
+                        "subCategory": "1",
+                        "order": 5
                     }
                 }
             }
