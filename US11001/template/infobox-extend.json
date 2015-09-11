@@ -264,7 +264,7 @@
                         },
                         "viewDetailsBox":false,
                         "wdcepDetailsBox":false,
-                        "header":"PUD_NAME",
+                        "header":"location",
                         "boxValues":{  
                             "field1":{  
                                 "value":"label",
