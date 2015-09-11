@@ -1568,8 +1568,8 @@
                             }
                         },
                         "category": "2",
-                        "subCategory": "1",
-                        "order": 8
+                        "subCategory": "2",
+                        "order": 1
                     },
                     "Metro Bus Stops": {
                         "id": 51,
@@ -1623,8 +1623,8 @@
                             }
                         },
                         "category": "2",
-                        "subCategory": "1",
-                        "order": 9
+                        "subCategory": "2",
+                        "order": 2
                     },
                     "Grocery Stores (WDCEP)": {
                         "id": 29,
@@ -1680,8 +1680,8 @@
                             }
                         },
                         "category": "2",
-                        "subCategory": "1",
-                        "order": 10
+                        "subCategory": "2",
+                        "order": 3
                     },
                     "Pharmacies (WDCEP)": {
                         "id": 28,
@@ -1737,8 +1737,8 @@
                             }
                         },
                         "category": "2",
-                        "subCategory": "1",
-                        "order": 11
+                        "subCategory": "2",
+                        "order": 4
                     },
                     "Movie Theatres (WDCEP)": {
                         "id": 13,
@@ -1794,8 +1794,8 @@
                             }
                         },
                         "category": "2",
-                        "subCategory": "1",
-                        "order": 12
+                        "subCategory": "2",
+                        "order": 5
                     },
                     "Available Retail Sites (WDCEP)": {
                         "id": 10,

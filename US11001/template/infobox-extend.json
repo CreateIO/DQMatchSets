@@ -57,6 +57,12 @@
                                 "display":"Developers: ",
                                 "fieldtype":"longText",
                                 "units":null
+                            },
+                            "field8":{  
+                                "value":"http://www.wdcep.com/",
+                                "display":"Source: ",
+                                "fieldtype":"hardAttr",
+                                "units":"WDCEP"
                             }
                         }
                     },
@@ -112,6 +118,12 @@
                                 "display":"Developers: ",
                                 "fieldtype":"longText",
                                 "units":null
+                            },
+                            "field8":{  
+                                "value":"http://www.wdcep.com/",
+                                "display":"Source: ",
+                                "fieldtype":"hardAttr",
+                                "units":"WDCEP"
                             }
                         }
                     },
@@ -167,6 +179,12 @@
                                 "display":"Developers: ",
                                 "fieldtype":"longText",
                                 "units":null
+                            },
+                            "field8":{  
+                                "value":"http://www.wdcep.com/",
+                                "display":"Source: ",
+                                "fieldtype":"hardAttr",
+                                "units":"WDCEP"
                             }
                         }
                     },
@@ -222,6 +240,12 @@
                                 "display":"Developers: ",
                                 "fieldtype":"longText",
                                 "units":null
+                            },
+                            "field8":{  
+                                "value":"http://www.wdcep.com/",
+                                "display":"Source: ",
+                                "fieldtype":"hardAttr",
+                                "units":"WDCEP"
                             }
                         }
                     },
@@ -240,7 +264,7 @@
                         },
                         "viewDetailsBox":false,
                         "wdcepDetailsBox":false,
-                        "header":"PUD_NAME",
+                        "header":"location",
                         "boxValues":{  
                             "field1":{  
                                 "value":"label",
@@ -271,6 +295,12 @@
                                 "display":"Project Type: ",
                                 "fieldtype":"meta",
                                 "units":"Pharmacy"
+                            },
+                            "field6":{  
+                                "value":"http://www.wdcep.com/",
+                                "display":"Source: ",
+                                "fieldtype":"hardAttr",
+                                "units":"WDCEP"
                             }
                         }
                     },
@@ -302,6 +332,12 @@
                                 "display":"Status: ",
                                 "fieldtype":"text",
                                 "units":null
+                            },
+                            "field3":{  
+                                "value":"http://www.wdcep.com/",
+                                "display":"Source: ",
+                                "fieldtype":"hardAttr",
+                                "units":"WDCEP"
                             }
                         }
                     },
@@ -322,7 +358,12 @@
                         "wdcepDetailsBox":false,
                         "header":"name",
                         "boxValues":{  
-
+                            "field1":{  
+                                "value":"http://www.wdcep.com/",
+                                "display":"Source: ",
+                                "fieldtype":"hardAttr",
+                                "units":"WDCEP"
+                            }
                         }
                     },
                     "wdcep_chipotle_data":{  
@@ -353,6 +394,12 @@
                                 "display":"Status: ",
                                 "fieldtype":"text",
                                 "units":null
+                            },
+                            "field3":{  
+                                "value":"http://www.wdcep.com/",
+                                "display":"Source: ",
+                                "fieldtype":"hardAttr",
+                                "units":"WDCEP"
                             }
                         }
                     },
@@ -402,6 +449,12 @@
                                 "display":"Project Type: ",
                                 "fieldtype":"meta",
                                 "units":"Movie Theatre"
+                            },
+                            "field6":{  
+                                "value":"http://www.wdcep.com/",
+                                "display":"Source: ",
+                                "fieldtype":"hardAttr",
+                                "units":"WDCEP"
                             }
                         }
                     },
@@ -433,6 +486,12 @@
                                 "display":"Status: ",
                                 "fieldtype":"text",
                                 "units":null
+                            },
+                            "field3":{  
+                                "value":"http://www.wdcep.com/",
+                                "display":"Source: ",
+                                "fieldtype":"hardAttr",
+                                "units":"WDCEP"
                             }
                         }
                     },
@@ -464,6 +523,12 @@
                                 "display":"Status: ",
                                 "fieldtype":"text",
                                 "units":null
+                            },
+                            "field3":{  
+                                "value":"http://www.wdcep.com/",
+                                "display":"Source: ",
+                                "fieldtype":"hardAttr",
+                                "units":"WDCEP"
                             }
                         }
                     },
@@ -513,6 +578,12 @@
                                 "display":"Project Type: ",
                                 "fieldtype":"meta",
                                 "units":"Grocery Store"
+                            },
+                            "field6":{  
+                                "value":"http://www.wdcep.com/",
+                                "display":"Source: ",
+                                "fieldtype":"hardAttr",
+                                "units":"WDCEP"
                             }
                         }
                     },
@@ -533,7 +604,12 @@
                         "wdcepDetailsBox":true,
                         "header":"neighborhooddist",
                         "boxValues":{  
-
+                            "field1":{  
+                                "value":"http://www.wdcep.com/",
+                                "display":"Source: ",
+                                "fieldtype":"hardAttr",
+                                "units":"WDCEP"
+                            }
                         }
                     },
                     "retail_marketable_data":{  
@@ -570,6 +646,12 @@
                                 "display":"Availability: ",
                                 "fieldtype":"text",
                                 "units":null
+                            },
+                            "field5":{  
+                                "value":"http://www.wdcep.com/",
+                                "display":"Source: ",
+                                "fieldtype":"hardAttr",
+                                "units":"WDCEP"
                             }
                         }
                     },
@@ -607,6 +689,12 @@
                                 "display":"Availability: ",
                                 "fieldtype":"text",
                                 "units":null
+                            },
+                            "field5":{  
+                                "value":"http://www.wdcep.com/",
+                                "display":"Source: ",
+                                "fieldtype":"hardAttr",
+                                "units":"WDCEP"
                             }
                         }
                     },
@@ -735,7 +823,7 @@
                                 "value":"WEB_URL",
                                 "display":"URL: ",
                                 "fieldtype":"url",
-                                "units":null
+                                "units": "Click for station site"
                             }
                         }
                     }
