@@ -735,7 +735,7 @@
                                 "value":"WEB_URL",
                                 "display":"URL: ",
                                 "fieldtype":"url",
-                                "units":null
+                                "units": "Click for station site"
                             }
                         }
                     }
