@@ -128,7 +128,7 @@
                                         "param2": "PUD1"
                                     }
                                 },
-                                "func1": {
+                                "func2": {
                                     "service": "mapOverlayService",
                                     "functionName": "removeLayer",
                                     "parameters": {
