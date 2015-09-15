@@ -36,9 +36,9 @@
                 "name": "Tenants",
                 "url": "infogroup.html",
                 "hasCharts": false,
-                "deny":"Limited Monthly DC_Public_Access"
+                "deny": ""
               },
-              {
+             {
                 "id": "navZoning",
                 "name": "Zoning",
                 "url": "zoning.html",
@@ -53,6 +53,13 @@
                 "deny": ""
               },
               {
+                "id": "navIncentives",
+                "name": "Incentives",
+                "url": "incentives.html",
+                "hasCharts": false,
+                "deny": ""
+              },
+              {
                 "id": "navTransit",
                 "name": "Transit",
                 "url": "transportation.html",
@@ -64,7 +71,7 @@
                 "name": "Build It!",
                 "url": "building_definition.html",
                 "hasCharts": false,
-                "deny": "Limited Monthly DC_Public_Access Premium beta_premium"
+                "deny": "Limited Monthly DC_Public_Access Premium beta_premium beta_freemium beta_fremium"
               }
             ]
           },
@@ -77,21 +84,14 @@
                 "name": "Demographics",
                 "url": "ESRI.html",
                 "hasCharts": "false",
-                "deny":"Limited Monthly DC_Public_Access"
-              },
-              {
-                "id": "navDemographics",
-                "name": "Demographics",
-                "url": "demographics.html",
-                "hasCharts": true,
-                "deny": "Premium Demo beta_premium demo dev"
+                "deny": ""
               },
               {
                 "id": "navEconomy",
                 "name": "Economy",
                 "url": "economy.html",
                 "hasCharts": false,
-                "deny": ""             
+                "deny": ""
               }
             ]
           },
@@ -111,19 +111,12 @@
                 "name": "CMBS Loans",
                 "url": "financing.html",
                 "hasCharts": false,
-                "deny": "Premium Demo beta_premium demo dev"
+                "deny": ""
               },
               {
                 "id": "navEquity",
                 "name": "Equity",
                 "url": "equity.html",
-                "hasCharts": false,
-                "deny": ""
-              },
-              {
-                "id": "navIncentives",
-                "name": "Incentives",
-                "url": "incentives.html",
                 "hasCharts": false,
                 "deny": ""
               }

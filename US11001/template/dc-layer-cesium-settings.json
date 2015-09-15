@@ -291,54 +291,6 @@
                             "exists": false
                         }
                     },
-                    "zoning": {
-                        "name": "zoning",
-                        "removeName": "zoningLabels.geojson",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/zoningLabels.geojson",
-                        "cartographic": false,
-                        "id": {
-                            "exists": false
-                        },
-                        "labels": {
-                            "exists": true,
-                            "labelLayers": {
-                                "label1": {
-                                    "name": "zoningLabels",
-                                    "position": {
-                                        "x": "entity._properties.X",
-                                        "y": "entity._properties.Y",
-                                        "z": 20
-                                    },
-                                    "text": "entity.properties.ZONING",
-                                    "font": "13px sans-serif",
-                                    "fillColor": "Cesium.Color.WHITE",
-                                    "outlineColor": "Cesium.Color.BLACK",
-                                    "outlineWidth": 1,
-                                    "style": "Cesium.LabelStyle.FILL",
-                                    "pixelOffset": "Cesium.Cartesian2.ZERO",
-                                    "eyeOffset": "Cesium.Cartesian3.ZERO",
-                                    "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-                                    "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
-                                    "translucencyByDistance": {
-                                        "minElevation": 5000,
-                                        "maxElevation": 6000,
-                                        "minScale": 1.0,
-                                        "maxScale": 0.0
-                                    },
-                                    "scale": 1.0
-                                }
-                            }
-                        },
-                        "polygons": {
-                            "exists": false
-                        },
-                        "rasters": {
-                            "exists": false
-                        },
-                        "billboards": {
-                            "exists": false
-                        }
-                    },
                     "FEMAfloodZones": {
                         "name": "FEMAfloodZones",
                         "removeName": null,
@@ -739,13 +691,115 @@
                             "exists": false
                         }
                     },
-                    "PUD": {
-                        "name": "PUD",
-                        "removeName": "PUDlabels.geojson",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/PUDlabels.geojson",
+                    "PUD1": {
+                        "name": "PUD1",
+                        "removeName": "PUD0915-basic-1.geojson",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/PUD0915-basic-1.geojson",
                         "cartographic": false,
                         "id": {
+                            "exists": true,
+                            "poly": true,
+                            "objClass": "UserInfo",
+                            "id": "entity.properties.UNIQUEID",
+                            "name": "pudinfo",
+                            "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
+                        },
+                        "labels": {
                             "exists": false
+                        },
+                        "polygons": {
+                            "exists": true,
+                            "polygonLayers": {
+                                "polygon1": {
+                                    "type": "colorHash",
+                                    "name": "entity.properties.PUD_STATUS",
+                                    "color": {
+                                        "type": "random",
+                                        "alpha": 0.5,
+                                        "assignments": {
+                                            "color1": {
+                                                "field": "Final",
+                                                "hexValue": "#FFFF00"
+                                            },
+                                            "color2": {
+                                                "field": "Pending",
+                                                "hexValue": "#FF0730"
+                                            }
+                                        }
+                                    },
+                                    "material": "new Cesium.ColorMaterialProperty(color)",
+                                    "outlineColor": "Cesium.Color.DODGERBLUE",
+                                    "outlineWidth": 2.0
+                                }
+                            }
+                        },
+                        "rasters": {
+                            "exists": false
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
+                    },
+                    "PUD2": {
+                        "name": "PUD2",
+                        "removeName": "PUD0915-basic-2.geojson",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/PUD0915-basic-2.geojson",
+                        "cartographic": false,
+                        "id": {
+                            "exists": true,
+                            "poly": true,
+                            "objClass": "UserInfo",
+                            "id": "entity.properties.UNIQUEID",
+                            "name": "pudinfo",
+                            "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
+                        },
+                        "labels": {
+                            "exists": false
+                        },
+                        "polygons": {
+                            "exists": true,
+                            "polygonLayers": {
+                                "polygon1": {
+                                    "type": "colorHash",
+                                    "name": "entity.properties.PUD_STATUS",
+                                    "color": {
+                                        "type": "random",
+                                        "alpha": 0.5,
+                                        "assignments": {
+                                            "color1": {
+                                                "field": "Final",
+                                                "hexValue": "#FFFF00"
+                                            },
+                                            "color2": {
+                                                "field": "Pending",
+                                                "hexValue": "#FF0730"
+                                            }
+                                        }
+                                    },
+                                    "material": "new Cesium.ColorMaterialProperty(color)",
+                                    "outlineColor": "Cesium.Color.DODGERBLUE",
+                                    "outlineWidth": 2.0
+                                }
+                            }
+                        },
+                        "rasters": {
+                            "exists": false
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
+                    },
+                    "metroStationbox": {
+                        "name": "metroStationbox",
+                        "removeName": "metroStationsDistrict.geojson",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/metroStationsDistrict.geojson",
+                        "cartographic": true,
+                        "id": {
+                            "exists": true,
+                            "objClass": "UserInfo",
+                            "id": "entity.properties.UNIQUEID",
+                            "name": "metroStationsDistrict",
+                            "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
                         },
                         "labels": {
                             "exists": false
@@ -754,94 +808,28 @@
                             "exists": false
                         },
                         "rasters": {
-                            "exists": true,
-                            "rasterLayers": {
-                                "raster1": {
-                                    "name": "PUDtop",
-                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/PUDtop.png",
-                                    "xMin": -77.113,
-                                    "yMin": 38.8956,
-                                    "xMax": -76.9314,
-                                    "yMax": 38.9866,
-                                    "alpha": 0.8,
-                                    "show": true,
-                                    "hasDropdown": false
-                                },
-                                "raster2": {
-                                    "name": "PUDbottom",
-                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/PUDbottom.png",
-                                    "xMin": -77.0516,
-                                    "yMin": 38.8119,
-                                    "xMax": -76.9132,
-                                    "yMax": 38.8956,
-                                    "alpha": 0.8,
-                                    "show": true,
-                                    "hasDropdown": false
-                                }
-                            }
+                            "exists": false
                         },
                         "billboards": {
                             "exists": true,
-                            "blankPolyLayer": true,
                             "billboardLayers": {
                                 "billboard1": {
-                                    "type": "maki",
+                                    "type": "custom",
+                                    "name": "stationbillboards",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/maki/metroStation.png",
+                                    "position": {
+                                        "x": "entity._properties.XCOORD",
+                                        "y": "entity._properties.YCOORD",
+                                        "z": 20
+                                    },
                                     "NearFarScalar": {
-                                        "minElevation": 6000,
-                                        "maxElevation": 25000,
+                                        "minElevation": 3000,
+                                        "maxElevation": 4000,
                                         "minScale": 1.0,
-                                        "maxScale": 0.2
+                                        "maxScale": 0.0
                                     }
                                 }
                             }
-                        }
-                    },
-                    "metroStationLabels": {
-                        "name": "metroStationLabels",
-                        "removeName": "metroStationsNP.geojson",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/metroStationsNP.geojson",
-                        "cartographic": false,
-                        "id": {
-                            "exists": false
-                        },
-                        "labels": {
-                            "exists": true,
-                            "labelLayers": {
-                                "label1": {
-                                    "name": "metrolabels",
-                                    "position": {
-                                        "x": "entity._properties.X",
-                                        "y": "entity._properties.Y",
-                                        "z": 30
-                                    },
-                                    "text": "entity.properties.NAME",
-                                    "font": "14px sans-serif",
-                                    "fillColor": "Cesium.Color.WHITE",
-                                    "outlineColor": "Cesium.Color.BLACK",
-                                    "outlineWidth": 1,
-                                    "style": "Cesium.LabelStyle.FILL",
-                                    "pixelOffset": "Cesium.Cartesian2.ZERO",
-                                    "eyeOffset": "Cesium.Cartesian3.ZERO",
-                                    "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-                                    "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
-                                    "translucencyByDistance": {
-                                        "minElevation": 8000,
-                                        "maxElevation": 9000,
-                                        "minScale": 1.0,
-                                        "maxScale": 0.0
-                                    },
-                                    "scale": 1.0
-                                }
-                            }
-                        },
-                        "polygons": {
-                            "exists": false
-                        },
-                        "rasters": {
-                            "exists": false
-                        },
-                        "billboards": {
-                            "exists": false
                         }
                     },
                     "metroRailAndStations": {
@@ -1067,10 +1055,15 @@
                     "wards2012": {
                         "name": "wards2012",
                         "removeName": "wards2012.geojson",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/wards2012.geojson",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/wards2012.geojson",
                         "cartographic": false,
                         "id": {
-                            "exists": false
+                            "exists": true,
+                            "poly": true,
+                            "objClass": "UserInfo",
+                            "id": "entity.properties.UNIQUEID",
+                            "name": "wardinfo",
+                            "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
                         },
                         "labels": {
                             "exists": true,
@@ -1710,7 +1703,8 @@
                             "exists": true,
                             "objClass": "UserInfo",
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_grocery_data"
+                            "name": "wdcep_grocery_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": true,
@@ -1777,9 +1771,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_subway_data"
+                            "name": "wdcep_subway_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": false
@@ -1819,9 +1814,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_potbelly_data"
+                            "name": "wdcep_potbelly_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": false
@@ -1861,9 +1857,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_movies_data"
+                            "name": "wdcep_movies_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": true,
@@ -1930,9 +1927,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_chipotle_data"
+                            "name": "wdcep_chipotle_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": false
@@ -2342,9 +2340,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_resi_com_data"
+                            "name": "wdcep_resi_com_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": false
@@ -2384,9 +2383,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_resi_pipeline_data"
+                            "name": "wdcep_resi_pipeline_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": false
@@ -2426,9 +2426,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_retail_com_data"
+                            "name": "wdcep_retail_com_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": false
@@ -2468,9 +2469,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_retail_pipeline_data"
+                            "name": "wdcep_retail_pipeline_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": false
@@ -2510,9 +2512,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_pharm_data"
+                            "name": "wdcep_pharm_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": true,
@@ -2579,9 +2582,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_711_data"
+                            "name": "wdcep_711_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": false
@@ -2621,9 +2625,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "retail_full"
+                            "name": "retail_full",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": false
@@ -2663,9 +2668,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "retail_marketable_data"
+                            "name": "retail_marketable_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": false
@@ -2740,9 +2746,10 @@
                         "cartographic": true,
                         "id": {
                             "exists": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo", 
                             "id": "entity.properties.UNIQUEID",
-                            "name": "wdcep_neighborhoods_data"
+                            "name": "wdcep_neighborhoods_data",
+                            "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
                         },
                         "labels": {
                             "exists": true,
@@ -2941,6 +2948,319 @@
                                     "outlineWidth": 1
                                 }
                             }
+                        },
+                        "rasters": {
+                            "exists": false
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
+                    },
+                    "DE-tot-pop": {
+                        "name": "DE-tot-pop",
+                        "removeName": null,
+                        "url": null,
+                        "cartographic": false,
+                        "id": {
+                            "exists": false
+                        },
+                        "labels": {
+                            "exists": false
+                        },
+                        "polygons": {
+                            "exists": false
+                        },
+                        "rasters": {
+                            "exists": true,
+                            "rasterLayers": {
+                                "raster1": {
+                                    "name": "tot-pop-top",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DE-pop-growth-top.png",
+                                    "xMin": -77.1208,
+                                    "yMin": 38.8929,
+                                    "xMax": -76.9086,
+                                    "yMax": 38.9965,
+                                    "alpha": 0.7,
+                                    "show": true,
+                                    "hasDropdown": false
+                                },
+                                "raster2": {
+                                    "name": "tot-pop-bottom",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DE-pop-growth-bottom.png",
+                                    "xMin": -77.0655,
+                                    "yMin": 38.7904,
+                                    "xMax": -76.9082,
+                                    "yMax": 38.8929,
+                                    "alpha": 0.7,
+                                    "show": true,
+                                    "hasDropdown": false
+                                }
+                            }
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
+                    },
+                    "DE-hh-income": {
+                        "name": "DE-hh-income",
+                        "removeName": null,
+                        "url": null,
+                        "cartographic": false,
+                        "id": {
+                            "exists": false
+                        },
+                        "labels": {
+                            "exists": false
+                        },
+                        "polygons": {
+                            "exists": false
+                        },
+                        "rasters": {
+                            "exists": true,
+                            "rasterLayers": {
+                                "raster1": {
+                                    "name": "hh-income-top",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DE-HHincome-growth-top.png",
+                                    "xMin": -77.1208,
+                                    "yMin": 38.8929,
+                                    "xMax": -76.9086,
+                                    "yMax": 38.9965,
+                                    "alpha": 0.7,
+                                    "show": true,
+                                    "hasDropdown": false
+                                },
+                                "raster2": {
+                                    "name": "hh-income-bottom",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DE-HHincome-growth-bottom.png",
+                                    "xMin": -77.0655,
+                                    "yMin": 38.7904,
+                                    "xMax": -76.9082,
+                                    "yMax": 38.8929,
+                                    "alpha": 0.7,
+                                    "show": true,
+                                    "hasDropdown": false
+                                }
+                            }
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
+                    },
+                    "DE-home-value": {
+                        "name": "DE-home-value",
+                        "removeName": null,
+                        "url": null,
+                        "cartographic": false,
+                        "id": {
+                            "exists": false
+                        },
+                        "labels": {
+                            "exists": false
+                        },
+                        "polygons": {
+                            "exists": false
+                        },
+                        "rasters": {
+                            "exists": true,
+                            "rasterLayers": {
+                                "raster1": {
+                                    "name": "home-value-top",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DE-home-value-growth-top.png",
+                                    "xMin": -77.1208,
+                                    "yMin": 38.8929,
+                                    "xMax": -76.9086,
+                                    "yMax": 38.9965,
+                                    "alpha": 0.7,
+                                    "show": true,
+                                    "hasDropdown": false
+                                },
+                                "raster2": {
+                                    "name": "home-value-bottom",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DE-home-value-growth-bottom.png",
+                                    "xMin": -77.0655,
+                                    "yMin": 38.7904,
+                                    "xMax": -76.9082,
+                                    "yMax": 38.8929,
+                                    "alpha": 0.7,
+                                    "show": true,
+                                    "hasDropdown": false
+                                }
+                            }
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
+                    },
+                    "DE-housing-units": {
+                        "name": "DE-housing-units",
+                        "removeName": null,
+                        "url": null,
+                        "cartographic": false,
+                        "id": {
+                            "exists": false
+                        },
+                        "labels": {
+                            "exists": false
+                        },
+                        "polygons": {
+                            "exists": false
+                        },
+                        "rasters": {
+                            "exists": true,
+                            "rasterLayers": {
+                                "raster1": {
+                                    "name": "housing-units-top",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DE-housing-units-growth-top.png",
+                                    "xMin": -77.1208,
+                                    "yMin": 38.8929,
+                                    "xMax": -76.9086,
+                                    "yMax": 38.9965,
+                                    "alpha": 0.7,
+                                    "show": true,
+                                    "hasDropdown": false
+                                },
+                                "raster2": {
+                                    "name": "housing-units-bottom",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DE-housing-units-growth-bottom.png",
+                                    "xMin": -77.0655,
+                                    "yMin": 38.7904,
+                                    "xMax": -76.9082,
+                                    "yMax": 38.8929,
+                                    "alpha": 0.7,
+                                    "show": true,
+                                    "hasDropdown": false
+                                }
+                            }
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
+                    },
+                    "DE-total-hh": {
+                        "name": "DE-total-hh",
+                        "removeName": null,
+                        "url": null,
+                        "cartographic": false,
+                        "id": {
+                            "exists": false
+                        },
+                        "labels": {
+                            "exists": false
+                        },
+                        "polygons": {
+                            "exists": false
+                        },
+                        "rasters": {
+                            "exists": true,
+                            "rasterLayers": {
+                                "raster1": {
+                                    "name": "total-hh-top",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DE-totHH-growth-top.png",
+                                    "xMin": -77.1208,
+                                    "yMin": 38.8929,
+                                    "xMax": -76.9086,
+                                    "yMax": 38.9965,
+                                    "alpha": 0.7,
+                                    "show": true,
+                                    "hasDropdown": false
+                                },
+                                "raster2": {
+                                    "name": "total-hh-bottom",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DE-totHH-growth-bottom.png",
+                                    "xMin": -77.0655,
+                                    "yMin": 38.7904,
+                                    "xMax": -76.9082,
+                                    "yMax": 38.8929,
+                                    "alpha": 0.7,
+                                    "show": true,
+                                    "hasDropdown": false
+                                }
+                            }
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
+                    },
+                    "comm-sub": {
+                        "name": "comm-sub",
+                        "removeName": "commSubLabel.geojson",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/commSubLabel.geojson",
+                        "cartographic": false,
+                        "id": {
+                            "exists": false
+                        },
+                        "labels": {
+                            "exists": false
+                        },
+                        "polygons": {
+                            "exists": true,
+                            "polygonLayers": {
+                                "polygon1": {
+                                    "type": "singleColor",
+                                    "name": null,
+                                    "color": {
+                                        "alpha": 0.0,
+                                        "type": "rgb",
+                                        "rgb": {
+                                            "r": 136,
+                                            "g": 176,
+                                            "b": 204,
+                                            "a": 0
+                                        }
+                                    },
+                                    "material": "new Cesium.ColorMaterialProperty(color)",
+                                    "outlineColor": "Cesium.Color.ORANGE",
+                                    "outlineWidth": 4.0
+                                }
+                            }
+                        },
+                        "rasters": {
+                            "exists": false
+                        },
+                        "billboards": {
+                            "exists": false
+                        }
+                    },
+                    "comm-sub-label": {
+                        "name": "comm-sub-label",
+                        "removeName": "commercialSubMLabel.geojson",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/commercialSubMLabel.geojson",
+                        "cartographic": false,
+                        "id": {
+                            "exists": false
+                        },
+                        "labels": {
+                            "exists": true,
+                            "labelLayers": {
+                                "label1": {
+                                    "name": "submarket",
+                                    "position": {
+                                        "x": "entity._properties.Xcoord",
+                                        "y": "entity._properties.Ycoord",
+                                        "z": 400
+                                    },
+                                    "text": "entity._properties.submarket",
+                                    "font": "16px sans-serif",
+                                    "fillColor": "Cesium.Color.WHITE",
+                                    "outlineColor": "Cesium.Color.BLACK",
+                                    "outlineWidth": 1,
+                                    "style": "Cesium.LabelStyle.FILL",
+                                    "pixelOffset": "Cesium.Cartesian2.ZERO",
+                                    "eyeOffset": "Cesium.Cartesian3.ZERO",
+                                    "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
+                                    "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
+                                    "translucencyByDistance": {
+                                        "minElevation": 40000,
+                                        "maxElevation": 60000,
+                                        "minScale": 1.0,
+                                        "maxScale": 0.0
+                                    },
+                                    "scale": 1.0
+                                }
+                            }
+                        },
+                        "polygons": {
+                            "exists": false
                         },
                         "rasters": {
                             "exists": false
