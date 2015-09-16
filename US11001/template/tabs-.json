@@ -71,7 +71,7 @@
                 "name": "Build It!",
                 "url": "building_definition.html",
                 "hasCharts": false,
-                "deny": "Limited Monthly DC_Public_Access Premium beta_premium beta_freemium beta_fremium"
+                "deny": "Limited Monthly DC_Public_Access Freemium Premium beta_premium beta_freemium beta_fremium"
               }
             ]
           },
