@@ -1154,7 +1154,7 @@
                     },
                     "SMD": {
                         "name": "SMD",
-                        "removeName": "smd.geojson",
+                        "removeName": "SMD-ANC.geojson",
                         "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/SMD-ANC.geojson",
                         "cartographic": false,
                         "id": {
@@ -1202,12 +1202,19 @@
                             "exists": true,
                             "billboardLayers": {
                                 "billboard1": {
-                                    "type": "maki",
+                                    "type": "custom",
+                                    "name": "SMD",
+                                    "url": "https://s3.amazonaws.com/models-dc/geoJSON/maki/smd.png",
+                                    "position": {
+                                        "x": "entity._properties.X",
+                                        "y": "entity._properties.Y",
+                                        "z": 20
+                                    },
                                     "NearFarScalar": {
-                                        "minElevation": 6000,
-                                        "maxElevation": 25000,
+                                        "minElevation": 3000,
+                                        "maxElevation": 4000,
                                         "minScale": 1.0,
-                                        "maxScale": 0.2
+                                        "maxScale": 0.0
                                     }
                                 }
                             }
