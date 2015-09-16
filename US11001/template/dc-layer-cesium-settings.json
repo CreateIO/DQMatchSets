@@ -1155,10 +1155,15 @@
                     "SMD": {
                         "name": "SMD",
                         "removeName": "smd.geojson",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/smd.geojson",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/SMD-ANC.geojson",
                         "cartographic": false,
                         "id": {
-                            "exists": false
+                            "exists": true,
+                            "poly": false,
+                            "objClass": "UserInfo",
+                            "id": "entity.properties.UNIQUEID",
+                            "name": "SMD-ANC",
+                            "folder": "https://s3.amazonaws.com/models-dc/geoJSON/prod/"
                         },
                         "labels": {
                             "exists": false

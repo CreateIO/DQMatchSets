@@ -826,6 +826,79 @@
                                 "units": "Click for station site"
                             }
                         }
+                    },
+                    "SMD-ANC":{  
+                        "referenceid":"UNIQUEID",
+                        "propertyid":"UNIQUEID",
+                        "offset":157,
+                        "fieldtype":"business",
+                        "photos":{  
+                            "active":false,
+                            "value":null
+                        },
+                        "pdfs":{  
+                            "active":false,
+                            "value":null
+                        },
+                        "viewDetailsBox":false,
+                        "wdcepDetailsBox":false,
+                        "header":"title",
+                        "boxValues":{  
+                            "field1":{  
+                                "value":"NAME",
+                                "display":"SMD Name: ",
+                                "fieldtype":"text",
+                                "units":null
+                            },
+                            "field2":{  
+                                "value":"ANC_ID",
+                                "display":"ANC ID: ",
+                                "fieldtype":"text",
+                                "units":null
+                            },
+                            "field3":{  
+                                "value":"WEB_URL",
+                                "display":"ANC url: ",
+                                "fieldtype":"url",
+                                "units": "Click here"
+                            },
+                            "field4":{  
+                                "value":"CHAIR",
+                                "display":"Chair: ",
+                                "fieldtype":"text",
+                                "units":null
+                            },
+                            "field5":{  
+                                "value":"REP_NAME",
+                                "display":"Rep. Name: ",
+                                "fieldtype":"text",
+                                "units":null
+                            },
+                            "field6":{  
+                                "value":"ADDRESS",
+                                "display":"Rep. Address: ",
+                                "fieldtype":"text",
+                                "units":null
+                            },
+                            "field7":{  
+                                "value":"ZIP",
+                                "display":"Rep. Zip: ",
+                                "fieldtype":"text",
+                                "units":null
+                            },
+                            "field5":{  
+                                "value":"EMAIL",
+                                "display":"Rep. Email: ",
+                                "fieldtype":"url",
+                                "units": "Click to Email"
+                            },
+                            "field6":{  
+                                "value":"PHONE",
+                                "display":"Rep. Phone #: ",
+                                "fieldtype":"text",
+                                "units":null
+                            }
+                        }
                     }
                 }
             }
