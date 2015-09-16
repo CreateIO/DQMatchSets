@@ -886,13 +886,13 @@
                                 "fieldtype":"text",
                                 "units":null
                             },
-                            "field5":{  
+                            "field8":{  
                                 "value":"EMAIL",
                                 "display":"Rep. Email: ",
                                 "fieldtype":"email",
                                 "units": "Click to Email"
                             },
-                            "field6":{  
+                            "field9":{  
                                 "value":"PHONE",
                                 "display":"Rep. Phone: ",
                                 "fieldtype":"text",
