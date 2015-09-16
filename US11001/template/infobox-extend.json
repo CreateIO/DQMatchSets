@@ -889,12 +889,12 @@
                             "field5":{  
                                 "value":"EMAIL",
                                 "display":"Rep. Email: ",
-                                "fieldtype":"url",
+                                "fieldtype":"email",
                                 "units": "Click to Email"
                             },
                             "field6":{  
                                 "value":"PHONE",
-                                "display":"Rep. Phone #: ",
+                                "display":"Rep. Phone: ",
                                 "fieldtype":"text",
                                 "units":null
                             }
