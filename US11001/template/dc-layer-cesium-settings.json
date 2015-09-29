@@ -1160,7 +1160,7 @@
                         "id": {
                             "exists": true,
                             "poly": false,
-                            "objClass": "UserInfo-poly",
+                            "objClass": "UserInfo",
                             "id": "entity.properties.UNIQUEID",
                             "name": "SMD-ANC",
                             "folder": "https://s3.amazonaws.com/models-dc/geoJSON/prod/"
