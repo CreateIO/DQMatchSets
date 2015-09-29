@@ -699,7 +699,7 @@
                         "id": {
                             "exists": true,
                             "poly": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo-poly",
                             "id": "entity.properties.UNIQUEID",
                             "name": "pudinfo",
                             "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
@@ -748,7 +748,7 @@
                         "id": {
                             "exists": true,
                             "poly": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo-poly",
                             "id": "entity.properties.UNIQUEID",
                             "name": "pudinfo",
                             "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
@@ -1060,7 +1060,7 @@
                         "id": {
                             "exists": true,
                             "poly": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo-poly",
                             "id": "entity.properties.UNIQUEID",
                             "name": "wardinfo",
                             "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
@@ -1160,7 +1160,7 @@
                         "id": {
                             "exists": true,
                             "poly": false,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo-poly",
                             "id": "entity.properties.UNIQUEID",
                             "name": "SMD-ANC",
                             "folder": "https://s3.amazonaws.com/models-dc/geoJSON/prod/"
