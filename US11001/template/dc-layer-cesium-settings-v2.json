@@ -699,7 +699,7 @@
                         "id": {
                             "exists": true,
                             "poly": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo-poly",
                             "id": "entity.properties.UNIQUEID",
                             "name": "pudinfo",
                             "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
@@ -748,7 +748,7 @@
                         "id": {
                             "exists": true,
                             "poly": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo-poly",
                             "id": "entity.properties.UNIQUEID",
                             "name": "pudinfo",
                             "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
@@ -1060,7 +1060,7 @@
                         "id": {
                             "exists": true,
                             "poly": true,
-                            "objClass": "UserInfo",
+                            "objClass": "UserInfo-poly",
                             "id": "entity.properties.UNIQUEID",
                             "name": "wardinfo",
                             "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
@@ -1767,10 +1767,10 @@
                                         "z": 5
                                     },
                                     "NearFarScalar": {
-                                        "minElevation": 3000,
-                                        "maxElevation": 15000,
+                                        "minElevation": 2000,
+                                        "maxElevation": 25000,
                                         "minScale": 1.0,
-                                        "maxScale": 0.3
+                                        "maxScale": 0.15
                                     }
                                 }
                             }
@@ -1810,10 +1810,10 @@
                                         "z": 5
                                     },
                                     "NearFarScalar": {
-                                        "minElevation": 3000,
-                                        "maxElevation": 15000,
+                                        "minElevation": 2000,
+                                        "maxElevation": 25000,
                                         "minScale": 1.0,
-                                        "maxScale": 0.3
+                                        "maxScale": 0.15
                                     }
                                 }
                             }
@@ -1853,10 +1853,10 @@
                                         "z": 5
                                     },
                                     "NearFarScalar": {
-                                        "minElevation": 3000,
-                                        "maxElevation": 15000,
+                                        "minElevation": 2000,
+                                        "maxElevation": 25000,
                                         "minScale": 1.0,
-                                        "maxScale": 0.3
+                                        "maxScale": 0.15
                                     }
                                 }
                             }
@@ -1923,10 +1923,10 @@
                                         "z": 5
                                     },
                                     "NearFarScalar": {
-                                        "minElevation": 3000,
-                                        "maxElevation": 15000,
+                                        "minElevation": 2000,
+                                        "maxElevation": 25000,
                                         "minScale": 1.0,
-                                        "maxScale": 0.3
+                                        "maxScale": 0.15
                                     }
                                 }
                             }
@@ -1967,10 +1967,10 @@
                                         "z": 5
                                     },
                                     "NearFarScalar": {
-                                        "minElevation": 3000,
-                                        "maxElevation": 15000,
+                                        "minElevation": 2000,
+                                        "maxElevation": 25000,
                                         "minScale": 1.0,
-                                        "maxScale": 0.3
+                                        "maxScale": 0.15
                                     }
                                 },
                                 "billboard2": {
@@ -1984,10 +1984,10 @@
                                         "z": 5
                                     },
                                     "NearFarScalar": {
-                                        "minElevation": 3000,
-                                        "maxElevation": 15000,
+                                        "minElevation": 2000,
+                                        "maxElevation": 25000,
                                         "minScale": 1.0,
-                                        "maxScale": 0.3
+                                        "maxScale": 0.15
                                     }
                                 }
                             }
@@ -2578,10 +2578,10 @@
                                         "z": 5
                                     },
                                     "NearFarScalar": {
-                                        "minElevation": 3000,
-                                        "maxElevation": 15000,
+                                        "minElevation": 2000,
+                                        "maxElevation": 25000,
                                         "minScale": 1.0,
-                                        "maxScale": 0.3
+                                        "maxScale": 0.15
                                     }
                                 }
                             }
@@ -2621,10 +2621,10 @@
                                         "z": 5
                                     },
                                     "NearFarScalar": {
-                                        "minElevation": 3000,
-                                        "maxElevation": 15000,
+                                        "minElevation": 2000,
+                                        "maxElevation": 25000,
                                         "minScale": 1.0,
-                                        "maxScale": 0.3
+                                        "maxScale": 0.15
                                     }
                                 }
                             }
@@ -2664,10 +2664,10 @@
                                         "z": 5
                                     },
                                     "NearFarScalar": {
-                                        "minElevation": 3000,
-                                        "maxElevation": 15000,
+                                        "minElevation": 2000,
+                                        "maxElevation": 25000,
                                         "minScale": 1.0,
-                                        "maxScale": 0.3
+                                        "maxScale": 0.15
                                     }
                                 }
                             }
@@ -2812,10 +2812,10 @@
                                         "z": 5
                                     },
                                     "NearFarScalar": {
-                                        "minElevation": 3000,
-                                        "maxElevation": 15000,
+                                        "minElevation": 2000,
+                                        "maxElevation": 25000,
                                         "minScale": 1.0,
-                                        "maxScale": 0.3
+                                        "maxScale": 0.15
                                     }
                                 }
                             }
