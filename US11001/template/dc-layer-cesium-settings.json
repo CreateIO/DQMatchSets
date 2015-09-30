@@ -1767,10 +1767,10 @@
                                         "z": 5
                                     },
                                     "NearFarScalar": {
-                                        "minElevation": 3000,
-                                        "maxElevation": 15000,
+                                        "minElevation": 2000,
+                                        "maxElevation": 25000,
                                         "minScale": 1.0,
-                                        "maxScale": 0.3
+                                        "maxScale": 0.1
                                     }
                                 }
                             }
