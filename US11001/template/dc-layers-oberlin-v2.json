@@ -1891,7 +1891,7 @@
                             "removeFunctions": {
                                 "func1": {
                                     "service": "gltf3DService",
-                                    "functionName": "removeSingleTMSLayer",
+                                    "functionName": "removeMultiTMSLayer",
                                     "parameters": {
                                         "param1": "WDCEPretail",
                                         "param2": ""
