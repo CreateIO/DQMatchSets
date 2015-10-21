@@ -842,14 +842,8 @@
                         },
                         "viewDetailsBox":false,
                         "wdcepDetailsBox":false,
-                        "header":"title",
+                        "header":"NAME",
                         "boxValues":{  
-                            "field1":{  
-                                "value":"NAME",
-                                "display":"SMD Name: ",
-                                "fieldtype":"text",
-                                "units":null
-                            },
                             "field2":{  
                                 "value":"ANC_ID",
                                 "display":"ANC ID: ",
