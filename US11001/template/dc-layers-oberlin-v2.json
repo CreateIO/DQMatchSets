@@ -1876,9 +1876,9 @@
                             "addFunctions": { 
                                 "func1": {
                                     "service": "gltf3DService",
-                                    "functionName": "WDTiles",
+                                    "functionName": "addMultiTMSLayer",
                                     "parameters": {
-                                        "param1": "$scope",
+                                        "param1": "WDCEPretail",
                                         "param2": ""
                                     }
                                 }
@@ -1891,9 +1891,9 @@
                             "removeFunctions": {
                                 "func1": {
                                     "service": "gltf3DService",
-                                    "functionName": "removeSitesLayer",
+                                    "functionName": "removeSingleTMSLayer",
                                     "parameters": {
-                                        "param1": "$scope",
+                                        "param1": "WDCEPretail",
                                         "param2": ""
                                     }
                                 }
