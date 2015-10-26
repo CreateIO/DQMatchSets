@@ -114,6 +114,13 @@
                 "deny": ""
               },
               {
+                "id": "navProforma",
+                "name": "CMBS Proforma",
+                "url": "trepp-proforma-sm.html",
+                "hasCharts": false,
+                "deny": ""
+              },
+              {
                 "id": "navEquity",
                 "name": "Equity",
                 "url": "equity.html",
