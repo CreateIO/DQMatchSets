@@ -116,7 +116,7 @@
               {
                 "id": "navProforma",
                 "name": "CMBS Proforma",
-                "url": "trepp-proforma-sm.html",
+                "url": "financing.html",
                 "hasCharts": false,
                 "deny": ""
               },
