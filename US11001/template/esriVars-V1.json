@@ -1669,7 +1669,7 @@
                         "buffer1": null,
                         "buffer2": null,
                         "buffer3": null
-                    }, //////
+                    },
                     "HHGRWCYFY": {
                         "variables": "householdtotals.HHGRWCYFY",
                         "query": "HHGRWCYFY",
@@ -1733,7 +1733,7 @@
                         "buffer1": null,
                         "buffer2": null,
                         "buffer3": null
-                    }, ////
+                    },
                     "MHIGRWCYFY": {
                         "variables": "KeyUSFacts.MHIGRWCYFY",
                         "query": "MHIGRWCYFY",
