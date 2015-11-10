@@ -1,0 +1,729 @@
+{
+  "employment-occupation-chart-esri0": {
+    "meta": {
+      "title": "Industry",
+      "chartType": "PieChart",
+      "topFive": "true",
+      "fields": [
+        {
+          "label": "Agriculture",
+          "value": ["INDAGRI_CY", "calcBuffer0"]
+        } ,
+        {
+          "label": "Construction",
+          "value": ["INDCONS_CY", "calcBuffer0"]
+        } ,
+        {
+          "label": "Manufacturing",
+          "value": ["INDMANU_CY", "calcBuffer0"]
+        } ,
+        {
+          "label": "Wholesale Trade",
+          "value": ["INDWHTR_CY", "calcBuffer0"]
+        } ,
+        {
+          "label": "Retail Trade",
+          "value": ["INDRTTR_CY", "calcBuffer0"]
+        } ,
+        {
+          "label": "Transport., Utilities",
+          "value": ["INDTRAN_CY", "calcBuffer0"]
+        } ,
+        {
+          "label": "Information",
+          "value": ["INDINFO_CY", "calcBuffer0"]
+        } ,
+        {
+          "label": "Finance, Real Estate, Insur. ",
+          "value": ["INDFIN_CY", "calcBuffer0"]
+        } ,
+        {
+          "label": "Professional, Mgmt.",
+          "value": ["INDTECH_CY", "calcBuffer0"]
+        } ,
+        {
+          "label": "Edu., Health & Social Assist.",
+          "value": ["INDEDUC_CY", "calcBuffer0"]
+        } ,
+        {
+          "label": "Arts, Entertain., Food Serv.",
+          "value": ["INDARTS_CY", "calcBuffer0"]
+        } ,
+        {
+          "label": "Other Services",
+          "value": ["INDOTSV_CY", "calcBuffer0"]
+        } ,
+        {
+          "label": "Public Administration",
+          "value": ["INDPUBL_CY", "calcBuffer0"]
+        }
+      ]
+    }
+  },
+  "education-chart-esri0": {
+    "meta": {
+      "title": "Education",
+      "chartType": "PercentBarChart",
+      "hAxis": "Percentage of Population",
+      "fields": [
+        {
+          "label": "<9th Grade",
+          "value": [
+            "NOHS_CY",
+            "calcBuffer0"
+          ]
+        },
+        {
+          "label": "9th to 12th Grade",
+          "value": [
+            "SOMEHS_CY",
+            "calcBuffer0"
+          ]
+        },
+        {
+          "label": "HS Diploma",
+          "value": [
+            "HSGRAD_CY",
+            "calcBuffer0"
+          ]
+        },
+        {
+          "label": "Some College",
+          "value": [
+            "SMCOLL_CY",
+            "calcBuffer0"
+          ]
+        },
+        {
+          "label": "Associates",
+          "value": [
+            "ASSCDEG_CY",
+            "calcBuffer0"
+          ]
+        },
+        {
+          "label": "Bachelors",
+          "value": [
+            "BACHDEG_CY",
+            "calcBuffer0"
+          ]
+        },
+        {
+          "label": "Graduate",
+          "value": [
+            "GRADDEG_CY",
+            "calcBuffer0"
+          ]
+        }
+      ]
+    }
+  },
+  "household_income-esri0": {
+    "meta": {
+      "title": "Household Income by Census Tract",
+      "chartType": "PercentBarChart",
+      "hAxis": "Percentage of Households",
+      "fields": [
+        {
+          "label": "<$25,000",
+          "value": [
+            "HINC0_CY",
+            "calcBuffer0"
+          ]
+        },
+        {
+          "label": "$25k to $34,999",
+          "value": [
+            "HINC25_CY",
+            "calcBuffer0"
+          ]
+        },
+        {
+          "label": "$35k to $49,999",
+          "value": [
+            "HINC35_CY",
+            "calcBuffer0"
+          ]
+        },
+        {
+          "label": "$50k to $74,999",
+          "value": [
+            "HINC50_CY",
+            "calcBuffer0"
+          ]
+        },
+        {
+          "label": "$75k to $99,999",
+          "value": [
+            "HINC75_CY",
+            "calcBuffer0"
+          ]
+        },
+        {
+          "label": "$100k to $149,999",
+          "value": [
+            "HINC100_CY",
+            "calcBuffer0"
+          ]
+        },
+        {
+          "label": "$150k to $199,999",
+          "value": [
+            "HINC150_CY",
+            "calcBuffer0"
+          ]
+        },
+        {
+          "label": "$200,000+",
+          "value": [
+            "HINC200_CY",
+            "calcBuffer0"
+          ]
+        }
+      ]
+    }
+  },
+  "employment-occupation-chart-esri1": {
+    "meta": {
+      "title": "Industry",
+      "chartType": "PieChart",
+      "topFive": "true",
+      "fields": [
+        {
+          "label": "Agriculture",
+          "value": ["INDAGRI_CY", "calcBuffer1"]
+        } ,
+        {
+          "label": "Construction",
+          "value": ["INDCONS_CY", "calcBuffer1"]
+        } ,
+        {
+          "label": "Manufacturing",
+          "value": ["INDMANU_CY", "calcBuffer1"]
+        } ,
+        {
+          "label": "Wholesale Trade",
+          "value": ["INDWHTR_CY", "calcBuffer1"]
+        } ,
+        {
+          "label": "Retail Trade",
+          "value": ["INDRTTR_CY", "calcBuffer1"]
+        } ,
+        {
+          "label": "Transport., Utilities",
+          "value": ["INDTRAN_CY", "calcBuffer1"]
+        } ,
+        {
+          "label": "Information",
+          "value": ["INDINFO_CY", "calcBuffer1"]
+        } ,
+        {
+          "label": "Finance, Real Estate, Insur. ",
+          "value": ["INDFIN_CY", "calcBuffer1"]
+        } ,
+        {
+          "label": "Professional, Mgmt.",
+          "value": ["INDTECH_CY", "calcBuffer1"]
+        } ,
+        {
+          "label": "Edu., Health & Social Assist.",
+          "value": ["INDEDUC_CY", "calcBuffer1"]
+        } ,
+        {
+          "label": "Arts, Entertain., Food Serv.",
+          "value": ["INDARTS_CY", "calcBuffer1"]
+        } ,
+        {
+          "label": "Other Services",
+          "value": ["INDOTSV_CY", "calcBuffer1"]
+        } ,
+        {
+          "label": "Public Administration",
+          "value": ["INDPUBL_CY", "calcBuffer1"]
+        }
+      ]
+    }
+  },
+  "education-chart-esri1": {
+    "meta": {
+      "title": "Education",
+      "chartType": "PercentBarChart",
+      "hAxis": "Percentage of Population",
+      "fields": [
+        {
+          "label": "<9th Grade",
+          "value": [
+            "NOHS_CY",
+            "calcBuffer1"
+          ]
+        },
+        {
+          "label": "9th to 12th Grade",
+          "value": [
+            "SOMEHS_CY",
+            "calcBuffer1"
+          ]
+        },
+        {
+          "label": "HS Diploma",
+          "value": [
+            "HSGRAD_CY",
+            "calcBuffer1"
+          ]
+        },
+        {
+          "label": "Some College",
+          "value": [
+            "SMCOLL_CY",
+            "calcBuffer1"
+          ]
+        },
+        {
+          "label": "Associates",
+          "value": [
+            "ASSCDEG_CY",
+            "calcBuffer1"
+          ]
+        },
+        {
+          "label": "Bachelors",
+          "value": [
+            "BACHDEG_CY",
+            "calcBuffer1"
+          ]
+        },
+        {
+          "label": "Graduate",
+          "value": [
+            "GRADDEG_CY",
+            "calcBuffer1"
+          ]
+        }
+      ]
+    }
+  },
+  "household_income-esri1": {
+    "meta": {
+      "title": "Household Income by Census Tract",
+      "chartType": "PercentBarChart",
+      "hAxis": "Percentage of Households",
+      "fields": [
+        {
+          "label": "<$25,000",
+          "sum":
+          [["HINC0_CY", "calcBuffer1"]]},
+        {
+          "label": "$25k to $34,999",
+          "value": [
+            "HINC25_CY",
+            "calcBuffer1"
+          ]
+        },
+        {
+          "label": "$35k to $49,999",
+          "value": [
+            "HINC35_CY",
+            "calcBuffer1"
+          ]
+        },
+        {
+          "label": "$50k to $74,999",
+          "value": [
+            "HINC50_CY",
+            "calcBuffer1"
+          ]
+        },
+        {
+          "label": "$75k to $99,999",
+          "value": [
+            "HINC75_CY",
+            "calcBuffer1"
+          ]
+        },
+        {
+          "label": "$100k to $149,999",
+          "value": [
+            "HINC100_CY",
+            "calcBuffer1"
+          ]
+        },
+        {
+          "label": "$150k to $199,999",
+          "value": [
+            "HINC150_CY",
+            "calcBuffer1"
+          ]
+        },
+        {
+          "label": "$200,000+",
+          "value": [
+            "HINC200_CY",
+            "calcBuffer1"
+          ]
+        }
+      ]
+    }
+  },
+  "employment-occupation-chart-esri2": {
+    "meta": {
+      "title": "Industry",
+      "chartType": "PieChart",
+      "topFive": "true",
+      "fields": [
+        {
+          "label": "Agriculture",
+          "value": ["INDAGRI_CY", "calcBuffer2"]
+        } ,
+        {
+          "label": "Construction",
+          "value": ["INDCONS_CY", "calcBuffer2"]
+        } ,
+        {
+          "label": "Manufacturing",
+          "value": ["INDMANU_CY", "calcBuffer2"]
+        } ,
+        {
+          "label": "Wholesale Trade",
+          "value": ["INDWHTR_CY", "calcBuffer2"]
+        } ,
+        {
+          "label": "Retail Trade",
+          "value": ["INDRTTR_CY", "calcBuffer2"]
+        } ,
+        {
+          "label": "Transport., Utilities",
+          "value": ["INDTRAN_CY", "calcBuffer2"]
+        } ,
+        {
+          "label": "Information",
+          "value": ["INDINFO_CY", "calcBuffer2"]
+        } ,
+        {
+          "label": "Finance, Real Estate, Insur. ",
+          "value": ["INDFIN_CY", "calcBuffer2"]
+        } ,
+        {
+          "label": "Professional, Mgmt.",
+          "value": ["INDTECH_CY", "calcBuffer2"]
+        } ,
+        {
+          "label": "Edu., Health & Social Assist.",
+          "value": ["INDEDUC_CY", "calcBuffer2"]
+        } ,
+        {
+          "label": "Arts, Entertain., Food Serv.",
+          "value": ["INDARTS_CY", "calcBuffer2"]
+        } ,
+        {
+          "label": "Other Services",
+          "value": ["INDOTSV_CY", "calcBuffer2"]
+        } ,
+        {
+          "label": "Public Administration",
+          "value": ["INDPUBL_CY", "calcBuffer2"]
+        }
+      ]
+    }
+  },
+  "education-chart-esri2": {
+    "meta": {
+      "title": "Education",
+      "chartType": "PercentBarChart",
+      "hAxis": "Percentage of Population",
+      "fields": [
+        {
+          "label": "<9th Grade",
+          "value": [
+            "NOHS_CY",
+            "calcBuffer2"
+          ]
+        },
+        {
+          "label": "9th to 12th Grade",
+          "value": [
+            "SOMEHS_CY",
+            "calcBuffer2"
+          ]
+        },
+        {
+          "label": "HS Diploma",
+          "value": [
+            "HSGRAD_CY",
+            "calcBuffer2"
+          ]
+        },
+        {
+          "label": "Some College",
+          "value": [
+            "SMCOLL_CY",
+            "calcBuffer2"
+          ]
+        },
+        {
+          "label": "Associates",
+          "value": [
+            "ASSCDEG_CY",
+            "calcBuffer2"
+          ]
+        },
+        {
+          "label": "Bachelors",
+          "value": [
+            "BACHDEG_CY",
+            "calcBuffer2"
+          ]
+        },
+        {
+          "label": "Graduate",
+          "value": [
+            "GRADDEG_CY",
+            "calcBuffer2"
+          ]
+        }
+      ]
+    }
+  },
+  "household_income-esri2": {
+    "meta": {
+      "title": "Household Income by Census Tract",
+      "chartType": "PercentBarChart",
+      "hAxis": "Percentage of Households",
+      "fields": [
+        {
+          "label": "<$25,000",
+          "sum":
+          [["HINC0_CY", "calcBuffer2"]]},
+        {
+          "label": "$25k to $34,999",
+          "value": [
+            "HINC25_CY",
+            "calcBuffer2"
+          ]
+        },
+        {
+          "label": "$35k to $49,999",
+          "value": [
+            "HINC35_CY",
+            "calcBuffer2"
+          ]
+        },
+        {
+          "label": "$50k to $74,999",
+          "value": [
+            "HINC50_CY",
+            "calcBuffer2"
+          ]
+        },
+        {
+          "label": "$75k to $99,999",
+          "value": [
+            "HINC75_CY",
+            "calcBuffer2"
+          ]
+        },
+        {
+          "label": "$100k to $149,999",
+          "value": [
+            "HINC100_CY",
+            "calcBuffer2"
+          ]
+        },
+        {
+          "label": "$150k to $199,999",
+          "value": [
+            "HINC150_CY",
+            "calcBuffer2"
+          ]
+        },
+        {
+          "label": "$200,000+",
+          "value": [
+            "HINC200_CY",
+            "calcBuffer2"
+          ]
+        }
+      ]
+    }
+  },
+  "employment-occupation-chart-esri3": {
+    "meta": {
+      "title": "Industry",
+      "chartType": "PieChart",
+      "topFive": "true",
+      "fields": [
+        {
+          "label": "Agriculture",
+          "value": ["INDAGRI_CY", "calcBuffer3"]
+        } ,
+        {
+          "label": "Construction",
+          "value": ["INDCONS_CY", "calcBuffer3"]
+        } ,
+        {
+          "label": "Manufacturing",
+          "value": ["INDMANU_CY", "calcBuffer3"]
+        } ,
+        {
+          "label": "Wholesale Trade",
+          "value": ["INDWHTR_CY", "calcBuffer3"]
+        } ,
+        {
+          "label": "Retail Trade",
+          "value": ["INDRTTR_CY", "calcBuffer3"]
+        } ,
+        {
+          "label": "Transport., Utilities",
+          "value": ["INDTRAN_CY", "calcBuffer3"]
+        } ,
+        {
+          "label": "Information",
+          "value": ["INDINFO_CY", "calcBuffer3"]
+        } ,
+        {
+          "label": "Finance, Real Estate, Insur. ",
+          "value": ["INDFIN_CY", "calcBuffer3"]
+        } ,
+        {
+          "label": "Professional, Mgmt.",
+          "value": ["INDTECH_CY", "calcBuffer3"]
+        } ,
+        {
+          "label": "Edu., Health & Social Assist.",
+          "value": ["INDEDUC_CY", "calcBuffer3"]
+        } ,
+        {
+          "label": "Arts, Entertain., Food Serv.",
+          "value": ["INDARTS_CY", "calcBuffer3"]
+        } ,
+        {
+          "label": "Other Services",
+          "value": ["INDOTSV_CY", "calcBuffer3"]
+        } ,
+        {
+          "label": "Public Administration",
+          "value": ["INDPUBL_CY", "calcBuffer3"]
+        }
+      ]
+    }
+  },
+  "education-chart-esri3": {
+    "meta": {
+      "title": "Education",
+      "chartType": "PercentBarChart",
+      "hAxis": "Percentage of Population",
+      "fields": [
+        {
+          "label": "<9th Grade",
+          "value": [
+            "NOHS_CY",
+            "calcBuffer3"
+          ]
+        },
+        {
+          "label": "9th to 12th Grade",
+          "value": [
+            "SOMEHS_CY",
+            "calcBuffer3"
+          ]
+        },
+        {
+          "label": "HS Diploma",
+          "value": [
+            "HSGRAD_CY",
+            "calcBuffer3"
+          ]
+        },
+        {
+          "label": "Some College",
+          "value": [
+            "SMCOLL_CY",
+            "calcBuffer3"
+          ]
+        },
+        {
+          "label": "Associates",
+          "value": [
+            "ASSCDEG_CY",
+            "calcBuffer3"
+          ]
+        },
+        {
+          "label": "Bachelors",
+          "value": [
+            "BACHDEG_CY",
+            "calcBuffer3"
+          ]
+        },
+        {
+          "label": "Graduate",
+          "value": [
+            "GRADDEG_CY",
+            "calcBuffer3"
+          ]
+        }
+      ]
+    }
+  },
+  "household_income-esri3": {
+    "meta": {
+      "title": "Household Income by Census Tract",
+      "chartType": "PercentBarChart",
+      "hAxis": "Percentage of Households",
+      "fields": [
+        {
+          "label": "<$25,000",
+          "sum":
+          [["HINC0_CY", "calcBuffer3"]]},
+        {
+          "label": "$25k to $34,999",
+          "value": [
+            "HINC25_CY",
+            "calcBuffer3"
+          ]
+        },
+        {
+          "label": "$35k to $49,999",
+          "value": [
+            "HINC35_CY",
+            "calcBuffer3"
+          ]
+        },
+        {
+          "label": "$50k to $74,999",
+          "value": [
+            "HINC50_CY",
+            "calcBuffer3"
+          ]
+        },
+        {
+          "label": "$75k to $99,999",
+          "value": [
+            "HINC75_CY",
+            "calcBuffer3"
+          ]
+        },
+        {
+          "label": "$100k to $149,999",
+          "value": [
+            "HINC100_CY",
+            "calcBuffer3"
+          ]
+        },
+        {
+          "label": "$150k to $199,999",
+          "value": [
+            "HINC150_CY",
+            "calcBuffer3"
+          ]
+        },
+        {
+          "label": "$200,000+",
+          "value": [
+            "HINC200_CY",
+            "calcBuffer3"
+          ]
+        }
+      ]
+    }
+  }
+}
