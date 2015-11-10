@@ -1,0 +1,7 @@
+[{"source":"CREATE","fullName":"Create, Inc","organizationURL":"http://create.io/","datasetURL":"http://create.io/","documentName":"Internal Create computed or aggregated data"},
+      {"source":"DCRA","fullName":"Department of Consumer and Regulatory Affairs","organizationURL":"http://dcra.dc.gov/","datasetURL":"http://dcra.dc.gov/","documentName":"Property Information Verification System"},
+      {"source":"EOM","fullName":"Executive Office of the Mayor","organizationURL":"http://mayor.dc.gov/","datasetURL":"http://opendata.dc.gov/","documentName":"Collaborative DC Datasets"},
+      {"source":"OCTO","fullName":"Office of the Chief Technology Officer","organizationURL":"http://octo.dc.gov/","datasetURL":"http://octo.dc.gov/","documentName":"Collaborative DC Datasets"},
+      {"source":"OP","fullName":"Office of Planning","organizationURL":"http://planning.dc.gov/","datasetURL":"http://opendata.dc.gov/","documentName":"Collaborative DC Datasets"},
+      {"source":"OTR","fullName":"Office of Tax and Revenue","organizationURL":"http://otr.cfo.dc.gov/","datasetURL":"https://www.taxpayerservicecenter.com/RP_Search.jsp?search_type=Sales","documentName":"DC Tax and Revenue Real Property Search"},
+      {"source":"OZ","fullName":"Office of Zoning","organizationURL":"http://dcoz.dc.gov/","datasetURL":"http://opendata.dc.gov/","documentName":"DC Zoning Regulations"}];
