@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # this removes all cached template files from the specified branch and server
 #   thereby enabling server to recognize it needs to fetch new ones.
 
