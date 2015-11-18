@@ -1,69 +1,61 @@
-{  
-    "versions":[  
-        {  
-            "version":"1.0.0",
-            "description":"This is standard and default release",
-            "template":{  
-                "tmsLayers": {
-                    "zoningLayer": {
-                        "tmsProvider" : "zoningProvider",
-                        "tmsLayer" : "zoningLayer",
-                        "tmsLayerName" : "zoning",
-                        "url" : "https://s3.amazonaws.com/models-dc/img_tilesets/zoningZoom19/",
-                        "extension" : "png",
-                        "coords" : {
-                            "xMin" : -77.1209,
-                            "yMin" : 38.7909,
-                            "xMax" : -76.9077,
-                            "yMax" : 38.9964
-                            },
-                        "tileWidth" : 256,
-                        "tileHeight" : 256,
-                        "minimumLevel" : 1,
-                        "maximumLevel" : 19,
-                        "alpha" : 0.4,
-                        "flag" : false
-                    },
-                    "metroBusLayer": {
-                        "tmsProvider" : "metroBusProvider",
-                        "tmsLayer" : "metroBusLayer",
-                        "tmsLayerName" : "metroBus",
-                        "url" : "https://s3.amazonaws.com/models-dc/img_tilesets/metro_bus_tiles_DC_0915/",
-                        "extension" : "png",
-                        "coords" : {
-                            "xMin" : -77.1209,
-                            "yMin" : 38.7909,
-                            "xMax" : -76.9077,
-                            "yMax" : 38.9964
-                            },
-                        "tileWidth" : 256,
-                        "tileHeight" : 256,
-                        "minimumLevel" : 1,
-                        "maximumLevel" : 19,
-                        "alpha" : 0.8,
-                        "flag" : false
-                    },
-                    "parcelLayer": {
-                        "tmsProvider" : "parcelTMSProvider",
-                        "tmsLayer" : "parcelTMSLayer",
-                        "tmsLayerName" : "Parcel TMS",
-                        "url" : "https://s3.amazonaws.com/models-dc/img_tilesets/parcel_tileset_DC_flats/",
-                        "extension" : "png",
-                        "coords" : {
-                            "xMin" : -77.1209,
-                            "yMin" : 38.7909,
-                            "xMax" : -76.9077,
-                            "yMax" : 38.9964
-                            },
-                        "tileWidth" : 256,
-                        "tileHeight" : 256,
-                        "minimumLevel" : 1,
-                        "maximumLevel" : 17,
-                        "alpha" : 0.45,
-                        "flag" : false
-                    }
-                }
-            }
+{
+    "tmsLayers": {
+        "zoningLayer": {
+            "tmsProvider" : "zoningProvider",
+            "tmsLayer" : "zoningLayer",
+            "tmsLayerName" : "zoning",
+            "url" : "https://s3.amazonaws.com/models-dc/img_tilesets/zoningZoom19/",
+            "extension" : "png",
+            "coords" : {
+                "xMin" : -77.1209,
+                "yMin" : 38.7909,
+                "xMax" : -76.9077,
+                "yMax" : 38.9964
+                },
+            "tileWidth" : 256,
+            "tileHeight" : 256,
+            "minimumLevel" : 1,
+            "maximumLevel" : 19,
+            "alpha" : 0.4,
+            "flag" : false
+        },
+        "metroBusLayer": {
+            "tmsProvider" : "metroBusProvider",
+            "tmsLayer" : "metroBusLayer",
+            "tmsLayerName" : "metroBus",
+            "url" : "https://s3.amazonaws.com/models-dc/img_tilesets/metro_bus_tiles_DC_0915/",
+            "extension" : "png",
+            "coords" : {
+                "xMin" : -77.1209,
+                "yMin" : 38.7909,
+                "xMax" : -76.9077,
+                "yMax" : 38.9964
+                },
+            "tileWidth" : 256,
+            "tileHeight" : 256,
+            "minimumLevel" : 1,
+            "maximumLevel" : 19,
+            "alpha" : 0.8,
+            "flag" : false
+        },
+        "parcelLayer": {
+            "tmsProvider" : "parcelTMSProvider",
+            "tmsLayer" : "parcelTMSLayer",
+            "tmsLayerName" : "Parcel TMS",
+            "url" : "https://s3.amazonaws.com/models-dc/img_tilesets/parcel_tileset_DC_flats/",
+            "extension" : "png",
+            "coords" : {
+                "xMin" : -77.1209,
+                "yMin" : 38.7909,
+                "xMax" : -76.9077,
+                "yMax" : 38.9964
+                },
+            "tileWidth" : 256,
+            "tileHeight" : 256,
+            "minimumLevel" : 1,
+            "maximumLevel" : 17,
+            "alpha" : 0.45,
+            "flag" : false
         }
-    ]
+    }
 }

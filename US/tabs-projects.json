@@ -1,16 +1,8 @@
 {
-  "versions": [
+  "name": "Projects",
+  "tabs": [
     {
-      "version": "1.0.0",
-      "description": "This is standard and default release",
-      "template": {
-        "name": "Projects",
-        "tabs": [
-          {
-            "name": "Organizer", "url": "projects/organizer"
-          }
-        ]
-      }
+      "name": "Organizer", "url": "projects/organizer"
     }
   ]
 }

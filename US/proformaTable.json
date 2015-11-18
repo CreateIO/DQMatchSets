@@ -1,843 +1,835 @@
 {
-  "versions": [
-    {
-      "version": "1.0.0",
-      "description": "This is standard and default release",
-      "template": {
-        "proformaTable": [
-          [
-            {"value": "Gross Potential Rent"},
-            {"value": "grosspotentialrent"},
-            {"value": "grosspotentialrentpersize"},
-            {"value": "grosspotentialrentpctrevenue"},
-            {"value": "grosspotentialrent"},
-            {"value": "grosspotentialrentpersize"},
-            {"value": "grosspotentialrentpctrevenue"},
-            {"value": "grosspotentialrentyoy"},
-            {"value": "grosspotentialrentyoy"}
-          ],
-          [
-            {"value": "Vacancy/Collection Loss"},
-            {"value": "lessvacancycollectionloss"},
-            {"value": "lessvacancycollectionlosspersize"},
-            {"value": "lessvacancycollectionlosspctrevenue"},
-            {"value": "lessvacancycollectionloss"},
-            {"value": "lessvacancycollectionlosspersize"},
-            {"value": "lessvacancycollectionlosspctrevenue"},
-            {"value": "lessvacancycollectionlossyoy"},
-            {"value": "lessvacancycollectionlossyoy"}
-          ],
-          [
-            {"value": "Laundry/Vending Income"},
-            {"value": "laundryvendingincome"},
-            {"value": "laundryvendingincomepersize"},
-            {"value": "laundryvendingincomepctrevenue"},
-            {"value": "laundryvendingincome"},
-            {"value": "laundryvendingincomepersize"},
-            {"value": "laundryvendingincomepctrevenue"},
-            {"value": "laundryvendingincomeyoy"},
-            {"value": "laundryvendingincomeyoy"}
-          ],
-          [
-            {"value": "Base Rent "},
-            {"value": "baserent"},
-            {"value": "baserentpersize"},
-            {"value": "baserentpctrevenue"},
-            {"value": "baserent"},
-            {"value": "baserentpersize"},
-            {"value": "baserentpctrevenue"},
-            {"value": "baserentyoy"},
-            {"value": "baserentyoy"}
-          ],
-          [
-            {"value": "Expense Reimbursement"},
-            {"value": "expensereimbursement"},
-            {"value": "expensereimbursementpersize"},
-            {"value": "expensereimbursementpctrevenue"},
-            {"value": "expensereimbursement"},
-            {"value": "expensereimbursementpersize"},
-            {"value": "expensereimbursementpctrevenue"},
-            {"value": "expensereimbursementyoy"},
-            {"value": "expensereimbursementyoy"}
-          ],
-          [
-            {"value": "RoomRevenues"},
-            {"value": "roomrevenue"},
-            {"value": "roomrevenuepersize"},
-            {"value": "roomrevenuepctrevenue"},
-            {"value": "roomrevenue"},
-            {"value": "roomrevenuepersize"},
-            {"value": "roomrevenuepctrevenue"},
-            {"value": "roomrevenueyoy"},
-            {"value": "roomrevenueyoy"}
-          ],
-          [
-            {"value": "Food and Beverage Revenues"},
-            {"value": "foodbeveragerevenues"},
-            {"value": "foodbeveragerevenuespersize"},
-            {"value": "foodbeveragerevenuespctrevenue"},
-            {"value": "foodbeveragerevenues"},
-            {"value": "foodbeveragerevenuespersize"},
-            {"value": "foodbeveragerevenuespctrevenue"},
-            {"value": "foodbeveragerevenuesyoy"},
-            {"value": "foodbeveragerevenuesyoy"}
-          ],
-          [
-            {"value": "Telephone Revenue"},
-            {"value": "telephonerevenue"},
-            {"value": "telephonerevenuepersize"},
-            {"value": "telephonerevenuepctrevenue"},
-            {"value": "telephonerevenue"},
-            {"value": "telephonerevenuepersize"},
-            {"value": "telephonerevenuepctrevenue"},
-            {"value": "telephonerevenueyoy"},
-            {"value": "telephonerevenueyoy"}
-          ],
-          [
-            {"value": "Other Departmental Revenues"},
-            {"value": "otherdepartmentalrevenue"},
-            {"value": "otherdepartmentalrevenuepersize"},
-            {"value": "otherdepartmentalrevenuepctrevenue"},
-            {"value": "otherdepartmentalrevenue"},
-            {"value": "otherdepartmentalrevenuepersize"},
-            {"value": "otherdepartmentalrevenuepctrevenue"},
-            {"value": "otherdepartmentalrevenueyoy"},
-            {"value": "otherdepartmentalrevenueyoy"}
-          ],
-          [
-            {
-              "value": "Total Departmental Revenues",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalrevenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalrevenuepersize",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalrevenuepctrevenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalrevenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalrevenuepersize",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalrevenuepctrevenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalrevenueyoy",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalrevenueyoy",
-              "class": "uppercase fontWeight600"
-            }
-          ],
-          [
-            {"value": "Percentage Rent"},
-            {"value": "percentagerent"},
-            {"value": "percentagerentpersize"},
-            {"value": "percentagerentpctrevenue"},
-            {"value": "percentagerent"},
-            {"value": "percentagerentpersize"},
-            {"value": "percentagerentpctrevenue"},
-            {"value": "percentagerentyoy"},
-            {"value": "percentagerentyoy"}
-          ],
-          [
-            {"value": "Private Pay"},
-            {"value": "privatepay"},
-            {"value": "privatepaypersize"},
-            {"value": "privatepaypctrevenue"},
-            {"value": "privatepay"},
-            {"value": "privatepaypersize"},
-            {"value": "privatepaypctrevenue"},
-            {"value": "privatepayyoy"},
-            {"value": "privatepayyoy"}
-          ],
-          [
-            {"value": "Medicare Medicaid"},
-            {"value": "medicaremedicaid"},
-            {"value": "medicaremedicaidpersize"},
-            {"value": "medicaremedicaidpctrevenue"},
-            {"value": "medicaremedicaid"},
-            {"value": "medicaremedicaidpersize"},
-            {"value": "medicaremedicaidpctrevenue"},
-            {"value": "medicaremedicaidyoy"},
-            {"value": "medicaremedicaidyoy"}
-          ],
-          [
-            {"value": "Nursing Medical Income"},
-            {"value": "nursingmedicalincome"},
-            {"value": "nursingmedicalincomepersize"},
-            {"value": "nursingmedicalincomepctrevenue"},
-            {"value": "nursingmedicalincome"},
-            {"value": "nursingmedicalincomepersize"},
-            {"value": "nursingmedicalincomepctrevenue"},
-            {"value": "nursingmedicalincomeyoy"},
-            {"value": "nursingmedicalincomeyoy"}
-          ],
-          [
-            {"value": "Meals Income"},
-            {"value": "mealsincome"},
-            {"value": "mealsincomepersize"},
-            {"value": "mealsincomepctrevenue"},
-            {"value": "mealsincome"},
-            {"value": "mealsincomepersize"},
-            {"value": "mealsincomepctrevenue"},
-            {"value": "mealsincomeyoy"},
-            {"value": "mealsincomeyoy"}
-          ],
-          [
-            {"value": "Parking Income"},
-            {"value": "parkingincome"},
-            {"value": "parkingincomepersize"},
-            {"value": "parkingincomepctrevenue"},
-            {"value": "parkingincome"},
-            {"value": "parkingincomepersize"},
-            {"value": "parkingincomepctrevenue"},
-            {"value": "parkingincomeyoy"},
-            {"value": "parkingincomeyoy"}
-          ],
-          [
-            {"value": "Other Income"},
-            {"value": "otherincome"},
-            {"value": "otherincomepersize"},
-            {"value": "otherincomepctrevenue"},
-            {"value": "otherincome"},
-            {"value": "otherincomepersize"},
-            {"value": "otherincomepctrevenue"},
-            {"value": "otherincomeyoy"},
-            {"value": "otherincomeyoy"}
-          ],
-          [
-            {
-              "value": "Total Revenues",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "revenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "revenuepersize",
-              "class": "uppercase fontWeight600"
-            },
-            {"value": ""},
-            {
-              "value": "revenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "revenuepersize",
-              "class": "uppercase fontWeight600"
-            },
-            {"value": ""},
-            {
-              "value": "revenueyoy",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "revenueyoy",
-              "class": "uppercase fontWeight600"
-            }
-          ],
-          [
-            {
-              "value": "EGI",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "egi",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "egipersize",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "egipctrevenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "egi",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "egipersize",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "egipctrevenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "egiyoy",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "egiyoy",
-              "class": "uppercase fontWeight600"
-            }
-          ],
-          [
-            {
-              "value": "Operating Expenses",
-              "class": "uppercase warm-orange"
-            },
-            {"value": ""},
-            {"value": ""},
-            {"value": ""},
-            {"value": ""},
-            {"value": ""},
-            {"value": ""},
-            {"value": ""},
-            {"value": ""}
-          ],
-          [
-            {"value": "Room Expenses"},
-            {"value": "roomexpense"},
-            {"value": "roomexpensepersize"},
-            {"value": "roomexpensepctrevenue"},
-            {"value": "roomexpense"},
-            {"value": "roomexpensepersize"},
-            {"value": "roomexpensepctrevenue"},
-            {"value": "roomexpenseyoy"},
-            {"value": "roomexpenseyoy"}
-          ],
-          [
-            {"value": "Food and Beverage Expenses"},
-            {"value": "foodbeverageexpenses"},
-            {"value": "foodbeverageexpensespersize"},
-            {"value": "foodbeverageexpensespctrevenue"},
-            {"value": "foodbeverageexpenses"},
-            {"value": "foodbeverageexpensespersize"},
-            {"value": "foodbeverageexpensespctrevenue"},
-            {"value": "foodbeverageexpensesyoy"},
-            {"value": "foodbeverageexpensesyoy"}
-          ],
-          [
-            {"value": "Telephone Expense"},
-            {"value": "telephoneexpense"},
-            {"value": "telephoneexpensepersize"},
-            {"value": "telephoneexpensepctrevenue"},
-            {"value": "telephoneexpense"},
-            {"value": "telephoneexpensepersize"},
-            {"value": "telephoneexpensepctrevenue"},
-            {"value": "telephoneexpenseyoy"},
-            {"value": "telephoneexpenseyoy"}
-          ],
-          [
-            {"value": "Other Department Expenses"},
-            {"value": "otherdepartmentalexpenses"},
-            {"value": "otherdepartmentalexpensespersize"},
-            {"value": "otherdepartmentalexpensespctrevenue"},
-            {"value": "otherdepartmentalexpenses"},
-            {"value": "otherdepartmentalexpensespersize"},
-            {"value": "otherdepartmentalexpensespctrevenue"},
-            {"value": "otherdepartmentalexpensesyoy"},
-            {"value": "otherdepartmentalexpensesyoy"}
-          ],
-          [
-            {
-              "value": "Total Departmental Expenses",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalexpenses",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalexpensespersize",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalexpensespctrevenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalexpenses",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalexpensespersize",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalexpensespctrevenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalexpensesyoy",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalexpensesyoy",
-              "class": "uppercase fontWeight600"
-            }
-          ],
-          [
-            {
-              "value": "Total Departmentmental Profit",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalprofit",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalprofitpersize",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalprofitpctrevenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalprofit",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalprofitpersize",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalprofitpctrevenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalprofityoy",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "departmentalprofityoy",
-              "class": "uppercase fontWeight600"
-            }
-          ],
-          [
-            {"value": "Room Expense Housekeeping"},
-            {"value": "roomexpensehousekeeping"},
-            {"value": "roomexpensehousekeepingpersize"},
-            {"value": "roomexpensehousekeepingpctrevenue"},
-            {"value": "roomexpensehousekeeping"},
-            {"value": "roomexpensehousekeepingpersize"},
-            {"value": "roomexpensehousekeepingpctrevenue"},
-            {"value": "roomexpensehousekeepingyoy"},
-            {"value": "roomexpensehousekeepingyoy"}
-          ],
-          [
-            {"value": "Meals Expense"},
-            {"value": "mealsexpense"},
-            {"value": "mealsexpensepersize"},
-            {"value": "mealsexpensepctrevenue"},
-            {"value": "mealsexpense"},
-            {"value": "mealsexpensepersize"},
-            {"value": "mealsexpensepctrevenue"},
-            {"value": "mealsexpenseyoy"},
-            {"value": "mealsexpenseyoy"}
-          ],
-          [
-            {"value": "Ground Rent"},
-            {"value": "groundrent"},
-            {"value": "groundrentpersize"},
-            {"value": "groundrentpctrevenue"},
-            {"value": "groundrent"},
-            {"value": "groundrentpersize"},
-            {"value": "groundrentpctrevenue"},
-            {"value": "groundrentyoy"},
-            {"value": "groundrentyoy"}
-          ],
-          [
-            {"value": "Real Estate Taxes"},
-            {"value": "realestatetaxes"},
-            {"value": "realestatetaxespersize"},
-            {"value": "realestatetaxespctrevenue"},
-            {"value": "realestatetaxes"},
-            {"value": "realestatetaxespersize"},
-            {"value": "realestatetaxespctrevenue"},
-            {"value": "realestatetaxesyoy"},
-            {"value": "realestatetaxesyoy"}
-          ],
-          [
-            {"value": "Property Insurance"},
-            {"value": "propertyinsurance"},
-            {"value": "propertyinsurancepersize"},
-            {"value": "propertyinsurancepctrevenue"},
-            {"value": "propertyinsurance"},
-            {"value": "propertyinsurancepersize"},
-            {"value": "propertyinsurancepctrevenue"},
-            {"value": "propertyinsuranceyoy"},
-            {"value": "propertyinsuranceyoy"}
-          ],
-          [
-            {"value": "Utilities"},
-            {"value": "utilities"},
-            {"value": "utilitiespersize"},
-            {"value": "utilitiespctrevenue"},
-            {"value": "utilities"},
-            {"value": "utilitiespersize"},
-            {"value": "utilitiespctrevenue"},
-            {"value": "utilitiesyoy"},
-            {"value": "utilitiesyoy"}
-          ],
-          [
-            {"value": "Repairs and Maintenance"},
-            {"value": "repairsandmaintenance"},
-            {"value": "repairsandmaintenancepersize"},
-            {"value": "repairsandmaintenancepctrevenue"},
-            {"value": "repairsandmaintenance"},
-            {"value": "repairsandmaintenancepersize"},
-            {"value": "repairsandmaintenancepctrevenue"},
-            {"value": "repairsandmaintenanceyoy"},
-            {"value": "repairsandmaintenanceyoy"}
-          ],
-          [
-            {"value": "Janitorial"},
-            {"value": "janitorial"},
-            {"value": "janitorialpersize"},
-            {"value": "janitorialpctrevenue"},
-            {"value": "janitorial"},
-            {"value": "janitorialpersize"},
-            {"value": "janitorialpctrevenue"},
-            {"value": "janitorialyoy"},
-            {"value": "janitorialyoy"}
-          ],
-          [
-            {"value": "Franchise Fee"},
-            {"value": "franchisefee"},
-            {"value": "franchisefeepersize"},
-            {"value": "franchisefeepctrevenue"},
-            {"value": "franchisefee"},
-            {"value": "franchisefeepersize"},
-            {"value": "franchisefeepctrevenue"},
-            {"value": "franchisefeeyoy"},
-            {"value": "franchisefeeyoy"}
-          ],
-          [
-            {"value": "Management Fees"},
-            {"value": "managementfees"},
-            {"value": "managementfeespersize"},
-            {"value": "managementfeespctrevenue"},
-            {"value": "managementfees"},
-            {"value": "managementfeespersize"},
-            {"value": "managementfeespctrevenue"},
-            {"value": "managementfeesyoy"},
-            {"value": "managementfeesyoy"}
-          ],
-          [
-            {"value": "Payroll and Benefits"},
-            {"value": "payrollbenefits"},
-            {"value": "payrollbenefitspersize"},
-            {"value": "payrollbenefitspctrevenue"},
-            {"value": "payrollbenefits"},
-            {"value": "payrollbenefitspersize"},
-            {"value": "payrollbenefitspctrevenue"},
-            {"value": "payrollbenefitsyoy"},
-            {"value": "payrollbenefitsyoy"}
-          ],
-          [
-            {"value": "Advertising and Marketing"},
-            {"value": "advertisingmarketing"},
-            {"value": "advertisingmarketingpersize"},
-            {"value": "advertisingmarketingpctrevenue"},
-            {"value": "advertisingmarketing"},
-            {"value": "advertisingmarketingpersize"},
-            {"value": "advertisingmarketingpctrevenue"},
-            {"value": "advertisingmarketingyoy"},
-            {"value": "advertisingmarketingyoy"}
-          ],
-          [
-            {"value": "Professional Fees"},
-            {"value": "professionalfees"},
-            {"value": "professionalfeespersize"},
-            {"value": "professionalfeespctrevenue"},
-            {"value": "professionalfees"},
-            {"value": "professionalfeespersize"},
-            {"value": "professionalfeespctrevenue"},
-            {"value": "professionalfeesyoy"},
-            {"value": "professionalfeesyoy"}
-          ],
-          [
-            {"value": "General and Administrative"},
-            {"value": "generaladministrative"},
-            {"value": "generaladministrativepersize"},
-            {"value": "generaladministrativepctrevenue"},
-            {"value": "generaladministrative"},
-            {"value": "generaladministrativepersize"},
-            {"value": "generaladministrativepctrevenue"},
-            {"value": "generaladministrativeyoy"},
-            {"value": "generaladministrativeyoy"}
-          ],
-          [
-            {"value": "Other Expenses"},
-            {"value": "otherexpenses"},
-            {"value": "otherexpensespersize"},
-            {"value": "otherexpensespctrevenue"},
-            {"value": "otherexpenses"},
-            {"value": "otherexpensespersize"},
-            {"value": "otherexpensespctrevenue"},
-            {"value": "otherexpensesyoy"},
-            {"value": "otherexpensesyoy"}
-          ],
-          [
-            {
-              "value": "General/Unallocated Expenses",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "generalunallocatedexpenses",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "generalunallocatedexpensespersize",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "generalunallocatedexpensespctrevenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "generalunallocatedexpenses",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "generalunallocatedexpensespersize",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "generalunallocatedexpensespctrevenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "generalunallocatedexpensesyoy",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "generalunallocatedexpensesyoy",
-              "class": "uppercase fontWeight600"
-            }
-          ],
-          [
-            {
-              "value": "Total Operating Expenses",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "operatingexpenses",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "operatingexpensespersize",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "operatingexpensespctrevenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "operatingexpenses",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "operatingexpensespersize",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "operatingexpensespctrevenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "operatingexpensesyoy",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "operatingexpensesyoy",
-              "class": "uppercase fontWeight600"
-            }
-          ],
-          [
-            {
-              "value": "NOI",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "noi",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "noipersize",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "noipctrevenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "noi",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "noipersize",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "noipctrevenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "noiyoy",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "noiyoy",
-              "class": "uppercase fontWeight600"
-            }
-          ],
-          [
-            {
-              "value": "Capital Expenses",
-              "class": "uppercase warm-orange"
-            },
-            {"value": ""},
-            {"value": ""},
-            {"value": ""},
-            {"value": ""},
-            {"value": ""},
-            {"value": ""},
-            {"value": ""},
-            {"value": ""}
-          ],
-          [
-            {"value": "Leasing Commission"},
-            {"value": "leasingcommissions"},
-            {"value": "leasingcommissionspersize"},
-            {"value": "leasingcommissionspctrevenue"},
-            {"value": "leasingcommissions"},
-            {"value": "leasingcommissionspersize"},
-            {"value": "leasingcommissionspctrevenue"},
-            {"value": "leasingcommissionsyoy"},
-            {"value": "leasingcommissionsyoy"}
-          ],
-          [
-            {"value": "Tenant Improvements"},
-            {"value": "tenantimprovements"},
-            {"value": "tenantimprovementspersize"},
-            {"value": "tenantimprovementspctrevenue"},
-            {"value": "tenantimprovements"},
-            {"value": "tenantimprovementspersize"},
-            {"value": "tenantimprovementspctrevenue"},
-            {"value": "tenantimprovementsyoy"},
-            {"value": "tenantimprovementsyoy"}
-          ],
-          [
-            {"value": "Capital Expenditures"},
-            {"value": "capitalexpenditures"},
-            {"value": "capitalexpenditurespersize"},
-            {"value": "capitalexpenditurespctrevenue"},
-            {"value": "capitalexpenditures"},
-            {"value": "capitalexpenditurespersize"},
-            {"value": "capitalexpenditurespctrevenue"},
-            {"value": "capitalexpendituresyoy"},
-            {"value": "capitalexpendituresyoy"}
-          ],
-          [
-            {"value": "Extraordinary Capital Expenditures"},
-            {"value": "extraordinarycapitalexpenditures"},
-            {"value": "extraordinarycapitalexpenditurespersize"},
-            {"value": "extraordinarycapitalexpenditurespctrevenue"},
-            {"value": "extraordinarycapitalexpenditures"},
-            {"value": "extraordinarycapitalexpenditurespersize"},
-            {"value": "extraordinarycapitalexpenditurespctrevenue"},
-            {"value": "extraordinarycapitalexpendituresyoy"},
-            {"value": "extraordinarycapitalexpendituresyoy"}
-          ],
-          [
-            {
-              "value": "Total Capital Expenses",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "capitalexpenses",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "capitalexpensespersize",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "capitalexpensespctrevenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "capitalexpenses",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "capitalexpensespersize",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "capitalexpensespctrevenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "capitalexpensesyoy",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "capitalexpensesyoy",
-              "class": "uppercase fontWeight600"
-            }
-          ],
-          [
-            {
-              "value": "NCF",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "ncf",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "ncfpersize",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "ncfpctrevenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "ncf",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "ncfpersize",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "ncfpctrevenue",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "ncfyoy",
-              "class": "uppercase fontWeight600"
-            },
-            {
-              "value": "ncfyoy",
-              "class": "uppercase fontWeight600"
-            }
-          ]
-        ]
+  "proformaTable": [
+    [
+      {"value": "Gross Potential Rent"},
+      {"value": "grosspotentialrent"},
+      {"value": "grosspotentialrentpersize"},
+      {"value": "grosspotentialrentpctrevenue"},
+      {"value": "grosspotentialrent"},
+      {"value": "grosspotentialrentpersize"},
+      {"value": "grosspotentialrentpctrevenue"},
+      {"value": "grosspotentialrentyoy"},
+      {"value": "grosspotentialrentyoy"}
+    ],
+    [
+      {"value": "Vacancy/Collection Loss"},
+      {"value": "lessvacancycollectionloss"},
+      {"value": "lessvacancycollectionlosspersize"},
+      {"value": "lessvacancycollectionlosspctrevenue"},
+      {"value": "lessvacancycollectionloss"},
+      {"value": "lessvacancycollectionlosspersize"},
+      {"value": "lessvacancycollectionlosspctrevenue"},
+      {"value": "lessvacancycollectionlossyoy"},
+      {"value": "lessvacancycollectionlossyoy"}
+    ],
+    [
+      {"value": "Laundry/Vending Income"},
+      {"value": "laundryvendingincome"},
+      {"value": "laundryvendingincomepersize"},
+      {"value": "laundryvendingincomepctrevenue"},
+      {"value": "laundryvendingincome"},
+      {"value": "laundryvendingincomepersize"},
+      {"value": "laundryvendingincomepctrevenue"},
+      {"value": "laundryvendingincomeyoy"},
+      {"value": "laundryvendingincomeyoy"}
+    ],
+    [
+      {"value": "Base Rent "},
+      {"value": "baserent"},
+      {"value": "baserentpersize"},
+      {"value": "baserentpctrevenue"},
+      {"value": "baserent"},
+      {"value": "baserentpersize"},
+      {"value": "baserentpctrevenue"},
+      {"value": "baserentyoy"},
+      {"value": "baserentyoy"}
+    ],
+    [
+      {"value": "Expense Reimbursement"},
+      {"value": "expensereimbursement"},
+      {"value": "expensereimbursementpersize"},
+      {"value": "expensereimbursementpctrevenue"},
+      {"value": "expensereimbursement"},
+      {"value": "expensereimbursementpersize"},
+      {"value": "expensereimbursementpctrevenue"},
+      {"value": "expensereimbursementyoy"},
+      {"value": "expensereimbursementyoy"}
+    ],
+    [
+      {"value": "RoomRevenues"},
+      {"value": "roomrevenue"},
+      {"value": "roomrevenuepersize"},
+      {"value": "roomrevenuepctrevenue"},
+      {"value": "roomrevenue"},
+      {"value": "roomrevenuepersize"},
+      {"value": "roomrevenuepctrevenue"},
+      {"value": "roomrevenueyoy"},
+      {"value": "roomrevenueyoy"}
+    ],
+    [
+      {"value": "Food and Beverage Revenues"},
+      {"value": "foodbeveragerevenues"},
+      {"value": "foodbeveragerevenuespersize"},
+      {"value": "foodbeveragerevenuespctrevenue"},
+      {"value": "foodbeveragerevenues"},
+      {"value": "foodbeveragerevenuespersize"},
+      {"value": "foodbeveragerevenuespctrevenue"},
+      {"value": "foodbeveragerevenuesyoy"},
+      {"value": "foodbeveragerevenuesyoy"}
+    ],
+    [
+      {"value": "Telephone Revenue"},
+      {"value": "telephonerevenue"},
+      {"value": "telephonerevenuepersize"},
+      {"value": "telephonerevenuepctrevenue"},
+      {"value": "telephonerevenue"},
+      {"value": "telephonerevenuepersize"},
+      {"value": "telephonerevenuepctrevenue"},
+      {"value": "telephonerevenueyoy"},
+      {"value": "telephonerevenueyoy"}
+    ],
+    [
+      {"value": "Other Departmental Revenues"},
+      {"value": "otherdepartmentalrevenue"},
+      {"value": "otherdepartmentalrevenuepersize"},
+      {"value": "otherdepartmentalrevenuepctrevenue"},
+      {"value": "otherdepartmentalrevenue"},
+      {"value": "otherdepartmentalrevenuepersize"},
+      {"value": "otherdepartmentalrevenuepctrevenue"},
+      {"value": "otherdepartmentalrevenueyoy"},
+      {"value": "otherdepartmentalrevenueyoy"}
+    ],
+    [
+      {
+        "value": "Total Departmental Revenues",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalrevenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalrevenuepersize",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalrevenuepctrevenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalrevenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalrevenuepersize",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalrevenuepctrevenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalrevenueyoy",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalrevenueyoy",
+        "class": "uppercase fontWeight600"
       }
-    }
+    ],
+    [
+      {"value": "Percentage Rent"},
+      {"value": "percentagerent"},
+      {"value": "percentagerentpersize"},
+      {"value": "percentagerentpctrevenue"},
+      {"value": "percentagerent"},
+      {"value": "percentagerentpersize"},
+      {"value": "percentagerentpctrevenue"},
+      {"value": "percentagerentyoy"},
+      {"value": "percentagerentyoy"}
+    ],
+    [
+      {"value": "Private Pay"},
+      {"value": "privatepay"},
+      {"value": "privatepaypersize"},
+      {"value": "privatepaypctrevenue"},
+      {"value": "privatepay"},
+      {"value": "privatepaypersize"},
+      {"value": "privatepaypctrevenue"},
+      {"value": "privatepayyoy"},
+      {"value": "privatepayyoy"}
+    ],
+    [
+      {"value": "Medicare Medicaid"},
+      {"value": "medicaremedicaid"},
+      {"value": "medicaremedicaidpersize"},
+      {"value": "medicaremedicaidpctrevenue"},
+      {"value": "medicaremedicaid"},
+      {"value": "medicaremedicaidpersize"},
+      {"value": "medicaremedicaidpctrevenue"},
+      {"value": "medicaremedicaidyoy"},
+      {"value": "medicaremedicaidyoy"}
+    ],
+    [
+      {"value": "Nursing Medical Income"},
+      {"value": "nursingmedicalincome"},
+      {"value": "nursingmedicalincomepersize"},
+      {"value": "nursingmedicalincomepctrevenue"},
+      {"value": "nursingmedicalincome"},
+      {"value": "nursingmedicalincomepersize"},
+      {"value": "nursingmedicalincomepctrevenue"},
+      {"value": "nursingmedicalincomeyoy"},
+      {"value": "nursingmedicalincomeyoy"}
+    ],
+    [
+      {"value": "Meals Income"},
+      {"value": "mealsincome"},
+      {"value": "mealsincomepersize"},
+      {"value": "mealsincomepctrevenue"},
+      {"value": "mealsincome"},
+      {"value": "mealsincomepersize"},
+      {"value": "mealsincomepctrevenue"},
+      {"value": "mealsincomeyoy"},
+      {"value": "mealsincomeyoy"}
+    ],
+    [
+      {"value": "Parking Income"},
+      {"value": "parkingincome"},
+      {"value": "parkingincomepersize"},
+      {"value": "parkingincomepctrevenue"},
+      {"value": "parkingincome"},
+      {"value": "parkingincomepersize"},
+      {"value": "parkingincomepctrevenue"},
+      {"value": "parkingincomeyoy"},
+      {"value": "parkingincomeyoy"}
+    ],
+    [
+      {"value": "Other Income"},
+      {"value": "otherincome"},
+      {"value": "otherincomepersize"},
+      {"value": "otherincomepctrevenue"},
+      {"value": "otherincome"},
+      {"value": "otherincomepersize"},
+      {"value": "otherincomepctrevenue"},
+      {"value": "otherincomeyoy"},
+      {"value": "otherincomeyoy"}
+    ],
+    [
+      {
+        "value": "Total Revenues",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "revenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "revenuepersize",
+        "class": "uppercase fontWeight600"
+      },
+      {"value": ""},
+      {
+        "value": "revenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "revenuepersize",
+        "class": "uppercase fontWeight600"
+      },
+      {"value": ""},
+      {
+        "value": "revenueyoy",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "revenueyoy",
+        "class": "uppercase fontWeight600"
+      }
+    ],
+    [
+      {
+        "value": "EGI",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "egi",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "egipersize",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "egipctrevenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "egi",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "egipersize",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "egipctrevenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "egiyoy",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "egiyoy",
+        "class": "uppercase fontWeight600"
+      }
+    ],
+    [
+      {
+        "value": "Operating Expenses",
+        "class": "uppercase warm-orange"
+      },
+      {"value": ""},
+      {"value": ""},
+      {"value": ""},
+      {"value": ""},
+      {"value": ""},
+      {"value": ""},
+      {"value": ""},
+      {"value": ""}
+    ],
+    [
+      {"value": "Room Expenses"},
+      {"value": "roomexpense"},
+      {"value": "roomexpensepersize"},
+      {"value": "roomexpensepctrevenue"},
+      {"value": "roomexpense"},
+      {"value": "roomexpensepersize"},
+      {"value": "roomexpensepctrevenue"},
+      {"value": "roomexpenseyoy"},
+      {"value": "roomexpenseyoy"}
+    ],
+    [
+      {"value": "Food and Beverage Expenses"},
+      {"value": "foodbeverageexpenses"},
+      {"value": "foodbeverageexpensespersize"},
+      {"value": "foodbeverageexpensespctrevenue"},
+      {"value": "foodbeverageexpenses"},
+      {"value": "foodbeverageexpensespersize"},
+      {"value": "foodbeverageexpensespctrevenue"},
+      {"value": "foodbeverageexpensesyoy"},
+      {"value": "foodbeverageexpensesyoy"}
+    ],
+    [
+      {"value": "Telephone Expense"},
+      {"value": "telephoneexpense"},
+      {"value": "telephoneexpensepersize"},
+      {"value": "telephoneexpensepctrevenue"},
+      {"value": "telephoneexpense"},
+      {"value": "telephoneexpensepersize"},
+      {"value": "telephoneexpensepctrevenue"},
+      {"value": "telephoneexpenseyoy"},
+      {"value": "telephoneexpenseyoy"}
+    ],
+    [
+      {"value": "Other Department Expenses"},
+      {"value": "otherdepartmentalexpenses"},
+      {"value": "otherdepartmentalexpensespersize"},
+      {"value": "otherdepartmentalexpensespctrevenue"},
+      {"value": "otherdepartmentalexpenses"},
+      {"value": "otherdepartmentalexpensespersize"},
+      {"value": "otherdepartmentalexpensespctrevenue"},
+      {"value": "otherdepartmentalexpensesyoy"},
+      {"value": "otherdepartmentalexpensesyoy"}
+    ],
+    [
+      {
+        "value": "Total Departmental Expenses",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalexpenses",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalexpensespersize",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalexpensespctrevenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalexpenses",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalexpensespersize",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalexpensespctrevenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalexpensesyoy",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalexpensesyoy",
+        "class": "uppercase fontWeight600"
+      }
+    ],
+    [
+      {
+        "value": "Total Departmentmental Profit",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalprofit",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalprofitpersize",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalprofitpctrevenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalprofit",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalprofitpersize",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalprofitpctrevenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalprofityoy",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "departmentalprofityoy",
+        "class": "uppercase fontWeight600"
+      }
+    ],
+    [
+      {"value": "Room Expense Housekeeping"},
+      {"value": "roomexpensehousekeeping"},
+      {"value": "roomexpensehousekeepingpersize"},
+      {"value": "roomexpensehousekeepingpctrevenue"},
+      {"value": "roomexpensehousekeeping"},
+      {"value": "roomexpensehousekeepingpersize"},
+      {"value": "roomexpensehousekeepingpctrevenue"},
+      {"value": "roomexpensehousekeepingyoy"},
+      {"value": "roomexpensehousekeepingyoy"}
+    ],
+    [
+      {"value": "Meals Expense"},
+      {"value": "mealsexpense"},
+      {"value": "mealsexpensepersize"},
+      {"value": "mealsexpensepctrevenue"},
+      {"value": "mealsexpense"},
+      {"value": "mealsexpensepersize"},
+      {"value": "mealsexpensepctrevenue"},
+      {"value": "mealsexpenseyoy"},
+      {"value": "mealsexpenseyoy"}
+    ],
+    [
+      {"value": "Ground Rent"},
+      {"value": "groundrent"},
+      {"value": "groundrentpersize"},
+      {"value": "groundrentpctrevenue"},
+      {"value": "groundrent"},
+      {"value": "groundrentpersize"},
+      {"value": "groundrentpctrevenue"},
+      {"value": "groundrentyoy"},
+      {"value": "groundrentyoy"}
+    ],
+    [
+      {"value": "Real Estate Taxes"},
+      {"value": "realestatetaxes"},
+      {"value": "realestatetaxespersize"},
+      {"value": "realestatetaxespctrevenue"},
+      {"value": "realestatetaxes"},
+      {"value": "realestatetaxespersize"},
+      {"value": "realestatetaxespctrevenue"},
+      {"value": "realestatetaxesyoy"},
+      {"value": "realestatetaxesyoy"}
+    ],
+    [
+      {"value": "Property Insurance"},
+      {"value": "propertyinsurance"},
+      {"value": "propertyinsurancepersize"},
+      {"value": "propertyinsurancepctrevenue"},
+      {"value": "propertyinsurance"},
+      {"value": "propertyinsurancepersize"},
+      {"value": "propertyinsurancepctrevenue"},
+      {"value": "propertyinsuranceyoy"},
+      {"value": "propertyinsuranceyoy"}
+    ],
+    [
+      {"value": "Utilities"},
+      {"value": "utilities"},
+      {"value": "utilitiespersize"},
+      {"value": "utilitiespctrevenue"},
+      {"value": "utilities"},
+      {"value": "utilitiespersize"},
+      {"value": "utilitiespctrevenue"},
+      {"value": "utilitiesyoy"},
+      {"value": "utilitiesyoy"}
+    ],
+    [
+      {"value": "Repairs and Maintenance"},
+      {"value": "repairsandmaintenance"},
+      {"value": "repairsandmaintenancepersize"},
+      {"value": "repairsandmaintenancepctrevenue"},
+      {"value": "repairsandmaintenance"},
+      {"value": "repairsandmaintenancepersize"},
+      {"value": "repairsandmaintenancepctrevenue"},
+      {"value": "repairsandmaintenanceyoy"},
+      {"value": "repairsandmaintenanceyoy"}
+    ],
+    [
+      {"value": "Janitorial"},
+      {"value": "janitorial"},
+      {"value": "janitorialpersize"},
+      {"value": "janitorialpctrevenue"},
+      {"value": "janitorial"},
+      {"value": "janitorialpersize"},
+      {"value": "janitorialpctrevenue"},
+      {"value": "janitorialyoy"},
+      {"value": "janitorialyoy"}
+    ],
+    [
+      {"value": "Franchise Fee"},
+      {"value": "franchisefee"},
+      {"value": "franchisefeepersize"},
+      {"value": "franchisefeepctrevenue"},
+      {"value": "franchisefee"},
+      {"value": "franchisefeepersize"},
+      {"value": "franchisefeepctrevenue"},
+      {"value": "franchisefeeyoy"},
+      {"value": "franchisefeeyoy"}
+    ],
+    [
+      {"value": "Management Fees"},
+      {"value": "managementfees"},
+      {"value": "managementfeespersize"},
+      {"value": "managementfeespctrevenue"},
+      {"value": "managementfees"},
+      {"value": "managementfeespersize"},
+      {"value": "managementfeespctrevenue"},
+      {"value": "managementfeesyoy"},
+      {"value": "managementfeesyoy"}
+    ],
+    [
+      {"value": "Payroll and Benefits"},
+      {"value": "payrollbenefits"},
+      {"value": "payrollbenefitspersize"},
+      {"value": "payrollbenefitspctrevenue"},
+      {"value": "payrollbenefits"},
+      {"value": "payrollbenefitspersize"},
+      {"value": "payrollbenefitspctrevenue"},
+      {"value": "payrollbenefitsyoy"},
+      {"value": "payrollbenefitsyoy"}
+    ],
+    [
+      {"value": "Advertising and Marketing"},
+      {"value": "advertisingmarketing"},
+      {"value": "advertisingmarketingpersize"},
+      {"value": "advertisingmarketingpctrevenue"},
+      {"value": "advertisingmarketing"},
+      {"value": "advertisingmarketingpersize"},
+      {"value": "advertisingmarketingpctrevenue"},
+      {"value": "advertisingmarketingyoy"},
+      {"value": "advertisingmarketingyoy"}
+    ],
+    [
+      {"value": "Professional Fees"},
+      {"value": "professionalfees"},
+      {"value": "professionalfeespersize"},
+      {"value": "professionalfeespctrevenue"},
+      {"value": "professionalfees"},
+      {"value": "professionalfeespersize"},
+      {"value": "professionalfeespctrevenue"},
+      {"value": "professionalfeesyoy"},
+      {"value": "professionalfeesyoy"}
+    ],
+    [
+      {"value": "General and Administrative"},
+      {"value": "generaladministrative"},
+      {"value": "generaladministrativepersize"},
+      {"value": "generaladministrativepctrevenue"},
+      {"value": "generaladministrative"},
+      {"value": "generaladministrativepersize"},
+      {"value": "generaladministrativepctrevenue"},
+      {"value": "generaladministrativeyoy"},
+      {"value": "generaladministrativeyoy"}
+    ],
+    [
+      {"value": "Other Expenses"},
+      {"value": "otherexpenses"},
+      {"value": "otherexpensespersize"},
+      {"value": "otherexpensespctrevenue"},
+      {"value": "otherexpenses"},
+      {"value": "otherexpensespersize"},
+      {"value": "otherexpensespctrevenue"},
+      {"value": "otherexpensesyoy"},
+      {"value": "otherexpensesyoy"}
+    ],
+    [
+      {
+        "value": "General/Unallocated Expenses",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "generalunallocatedexpenses",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "generalunallocatedexpensespersize",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "generalunallocatedexpensespctrevenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "generalunallocatedexpenses",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "generalunallocatedexpensespersize",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "generalunallocatedexpensespctrevenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "generalunallocatedexpensesyoy",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "generalunallocatedexpensesyoy",
+        "class": "uppercase fontWeight600"
+      }
+    ],
+    [
+      {
+        "value": "Total Operating Expenses",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "operatingexpenses",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "operatingexpensespersize",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "operatingexpensespctrevenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "operatingexpenses",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "operatingexpensespersize",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "operatingexpensespctrevenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "operatingexpensesyoy",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "operatingexpensesyoy",
+        "class": "uppercase fontWeight600"
+      }
+    ],
+    [
+      {
+        "value": "NOI",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "noi",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "noipersize",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "noipctrevenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "noi",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "noipersize",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "noipctrevenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "noiyoy",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "noiyoy",
+        "class": "uppercase fontWeight600"
+      }
+    ],
+    [
+      {
+        "value": "Capital Expenses",
+        "class": "uppercase warm-orange"
+      },
+      {"value": ""},
+      {"value": ""},
+      {"value": ""},
+      {"value": ""},
+      {"value": ""},
+      {"value": ""},
+      {"value": ""},
+      {"value": ""}
+    ],
+    [
+      {"value": "Leasing Commission"},
+      {"value": "leasingcommissions"},
+      {"value": "leasingcommissionspersize"},
+      {"value": "leasingcommissionspctrevenue"},
+      {"value": "leasingcommissions"},
+      {"value": "leasingcommissionspersize"},
+      {"value": "leasingcommissionspctrevenue"},
+      {"value": "leasingcommissionsyoy"},
+      {"value": "leasingcommissionsyoy"}
+    ],
+    [
+      {"value": "Tenant Improvements"},
+      {"value": "tenantimprovements"},
+      {"value": "tenantimprovementspersize"},
+      {"value": "tenantimprovementspctrevenue"},
+      {"value": "tenantimprovements"},
+      {"value": "tenantimprovementspersize"},
+      {"value": "tenantimprovementspctrevenue"},
+      {"value": "tenantimprovementsyoy"},
+      {"value": "tenantimprovementsyoy"}
+    ],
+    [
+      {"value": "Capital Expenditures"},
+      {"value": "capitalexpenditures"},
+      {"value": "capitalexpenditurespersize"},
+      {"value": "capitalexpenditurespctrevenue"},
+      {"value": "capitalexpenditures"},
+      {"value": "capitalexpenditurespersize"},
+      {"value": "capitalexpenditurespctrevenue"},
+      {"value": "capitalexpendituresyoy"},
+      {"value": "capitalexpendituresyoy"}
+    ],
+    [
+      {"value": "Extraordinary Capital Expenditures"},
+      {"value": "extraordinarycapitalexpenditures"},
+      {"value": "extraordinarycapitalexpenditurespersize"},
+      {"value": "extraordinarycapitalexpenditurespctrevenue"},
+      {"value": "extraordinarycapitalexpenditures"},
+      {"value": "extraordinarycapitalexpenditurespersize"},
+      {"value": "extraordinarycapitalexpenditurespctrevenue"},
+      {"value": "extraordinarycapitalexpendituresyoy"},
+      {"value": "extraordinarycapitalexpendituresyoy"}
+    ],
+    [
+      {
+        "value": "Total Capital Expenses",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "capitalexpenses",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "capitalexpensespersize",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "capitalexpensespctrevenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "capitalexpenses",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "capitalexpensespersize",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "capitalexpensespctrevenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "capitalexpensesyoy",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "capitalexpensesyoy",
+        "class": "uppercase fontWeight600"
+      }
+    ],
+    [
+      {
+        "value": "NCF",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "ncf",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "ncfpersize",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "ncfpctrevenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "ncf",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "ncfpersize",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "ncfpctrevenue",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "ncfyoy",
+        "class": "uppercase fontWeight600"
+      },
+      {
+        "value": "ncfyoy",
+        "class": "uppercase fontWeight600"
+      }
+    ]
   ]
 }
