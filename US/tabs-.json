@@ -5,7 +5,7 @@
       "name": "Property",
       "tabs": [
         {
-          "xx24": "XXnavOverview",
+          "id": "navOverview",
           "name": "Overview",
           "url": "location.html",
           "hasCharts": false,
@@ -63,6 +63,13 @@
         },
         {
           "id": "navBuildIt",
+          "name": "Build It!",
+          "url": "building_definition.html",
+          "hasCharts": false,
+          "deny": "Limited Monthly DC_Public_Access Freemium Premium beta_premium beta_freemium beta_fremium"
+        },
+        {
+          "id": "extraArrayUS",
           "name": "Build It!",
           "url": "building_definition.html",
           "hasCharts": false,

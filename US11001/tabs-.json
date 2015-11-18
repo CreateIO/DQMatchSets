@@ -67,6 +67,13 @@
           "url": "building_definition.html",
           "hasCharts": false,
           "deny": "Limited Monthly DC_Public_Access Freemium Premium beta_premium beta_freemium beta_fremium"
+        },
+        {
+          "id": "extraArrayUS11001",
+          "name": "Build It!",
+          "url": "building_definition.html",
+          "hasCharts": false,
+          "deny": "Limited Monthly DC_Public_Access Freemium Premium beta_premium beta_freemium beta_fremium"
         }
       ]
     },
