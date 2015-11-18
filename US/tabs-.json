@@ -96,40 +96,6 @@
           "deny": ""
         }
       ]
-    },
-    {
-      "id": "navFinancing",
-      "name": "Financing",
-      "tabs": [
-        {
-          "id": "navDebt",
-          "name": "Debt",
-          "url": "financing.html",
-          "hasCharts": false,
-          "deny": ""
-        },
-        {
-          "id": "navLoans",
-          "name": "CMBS Loans",
-          "url": "financing.html",
-          "hasCharts": false,
-          "deny": ""
-        },
-        {
-          "id": "navProforma",
-          "name": "CMBS Proforma",
-          "url": "financing.html",
-          "hasCharts": false,
-          "deny": ""
-        },
-        {
-          "id": "navEquity",
-          "name": "Equity",
-          "url": "equity.html",
-          "hasCharts": false,
-          "deny": ""
-        }
-      ]
     }
   ]
 }
