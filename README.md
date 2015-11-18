@@ -1,5 +1,15 @@
 # DQMatchSets
 
+Template resources are HIERARCHICAL!!  This means that templates that are global (or at least for use in the US) should
+   be in the "US" folder.  Templates (or parts of a template) that are unique to a specific region should be in the
+   specific folder appropriate to them (i.e. "US/US11001" for DC, or "US/US24510 for Baltimore city).  Note that under
+   any of these folders, you can put template resources in their sub-folders to group them if needed (such as "US/US11001/filters"
+   for example).
+
+   The DQ will look for the resource in the folder "US" first, then attempt to read the same resource from the local region
+   folder.  If it exists in the local region, any (or all) of the JSON objects in that local region folder resource will
+   replace or override the same JSON object (if it exists) in the "US" folder.
+
 To add or change a template resource:
 1) create a new branch in the DQMatchSets repository off of the “test” branch.
 2) Commit and push your new or modified files up to the repository in your new branch.
@@ -13,30 +23,14 @@ To add or change a template resource:
 Files pushed into the template folder and pushed to github become immediately accessable to both the dq-test.create.io,
    and the dq-prod.create.io servers ON THE BRANCH pushed to or merged into (typically via a pull request).
 
-Note that template files are cached locally on each server...  If you make changes to an EXISTING template and you want
-   to see these changes show up on the DQ server, you must either
-   1) Run the create app locally with the command $ grunt serve:template=branch_name (where branch_name is the name of
-      the branch you are deploying to, and then execute the code that requires the template.  This option is typically
-      used during development, and is not recommended for final deployment to the servers.  To clear the cache for those,
-      use the following method:
-   2) To clear the cache on the test or prod servers for the github branch where you have pushed your changes to,
-      use the script (located in the top level of the DQMatchSets repository -- i.e. same location as this README file):
-         $ ./clear_cache.sh branch_name
-      where "branch_name" is the name of the branch you have pushed your changes to.  This defaults to the dq-test server.
-      If you must clear the cache on the dq-prod server, add the optional server specifier:
-         $ ./clear_cache.sh branch_name server=prod
-
-
-Example call to the DQ for template data:
-https://dq-test.create.io/DQ/template?resource=tabs-&version=1.0.0&branch=test  (normal, use local cache if available)
-https://dq-test.create.io/DQ/template?resource=tabs-&version=1.0.0&cache=false&branch=test (do not use local cache, re-grab file from git repository
+To have your local server use the branch you are testing with, run the create app locally with the command:
+   $ grunt serve:template=branch_name (where branch_name is the name of the branch you are deploying to,
+      and then execute the code that requires the template.  This option is typically
+      used during development, and is not recommended for final deployment to the servers.
 
 To publish template data for use with production or test servers:
    1) Merge your changes (typically from the “test” branch) into the appropriate branch for where you are deploying
       (oberlin-prod for production, oberlin-integration for test/demo, or just test for those)
    2) Insure that the environment vars in the server are configured correctly to the branch and dq instance you desire
-      (test = dq.create.io    prod=dq-test.create.io)
-   3) In the DQMatchSets repo on your local machine, run the script ./clear_cache.sh branch_name (to clear from dq-test
-      instances) or ./clear_cache.sh branch_name server=prod (to clear from dq-prod instances).  This clears the cache
-      so that changes will manifest immediately.  You may wish to clear cache from both test and prod instances if your
-      changes may show up in branches referred to by both test and prod servers.
+      (test = dq-test.create.io    prod=dq-prod.create.io)
+
