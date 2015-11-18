@@ -1,4 +1,20 @@
 {
+  "tabsXX": [
+    {
+      "id": "navProperty",
+      "name": "Property",
+      "tabs": [
+        {
+          "id22": "navOverview22",
+          "name": "Overview",
+          "url": "location.html",
+          "hasCharts": false,
+          "radarChart": true,
+          "deny": ""
+        }
+      ]
+    }
+  ],  
   "tabs": [
     {
       "id": "navProperty",
