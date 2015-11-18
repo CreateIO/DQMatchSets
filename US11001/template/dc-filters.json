@@ -23,7 +23,8 @@
                         "filter_exists": null,
                         "teaser": false,
                         "restrict": null,
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "zoningDistrict": {
                         "id": 2,
@@ -43,7 +44,8 @@
                         "filter_exists": null,
                         "teaser": false,
                         "restrict": null,
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "neighborhood": {
                         "id": 3,
@@ -63,7 +65,8 @@
                         "filter_exists": null,
                         "teaser": false,
                         "restrict": null,
-                        "inuse": false
+                        "inuse": false,
+                        "toggled": false
                     },
                     "generalUse": {
                         "id": 4,
@@ -83,7 +86,8 @@
                         "filter_exists": null,
                         "teaser": false,
                         "restrict": null,
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "commercialUse": {
                         "id": 5,
@@ -103,7 +107,8 @@
                         "filter_exists": null,
                         "teaser": false,
                         "restrict": null,
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "residentialUse": {
                         "id": 6,
@@ -123,7 +128,8 @@
                         "filter_exists": null,
                         "teaser": false,
                         "restrict": null,
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "institutionalUse": {
                         "id": 7,
@@ -143,7 +149,8 @@
                         "filter_exists": null,
                         "teaser": false,
                         "restrict": null,
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "retailSpaceAvailability": {
                         "id": 8,
@@ -163,7 +170,8 @@
                         "filter_exists": null,
                         "teaser": false,
                         "restrict": null,
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "retailSpaceSize": {
                         "id": 9,
@@ -183,7 +191,8 @@
                         "filter_exists": null,
                         "teaser": false,
                         "restrict": null,
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "buildingSize": {
                         "id": 10,
@@ -203,7 +212,8 @@
                         "filter_exists": null,
                         "teaser": false,
                         "restrict": null,
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "numberBedrooms": {
                         "id": 11,
@@ -223,7 +233,8 @@
                         "filter_exists": null,
                         "teaser": false,
                         "restrict": null,
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "numberUnits": {
                         "id": 12,
@@ -243,7 +254,8 @@
                         "filter_exists": null,
                         "teaser": false,
                         "restrict": null,
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "yearBuilt": {
                         "id": 13,
@@ -263,7 +275,8 @@
                         "filter_exists": null,
                         "teaser": false,
                         "restrict": null,
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "metroRailDistance": {
                         "id": 14,
@@ -283,7 +296,8 @@
                         "filter_exists": null,
                         "teaser": false,
                         "restrict": null,
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "metroBusDistance": {
                         "id": 15,
@@ -303,7 +317,8 @@
                         "filter_exists": null,
                         "teaser": false,
                         "restrict": null,
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "businessImprovementDistrict": {
                         "id": 16,
@@ -323,7 +338,8 @@
                         "filter_exists": false,
                         "teaser": false,
                         "restrict": null,
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "tenantSpaceSF": {
                         "id": 17,
@@ -343,7 +359,8 @@
                         "filter_exists": null,
                         "teaser": true,
                         "restrict": "esriDemog",
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "numberEmployees": {
                         "id": 18,
@@ -363,7 +380,8 @@
                         "filter_exists": null,
                         "teaser": true,
                         "restrict": "esriDemog",
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "revenue": {
                         "id": 19,
@@ -383,7 +401,8 @@
                         "filter_exists": null,
                         "teaser": true,
                         "restrict": "esriDemog",
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "hasTrepp": {
                         "id": 20,
@@ -403,7 +422,8 @@
                         "filter_exists": false,
                         "teaser": true,
                         "restrict": "esriDemog",
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "loanClosingYear": {
                         "id": 21,
@@ -423,7 +443,8 @@
                         "filter_exists": false,
                         "teaser": true,
                         "restrict": "esriDemog",
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "loanBalance": {
                         "id": 22,
@@ -443,7 +464,8 @@
                         "filter_exists": false,
                         "teaser": true,
                         "restrict": "esriDemog",
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "groceryDistance": {
                         "id": 23,
@@ -463,7 +485,8 @@
                         "filter_exists": null,
                         "teaser": false,
                         "restrict": null,
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "populationGrowth": {
                         "id": 24,
@@ -483,7 +506,8 @@
                         "filter_exists": null,
                         "teaser": true,
                         "restrict": "esriDemog",
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "medianIncomeGrowth": {
                         "id": 25,
@@ -503,7 +527,8 @@
                         "filter_exists": null,
                         "teaser": true,
                         "restrict": "esriDemog",
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "householdGrowth": {
                         "id": 26,
@@ -523,7 +548,8 @@
                         "filter_exists": null,
                         "teaser": true,
                         "restrict": "esriDemog",
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "housingUnitsGrowth": {
                         "id": 27,
@@ -543,7 +569,8 @@
                         "filter_exists": null,
                         "teaser": true,
                         "restrict": "esriDemog",
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "homeValueGrowth": {
                         "id": 28,
@@ -563,7 +590,8 @@
                         "filter_exists": null,
                         "teaser": true,
                         "restrict": "esriDemog",
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "greatStreets": {
                         "id": 29,
@@ -583,7 +611,8 @@
                         "filter_exists": false,
                         "teaser": false,
                         "restrict": "esriDemog",
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "supermarketTaxCredit": {
                         "id": 30,
@@ -603,7 +632,8 @@
                         "filter_exists": false,
                         "teaser": false,
                         "restrict": "esriDemog",
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     },
                     "centralEmploymentArea": {
                         "id": 31,
@@ -623,7 +653,8 @@
                         "filter_exists": false,
                         "teaser": false,
                         "restrict": "esriDemog",
-                        "inuse": true
+                        "inuse": true,
+                        "toggled": false
                     }
                 }
             }
