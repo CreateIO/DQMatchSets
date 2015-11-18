@@ -114,13 +114,6 @@
                 "deny": ""
               },
               {
-                "id": "navProforma",
-                "name": "CMBS Proforma",
-                "url": "financing.html",
-                "hasCharts": false,
-                "deny": ""
-              },
-              {
                 "id": "navEquity",
                 "name": "Equity",
                 "url": "equity.html",

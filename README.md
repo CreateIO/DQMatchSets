@@ -30,3 +30,13 @@ Note that template files are cached locally on each server...  If you make chang
 Example call to the DQ for template data:
 https://dq-test.create.io/DQ/template?resource=tabs-&version=1.0.0&branch=test  (normal, use local cache if available)
 https://dq-test.create.io/DQ/template?resource=tabs-&version=1.0.0&cache=false&branch=test (do not use local cache, re-grab file from git repository
+
+To publish template data for use with production or test servers:
+   1) Merge your changes (typically from the “test” branch) into the appropriate branch for where you are deploying
+      (oberlin-prod for production, oberlin-integration for test/demo, or just test for those)
+   2) Insure that the environment vars in the server are configured correctly to the branch and dq instance you desire
+      (test = dq.create.io    prod=dq-test.create.io)
+   3) In the DQMatchSets repo on your local machine, run the script ./clear_cache.sh branch_name (to clear from dq-test
+      instances) or ./clear_cache.sh branch_name server=prod (to clear from dq-prod instances).  This clears the cache
+      so that changes will manifest immediately.  You may wish to clear cache from both test and prod instances if your
+      changes may show up in branches referred to by both test and prod servers.
