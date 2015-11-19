@@ -24,7 +24,8 @@
                         "teaser": false,
                         "restrict": null,
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "zoningDistrict": {
                         "id": 2,
@@ -45,7 +46,8 @@
                         "teaser": false,
                         "restrict": null,
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "neighborhood": {
                         "id": 3,
@@ -66,7 +68,8 @@
                         "teaser": false,
                         "restrict": null,
                         "inuse": false,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "generalUse": {
                         "id": 4,
@@ -87,7 +90,8 @@
                         "teaser": false,
                         "restrict": null,
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "commercialUse": {
                         "id": 5,
@@ -108,7 +112,8 @@
                         "teaser": false,
                         "restrict": null,
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "residentialUse": {
                         "id": 6,
@@ -129,7 +134,8 @@
                         "teaser": false,
                         "restrict": null,
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "institutionalUse": {
                         "id": 7,
@@ -150,7 +156,8 @@
                         "teaser": false,
                         "restrict": null,
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "retailSpaceAvailability": {
                         "id": 8,
@@ -171,7 +178,8 @@
                         "teaser": false,
                         "restrict": null,
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "retailSpaceSize": {
                         "id": 9,
@@ -192,7 +200,8 @@
                         "teaser": false,
                         "restrict": null,
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "buildingSize": {
                         "id": 10,
@@ -213,7 +222,8 @@
                         "teaser": false,
                         "restrict": null,
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "numberBedrooms": {
                         "id": 11,
@@ -234,7 +244,8 @@
                         "teaser": false,
                         "restrict": null,
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "numberUnits": {
                         "id": 12,
@@ -255,7 +266,8 @@
                         "teaser": false,
                         "restrict": null,
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "yearBuilt": {
                         "id": 13,
@@ -276,7 +288,8 @@
                         "teaser": false,
                         "restrict": null,
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "metroRailDistance": {
                         "id": 14,
@@ -297,7 +310,8 @@
                         "teaser": false,
                         "restrict": null,
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "metroBusDistance": {
                         "id": 15,
@@ -318,7 +332,8 @@
                         "teaser": false,
                         "restrict": null,
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "businessImprovementDistrict": {
                         "id": 16,
@@ -339,7 +354,8 @@
                         "teaser": false,
                         "restrict": null,
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "tenantSpaceSF": {
                         "id": 17,
@@ -360,7 +376,8 @@
                         "teaser": true,
                         "restrict": "esriDemog",
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "numberEmployees": {
                         "id": 18,
@@ -381,7 +398,8 @@
                         "teaser": true,
                         "restrict": "esriDemog",
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "revenue": {
                         "id": 19,
@@ -402,7 +420,8 @@
                         "teaser": true,
                         "restrict": "esriDemog",
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "hasTrepp": {
                         "id": 20,
@@ -423,7 +442,8 @@
                         "teaser": true,
                         "restrict": "esriDemog",
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "loanClosingYear": {
                         "id": 21,
@@ -444,7 +464,8 @@
                         "teaser": true,
                         "restrict": "esriDemog",
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "loanBalance": {
                         "id": 22,
@@ -465,7 +486,8 @@
                         "teaser": true,
                         "restrict": "esriDemog",
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "groceryDistance": {
                         "id": 23,
@@ -486,7 +508,8 @@
                         "teaser": false,
                         "restrict": null,
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "populationGrowth": {
                         "id": 24,
@@ -507,7 +530,8 @@
                         "teaser": true,
                         "restrict": "esriDemog",
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "medianIncomeGrowth": {
                         "id": 25,
@@ -528,7 +552,8 @@
                         "teaser": true,
                         "restrict": "esriDemog",
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "householdGrowth": {
                         "id": 26,
@@ -549,7 +574,8 @@
                         "teaser": true,
                         "restrict": "esriDemog",
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "housingUnitsGrowth": {
                         "id": 27,
@@ -570,7 +596,8 @@
                         "teaser": true,
                         "restrict": "esriDemog",
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "homeValueGrowth": {
                         "id": 28,
@@ -591,7 +618,8 @@
                         "teaser": true,
                         "restrict": "esriDemog",
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "greatStreets": {
                         "id": 29,
@@ -612,7 +640,8 @@
                         "teaser": false,
                         "restrict": "esriDemog",
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "supermarketTaxCredit": {
                         "id": 30,
@@ -633,7 +662,8 @@
                         "teaser": false,
                         "restrict": "esriDemog",
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     },
                     "centralEmploymentArea": {
                         "id": 31,
@@ -654,7 +684,8 @@
                         "teaser": false,
                         "restrict": "esriDemog",
                         "inuse": true,
-                        "toggled": false
+                        "toggled": false,
+                        "valueChange": false
                     }
                 }
             }
