@@ -1,0 +1,210 @@
+{
+  "employment-occupation-chart": {
+    "meta": {
+      "title": "Industry",
+      "chartType": "PieChart",
+      "topFive": "true",
+      "fields": [
+        {
+          "label": "Agriculture",
+          "value": ["census", "empIndustryAgriculturePct"]
+        } ,
+        {
+          "label": "Construction",
+          "value": ["census", "empIndustryConstructionPct"]
+        } ,
+        {
+          "label": "Manufacturing",
+          "value": ["census", "empIndustryManufacturingPct"]
+        } ,
+        {
+          "label": "Wholesale Trade",
+          "value": ["census", "empIndustryWholesalePct"]
+        } ,
+        {
+          "label": "Retail Trade",
+          "value": ["census", "empIndustryRetailPct"]
+        } ,
+        {
+          "label": "Transport., Utilities",
+          "value": ["census", "empIndustryTransportationPct"]
+        } ,
+        {
+          "label": "Information",
+          "value": ["census", "empIndustryInformationPct"]
+        } ,
+        {
+          "label": "Finance, Real Estate, Insur. ",
+          "value": ["census", "empIndustryFirePct"]
+        } ,
+        {
+          "label": "Professional, Mgmt.",
+          "value": ["census", "empIndustryProfSciPct"]
+        } ,
+        {
+          "label": "Edu., Health & Social Assist.",
+          "value": ["census", "empIndustryEducationPct"]
+        } ,
+        {
+          "label": "Arts, Entertain., Food Serv.",
+          "value": ["census", "empIndustryArtsHospitalityPct"]
+        } ,
+        {
+          "label": "Other Services",
+          "value": ["census", "empIndustryOtherPct"]
+        } ,
+        {
+          "label": "Public Administration",
+          "value": ["census", "empIndustryPubAdminPct"]
+        }
+      ]
+    }
+  },
+  "cars-per-household-chart": {
+    "meta": {
+      "title": "Cars per Household by Census Tract",
+      "chartType": "PercentBarChart",
+      "vAxis": "Cars per Household",
+      "hAxis": "Percentage of Households",
+      "fields": [
+        {
+          "label": "0",
+          "value": ["census", "vehicles0Pct"]
+        } ,
+        {
+          "label": "1",
+          "value": ["census", "vehicles1Pct"]
+        } ,
+        {
+          "label": "2",
+          "value": ["census", "vehicles2Pct"]
+        } ,
+        {
+          "label": "3+",
+          "value": ["census", "vehicles3plusPct"]
+        }
+      ]
+    }
+  },
+  "education-chart": {
+    "meta": {
+      "title": "Education",
+      "chartType": "PercentBarChart",
+      "hAxis": "Percentage of Population",
+      "fields": [
+        {
+          "label": "<9th Grade",
+          "value": [
+            "census",
+            "eduNoHighSchoolPct"
+          ]
+        },
+        {
+          "label": "9th to 12th Grade",
+          "value": [
+            "census",
+            "eduSomeHighSchoolPct"
+          ]
+        },
+        {
+          "label": "HS Diploma",
+          "value": [
+            "census",
+            "eduHighSchoolPct"
+          ]
+        },
+        {
+          "label": "Some College",
+          "value": [
+            "census",
+            "eduSomeCollegePct"
+          ]
+        },
+        {
+          "label": "Associates",
+          "value": [
+            "census",
+            "eduAssociatesPct"
+          ]
+        },
+        {
+          "label": "Bachelors",
+          "value": [
+            "census",
+            "eduBachelorsPct"
+          ]
+        },
+        {
+          "label": "Graduate",
+          "value": [
+            "census",
+            "eduGradOrProfPct"
+          ]
+        }
+      ]
+    }
+  },
+  "household_income": {
+    "meta": {
+      "title": "Household Income by Census Tract",
+      "chartType": "PercentBarChart",
+      "fields": [
+        {
+          "label": "<$25,000",
+          "sum":
+          [["census", "incomeHouseholdUnder10kPct"],
+            ["census", "incomeHousehold10kto15kPct"],
+            ["census","incomeHousehold15kto25kPct"]]},
+        {
+          "label": "$25k to $34,999",
+          "value": [
+            "census",
+            "incomeHousehold25kto35kPct"
+          ]
+        },
+        {
+          "label": "$35k to $49,999",
+          "value": [
+            "census",
+            "incomeHousehold35kto50kPct"
+          ]
+        },
+        {
+          "label": "$50k to $74,999",
+          "value": [
+            "census",
+            "incomeHousehold50kto75kPct"
+          ]
+        },
+        {
+          "label": "$75k to $99,999",
+          "value": [
+            "census",
+            "incomeHousehold75kto100kPct"
+          ]
+        },
+        {
+          "label": "$100k to $149,999",
+          "value": [
+            "census",
+            "incomeHousehold100kto150kPct"
+          ]
+        },
+        {
+          "label": "$150k to $199,999",
+          "value": [
+            "census",
+            "incomeHousehold150kto200kPct"
+          ]
+        },
+        {
+          "label": "$200,000+",
+          "value": [
+            "census",
+            "incomeHousehold200kplusPct"
+          ]
+        }
+      ]
+    }
+  }
+}
