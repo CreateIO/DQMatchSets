@@ -1,0 +1,8 @@
+{
+  "name": "Projects",
+  "tabs": [
+    {
+      "name": "Organizer", "url": "projects/organizer"
+    }
+  ]
+}
