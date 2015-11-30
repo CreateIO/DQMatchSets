@@ -1,0 +1,285 @@
+{
+  "overlayTable": [
+    {
+      "overlayZone": "ARTS",
+      "zone": "C-2-A",
+      "initialFAR": 2.5,
+      "overlayFAR": 3,
+      "initialOcc": "60*",
+      "overlayOcc": 75,
+      "InitialHeight": 50,
+      "OverlayHeight": 50
+    },
+    {
+      "overlayZone": "ARTS",
+      "zone": "C-2-B",
+      "initialFAR": 3.5,
+      "overlayFAR": 4.2,
+      "initialOcc": 80,
+      "overlayOcc": 80,
+      "InitialHeight": 65,
+      "OverlayHeight": 70
+    },
+    {
+      "overlayZone": "ARTS",
+      "zone": "C-3-A",
+      "initialFAR": 4,
+      "overlayFAR": 4.8,
+      "initialOcc": 75,
+      "overlayOcc": 80,
+      "InitialHeight": 65,
+      "OverlayHeight": 75
+    },
+    {
+      "overlayZone": "ARTS",
+      "zone": "CR",
+      "initialFAR": 6,
+      "overlayFAR": 7.2,
+      "initialOcc": 75,
+      "overlayOcc": 80,
+      "InitialHeight": 65,
+      "OverlayHeight": 100
+    },
+    {
+      "overlayZone": "CAP",
+      "zone": "C-2-A",
+      "initialFAR": 2.5,
+      "overlayFAR": 2.16,
+      "initialOcc": 60,
+      "overlayOcc": 75,
+      "InitialHeight": 50,
+      "OverlayHeight": 40
+    },
+    {
+      "overlayZone": "CAP",
+      "zone": "R-5-B",
+      "initialFAR": 1.8,
+      "overlayFAR": 2.16,
+      "initialOcc": 60,
+      "overlayOcc": 75,
+      "InitialHeight": 50,
+      "OverlayHeight": 40
+    },
+    {
+      "overlayZone": "CAP",
+      "zone": "SP-1",
+      "initialFAR": 4,
+      "overlayFAR": 2.16,
+      "initialOcc": 80,
+      "overlayOcc": 80,
+      "InitialHeight": 65,
+      "OverlayHeight": 40
+    },
+    {
+      "overlayZone": "CAP",
+      "zone": "R-4",
+      "initialFAR": "-",
+      "overlayFAR": "-",
+      "initialOcc": "40*",
+      "overlayOcc": "-",
+      "InitialHeight": 40,
+      "OverlayHeight": "-"
+    },
+    {
+      "overlayZone": "CG",
+      "zone": "C-2-C",
+      "initialFAR": 6,
+      "overlayFAR": 7.2,
+      "initialOcc": 80,
+      "overlayOcc": 80,
+      "InitialHeight": 90,
+      "OverlayHeight": 110
+    },
+    {
+      "overlayZone": "CG",
+      "zone": "C-3-C",
+      "initialFAR": 6.5,
+      "overlayFAR": 7.8,
+      "initialOcc": 100,
+      "overlayOcc": 100,
+      "InitialHeight": 90,
+      "OverlayHeight": 90
+    },
+    {
+      "overlayZone": "CG",
+      "zone": "CR",
+      "initialFAR": 6,
+      "overlayFAR": 7.2,
+      "initialOcc": 75,
+      "overlayOcc": 80,
+      "InitialHeight": 65,
+      "OverlayHeight": 100
+    },
+    {
+      "overlayZone": "CG",
+      "zone": "W-1",
+      "initialFAR": 2.5,
+      "overlayFAR": 3,
+      "initialOcc": 80,
+      "overlayOcc": 80,
+      "InitialHeight": 45,
+      "OverlayHeight": 50
+    },
+    {
+      "overlayZone": "CG",
+      "zone": "W-2",
+      "initialFAR": 4,
+      "overlayFAR": 4.8,
+      "initialOcc": "75*",
+      "overlayOcc": 75,
+      "InitialHeight": 60,
+      "OverlayHeight": 80
+    },
+    {
+      "overlayZone": "CG",
+      "zone": "W-3",
+      "initialFAR": 6,
+      "overlayFAR": 7.2,
+      "initialOcc": "75*",
+      "overlayOcc": 75,
+      "InitialHeight": 90,
+      "OverlayHeight": 100
+    },
+    {
+      "overlayZone": "HS",
+      "zone": "C-2-A",
+      "initialFAR": 2.5,
+      "overlayFAR": 0.5,
+      "initialOcc": 60,
+      "overlayOcc": 75,
+      "InitialHeight": 50,
+      "OverlayHeight": 50
+    },
+    {
+      "overlayZone": "HS",
+      "zone": "C-2-B",
+      "initialFAR": 3.5,
+      "overlayFAR": 0.7,
+      "initialOcc": 80,
+      "overlayOcc": 80,
+      "InitialHeight": 65,
+      "OverlayHeight": 70
+    },
+    {
+      "overlayZone": "HS",
+      "zone": "C-2-C",
+      "initialFAR": 6,
+      "overlayFAR": 1.2,
+      "initialOcc": 80,
+      "overlayOcc": 80,
+      "InitialHeight": 90,
+      "OverlayHeight": 100
+    },
+    {
+      "overlayZone": "HR",
+      "zone": "C-3-C",
+      "initialFAR": 6.5,
+      "overlayFAR": "20%",
+      "initialOcc": 100,
+      "overlayOcc": 100,
+      "InitialHeight": 90,
+      "OverlayHeight": "1101.6(a)"
+    },
+    {
+      "overlayZone": "HR",
+      "zone": "SP-2",
+      "initialFAR": 6,
+      "overlayFAR": "20%",
+      "initialOcc": 80,
+      "overlayOcc": 100,
+      "InitialHeight": 90,
+      "OverlayHeight": "1101.6(a)"
+    },
+    {
+      "overlayZone": "RC",
+      "zone": "C-2-B",
+      "initialFAR": 3.5,
+      "overlayFAR": "-",
+      "initialOcc": 80,
+      "overlayOcc": "-",
+      "InitialHeight": 65,
+      "OverlayHeight": 50
+    },
+    {
+      "overlayZone": "SEFC",
+      "zone": "CR",
+      "initialFAR": 6,
+      "overlayFAR": "6*",
+      "initialOcc": 75,
+      "overlayOcc": "-",
+      "InitialHeight": 65,
+      "OverlayHeight": "-"
+    },
+    {
+      "overlayZone": "SEFC",
+      "zone": "R-5-D",
+      "initialFAR": 3.5,
+      "overlayFAR": "0.5*",
+      "initialOcc": 75,
+      "overlayOcc": "-",
+      "InitialHeight": 90,
+      "OverlayHeight": "-"
+    },
+    {
+      "overlayZone": "SEFC",
+      "zone": "R-5-E",
+      "initialFAR": 5,
+      "overlayFAR": "0.5*",
+      "initialOcc": 75,
+      "overlayOcc": "-",
+      "InitialHeight": 90,
+      "OverlayHeight": "-"
+    },
+    {
+      "overlayZone": "WP",
+      "zone": "C-2-A",
+      "initialFAR": 2.5,
+      "overlayFAR": 3,
+      "initialOcc": 60,
+      "overlayOcc": 75,
+      "InitialHeight": 50,
+      "OverlayHeight": 50
+    },
+    {
+      "overlayZone": "WP",
+      "zone": "C-2-B",
+      "initialFAR": 3.5,
+      "overlayFAR": 3.6,
+      "initialOcc": 80,
+      "overlayOcc": 80,
+      "InitialHeight": 65,
+      "OverlayHeight": 55
+    },
+    {
+      "overlayZone": "DD",
+      "zone": "C-2-C",
+      "initialFAR": 6,
+      "overlayFAR": 8,
+      "initialOcc": 80,
+      "overlayOcc": "-",
+      "InitialHeight": 90,
+      "OverlayHeight": "Act"
+    },
+    {
+      "overlayZone": "DD",
+      "zone": "C-3-C",
+      "initialFAR": 6.5,
+      "overlayFAR": 9.5,
+      "initialOcc": 100,
+      "overlayOcc": "-",
+      "InitialHeight": 90,
+      "OverlayHeight": "Act"
+    },
+    {
+      "overlayZone": "DD",
+      "zone": "C-4",
+      "initialFAR": 8.5,
+      "overlayFAR": 10,
+      "initialOcc": 100,
+      "overlayOcc": "-",
+      "InitialHeight": 110,
+      "OverlayHeight": "Act"
+    }
+  ]
+}
+

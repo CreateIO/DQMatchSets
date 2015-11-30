@@ -1,0 +1,535 @@
+{
+  "histDist": [
+    {
+      "objectID": 6,
+      "layerGroup": "Corridor",
+      "name": "Pennsylvania Avenue National Historic Site",
+      "description": "Pennsylvania Avenue National Historic Site, a unit of National Mall and Memorial Parks. This unique site preserves locations related to the creation of the Federal City, Presidential Inaugurations, and historically significant events.",
+      "mapLink": "-",
+      "label": "Pennsylvania Ave NHS",
+      "address": ""
+    },
+    {
+      "objectID": 9,
+      "layerGroup": "Corridor",
+      "name": "Massachusetts Avenue Historic District",
+      "description": "Massachusetts Avenue Historic District includes approximately 150 buildings. Boulevard of grand mansioms, row houses, and embassies, known as Embassy Row\".\"",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Massachusetts_Ave_Brochure.pdf",
+      "label": "Massachusetts Ave HD",
+      "address": "Massachusetts Ave from 17th St, NW to Observatory Cir, NW"
+    },
+    {
+      "objectID": 16,
+      "layerGroup": "Corridor",
+      "name": "Fifteenth Street Financial Historic District",
+      "description": "",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Fifteenth_Street_Financial_Historic_District_Map.pdf",
+      "label": "Fifteenth St. Financial HD",
+      "address": "15th St NW btwn Pennsylvania Ave and I St, NW"
+    },
+    {
+      "objectID": 18,
+      "layerGroup": "Corridor",
+      "name": "Seventeenth Street Historic District",
+      "description": "",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Seventeenth_Street_Historic_District_Map.pdf",
+      "label": "Seventeenth St HD",
+      "address": "Seventeenth St, NW, West Side between New York and Constitution Aves"
+    },
+    {
+      "objectID": 28,
+      "layerGroup": "Corridor",
+      "name": "Grant Road Historic District",
+      "description": "The Grant Road Historic District is located in the North Cleveland Park neighborhood of Washington, D.C.. It was listed on the National Register of Historic Places in 2004.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Grant_Road_Historic_District_Map.pdf",
+      "label": "Grant Rd HD",
+      "address": "Grant Road from Wisconsin Ave to Brandywide St, NW"
+    },
+    {
+      "objectID": 34,
+      "layerGroup": "Corridor",
+      "name": "Greater Fourteenth Street Historic District",
+      "description": "The Greater Fourteenth Street and Logan Circle Historic District cover an area of about 24 city blocks bisected by 14th Street N.W. just north of Massachusetts Avenue and edge of downtown. The area includes more than 750 residential, commercial and religious buildings.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Fourteenth_and_Logan_Brochure.pdf",
+      "label": "Greater 14th St HD",
+      "address": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Fourteenth_Street_Historic_District_Map.pdf"
+    },
+    {
+      "objectID": 10,
+      "layerGroup": "Neighborhood",
+      "name": "Logan Circle Historic District",
+      "description": "",
+      "mapLink": "",
+      "label": "Logan Circle HD",
+      "address": "Logan Circle"
+    },
+    {
+      "objectID": 35,
+      "layerGroup": "Corridor",
+      "name": "Sixteenth Street Historic District",
+      "description": "It is an impressive residential avenue lined with buildings reflecting a myriad of architectual styles. Many of the ornate townhouses and mansions that were its first adornments have been replaced by large office buildings and hotels.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Sixteenth_Street_Brochure.pdf",
+      "label": "Sixteenth St HD",
+      "address": "The 16th Street Historic District includes buildings fronting on 16th St., NW, from Scott Circle to Florida Ave"
+    },
+    {
+      "objectID": 36,
+      "layerGroup": "Corridor",
+      "name": "Greater U Street Historic District",
+      "description": "Greater U Street Historic District is currently a thriving residential and commercial neighborhood of north-west Washington.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/U_Street_Brochure.pdf",
+      "label": "Greater U St HD",
+      "address": ""
+    },
+    {
+      "objectID": 3,
+      "layerGroup": "Institution",
+      "name": "Washington Cathedral and Close Historic District",
+      "description": "Washington Cathedral is located in the Washington Cathedral and Close Historic District",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Washington_Cath_Historic_District_Map%20.pdf",
+      "label": "Washington Cathedral HD",
+      "address": "Wisconsin Avenue at Massachusetts Avenue, NW"
+    },
+    {
+      "objectID": 8,
+      "layerGroup": "Institution",
+      "name": "McMillan Park Reservoir Historic District",
+      "description": "The McMillan Park Reservoir Historic District consists of the McMillan Reservoir (built 1883-1888), which remains an integral part of the city's water supply system; the Sand Filtration Plant (1905), designed and built as the city's first water treatment facility; and McMillan Park, built 1908-1913.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/McMillan_Park_Reservoir_Historic_District_Map.pdf",
+      "label": "McMillan Park Reservoir HD",
+      "address": "1st St & Michigan Ave, NW"
+    },
+    {
+      "objectID": 13,
+      "layerGroup": "Institution",
+      "name": "Gallaudet College Historic District",
+      "description": "Gallaudet College, the main college building was listed on the National Register of Historic Places in 1966 and designated a National Historic Landmark in 1965. The NRHP area was increased and named Gallaudet College Historic District in 1974",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Gallaudet_College_Historic_District_Map.pdf",
+      "label": "Gallaudet College HD",
+      "address": "7th St & Florida Ave, NE"
+    },
+    {
+      "objectID": 14,
+      "layerGroup": "Institution",
+      "name": "Ford's Theatre National Historic Site",
+      "description": "Ford's Theatre National Historic Site includes Ford's Theatre",
+      "mapLink": "-",
+      "label": "Ford's Theatre NHS",
+      "address": "10th St, between E & F Sts, NW"
+    },
+    {
+      "objectID": 23,
+      "layerGroup": "Institution",
+      "name": "Marine Barracks Historic District",
+      "description": "Located on the corners of 8th & I Streets in southeast Washington, D.C., the Barracks supports both ceremonial and security missions in the nation's capital.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Marine_Barracks_Historic_District_Map.pdf",
+      "label": "Marine Barracks HD",
+      "address": "750 8th St, SE"
+    },
+    {
+      "objectID": 27,
+      "layerGroup": "Institution",
+      "name": "Saint Elizabeths Hospital Historic District",
+      "description": "The campus of Saint Elizabeth Hospital is a National Historic Landmark that embodies a story of local and national significance.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/St%20Elizabeths%20Brochure.pdf",
+      "label": "St. Elizabeth's Hospital HD",
+      "address": "2700 Martin Luther King Jr. Ave, SE"
+    },
+    {
+      "objectID": 32,
+      "layerGroup": "Institution",
+      "name": "Fort McNair (The Old Arsenal)",
+      "description": "Fort McNair, Washington D.C. is a US Army operated military facility located in a small peninsula at the intersection of two rivers- Anacostia and Potomac.",
+      "mapLink": "-",
+      "label": "Fort McNair",
+      "address": "4th & P Streets, SW"
+    },
+    {
+      "objectID": 41,
+      "layerGroup": "Institution",
+      "name": "Soldier's Home National Historic Site",
+      "description": "",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Soldiers_Home_National_Hist_Site_Map.pdf",
+      "label": "Soldier's Home NHS",
+      "address": "Rock Creek Church Rd & Upshur St, NW"
+    },
+    {
+      "objectID": 42,
+      "layerGroup": "Institution",
+      "name": "Armed Forces Retirement Home-Washington Historic District",
+      "description": "The Armed Forces Retirement Home-Washington is a retirement home for retirees of the United States Armed Forces located in the Park View neighborhood of Washington, D.C. The complex forms an historic district that was listed on the National Register of Historic Places in 2007",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Armed%20Forces%20Retirement%20Home%20Historic%20District%20Map.pdf",
+      "label": "Armed Forces Retirement Home HD",
+      "address": ""
+    },
+    {
+      "objectID": 43,
+      "layerGroup": "Institution",
+      "name": "Washington Navy Yard Historic District",
+      "description": "The historic district of the Washington Navy Yard was listed on the National Register of Historic Places in 1973.",
+      "mapLink": "http://mpdc.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Navy_Yard_Historic_District_Map.pdf",
+      "label": "Washington Navy Yard HD",
+      "address": "8th & M Sts, SE"
+    },
+    {
+      "objectID": 46,
+      "layerGroup": "Institution",
+      "name": "Georgetown Visitation Convent and Preparatory School",
+      "description": "Georgetown Visitation Preparatory School was founded in Washington, DC in 1799 as the Georgetown Academy for Young Ladies.",
+      "mapLink": "-",
+      "label": "Georgetown Visitation Convent and Prep School",
+      "address": "1500 35th St, NW"
+    },
+    {
+      "objectID": 52,
+      "layerGroup": "Institution",
+      "name": "Marjorie Webster Historic District",
+      "description": "The Marjorie Webster Junior College meets National Register criteria A and C at the local level of significance.",
+      "mapLink": "-",
+      "label": "Marjorie Webster HD",
+      "address": "Area South of Kalmia and East of 17th St NW"
+    },
+    {
+      "objectID": 53,
+      "layerGroup": "Institution",
+      "name": "Immaculata Seminary Historic District",
+      "description": "Immaculata Seminary islocated in the Historic District.",
+      "mapLink": "-",
+      "label": "Immaculata Seminary HD",
+      "address": "4340 Nebraska Avenue NW"
+    },
+    {
+      "objectID": 1,
+      "layerGroup": "Neighborhood",
+      "name": "Federal Triangle Historic District",
+      "description": "Federal Triangle is occupied by 10 large city and federal office buildings, all of which are part of the Pennsylvania Avenue National Historic Site.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Federal_Triangle_Historic_District_Map.pdf",
+      "label": "Federal Triangle HD",
+      "address": "Between 15th Street, Constitution and Pennsylvania Avenues, NW and E street"
+    },
+    {
+      "objectID": 4,
+      "layerGroup": "Neighborhood",
+      "name": "Sheridan-Kalorama Historic District",
+      "description": "Sheridan-Kalorama Historic District is comprised of a network of cohesive town-and suburbs-like residential streetscapes.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Sheridan_Kalorama_Brochure.pdf",
+      "label": "Sheridan-Kalorama HD",
+      "address": "The Sheridan-Kalorama Historic District is located at the top of the Washington escarpment bound by Massachusetts Avenue on the southwest,  Connecticut Avenue on the east, and Rock Creek Park on the north"
+    },
+    {
+      "objectID": 5,
+      "layerGroup": "Neighborhood",
+      "name": "Shaw Historic District",
+      "description": "Social organizations, shops, industrial enterprizes, schools, and churches have called Shaw home. Because of its unique developmental history and its architectural quality and diversity, Shaw was formally recognized by the city in 1999 with designation as a historic district.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Shaw_Brochure.pdf",
+      "label": "Shaw HD",
+      "address": ""
+    },
+    {
+      "objectID": 7,
+      "layerGroup": "Neighborhood",
+      "name": "Mount Pleasant Historic District",
+      "description": "Mount Pleasant Historic District includes approximately 1100 buildings. It is a residential district illustrating the growth and development of Washington D.C.'s first suburbs in its transition from rural to urban context.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Mount_Pleasant_Brochure.pdf",
+      "label": "Mt. Pleasant HD",
+      "address": ""
+    },
+    {
+      "objectID": 12,
+      "layerGroup": "Neighborhood",
+      "name": "Kalorama Triangle Historic District",
+      "description": "The Kalorama Triangle Historic District includes 353 historic buildings. Almost exclusively residential incharacter, its curvilinear streets are filled with fine examples of late 19th and early 20th century urban dwellings and apartment buildings.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Kalorama_Triangle_Brochure.pdf",
+      "label": "Kalorama Triangle HD",
+      "address": ""
+    },
+    {
+      "objectID": 17,
+      "layerGroup": "Neighborhood",
+      "name": "Blagden Alley/Naylor Court",
+      "description": "",
+      "mapLink": "-",
+      "label": "Blagden Alley/Naylor Court HD",
+      "address": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Armed%20Forces%20Retirement%20Home%20Historic%20District%20Map.pdf"
+    },
+    {
+      "objectID": 19,
+      "layerGroup": "Neighborhood",
+      "name": "Foggy Bottom Historic District",
+      "description": "Historically, Foggy Bottom was divided into two sections, with 23rd Street, N.W. forming the boundary between an upper income neighborhood to the east and the working class/ industrial area to the west.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Foggy_Bottom_Brochure.pdf",
+      "label": "Foggy Bottom HD",
+      "address": ""
+    },
+    {
+      "objectID": 20,
+      "layerGroup": "Neighborhood",
+      "name": "Downtown Historic District",
+      "description": "Downtown Washington is a guide for exploring the diverse collection of historic buildings located in Washington's commercial downtown. Within this larger downtown area are several recognized historic districts and sites: the Downtown Historic District, the Fifteen's Street Historic District and Pennsylvania Avenue National Historic District.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Downtown_Washingoton_brochure.pdf",
+      "label": "Downtown HD",
+      "address": ""
+    },
+    {
+      "objectID": 21,
+      "layerGroup": "Neighborhood",
+      "name": "Cleveland Park Historic District",
+      "description": "Served by a metro stop, the neighborhood contains a cohesive collection of single-family residences, apartment buildings, a vibrant commercial corridor with stores and restaurants, schools,a library, fire station and other amenities.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Cleveland_%20Park_Brochure.pdf",
+      "label": "Cleveland Park HD",
+      "address": "Woodley Rd, Wisconsin Ave, Tilden St, and Connecticut Ave, NW"
+    },
+    {
+      "objectID": 22,
+      "layerGroup": "Neighborhood",
+      "name": "Anacostia Historic District",
+      "description": "East of the Anacostia River, in sight of the U.S. Capitol, lies an area of unusual natural beauty and rich heritage.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Anacostia%20Historic%20District%20Map.pdf",
+      "label": "Anacostia HD",
+      "address": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Anacostia_Historic_Brochure.pdf"
+    },
+    {
+      "objectID": 24,
+      "layerGroup": "Neighborhood",
+      "name": "Woodley Park Historic District",
+      "description": "This residential district with commercial corridor maintains a strong connection to its past and conveys a sense of history through its carefully planned streets, historic architecture, and open space.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Woodley_Park_Brochure.pdf",
+      "label": "Woodley Park HD",
+      "address": "Rock Creek Park, Calvert St, Woodley Rd, and Cathedral Ave, NW"
+    },
+    {
+      "objectID": 25,
+      "layerGroup": "Neighborhood",
+      "name": "Takoma Park Historic District",
+      "description": "Takoma Park Historic District includes approximately 160 religious, educational, and commercial insitutions. ",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Takoma_Park_Brochure.pdf",
+      "label": "Takoma Park HD",
+      "address": ""
+    },
+    {
+      "objectID": 30,
+      "layerGroup": "Neighborhood",
+      "name": "Mount Vernon Triangle Historic District",
+      "description": "Although there are other buildings in the Triangle, the historic district provides the most cohesive collection of buildings that together tell the story of the larger area.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Mount_Vernon_Triangle_%20Brochure.pdf",
+      "label": "Mount Vernon Triangle HD",
+      "address": ""
+    },
+    {
+      "objectID": 31,
+      "layerGroup": "Neighborhood",
+      "name": "Washington Heights Historic District",
+      "description": "Located in the heart of the Adam Morgan neighborhood, the Washington Heights HD contains one of the finest collections of architecture in DC from19th century rowhouses and early 20th century luxury apartments to flourishing commercial corridor, the development of Washington Heights is a thriving urban center.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Washington%20Heights%20FINAL%202.pdf",
+      "label": "Washington Heights HD",
+      "address": "Bounded by Florida Ave. Washington Hilton, Columbia Rd., and rear of 18th St, NW"
+    },
+    {
+      "objectID": 33,
+      "layerGroup": "Neighborhood",
+      "name": "Strivers' Section Historic District",
+      "description": "Strivers' Section Historic District is a compact residential enclave of rowhouses and small apartment buildings.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Strivers_Section_Brochure.pdf",
+      "label": "Strivers' Section HD",
+      "address": "Swann St, Florida Ave, Sixteenth St Historic District"
+    },
+    {
+      "objectID": 37,
+      "layerGroup": "Neighborhood",
+      "name": "Dupont Circle Historic District",
+      "description": "One of thecity's most elegant historic residential neighborhoods. Notable for superior examples of Victorian rowhouse architecture in Queen Anne and Richardsonian styles, as well as some of the city's fines turn-of-the-century mansions in Beaux Arts, Chateauesque, Renaissance, and Georgian Revival styles.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Dupont_Circle_Brochure.pdf",
+      "label": "Dupont Circle HD",
+      "address": ""
+    },
+    {
+      "objectID": 38,
+      "layerGroup": "Neighborhood",
+      "name": "Foxhall Historic District",
+      "description": "Modelled after an old English Village, Foxhall is a Tudor Revival-style rowhouse neighborhood located in Northwest DC. Foxhall Village is one of the city's only large-scale residential development to have been realized in such a manner. ",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Foxhall%20%20Village%20FINAL%202%20.pdf",
+      "label": "Foxhall HD",
+      "address": "Reservoir Road, Glover-Archibald Park, P Street NW, Foxhall Road"
+    },
+    {
+      "objectID": 39,
+      "layerGroup": "Neighborhood",
+      "name": "Mount Vernon Square Historic District",
+      "description": "Mount Vernon Square Historic District is a commercial and residenial neighborhood located within the historic boundaries of the District of Columbia's Federal City. The historic district covers the area that includes twelve city blocks in North West DC. Area includes approximately 420 properties.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Mount_Vernon_Square_Brochure.pdf",
+      "label": "Mt. Vernon Square HD",
+      "address": "1st Street, New York Avenue, 7th Street, and M and N Streets, NW"
+    },
+    {
+      "objectID": 54,
+      "layerGroup": "Neighborhood",
+      "name": "Capitol Hill Historic District",
+      "description": "The Capitol Hill Historic District is one of the oldest residential neighborhoods of Washington D.C. The district, which includes 200 city squares and approximately 8,000 buildings, is one of the largest historic districts in the country.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Capitol_Hill_Brochure.pdf",
+      "label": "Capitol Hill HD",
+      "address": ""
+    },
+    {
+      "objectID": 56,
+      "layerGroup": "Neighborhood",
+      "name": "Georgetown Historic District",
+      "description": "Designated a National Historic Landmark in 1967, the Georgetown Historic District is included in the D.C. Inventory of historic places and listed in the national register of historic places.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Georgetown_Brochure.pdf",
+      "label": "Georgetown HD",
+      "address": ""
+    },
+    {
+      "objectID": 58,
+      "layerGroup": "Neighborhood",
+      "name": "LeDroit Park Historic District",
+      "description": "LeDroit Park Historic District is a 42.6 acre site that includes approximately 100 buildings. The historic District is an early example of a planned, architecturally unified suburban subdivision.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/LeDroit_Park_Brochure.pdf",
+      "label": "LeDroit Park HD",
+      "address": ""
+    },
+    {
+      "objectID": 59,
+      "layerGroup": "Neighborhood",
+      "name": "Meridian Hill Historic District",
+      "description": "Meridian Hill Park is a structured urban park located in the Washington, D.C neighborhood of Columbia Heights; it abuts the nearby neighborhood of Adams Morgan. The park was designed and built between 1912 and 1940.",
+      "mapLink": "-",
+      "label": "Meridian Hill",
+      "address": "Meridian Hill"
+    },
+    {
+      "objectID": 2,
+      "layerGroup": "Park",
+      "name": "Chesapeake and Ohio Canal National Historical Park",
+      "description": "The C&O Canal follows the route of the Potomac River for 184.5 miles from Washington, D.C. to Cumberland, MD.",
+      "mapLink": "-",
+      "label": "C & O Canal NHP",
+      "address": "Along C&O Canal from Rock Creek to D.C. boundary"
+    },
+    {
+      "objectID": 11,
+      "layerGroup": "Park",
+      "name": "Lafayette Square Historic District",
+      "description": "Lafayette Square Historic District is a historic district in Washington, D.C.. It includes the 7-acre. Lafayette Square park, and surrounding buildings. It is part of President's Park.",
+      "mapLink": "-",
+      "label": "Lafayette Square HD",
+      "address": ""
+    },
+    {
+      "objectID": 15,
+      "layerGroup": "Park",
+      "name": "Rock Creek Park Historic District",
+      "description": "Rock Creek Park is a large urban park that bisects the Northwest quadrant of Washington, D.C.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Rock_Creek_Park_Historic_District_Map.pdf",
+      "label": "Rock Creek Park HD",
+      "address": ""
+    },
+    {
+      "objectID": 57,
+      "layerGroup": "Park",
+      "name": "Glover-Archbold Park (Res 450 & 351)",
+      "description": "Glover-Archbold Park is a stream valley park, Northwest, Washington, D.C., on the western edge of the Glover Park neighborhood. It includes Foundry Branch from Van Ness Street, to Canal Road, on the Potomac River.",
+      "mapLink": "-",
+      "label": "Glover-Archbold Park",
+      "address": "Glover-Archbold Park"
+    },
+    {
+      "objectID": 26,
+      "layerGroup": "Park",
+      "name": "East and West Potomac Parks Historic District",
+      "description": "East and West Potomac Parks Historic District is a U.S. national park in Washington, D.C., adjacent to the National Mall. It includes the parkland that extends south of the Lincoln Memorial Reflecting Pool, from the Lincoln Memorial to the grounds of the Washington Monument.",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Potomac_Park_East_and_West_Historic_District_Map.pdf",
+      "label": "East & West Potomac Parks HD",
+      "address": "Along Potomac River from Constitution Avenue to Hains Point"
+    },
+    {
+      "objectID": 29,
+      "layerGroup": "Park",
+      "name": "National Zoological Park",
+      "description": "The National Zoological Park, commonly known as the National Zoo, is one of the oldest zoos in the United States, and as part of the Smithsonian Institution.",
+      "mapLink": "-",
+      "label": "National Zoological Park HD",
+      "address": "3001 Connecticut Ave, NW"
+    },
+    {
+      "objectID": 40,
+      "layerGroup": "Park",
+      "name": "National Mall",
+      "description": "Officially established in 1965, National Mall and Memorial Parks contains some of the oldest protected park lands in the National Park Service.",
+      "mapLink": "-",
+      "label": "National Mall HD",
+      "address": ""
+    },
+    {
+      "objectID": 44,
+      "layerGroup": "Park",
+      "name": "National Arboretum",
+      "description": "A 446-acre living museum 2 miles from the Capitol: gardens, collections, bonsai museum, herb garden, azaleas, flowering cherry trees, and the original columns from the Capitol. - See more at: http://washington.org/find-dc-listings/national-arboretum#sthash.SEUD1Xxu.dpuf",
+      "mapLink": "-",
+      "label": "National Arboretum",
+      "address": "3501 New York Ave, NE"
+    },
+    {
+      "objectID": 45,
+      "layerGroup": "Park",
+      "name": "Theodore Roosevelt Island National Memorial (Analostan Island)",
+      "description": "Theodore Roosevelt Island is a 88.5-acre island and a national memorial located in the Potomac River in Washington, D.C.",
+      "mapLink": "-",
+      "label": "T.R. Island Nat'l Mem.",
+      "address": "Potomac River west of Georgetown Channel"
+    },
+    {
+      "objectID": 47,
+      "layerGroup": "Park",
+      "name": "Potomac Gorge, The (Potomac Palisades)",
+      "description": "The neighborhood has long been home to an eclectic mix of artists, writers, government workers and environmentalists.",
+      "mapLink": "-",
+      "label": "The Potomac Gorge",
+      "address": "Potomac River upstream from Key Bridge"
+    },
+    {
+      "objectID": 48,
+      "layerGroup": "Park",
+      "name": "Rock Creek & Potomac Parkway (Res 360)",
+      "description": "Rock Creek & Potomac Parkway is a parkway maintained by the National Park Service as part of Rock Creek Park in Washington, D.C.",
+      "mapLink": "-",
+      "label": "Rock Creek & Potomac Pkwy.",
+      "address": "Rock Creek & Potomac Parkway (from Lincoln Memorial to Nat'l Zoo)"
+    },
+    {
+      "objectID": 49,
+      "layerGroup": "Park",
+      "name": "Montrose Park (Res 324)",
+      "description": "Montrose Park is a massive piece of countryside right in the middle of the city",
+      "mapLink": "-",
+      "label": "Montrose Park",
+      "address": "R St, NW"
+    },
+    {
+      "objectID": 50,
+      "layerGroup": "Park",
+      "name": "Dumbarton Oaks Park (Res 637)",
+      "description": "Dumbarton Oaks Park is a milestone in the history of American landscape architecture and a landmark in our social history, as it represents the finest work of Beatrix Farrand",
+      "mapLink": "-",
+      "label": "Dumbarton Oaks Park",
+      "address": "32nd & R St, NW"
+    },
+    {
+      "objectID": 51,
+      "layerGroup": "Park",
+      "name": "Greystone Enclave",
+      "description": "-",
+      "mapLink": "-",
+      "label": "Greystone Enclave",
+      "address": "Area between Beach Drive and Williamsburg LN NW"
+    },
+    {
+      "objectID": 55,
+      "layerGroup": "Park",
+      "name": "Fort Circle Parks Historic District",
+      "description": "The historic features are collectively known as the Civil War Defenses of Washington, or the Fort Circle Parks.\" \"",
+      "mapLink": "-",
+      "label": "Fort Circle Parks",
+      "address": "Around DC"
+    }
+  ]
+}
