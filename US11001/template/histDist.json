@@ -5,7 +5,7 @@
       "layerGroup": "Corridor",
       "name": "Pennsylvania Avenue National Historic Site",
       "description": "Pennsylvania Avenue National Historic Site, a unit of National Mall and Memorial Parks. This unique site preserves locations related to the creation of the Federal City, Presidential Inaugurations, and historically significant events.",
-      "mapLink": "-",
+
       "label": "Pennsylvania Ave NHS",
       "address": ""
     },
@@ -13,7 +13,7 @@
       "objectID": 9,
       "layerGroup": "Corridor",
       "name": "Massachusetts Avenue Historic District",
-      "description": "Massachusetts Avenue Historic District includes approximately 150 buildings. Boulevard of grand mansioms, row houses, and embassies, known as Embassy Row\".\"",
+      "description": "Massachusetts Avenue Historic District includes approximately 150 buildings. Boulevard of grand mansioms, row houses, and embassies, known as Embassy Row.",
       "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Massachusetts_Ave_Brochure.pdf",
       "label": "Massachusetts Ave HD",
       "address": "Massachusetts Ave from 17th St, NW to Observatory Cir, NW"
@@ -113,7 +113,7 @@
       "layerGroup": "Institution",
       "name": "Ford's Theatre National Historic Site",
       "description": "Ford's Theatre National Historic Site includes Ford's Theatre",
-      "mapLink": "-",
+
       "label": "Ford's Theatre NHS",
       "address": "10th St, between E & F Sts, NW"
     },
@@ -140,7 +140,7 @@
       "layerGroup": "Institution",
       "name": "Fort McNair (The Old Arsenal)",
       "description": "Fort McNair, Washington D.C. is a US Army operated military facility located in a small peninsula at the intersection of two rivers- Anacostia and Potomac.",
-      "mapLink": "-",
+
       "label": "Fort McNair",
       "address": "4th & P Streets, SW"
     },
@@ -176,7 +176,7 @@
       "layerGroup": "Institution",
       "name": "Georgetown Visitation Convent and Preparatory School",
       "description": "Georgetown Visitation Preparatory School was founded in Washington, DC in 1799 as the Georgetown Academy for Young Ladies.",
-      "mapLink": "-",
+
       "label": "Georgetown Visitation Convent and Prep School",
       "address": "1500 35th St, NW"
     },
@@ -185,7 +185,7 @@
       "layerGroup": "Institution",
       "name": "Marjorie Webster Historic District",
       "description": "The Marjorie Webster Junior College meets National Register criteria A and C at the local level of significance.",
-      "mapLink": "-",
+
       "label": "Marjorie Webster HD",
       "address": "Area South of Kalmia and East of 17th St NW"
     },
@@ -194,7 +194,7 @@
       "layerGroup": "Institution",
       "name": "Immaculata Seminary Historic District",
       "description": "Immaculata Seminary islocated in the Historic District.",
-      "mapLink": "-",
+
       "label": "Immaculata Seminary HD",
       "address": "4340 Nebraska Avenue NW"
     },
@@ -248,7 +248,7 @@
       "layerGroup": "Neighborhood",
       "name": "Blagden Alley/Naylor Court",
       "description": "",
-      "mapLink": "-",
+
       "label": "Blagden Alley/Naylor Court HD",
       "address": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Armed%20Forces%20Retirement%20Home%20Historic%20District%20Map.pdf"
     },
@@ -392,7 +392,7 @@
       "layerGroup": "Neighborhood",
       "name": "Meridian Hill Historic District",
       "description": "Meridian Hill Park is a structured urban park located in the Washington, D.C neighborhood of Columbia Heights; it abuts the nearby neighborhood of Adams Morgan. The park was designed and built between 1912 and 1940.",
-      "mapLink": "-",
+
       "label": "Meridian Hill",
       "address": "Meridian Hill"
     },
@@ -401,7 +401,7 @@
       "layerGroup": "Park",
       "name": "Chesapeake and Ohio Canal National Historical Park",
       "description": "The C&O Canal follows the route of the Potomac River for 184.5 miles from Washington, D.C. to Cumberland, MD.",
-      "mapLink": "-",
+
       "label": "C & O Canal NHP",
       "address": "Along C&O Canal from Rock Creek to D.C. boundary"
     },
@@ -410,7 +410,7 @@
       "layerGroup": "Park",
       "name": "Lafayette Square Historic District",
       "description": "Lafayette Square Historic District is a historic district in Washington, D.C.. It includes the 7-acre. Lafayette Square park, and surrounding buildings. It is part of President's Park.",
-      "mapLink": "-",
+
       "label": "Lafayette Square HD",
       "address": ""
     },
@@ -428,7 +428,7 @@
       "layerGroup": "Park",
       "name": "Glover-Archbold Park (Res 450 & 351)",
       "description": "Glover-Archbold Park is a stream valley park, Northwest, Washington, D.C., on the western edge of the Glover Park neighborhood. It includes Foundry Branch from Van Ness Street, to Canal Road, on the Potomac River.",
-      "mapLink": "-",
+
       "label": "Glover-Archbold Park",
       "address": "Glover-Archbold Park"
     },
@@ -446,7 +446,6 @@
       "layerGroup": "Park",
       "name": "National Zoological Park",
       "description": "The National Zoological Park, commonly known as the National Zoo, is one of the oldest zoos in the United States, and as part of the Smithsonian Institution.",
-      "mapLink": "-",
       "label": "National Zoological Park HD",
       "address": "3001 Connecticut Ave, NW"
     },
@@ -455,7 +454,6 @@
       "layerGroup": "Park",
       "name": "National Mall",
       "description": "Officially established in 1965, National Mall and Memorial Parks contains some of the oldest protected park lands in the National Park Service.",
-      "mapLink": "-",
       "label": "National Mall HD",
       "address": ""
     },
@@ -464,7 +462,6 @@
       "layerGroup": "Park",
       "name": "National Arboretum",
       "description": "A 446-acre living museum 2 miles from the Capitol: gardens, collections, bonsai museum, herb garden, azaleas, flowering cherry trees, and the original columns from the Capitol. - See more at: http://washington.org/find-dc-listings/national-arboretum#sthash.SEUD1Xxu.dpuf",
-      "mapLink": "-",
       "label": "National Arboretum",
       "address": "3501 New York Ave, NE"
     },
@@ -473,7 +470,6 @@
       "layerGroup": "Park",
       "name": "Theodore Roosevelt Island National Memorial (Analostan Island)",
       "description": "Theodore Roosevelt Island is a 88.5-acre island and a national memorial located in the Potomac River in Washington, D.C.",
-      "mapLink": "-",
       "label": "T.R. Island Nat'l Mem.",
       "address": "Potomac River west of Georgetown Channel"
     },
@@ -482,7 +478,6 @@
       "layerGroup": "Park",
       "name": "Potomac Gorge, The (Potomac Palisades)",
       "description": "The neighborhood has long been home to an eclectic mix of artists, writers, government workers and environmentalists.",
-      "mapLink": "-",
       "label": "The Potomac Gorge",
       "address": "Potomac River upstream from Key Bridge"
     },
@@ -491,7 +486,6 @@
       "layerGroup": "Park",
       "name": "Rock Creek & Potomac Parkway (Res 360)",
       "description": "Rock Creek & Potomac Parkway is a parkway maintained by the National Park Service as part of Rock Creek Park in Washington, D.C.",
-      "mapLink": "-",
       "label": "Rock Creek & Potomac Pkwy.",
       "address": "Rock Creek & Potomac Parkway (from Lincoln Memorial to Nat'l Zoo)"
     },
@@ -500,7 +494,6 @@
       "layerGroup": "Park",
       "name": "Montrose Park (Res 324)",
       "description": "Montrose Park is a massive piece of countryside right in the middle of the city",
-      "mapLink": "-",
       "label": "Montrose Park",
       "address": "R St, NW"
     },
@@ -509,7 +502,6 @@
       "layerGroup": "Park",
       "name": "Dumbarton Oaks Park (Res 637)",
       "description": "Dumbarton Oaks Park is a milestone in the history of American landscape architecture and a landmark in our social history, as it represents the finest work of Beatrix Farrand",
-      "mapLink": "-",
       "label": "Dumbarton Oaks Park",
       "address": "32nd & R St, NW"
     },
@@ -518,7 +510,6 @@
       "layerGroup": "Park",
       "name": "Greystone Enclave",
       "description": "-",
-      "mapLink": "-",
       "label": "Greystone Enclave",
       "address": "Area between Beach Drive and Williamsburg LN NW"
     },
@@ -526,8 +517,7 @@
       "objectID": 55,
       "layerGroup": "Park",
       "name": "Fort Circle Parks Historic District",
-      "description": "The historic features are collectively known as the Civil War Defenses of Washington, or the Fort Circle Parks.\" \"",
-      "mapLink": "-",
+      "description": "The historic features are collectively known as the Civil War Defenses of Washington, or the Fort Circle Parks.",
       "label": "Fort Circle Parks",
       "address": "Around DC"
     }
