@@ -1,105 +1,161 @@
 {
-  "inclusionaryZoning": [
-    {
-      "zone":"R-2",
-      "bonusDens":"20%"
-    },
-    {
-      "zone":"R-3",
-      "bonusDens":"20%"
-    },
-    {
-      "zone":"R-4",
-      "bonusDens":"20%"
-    },
-    {
-      "zone":"R-5-A",
-      "bonusDens":"20%"
-    },
-    {
-      "zone":"R-5-B",
-      "bonusDens":"20%"
-    },
-    {
-      "zone":"R-5-C",
-      "bonusDens":"20%"
-    },
-    {
-      "zone":"R-5-D",
-      "bonusDens":"20%"
-    },
-    {
-      "zone":"R-5-E",
-      "lotOcc":"90%",
-      "height":90,
-      "bonusDens":"20%"
-    },
-    {
-      "zone":"CR",
-      "lotOcc":"80%",
-      "height":100,
-      "bonusDens":"20%"
-    },
-    {
-      "zone":"C-1",
-      "bonusDens":"20%"
-    },
-    {
-      "zone":"C-2-A",
-      "lotOcc":"75%",
-      "height":50,
-      "bonusDens":"20%"
-    },
-    {
-      "zone":"C-2-B",
-      "lotOcc":"80%",
-      "height":70,
-      "bonusDens":"20%"
-    },
-    {
-      "zone":"C-2-C",
-      "lotOcc":"80%",
-      "height":70,
-      "bonusDens":"20%"
-    },
-    {
-      "zone":"C-3-A",
-      "lotOcc":"80%",
-      "height":65,
-      "bonusDens":"20%"
-    },
-    {
-      "zone":"C-3-B",
-      "bonusDens":"20%"
-    },
-    {
-      "zone":"W-1",
-      "bonusDens":"20%"
-    },
-    {
-      "zone":"W-2",
-      "lotOcc":"75%",
-      "height":80,
-      "bonusDens":"20%"
-    },
-    {
-      "zone":"W-3",
-      "lotOcc":"80%",
-      "height":100,
-      "bonusDens":"20%"
-    },
-    {
-      "zone":"SP-1",
-      "lotOcc":"80%",
-      "height":70,
-      "bonusDens":"20%"
-    },
-    {
-      "zone":"SP-2",
-      "lotOcc":"90%",
-      "height":90,
-      "bonusDens":"20%"
-    }
-  ]
+  "inclusionaryZoning": {
+    "IZtable": [
+      {
+        "zone": "R-2",
+        "bonusDens": "20%"
+      },
+      {
+        "zone": "R-3",
+        "bonusDens": "20%"
+      },
+      {
+        "zone": "R-4",
+        "bonusDens": "20%"
+      },
+      {
+        "zone": "R-5-A",
+        "bonusDens": "20%"
+      },
+      {
+        "zone": "R-5-B",
+        "bonusDens": "20%"
+      },
+      {
+        "zone": "R-5-C",
+        "bonusDens": "20%"
+      },
+      {
+        "zone": "R-5-D",
+        "bonusDens": "20%"
+      },
+      {
+        "zone": "CR",
+        "lotOcc": "80%",
+        "height": 100,
+        "bonusDens": "20%"
+      },
+      {
+        "zone": "C-1",
+        "bonusDens": "20%"
+      },
+      {
+        "zone": "C-2-A",
+        "lotOcc": "75%",
+        "height": 50,
+        "bonusDens": "20%"
+      },
+      {
+        "zone": "C-2-B",
+        "lotOcc": "80%",
+        "height": 70,
+        "bonusDens": "20%"
+      },
+      {
+        "zone": "C-2-C",
+        "lotOcc": "80%",
+        "height": 70,
+        "bonusDens": "20%"
+      },
+      {
+        "zone": "C-3-A",
+        "lotOcc": "80%",
+        "height": 65,
+        "bonusDens": "20%"
+      },
+      {
+        "zone": "C-3-B",
+        "bonusDens": "20%"
+      },
+      {
+        "zone": "W-1",
+        "bonusDens": "20%"
+      },
+      {
+        "zone": "W-2",
+        "lotOcc": "75%",
+        "height": 80,
+        "bonusDens": "20%"
+      },
+      {
+        "zone": "W-3",
+        "lotOcc": "80%",
+        "height": 100,
+        "bonusDens": "20%"
+      },
+      {
+        "zone": "SP-1",
+        "lotOcc": "80%",
+        "height": 70,
+        "bonusDens": "20%"
+      },
+      {
+        "zone": "SP-2",
+        "lotOcc": "90%",
+        "height": 90,
+        "bonusDens": "20%"
+      }
+    ],
+    "IZMods": [
+      {
+        "zone": "R-2",
+        "zoneDesc": [
+          "R-2 Detached",
+          "R-2 Semi-Detached"
+        ],
+        "minLotAreaIZ": [
+          3200,
+          2500
+        ],
+        "minLotWidthIZ": [
+          40,
+          30
+        ],
+        "minLotWidthIZSE": [
+          32,
+          25
+        ]
+      },
+      {
+        "zone": "R-3",
+        "zoneDesc": "R-3",
+        "minLotAreaIZ": 1600,
+        "minLotWidthIZ": 20,
+        "minLotWidthIZSE": 16
+      },
+      {
+        "zone": "R-4",
+        "zoneDesc": "R-4",
+        "minLotAreaIZ": 1500,
+        "minLotWidthIZ": 18,
+        "minLotWidthIZSE": 16
+      }
+    ],
+    "IZExclude": [
+      {
+        "overlayDist": "DD"
+      },
+      {
+        "overlayDist": "TDR"
+      },
+      {
+        "overlayDist": "SEFC"
+      },
+      {
+        "zoningDist": "C-2-A",
+        "overlayDist": "NO"
+      },
+      {
+        "overlayDist": "ES"
+      },
+      {
+        "zoningDist": "W-2",
+        "histDist": "Georgetown Historical District"
+      },
+      {
+        "zoningDist": "R-3",
+        "histDist": "Anacostia Historic District"
+      }
+    ]
+  }
 }
-
