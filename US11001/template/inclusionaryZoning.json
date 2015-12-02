@@ -3,15 +3,39 @@
     "IZtable": [
       {
         "zone": "R-2",
-        "bonusDens": "20%"
+        "bonusDens": "20%",
+        "modZoneDesc": [
+          "R-2 Detached",
+          "R-2 Semi-Detached"
+        ],
+        "modMinLotAreaIZ": [
+          3200,
+          2500
+        ],
+        "modMinLotWidthIZ": [
+          40,
+          30
+        ],
+        "modMinLotWidthIZSE": [
+          32,
+          25
+        ]
       },
       {
         "zone": "R-3",
-        "bonusDens": "20%"
+        "bonusDens": "20%",
+        "modZoneDesc": "R-3",
+        "modMinLotAreaIZ": 1600,
+        "modMinLotWidthIZ": 20,
+        "modMinLotWidthIZSE": 16
       },
       {
         "zone": "R-4",
-        "bonusDens": "20%"
+        "bonusDens": "20%",
+        "modZoneDesc": "R-4",
+        "modMinLotAreaIZ": 1500,
+        "modMinLotWidthIZ": 18,
+        "modMinLotWidthIZSE": 16
       },
       {
         "zone": "R-5-A",
@@ -94,41 +118,6 @@
         "lotOcc": "90%",
         "height": 90,
         "bonusDens": "20%"
-      }
-    ],
-    "IZMods": [
-      {
-        "zone": "R-2",
-        "zoneDesc": [
-          "R-2 Detached",
-          "R-2 Semi-Detached"
-        ],
-        "minLotAreaIZ": [
-          3200,
-          2500
-        ],
-        "minLotWidthIZ": [
-          40,
-          30
-        ],
-        "minLotWidthIZSE": [
-          32,
-          25
-        ]
-      },
-      {
-        "zone": "R-3",
-        "zoneDesc": "R-3",
-        "minLotAreaIZ": 1600,
-        "minLotWidthIZ": 20,
-        "minLotWidthIZSE": 16
-      },
-      {
-        "zone": "R-4",
-        "zoneDesc": "R-4",
-        "minLotAreaIZ": 1500,
-        "minLotWidthIZ": 18,
-        "minLotWidthIZSE": 16
       }
     ],
     "IZExclude": [
