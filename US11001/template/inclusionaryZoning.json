@@ -145,6 +145,11 @@
         "zoningDist": "R-3",
         "histDist": "Anacostia Historic District"
       }
-    ]
+    ],
+    "IZDesc": {
+      "description":"Inclusionary Zoning (IZ) requires that a certain percentage of units in a new residential or mixed-use development, or a substantial rehabilitation or expansion of an existing building, be set aside as affordable units in exchange for bonus density. For more information on Set-aside Requirements, see <Section 2603> of DC Zoning Code.",
+      "applicTo":"New construction of 10 or more units; Additions that expand a building’s residential FAR by 50% or more and add 10 or more units",
+      "notApplicTo":"Dormitories, Hotels, Diplomatic housing, Boarding/Rooming houses, community-based residential facilities"
+    }
   }
 }
