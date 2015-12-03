@@ -8,7 +8,8 @@
       "initialOcc": "60*",
       "overlayOcc": 75,
       "InitialHeight": 50,
-      "OverlayHeight": 50
+      "OverlayHeight": 50,
+      "lookup": "For more information, see 1909.1 (a) of DC Zoning Code"
     },
     {
       "overlayZone": "ARTS",
@@ -18,7 +19,8 @@
       "initialOcc": 80,
       "overlayOcc": 80,
       "InitialHeight": 65,
-      "OverlayHeight": 70
+      "OverlayHeight": 70,
+      "lookup": "For more information, see 1909.1 (b) of DC Zoning Code"
     },
     {
       "overlayZone": "ARTS",
@@ -28,7 +30,8 @@
       "initialOcc": 75,
       "overlayOcc": 80,
       "InitialHeight": 65,
-      "OverlayHeight": 75
+      "OverlayHeight": 75,
+      "lookup": "For more information, see 1909.1 (c) of DC Zoning Code"
     },
     {
       "overlayZone": "ARTS",
@@ -38,7 +41,8 @@
       "initialOcc": 75,
       "overlayOcc": 80,
       "InitialHeight": 65,
-      "OverlayHeight": 100
+      "OverlayHeight": 100,
+      "lookup": "For more information, see 1909.1 (d) of DC Zoning Code"
     },
     {
       "overlayZone": "CAP",
@@ -48,7 +52,8 @@
       "initialOcc": 60,
       "overlayOcc": 75,
       "InitialHeight": 50,
-      "OverlayHeight": 40
+      "OverlayHeight": 40,
+      "lookup": "For more information, see 1204.1 (a&b) of DC Zoning Code"
     },
     {
       "overlayZone": "CAP",
@@ -58,7 +63,8 @@
       "initialOcc": 60,
       "overlayOcc": 75,
       "InitialHeight": 50,
-      "OverlayHeight": 40
+      "OverlayHeight": 40,
+      "lookup": "For more information, see 1204.1 (a&b) of DC Zoning Code"
     },
     {
       "overlayZone": "CAP",
@@ -68,7 +74,8 @@
       "initialOcc": 80,
       "overlayOcc": 80,
       "InitialHeight": 65,
-      "OverlayHeight": 40
+      "OverlayHeight": 40,
+      "lookup": "For more information, see 1204.1 (a&b) of DC Zoning Code"
     },
     {
       "overlayZone": "CAP",
@@ -78,7 +85,8 @@
       "initialOcc": "40*",
       "overlayOcc": "-",
       "InitialHeight": 40,
-      "OverlayHeight": "-"
+      "OverlayHeight": "-",
+      "lookup": "For more information, see 1204.1 (c) of DC Zoning Code"
     },
     {
       "overlayZone": "CG",
@@ -88,7 +96,8 @@
       "initialOcc": 80,
       "overlayOcc": 80,
       "InitialHeight": 90,
-      "OverlayHeight": 110
+      "OverlayHeight": 110,
+      "lookup": "For more information, see 1601.1 of DC Zoning Code"
     },
     {
       "overlayZone": "CG",
@@ -98,7 +107,8 @@
       "initialOcc": 100,
       "overlayOcc": 100,
       "InitialHeight": 90,
-      "OverlayHeight": 90
+      "OverlayHeight": 90,
+      "lookup": "For more information, see 1601.1 of DC Zoning Code"
     },
     {
       "overlayZone": "CG",
@@ -108,7 +118,8 @@
       "initialOcc": 75,
       "overlayOcc": 80,
       "InitialHeight": 65,
-      "OverlayHeight": 100
+      "OverlayHeight": 100,
+      "lookup": "For more information, see 1601.2 of DC Zoning Code"
     },
     {
       "overlayZone": "CG",
@@ -118,7 +129,8 @@
       "initialOcc": 80,
       "overlayOcc": 80,
       "InitialHeight": 45,
-      "OverlayHeight": 50
+      "OverlayHeight": 50,
+      "lookup": "For more information, see 1601.4 of DC Zoning Code"
     },
     {
       "overlayZone": "CG",
@@ -128,7 +140,8 @@
       "initialOcc": "75*",
       "overlayOcc": 75,
       "InitialHeight": 60,
-      "OverlayHeight": 80
+      "OverlayHeight": 80,
+      "lookup": "For more information, see 1603.4 of DC Zoning Code"
     },
     {
       "overlayZone": "CG",
@@ -138,7 +151,8 @@
       "initialOcc": "75*",
       "overlayOcc": 75,
       "InitialHeight": 90,
-      "OverlayHeight": 100
+      "OverlayHeight": 100,
+      "lookup": "For more information, see 1601.2 of DC Zoning Code"
     },
     {
       "overlayZone": "HS",
@@ -148,7 +162,8 @@
       "initialOcc": 60,
       "overlayOcc": 75,
       "InitialHeight": 50,
-      "OverlayHeight": 50
+      "OverlayHeight": 50,
+      "lookup": "For more information, see 1326.3 of DC Zoning Code"
     },
     {
       "overlayZone": "HS",
@@ -158,7 +173,8 @@
       "initialOcc": 80,
       "overlayOcc": 80,
       "InitialHeight": 65,
-      "OverlayHeight": 70
+      "OverlayHeight": 70,
+      "lookup": "For more information, see 1326.3 of DC Zoning Code"
     },
     {
       "overlayZone": "HS",
@@ -168,7 +184,8 @@
       "initialOcc": 80,
       "overlayOcc": 80,
       "InitialHeight": 90,
-      "OverlayHeight": 100
+      "OverlayHeight": 100,
+      "lookup": "For more information, see 1326.3 of DC Zoning Code"
     },
     {
       "overlayZone": "HR",
@@ -179,7 +196,8 @@
       "overlayOcc": 100,
       "InitialHeight": 90,
       "OverlayHeight": "Act*",
-      "note":"Regulated by the Height of Buildings Act of 1910."
+      "note":"Regulated by the Height of Buildings Act of 1910.",
+      "lookup": "For more information, see 1101.7 of DC Zoning Code"
     },
     {
       "overlayZone": "HR",
@@ -189,7 +207,8 @@
       "initialOcc": 80,
       "overlayOcc": 100,
       "InitialHeight": 90,
-      "OverlayHeight": "Act*"
+      "OverlayHeight": "Act*",
+      "lookup": "For more information, see 1101.7 of DC Zoning Code"
     },
     {
       "overlayZone": "RC",
@@ -199,7 +218,8 @@
       "initialOcc": 80,
       "overlayOcc": "-",
       "InitialHeight": 65,
-      "OverlayHeight": 50
+      "OverlayHeight": 50,
+      "lookup": "For more information, see 1402.1 of DC Zoning Code"
     },
     {
       "overlayZone": "SEFC",
@@ -209,7 +229,8 @@
       "initialOcc": 75,
       "overlayOcc": "-",
       "InitialHeight": 65,
-      "OverlayHeight": "-"
+      "OverlayHeight": "-",
+      "lookup": "For more information, see 1803.7 (b) of DC Zoning Code"
     },
     {
       "overlayZone": "SEFC",
@@ -219,7 +240,8 @@
       "initialOcc": 75,
       "overlayOcc": "-",
       "InitialHeight": 90,
-      "OverlayHeight": "-"
+      "OverlayHeight": "-",
+      "lookup": "For more information, see 1804.2 (c) of DC Zoning Code"
     },
     {
       "overlayZone": "SEFC",
@@ -229,7 +251,8 @@
       "initialOcc": 75,
       "overlayOcc": "-",
       "InitialHeight": 90,
-      "OverlayHeight": "-"
+      "OverlayHeight": "-",
+      "lookup": "For more information, see 1804.3 (c) of DC Zoning Code"
     },
     {
       "overlayZone": "WP",
@@ -239,7 +262,8 @@
       "initialOcc": 60,
       "overlayOcc": 75,
       "InitialHeight": 50,
-      "OverlayHeight": 50
+      "OverlayHeight": 50,
+      "lookup": "For more information, see 1307.8 (a) of DC Zoning Code"
     },
     {
       "overlayZone": "WP",
@@ -249,7 +273,8 @@
       "initialOcc": 80,
       "overlayOcc": 80,
       "InitialHeight": 65,
-      "OverlayHeight": 55
+      "OverlayHeight": 55,
+      "lookup": "For more information, see 1307.8 (b) of DC Zoning Code"
     },
     {
       "overlayZone": "DD",
@@ -260,7 +285,8 @@
       "overlayOcc": "-",
       "InitialHeight": 90,
       "OverlayHeight": "Act*",
-      "note":"Regulated by the Height of Buildings Act of 1910."
+      "note":"Regulated by the Height of Buildings Act of 1910.",
+      "lookup": "For more information, see 1706.4 (a) of DC Zoning Code"
     },
     {
       "overlayZone": "DD",
@@ -271,7 +297,8 @@
       "overlayOcc": "-",
       "InitialHeight": 90,
       "OverlayHeight": "Act*",
-      "note":"Regulated by the Height of Buildings Act of 1910."
+      "note":"Regulated by the Height of Buildings Act of 1910.",
+      "lookup": "For more information, see 1706.5 (a) of DC Zoning Code"
     },
     {
       "overlayZone": "DD",
@@ -282,7 +309,8 @@
       "overlayOcc": "-",
       "InitialHeight": 110,
       "OverlayHeight": "Act*",
-      "note":"Regulated by the Height of Buildings Act of 1910."
+      "note":"Regulated by the Height of Buildings Act of 1910.",
+      "lookup": "For more information, see 1706.6 (a) of DC Zoning Code"
     }
   ]
 }
