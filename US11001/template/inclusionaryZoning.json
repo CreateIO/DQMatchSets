@@ -4,38 +4,44 @@
       {
         "zone": "R-2",
         "bonusDens": "20%",
-        "modZoneDesc": [
-          "R-2 Detached",
-          "R-2 Semi-Detached"
-        ],
-        "modMinLotAreaIZ": [
-          3200,
-          2500
-        ],
-        "modMinLotWidthIZ": [
-          40,
-          30
-        ],
-        "modMinLotWidthIZSE": [
-          32,
-          25
+        "mod": [
+          {
+            "modZoneDesc": "R-2 Detached",
+            "modMinLotAreaIZ": 3200,
+            "modMinLotWidthIZ": 40,
+            "modMinLotWidthIZSE": 32
+          },
+          {
+            "modZoneDesc": "R-2 Semi-Detached",
+            "modMinLotAreaIZ": 2500,
+            "modMinLotWidthIZ": 30,
+            "modMinLotWidthIZSE": 25
+          }
         ]
       },
       {
         "zone": "R-3",
         "bonusDens": "20%",
-        "modZoneDesc": "R-3",
-        "modMinLotAreaIZ": 1600,
-        "modMinLotWidthIZ": 20,
-        "modMinLotWidthIZSE": 16
+        "mod": [
+          {
+            "modZoneDesc": "R-3",
+            "modMinLotAreaIZ": 1600,
+            "modMinLotWidthIZ": 20,
+            "modMinLotWidthIZSE": 16
+          }
+        ]
       },
       {
         "zone": "R-4",
         "bonusDens": "20%",
         "modZoneDesc": "R-4",
-        "modMinLotAreaIZ": 1500,
-        "modMinLotWidthIZ": 18,
-        "modMinLotWidthIZSE": 16
+        "mod": [
+          {
+            "modMinLotAreaIZ": 1500,
+            "modMinLotWidthIZ": 18,
+            "modMinLotWidthIZSE": 16
+          }
+        ]
       },
       {
         "zone": "R-5-A",
@@ -147,9 +153,9 @@
       }
     ],
     "IZDesc": {
-      "description":"Inclusionary Zoning (IZ) requires that a certain percentage of units in a new residential or mixed-use development, or a substantial rehabilitation or expansion of an existing building, be set aside as affordable units in exchange for bonus density. For more information on Set-aside Requirements, see <Section 2603> of DC Zoning Code.",
-      "applicTo":"New construction of 10 or more units; Additions that expand a building’s residential FAR by 50% or more and add 10 or more units",
-      "notApplicTo":"Dormitories, Hotels, Diplomatic housing, Boarding/Rooming houses, community-based residential facilities"
+      "description": "Inclusionary Zoning (IZ) requires that a certain percentage of units in a new residential or mixed-use development, or a substantial rehabilitation or expansion of an existing building, be set aside as affordable units in exchange for bonus density. For more information on Set-aside Requirements, see <Section 2603> of DC Zoning Code.",
+      "applicTo": "New construction of 10 or more units; Additions that expand a building’s residential FAR by 50% or more and add 10 or more units",
+      "notApplicTo": "Dormitories, Hotels, Diplomatic housing, Boarding/Rooming houses, community-based residential facilities"
     }
   }
 }
