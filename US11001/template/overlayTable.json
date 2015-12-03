@@ -178,7 +178,8 @@
       "initialOcc": 100,
       "overlayOcc": 100,
       "InitialHeight": 90,
-      "OverlayHeight": "1101.6(a)"
+      "OverlayHeight": "Act*",
+      "note":"Regulated by the Height of Buildings Act of 1910."
     },
     {
       "overlayZone": "HR",
@@ -188,7 +189,7 @@
       "initialOcc": 80,
       "overlayOcc": 100,
       "InitialHeight": 90,
-      "OverlayHeight": "1101.6(a)"
+      "OverlayHeight": "Act*"
     },
     {
       "overlayZone": "RC",
@@ -258,7 +259,8 @@
       "initialOcc": 80,
       "overlayOcc": "-",
       "InitialHeight": 90,
-      "OverlayHeight": "Act"
+      "OverlayHeight": "Act*",
+      "note":"Regulated by the Height of Buildings Act of 1910."
     },
     {
       "overlayZone": "DD",
@@ -268,7 +270,8 @@
       "initialOcc": 100,
       "overlayOcc": "-",
       "InitialHeight": 90,
-      "OverlayHeight": "Act"
+      "OverlayHeight": "Act*",
+      "note":"Regulated by the Height of Buildings Act of 1910."
     },
     {
       "overlayZone": "DD",
@@ -278,7 +281,8 @@
       "initialOcc": 100,
       "overlayOcc": "-",
       "InitialHeight": 110,
-      "OverlayHeight": "Act"
+      "OverlayHeight": "Act*",
+      "note":"Regulated by the Height of Buildings Act of 1910."
     }
   ]
 }
