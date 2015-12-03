@@ -34,9 +34,9 @@
       {
         "zone": "R-4",
         "bonusDens": "20%",
-        "modZoneDesc": "R-4",
         "mod": [
           {
+            "modZoneDesc": "R-4",
             "modMinLotAreaIZ": 1500,
             "modMinLotWidthIZ": 18,
             "modMinLotWidthIZSE": 16
