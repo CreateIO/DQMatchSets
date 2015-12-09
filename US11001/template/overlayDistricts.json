@@ -177,43 +177,43 @@
     {
       "overlayZone":"DD-ARTS",
       "district": "Downtown Arts District",
-      "description": "The Downtown Development (DD) Overlay District is applied to the core of the Downtown area, including subareas identified in the Comprehensive Plan as the Downtown Shopping District (Retail Core), the Arts District, Gallery Place, Chinatown, Pennsylvania Quarter, Convention Center, and Mount Vernon Square, and areas designated for historic preservation and housing mixed use, which areas overlap geographically with the subareas.",
+      "description": "The district is created to retain, expand, and support a concentration of spaces and activities for the arts and artists, including the performing and visual arts, cultural facilities, entertainment, and arts-related retail uses.",
       "lookup": "Chapter 17 of the Zoning Regulations."
     },
     {
       "overlayZone":"DD-CHI",
       "district": "Chinatown",
-      "description": "The Downtown Development (DD) Overlay District is applied to the core of the Downtown area, including subareas identified in the Comprehensive Plan as the Downtown Shopping District (Retail Core), the Arts District, Gallery Place, Chinatown, Pennsylvania Quarter, Convention Center, and Mount Vernon Square, and areas designated for historic preservation and housing mixed use, which areas overlap geographically with the subareas.",
+      "description": "The overlay district is created to protect and enhance Chinatown as Downtown's only ethnic cultural area.",
       "lookup": "Chapter 17 of the Zoning Regulations."
     },
     {
       "overlayZone":"DD-HPA",
       "district": "Housing Priority Area A",
-      "description": "The Downtown Development (DD) Overlay District is applied to the core of the Downtown area, including subareas identified in the Comprehensive Plan as the Downtown Shopping District (Retail Core), the Arts District, Gallery Place, Chinatown, Pennsylvania Quarter, Convention Center, and Mount Vernon Square, and areas designated for historic preservation and housing mixed use, which areas overlap geographically with the subareas.",
+      "description": "Housing Priority Area A, the Mount Vernon Square North area, is located north of Massachusetts Avenue and comprises the DD/C-2-C and DD/C-3-C zoned squares and parts of squares numbered 369, 370, 401, 402, 425, 426, 450, 451, 483, 484, W484, 514, 515, N515, 516, S516, 525, 526, 527, 528, 556, and 558.",
       "lookup": "Chapter 17 of the Zoning Regulations."
     },
     {
       "overlayZone":"DD-HPB",
       "district": "Housing Priority Area B",
-      "description": "The Downtown Development (DD) Overlay District is applied to the core of the Downtown area, including subareas identified in the Comprehensive Plan as the Downtown Shopping District (Retail Core), the Arts District, Gallery Place, Chinatown, Pennsylvania Quarter, Convention Center, and Mount Vernon Square, and areas designated for historic preservation and housing mixed use, which areas overlap geographically with the subareas.",
+      "description": "Housing Priority Area B, the Mount Vernon Square South area, comprises the DD/C-2-C and DD/C-3-C zoned properties that are located south of Massachusetts Avenue, including squares and parts of squares numbered 247, 283, 284, 316, 317, 342, 343, 371, 372,  374, 427, 428, 452, 453, 485, 486, 517, and 529, National Park Service Reservation 174, and the commercial and underdeveloped properties in square 247 with an approved plan unit development on or before January 18, 1991, for so long as the planned unit development approval remains valid.",
       "lookup": "Chapter 17 of the Zoning Regulations."
     },
     {
       "overlayZone":"DD-HPC",
       "district": "Housing Priority Area C",
-      "description": "The Downtown Development (DD) Overlay District is applied to the core of the Downtown area, including subareas identified in the Comprehensive Plan as the Downtown Shopping District (Retail Core), the Arts District, Gallery Place, Chinatown, Pennsylvania Quarter, Convention Center, and Mount Vernon Square, and areas designated for historic preservation and housing mixed use, which areas overlap geographically with the subareas.",
+      "description": "Housing Priority Area C, the Downtown Core area, comprises the following DD/C-4 zoned properties located south of H Street: Squares and parts of squares numbered 377 (Lots 36, 37, 42, 806, 828, 829, 847, and 848),406,407, 408, 431, 432, 454, 455, 456, 457, 458, 459, 460, and 491.",
       "lookup": "Chapter 17 of the Zoning Regulations."
     },
     {
       "overlayZone":"DD-MVT",
       "district": "Mount Vernon Triangle District",
-      "description": "The Downtown Development (DD) Overlay District is applied to the core of the Downtown area, including subareas identified in the Comprehensive Plan as the Downtown Shopping District (Retail Core), the Arts District, Gallery Place, Chinatown, Pennsylvania Quarter, Convention Center, and Mount Vernon Square, and areas designated for historic preservation and housing mixed use, which areas overlap geographically with the subareas.",
+      "description": "The overlay district is created to promote the development of ground floor level street frontages that will be active and pedestrian-friendly, particularly along the sections of K and 5th Streets, that are within the MVT District boundaries, as defined in § 1720.2.",
       "lookup": "Chapter 17 of the Zoning Regulations."
     },
     {
       "overlayZone":"DD-SHOP",
       "district": "Downtown Shopping District",
-      "description": "The Downtown Development (DD) Overlay District is applied to the core of the Downtown area, including subareas identified in the Comprehensive Plan as the Downtown Shopping District (Retail Core), the Arts District, Gallery Place, Chinatown, Pennsylvania Quarter, Convention Center, and Mount Vernon Square, and areas designated for historic preservation and housing mixed use, which areas overlap geographically with the subareas.",
+      "description": "The overlay district is created to be the most concentrated area of retail, service, arts, and arts-related uses in Downtown, in excess of one floor of these uses, with the greatest retail concentration oriented to F and G Streets, N.W.",
       "lookup": "Chapter 17 of the Zoning Regulations."
     }
   ]
