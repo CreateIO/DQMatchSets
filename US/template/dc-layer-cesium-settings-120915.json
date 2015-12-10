@@ -3275,6 +3275,49 @@
             "billboards": {
                 "exists": false
             }
+        },
+        "treppData": {
+            "name": "treppData",
+            "removeName": "wdcep_711_geo.geojson",
+            "url": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_711_geo.geojson",
+            "cartographic": true,
+            "id": {
+                "exists": true,
+                "objClass": "UserInfo",
+                "id": "entity.properties.UNIQUEID",
+                "name": "wdcep_711_data",
+                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": true,
+                "billboardLayers": {
+                    "billboard1": {
+                        "type": "custom",
+                        "name": "treppBB",
+                        "url": "https://s3.amazonaws.com/models-dc/WDCEP/icons/trepp.png",
+                        "position": {
+                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                            "z": 5
+                        },
+                        "NearFarScalar": {
+                            "minElevation": 2000,
+                            "maxElevation": 25000,
+                            "minScale": 1.0,
+                            "maxScale": 0.15
+                        }
+                    }
+                }
+            }
         }
     }
 }

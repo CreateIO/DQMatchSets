@@ -3127,6 +3127,56 @@
             "category": "5",
             "subCategory": "1",
             "order": 5
+        },
+        "Trepp Data": {
+            "id": 25,
+            "displayName": "Trepp",
+            "mouseoverName": "Trepp Data",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/layerLegendCEA.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/WDCEP/icons/trepp.png",
+            "colors": {
+                "type": "single",
+                "hex": {
+                    "hex1": "#EDAE39"
+                }
+            },
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "treppData"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Data: Trepp Data'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "treppData"
+                        }
+                    }
+                }
+            },
+            "category": "4",
+            "subCategory": "1",
+            "order": 7
         }
     }
 }
