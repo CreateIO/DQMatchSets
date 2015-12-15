@@ -86,7 +86,7 @@
           "name": "Economy",
           "url": "economy.html",
           "hasCharts": false,
-          "deny": ""
+          "deny": "Freemium"
         }
       ]
     },
