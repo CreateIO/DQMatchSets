@@ -120,7 +120,7 @@
           "name": "Equity",
           "url": "equity.html",
           "hasCharts": false,
-          "deny": ""
+          "deny": "Freemium"
         }
       ]
     }
