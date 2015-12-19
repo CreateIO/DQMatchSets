@@ -3278,15 +3278,15 @@
         },
         "treppData": {
             "name": "treppData",
-            "removeName": "wdcep_711_geo.geojson",
-            "url": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_711_geo.geojson",
+            "removeName": "trepp.geojson",
+            "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/trepp.geojson",
             "cartographic": true,
             "id": {
                 "exists": true,
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
-                "name": "wdcep_711_data",
-                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
+                "name": "function",
+                "folder": ""
             },
             "labels": {
                 "exists": false
