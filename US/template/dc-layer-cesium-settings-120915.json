@@ -3285,8 +3285,9 @@
                 "exists": true,
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
-                "name": "function",
-                "folder": ""
+                "name": "trepp",
+                "folder": "https://s3.amazonaws.com/models-dc/geoJSON/prod/",
+                "applyFunction": "test"
             },
             "labels": {
                 "exists": false
