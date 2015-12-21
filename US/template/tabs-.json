@@ -86,7 +86,7 @@
           "name": "Economy",
           "url": "economy.html",
           "hasCharts": false,
-          "deny": "Freemium"
+          "deny": ""
         }
       ]
     },
@@ -120,7 +120,7 @@
           "name": "Equity",
           "url": "equity.html",
           "hasCharts": false,
-          "deny": "Freemium"
+          "deny": ""
         }
       ]
     }
