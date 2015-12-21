@@ -697,7 +697,8 @@
                 "objClass": "UserInfo-poly",
                 "id": "entity.properties.UNIQUEID",
                 "name": "pudinfo",
-                "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
+                "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/",
+                "applyFunction": null
             },
             "labels": {
                 "exists": false
@@ -746,7 +747,8 @@
                 "objClass": "UserInfo-poly",
                 "id": "entity.properties.UNIQUEID",
                 "name": "pudinfo",
-                "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
+                "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/",
+                "applyFunction": null
             },
             "labels": {
                 "exists": false
@@ -794,7 +796,8 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "metroStationsDistrict",
-                "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
+                "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/",
+                "applyFunction": null
             },
             "labels": {
                 "exists": false
@@ -1058,7 +1061,8 @@
                 "objClass": "UserInfo-poly",
                 "id": "entity.properties.UNIQUEID",
                 "name": "wardinfo",
-                "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/"
+                "folder": "https://s3.amazonaws.com/models-dc/geoJSON/infobox/",
+                "applyFunction": null
             },
             "labels": {
                 "exists": true,
@@ -1158,7 +1162,8 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "SMD-ANC",
-                "folder": "https://s3.amazonaws.com/models-dc/geoJSON/prod/"
+                "folder": "https://s3.amazonaws.com/models-dc/geoJSON/prod/",
+                "applyFunction": null
             },
             "labels": {
                 "exists": false
@@ -1711,7 +1716,8 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "wdcep_grocery_data",
-                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
+                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/",
+                "applyFunction": null
             },
             "labels": {
                 "exists": true,
@@ -1781,7 +1787,8 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "wdcep_subway_data",
-                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
+                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/",
+                "applyFunction": null
             },
             "labels": {
                 "exists": false
@@ -1824,7 +1831,8 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "wdcep_potbelly_data",
-                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
+                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/",
+                "applyFunction": null
             },
             "labels": {
                 "exists": false
@@ -1867,7 +1875,8 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "wdcep_movies_data",
-                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
+                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/",
+                "applyFunction": null
             },
             "labels": {
                 "exists": true,
@@ -1937,7 +1946,8 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "wdcep_chipotle_data",
-                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
+                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/",
+                "applyFunction": null
             },
             "labels": {
                 "exists": false
@@ -2350,7 +2360,8 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "wdcep_resi_com_data",
-                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
+                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/",
+                "applyFunction": null
             },
             "labels": {
                 "exists": false
@@ -2393,7 +2404,8 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "wdcep_resi_pipeline_data",
-                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
+                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/",
+                "applyFunction": null
             },
             "labels": {
                 "exists": false
@@ -2436,7 +2448,8 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "wdcep_retail_com_data",
-                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
+                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/",
+                "applyFunction": null
             },
             "labels": {
                 "exists": false
@@ -2479,7 +2492,8 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "wdcep_retail_pipeline_data",
-                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
+                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/",
+                "applyFunction": null
             },
             "labels": {
                 "exists": false
@@ -2522,7 +2536,8 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "wdcep_pharm_data",
-                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
+                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/",
+                "applyFunction": null
             },
             "labels": {
                 "exists": true,
@@ -2592,7 +2607,8 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "wdcep_711_data",
-                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
+                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/",
+                "applyFunction": null
             },
             "labels": {
                 "exists": false
@@ -2635,7 +2651,8 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "retail_full",
-                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
+                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/",
+                "applyFunction": null
             },
             "labels": {
                 "exists": false
@@ -2678,7 +2695,8 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "retail_marketable_data",
-                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
+                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/",
+                "applyFunction": null
             },
             "labels": {
                 "exists": false
@@ -2756,7 +2774,8 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "wdcep_neighborhoods_data",
-                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/"
+                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/",
+                "applyFunction": null
             },
             "labels": {
                 "exists": true,
