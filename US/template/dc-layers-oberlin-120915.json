@@ -3139,7 +3139,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendCEA.jade",
+            "urlLegend": "../../legends/layerLegendTrepp.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/WDCEP/icons/trepp.png",
             "colors": {
                 "type": "single",
