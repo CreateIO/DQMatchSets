@@ -816,7 +816,35 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerRetailHeat.jade",
+            "urlLegend": "../../legends/template-color-ramp.jade",
+            "legendContents": {
+                "header": "",
+                "description": "Retail space: Where people shop & play.",
+                "sourceURL": "http://otr.cfo.dc.gov/",
+                "sourceDescription": "DC Office of Tax & Revenue",
+                "listItems": {
+                    "item1": {
+                        "boxColor": "#FFF5EB",
+                        "boxDescription": "Moderate"
+                    },
+                    "item2": {
+                        "boxColor": "#FCDBD4",
+                        "boxDescription": ""
+                    },
+                    "item3": {
+                        "boxColor": "#F9B6AE",
+                        "boxDescription": ""
+                    },
+                    "item4": {
+                        "boxColor": "#F6917E",
+                        "boxDescription": ""
+                    },
+                    "item5": {
+                        "boxColor": "#F37451",
+                        "boxDescription": "High"
+                    }
+                },
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/RHM.png",
             "colors": {
                 "type": "multi",
@@ -870,7 +898,35 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerOfficeHeat.jade",
+            "urlLegend": "../../legends/template-color-ramp.jade",
+            "legendContents": {
+                "header": "",
+                "description": "Office space: Where people work.",
+                "sourceURL": "http://otr.cfo.dc.gov/",
+                "sourceDescription": "DC Office of Tax & Revenue",
+                "listItems": {
+                    "item1": {
+                        "boxColor": "#EEF7FD",
+                        "boxDescription": "Moderate"
+                    },
+                    "item2": {
+                        "boxColor": "#D7EAF8",
+                        "boxDescription": ""
+                    },
+                    "item3": {
+                        "boxColor": "#B7D3EF",
+                        "boxDescription": ""
+                    },
+                    "item4": {
+                        "boxColor": "#78C9F1",
+                        "boxDescription": ""
+                    },
+                    "item5": {
+                        "boxColor": "#55AADE",
+                        "boxDescription": "High"
+                    }
+                },
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ODH.png",
             "colors": {
                 "type": "multi",
