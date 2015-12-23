@@ -147,7 +147,6 @@
             },
             "isActive": false,
             "layerUsed": true,
-            "layerUsed": true,
             "hasLegend": true,
             "urlLegend": "../../legends/layerLegendTDR.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/TDR.png",
@@ -843,7 +842,7 @@
                         "boxColor": "#F37451",
                         "boxDescription": "High"
                     }
-                },
+                }
             },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/RHM.png",
             "colors": {
@@ -925,7 +924,7 @@
                         "boxColor": "#55AADE",
                         "boxDescription": "High"
                     }
-                },
+                }
             },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ODH.png",
             "colors": {
@@ -1007,7 +1006,7 @@
                         "boxColor": "#009C50",
                         "boxDescription": "High"
                     }
-                },
+                }
             },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/RDH.png",
             "colors": {
