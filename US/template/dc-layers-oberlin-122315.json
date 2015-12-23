@@ -980,7 +980,35 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerResidentialHeat.jade",
+            "urlLegend": "../../legends/template-color-ramp.jade",
+            "legendContents": {
+                "header": "",
+                "description": "Residential density: Where people live.",
+                "sourceURL": "http://otr.cfo.dc.gov/",
+                "sourceDescription": "DC Office of Tax & Revenue",
+                "listItems": {
+                    "item1": {
+                        "boxColor": "#CCF2DE",
+                        "boxDescription": "test"
+                    },
+                    "item2": {
+                        "boxColor": "#ADF2CE",
+                        "boxDescription": ""
+                    },
+                    "item3": {
+                        "boxColor": "#58D895",
+                        "boxDescription": ""
+                    },
+                    "item4": {
+                        "boxColor": "#21C16D",
+                        "boxDescription": ""
+                    },
+                    "item5": {
+                        "boxColor": "#009C50",
+                        "boxDescription": "High"
+                    }
+                },
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/RDH.png",
             "colors": {
                 "type": "multi",
