@@ -11,7 +11,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendZoning",
+            "urlLegend": "../../legends/layerLegendZoning.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png",
             "colors": {
                 "type": "?",
@@ -1061,7 +1061,27 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendFloodLayer.jade",
+            "urlLegend": "../../legends/template-color-box.jade",
+            "legendContents": {
+                "header": "",
+                "description": "Derived from Flood Insurance Rate Maps (FIRMs) which are used for insurance rating purposes.",
+                "sourceURL": "http://www.corelogic.com/",
+                "sourceDescription": "CoreLogic ®",
+                "listItems": {
+                    "item1": {
+                        "boxColor": "#265da3",
+                        "boxDescription": "A/AE (Extreme Risk)"
+                    },
+                    "item2": {
+                        "boxColor": "#37b7c2",
+                        "boxDescription": "A/AE (Very High Risk)"
+                    },
+                    "item3": {
+                        "boxColor": "#a1dab4",
+                        "boxDescription": "x500 (Moderate Risk)"
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/FZ.png",
             "colors": {
                 "type": "multi",
@@ -1113,7 +1133,27 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendCoastalSurge.jade",
+            "urlLegend": "../../legends/template-color-box.jade",
+            "legendContents": {
+                "header": "",
+                "description": "CoreLogic® has developed a comprehensive risk model that assesses storm surge risk. Incorporates off-shore variables, on-shore variables, and storm heights derived from category 1-5 hurricanes.",
+                "sourceURL": "http://www.corelogic.com/",
+                "sourceDescription": "CoreLogic ®",
+                "listItems": {
+                    "item1": {
+                        "boxColor": "#08519c",
+                        "boxDescription": "Very High (includes water)"
+                    },
+                    "item2": {
+                        "boxColor": "#756bb1",
+                        "boxDescription": "High"
+                    },
+                    "item3": {
+                        "boxColor": "#cbc9e2",
+                        "boxDescription": "Moderate"
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/CSA.png",
             "colors": {
                 "type": "multi",
