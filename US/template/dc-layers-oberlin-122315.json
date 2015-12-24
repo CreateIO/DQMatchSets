@@ -2160,7 +2160,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-image.jade",
             "legendContents": {
                 "description": "Example site plan shown above.",
                 "sourceURL": "http://www.wdcep.com/",
