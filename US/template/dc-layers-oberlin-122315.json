@@ -3236,7 +3236,19 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/wdcepBookmarks.jade",
+            "urlLegend": "../../legends/template-image.jade",
+            "legendContents": {
+                "description": "Click on icons for details.",
+                "sourceURL": "http://www.wdcep.com/",
+                "sourceDescription": "WDCEP",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-wdcep.png",
+                        "boxDescription": "WDCEP Bookmarks"
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/BMK.png",
             "colors": {
                 "type": "?",
@@ -3293,7 +3305,19 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/wdcep711.jade",
+            "urlLegend": "../../legends/template-image.jade",
+            "legendContents": {
+                "description": "Click on icons for details.",
+                "sourceURL": "http://www.wdcep.com/",
+                "sourceDescription": "WDCEP",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/711.png",
+                        "boxDescription": "7-Eleven Locations."
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/711.png",
             "colors": {
                 "type": "icon",
