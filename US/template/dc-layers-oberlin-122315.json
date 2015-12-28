@@ -1503,7 +1503,19 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/wdcepNeighborhoods.jade",
+            "urlLegend": "../../legends/template-image.jade",
+            "legendContents": {
+                "description": "Click on icons for details.",
+                "sourceURL": "http://www.wdcep.com/",
+                "sourceDescription": "WDCEP",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-wdcep.png",
+                        "boxDescription": "WDCEP Neighborhoods."
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/WND.png",
             "colors": {
                 "type": "?",
@@ -1753,7 +1765,29 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendSMD.jade",
+            "urlLegend": "../../legends/template-image.jade",
+            "legendContents": {
+                "description": "",
+                "sourceURL": "http://www.anc2f.org/smd/",
+                "sourceDescription": "ANC DC",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/tealBox.png",
+                        "boxDescription": "SMD boundaries"
+                    },
+                    "item2": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/purpleBox.png",
+                        "boxDescription": "ANC boundaries"
+                    },
+                    "item3": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-smd.png",
+                        "boxDescription": "Click for more info on SMD & ANC."
+                    }
+                }
+            }, 
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/ANC.png",
             "colors": {
                 "type": "multi",
@@ -1877,7 +1911,19 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendMetroBus.jade",
+            "urlLegend": "../../legends/template-image.jade",
+            "legendContents": {
+                "description": "",
+                "sourceURL": "http://www.wmata.com/bus/",
+                "sourceDescription": "WMATA",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metro.png",
+                        "boxDescription": "Metro Bus Stops."
+                    }
+                }
+            },  
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/MB.png",
             "colors": {
                 "type": "?",
@@ -1932,7 +1978,19 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/wdcepGS.jade",
+            "urlLegend": "../../legends/template-image.jade",
+            "legendContents": {
+                "description": "Click on icons for details.",
+                "sourceURL": "http://www.wdcep.com/",
+                "sourceDescription": "WDCEP",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/GS.png",
+                        "boxDescription": "Grocery Store Locations."
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/GS.png",
             "colors": {
                 "type": "icon",
@@ -1989,7 +2047,19 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/wdcepPH.jade",
+            "urlLegend": "../../legends/template-image.jade",
+            "legendContents": {
+                "description": "Click on icons for details.",
+                "sourceURL": "http://www.wdcep.com/",
+                "sourceDescription": "WDCEP",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PH.png",
+                        "boxDescription": "Pharmacy Locations."
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PH.png",
             "colors": {
                 "type": "icon",
@@ -2046,7 +2116,19 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/wdcepMOV.jade",
+            "urlLegend": "../../legends/template-image.jade",
+            "legendContents": {
+                "description": "Click on icons for details.",
+                "sourceURL": "http://www.wdcep.com/",
+                "sourceDescription": "WDCEP",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/MOV.png",
+                        "boxDescription": "Movie Theatre Locations."
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/MOV.png",
             "colors": {
                 "type": "icon",
@@ -3374,7 +3456,24 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/wdcepChipotle.jade",
+            "urlLegend": "../../legends/template-image.jade",
+            "legendContents": {
+                "description": "Click on icons for details.",
+                "sourceURL": "http://www.wdcep.com/",
+                "sourceDescription": "WDCEP",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-chipotle.png",
+                        "boxDescription": "Chipotle Locations"
+                    },
+                    "item2": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-shophouse.png",
+                        "boxDescription": "Chophouse Locations"
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/CHP.png",
             "colors": {
                 "type": "icon",
@@ -3431,7 +3530,19 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/wdcepPB.jade",
+            "urlLegend": "../../legends/template-image.jade",
+            "legendContents": {
+                "description": "Click on icons for details.",
+                "sourceURL": "http://www.wdcep.com/",
+                "sourceDescription": "WDCEP",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PB.png",
+                        "boxDescription": "PotBelly Locations."
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PB.png",
             "colors": {
                 "type": "icon",
@@ -3488,7 +3599,19 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/wdcepS.jade",
+            "urlLegend": "../../legends/template-image.jade",
+            "legendContents": {
+                "description": "Click on icons for details.",
+                "sourceURL": "http://www.wdcep.com/",
+                "sourceDescription": "WDCEP",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/S.png",
+                        "boxDescription": "Subway Locations."
+                    }
+                }
+            },            
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/S.png",
             "colors": {
                 "type": "icon",
