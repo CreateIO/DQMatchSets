@@ -82,7 +82,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Click map polygons for more information",
                 "sourceURL": "http://dcoz.dc.gov/info/reg/chapter_24.pdf",
@@ -90,11 +90,13 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#FFFF00",
-                        "boxDescription": "PUD - Active"
+                        "boxDescription": "PUD - Active",
+                        "imageUrl": null
                     },
                     "item2": {
                         "boxStyle": "background:#EF819E",
-                        "boxDescription": "PUD - Pending"
+                        "boxDescription": "PUD - Pending",
+                        "imageUrl": null
                     }
                 }
             },
@@ -163,7 +165,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Receiving zones for transferrable development rights",
                 "sourceURL": "http://www.dcregs.dc.gov/Gateway/RuleHome.aspx?RuleNumber=11-1709",
@@ -171,23 +173,28 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#e78ac3",
-                        "boxDescription": "Southwest"
+                        "boxDescription": "Southwest",
+                        "imageUrl": null
                     },
                     "item2": {
                         "boxStyle": "background:#FED23E",
-                        "boxDescription": "North Capitol"
+                        "boxDescription": "North Capitol",
+                        "imageUrl": null
                     },
                     "item3": {
                         "boxStyle": "background:#8da0cb",
-                        "boxDescription": "Downtown East"
+                        "boxDescription": "Downtown East",
+                        "imageUrl": null
                     },
                     "item4": {
                         "boxStyle": "background:#66c2a5",
-                        "boxDescription": "New Downtown"
+                        "boxDescription": "New Downtown",
+                        "imageUrl": null
                     },
                     "item5": {
                         "boxStyle": "background:#a6d854",
-                        "boxDescription": "South Capitol"
+                        "boxDescription": "South Capitol",
+                        "imageUrl": null
                     }
                 }
             },
@@ -291,7 +298,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Arts mixed-use overlay zones encourage development of arts and retail development in both downtown and uptown neighborhoods.",
                 "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
@@ -299,7 +306,8 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#FFFD37",
-                        "boxDescription": "Arts"
+                        "boxDescription": "Arts",
+                        "imageUrl": null
                     }
                 }
             },
@@ -352,7 +360,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Government and diplomatic overlay zones have special requirements related to historic preservation, density, and use restrictions.",
                 "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
@@ -360,7 +368,8 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#E85862",
-                        "boxDescription": "Government"
+                        "boxDescription": "Government",
+                        "imageUrl": null
                     }
                 }
             },
@@ -413,7 +422,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Hotel incentive and housing priority overlay zones encourage downtown lodging and residential development.",
                 "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
@@ -421,11 +430,13 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#A55D61",
-                        "boxDescription": "Housing Priority Areas"
+                        "boxDescription": "Housing Priority Areas",
+                        "imageUrl": null
                     },
                     "item2": {
                         "boxStyle": "background:#FFAAD4",
-                        "boxDescription": "Hotel & Residential Incentive Areas"
+                        "boxDescription": "Hotel & Residential Incentive Areas",
+                        "imageUrl": null
                     }
                 }
             },
@@ -479,7 +490,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Downtown mixed-use development overlay zones encourage high-density mixed-use development goals for downtown commercial districts.",
                 "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
@@ -487,7 +498,8 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#D2B953",
-                        "boxDescription": "Downtown Mixed Use Development"
+                        "boxDescription": "Downtown Mixed Use Development",
+                        "imageUrl": null
                     }
                 }
             },
@@ -540,7 +552,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Neighborhood commercial overlay zones establish pedestrian and mixed use development goals specific to each neighborhood.",
                 "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
@@ -548,7 +560,8 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#86C3D9",
-                        "boxDescription": "Neighborhood Commercial"
+                        "boxDescription": "Neighborhood Commercial",
+                        "imageUrl": null
                     }
                 }
             },
@@ -601,7 +614,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Neighborhood and open space preservation overlays zones aim to preserve and enhance low-rise residential neighborhoods and natural areas.",
                 "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
@@ -609,11 +622,13 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#398D54",
-                        "boxDescription": "Preservation - Nature"
+                        "boxDescription": "Preservation - Nature",
+                        "imageUrl": null
                     },
                     "item2": {
                         "boxStyle": "background:#8F5183",
-                        "boxDescription": "Residential Neighborhood"
+                        "boxDescription": "Residential Neighborhood",
+                        "imageUrl": null
                     }
                 }
             },
@@ -667,7 +682,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Historic Districts comprised of areas associated with historic traffic corridors to be preserved.",
                 "sourceURL": "http://www.dcpreservation.org/historic-districts-coalition/",
@@ -675,7 +690,8 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#1951AB",
-                        "boxDescription": "Historic Corridors"
+                        "boxDescription": "Historic Corridors",
+                        "imageUrl": null
                     }
                 }
             },
@@ -744,7 +760,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Historic Districts associated with the grounds of current or former institutions to be preserved.",
                 "sourceURL": "http://www.dcpreservation.org/historic-districts-coalition/",
@@ -752,7 +768,8 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#FFFF21",
-                        "boxDescription": "Historic Institutions"
+                        "boxDescription": "Historic Institutions",
+                        "imageUrl": null
                     }
                 }
             },
@@ -821,7 +838,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Neighborhood commercial overlay zones establish pedestrian and mixed use development goals specific to each neighborhood.",
                 "sourceURL": "http://www.dcpreservation.org/historic-districts-coalition/",
@@ -829,7 +846,8 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#8E0A93",
-                        "boxDescription": "Historic Neighborhoods"
+                        "boxDescription": "Historic Neighborhoods",
+                        "imageUrl": null
                     }
                 }
             },
@@ -898,7 +916,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Historic Districts associated with the grounds of parks or other natural areas to be preserved.",
                 "sourceURL": "http://www.dcpreservation.org/historic-districts-coalition/",
@@ -906,7 +924,8 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#56D894",
-                        "boxDescription": "Historic Parks"
+                        "boxDescription": "Historic Parks",
+                        "imageUrl": null
                     }
                 }
             },
@@ -1218,7 +1237,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Derived from Flood Insurance Rate Maps (FIRMs) which are used for insurance rating purposes.",
                 "sourceURL": "http://www.corelogic.com/",
@@ -1226,15 +1245,18 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#265da3",
-                        "boxDescription": "A/AE (Extreme Risk)"
+                        "boxDescription": "A/AE (Extreme Risk)",
+                        "imageUrl": null
                     },
                     "item2": {
                         "boxStyle": "background:#37b7c2",
-                        "boxDescription": "A/AE (Very High Risk)"
+                        "boxDescription": "A/AE (Very High Risk)",
+                        "imageUrl": null
                     },
                     "item3": {
                         "boxStyle": "background:#a1dab4",
-                        "boxDescription": "x500 (Moderate Risk)"
+                        "boxDescription": "x500 (Moderate Risk)",
+                        "imageUrl": null
                     }
                 }
             },
@@ -1289,7 +1311,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "CoreLogic® has developed a comprehensive risk model that assesses storm surge risk. Incorporates off-shore variables, on-shore variables, and storm heights derived from category 1-5 hurricanes.",
                 "sourceURL": "http://www.corelogic.com/",
@@ -1297,15 +1319,18 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#08519c",
-                        "boxDescription": "Very High (includes water)"
+                        "boxDescription": "Very High (includes water)",
+                        "imageUrl": null
                     },
                     "item2": {
                         "boxStyle": "background:#756bb1",
-                        "boxDescription": "High"
+                        "boxDescription": "High",
+                        "imageUrl": null
                     },
                     "item3": {
                         "boxStyle": "background:#cbc9e2",
-                        "boxDescription": "Moderate"
+                        "boxDescription": "Moderate",
+                        "imageUrl": null
                     }
                 }
             },
@@ -1426,7 +1451,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Commercial Submarkets - Areas within the city anchored by distinct office and retail uses of various density and service.",
                 "sourceURL": "http://www.census.gov/geo/maps-data/",
@@ -1434,7 +1459,8 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#FFFFFF; display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle; border: 2.5px solid #E17A25;",
-                        "boxDescription": "Commercial Submarkets"
+                        "boxDescription": "Commercial Submarkets",
+                        "imageUrl": null
                     }
                 }
             },
@@ -1503,7 +1529,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-image.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Click on icons for details.",
                 "sourceURL": "http://www.wdcep.com/",
@@ -1629,7 +1655,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "",
                 "sourceURL": "http://www.census.gov/geo/maps-data/",
@@ -1637,7 +1663,8 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#FFFFFF; display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle; border: 2.5px solid #7AFF00;",
-                        "boxDescription": "Census Tracts - 2010"
+                        "boxDescription": "Census Tracts - 2010",
+                        "imageUrl": null
                     }
                 }
             },
@@ -1765,24 +1792,24 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-image.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "",
                 "sourceURL": "http://www.anc2f.org/smd/",
                 "sourceDescription": "ANC DC",
                 "listItems": {
                     "item1": {
-                        "boxStyle": "",
+                        "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
                         "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/tealBox.png",
                         "boxDescription": "SMD boundaries"
                     },
                     "item2": {
-                        "boxStyle": "",
+                        "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
                         "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/purpleBox.png",
                         "boxDescription": "ANC boundaries"
                     },
                     "item3": {
-                        "boxStyle": "",
+                        "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
                         "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-smd.png",
                         "boxDescription": "Click for more info on SMD & ANC."
                     }
@@ -1911,7 +1938,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-image.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "",
                 "sourceURL": "http://www.wmata.com/bus/",
@@ -1919,7 +1946,7 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metro.png",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-bus.png",
                         "boxDescription": "Metro Bus Stops."
                     }
                 }
@@ -1978,7 +2005,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-image.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Click on icons for details.",
                 "sourceURL": "http://www.wdcep.com/",
@@ -2047,7 +2074,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-image.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Click on icons for details.",
                 "sourceURL": "http://www.wdcep.com/",
@@ -2116,7 +2143,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-image.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Click on icons for details.",
                 "sourceURL": "http://www.wdcep.com/",
@@ -2242,7 +2269,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-image.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Example site plan shown above.",
                 "sourceURL": "http://www.wdcep.com/",
@@ -2932,7 +2959,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Great Streets is a multi-year and multiple agency effort to transform under-invested corridors into thriving and inviting neighborhood centers using public actions and resources, as needed, to leverage private investment in retail, housing, offices and cultural facilities.",
                 "sourceURL": "http://greatstreets.dc.gov/",
@@ -2940,7 +2967,8 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#F1B000",
-                        "boxDescription": "Great Streets Corridors"
+                        "boxDescription": "Great Streets Corridors",
+                        "imageUrl": null
                     }
                 }
             },
@@ -2993,7 +3021,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "The Historically Underutilized Business (HUB) Zone Initiative helps small businesses gain preferential access to federal procurement opportunities.",
                 "sourceURL": "http://dslbd.dc.gov/service/historically-underutilized-business-hub-zone-initiative",
@@ -3001,11 +3029,13 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#00B400",
-                        "boxDescription": "Status: Qualified"
+                        "boxDescription": "Status: Qualified",
+                        "imageUrl": null
                     },
                     "item2": {
                         "boxStyle": "background:#FFCB94",
-                        "boxDescription": "Status: Redesignated"
+                        "boxDescription": "Status: Redesignated",
+                        "imageUrl": null
                     }
                 }
             },
@@ -3074,7 +3104,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Through the Supermarket Tax Exemption Act of 2000, the District waives certain taxes and fees to supermarkets that locate in specific neighborhoods.",
                 "sourceURL": "http://www.wdcep.com/industry-initiatives/retail/grocery-stores/",
@@ -3082,7 +3112,8 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#CF8499",
-                        "boxDescription": "Supermarket Tax Credit Zone"
+                        "boxDescription": "Supermarket Tax Credit Zone",
+                        "imageUrl": null
                     }
                 }
             },
@@ -3135,7 +3166,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Qualified high technology companies located within this zone (all of DC) may be eligible for incentive programs.",
                 "sourceURL": "http://app.cfo.dc.gov/services/tax/forms/forms/HiTech_Pub399.pdf",
@@ -3143,7 +3174,8 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#96C3AF",
-                        "boxDescription": "High Technology Development Zone"
+                        "boxDescription": "High Technology Development Zone",
+                        "imageUrl": null
                     }
                 }
             },
@@ -3196,7 +3228,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Areas typically designated by the Federal Government as the delineated search area for office lease procurements.",
                 "sourceURL": "http://dcra.dc.gov/release/expansion-district-columbia-central-employment-area",
@@ -3204,7 +3236,8 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#EDAE39",
-                        "boxDescription": "Central Employment Area"
+                        "boxDescription": "Central Employment Area",
+                        "imageUrl": null
                     }
                 }
             },
@@ -3257,7 +3290,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-color-box.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "The District of Columbia Revenue Bond Program provides market interest rate loans to help lower cost of funds available for capital projects.",
                 "sourceURL": "http://dmped.dc.gov/page/dc-revenue-bond-program",
@@ -3265,7 +3298,8 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#59017D",
-                        "boxDescription": "IRB-Tax Exempt Bond Financing (Industrial Revenue Bonds)"
+                        "boxDescription": "IRB-Tax Exempt Bond Financing (Industrial Revenue Bonds)",
+                        "imageUrl": null
                     }
                 }
             },
@@ -3318,7 +3352,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-image.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Click on icons for details.",
                 "sourceURL": "http://www.wdcep.com/",
@@ -3387,7 +3421,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-image.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Click on icons for details.",
                 "sourceURL": "http://www.wdcep.com/",
@@ -3456,7 +3490,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-image.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Click on icons for details.",
                 "sourceURL": "http://www.wdcep.com/",
@@ -3530,7 +3564,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-image.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Click on icons for details.",
                 "sourceURL": "http://www.wdcep.com/",
@@ -3599,7 +3633,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/template-image.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Click on icons for details.",
                 "sourceURL": "http://www.wdcep.com/",
