@@ -1799,13 +1799,13 @@
                 "sourceDescription": "ANC DC",
                 "listItems": {
                     "item1": {
-                        "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/tealBox.png",
+                        "boxStyle": "background:#FFFFFF; display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle; border: 2.5px solid #6B95C1;",
+                        "imageUrl": null,
                         "boxDescription": "SMD boundaries"
                     },
                     "item2": {
-                        "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/purpleBox.png",
+                        "boxStyle": "background:#FFFFFF; display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle; border: 2.5px solid #B4518F;",
+                        "imageUrl": null,
                         "boxDescription": "ANC boundaries"
                     },
                     "item3": {
@@ -1946,7 +1946,7 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-bus.png",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-bus-green.png",
                         "boxDescription": "Metro Bus Stops."
                     }
                 }
