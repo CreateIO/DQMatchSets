@@ -87,6 +87,7 @@
                 "description": "Click map polygons for more information",
                 "sourceURL": "http://dcoz.dc.gov/info/reg/chapter_24.pdf",
                 "sourceDescription": "DCOZ",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#FFFF00",
@@ -170,6 +171,7 @@
                 "description": "Receiving zones for transferrable development rights",
                 "sourceURL": "http://www.dcregs.dc.gov/Gateway/RuleHome.aspx?RuleNumber=11-1709",
                 "sourceDescription": "DCOZ",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#e78ac3",
@@ -303,6 +305,7 @@
                 "description": "Arts mixed-use overlay zones encourage development of arts and retail development in both downtown and uptown neighborhoods.",
                 "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
                 "sourceDescription": "DCOZ",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#FFFD37",
@@ -365,6 +368,7 @@
                 "description": "Government and diplomatic overlay zones have special requirements related to historic preservation, density, and use restrictions.",
                 "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
                 "sourceDescription": "DCOZ",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#E85862",
@@ -427,6 +431,7 @@
                 "description": "Hotel incentive and housing priority overlay zones encourage downtown lodging and residential development.",
                 "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
                 "sourceDescription": "DCOZ",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#A55D61",
@@ -495,6 +500,7 @@
                 "description": "Downtown mixed-use development overlay zones encourage high-density mixed-use development goals for downtown commercial districts.",
                 "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
                 "sourceDescription": "DCOZ",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#D2B953",
@@ -557,6 +563,7 @@
                 "description": "Neighborhood commercial overlay zones establish pedestrian and mixed use development goals specific to each neighborhood.",
                 "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
                 "sourceDescription": "DCOZ",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#86C3D9",
@@ -619,6 +626,7 @@
                 "description": "Neighborhood and open space preservation overlays zones aim to preserve and enhance low-rise residential neighborhoods and natural areas.",
                 "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
                 "sourceDescription": "DCOZ",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#398D54",
@@ -687,6 +695,7 @@
                 "description": "Historic Districts comprised of areas associated with historic traffic corridors to be preserved.",
                 "sourceURL": "http://www.dcpreservation.org/historic-districts-coalition/",
                 "sourceDescription": "DC PRESERVATION",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#1951AB",
@@ -765,6 +774,7 @@
                 "description": "Historic Districts associated with the grounds of current or former institutions to be preserved.",
                 "sourceURL": "http://www.dcpreservation.org/historic-districts-coalition/",
                 "sourceDescription": "DC PRESERVATION",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#FFFF21",
@@ -843,6 +853,7 @@
                 "description": "Neighborhood commercial overlay zones establish pedestrian and mixed use development goals specific to each neighborhood.",
                 "sourceURL": "http://www.dcpreservation.org/historic-districts-coalition/",
                 "sourceDescription": "DC PRESERVATION",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#8E0A93",
@@ -921,6 +932,7 @@
                 "description": "Historic Districts associated with the grounds of parks or other natural areas to be preserved.",
                 "sourceURL": "http://www.dcpreservation.org/historic-districts-coalition/",
                 "sourceDescription": "DC PRESERVATION",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#56D894",
@@ -999,6 +1011,7 @@
                 "description": "Retail space: Where people shop & play.",
                 "sourceURL": "http://otr.cfo.dc.gov/",
                 "sourceDescription": "DC Office of Tax & Revenue",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#FFF5EB",
@@ -1080,6 +1093,7 @@
                 "description": "Office space: Where people work.",
                 "sourceURL": "http://otr.cfo.dc.gov/",
                 "sourceDescription": "DC Office of Tax & Revenue",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#EEF7FD",
@@ -1161,6 +1175,7 @@
                 "description": "Residential density: Where people live.",
                 "sourceURL": "http://otr.cfo.dc.gov/",
                 "sourceDescription": "DC Office of Tax & Revenue",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#CCF2DE",
@@ -1242,6 +1257,7 @@
                 "description": "Derived from Flood Insurance Rate Maps (FIRMs) which are used for insurance rating purposes.",
                 "sourceURL": "http://www.corelogic.com/",
                 "sourceDescription": "CoreLogic ®",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#265da3",
@@ -1316,6 +1332,7 @@
                 "description": "CoreLogic® has developed a comprehensive risk model that assesses storm surge risk. Incorporates off-shore variables, on-shore variables, and storm heights derived from category 1-5 hurricanes.",
                 "sourceURL": "http://www.corelogic.com/",
                 "sourceDescription": "CoreLogic ®",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#08519c",
@@ -1456,6 +1473,7 @@
                 "description": "Commercial Submarkets - Areas within the city anchored by distinct office and retail uses of various density and service.",
                 "sourceURL": "http://www.census.gov/geo/maps-data/",
                 "sourceDescription": "?",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#FFFFFF; display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle; border: 2.5px solid #E17A25;",
@@ -1534,6 +1552,7 @@
                 "description": "Click on icons for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "",
@@ -1660,6 +1679,7 @@
                 "description": "",
                 "sourceURL": "http://www.census.gov/geo/maps-data/",
                 "sourceDescription": "US Census Bureau",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#FFFFFF; display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle; border: 2.5px solid #7AFF00;",
@@ -1797,6 +1817,7 @@
                 "description": "",
                 "sourceURL": "http://www.anc2f.org/smd/",
                 "sourceDescription": "ANC DC",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#FFFFFF; display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle; border: 2.5px solid #6B95C1;",
@@ -1943,6 +1964,7 @@
                 "description": "",
                 "sourceURL": "http://www.wmata.com/bus/",
                 "sourceDescription": "WMATA",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "",
@@ -2010,6 +2032,7 @@
                 "description": "Click on icons for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "",
@@ -2079,6 +2102,7 @@
                 "description": "Click on icons for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "",
@@ -2148,6 +2172,7 @@
                 "description": "Click on icons for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "",
@@ -2274,6 +2299,7 @@
                 "description": "Example site plan shown above.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "width: 183px; display: block; margin-left: 26px;",
@@ -2901,7 +2927,62 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendBID.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "",
+                "sourceURL": "http://dslbd.dc.gov/service/business-improvement-districts-bids",
+                "sourceDescription": "DSLBD",
+                "type": "doubleColumn",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxStyle": "background:#e41a1c;",
+                        "boxDescription": "Capitol Hill BID",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#377eb8;",
+                        "boxDescription": "Golden Triangle BID",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#4daf4a;",
+                        "boxDescription": "Anacostia BID",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxStyle": "background:#984ea3;",
+                        "boxDescription": "Captiol Riverfront BID",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxStyle": "background:#ff7f00;",
+                        "boxDescription": "Adams Morgan BID",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxStyle": "background:#ffff33;",
+                        "boxDescription": "Adams Morgan BID",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#a65628;",
+                        "boxDescription": "Mount Vernon Triangle BID",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#f781bf;",
+                        "boxDescription": "Georgetown BID",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxStyle": "background:#999999;",
+                        "boxDescription": "NoMa BID",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/BID.png",
             "colors": {
                 "type": "multi",
@@ -2964,6 +3045,7 @@
                 "description": "Great Streets is a multi-year and multiple agency effort to transform under-invested corridors into thriving and inviting neighborhood centers using public actions and resources, as needed, to leverage private investment in retail, housing, offices and cultural facilities.",
                 "sourceURL": "http://greatstreets.dc.gov/",
                 "sourceDescription": "DCGIS",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#F1B000",
@@ -3026,6 +3108,7 @@
                 "description": "The Historically Underutilized Business (HUB) Zone Initiative helps small businesses gain preferential access to federal procurement opportunities.",
                 "sourceURL": "http://dslbd.dc.gov/service/historically-underutilized-business-hub-zone-initiative",
                 "sourceDescription": "DSLBD",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#00B400",
@@ -3109,6 +3192,7 @@
                 "description": "Through the Supermarket Tax Exemption Act of 2000, the District waives certain taxes and fees to supermarkets that locate in specific neighborhoods.",
                 "sourceURL": "http://www.wdcep.com/industry-initiatives/retail/grocery-stores/",
                 "sourceDescription": "WDCEP",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#CF8499",
@@ -3171,6 +3255,7 @@
                 "description": "Qualified high technology companies located within this zone (all of DC) may be eligible for incentive programs.",
                 "sourceURL": "http://app.cfo.dc.gov/services/tax/forms/forms/HiTech_Pub399.pdf",
                 "sourceDescription": "DC Office of Tax & Revenue",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#96C3AF",
@@ -3233,6 +3318,7 @@
                 "description": "Areas typically designated by the Federal Government as the delineated search area for office lease procurements.",
                 "sourceURL": "http://dcra.dc.gov/release/expansion-district-columbia-central-employment-area",
                 "sourceDescription": "DCRA",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#EDAE39",
@@ -3295,6 +3381,7 @@
                 "description": "The District of Columbia Revenue Bond Program provides market interest rate loans to help lower cost of funds available for capital projects.",
                 "sourceURL": "http://dmped.dc.gov/page/dc-revenue-bond-program",
                 "sourceDescription": "DMPED",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#59017D",
@@ -3357,6 +3444,7 @@
                 "description": "Click on icons for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "",
@@ -3426,6 +3514,7 @@
                 "description": "Click on icons for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "",
@@ -3495,6 +3584,7 @@
                 "description": "Click on icons for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "",
@@ -3569,6 +3659,7 @@
                 "description": "Click on icons for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "",
@@ -3638,6 +3729,7 @@
                 "description": "Click on icons for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
+                "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "",
