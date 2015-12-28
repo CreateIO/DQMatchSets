@@ -1617,7 +1617,57 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendCampus.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "",
+                "sourceURL": "http://www.dczoningupdate.org/campusinstitutional.asp?area=cil",
+                "sourceDescription": "DCOZ",
+                "type": "doubleColumn",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxStyle": "background:#7570b3;",
+                        "boxDescription": "Gallaudet University",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#377eb8;",
+                        "boxDescription": "Howard University",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#fc8d62;",
+                        "boxDescription": "George Washington University",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxStyle": "background:#ffff33;",
+                        "boxDescription": "Catholic University",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxStyle": "background:#4daf4a;",
+                        "boxDescription": "Wesley Theological Seminary",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#e41a1c;",
+                        "boxDescription": "Harvard University",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#a65628;",
+                        "boxDescription": "Georgetown University",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxStyle": "background:#f781bf;",
+                        "boxDescription": "American University",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/CAM.png",
             "colors": {
                 "type": "multi",
@@ -1753,7 +1803,57 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendWard.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "sourceURL": "http://www.neighborhoodinfodc.org/wards/wards.html",
+                "sourceDescription": "DC COUNCIL",
+                "type": "doubleColumn",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxStyle": "background:#98E0C9;",
+                        "boxDescription": "Ward 1",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#EAAF81;",
+                        "boxDescription": "Ward 2",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#BFC0DD;",
+                        "boxDescription": "Ward 3",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxStyle": "background:#F39CCA;",
+                        "boxDescription": "Ward 4",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxStyle": "background:#9FDB86;",
+                        "boxDescription": "Ward 5",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#F8E281;",
+                        "boxDescription": "Ward 6",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#B1B2B0;",
+                        "boxDescription": "Ward 7",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxStyle": "background:#E1C89B;",
+                        "boxDescription": "Ward 8",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/WRD.png",
             "colors": {
                 "type": "multi",
@@ -1888,7 +1988,57 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendMetroRail.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Projected Population Growth (2015-2020 by Neighborhood)",
+                "sourceURL": "https://developers.arcgis.com/en/features/geo-enrichment/",
+                "sourceDescription": "ESRI",
+                "type": "doubleColumn",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxStyle": "background:#DE3B38;",
+                        "boxDescription": "Red Line",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#FFDF01;",
+                        "boxDescription": "Yellow Line",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#2C5E51;",
+                        "boxDescription": "Green Line",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxStyle": "background:#273B74;",
+                        "boxDescription": "Blue Line",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxStyle": "background:#ED7D42;",
+                        "boxDescription": "Orange Line",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#D0CFD4;",
+                        "imageUrl": null,
+                        "boxDescription": "Silver Line"
+                    },
+                    "item3": {
+                        "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metroEntrance.png",
+                        "boxDescription": "Station Entrances"
+                    },
+                    "item4": {
+                        "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metro.png",
+                        "boxDescription": "Stations (click for more info)"
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/MET.png",
             "colors": {
                 "type": "multi",
@@ -2672,7 +2822,42 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendTotalHousingUnitsGrowth.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Projected Total Housing Units Growth (2015-2020 by Neighborhood)",
+                "sourceURL": "https://developers.arcgis.com/en/features/geo-enrichment/",
+                "sourceDescription": "ESRI",
+                "type": "doubleColumn",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxStyle": "background:#feebe2;",
+                        "boxDescription": "(-5)-0%",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#fbb4b9;",
+                        "boxDescription": "0-5%",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#f768a1;",
+                        "boxDescription": "5-10%",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxStyle": "background:#c51b8a;",
+                        "boxDescription": "10-15%",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#7a0177;",
+                        "boxDescription": "15-20%",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/esri/THU.png",
             "colors": {
                 "type": "multi",
@@ -2723,7 +2908,47 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendTotalHomeValueGrowth.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Projected Home Value Growth (2015-2020 by Neighborhood)",
+                "sourceURL": "https://developers.arcgis.com/en/features/geo-enrichment/",
+                "sourceDescription": "ESRI",
+                "type": "doubleColumn",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxStyle": "background:#f1eef6;",
+                        "boxDescription": "(-5)-0%",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#d4b9da;",
+                        "boxDescription": "0-10%",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#c994c7;",
+                        "boxDescription": "10-20%",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxStyle": "background:#df65b0;",
+                        "boxDescription": "20-30%",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#dd1c77;",
+                        "boxDescription": "30-40%",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#980043;",
+                        "boxDescription": "40% +",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/esri/THV.png",
             "colors": {
                 "type": "multi",
@@ -2774,7 +2999,42 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendTotalHouseholdIncomeGrowth.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Projected Median Household Income Growth (2015-2020 by Neighborhood)",
+                "sourceURL": "https://developers.arcgis.com/en/features/geo-enrichment/",
+                "sourceDescription": "ESRI",
+                "type": "doubleColumn",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxStyle": "background:#ffffb2;",
+                        "boxDescription": "(-5)-0%",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#fed976;",
+                        "boxDescription": "0-10%",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#fd8d3c;",
+                        "boxDescription": "10-20%",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxStyle": "background:#f03b20;",
+                        "boxDescription": "20-30%",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#bd0026;",
+                        "boxDescription": "30-40%",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/esri/THI.png",
             "colors": {
                 "type": "multi",
@@ -2825,7 +3085,47 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendTotalHouseholdsGrowth.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Projected Total Households Growth (2015-2020 by Neighborhood)",
+                "sourceURL": "https://developers.arcgis.com/en/features/geo-enrichment/",
+                "sourceDescription": "ESRI",
+                "type": "doubleColumn",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxStyle": "background:#f0f9e8;",
+                        "boxDescription": "(-5)-0%",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#ccebc5;",
+                        "boxDescription": "0-5%",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#a8ddb5;",
+                        "boxDescription": "5-10%",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxStyle": "background:#7bccc4;",
+                        "boxDescription": "10-15%",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#43a2ca;",
+                        "boxDescription": "15-20%",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#0868ac;",
+                        "boxDescription": "20-25%",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/esri/THG.png",
             "colors": {
                 "type": "multi",
@@ -2876,7 +3176,47 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendPopGrowth.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Projected Population Growth (2015-2020 by Neighborhood)",
+                "sourceURL": "https://developers.arcgis.com/en/features/geo-enrichment/",
+                "sourceDescription": "ESRI",
+                "type": "doubleColumn",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxStyle": "background:#edf8fb;",
+                        "boxDescription": "(-5)-0%",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#bfd3e6;",
+                        "boxDescription": "0-5%",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#9ebcda;",
+                        "boxDescription": "5-10%",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxStyle": "background:#8c96c6;",
+                        "boxDescription": "10-15%",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#8856a7;",
+                        "boxDescription": "15-20%",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#810f7c;",
+                        "boxDescription": "20-25%",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/esri/PG.png",
             "colors": {
                 "type": "multi",
