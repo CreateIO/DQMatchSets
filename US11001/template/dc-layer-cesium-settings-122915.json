@@ -519,7 +519,7 @@
                 "exists": true,
                 "rasterLayers": {
                     "raster1": {
-                        "name": "enterprisetop",
+                        "name": "techtop",
                         "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/tech.png",
                         "xMin": -77.1227,
                         "yMin": 38.7908,
