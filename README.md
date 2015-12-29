@@ -1,5 +1,31 @@
 # DQMatchSets
 
+Regions are identifed by a region tag, Market areas (also identified by a region tag) are superregions in that they encompass one or more actual regions
+   such as cities or counties.  Regions all start with a two letter country code followed by a 2 digit state code and a
+   3 digit county code and optionally an underscore and a 5 digit city code.  Market areas all start with the letters MD
+   and an underscore.  The following is a list of the tags available at this time (the list will grow as we
+   cover more areas):
+      US (top level region)     US
+        DC                        US11001
+        Maryland:
+          Anne Arundel County     US24003
+          Baltimore City          US24510
+          Baltimore County        US24005
+          Howard County           US24027
+          Prince George's County  US24033
+          Montgomery County       US24031
+
+        Virginia:
+          Fairfax County          US51059
+          Arlington County        US51013
+          Alexandria (city)       US51510
+
+      Market "Superregions":    MD
+        DC                        MD_DC
+          DC (US11001)
+        Baltimore                 MD_Baltimore
+          Baltimore City (US24510)
+
 Template resources are HIERARCHICAL!!  This means that templates that are global (or at least for use in the US) should
    be in the "US" folder.  Templates (or parts of a template) that are unique to a specific region should be in the
    specific folder appropriate to them (i.e. "US/US11001" for DC, or "US/US24510 for Baltimore city).  Note that under
