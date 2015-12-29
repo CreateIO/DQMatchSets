@@ -773,6 +773,30 @@
          "inuse":true,
          "toggled":false,
          "valueChange":false
+      },
+      "highTech":{  
+         "id":32,
+         "name":"High Technology Development",
+         "type":"text",
+         "category": "Finance",
+         "subcategory":"Z-note",
+         "output":"",
+         "label":"Note - All properties in DC qualify as 'High Technology Development'",
+         "values":null,
+         "units":null,
+         "minvalue":null,
+         "maxvalue":null,
+         "step": null,
+         "mapvalue":null,
+         "listorder":1,
+         "operator":null,
+         "calculation":null,
+         "filter_exists":false,
+         "teaser":"",
+         "restrict":null,
+         "inuse":true,
+         "toggled":false,
+         "valueChange":false
       }
    }
 }
