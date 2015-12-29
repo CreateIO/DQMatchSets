@@ -3435,7 +3435,7 @@
         "HUBs": {
             "id": 53,
             "displayName": "HUBs",
-            "mouseoverName": "Historically Underutilized Businesses",
+            "mouseoverName": "HUB Zone",
             "denyToggle": false,
             "denyList": {
                 "denyList1": null
@@ -3490,7 +3490,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Data: Historically Underutilized Businesses'"
+                        "param1": "'Data: HUB Zone'"
                     }
                 },
                 "removeFunctions": {
