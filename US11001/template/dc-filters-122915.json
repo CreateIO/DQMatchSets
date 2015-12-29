@@ -821,6 +821,30 @@
          "inuse":true,
          "toggled":false,
          "valueChange":false
+      },
+      "irb":{  
+         "id":34,
+         "name":"IRB-Tax Exempt Bond Financing",
+         "type":"text",
+         "category": "Finance",
+         "subcategory":"Z-note",
+         "output":"",
+         "label":"IRB-Tax Exempt Bond Financing - Incentive applies to all properties in Washington, DC.",
+         "values":null,
+         "units":null,
+         "minvalue":null,
+         "maxvalue":null,
+         "step": null,
+         "mapvalue":null,
+         "listorder":2,
+         "operator":null,
+         "calculation":null,
+         "filter_exists":false,
+         "teaser":"",
+         "restrict":null,
+         "inuse":true,
+         "toggled":false,
+         "valueChange":false
       }
    }
 }
