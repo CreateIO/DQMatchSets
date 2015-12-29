@@ -3372,7 +3372,7 @@
         "Great Streets": {
             "id": 50,
             "displayName": "Great Streets",
-            "mouseoverName": "Great Street Corridors",
+            "mouseoverName": "Great Streets",
             "denyToggle": false,
             "denyList": {
                 "denyList1": null
@@ -3389,7 +3389,7 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#F1B000",
-                        "boxDescription": "Great Streets Corridors",
+                        "boxDescription": "Great Streets",
                         "imageUrl": null
                     }
                 }
