@@ -1,0 +1,317 @@
+{
+  "overlayTable": [
+    {
+      "overlayZone": "ARTS",
+      "zone": "C-2-A",
+      "initialFAR": 2.5,
+      "overlayFAR": 3,
+      "initialOcc": "60*",
+      "overlayOcc": 75,
+      "InitialHeight": 50,
+      "OverlayHeight": 50,
+      "lookup": "For more information, see 1909.1 (a) of DC Zoning Code"
+    },
+    {
+      "overlayZone": "ARTS",
+      "zone": "C-2-B",
+      "initialFAR": 3.5,
+      "overlayFAR": 4.2,
+      "initialOcc": 80,
+      "overlayOcc": 80,
+      "InitialHeight": 65,
+      "OverlayHeight": 70,
+      "lookup": "For more information, see 1909.1 (b) of DC Zoning Code"
+    },
+    {
+      "overlayZone": "ARTS",
+      "zone": "C-3-A",
+      "initialFAR": 4,
+      "overlayFAR": 4.8,
+      "initialOcc": 75,
+      "overlayOcc": 80,
+      "InitialHeight": 65,
+      "OverlayHeight": 75,
+      "lookup": "For more information, see 1909.1 (c) of DC Zoning Code"
+    },
+    {
+      "overlayZone": "ARTS",
+      "zone": "CR",
+      "initialFAR": 6,
+      "overlayFAR": 7.2,
+      "initialOcc": 75,
+      "overlayOcc": 80,
+      "InitialHeight": 65,
+      "OverlayHeight": 100,
+      "lookup": "For more information, see 1909.1 (d) of DC Zoning Code"
+    },
+    {
+      "overlayZone": "CAP",
+      "zone": "C-2-A",
+      "initialFAR": 2.5,
+      "overlayFAR": 2.16,
+      "initialOcc": 60,
+      "overlayOcc": 75,
+      "InitialHeight": 50,
+      "OverlayHeight": 40,
+      "lookup": "For more information, see 1204.1 (a&b) of DC Zoning Code"
+    },
+    {
+      "overlayZone": "CAP",
+      "zone": "R-5-B",
+      "initialFAR": 1.8,
+      "overlayFAR": 2.16,
+      "initialOcc": 60,
+      "overlayOcc": 75,
+      "InitialHeight": 50,
+      "OverlayHeight": 40,
+      "lookup": "For more information, see 1204.1 (a&b) of DC Zoning Code"
+    },
+    {
+      "overlayZone": "CAP",
+      "zone": "SP-1",
+      "initialFAR": 4,
+      "overlayFAR": 2.16,
+      "initialOcc": 80,
+      "overlayOcc": 80,
+      "InitialHeight": 65,
+      "OverlayHeight": 40,
+      "lookup": "For more information, see 1204.1 (a&b) of DC Zoning Code"
+    },
+    {
+      "overlayZone": "CAP",
+      "zone": "R-4",
+      "initialFAR": "-",
+      "overlayFAR": "-",
+      "initialOcc": "40*",
+      "overlayOcc": "-",
+      "InitialHeight": 40,
+      "OverlayHeight": "-",
+      "lookup": "For more information, see 1204.1 (c) of DC Zoning Code"
+    },
+    {
+      "overlayZone": "CG",
+      "zone": "C-2-C",
+      "initialFAR": 6,
+      "overlayFAR": 7.2,
+      "initialOcc": 80,
+      "overlayOcc": 80,
+      "InitialHeight": 90,
+      "OverlayHeight": 110,
+      "lookup": "For more information, see 1601.1 of DC Zoning Code"
+    },
+    {
+      "overlayZone": "CG",
+      "zone": "C-3-C",
+      "initialFAR": 6.5,
+      "overlayFAR": 7.8,
+      "initialOcc": 100,
+      "overlayOcc": 100,
+      "InitialHeight": 90,
+      "OverlayHeight": 90,
+      "lookup": "For more information, see 1601.1 of DC Zoning Code"
+    },
+    {
+      "overlayZone": "CG",
+      "zone": "CR",
+      "initialFAR": 6,
+      "overlayFAR": 7.2,
+      "initialOcc": 75,
+      "overlayOcc": 80,
+      "InitialHeight": 65,
+      "OverlayHeight": 100,
+      "lookup": "For more information, see 1601.2 of DC Zoning Code"
+    },
+    {
+      "overlayZone": "CG",
+      "zone": "W-1",
+      "initialFAR": 2.5,
+      "overlayFAR": 3,
+      "initialOcc": 80,
+      "overlayOcc": 80,
+      "InitialHeight": 45,
+      "OverlayHeight": 50,
+      "lookup": "For more information, see 1601.4 of DC Zoning Code"
+    },
+    {
+      "overlayZone": "CG",
+      "zone": "W-2",
+      "initialFAR": 4,
+      "overlayFAR": 4.8,
+      "initialOcc": "75*",
+      "overlayOcc": 75,
+      "InitialHeight": 60,
+      "OverlayHeight": 80,
+      "lookup": "For more information, see 1603.4 of DC Zoning Code"
+    },
+    {
+      "overlayZone": "CG",
+      "zone": "W-3",
+      "initialFAR": 6,
+      "overlayFAR": 7.2,
+      "initialOcc": "75*",
+      "overlayOcc": 75,
+      "InitialHeight": 90,
+      "OverlayHeight": 100,
+      "lookup": "For more information, see 1601.2 of DC Zoning Code"
+    },
+    {
+      "overlayZone": "HS",
+      "zone": "C-2-A",
+      "initialFAR": 2.5,
+      "overlayFAR": 0.5,
+      "initialOcc": 60,
+      "overlayOcc": 75,
+      "InitialHeight": 50,
+      "OverlayHeight": 50,
+      "lookup": "For more information, see 1326.3 of DC Zoning Code"
+    },
+    {
+      "overlayZone": "HS",
+      "zone": "C-2-B",
+      "initialFAR": 3.5,
+      "overlayFAR": 0.7,
+      "initialOcc": 80,
+      "overlayOcc": 80,
+      "InitialHeight": 65,
+      "OverlayHeight": 70,
+      "lookup": "For more information, see 1326.3 of DC Zoning Code"
+    },
+    {
+      "overlayZone": "HS",
+      "zone": "C-2-C",
+      "initialFAR": 6,
+      "overlayFAR": 1.2,
+      "initialOcc": 80,
+      "overlayOcc": 80,
+      "InitialHeight": 90,
+      "OverlayHeight": 100,
+      "lookup": "For more information, see 1326.3 of DC Zoning Code"
+    },
+    {
+      "overlayZone": "HR",
+      "zone": "C-3-C",
+      "initialFAR": 6.5,
+      "overlayFAR": "20%",
+      "initialOcc": 100,
+      "overlayOcc": 100,
+      "InitialHeight": 90,
+      "OverlayHeight": "Act*",
+      "note":"Regulated by the Height of Buildings Act of 1910.",
+      "lookup": "For more information, see 1101.7 of DC Zoning Code"
+    },
+    {
+      "overlayZone": "HR",
+      "zone": "SP-2",
+      "initialFAR": 6,
+      "overlayFAR": "20%",
+      "initialOcc": 80,
+      "overlayOcc": 100,
+      "InitialHeight": 90,
+      "OverlayHeight": "Act*",
+      "lookup": "For more information, see 1101.7 of DC Zoning Code"
+    },
+    {
+      "overlayZone": "RC",
+      "zone": "C-2-B",
+      "initialFAR": 3.5,
+      "overlayFAR": "-",
+      "initialOcc": 80,
+      "overlayOcc": "-",
+      "InitialHeight": 65,
+      "OverlayHeight": 50,
+      "lookup": "For more information, see 1402.1 of DC Zoning Code"
+    },
+    {
+      "overlayZone": "SEFC",
+      "zone": "CR",
+      "initialFAR": 6,
+      "overlayFAR": "6*",
+      "initialOcc": 75,
+      "overlayOcc": "-",
+      "InitialHeight": 65,
+      "OverlayHeight": "-",
+      "lookup": "For more information, see 1803.7 (b) of DC Zoning Code"
+    },
+    {
+      "overlayZone": "SEFC",
+      "zone": "R-5-D",
+      "initialFAR": 3.5,
+      "overlayFAR": "0.5*",
+      "initialOcc": 75,
+      "overlayOcc": "-",
+      "InitialHeight": 90,
+      "OverlayHeight": "-",
+      "lookup": "For more information, see 1804.2 (c) of DC Zoning Code"
+    },
+    {
+      "overlayZone": "SEFC",
+      "zone": "R-5-E",
+      "initialFAR": 5,
+      "overlayFAR": "0.5*",
+      "initialOcc": 75,
+      "overlayOcc": "-",
+      "InitialHeight": 90,
+      "OverlayHeight": "-",
+      "lookup": "For more information, see 1804.3 (c) of DC Zoning Code"
+    },
+    {
+      "overlayZone": "WP",
+      "zone": "C-2-A",
+      "initialFAR": 2.5,
+      "overlayFAR": 3,
+      "initialOcc": 60,
+      "overlayOcc": 75,
+      "InitialHeight": 50,
+      "OverlayHeight": 50,
+      "lookup": "For more information, see 1307.8 (a) of DC Zoning Code"
+    },
+    {
+      "overlayZone": "WP",
+      "zone": "C-2-B",
+      "initialFAR": 3.5,
+      "overlayFAR": 3.6,
+      "initialOcc": 80,
+      "overlayOcc": 80,
+      "InitialHeight": 65,
+      "OverlayHeight": 55,
+      "lookup": "For more information, see 1307.8 (b) of DC Zoning Code"
+    },
+    {
+      "overlayZone": "DD",
+      "zone": "C-2-C",
+      "initialFAR": 6,
+      "overlayFAR": 8,
+      "initialOcc": 80,
+      "overlayOcc": "-",
+      "InitialHeight": 90,
+      "OverlayHeight": "Act*",
+      "note":"Regulated by the Height of Buildings Act of 1910.",
+      "lookup": "For more information, see 1706.4 (a) of DC Zoning Code"
+    },
+    {
+      "overlayZone": "DD",
+      "zone": "C-3-C",
+      "initialFAR": 6.5,
+      "overlayFAR": 9.5,
+      "initialOcc": 100,
+      "overlayOcc": "-",
+      "InitialHeight": 90,
+      "OverlayHeight": "Act*",
+      "note":"Regulated by the Height of Buildings Act of 1910.",
+      "lookup": "For more information, see 1706.5 (a) of DC Zoning Code"
+    },
+    {
+      "overlayZone": "DD",
+      "zone": "C-4",
+      "initialFAR": 8.5,
+      "overlayFAR": 10,
+      "initialOcc": 100,
+      "overlayOcc": "-",
+      "InitialHeight": 110,
+      "OverlayHeight": "Act*",
+      "note":"Regulated by the Height of Buildings Act of 1910.",
+      "lookup": "For more information, see 1706.6 (a) of DC Zoning Code"
+    }
+  ]
+}
+
