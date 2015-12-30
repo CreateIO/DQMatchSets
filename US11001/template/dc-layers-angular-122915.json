@@ -3645,7 +3645,7 @@
         "Central Employment Area": {
             "id": 25,
             "displayName": "CEA",
-            "mouseoverName": "Central Employment Area",
+            "mouseoverName": "Central Employment Area (Federal)",
             "denyToggle": false,
             "denyList": {
                 "denyList1": null
@@ -3662,7 +3662,7 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#EDAE39",
-                        "boxDescription": "Central Employment Area",
+                        "boxDescription": "Central Employment Area (Federal)",
                         "imageUrl": null
                     }
                 }
