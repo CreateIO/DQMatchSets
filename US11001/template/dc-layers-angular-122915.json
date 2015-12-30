@@ -3372,7 +3372,7 @@
         "Great Streets": {
             "id": 50,
             "displayName": "Great Streets",
-            "mouseoverName": "Great Street Corridors",
+            "mouseoverName": "Great Streets",
             "denyToggle": false,
             "denyList": {
                 "denyList1": null
@@ -3389,7 +3389,7 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#F1B000",
-                        "boxDescription": "Great Streets Corridors",
+                        "boxDescription": "Great Streets",
                         "imageUrl": null
                     }
                 }
@@ -3435,7 +3435,7 @@
         "HUBs": {
             "id": 53,
             "displayName": "HUBs",
-            "mouseoverName": "Historically Underutilized Businesses",
+            "mouseoverName": "HUB Zone",
             "denyToggle": false,
             "denyList": {
                 "denyList1": null
@@ -3490,7 +3490,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Data: Historically Underutilized Businesses'"
+                        "param1": "'Data: HUB Zone'"
                     }
                 },
                 "removeFunctions": {
@@ -3579,10 +3579,10 @@
             "subCategory": "1",
             "order": 4
         },
-        "High Technology Development Zone": {
+        "High Technology Development": {
             "id": 34,
             "displayName": "HTDZ",
-            "mouseoverName": "High Technology Development Zone",
+            "mouseoverName": "High Technology Development",
             "denyToggle": false,
             "denyList": {
                 "denyList1": null
@@ -3599,7 +3599,7 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#96C3AF",
-                        "boxDescription": "High Technology Development Zone",
+                        "boxDescription": "High Technology Development",
                         "imageUrl": null
                     }
                 }
@@ -3624,7 +3624,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Data: High Technology Development Zone'"
+                        "param1": "'Data: High Technology Development"
                     }
                 },
                 "removeFunctions": {

@@ -501,51 +501,6 @@
                 "exists": false
             }
         },
-        "enterprise": {
-            "name": "enterprise",
-            "removeName": null,
-            "url": null,
-            "cartographic": false,
-            "id": {
-                "exists": false
-            },
-            "labels": {
-                "exists": false
-            },
-            "polygons": {
-                "exists": false
-            },
-            "rasters": {
-                "exists": true,
-                "rasterLayers": {
-                    "raster1": {
-                        "name": "enterprisetop",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/EnterpriseTop.png",
-                        "xMin": -77.0835,
-                        "yMin": 38.8924,
-                        "xMax": -76.9081,
-                        "yMax": 38.9639,
-                        "alpha": 0.5,
-                        "show": true,
-                        "hasDropdown": false
-                    },
-                    "raster2": {
-                        "name": "enterprisebottom",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/EnterpriseBottom.png",
-                        "xMin": -77.0655,
-                        "yMin": 38.7916,
-                        "xMax": -76.9089,
-                        "yMax": 38.8932,
-                        "alpha": 0.5,
-                        "show": true,
-                        "hasDropdown": false
-                    }
-                }
-            },
-            "billboards": {
-                "exists": false
-            }
-        },
         "technology": {
             "name": "technology",
             "removeName": null,
@@ -564,7 +519,7 @@
                 "exists": true,
                 "rasterLayers": {
                     "raster1": {
-                        "name": "enterprisetop",
+                        "name": "techtop",
                         "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/tech.png",
                         "xMin": -77.1227,
                         "yMin": 38.7908,
@@ -2669,7 +2624,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "wdcepbookmarksBB",
-                        "url": "../../images/maki/circle-wdcep.png",
+                        "url": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-wdcep.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -2819,7 +2774,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "wdcepneighborhoodsBB",
-                        "url": "../../images/maki/circle-wdcep.png",
+                        "url": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-wdcep.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -3323,7 +3278,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "treppBB",
-                        "url": "../../images/maki/trepp.png",
+                        "url": "https://s3.amazonaws.com/models-dc/WDCEP/icons/trepp.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
