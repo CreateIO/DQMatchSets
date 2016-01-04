@@ -1,6 +1,6 @@
-{  
-   "dc-filters":{  
-      "parcelArea":{  
+{
+   "dc-filters":{
+      "parcelArea":{
          "id":1,
          "name":"Parcel area (sf)",
          "type":"min-max",
@@ -21,13 +21,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"consoleLog",
+         "teaser":"limitedUser",
          "restrict": null,
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "zoningDistrict":{  
+      "zoningDistrict":{
          "id":2,
          "name":"Zoning District",
          "type":"lookup",
@@ -46,13 +46,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"consoleLog",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "neighborhood":{  
+      "neighborhood":{
          "id":3,
          "name":"Neighborhood",
          "type":"lookup",
@@ -71,13 +71,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"consoleLog",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":false,
          "toggled":false,
          "valueChange":false
       },
-      "generalUse":{  
+      "generalUse":{
          "id":4,
          "name":"General Uses",
          "type":"lookup",
@@ -96,13 +96,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"consoleLog",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "commercialUse":{  
+      "commercialUse":{
          "id":5,
          "name":"Commercial Uses",
          "type":"lookup",
@@ -121,13 +121,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"consoleLog",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "residentialUse":{  
+      "residentialUse":{
          "id":6,
          "name":"Residential Uses",
          "type":"lookup",
@@ -146,13 +146,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"consoleLog",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "institutionalUse":{  
+      "institutionalUse":{
          "id":7,
          "name":"Residential Uses",
          "type":"lookup",
@@ -171,13 +171,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"consoleLog",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "retailSpaceAvailability":{  
+      "retailSpaceAvailability":{
          "id":8,
          "name":"Retail Space Availability (WDCEP)",
          "type":"lookup",
@@ -196,13 +196,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"consoleLog",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "retailSpaceSize":{  
+      "retailSpaceSize":{
          "id":9,
          "name":"Retail Space Size (WDCEP)",
          "type":"min-max",
@@ -223,13 +223,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"consoleLog",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "buildingSize":{  
+      "buildingSize":{
          "id":10,
          "name":"Building Size (sf)",
          "type":"min-max",
@@ -250,13 +250,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"consoleLog",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "numberBedrooms":{  
+      "numberBedrooms":{
          "id":11,
          "name":"No. of Bedrooms",
          "type":"lookup",
@@ -275,13 +275,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"consoleLog",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "numberUnits":{  
+      "numberUnits":{
          "id":12,
          "name":"No. of Units",
          "type":"min-max",
@@ -302,13 +302,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"consoleLog",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "yearBuilt":{  
+      "yearBuilt":{
          "id":13,
          "name":"Year Built",
          "type":"min-max",
@@ -329,13 +329,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"consoleLog",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "metroRailDistance":{  
+      "metroRailDistance":{
          "id":14,
          "name":"Metrorail Distance",
          "type":"min-max",
@@ -356,13 +356,13 @@
          "operator":"*",
          "calculation":1609.344,
          "filter_exists":null,
-         "teaser":"consoleLog",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "metroBusDistance":{  
+      "metroBusDistance":{
          "id":15,
          "name":"Metrobus Distance",
          "type":"min-max",
@@ -383,13 +383,13 @@
          "operator":"*",
          "calculation":1609.344,
          "filter_exists":null,
-         "teaser":"consoleLog",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "businessImprovementDistrict":{  
+      "businessImprovementDistrict":{
          "id":16,
          "name":"Business Improvement Districts",
          "type":"exists",
@@ -408,13 +408,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":false,
-         "teaser":"consoleLog",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "tenantSpaceSF":{  
+      "tenantSpaceSF":{
          "id":17,
          "name":"Tenant Space Square Footage",
          "type":"lookup",
@@ -433,13 +433,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"inhouseDemog",
-         "restrict":"esriDemog",
+         "teaser":"rhs.filter.teasePremium",
+         "restrict":"rhs.filter.premium",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "numberEmployees":{  
+      "numberEmployees":{
          "id":18,
          "name":"Number of Employees",
          "type":"lookup",
@@ -458,13 +458,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"inhouseDemog",
-         "restrict":"esriDemog",
+         "teaser":"rhs.filter.teasePremium",
+         "restrict":"rhs.filter.premium",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "revenue":{  
+      "revenue":{
          "id":19,
          "name":"Revenue",
          "type":"lookup",
@@ -483,13 +483,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"inhouseDemog",
-         "restrict":"esriDemog",
+         "teaser":"rhs.filter.teasePremium",
+         "restrict":"rhs.filter.premium",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "hasTrepp":{  
+      "hasTrepp":{
          "id":20,
          "name":"Properties with CMBS records",
          "type":"exists",
@@ -508,13 +508,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":false,
-         "teaser":"inhouseDemog",
-         "restrict":"esriDemog",
+         "teaser":"rhs.filter.teasePremium",
+         "restrict":"rhs.filter.premium",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "loanClosingYear":{  
+      "loanClosingYear":{
          "id":21,
          "name":"Loan Securitization Closing Year",
          "type":"min-max",
@@ -535,13 +535,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":false,
-         "teaser":"inhouseDemog",
-         "restrict":"esriDemog",
+         "teaser":"rhs.filter.teasePremium",
+         "restrict":"rhs.filter.premium",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "loanBalance":{  
+      "loanBalance":{
          "id":22,
          "name":"Loan Size (CMBS)",
          "type":"min-max",
@@ -562,13 +562,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":false,
-         "teaser":"inhouseDemog",
-         "restrict":"esriDemog",
+         "teaser":"rhs.filter.teasePremium",
+         "restrict":"rhs.filter.premium",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "groceryDistance":{  
+      "groceryDistance":{
          "id":23,
          "name":"Grocery Store Distance (WDCEP)",
          "type":"min-max",
@@ -589,13 +589,13 @@
          "operator":"*",
          "calculation":1609.344,
          "filter_exists":null,
-         "teaser":"consoleLog",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "populationGrowth":{  
+      "populationGrowth":{
          "id":24,
          "name":"Total Population Growth (2020)",
          "type":"min-max",
@@ -616,13 +616,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"inhouseDemog",
-         "restrict":"esriDemog",
+         "teaser":"rhs.filter.teasePremium",
+         "restrict":"rhs.filter.premium",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "medianIncomeGrowth":{  
+      "medianIncomeGrowth":{
          "id":25,
          "name":"Median Household Income Growth (2020)",
          "type":"min-max",
@@ -643,13 +643,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"inhouseDemog",
-         "restrict":"esriDemog",
+         "teaser":"rhs.filter.teasePremium",
+         "restrict":"rhs.filter.premium",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "householdGrowth":{  
+      "householdGrowth":{
          "id":26,
          "name":"Total Households Growth (2020)",
          "type":"min-max",
@@ -670,13 +670,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"inhouseDemog",
-         "restrict":"esriDemog",
+         "teaser":"rhs.filter.teasePremium",
+         "restrict":"rhs.filter.premium",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "housingUnitsGrowth":{  
+      "housingUnitsGrowth":{
          "id":27,
          "name":"Total Housing Units Growth (2020)",
          "type":"min-max",
@@ -697,13 +697,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"inhouseDemog",
-         "restrict":"esriDemog",
+         "teaser":"rhs.filter.teasePremium",
+         "restrict":"rhs.filter.premium",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "homeValueGrowth":{  
+      "homeValueGrowth":{
          "id":28,
          "name":"Home Value Growth (2020)",
          "type":"min-max",
@@ -724,13 +724,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":null,
-         "teaser":"inhouseDemog",
-         "restrict":"esriDemog",
+         "teaser":"rhs.filter.teasePremium",
+         "restrict":"rhs.filter.premium",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "greatStreets":{  
+      "greatStreets":{
          "id":29,
          "name":"Great Streets",
          "type":"exists",
@@ -749,13 +749,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":false,
-         "teaser":"consoleLog",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "supermarketTaxCredit":{  
+      "supermarketTaxCredit":{
          "id":30,
          "name":"Supermarket Tax Credit Zones",
          "type":"exists",
@@ -774,13 +774,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":false,
-         "teaser":"consoleLog",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "centralEmploymentArea":{  
+      "centralEmploymentArea":{
          "id":31,
          "name":"Central Employment Area (Federal)",
          "type":"exists",
@@ -799,13 +799,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":false,
-         "teaser":"consoleLog",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "highTech":{  
+      "highTech":{
          "id":32,
          "name":"High Technology Development",
          "type":"text",
@@ -824,13 +824,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":false,
-         "teaser":"",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "hubZone":{  
+      "hubZone":{
          "id":33,
          "name":"HUB Zone",
          "type":"exists",
@@ -849,13 +849,13 @@
          "operator":null,
          "calculation":null,
          "filter_exists":false,
-         "teaser":"consoleLog",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
       },
-      "irb":{  
+      "irb":{
          "id":34,
          "name":"IRB-Tax Exempt Bond Financing",
          "type":"text",
@@ -874,8 +874,8 @@
          "operator":null,
          "calculation":null,
          "filter_exists":false,
-         "teaser":"",
-         "restrict":null,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
