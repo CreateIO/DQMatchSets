@@ -12,7 +12,7 @@
          "values":null,
          "units":"sf",
          "minvalue": 0,
-         "maxvalue": 360511135,
+         "maxvalue": 300000,
          "minsuggest": 10000,
          "maxsuggest": 40000,
          "step": 1000,
