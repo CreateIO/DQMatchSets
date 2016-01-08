@@ -4172,6 +4172,95 @@
             "category": "3",
             "subCategory": "1",
             "order": 2
+        },
+        "taxAbatement": {
+            "id": 45,
+            "displayName": "Non-Profit Tax Abatement",
+            "mouseoverName": "taxAbatement",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "",
+                "sourceURL": "http://www.dcregs.dc.gov/Notice/DownLoad.aspx?NoticeID=573093",
+                "sourceDescription": "DMPED",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#e41a1c",
+                        "boxDescription": "NoMa Nonprofit Zone",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#377eb8",
+                        "boxDescription": "Mount Vernon Triangle Nonprofit Zone",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#4daf4a",
+                        "boxDescription": "Capitol Riverfront Nonprofit Zone",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxStyle": "background:#984ea3",
+                        "boxDescription": "Anacostia Nonprofit Zone",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxStyle": "background:#ff7f00",
+                        "boxDescription": "Minnesota-Benning Nonprofit Zone",
+                        "imageUrl": null
+                    }
+                }
+            },
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/NTA.png",
+            "colors": {
+                "type": "multi",
+                "hex": {
+                    "hex1": "#e41a1c",
+                    "hex2": "#377eb8",
+                    "hex3": "#4daf4a",
+                    "hex4": "#984ea3",
+                    "hex5": "#ff7f00"
+                }
+            },
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "taxAbatement"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Data: non-profit tax abatement'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "taxAbatement"
+                        }
+                    }
+                },
+                "emits": {
+                }
+            },
+            "category": "4",
+            "subCategory": "1",
+            "order": 8
         }
     }
 }
