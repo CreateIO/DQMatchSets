@@ -4176,7 +4176,7 @@
         "taxAbatement": {
             "id": 45,
             "displayName": "taxAbatement",
-            "mouseoverName": "Non-Profit Tax Abatement",
+            "mouseoverName": "Nonprofit Tax Abatement",
             "denyToggle": false,
             "denyList": {
                 "denyList1": null
