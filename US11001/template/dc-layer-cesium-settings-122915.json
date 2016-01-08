@@ -3310,7 +3310,7 @@
                         "position": {
                             "x": "entity._properties.LON",
                             "y": "entity._properties.LAT",
-                            "z": 50
+                            "z": 200
                         },
                         "text": "entity.properties.NAME",
                         "font": "18px sans-serif",
