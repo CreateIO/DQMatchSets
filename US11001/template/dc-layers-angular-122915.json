@@ -4175,8 +4175,8 @@
         },
         "taxAbatement": {
             "id": 45,
-            "displayName": "Non-Profit Tax Abatement",
-            "mouseoverName": "taxAbatement",
+            "displayName": "taxAbatement",
+            "mouseoverName": "Non-Profit Tax Abatement",
             "denyToggle": false,
             "denyList": {
                 "denyList1": null

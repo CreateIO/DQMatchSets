@@ -3310,10 +3310,10 @@
                         "position": {
                             "x": "entity._properties.LON",
                             "y": "entity._properties.LAT",
-                            "z": 400
+                            "z": 50
                         },
-                        "text": "entity._properties.NAME",
-                        "font": "22px sans-serif",
+                        "text": "entity.properties.NAME",
+                        "font": "18px sans-serif",
                         "fillColor": "Cesium.Color.WHITE",
                         "outlineColor": "Cesium.Color.BLACK",
                         "outlineWidth": 1,
@@ -3321,10 +3321,10 @@
                         "pixelOffset": "Cesium.Cartesian2.ZERO",
                         "eyeOffset": "Cesium.Cartesian3.ZERO",
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-                        "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
+                        "verticalOrigin": "Cesium.VerticalOrigin.TOP",
                         "translucencyByDistance": {
-                            "minElevation": 50000,
-                            "maxElevation": 80000,
+                            "minElevation": 9000,
+                            "maxElevation": 30000,
                             "minScale": 1.0,
                             "maxScale": 0.0
                         },
