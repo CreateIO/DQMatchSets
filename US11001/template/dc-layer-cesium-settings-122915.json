@@ -3324,7 +3324,7 @@
                         "verticalOrigin": "Cesium.VerticalOrigin.TOP",
                         "translucencyByDistance": {
                             "minElevation": 9000,
-                            "maxElevation": 30000,
+                            "maxElevation": 20000,
                             "minScale": 1.0,
                             "maxScale": 0.0
                         },
