@@ -1,0 +1,16 @@
+{
+  "name": "New York City",
+  "code": "MD_NYC",
+  "regionTags": [
+    {
+      "name": "New York City",
+      "tag": "US3651000"
+    }
+  ],
+  "camera": [
+	{"name": "Lower Manhattan", "frontVect": {"type":"LineString","coordinates":[[-74.0034,40.7023,3000],[-74.0034,40.7123,8]]}}
+      ],
+  "geocoder": { "searchTag": "nyc", "searchText": "New York, NY" }
+
+}
+
