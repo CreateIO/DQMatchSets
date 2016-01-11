@@ -3398,9 +3398,9 @@
                         "name": "wictop",
                         "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/wic.png",
                         "xMin": -77.1441,
-                        "yMin": 38.7802,
+                        "yMin": 38.0049,
                         "xMax": -76.8839,
-                        "yMax": 38.0049,
+                        "yMax": 38.7802,
                         "alpha": 0.5,
                         "show": true,
                         "hasDropdown": false
