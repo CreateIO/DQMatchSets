@@ -1,5 +1,5 @@
 {
-  "nyc-filters": {
+  "filters": {
     "parcelArea": {
       "id": 1,
       "name": "Parcel area (sf)",
