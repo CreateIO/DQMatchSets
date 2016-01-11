@@ -3377,8 +3377,8 @@
                 "exists": false
             }
         },
-        "wic": {
-            "name": "wic",
+        "WIC": {
+            "name": "WIC",
             "removeName": null,
             "url": null,
             "cartographic": false,
