@@ -904,6 +904,31 @@
          "inuse":true,
          "toggled":false,
          "valueChange":false
+      },
+      "wic":{
+         "id":36,
+         "name":"DC Workforce Investment Council (WIC)",
+         "type":"text",
+         "category": "Finance",
+         "subcategory": "Z-note",
+         "subcategoryLabel":"Z-note",
+         "output":"",
+         "label":"DC Workforce Investment Council (WIC) - Incentive applies to all properties in Washington, DC.",
+         "values":null,
+         "units":null,
+         "minvalue":null,
+         "maxvalue":null,
+         "step": null,
+         "mapvalue":null,
+         "listorder":3,
+         "operator":null,
+         "calculation":null,
+         "filter_exists":false,
+         "teaser":"limitedUser",
+         "restrict":"rhs.filter.all",
+         "inuse":true,
+         "toggled":false,
+         "valueChange":false
       }
    }
 }
