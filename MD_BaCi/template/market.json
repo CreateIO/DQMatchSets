@@ -1,6 +1,7 @@
 {
   "name": "Baltimore",
-  "code": "MD_BaCi",
+  "abbreviation": "BACI",
+  "code": "MD_BACI",
   "regionTags": [
     {
       "name": "City of Baltimore",
