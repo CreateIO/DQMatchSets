@@ -1,0 +1,24 @@
+[
+{
+  "name": "District of Columbia",
+  "title": "Washington, DC",
+  "initials": "WAS",
+  "abbreviation": "DC",
+  "code": "MD_DC"
+},
+{
+  "name": "New York City, NY",
+  "title": "New York, NY",
+  "initials": "NYC",
+  "abbreviation": "NYC",
+  "code": "MD_NYC"
+},
+{
+  "name": "City of Baltimore, MD",
+  "title": "Baltimore, MD",
+  "initials": "BACI",
+  "abbreviation": "BaCi",
+  "code": "MD_BaCi"
+}
+]
+
