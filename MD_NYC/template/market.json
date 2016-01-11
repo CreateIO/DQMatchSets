@@ -1,6 +1,7 @@
 {
   "name": "New York City",
   "code": "MD_NYC",
+  "abbreviation": "NYC",
   "regionTags": [
     {
       "name": "New York City",
