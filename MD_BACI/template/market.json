@@ -8,8 +8,7 @@
       "tag": "US24510"
     }],
   "camera": [
-	{"name": "Inner Harbor", "frontVect": {"type":"LineString","coordinates":[[-76.392854,39.2854,3000],[-76.392854,39.2854,8]]}},
-	{"name": "John's Hopkins", "frontVect": {"type":"LineString","coordinates":[[-76.5856,39.3062,3000],[-76.5856,39.3162,8]]}}
+	{"name": "Inner Harbor", "frontVect": {"type":"LineString","coordinates":[[-76.606955,39.281690,3000],[-76.606955,39.281690,8]]}, "height": 400}
       ],
   "geocoder": { "searchTag": "baci", "searchText": "Baltimore, MD" }
 }
