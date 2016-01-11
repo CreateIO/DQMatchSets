@@ -9,7 +9,7 @@
     }
   ],
   "camera": [
-	{"name": "Lower Manhattan", "frontVect": {"type":"LineString","coordinates":[[-74.017486,40.705450,3000],[-74.01744,40.703959,8]]}}
+	{"name": "Lower Manhattan", "frontVect": {"type":"LineString","coordinates":[[-74.017486,40.705450,3000],[-74.017445,40.704902,8]], "height": 100}}
       ],
   "geocoder": { "searchTag": "nyc", "searchText": "New York, NY" }
 
