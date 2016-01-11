@@ -4301,7 +4301,7 @@
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "wic"
+                            "param2": "WIC"
                         }
                     }
                 },
@@ -4316,7 +4316,7 @@
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "wic"
+                            "param2": "WIC"
                         }
                     }
                 }
