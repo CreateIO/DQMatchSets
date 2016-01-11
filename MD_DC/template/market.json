@@ -1,6 +1,7 @@
 {
-  "name": "DC",
+  "name": "Washington DC",
   "code": "MD_DC",
+  "abbreviation": "DC",
   "regionTags": [
     {
       "name": "District of Columbia",
