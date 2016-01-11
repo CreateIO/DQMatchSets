@@ -7,8 +7,7 @@
       "tag": "US11001"
     }],
   "camera": [
-	{"name": "Dupont Circle", "frontVect": {"type":"LineString","coordinates":[[-77.0451848604168,38.91000,3000],[-77.043428,38.909632,8]]}},
-	{"name": "Near Dupont", "frontVect": {"type":"LineString","coordinates":[[-77.045184,39.2843,3000],[-77.044887,38.9106143,8]]}}
+	{"name": "Dupont Circle", "frontVect": {"type":"LineString","coordinates":[[-77.0451848604168,38.91000,3000],[-77.043428,38.909632,8]]}}
       ],
   "geocoder": { "searchTag": "gdc", "searchText": "Washington, DC" }
 }
