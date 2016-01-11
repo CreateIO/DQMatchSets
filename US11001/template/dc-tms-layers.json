@@ -56,6 +56,25 @@
             "maximumLevel" : 17,
             "alpha" : 0.45,
             "flag" : false
+        },
+        "parcelLayerNY": {
+            "tmsProvider" : "parcelTMSProviderNY",
+            "tmsLayer" : "parcelTMSLayerNY",
+            "tmsLayerName" : "Parcel TMS NY",
+            "url" : "https://s3.amazonaws.com/models-dc/img_tilesets/parcel_manhattan/",
+            "extension" : "png",
+            "coords" : {
+                "xMin" : -74.04761,
+                "yMin" : 40.68395,
+                "xMax" : -73.90682,
+                "yMax" : 40.87913
+                },
+            "tileWidth" : 256,
+            "tileHeight" : 256,
+            "minimumLevel" : 1,
+            "maximumLevel" : 17,
+            "alpha" : 0.45,
+            "flag" : false
         }
     }
 }
