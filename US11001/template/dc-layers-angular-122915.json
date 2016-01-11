@@ -4261,6 +4261,217 @@
             "category": "4",
             "subCategory": "1",
             "order": 8
+        },
+        "Workforce Investment Council (WIC)": {
+            "id": 34,
+            "displayName": "WIC",
+            "mouseoverName": "Workforce Investment Council (WIC)",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "",
+                "sourceURL": "  http://dmped.dc.gov/node/606062",
+                "sourceDescription": "DMPED",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#4789EA",
+                        "boxDescription": "Workforce Investment Council (WIC)",
+                        "imageUrl": null
+                    }
+                }
+            },
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/WIC.png",
+            "colors": {
+                "type": "single",
+                "hex": {
+                    "hex1": "#96C3AF"
+                }
+            },
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "wic"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Data: Workforce Investment Council (WIC)"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "wic"
+                        }
+                    }
+                }
+            },
+            "category": "4",
+            "subCategory": "1",
+            "order": 9
+        },
+        "anacostia": {
+            "id": 45,
+            "displayName": "anacostia",
+            "mouseoverName": "Anacostia Waterfront Initiative",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "",
+                "sourceURL": "http://dmped.dc.gov/page/anacostia-waterfront-intiative",
+                "sourceDescription": "DMPED",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#4789EA",
+                        "boxDescription": "Anacostia Waterfront Initiative",
+                        "imageUrl": null
+                    }
+                }
+            },
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/AWI.png",
+            "colors": {
+                "type": "multi",
+                "hex": {
+                    "hex1": "#4789EA"
+                }
+            },
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "anacostia"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Data: Anacostia Waterfront Initiative'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "anacostia"
+                        }
+                    }
+                },
+                "emits": {
+                }
+            },
+            "category": "4",
+            "subCategory": "1",
+            "order": 10
+        },
+        "NCI": {
+            "id": 45,
+            "displayName": "NCI",
+            "mouseoverName": "New Communities Initiative (NCI)",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "",
+                "sourceURL": "http://dmped.dc.gov/page/new-communities-initiative-nci",
+                "sourceDescription": "DMPED",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#E91934",
+                        "boxDescription": "Barry Farm",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#294583",
+                        "boxDescription": "North West One",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#0CA763",
+                        "boxDescription": "Park Morton",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxStyle": "background:#F5BD00",
+                        "boxDescription": "Lincoln Heights - Richardson Dwellings",
+                        "imageUrl": null
+                    }
+                }
+            },
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/NCI.png",
+            "colors": {
+                "type": "multi",
+                "hex": {
+                    "hex1": "#E91934",
+                    "hex2": "#294583",
+                    "hex3": "#0CA763",
+                    "hex4": "#F5BD00"
+                }
+            },
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "NCI"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Data: New Communities Initiative (NCI)'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "NCI"
+                        }
+                    }
+                },
+                "emits": {
+                }
+            },
+            "category": "4",
+            "subCategory": "1",
+            "order": 11
         }
     }
 }
