@@ -25,7 +25,7 @@
               "sections":[]
             }
           ],
-          "dataSource": "Data Source: Baltimore City Government"
+          "dataSource": "Data Source: DC City Government"
         },
         {
           "id": "navBuilding",
@@ -55,7 +55,7 @@
               "sections":[]
             }
           ],
-          "dataSource": "Data Source: Baltimore City Government"
+          "dataSource": "Data Source: DC City Government"
         },
         {
           "id": "navListings",
@@ -69,7 +69,7 @@
               "sections":[]
             }
           ],
-          "dataSource": "Data Source: Baltimore City Government"
+          "dataSource": "Data Source: DC City Government"
         },
         {
           "id": "navTenants",
@@ -83,7 +83,7 @@
               "sections":[]
             }
           ],
-          "dataSource": "Data Source: Baltimore City Government"
+          "dataSource": "Data Source: DC City Government"
         },
         {
           "id": "navZoning",
@@ -113,7 +113,7 @@
               "sections":[]
             }
           ],
-          "dataSource": "Data Source: Baltimore City Office of Zoning"
+          "dataSource": "Data Source: DC City Office of Zoning"
         },
         {
           "id": "navPlanning",
@@ -127,7 +127,7 @@
               "sections":[]
             }
           ],
-          "dataSource": "Data Source: Baltimore City Government"
+          "dataSource": "Data Source: DC City Government"
         },
         {
           "id": "navIncentives",
@@ -141,7 +141,7 @@
               "sections":[]
             }
           ],
-          "dataSource": "Data Source: Baltimore City Government"
+          "dataSource": "Data Source: DC City Government"
         },
         {
           "id": "navTransit",
@@ -161,13 +161,13 @@
               "sections":[]
             }
           ],
-          "dataSource": "Data Source: Walk Score, Baltimore City Government, US Census - American Community Survey 2013 "
+          "dataSource": "Data Source: Walk Score, DC City Government, US Census - American Community Survey 2013 "
         },
         {
           "id": "navBuildIt",
           "name": "Build It!",
           "hasCharts": false,
-          "deny":"Limited Monthly Baltimore City_Public_Access Freemium Premium beta_premium beta_freemium beta_fremium",
+          "deny":"Limited Monthly DC City_Public_Access Freemium Premium beta_premium beta_freemium beta_fremium",
           "restrictedFeature":"buildIt",
           "sections":[
             {
@@ -175,7 +175,7 @@
               "sections":[]
             }
           ],
-          "dataSource": "Data Source: Baltimore City Government"
+          "dataSource": "Data Source: DC City Government"
         }
       ]
     },
@@ -195,7 +195,7 @@
               "sections":[]
             }
           ],
-          "dataSource": "Data Source: Baltimore City Government"
+          "dataSource": "Data Source: DC City Government"
         },
         {
           "id": "navDemographics",
@@ -209,7 +209,7 @@
               "sections":[]
             }
           ],
-          "dataSource": "Data Source: Baltimore City Government"
+          "dataSource": "Data Source: DC City Government"
         },
         {
           "id": "navEconomy",
@@ -227,7 +227,7 @@
               "sections":[]
             }
           ],
-          "dataSource": "Data Source: Baltimore City Government"
+          "dataSource": "Data Source: DC City Government"
         }
       ]
     },
@@ -274,7 +274,7 @@
 
             }
           ],
-          "dataSource": "Data Source: Baltimore City Government"
+          "dataSource": "Data Source: DC City Government"
         },
         {
           "id": "navProforma",
@@ -318,7 +318,7 @@
 
             }
           ],
-          "dataSource": "Data Source: Baltimore City Government"
+          "dataSource": "Data Source: DC City Government"
         },
         {
           "id": "navEquity",
@@ -345,7 +345,7 @@
             }
 
           ],
-          "dataSource": "Data Source: Baltimore City Government"
+          "dataSource": "Data Source: DC City Government"
         }
       ]
     }
