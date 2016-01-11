@@ -4344,7 +4344,7 @@
                 "type": "singleColumn",
                 "listItems": {
                     "item1": {
-                        "boxStyle": "background:#4789EA",
+                        "boxStyle": "background:#C9C5FC",
                         "boxDescription": "Anacostia Waterfront Initiative",
                         "imageUrl": null
                     }
