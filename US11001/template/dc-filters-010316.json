@@ -929,6 +929,35 @@
          "inuse":true,
          "toggled":false,
          "valueChange":false
-      }
+      },
+     "yearBuilt":{
+       "id":37,
+       "name":"Building Footprint",
+       "type":"min-max",
+       "category":"Property",
+       "subcategory": "Property",
+       "subcategoryLabel": "Property",
+       "output":"zoning.bldgFootprintArea=GT <minVal> & zoning.bldgFootprintArea=LT <maxVal>",
+       "label":"Year Built",
+       "values":null,
+       "units":"Years",
+       "minvalue": 0,
+       "maxvalue": 100000000,
+       "minsuggest": 0,
+       "maxsuggest": 100000000,
+       "step": 100,
+       "mapvalue":null,
+       "listorder":11,
+       "operator":null,
+       "calculation":null,
+       "filter_exists":null,
+       "teaser":"limitedUser",
+       "restrict":"rhs.filter.all",
+       "inuse":true,
+       "toggled":false,
+       "valueChange":false
+     }
+   }
+}
    }
 }
