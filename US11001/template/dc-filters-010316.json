@@ -930,7 +930,7 @@
          "toggled":false,
          "valueChange":false
       },
-     "yearBuilt":{
+     "buildingFootprint":{
        "id":37,
        "name":"Building Footprint",
        "type":"min-max",
