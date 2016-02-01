@@ -4522,8 +4522,8 @@
                     "functionName": "getCirclesGSA",
                     "parameters": {
                         "param1": "https://s3.amazonaws.com/models-dc/geoJSON/prod/gsaGeomFull.geojson",
-                        "param2": "status",
-                        "param3": "resunits",
+                        "param2": "leaseagree",
+                        "param3": "expiryear",
                         "param4": 100,
                         "param5": 400,
                         "param6": 1000,

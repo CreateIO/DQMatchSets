@@ -889,7 +889,7 @@
                 }
             }
         },
-        "wdcep_resi_com_data":{
+        "gsaDataFields":{
             "referenceid":"UNIQUEID",
             "propertyid":null,
             "offset":null,
