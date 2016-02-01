@@ -4479,7 +4479,14 @@
             "mouseoverName": "GSA Leases",
             "denyToggle": false,
             "denyList": {
-                "denyList1": null
+                "denyList1": "Limited",
+                "denyList2": "Premium",
+                "denyList3": "Freemium",
+                "denyList4": "Monthly",
+                "denyList5": "DC_Public_Access",
+                "denyList6": "beta_premium",
+                "denyList7": "beta_freemium"
+
             },
             "isActive": false,
             "layerUsed": true,
