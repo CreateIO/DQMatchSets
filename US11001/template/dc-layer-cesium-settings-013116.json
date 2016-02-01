@@ -3558,17 +3558,17 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "gsaicon",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/icons/GSABillboard.png",
+                        "url": "../../images/maki/GSABillboard.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 5
+                            "z": 20
                         },
                         "NearFarScalar": {
-                            "minElevation": 1000,
-                            "maxElevation": 6000,
-                            "minScale": 0.4,
-                            "maxScale": 0.09
+                            "minElevation": 0,
+                            "maxElevation": 3000,
+                            "minScale": 0.1,
+                            "maxScale": 0.05
                         }
                     }
                 }
