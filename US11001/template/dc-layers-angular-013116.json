@@ -4522,12 +4522,12 @@
                     "functionName": "getCirclesGSA",
                     "parameters": {
                         "param1": "https://s3.amazonaws.com/models-dc/geoJSON/prod/gsaGeomFull.geojson",
-                        "param2": "leaseagree",
-                        "param3": "expiryear",
-                        "param4": 100,
-                        "param5": 400,
-                        "param6": 1000,
-                        "param7": 3500
+                        "param2": "expiryear",
+                        "param3": "leaseagree",
+                        "param4": 25000,
+                        "param5": 50000,
+                        "param6": 100000,
+                        "param7": 250000
                     }
                 },
                 "infoboxRemove": {
