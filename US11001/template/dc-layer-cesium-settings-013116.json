@@ -3530,8 +3530,8 @@
                 "exists": false
             }
         },
-        "gsaGeomFull": {
-            "name": "gsaGeomFull",
+        "gsa": {
+            "name": "gsa",
             "removeName": "gsaGeomFull.geojson",
             "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/gsaGeomFull.geojson",
             "cartographic": true,

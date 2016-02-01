@@ -4475,7 +4475,7 @@
         },
         "gsa": {
             "id": 47,
-            "displayName": "GSA Leases",
+            "displayName": "gsa",
             "mouseoverName": "GSA Leases",
             "denyToggle": false,
             "denyList": {
