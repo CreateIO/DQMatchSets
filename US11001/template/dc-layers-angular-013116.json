@@ -4473,7 +4473,7 @@
             "subCategory": "1",
             "order": 11
         },
-        "gsaGeomFull": {
+        "gsa": {
             "id": 46,
             "displayName": "GSA Leases",
             "mouseoverName": "GSA Leases",
