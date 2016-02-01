@@ -4486,7 +4486,6 @@
                 "denyList5": "DC_Public_Access",
                 "denyList6": "beta_premium",
                 "denyList7": "beta_freemium"
-
             },
             "isActive": false,
             "layerUsed": true,
