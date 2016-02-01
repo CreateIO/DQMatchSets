@@ -928,7 +928,7 @@
                     "value":"percentoff",
                     "display":"Percent Office: ",
                     "fieldtype":"number",
-                    "units":"%"
+                    "units":""
                 },
                 "field6":{
                     "value":"percentocc",
