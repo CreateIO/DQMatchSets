@@ -4498,7 +4498,7 @@
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "gsaGeomFull"
+                            "param2": "gsa"
                         }
                     }
                 },
@@ -4513,7 +4513,7 @@
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "gsaGeomFull"
+                            "param2": "gsa"
                         }
                     }
                 },
