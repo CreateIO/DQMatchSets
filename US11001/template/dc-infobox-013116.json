@@ -888,6 +888,121 @@
                     "units":null
                 }
             }
+        },
+        "wdcep_resi_com_data":{
+            "referenceid":"UNIQUEID",
+            "propertyid":null,
+            "offset":null,
+            "fieldtype":"residential",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"addressful",
+            "boxValues":{
+                "field2":{
+                    "value":"fieldoffic",
+                    "display":"Field Office Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"lessorname",
+                    "display":"Lessor Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"leaseagree",
+                    "display":"Lease Agreement RSF: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field5":{
+                    "value":"percentoff",
+                    "display":"Percent Office: ",
+                    "fieldtype":"number",
+                    "units":"%"
+                },
+                "field6":{
+                    "value":"percentocc",
+                    "display":"Percent Occupied: ",
+                    "fieldtype":"number",
+                    "units":"%"
+                },
+                "field7":{
+                    "value":"currentann",
+                    "display":"Current Annual Rent: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field8":{
+                    "value":"annualrent",
+                    "display":"Current Annual Rent per SF: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field9":{
+                    "value":"fullyservi",
+                    "display":"Fully Serviced: ",
+                    "fieldtype":"text",
+                    "units": null
+                },
+                "field10":{
+                    "value":"leaseeffec",
+                    "display":"Lease Effective: ",
+                    "fieldtype":"text",
+                    "units": null
+                },
+                "field11":{
+                    "value":"leaseexpir",
+                    "display":"Lease Expiration: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field12":{
+                    "value":"terminatio",
+                    "display":"Termination Right Date: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field13":{
+                    "value":"renewalopt",
+                    "display":"Renewal Option Term: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field14":{
+                    "value":"renewalo_1",
+                    "display":"Renewal Options Left: ",
+                    "fieldtype":"text",
+                    "units": null
+                },
+                "field15":{
+                    "value":"latestacti",
+                    "display":"Latest Action Affecting Term: ",
+                    "fieldtype":"text",
+                    "units": null
+                },
+                "field16":{
+                    "value":"leasestruc",
+                    "display":"Lease Structure Parking: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field17":{
+                    "value":"leasesurfa",
+                    "display":"Lease Surface Parking: ",
+                    "fieldtype":"text",
+                    "units":null
+                }
+            }
         }
     }
 }

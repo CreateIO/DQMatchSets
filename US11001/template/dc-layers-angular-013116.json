@@ -4472,6 +4472,83 @@
             "category": "4",
             "subCategory": "1",
             "order": 11
+        },
+        "gsaGeomFull": {
+            "id": 46,
+            "displayName": "GSA Leases",
+            "mouseoverName": "GSA Leases",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": "Limited"
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/gsaLeases.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/geoJSON/prod/icons/GSABillboard.png",
+            "colors": {
+                "type": "?",
+                "hex": {
+                }
+            },
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "gsaGeomFull"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Data: GSA Leases'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "gsaGeomFull"
+                        }
+                    }
+                },
+                "infoboxAdd": {
+                    "service": "infoBoxService",
+                    "functionName": "getCirclesGSA",
+                    "parameters": {
+                        "param1": "https://s3.amazonaws.com/models-dc/geoJSON/prod/gsaGeomFull.geojson",
+                        "param2": "status",
+                        "param3": "resunits",
+                        "param4": 100,
+                        "param5": 400,
+                        "param6": 1000,
+                        "param7": 3500
+                    }
+                },
+                "infoboxRemove": {
+                    "service": "infoBoxService",
+                    "functionName": "clearBufferRings",
+                    "parameters": {
+                        "param1": "https://s3.amazonaws.com/models-dc/geoJSON/prod/gsaGeomFull.geojson"
+                    }
+                },
+                "emits": {
+                    "emit1": {
+                        "type": "remove",
+                        "parameters": {
+                            "param1": "clearBillboard"
+                        }
+                    }
+                }
+            },
+            "category": "3",
+            "subCategory": "1",
+            "order": 3
         }
     }
 }
