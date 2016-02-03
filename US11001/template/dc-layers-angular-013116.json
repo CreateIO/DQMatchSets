@@ -4527,7 +4527,7 @@
                     "service": "infoBoxService",
                     "functionName": "getCirclesGSA",
                     "parameters": {
-                        "param1": "https://s3.amazonaws.com/models-dc/geoJSON/prod/gsaGeomFull.geojson",
+                        "param1": "https://s3.amazonaws.com/models-dc/geoJSON/prod/gsaGeomFullPoint.geojson",
                         "param2": "expiryear",
                         "param3": "leaseagree",
                         "param4": 25000,
