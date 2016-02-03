@@ -39,7 +39,7 @@
                     "value":"totalsf",
                     "display":"Total SF: ",
                     "fieldtype":"number",
-                    "units":"SF"
+                    "units":" SF"
                 },
                 "field6":{
                     "value":"resunits",
@@ -100,7 +100,7 @@
                     "value":"totalsf",
                     "display":"Total SF: ",
                     "fieldtype":"number",
-                    "units":"SF"
+                    "units":" SF"
                 },
                 "field6":{
                     "value":"resunits",
@@ -161,13 +161,13 @@
                     "value":"totalsf",
                     "display":"Total SF: ",
                     "fieldtype":"number",
-                    "units":"SF"
+                    "units":" SF"
                 },
                 "field6":{
                     "value":"retailsf",
                     "display":"Retail SF: ",
                     "fieldtype":"number",
-                    "units":"SF"
+                    "units":" SF"
                 },
                 "field7":{
                     "value":"developers",
@@ -222,13 +222,13 @@
                     "value":"totalsf",
                     "display":"Total SF: ",
                     "fieldtype":"number",
-                    "units":"SF"
+                    "units":" SF"
                 },
                 "field6":{
                     "value":"retailsf",
                     "display":"Retail SF: ",
                     "fieldtype":"number",
-                    "units":"SF"
+                    "units":" SF"
                 },
                 "field7":{
                     "value":"developers",
@@ -280,10 +280,10 @@
                     "units":null
                 },
                 "field4":{
-                    "value":"sf",
+                    "value":" SF",
                     "display":"Total SF: ",
                     "fieldtype":"number",
-                    "units":"SF"
+                    "units":" SF"
                 },
                 "field5":{
                     "value":null,
@@ -434,10 +434,10 @@
                     "units":null
                 },
                 "field4":{
-                    "value":"sf",
+                    "value":" SF",
                     "display":"Total SF: ",
                     "fieldtype":"number",
-                    "units":"SF"
+                    "units":" SF"
                 },
                 "field5":{
                     "value":null,
@@ -563,10 +563,10 @@
                     "units":null
                 },
                 "field4":{
-                    "value":"SF",
+                    "value":" SF",
                     "display":"Total SF: ",
                     "fieldtype":"number",
-                    "units":"SF"
+                    "units":" SF"
                 },
                 "field5":{
                     "value":null,
@@ -634,7 +634,7 @@
                     "value":"availables",
                     "display":"Avail. SF: ",
                     "fieldtype":"number",
-                    "units":"SF"
+                    "units":" SF"
                 },
                 "field4":{
                     "value":"availabili",
@@ -921,8 +921,8 @@
                 "field4":{
                     "value":"leaseagree",
                     "display":"Lease Agreement RSF: ",
-                    "fieldtype":"text",
-                    "units":null
+                    "fieldtype":"number",
+                    "units":" SF"
                 },
                 "field5":{
                     "value":"percentoff",
@@ -939,14 +939,14 @@
                 "field7":{
                     "value":"currentann",
                     "display":"Current Annual Rent: ",
-                    "fieldtype":"text",
-                    "units":null
+                    "fieldtype":"number-no-cents",
+                    "units":"$"
                 },
                 "field8":{
                     "value":"annualrent",
-                    "display":"Current Annual Rent per SF: ",
-                    "fieldtype":"text",
-                    "units":null
+                    "display":"Current Annual Rent/SF: ",
+                    "fieldtype":"number-with-cents",
+                    "units":"$"
                 },
                 "field9":{
                     "value":"fullyservi",
