@@ -4540,7 +4540,7 @@
                     "service": "infoBoxService",
                     "functionName": "clearBufferRings",
                     "parameters": {
-                        "param1": "https://s3.amazonaws.com/models-dc/geoJSON/prod/gsaGeomFull.geojson"
+                        "param1": "https://s3.amazonaws.com/models-dc/geoJSON/prod/gsaGeomFullPoint.geojson"
                     }
                 },
                 "emits": {
