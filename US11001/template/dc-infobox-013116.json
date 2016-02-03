@@ -921,8 +921,8 @@
                 "field4":{
                     "value":"leaseagree",
                     "display":"Lease Agreement RSF: ",
-                    "fieldtype":"text",
-                    "units":null
+                    "fieldtype":"number",
+                    "units":"SF"
                 },
                 "field5":{
                     "value":"percentoff",
@@ -939,14 +939,14 @@
                 "field7":{
                     "value":"currentann",
                     "display":"Current Annual Rent: ",
-                    "fieldtype":"text",
-                    "units":null
+                    "fieldtype":"number-no-cents",
+                    "units":"$"
                 },
                 "field8":{
                     "value":"annualrent",
-                    "display":"Current Annual Rent per SF: ",
-                    "fieldtype":"text",
-                    "units":null
+                    "display":"Current Annual Rent/SF: ",
+                    "fieldtype":"number-with-cents",
+                    "units":"$"
                 },
                 "field9":{
                     "value":"fullyservi",
