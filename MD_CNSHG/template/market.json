@@ -8,8 +8,9 @@
       "tag": "CN07006"
     }],
   "camera": [
-	{"name": "At The River", "frontVect": {"type":"LineString","coordinates":[[121.51836104 31.20768722],[121.51856104 31.20768722]], "height": 400}}
+	{"name": "At The River", 
+      "frontVect": {"type":"LineString",
+                              "coordinates":[[121.51836104,31.20768722],[121.51856104,31.20768722]], "height": 400}}
       ],
   "geocoder": { "searchTag": "cnshg", "searchText": "Shanghai, China" }
 }
-
