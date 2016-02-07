@@ -19,6 +19,13 @@
   "initials": "BACI",
   "abbreviation": "BACI",
   "code": "MD_BACI"
+},
+{
+  "name": "Shanghai, China",
+  "title": "Shanghai, CN",
+  "initials": "CNSHG",
+  "abbreviation": "CNSHG",
+  "code": "MD_CNSHG"
 }
 ]
 
