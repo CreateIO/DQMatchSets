@@ -11,7 +11,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendZoning",
+            "urlLegend": "../../legends/layerLegendZoning.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png",
             "colors": {
                 "type": "?",
@@ -82,7 +82,25 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendPUD.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "sourceURL": "http://dcoz.dc.gov/info/reg/chapter_24.pdf",
+                "sourceDescription": "DCOZ",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#FFFF00",
+                        "boxDescription": "PUD - Active",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#EF819E",
+                        "boxDescription": "PUD - Pending",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
             "colors": {
                 "type": "single",
@@ -147,9 +165,41 @@
             },
             "isActive": false,
             "layerUsed": true,
-            "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendTDR.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Receiving zones for transferrable development rights",
+                "sourceURL": "http://www.dcregs.dc.gov/Gateway/RuleHome.aspx?RuleNumber=11-1709",
+                "sourceDescription": "DCOZ",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#e78ac3",
+                        "boxDescription": "Southwest",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#FED23E",
+                        "boxDescription": "North Capitol",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#8da0cb",
+                        "boxDescription": "Downtown East",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxStyle": "background:#66c2a5",
+                        "boxDescription": "New Downtown",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxStyle": "background:#a6d854",
+                        "boxDescription": "South Capitol",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/TDR.png",
             "colors": {
                 "type": "multi",
@@ -250,7 +300,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerOverlayArts.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Arts mixed-use overlay zones encourage development of arts and retail development in both downtown and uptown neighborhoods.",
+                "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
+                "sourceDescription": "DCOZ",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#FFFD37",
+                        "boxDescription": "Arts",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ART.png",
             "colors": {
                 "type": "single",
@@ -300,7 +363,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerOverlayGovDip.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Government and diplomatic overlay zones have special requirements related to historic preservation, density, and use restrictions.",
+                "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
+                "sourceDescription": "DCOZ",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#E85862",
+                        "boxDescription": "Government",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/GD.png",
             "colors": {
                 "type": "single",
@@ -350,7 +426,25 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerOverlayHotel.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Hotel incentive and housing priority overlay zones encourage downtown lodging and residential development.",
+                "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
+                "sourceDescription": "DCOZ",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#A55D61",
+                        "boxDescription": "Housing Priority Areas",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#FFAAD4",
+                        "boxDescription": "Hotel & Residential Incentive Areas",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HTL.png",
             "colors": {
                 "type": "multi",
@@ -401,7 +495,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerOverlayMixedUse.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Downtown mixed-use development overlay zones encourage high-density mixed-use development goals for downtown commercial districts.",
+                "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
+                "sourceDescription": "DCOZ",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#D2B953",
+                        "boxDescription": "Downtown Mixed Use Development",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/DT.png",
             "colors": {
                 "type": "single",
@@ -451,7 +558,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerOverlayNeighComm.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Neighborhood commercial overlay zones establish pedestrian and mixed use development goals specific to each neighborhood.",
+                "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
+                "sourceDescription": "DCOZ",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#86C3D9",
+                        "boxDescription": "Neighborhood Commercial",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/NC.png",
             "colors": {
                 "type": "single",
@@ -501,7 +621,25 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerOverlayOpenSpace.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Neighborhood and open space preservation overlays zones aim to preserve and enhance low-rise residential neighborhoods and natural areas.",
+                "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
+                "sourceDescription": "DCOZ",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#398D54",
+                        "boxDescription": "Preservation - Nature",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#8F5183",
+                        "boxDescription": "Residential Neighborhood",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/NOS.png",
             "colors": {
                 "type": "multi",
@@ -552,7 +690,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendHistoricCorridors.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Historic Districts comprised of areas associated with historic traffic corridors to be preserved.",
+                "sourceURL": "http://www.dcpreservation.org/historic-districts-coalition/",
+                "sourceDescription": "DC PRESERVATION",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#1951AB",
+                        "boxDescription": "Historic Corridors",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HDC.png",
             "colors": {
                 "type": "single",
@@ -618,7 +769,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendHistoricInstitutions.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Historic Districts associated with the grounds of current or former institutions to be preserved.",
+                "sourceURL": "http://www.dcpreservation.org/historic-districts-coalition/",
+                "sourceDescription": "DC PRESERVATION",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#FFFF21",
+                        "boxDescription": "Historic Institutions",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HDI.png",
             "colors": {
                 "type": "single",
@@ -684,7 +848,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendHistoricNeighborhoods.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Neighborhood commercial overlay zones establish pedestrian and mixed use development goals specific to each neighborhood.",
+                "sourceURL": "http://www.dcpreservation.org/historic-districts-coalition/",
+                "sourceDescription": "DC PRESERVATION",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#8E0A93",
+                        "boxDescription": "Historic Neighborhoods",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HDN.png",
             "colors": {
                 "type": "single",
@@ -750,7 +927,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendHistoricParks.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Historic Districts associated with the grounds of parks or other natural areas to be preserved.",
+                "sourceURL": "http://www.dcpreservation.org/historic-districts-coalition/",
+                "sourceDescription": "DC PRESERVATION",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#56D894",
+                        "boxDescription": "Historic Parks",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HDP.png",
             "colors": {
                 "type": "single",
@@ -816,7 +1006,35 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerRetailHeat.jade",
+            "urlLegend": "../../legends/template-color-ramp.jade",
+            "legendContents": {
+                "description": "Retail space: Where people shop & play.",
+                "sourceURL": "http://otr.cfo.dc.gov/",
+                "sourceDescription": "DC Office of Tax & Revenue",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#FFF5EB",
+                        "boxDescription": "Moderate"
+                    },
+                    "item2": {
+                        "boxStyle": "background:#FCDBD4",
+                        "boxDescription": ""
+                    },
+                    "item3": {
+                        "boxStyle": "background:#F9B6AE",
+                        "boxDescription": ""
+                    },
+                    "item4": {
+                        "boxStyle": "background:#F6917E",
+                        "boxDescription": ""
+                    },
+                    "item5": {
+                        "boxStyle": "background:#F37451",
+                        "boxDescription": "High"
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/RHM.png",
             "colors": {
                 "type": "multi",
@@ -870,7 +1088,35 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerOfficeHeat.jade",
+            "urlLegend": "../../legends/template-color-ramp.jade",
+            "legendContents": {
+                "description": "Office space: Where people work.",
+                "sourceURL": "http://otr.cfo.dc.gov/",
+                "sourceDescription": "DC Office of Tax & Revenue",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#EEF7FD",
+                        "boxDescription": "Moderate"
+                    },
+                    "item2": {
+                        "boxStyle": "background:#D7EAF8",
+                        "boxDescription": ""
+                    },
+                    "item3": {
+                        "boxStyle": "background:#B7D3EF",
+                        "boxDescription": ""
+                    },
+                    "item4": {
+                        "boxStyle": "background:#78C9F1",
+                        "boxDescription": ""
+                    },
+                    "item5": {
+                        "boxStyle": "background:#55AADE",
+                        "boxDescription": "High"
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ODH.png",
             "colors": {
                 "type": "multi",
@@ -924,7 +1170,35 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerResidentialHeat.jade",
+            "urlLegend": "../../legends/template-color-ramp.jade",
+            "legendContents": {
+                "description": "Residential density: Where people live.",
+                "sourceURL": "http://otr.cfo.dc.gov/",
+                "sourceDescription": "DC Office of Tax & Revenue",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#CCF2DE",
+                        "boxDescription": "test"
+                    },
+                    "item2": {
+                        "boxStyle": "background:#ADF2CE",
+                        "boxDescription": ""
+                    },
+                    "item3": {
+                        "boxStyle": "background:#58D895",
+                        "boxDescription": ""
+                    },
+                    "item4": {
+                        "boxStyle": "background:#21C16D",
+                        "boxDescription": ""
+                    },
+                    "item5": {
+                        "boxStyle": "background:#009C50",
+                        "boxDescription": "High"
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/RDH.png",
             "colors": {
                 "type": "multi",
@@ -978,7 +1252,30 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendFloodLayer.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Derived from Flood Insurance Rate Maps (FIRMs) which are used for insurance rating purposes.",
+                "sourceURL": "http://www.corelogic.com/",
+                "sourceDescription": "CoreLogic ®",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#265da3",
+                        "boxDescription": "A/AE (Extreme Risk)",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#37b7c2",
+                        "boxDescription": "A/AE (Very High Risk)",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#a1dab4",
+                        "boxDescription": "x500 (Moderate Risk)",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/FZ.png",
             "colors": {
                 "type": "multi",
@@ -1030,7 +1327,30 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendCoastalSurge.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "CoreLogic® has developed a comprehensive risk model that assesses storm surge risk. Incorporates off-shore variables, on-shore variables, and storm heights derived from category 1-5 hurricanes.",
+                "sourceURL": "http://www.corelogic.com/",
+                "sourceDescription": "CoreLogic ®",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#08519c",
+                        "boxDescription": "Very High (includes water)",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#756bb1",
+                        "boxDescription": "High",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#cbc9e2",
+                        "boxDescription": "Moderate",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/CSA.png",
             "colors": {
                 "type": "multi",
@@ -1148,7 +1468,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerCommercialSub.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Commercial Submarkets - Areas within the city anchored by distinct office and retail uses of various density and service.",
+                "sourceURL": "http://www.census.gov/geo/maps-data/",
+                "sourceDescription": "?",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#FFFFFF; display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle; border: 2.5px solid #E17A25;",
+                        "boxDescription": "Commercial Submarkets",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/CS.png",
             "colors": {
                 "type": "outline",
@@ -1214,7 +1547,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/wdcepNeighborhoods.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Click on icons for details.",
+                "sourceURL": "http://www.wdcep.com/",
+                "sourceDescription": "WDCEP",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-wdcep.png",
+                        "boxDescription": "WDCEP Neighborhoods."
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/WND.png",
             "colors": {
                 "type": "?",
@@ -1271,7 +1617,57 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendCampus.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "",
+                "sourceURL": "http://www.dczoningupdate.org/campusinstitutional.asp?area=cil",
+                "sourceDescription": "DCOZ",
+                "type": "doubleColumn",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxStyle": "background:#7570b3;",
+                        "boxDescription": "Gallaudet University",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#377eb8;",
+                        "boxDescription": "Howard University",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#fc8d62;",
+                        "boxDescription": "George Washington University",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxStyle": "background:#ffff33;",
+                        "boxDescription": "Catholic University",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxStyle": "background:#4daf4a;",
+                        "boxDescription": "Wesley Theological Seminary",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#e41a1c;",
+                        "boxDescription": "Harvard University",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#a65628;",
+                        "boxDescription": "Georgetown University",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxStyle": "background:#f781bf;",
+                        "boxDescription": "American University",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/CAM.png",
             "colors": {
                 "type": "multi",
@@ -1328,7 +1724,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerCensusTracts.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "",
+                "sourceURL": "http://www.census.gov/geo/maps-data/",
+                "sourceDescription": "US Census Bureau",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#FFFFFF; display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle; border: 2.5px solid #7AFF00;",
+                        "boxDescription": "Census Tracts - 2010",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/CEN.png",
             "colors": {
                 "type": "outline",
@@ -1394,7 +1803,57 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendWard.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "sourceURL": "http://www.neighborhoodinfodc.org/wards/wards.html",
+                "sourceDescription": "DC COUNCIL",
+                "type": "doubleColumn",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxStyle": "background:#98E0C9;",
+                        "boxDescription": "Ward 1",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#EAAF81;",
+                        "boxDescription": "Ward 2",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#BFC0DD;",
+                        "boxDescription": "Ward 3",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxStyle": "background:#F39CCA;",
+                        "boxDescription": "Ward 4",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxStyle": "background:#9FDB86;",
+                        "boxDescription": "Ward 5",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#F8E281;",
+                        "boxDescription": "Ward 6",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#B1B2B0;",
+                        "boxDescription": "Ward 7",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxStyle": "background:#E1C89B;",
+                        "boxDescription": "Ward 8",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/WRD.png",
             "colors": {
                 "type": "multi",
@@ -1453,7 +1912,30 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendSMD.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "",
+                "sourceURL": "http://www.anc2f.org/smd/",
+                "sourceDescription": "ANC DC",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#FFFFFF; display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle; border: 2.5px solid #6B95C1;",
+                        "imageUrl": null,
+                        "boxDescription": "SMD boundaries"
+                    },
+                    "item2": {
+                        "boxStyle": "background:#FFFFFF; display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle; border: 2.5px solid #B4518F;",
+                        "imageUrl": null,
+                        "boxDescription": "ANC boundaries"
+                    },
+                    "item3": {
+                        "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-smd.png",
+                        "boxDescription": "Click for more info on SMD & ANC."
+                    }
+                }
+            }, 
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/ANC.png",
             "colors": {
                 "type": "multi",
@@ -1506,7 +1988,57 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendMetroRail.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Projected Population Growth (2015-2020 by Neighborhood)",
+                "sourceURL": "https://developers.arcgis.com/en/features/geo-enrichment/",
+                "sourceDescription": "ESRI",
+                "type": "doubleColumn",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxStyle": "background:#DE3B38;",
+                        "boxDescription": "Red Line",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#FFDF01;",
+                        "boxDescription": "Yellow Line",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#2C5E51;",
+                        "boxDescription": "Green Line",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxStyle": "background:#273B74;",
+                        "boxDescription": "Blue Line",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxStyle": "background:#ED7D42;",
+                        "boxDescription": "Orange Line",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#D0CFD4;",
+                        "imageUrl": null,
+                        "boxDescription": "Silver Line"
+                    },
+                    "item3": {
+                        "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metroEntrance.png",
+                        "boxDescription": "Station Entrances"
+                    },
+                    "item4": {
+                        "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metro.png",
+                        "boxDescription": "Stations (click for more info)"
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/MET.png",
             "colors": {
                 "type": "multi",
@@ -1577,7 +2109,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendMetroBus.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "",
+                "sourceURL": "http://www.wmata.com/bus/",
+                "sourceDescription": "WMATA",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-bus-green.png",
+                        "boxDescription": "Metro Bus Stops."
+                    }
+                }
+            },  
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/MB.png",
             "colors": {
                 "type": "?",
@@ -1632,7 +2177,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/wdcepGS.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Click on icons for details.",
+                "sourceURL": "http://www.wdcep.com/",
+                "sourceDescription": "WDCEP",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/GS.png",
+                        "boxDescription": "Grocery Store Locations."
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/GS.png",
             "colors": {
                 "type": "icon",
@@ -1689,7 +2247,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/wdcepPH.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Click on icons for details.",
+                "sourceURL": "http://www.wdcep.com/",
+                "sourceDescription": "WDCEP",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PH.png",
+                        "boxDescription": "Pharmacy Locations."
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PH.png",
             "colors": {
                 "type": "icon",
@@ -1746,7 +2317,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/wdcepMOV.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Click on icons for details.",
+                "sourceURL": "http://www.wdcep.com/",
+                "sourceDescription": "WDCEP",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/MOV.png",
+                        "boxDescription": "Movie Theatre Locations."
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/MOV.png",
             "colors": {
                 "type": "icon",
@@ -1860,7 +2444,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerDevSitePlans.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Example site plan shown above.",
+                "sourceURL": "http://www.wdcep.com/",
+                "sourceDescription": "WDCEP",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "width: 183px; display: block; margin-left: 26px;",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/sitePlan-sm.png",
+                        "boxDescription": "Development site plans for proposed or projects under construction."
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/DSP.png",
             "colors": {
                 "type": "?",
@@ -2225,7 +2822,42 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendTotalHousingUnitsGrowth.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Projected Total Housing Units Growth (2015-2020 by Neighborhood)",
+                "sourceURL": "https://developers.arcgis.com/en/features/geo-enrichment/",
+                "sourceDescription": "ESRI",
+                "type": "doubleColumn",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxStyle": "background:#feebe2;",
+                        "boxDescription": "(-5)-0%",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#fbb4b9;",
+                        "boxDescription": "0-5%",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#f768a1;",
+                        "boxDescription": "5-10%",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxStyle": "background:#c51b8a;",
+                        "boxDescription": "10-15%",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#7a0177;",
+                        "boxDescription": "15-20%",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/esri/THU.png",
             "colors": {
                 "type": "multi",
@@ -2276,7 +2908,47 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendTotalHomeValueGrowth.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Projected Home Value Growth (2015-2020 by Neighborhood)",
+                "sourceURL": "https://developers.arcgis.com/en/features/geo-enrichment/",
+                "sourceDescription": "ESRI",
+                "type": "doubleColumn",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxStyle": "background:#f1eef6;",
+                        "boxDescription": "(-5)-0%",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#d4b9da;",
+                        "boxDescription": "0-10%",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#c994c7;",
+                        "boxDescription": "10-20%",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxStyle": "background:#df65b0;",
+                        "boxDescription": "20-30%",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#dd1c77;",
+                        "boxDescription": "30-40%",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#980043;",
+                        "boxDescription": "40% +",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/esri/THV.png",
             "colors": {
                 "type": "multi",
@@ -2327,7 +2999,42 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendTotalHouseholdIncomeGrowth.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Projected Median Household Income Growth (2015-2020 by Neighborhood)",
+                "sourceURL": "https://developers.arcgis.com/en/features/geo-enrichment/",
+                "sourceDescription": "ESRI",
+                "type": "doubleColumn",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxStyle": "background:#ffffb2;",
+                        "boxDescription": "(-5)-0%",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#fed976;",
+                        "boxDescription": "0-10%",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#fd8d3c;",
+                        "boxDescription": "10-20%",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxStyle": "background:#f03b20;",
+                        "boxDescription": "20-30%",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#bd0026;",
+                        "boxDescription": "30-40%",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/esri/THI.png",
             "colors": {
                 "type": "multi",
@@ -2378,7 +3085,47 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendTotalHouseholdsGrowth.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Projected Total Households Growth (2015-2020 by Neighborhood)",
+                "sourceURL": "https://developers.arcgis.com/en/features/geo-enrichment/",
+                "sourceDescription": "ESRI",
+                "type": "doubleColumn",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxStyle": "background:#f0f9e8;",
+                        "boxDescription": "(-5)-0%",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#ccebc5;",
+                        "boxDescription": "0-5%",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#a8ddb5;",
+                        "boxDescription": "5-10%",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxStyle": "background:#7bccc4;",
+                        "boxDescription": "10-15%",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#43a2ca;",
+                        "boxDescription": "15-20%",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#0868ac;",
+                        "boxDescription": "20-25%",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/esri/THG.png",
             "colors": {
                 "type": "multi",
@@ -2429,7 +3176,47 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendPopGrowth.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Projected Population Growth (2015-2020 by Neighborhood)",
+                "sourceURL": "https://developers.arcgis.com/en/features/geo-enrichment/",
+                "sourceDescription": "ESRI",
+                "type": "doubleColumn",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxStyle": "background:#edf8fb;",
+                        "boxDescription": "(-5)-0%",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#bfd3e6;",
+                        "boxDescription": "0-5%",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#9ebcda;",
+                        "boxDescription": "5-10%",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxStyle": "background:#8c96c6;",
+                        "boxDescription": "10-15%",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#8856a7;",
+                        "boxDescription": "15-20%",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#810f7c;",
+                        "boxDescription": "20-25%",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/esri/PG.png",
             "colors": {
                 "type": "multi",
@@ -2480,7 +3267,62 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendBID.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "",
+                "sourceURL": "http://dslbd.dc.gov/service/business-improvement-districts-bids",
+                "sourceDescription": "DSLBD",
+                "type": "doubleColumn",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxStyle": "background:#e41a1c;",
+                        "boxDescription": "Capitol Hill BID",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#377eb8;",
+                        "boxDescription": "Golden Triangle BID",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#4daf4a;",
+                        "boxDescription": "Anacostia BID",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxStyle": "background:#984ea3;",
+                        "boxDescription": "Captiol Riverfront BID",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxStyle": "background:#ff7f00;",
+                        "boxDescription": "Adams Morgan BID",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxStyle": "background:#ffff33;",
+                        "boxDescription": "Adams Morgan BID",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#a65628;",
+                        "boxDescription": "Mount Vernon Triangle BID",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#f781bf;",
+                        "boxDescription": "Georgetown BID",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxStyle": "background:#999999;",
+                        "boxDescription": "NoMa BID",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/BID.png",
             "colors": {
                 "type": "multi",
@@ -2530,7 +3372,7 @@
         "Great Streets": {
             "id": 50,
             "displayName": "Great Streets",
-            "mouseoverName": "Great Street Corridors",
+            "mouseoverName": "Great Streets",
             "denyToggle": false,
             "denyList": {
                 "denyList1": null
@@ -2538,7 +3380,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendGreatStreets.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Great Streets is a multi-year and multiple agency effort to transform under-invested corridors into thriving and inviting neighborhood centers using public actions and resources, as needed, to leverage private investment in retail, housing, offices and cultural facilities.",
+                "sourceURL": "http://greatstreets.dc.gov/",
+                "sourceDescription": "DCGIS",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#F1B000",
+                        "boxDescription": "Great Streets",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/GSC.png",
             "colors": {
                 "type": "single",
@@ -2580,7 +3435,7 @@
         "HUBs": {
             "id": 53,
             "displayName": "HUBs",
-            "mouseoverName": "Historically Underutilized Businesses",
+            "mouseoverName": "HUB Zone",
             "denyToggle": false,
             "denyList": {
                 "denyList1": null
@@ -2588,7 +3443,25 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendHUB.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "The Historically Underutilized Business (HUB) Zone Initiative helps small businesses gain preferential access to federal procurement opportunities.",
+                "sourceURL": "http://dslbd.dc.gov/service/historically-underutilized-business-hub-zone-initiative",
+                "sourceDescription": "DSLBD",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#00B400",
+                        "boxDescription": "Status: Qualified",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#FFCB94",
+                        "boxDescription": "Status: Redesignated",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HUB.png",
             "colors": {
                 "type": "single",
@@ -2617,7 +3490,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Data: Historically Underutilized Businesses'"
+                        "param1": "'Data: HUB Zone'"
                     }
                 },
                 "removeFunctions": {
@@ -2654,7 +3527,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendSupermarket.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Through the Supermarket Tax Exemption Act of 2000, the District waives certain taxes and fees to supermarkets that locate in specific neighborhoods.",
+                "sourceURL": "http://www.wdcep.com/industry-initiatives/retail/grocery-stores/",
+                "sourceDescription": "WDCEP",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#CF8499",
+                        "boxDescription": "Supermarket Tax Credit Zone",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/STC.png",
             "colors": {
                 "type": "single",
@@ -2693,10 +3579,10 @@
             "subCategory": "1",
             "order": 4
         },
-        "High Technology Development Zone": {
+        "High Technology Development": {
             "id": 34,
             "displayName": "HTDZ",
-            "mouseoverName": "High Technology Development Zone",
+            "mouseoverName": "High Technology Development",
             "denyToggle": false,
             "denyList": {
                 "denyList1": null
@@ -2704,7 +3590,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendTechnology.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Qualified high technology companies located within this zone (all of DC) may be eligible for incentive programs.",
+                "sourceURL": "http://app.cfo.dc.gov/services/tax/forms/forms/HiTech_Pub399.pdf",
+                "sourceDescription": "DC Office of Tax & Revenue",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#96C3AF",
+                        "boxDescription": "High Technology Development",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HTD.png",
             "colors": {
                 "type": "single",
@@ -2725,7 +3624,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Data: High Technology Development Zone'"
+                        "param1": "'Data: High Technology Development"
                     }
                 },
                 "removeFunctions": {
@@ -2746,7 +3645,7 @@
         "Central Employment Area": {
             "id": 25,
             "displayName": "CEA",
-            "mouseoverName": "Central Employment Area",
+            "mouseoverName": "Central Employment Area (Federal)",
             "denyToggle": false,
             "denyList": {
                 "denyList1": null
@@ -2754,7 +3653,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendCEA.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Areas typically designated by the Federal Government as the delineated search area for office lease procurements.",
+                "sourceURL": "http://dcra.dc.gov/release/expansion-district-columbia-central-employment-area",
+                "sourceDescription": "DCRA",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#EDAE39",
+                        "boxDescription": "Central Employment Area (Federal)",
+                        "imageUrl": null
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/CEA.png",
             "colors": {
                 "type": "single",
@@ -2804,8 +3716,21 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendIRB.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HTD.png",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "The District of Columbia Revenue Bond Program provides market interest rate loans to help lower cost of funds available for capital projects.",
+                "sourceURL": "http://dmped.dc.gov/page/dc-revenue-bond-program",
+                "sourceDescription": "DMPED",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#59017D",
+                        "boxDescription": "IRB-Tax Exempt Bond Financing (Industrial Revenue Bonds)",
+                        "imageUrl": null
+                    }
+                }
+            },
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/IRB.png",
             "colors": {
                 "type": "single",
                 "hex": {
@@ -2854,7 +3779,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/wdcepBookmarks.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Click on icons for details.",
+                "sourceURL": "http://www.wdcep.com/",
+                "sourceDescription": "WDCEP",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-wdcep.png",
+                        "boxDescription": "WDCEP Bookmarks"
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/BMK.png",
             "colors": {
                 "type": "?",
@@ -2911,7 +3849,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/wdcep711.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Click on icons for details.",
+                "sourceURL": "http://www.wdcep.com/",
+                "sourceDescription": "WDCEP",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/711.png",
+                        "boxDescription": "7-Eleven Locations."
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/711.png",
             "colors": {
                 "type": "icon",
@@ -2968,7 +3919,25 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/wdcepChipotle.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Click on icons for details.",
+                "sourceURL": "http://www.wdcep.com/",
+                "sourceDescription": "WDCEP",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-chipotle.png",
+                        "boxDescription": "Chipotle Locations"
+                    },
+                    "item2": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-shophouse.png",
+                        "boxDescription": "Chophouse Locations"
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/CHP.png",
             "colors": {
                 "type": "icon",
@@ -3025,7 +3994,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/wdcepPB.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Click on icons for details.",
+                "sourceURL": "http://www.wdcep.com/",
+                "sourceDescription": "WDCEP",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PB.png",
+                        "boxDescription": "PotBelly Locations."
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PB.png",
             "colors": {
                 "type": "icon",
@@ -3082,7 +4064,20 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/wdcepS.jade",
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Click on icons for details.",
+                "sourceURL": "http://www.wdcep.com/",
+                "sourceDescription": "WDCEP",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/S.png",
+                        "boxDescription": "Subway Locations."
+                    }
+                }
+            },            
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/S.png",
             "colors": {
                 "type": "icon",
@@ -3174,9 +4169,309 @@
                     }
                 }
             },
+            "category": "3",
+            "subCategory": "1",
+            "order": 2
+        },
+        "taxAbatement": {
+            "id": 45,
+            "displayName": "taxAbatement",
+            "mouseoverName": "Nonprofit Tax Abatement",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "",
+                "sourceURL": "http://www.dcregs.dc.gov/Notice/DownLoad.aspx?NoticeID=573093",
+                "sourceDescription": "DMPED",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#e41a1c",
+                        "boxDescription": "NoMa Nonprofit Zone",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#377eb8",
+                        "boxDescription": "Mount Vernon Triangle Nonprofit Zone",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#4daf4a",
+                        "boxDescription": "Capitol Riverfront Nonprofit Zone",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxStyle": "background:#984ea3",
+                        "boxDescription": "Anacostia Nonprofit Zone",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxStyle": "background:#ff7f00",
+                        "boxDescription": "Minnesota-Benning Nonprofit Zone",
+                        "imageUrl": null
+                    }
+                }
+            },
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/NTA.png",
+            "colors": {
+                "type": "multi",
+                "hex": {
+                    "hex1": "#e41a1c",
+                    "hex2": "#377eb8",
+                    "hex3": "#4daf4a",
+                    "hex4": "#984ea3",
+                    "hex5": "#ff7f00"
+                }
+            },
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "taxAbatement"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Data: non-profit tax abatement'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "taxAbatement"
+                        }
+                    }
+                },
+                "emits": {
+                }
+            },
             "category": "4",
             "subCategory": "1",
-            "order": 7
+            "order": 8
+        },
+        "Workforce Investment Council (WIC)": {
+            "id": 34,
+            "displayName": "WIC",
+            "mouseoverName": "Workforce Investment Council (WIC)",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "",
+                "sourceURL": "  http://dmped.dc.gov/node/606062",
+                "sourceDescription": "DMPED",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#4789EA",
+                        "boxDescription": "Workforce Investment Council (WIC)",
+                        "imageUrl": null
+                    }
+                }
+            },
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/WIC.png",
+            "colors": {
+                "type": "single",
+                "hex": {
+                    "hex1": "#96C3AF"
+                }
+            },
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "WIC"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Data: Workforce Investment Council (WIC)"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "WIC"
+                        }
+                    }
+                }
+            },
+            "category": "4",
+            "subCategory": "1",
+            "order": 9
+        },
+        "anacostia": {
+            "id": 45,
+            "displayName": "anacostia",
+            "mouseoverName": "Anacostia Waterfront Initiative",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "",
+                "sourceURL": "http://dmped.dc.gov/page/anacostia-waterfront-intiative",
+                "sourceDescription": "DMPED",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#C9C5FC",
+                        "boxDescription": "Anacostia Waterfront Initiative",
+                        "imageUrl": null
+                    }
+                }
+            },
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/AWI.png",
+            "colors": {
+                "type": "multi",
+                "hex": {
+                    "hex1": "#4789EA"
+                }
+            },
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "anacostia"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Data: Anacostia Waterfront Initiative'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "anacostia"
+                        }
+                    }
+                },
+                "emits": {
+                }
+            },
+            "category": "4",
+            "subCategory": "1",
+            "order": 10
+        },
+        "NCI": {
+            "id": 45,
+            "displayName": "NCI",
+            "mouseoverName": "New Communities Initiative (NCI)",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "",
+                "sourceURL": "http://dmped.dc.gov/page/new-communities-initiative-nci",
+                "sourceDescription": "DMPED",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#E91934",
+                        "boxDescription": "Barry Farm",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#294583",
+                        "boxDescription": "North West One",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#0CA763",
+                        "boxDescription": "Park Morton",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxStyle": "background:#F5BD00",
+                        "boxDescription": "Lincoln Heights - Richardson Dwellings",
+                        "imageUrl": null
+                    }
+                }
+            },
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/NCI.png",
+            "colors": {
+                "type": "multi",
+                "hex": {
+                    "hex1": "#E91934",
+                    "hex2": "#294583",
+                    "hex3": "#0CA763",
+                    "hex4": "#F5BD00"
+                }
+            },
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "NCI"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Data: New Communities Initiative (NCI)'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "NCI"
+                        }
+                    }
+                },
+                "emits": {
+                }
+            },
+            "category": "4",
+            "subCategory": "1",
+            "order": 11
         }
     }
 }
