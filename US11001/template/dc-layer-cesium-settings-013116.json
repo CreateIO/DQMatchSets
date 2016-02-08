@@ -2624,7 +2624,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "wdcepbookmarksBB",
-                        "url": "../../images/maki/circle-wdcep.png",
+                        "url": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-wdcep.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -2774,7 +2774,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "wdcepneighborhoodsBB",
-                        "url": "../../images/maki/circle-wdcep.png",
+                        "url": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-wdcep.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -3278,7 +3278,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "treppBB",
-                        "url": "../../images/maki/trepp.png",
+                        "url": "https://s3.amazonaws.com/models-dc/WDCEP/icons/trepp.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -3324,7 +3324,7 @@
                         "verticalOrigin": "Cesium.VerticalOrigin.TOP",
                         "translucencyByDistance": {
                             "minElevation": 9000,
-                            "maxElevation": 20000,
+                            "maxElevation": 20001,
                             "minScale": 1.0,
                             "maxScale": 0.0
                         },
@@ -3528,6 +3528,50 @@
             },
             "billboards": {
                 "exists": false
+            }
+        },
+        "gsa": {
+            "name": "gsa",
+            "removeName": "gsaGeomFullPoint.geojson",
+            "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/gsaGeomFullPoint.geojson",
+            "cartographic": true,
+            "id": {
+                "exists": true,
+                "objClass": "UserInfo",
+                "id": "entity.properties.UNIQUEID",
+                "name": "gsaDataFields",
+                "folder": "https://s3.amazonaws.com/models-dc/geoJSON/prod/infobox/",
+                "applyFunction": null
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": true,
+                "billboardLayers": {
+                    "billboard1": {
+                        "type": "custom",
+                        "name": "gsaicon",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/icons/GSABillboard.png",
+                        "position": {
+                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                            "z": 30
+                        },
+                        "NearFarScalar": {
+                            "minElevation": 0,
+                            "maxElevation": 3000,
+                            "minScale": 0.1,
+                            "maxScale": 0.03
+                        }
+                    }
+                }
             }
         }
     }
