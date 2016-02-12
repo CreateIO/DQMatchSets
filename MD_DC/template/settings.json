@@ -1,0 +1,20 @@
+{  
+   "settingsJSONs":{  
+      "layerMenu":{  
+         "regionTag":"US11001",
+         "fileName":"layer_menu_021216"
+      },
+      "layerMapCode":{  
+         "regionTag":"US11001",
+         "fileName":"layer_map_code_021216"
+      },
+      "filters":{  
+         "regionTag":"US11001",
+         "fileName":"filters_021216"
+      },
+      "infobox":{  
+         "regionTag":"US11001",
+         "fileName":"infobox_021216"
+      }
+   }
+}
