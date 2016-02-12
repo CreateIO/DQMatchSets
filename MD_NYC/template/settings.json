@@ -1,20 +1,20 @@
 {  
    "settingsJSONs":{  
       "layerMenu":{  
-         "regionTag":"",
-         "fileName":""
+         "regionTag":"US36_51000",
+         "fileName":"layer_menu_021216"
       },
       "layerMapCode":{  
-         "regionTag":"",
-         "fileName":""
+         "regionTag":"US36_51000",
+         "fileName":"layer_map_code_021216"
       },
       "filters":{  
-         "regionTag":"",
-         "fileName":""
+         "regionTag":"US36_51000",
+         "fileName":"filters_021216"
       },
       "infobox":{  
-         "regionTag":"",
-         "fileName":""
+         "regionTag":"US36_51000",
+         "fileName":"infobox_021216"
       }
    }
 }
