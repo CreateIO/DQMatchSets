@@ -1471,8 +1471,8 @@
             "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Commercial Submarkets - Areas within the city anchored by distinct office and retail uses of various density and service.",
-                "sourceURL": "http://www.census.gov/geo/maps-data/",
-                "sourceDescription": "?",
+                "sourceURL": "#",
+                "sourceDescription": "Create",
                 "type": "singleColumn",
                 "listItems": {
                     "item1": {
