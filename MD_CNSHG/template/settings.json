@@ -1,0 +1,20 @@
+{  
+   "settingsJSONs":{  
+      "layerMenu":{  
+         "regionTag":"MD_CNSHG",
+         "fileName":"layer_menu_021216"
+      },
+      "layerMapCode":{  
+         "regionTag":"MD_CNSHG",
+         "fileName":"layer_map_code_021216"
+      },
+      "filters":{  
+         "regionTag":"MD_CNSHG",
+         "fileName":"filters_021216"
+      },
+      "infobox":{  
+         "regionTag":"MD_CNSHG",
+         "fileName":"infobox_021216"
+      }
+   }
+}
