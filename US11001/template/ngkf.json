@@ -2,6 +2,7 @@
   "ngkf": [
     {
       "id":5034,
+      "pptyType":"Subject",
       "address":"1350 I St",
       "builtRenovated":"1989 / 2011",
       "available":"Immediately",
@@ -21,6 +22,7 @@
     },
     {
       "id":141226,
+      "pptyType":"Subject",
       "address":"1301 K St",
       "builtRenovated":"1990 / 2010",
       "available":"Immediately",
@@ -38,6 +40,7 @@
     },
     {
       "id":5119,
+      "pptyType":"Subject",
       "address":"1299 Pennsylvania Ave",
       "builtRenovated":"1992 / 2012",
       "available":"Immediately",
@@ -55,6 +58,7 @@
     },
     {
       "id":28947,
+      "pptyType":"Subject",
       "address":"701 Pennsylvania Ave",
       "builtRenovated":"1990 / 2015",
       "available":"Immediately",
@@ -72,6 +76,7 @@
     },
     {
       "id":53582,
+      "pptyType":"Subject",
       "address":"801 Pennsylvania Ave",
       "builtRenovated":"1990 / 2015",
       "available":"Immediately",
@@ -89,6 +94,7 @@
     },
     {
       "id":4534,
+      "pptyType":"Subject",
       "address":"875 15th St",
       "builtRenovated":"2005",
       "available":"Immediately",
