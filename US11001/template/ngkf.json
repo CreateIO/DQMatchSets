@@ -16,9 +16,11 @@
       "owner":"CBRE",
       "mgr":"CBRE",
       "leaseAgt":"NGKF",
-      "agt1":"Brendan Owen",
-      "agt2":"George Vogelei",
-      "agt3":"Rafael Notario"
+      "agents":[
+        {"name":"Brendan Owen"},
+        {"name":"George Vogelei"},
+        {"name":"Rafael Notario"}
+      ]
     },
     {
       "id":141226,
