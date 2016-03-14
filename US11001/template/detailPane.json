@@ -258,8 +258,7 @@
               "template":"../fin-tenyear.html",
               "sections":[]
             }
-          ],
-          "dataSource": "Data source: <a class='inline' href='http://www.cushmanwakefield.com/~/media/reports/corporate/Global%20Reports/CW_Capital_Markets_Update.pdf' target='_blank'>Cushman and Wakefield Report</a>"
+          ]
         },
         {
           "id": "navLoans",
