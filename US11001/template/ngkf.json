@@ -24,7 +24,7 @@
     },
     {
       "id":141226,
-      "pptyType":"Subject",
+      "pptyType":"Comparison",
       "address":"1301 K St",
       "builtRenovated":"1990 / 2010",
       "available":"Immediately",
@@ -42,7 +42,7 @@
     },
     {
       "id":5119,
-      "pptyType":"Subject",
+      "pptyType":"Comparison",
       "address":"1299 Pennsylvania Ave",
       "builtRenovated":"1992 / 2012",
       "available":"Immediately",
@@ -60,7 +60,7 @@
     },
     {
       "id":28947,
-      "pptyType":"Subject",
+      "pptyType":"Comparison",
       "address":"701 Pennsylvania Ave",
       "builtRenovated":"1990 / 2015",
       "available":"Immediately",
@@ -78,7 +78,7 @@
     },
     {
       "id":53582,
-      "pptyType":"Subject",
+      "pptyType":"Comparison",
       "address":"801 Pennsylvania Ave",
       "builtRenovated":"1990 / 2015",
       "available":"Immediately",
@@ -96,7 +96,7 @@
     },
     {
       "id":4534,
-      "pptyType":"Subject",
+      "pptyType":"Comparison",
       "address":"875 15th St",
       "builtRenovated":"2005",
       "available":"Immediately",
