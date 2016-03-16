@@ -17,9 +17,21 @@
       "mgr":"CBRE",
       "leaseAgt":"NGKF",
       "agents":[
-        {"name":"Brendan Owen"},
-        {"name":"George Vogelei"},
-        {"name":"Rafael Notario"}
+        {
+          "name":"Brendan Owen",
+          "phone":"202.312.5746",
+          "email":"bowen@ngkf.com"
+        },
+        {
+          "name":"George Vogelei",
+          "phone":"202.312.5746",
+          "email":"gvogelei@ngkf.com"
+        },
+        {
+          "name":"Rafael Notario",
+          "phone":"202.312.5463",
+          "email":"rnotario@ngkf.com"
+        }
       ]
     },
     {
