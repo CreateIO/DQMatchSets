@@ -1,0 +1,36 @@
+{
+    "Filters": {
+        "parcelUSArea":{
+            "id":5,
+            "name":"Parcel area (sf)",
+            "type":"min-max",
+            "category":"Property",
+        },
+        "zoningUSDistrict":{
+            "id":6,
+            "name":"Zoning District",
+            "type":"lookup",
+            "category":"Property",
+        },
+        "neighborhoodUS":{
+            "id":7,
+            "name":"Neighborhood",
+            "type":"lookup",
+            "category":"Property",
+            "subcategory": "Property",
+            "output":"zillowNbhdName=IN '<value>'",
+            "label":"Neighborhood",
+            "values":"Adams Morgan|Anacostia|Au-Tenleytown|Barnaby Woods|Berkley|Brentwood|Brightwood|Capitol Hill|Catholic University-Brookland|Chevy Chase|Cleveland Park|Columbia Heights|Deanwood|Downtown|Dupont Circle|Foggy Bottom|Fort Totten-Upper Northeast|Foxhall Village|Friendship Heights|Georgetown|Glover Park|Kalorama|Ledroit Park|Logan Circle|Mount Pleasant|Mount Vernon Square|Petworth|Shaw|South West|Stadium-Armory|Takoma Park|The Palisades|U Street Corridor|Woodley Park",
+       },
+        "generalUseUS":{
+            "id":8,
+            "name":"General Uses",
+            "type":"lookup",
+            "category":"Property",
+            "subcategory": "Property",
+            "output":"currentUseCategory=IN '<value>'",
+            "label":"General Uses",
+            "values":"Residential|Commercial|Industrial|Vacant",
+        }
+    }
+}
