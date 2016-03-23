@@ -1,6 +1,15 @@
 {
   "bool": "false",
-  "a": ["i","f","y"],
-  "s": "endify",
+  "a": [
+    { "letter": "i",
+      "text": "something"
+    },
+    { "letter": "f",
+      "text": "wicked"
+    },
+    { "letter": "y",
+      "text": "this"
+    },
+   "s": "endify",
   "value": 11001
 }

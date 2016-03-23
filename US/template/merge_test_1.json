@@ -1,6 +1,16 @@
 {
   "bool": true,
   "value": 99,
-  "a": ["e","x","t"],
-  "s": "ext"
+  "a": [
+    { "letter": "e",
+      "text": "something"
+    },
+    { "letter": "x",
+      "text": "not"
+    },
+    { "letter": "t",
+    "text": "nice"
+    }
+  ],
+"s": "ext"
 }
