@@ -1,6 +1,6 @@
 {
-  "bool": "true",
-  "value"": 99,
-  "a": ['e','x','t'],
-  "s": 'ext'
+  "bool": true,
+  "value": 99,
+  "a": ["e","x","t"],
+  "s": "ext"
 }
