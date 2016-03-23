@@ -1,6 +1,6 @@
 {
-  bool: false,
-  a: ['i','f','y'],
-  s: 'endify',
-  value: 11001
+  "bool": false,
+  "a": ['i','f','y'],
+  "s": 'endify',
+  "value": 11001
 }
