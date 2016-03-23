@@ -1,0 +1,691 @@
+{
+  "methods": [
+    {
+      "id": 0,
+      "name": "Radius"
+    },
+    {
+      "id": 1,
+      "name": "Census"
+    }
+  ],
+  "areas": [
+    {
+      "id": 0,
+      "name": "1/4 mile"
+    },
+    {
+      "id": 1,
+      "name": "1/2 mile"
+    },
+    {
+      "id": 2,
+      "name": "1 mile"
+    },
+    {
+      "id": 3,
+      "name": "3 miles"
+    }
+  ],
+  "selectedItem": [
+    {
+      "id": 0,
+      "name": "1/4 mile"
+    }
+  ],
+  "selectedMethod": [
+    {
+      "id": 1,
+      "name": "Census"
+    }
+  ],
+  "selectedRadius": [
+    {
+      "id": 0,
+      "name": "1/4 mile"
+    }
+  ],
+  "dataCollections": [
+    {
+      "chart": "detailPane",
+      "variables": [
+        {
+          "id": "AVGHHSZ_CY",
+          "dataCollectionId": "Policy"
+        },
+        {
+          "id": "MEDAGE_CY",
+          "dataCollectionId": "Policy"
+        },
+        {
+          "id": "UNEMPRT_CY",
+          "dataCollectionId": "industry"
+        },
+        {
+          "id": "AVGHINC_CY",
+          "dataCollectionId": "Policy"
+        },
+        {
+          "id": "VALBASE_CY",
+          "dataCollectionId": "homevalue"
+        },
+        {
+          "id": "VALBASE_FY",
+          "dataCollectionId": "homevalue"
+        },
+        {
+          "id": "MALES_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "FEMALES_CY",
+          "dataCollectionId": "gender"
+        }
+      ]
+    },
+    {
+      "chart": "totalPopulation",
+      "variables": [
+        {
+          "id": "TOTPOP10",
+          "dataCollectionId": "KeyUSFacts"
+        },
+        {
+          "id": "TOTPOP00",
+          "dataCollectionId": "KeyUSFacts"
+        },
+        {
+          "id": "TOTPOP_CY",
+          "dataCollectionId": "Policy"
+        },
+        {
+          "id": "TOTPOP_FY",
+          "dataCollectionId": "KeyUSFacts"
+        }
+      ]
+    },
+    {
+      "chart": "ageGender",
+      "variables": [
+        {
+          "id": "FEM85_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "FEM80_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "FEM75_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "FEM70_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "FEM65_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "FEM60_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "FEM55_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "FEM50_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "FEM45_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "FEM40_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "FEM35_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "FEM30_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "FEM25_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "FEM20_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "FEM15_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "FEM10_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "FEM5_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "FEM0_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "MALE85_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "MALE80_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "MALE75_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "MALE70_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "MALE65_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "MALE60_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "MALE55_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "MALE50_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "MALE45_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "MALE40_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "MALE35_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "MALE30_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "MALE25_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "MALE20_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "MALE15_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "MALE10_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "MALE5_CY",
+          "dataCollectionId": "gender"
+        },
+        {
+          "id": "MALE0_CY",
+          "dataCollectionId": "gender"
+        }
+      ]
+    },
+    {
+      "chart": "totalHouseholds",
+      "variables": [
+        {
+          "id": "TOTHH_CY",
+          "dataCollectionId": "KeyUSFacts"
+        },
+        {
+          "id": "TOTHH_FY",
+          "dataCollectionId": "KeyUSFacts"
+        },
+        {
+          "id": "TOTHH00",
+          "dataCollectionId": "householdtotals"
+        },
+        {
+          "id": "TOTHH10",
+          "dataCollectionId": "householdtotals"
+        }
+      ]
+    },
+    {
+      "chart": "householdIncome",
+      "variables": [
+        {
+          "id": "HINC0_CY",
+          "dataCollectionId": "Policy"
+        },
+        {
+          "id": "HINC100_CY",
+          "dataCollectionId": "Policy"
+        },
+        {
+          "id": "HINC15_CY",
+          "dataCollectionId": "Policy"
+        },
+        {
+          "id": "HINC150_CY",
+          "dataCollectionId": "Policy"
+        },
+        {
+          "id": "HINC200_CY",
+          "dataCollectionId": "Policy"
+        },
+        {
+          "id": "HINC25_CY",
+          "dataCollectionId": "Policy"
+        },
+        {
+          "id": "HINC35_CY",
+          "dataCollectionId": "Policy"
+        },
+        {
+          "id": "HINC50_CY",
+          "dataCollectionId": "Policy"
+        },
+        {
+          "id": "HINC75_CY",
+          "dataCollectionId": "Policy"
+        },
+        {
+          "id": "MEDHINC_FY",
+          "dataCollectionId": "Wealth"
+        },
+        {
+          "id": "MEDHINC_CY",
+          "dataCollectionId": "Policy"
+        }
+      ]
+    },
+    {
+      "chart": "employmentOccupationChart",
+      "variables": [
+        {
+          "id": "INDADMN_CY",
+          "dataCollectionId": "industry"
+        },
+        {
+          "id": "INDAGRI_CY",
+          "dataCollectionId": "industry"
+        },
+        {
+          "id": "INDARTS_CY",
+          "dataCollectionId": "industry"
+        },
+        {
+          "id": "INDCONS_CY",
+          "dataCollectionId": "industry"
+        },
+        {
+          "id": "INDEDUC_CY",
+          "dataCollectionId": "industry"
+        },
+        {
+          "id": "INDFIN_CY",
+          "dataCollectionId": "industry"
+        },
+        {
+          "id": "INDFOOD_CY",
+          "dataCollectionId": "industry"
+        },
+        {
+          "id": "INDHLTH_CY",
+          "dataCollectionId": "industry"
+        },
+        {
+          "id": "INDINFO_CY",
+          "dataCollectionId": "industry"
+        },
+        {
+          "id": "INDMANU_CY",
+          "dataCollectionId": "industry"
+        },
+        {
+          "id": "INDMGMT_CY",
+          "dataCollectionId": "industry"
+        },
+        {
+          "id": "INDMIN_CY",
+          "dataCollectionId": "industry"
+        },
+        {
+          "id": "INDOTSV_CY",
+          "dataCollectionId": "industry"
+        },
+        {
+          "id": "INDPUBL_CY",
+          "dataCollectionId": "industry"
+        },
+        {
+          "id": "INDRE_CY",
+          "dataCollectionId": "industry"
+        },
+        {
+          "id": "INDRTTR_CY",
+          "dataCollectionId": "industry"
+        },
+        {
+          "id": "INDTECH_CY",
+          "dataCollectionId": "industry"
+        },
+        {
+          "id": "INDTRAN_CY",
+          "dataCollectionId": "industry"
+        },
+        {
+          "id": "INDUTIL_CY",
+          "dataCollectionId": "industry"
+        },
+        {
+          "id": "INDWHTR_CY",
+          "dataCollectionId": "industry"
+        }
+      ]
+    },
+    {
+      "chart": "educationChart",
+      "variables": [
+        {},
+        {
+          "id": "ASSCDEG_CY",
+          "dataCollectionId": "educationalattainment"
+        },
+        {
+          "id": "BACHDEG_CY",
+          "dataCollectionId": "educationalattainment"
+        },
+        {
+          "id": "GED_CY",
+          "dataCollectionId": "educationalattainment"
+        },
+        {
+          "id": "GRADDEG_CY",
+          "dataCollectionId": "educationalattainment"
+        },
+        {
+          "id": "HSGRAD_CY",
+          "dataCollectionId": "educationalattainment"
+        },
+        {
+          "id": "NOHS_CY",
+          "dataCollectionId": "educationalattainment"
+        },
+        {
+          "id": "SMCOLL_CY",
+          "dataCollectionId": "educationalattainment"
+        },
+        {
+          "id": "SOMEHS_CY",
+          "dataCollectionId": "educationalattainment"
+        }
+      ]
+    },
+    {
+      "chart": "totalHousingUnits",
+      "variables": [
+        {
+          "id": "TOTHU_CY",
+          "dataCollectionId": "Policy"
+        },
+        {
+          "id": "TOTHU_FY",
+          "dataCollectionId": "KeyUSFacts"
+        },
+        {
+          "id": "TOTHU00",
+          "dataCollectionId": "KeyUSFacts"
+        },
+        {
+          "id": "TOTHU10",
+          "dataCollectionId": "KeyUSFacts"
+        }
+      ]
+    },
+    {
+      "chart": "homeValue",
+      "variables": [
+        {
+          "id": "VAL1M_CY",
+          "dataCollectionId": "homevalue"
+        },
+        {
+          "id": "VAL1M_FY",
+          "dataCollectionId": "homevalue"
+        },
+        {
+          "id": "VAL100K_CY",
+          "dataCollectionId": "homevalue"
+        },
+        {
+          "id": "VAL100K_FY",
+          "dataCollectionId": "homevalue"
+        },
+        {
+          "id": "VAL200K_CY",
+          "dataCollectionId": "homevalue"
+        },
+        {
+          "id": "VAL200K_FY",
+          "dataCollectionId": "homevalue"
+        },
+        {
+          "id": "VAL250K_CY",
+          "dataCollectionId": "homevalue"
+        },
+        {
+          "id": "VAL250K_FY",
+          "dataCollectionId": "homevalue"
+        },
+        {
+          "id": "VAL300K_CY",
+          "dataCollectionId": "homevalue"
+        },
+        {
+          "id": "VAL300K_FY",
+          "dataCollectionId": "homevalue"
+        },
+        {
+          "id": "VAL400K_CY",
+          "dataCollectionId": "homevalue"
+        },
+        {
+          "id": "VAL400K_FY",
+          "dataCollectionId": "homevalue"
+        },
+        {
+          "id": "VAL500K_CY",
+          "dataCollectionId": "homevalue"
+        },
+        {
+          "id": "VAL500K_FY",
+          "dataCollectionId": "homevalue"
+        },
+        {
+          "id": "VAL750K_CY",
+          "dataCollectionId": "homevalue"
+        },
+        {
+          "id": "VAL750K_FY",
+          "dataCollectionId": "homevalue"
+        },
+        {
+          "id": "MEDVAL_FY",
+          "dataCollectionId": "KeyUSFacts"
+        },
+        {
+          "id": "AVGVAL_CY",
+          "dataCollectionId": "Policy"
+        }
+      ]
+    },
+    {
+      "chart": "householdByRent",
+      "variables": [
+        {
+          "id": "ACSRNT1000",
+          "dataCollectionId": "housingcosts"
+        },
+        {
+          "id": "ACSRNT1250",
+          "dataCollectionId": "housingcosts"
+        },
+        {
+          "id": "ACSRNT1500",
+          "dataCollectionId": "housingcosts"
+        },
+        {
+          "id": "ACSRNT2000",
+          "dataCollectionId": "housingcosts"
+        },
+        {
+          "id": "ACSRNT500",
+          "dataCollectionId": "housingcosts"
+        },
+        {
+          "id": "ACSRNT550",
+          "dataCollectionId": "housingcosts"
+        },
+        {
+          "id": "ACSRNT600",
+          "dataCollectionId": "housingcosts"
+        },
+        {
+          "id": "ACSRNT650",
+          "dataCollectionId": "housingcosts"
+        },
+        {
+          "id": "ACSRNT700",
+          "dataCollectionId": "housingcosts"
+        },
+        {
+          "id": "ACSRNT750",
+          "dataCollectionId": "housingcosts"
+        },
+        {
+          "id": "ACSRNT800",
+          "dataCollectionId": "housingcosts"
+        },
+        {
+          "id": "ACSRNT900",
+          "dataCollectionId": "housingcosts"
+        },
+        {
+          "id": "MEDVAL_CY",
+          "dataCollectionId": "Policy"
+        }
+      ]
+    },
+    {
+      "chart": "occupiedHousing",
+      "variables": [
+        {
+          "id": "VACANT_FY",
+          "dataCollectionId": "KeyUSFacts"
+        },
+        {
+          "id": "OWNER_FY",
+          "dataCollectionId": "OwnerRenter"
+        },
+        {
+          "id": "OWNER10",
+          "dataCollectionId": "OwnerRenter"
+        },
+        {
+          "id": "RENTER_FY",
+          "dataCollectionId": "OwnerRenter"
+        },
+        {
+          "id": "RENTER10",
+          "dataCollectionId": "OwnerRenter"
+        },
+        {
+          "id": "OWNER_CY",
+          "dataCollectionId": "Policy"
+        },
+        {
+          "id": "RENTER_CY",
+          "dataCollectionId": "Policy"
+        },
+        {
+          "id": "VACANT_CY",
+          "dataCollectionId": "Policy"
+        },
+        {
+          "id": "VACANT10",
+          "dataCollectionId": "vacant"
+        }
+      ]
+    },
+    {
+      "chart": "housingUnitsInStructure",
+      "variables": [
+        {
+          "id": "ACSUNT10",
+          "dataCollectionId": "unitsinstructure"
+        },
+        {
+          "id": "ACSUNT1ATT",
+          "dataCollectionId": "unitsinstructure"
+        },
+        {
+          "id": "ACSUNT1DET",
+          "dataCollectionId": "unitsinstructure"
+        },
+        {
+          "id": "ACSUNT2",
+          "dataCollectionId": "unitsinstructure"
+        },
+        {
+          "id": "ACSUNT20",
+          "dataCollectionId": "unitsinstructure"
+        },
+        {
+          "id": "ACSUNT3",
+          "dataCollectionId": "unitsinstructure"
+        },
+        {
+          "id": "ACSUNT5",
+          "dataCollectionId": "unitsinstructure"
+        },
+        {
+          "id": "ACSUNT50UP",
+          "dataCollectionId": "unitsinstructure"
+        },
+        {
+          "id": "ACSUNTMOB",
+          "dataCollectionId": "unitsinstructure"
+        },
+        {
+          "id": "ACSUNTOTH",
+          "dataCollectionId": "unitsinstructure"
+        }
+      ]
+    }
+  ]
+}
