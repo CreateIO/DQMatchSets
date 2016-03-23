@@ -1,0 +1,6 @@
+{
+  bool: true,
+  value: 99,
+  a: ['e','x','t'],
+  s: 'ext'
+}
