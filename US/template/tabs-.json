@@ -82,6 +82,41 @@
           "deny": ""
         },
         {
+          "id": "navPedTraffic",
+          "name": "Pedestrian Traffic",
+          "url": "ped-traffic.html",
+          "hasCharts": "false",
+          "deny": ""
+        },
+        {
+          "id": "navAutoTraffic",
+          "name": "Auto Traffic",
+          "url": "auto-traffic.html",
+          "hasCharts": "false",
+          "deny": ""
+        },
+        {
+          "id": "navLeaseRate",
+          "name": "Lease Rates",
+          "url": "lease-rates.html",
+          "hasCharts": "false",
+          "deny": ""
+        },
+        {
+          "id": "navOpExpense",
+          "name": "Operating Expenses",
+          "url": "op-expense.html",
+          "hasCharts": "false",
+          "deny": ""
+        },
+        {
+          "id": "navConstruction",
+          "name": "Construction Costs",
+          "url": "op-construct.html",
+          "hasCharts": "false",
+          "deny": ""
+        },
+        {
           "id": "navEconomy",
           "name": "Economy",
           "url": "economy.html",
