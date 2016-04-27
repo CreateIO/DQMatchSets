@@ -82,11 +82,46 @@
           "deny": ""
         },
         {
+          "id": "navPedTraffic",
+          "name": "Pedestrian Traffic",
+          "url": "ped-traffic.html",
+          "hasCharts": "false",
+          "deny": "Limited Project Premium Monthly DC_Public_Access Freemium beta_premium beta_freemium SmithCharles"
+        },
+        {
+          "id": "navAutoTraffic",
+          "name": "Auto Traffic",
+          "url": "auto-traffic.html",
+          "hasCharts": "false",
+          "deny": "Limited Project Premium Monthly DC_Public_Access Freemium beta_premium beta_freemium SmithCharles"
+        },
+        {
+          "id": "navLeaseRate",
+          "name": "Lease Rates",
+          "url": "lease-rates.html",
+          "hasCharts": "false",
+          "deny": "Limited Project Premium Monthly DC_Public_Access Freemium beta_premium beta_freemium SmithCharles"
+        },
+        {
+          "id": "navOpExpense",
+          "name": "Operating Expenses",
+          "url": "op-expense.html",
+          "hasCharts": "false",
+          "deny": "Limited Project Premium Monthly DC_Public_Access Freemium beta_premium beta_freemium SmithCharles"
+        },
+        {
+          "id": "navConstruction",
+          "name": "Construction Costs",
+          "url": "op-construct.html",
+          "hasCharts": "false",
+          "deny": "Limited Project Premium Monthly DC_Public_Access Freemium beta_premium beta_freemium SmithCharles"
+        },
+        {
           "id": "navEconomy",
           "name": "Economy",
           "url": "economy.html",
           "hasCharts": false,
-          "deny": ""
+          "deny": "Limited Project Premium Monthly DC_Public_Access Freemium beta_premium beta_freemium SmithCharles"
         }
       ]
     },
