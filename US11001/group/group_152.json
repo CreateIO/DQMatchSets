@@ -1,6 +1,6 @@
 {
-    "layers": {
-        "gsa": {
+    "allTheLayers": {
+        "testLayer2": {
             "id": 47,
             "displayName": "gsa",
             "mouseoverName": "GSA Leases",
@@ -74,11 +74,5 @@
             "subCategory": "1",
             "order": 3
         }
-    },
-    "filters": {
-        },
-    "infobox": {
-    },
-    "tms": {
     }
 }
