@@ -85,7 +85,7 @@
             "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Click map polygons for more information",
-                "sourceURL": "http://dcoz.dc.gov/info/reg/chapter_24.pdf",
+                "sourceURL": "http://www.dcoz.dc.gov/resources/resources.shtm",
                 "sourceDescription": "DCOZ",
                 "type": "singleColumn",
                 "listItems": {
