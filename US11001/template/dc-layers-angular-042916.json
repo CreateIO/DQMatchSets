@@ -3921,7 +3921,7 @@
             "hasLegend": true,
             "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
-              "description": "Click <img src=\"https://s3.amazonaws.com/models-dc/tiles/wdcep/711.png\" class=\"inline-legend-icons\" >  on map for details.",
+              "description": "Click <img src=\"https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-chipotle.png\" class=\"inline-legend-icons\" >  or <img src=\"https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-shophouse.png\" class=\"inline-legend-icons\" > on map for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
                 "type": "singleColumn",
@@ -3996,7 +3996,7 @@
             "hasLegend": true,
             "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
-              "description": "Click <img src=\"https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-chipotle.png\" class=\"inline-legend-icons\" >  or <img src=\"https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-shophouse.png\" class=\"inline-legend-icons\" > on map for details.",
+              "description": "Click <img src=\"https://s3.amazonaws.com/models-dc/tiles/wdcep/PB.png\" class=\"inline-legend-icons\" >  on map for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
                 "type": "singleColumn",
