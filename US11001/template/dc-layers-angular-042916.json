@@ -2249,7 +2249,7 @@
             "hasLegend": true,
             "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
-                "description": "Click on icons for details.",
+                "description": "Click <img src=\"https://s3.amazonaws.com/models-dc/tiles/wdcep/PH.png\" class=\"inline-legend-icons\">  on map for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
                 "type": "singleColumn",
