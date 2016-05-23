@@ -29,7 +29,7 @@
                         }
                     },
                     "func2": {
-                        "service": "gltf3DService",
+                        "service": "tileMapServiceService",
                         "functionName": "addSingleTMSLayer",
                         "parameters": {
                             "param1": "zoningLayer"
@@ -51,7 +51,7 @@
                         }
                     },
                     "func2": {
-                        "service": "gltf3DService",
+                        "service": "tileMapServiceService",
                         "functionName": "removeSingleTMSLayer",
                         "parameters": {
                             "param1": "zoningLayer"
@@ -1471,8 +1471,8 @@
             "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Commercial Submarkets - Areas within the city anchored by distinct office and retail uses of various density and service.",
-                "sourceURL": "#",
-                "sourceDescription": "Create",
+                "sourceURL": "http://www.census.gov/geo/maps-data/",
+                "sourceDescription": "?",
                 "type": "singleColumn",
                 "listItems": {
                     "item1": {
@@ -2132,7 +2132,7 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "service": "gltf3DService",
+                        "service": "tileMapServiceService",
                         "functionName": "addSingleTMSLayer",
                         "parameters": {
                             "param1": "metroBusLayer"
@@ -2146,7 +2146,7 @@
                 },
                 "removeFunctions": {
                     "func1": {
-                        "service": "gltf3DService",
+                        "service": "tileMapServiceService",
                         "functionName": "removeSingleTMSLayer",
                         "parameters": {
                             "param1": "metroBusLayer"
@@ -2467,7 +2467,7 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "service": "gltf3DService",
+                        "service": "tileMapServiceService",
                         "functionName": "addMultiTMSLayer",
                         "parameters": {
                             "param1": "WDCEPretail",
@@ -2482,7 +2482,7 @@
                 },
                 "removeFunctions": {
                     "func1": {
-                        "service": "gltf3DService",
+                        "service": "tileMapServiceService",
                         "functionName": "removeMultiTMSLayer",
                         "parameters": {
                             "param1": "WDCEPretail",
