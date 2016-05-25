@@ -295,7 +295,8 @@
             "mouseoverName": "Overlays - Arts",
             "denyToggle": false,
             "denyList": {
-                "denyList1": "Limited"
+                "denyList1": "Limited",
+                "denyList2": "Freemium"
             },
             "isActive": false,
             "layerUsed": true,
