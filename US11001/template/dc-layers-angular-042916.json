@@ -359,7 +359,8 @@
             "mouseoverName": "Overlays - Government & Diplomatic",
             "denyToggle": false,
             "denyList": {
-                "denyList1": "Limited"
+                "denyList1": "Limited",
+                "denyList2": "Freemium"
             },
             "isActive": false,
             "layerUsed": true,
@@ -422,7 +423,8 @@
             "mouseoverName": "Overlays - Hotels",
             "denyToggle": false,
             "denyList": {
-                "denyList1": "Limited"
+                "denyList1": "Limited",
+                "denyList2": "Freemium"
             },
             "isActive": false,
             "layerUsed": true,
@@ -491,7 +493,8 @@
             "mouseoverName": "Overlays - Mixed Use",
             "denyToggle": false,
             "denyList": {
-                "denyList1": "Limited"
+                "denyList1": "Limited",
+                "denyList2": "Freemium"
             },
             "isActive": false,
             "layerUsed": true,
@@ -554,7 +557,8 @@
             "mouseoverName": "Overlays - Neighborhood Commercial",
             "denyToggle": false,
             "denyList": {
-                "denyList1": "Limited"
+                "denyList1": "Limited",
+                "denyList2": "Freemium"
             },
             "isActive": false,
             "layerUsed": true,
@@ -617,7 +621,8 @@
             "mouseoverName": "Overlays - Open Space",
             "denyToggle": false,
             "denyList": {
-                "denyList1": "Limited"
+                "denyList1": "Limited",
+                "denyList2": "Freemium"
             },
             "isActive": false,
             "layerUsed": true,
