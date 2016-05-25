@@ -1555,7 +1555,7 @@
             "hasLegend": true,
             "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
-                "description": "Click on icons for details.",
+                "description": "Click <img src=\"https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-wdcep.png\" class=\"inline-legend-icons\"> on map for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
                 "type": "singleColumn",
@@ -2039,7 +2039,7 @@
                         "boxDescription": "Station Entrances"
                     },
                     "item4": {
-                        "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
+                        "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: top!important;",
                         "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metro.png",
                         "boxDescription": "Stations (click for more info)"
                     }
@@ -2185,7 +2185,7 @@
             "hasLegend": true,
             "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
-                "description": "Click on icons for details.",
+              "description": "Click <img src=\"https://s3.amazonaws.com/models-dc/tiles/wdcep/GS.png\" class=\"inline-legend-icons\">  on map for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
                 "type": "singleColumn",
@@ -2255,7 +2255,7 @@
             "hasLegend": true,
             "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
-                "description": "Click on icons for details.",
+                "description": "Click <img src=\"https://s3.amazonaws.com/models-dc/tiles/wdcep/PH.png\" class=\"inline-legend-icons\">  on map for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
                 "type": "singleColumn",
@@ -2325,7 +2325,7 @@
             "hasLegend": true,
             "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
-                "description": "Click on icons for details.",
+              "description": "Click <img src=\"https://s3.amazonaws.com/models-dc/tiles/wdcep/MOV.png\" class=\"inline-legend-icons\" >  on map for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
                 "type": "singleColumn",
@@ -2458,7 +2458,7 @@
                 "type": "singleColumn",
                 "listItems": {
                     "item1": {
-                        "boxStyle": "width: 183px; display: block; margin-left: 26px;",
+                        "boxStyle": "height: 104px; width: 183px; display: block; margin: 0 auto;",
                         "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/sitePlan-sm.png",
                         "boxDescription": "Development site plans for proposed or projects under construction."
                     }
@@ -3787,7 +3787,7 @@
             "hasLegend": true,
             "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
-                "description": "Click on icons for details.",
+              "description": "Click <img src=\"https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-wdcep.png\" class=\"inline-legend-icons\" >  on map for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
                 "type": "singleColumn",
@@ -3857,7 +3857,7 @@
             "hasLegend": true,
             "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
-                "description": "Click on icons for details.",
+              "description": "Click <img src=\"https://s3.amazonaws.com/models-dc/tiles/wdcep/711.png\" class=\"inline-legend-icons\" >  on map for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
                 "type": "singleColumn",
@@ -3927,7 +3927,7 @@
             "hasLegend": true,
             "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
-                "description": "Click on icons for details.",
+              "description": "Click <img src=\"https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-chipotle.png\" class=\"inline-legend-icons\" >  or <img src=\"https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-shophouse.png\" class=\"inline-legend-icons\" > on map for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
                 "type": "singleColumn",
@@ -4002,7 +4002,7 @@
             "hasLegend": true,
             "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
-                "description": "Click on icons for details.",
+              "description": "Click <img src=\"https://s3.amazonaws.com/models-dc/tiles/wdcep/PB.png\" class=\"inline-legend-icons\" >  on map for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
                 "type": "singleColumn",
@@ -4072,7 +4072,7 @@
             "hasLegend": true,
             "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
-                "description": "Click on icons for details.",
+              "description": "Click <img src=\"https://s3.amazonaws.com/models-dc/tiles/wdcep/S.png\" class=\"inline-legend-icons\" >  on map for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
                 "type": "singleColumn",

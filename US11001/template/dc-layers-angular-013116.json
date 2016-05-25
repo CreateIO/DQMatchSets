@@ -1549,7 +1549,7 @@
             "hasLegend": true,
             "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
-                "description": "Click on icons for details.",
+                "description": "Click <img ng-src=\"https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-wdcep.png\" class=\"inline-legend-icons\"> on map for details.",
                 "sourceURL": "http://www.wdcep.com/",
                 "sourceDescription": "WDCEP",
                 "type": "singleColumn",
@@ -1935,7 +1935,7 @@
                         "boxDescription": "Click for more info on SMD & ANC."
                     }
                 }
-            }, 
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/ANC.png",
             "colors": {
                 "type": "multi",
@@ -2122,7 +2122,7 @@
                         "boxDescription": "Metro Bus Stops."
                     }
                 }
-            },  
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/MB.png",
             "colors": {
                 "type": "?",
@@ -4077,7 +4077,7 @@
                         "boxDescription": "Subway Locations."
                     }
                 }
-            },            
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/S.png",
             "colors": {
                 "type": "icon",
