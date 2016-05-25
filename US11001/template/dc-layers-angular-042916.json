@@ -295,7 +295,7 @@
             "mouseoverName": "Overlays - Arts",
             "denyToggle": false,
             "denyList": {
-                "denyList1": null
+                "denyList1": "Limited"
             },
             "isActive": false,
             "layerUsed": true,
@@ -358,7 +358,7 @@
             "mouseoverName": "Overlays - Government & Diplomatic",
             "denyToggle": false,
             "denyList": {
-                "denyList1": null
+                "denyList1": "Limited"
             },
             "isActive": false,
             "layerUsed": true,
@@ -421,7 +421,7 @@
             "mouseoverName": "Overlays - Hotels",
             "denyToggle": false,
             "denyList": {
-                "denyList1": null
+                "denyList1": "Limited"
             },
             "isActive": false,
             "layerUsed": true,
@@ -490,7 +490,7 @@
             "mouseoverName": "Overlays - Mixed Use",
             "denyToggle": false,
             "denyList": {
-                "denyList1": null
+                "denyList1": "Limited"
             },
             "isActive": false,
             "layerUsed": true,
@@ -553,7 +553,7 @@
             "mouseoverName": "Overlays - Neighborhood Commercial",
             "denyToggle": false,
             "denyList": {
-                "denyList1": null
+                "denyList1": "Limited"
             },
             "isActive": false,
             "layerUsed": true,
@@ -616,7 +616,7 @@
             "mouseoverName": "Overlays - Open Space",
             "denyToggle": false,
             "denyList": {
-                "denyList1": null
+                "denyList1": "Limited"
             },
             "isActive": false,
             "layerUsed": true,
@@ -1935,7 +1935,7 @@
                         "boxDescription": "Click for more info on SMD & ANC."
                     }
                 }
-            }, 
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/ANC.png",
             "colors": {
                 "type": "multi",
@@ -2122,7 +2122,7 @@
                         "boxDescription": "Metro Bus Stops."
                     }
                 }
-            },  
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/MB.png",
             "colors": {
                 "type": "?",
@@ -4077,7 +4077,7 @@
                         "boxDescription": "Subway Locations."
                     }
                 }
-            },            
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/S.png",
             "colors": {
                 "type": "icon",
