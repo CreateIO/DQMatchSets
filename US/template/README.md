@@ -1,2 +1,3 @@
-# Market Data
-Global templates for all market data "superregion" areas go into this folder.
+# Template Data
+Templates specific to the US go into this folder.
+

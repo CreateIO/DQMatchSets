@@ -1,0 +1,15 @@
+{
+  "name": "Baltimore",
+  "abbreviation": "BACI",
+  "code": "MD_BACI",
+  "regionTags": [
+    {
+      "name": "City of Baltimore",
+      "tag": "US24510"
+    }],
+  "camera": [
+	{"name": "Inner Harbor", "frontVect": {"type":"LineString","coordinates":[[-76.606955,39.281690],[-76.606955,39.281690]], "height": 400}}
+      ],
+  "geocoder": { "searchTag": "baci", "searchText": "Baltimore, MD" }
+}
+

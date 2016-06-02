@@ -1,0 +1,353 @@
+{
+  "tabs": [
+    {
+      "id": "navProperty",
+      "name": "Property",
+      "tabs": [
+        {
+          "id": "navOverview",
+          "name": "Overview",
+          "hasCharts": false,
+          "radarChart": true,
+          "restrictedFeature":"",
+          "deny":"",
+          "sections":[
+            {
+              "template":"../newStreetView.html",
+              "sections":[]
+            },
+            {
+              "template":"../loc-details.html",
+              "sections":[]
+            },
+            {
+              "template":"../map-inset.html",
+              "sections":[]
+            }
+          ],
+          "dataSource": "Data Source: New York City Government"
+        },
+        {
+          "id": "navBuilding",
+          "name": "Building",
+          "hasCharts": true,
+          "restrictedFeature":"",
+          "deny":"",
+          "sections":[
+            {
+              "template":"../bldg-overview.html",
+              "sections":[]
+            },
+            {
+              "template":"../bldg-assessment.html",
+              "sections":[]
+            },
+            {
+              "template":"../bldg-Rstructure.html",
+              "sections":[]
+            },
+            {
+              "template":"../permits.html",
+              "sections":[]
+            },
+            {
+              "template":"../bldg-structure.html",
+              "sections":[]
+            }
+          ],
+          "dataSource": "Data Source: New York City Government"
+        },
+        {
+          "id": "navListings",
+          "name": "Listings",
+          "hasCharts": true,
+          "restrictedFeature":"",
+          "deny":"",
+          "sections":[
+            {
+              "template":"../tenant.html",
+              "sections":[]
+            }
+          ],
+          "dataSource": "Data Source: New York City Government"
+        },
+        {
+          "id": "navTenants",
+          "name": "Tenants",
+          "hasCharts": false,
+          "restrictedFeature":"tenants",
+          "deny":"",
+          "sections":[
+            {
+              "template":"../infogroup.html",
+              "sections":[]
+            }
+          ],
+          "dataSource": "Data Source: New York City Government"
+        },
+        {
+          "id": "navZoning",
+          "name": "Zoning",
+          "hasCharts": true,
+          "restrictedFeature":"",
+          "deny":"",
+          "sections":[
+            {
+              "template":"../z-zoning.html",
+              "sections":[]
+            },
+            {
+              "template":"../z-density.html",
+              "sections":[]
+            },
+            {
+              "template":"../z-lotcov.html",
+              "sections":[]
+            },
+            {
+              "template":"../z-heightset.html",
+              "sections":[]
+            },
+            {
+              "template":"../z-parking.html",
+              "sections":[]
+            }
+          ],
+          "dataSource": "Data Source: New York City Office of Zoning"
+        },
+        {
+          "id": "navPlanning",
+          "name": "Planning",
+          "hasCharts": true,
+          "restrictedFeature":"",
+          "deny":"",
+          "sections":[
+            {
+              "template":"../planning.html",
+              "sections":[]
+            }
+          ],
+          "dataSource": "Data Source: New York City Government"
+        },
+        {
+          "id": "navIncentives",
+          "name": "Incentives",
+          "hasCharts": false,
+          "restrictedFeature":"",
+          "deny":"",
+          "sections":[
+            {
+              "template":"../incentives.html",
+              "sections":[]
+            }
+          ],
+          "dataSource": "Data Source: New York City Government"
+        },
+        {
+          "id": "navTransit",
+          "name": "Transit",
+          "hasCharts": false,
+          "restrictedFeature":"",
+          "deny":"",
+          "sections":[
+            {
+              "template":"../t-transit.html",
+              "sections":[]
+            },
+            {
+              "template":"../t-commuting.html",
+              "listDefinition":"",
+              "listItem":"",
+              "sections":[]
+            }
+          ],
+          "dataSource": "Data Source: Walk Score, New York City Government, US Census - American Community Survey 2013 "
+        },
+        {
+          "id": "navBuildIt",
+          "name": "Build It!",
+          "hasCharts": false,
+          "deny":"Limited Monthly New York City_Public_Access Freemium Premium beta_premium beta_freemium beta_fremium",
+          "restrictedFeature":"buildIt",
+          "sections":[
+            {
+              "template":"../building_definition.html",
+              "sections":[]
+            }
+          ],
+          "dataSource": "Data Source: New York City Government"
+        }
+      ]
+    },
+    {
+      "id": "navMarket",
+      "name": "Market",
+      "tabs": [
+        {
+          "id": "navDemographicsESRI",
+          "name": "Demographics",
+          "hasCharts": "false",
+          "deny": "",
+          "restrictedFeature":"esriDemog",
+          "sections":[
+            {
+              "template":"premium-charts",
+              "sections":[]
+            }
+          ],
+          "dataSource": "Data Source: New York City Government"
+        },
+        {
+          "id": "navDemographics",
+          "name": "Demographics",
+          "hasCharts": "false",
+          "deny": "",
+          "restrictedFeature":"inhouseDemog",
+          "sections":[
+            {
+              "template":"freemium-charts",
+              "sections":[]
+            }
+          ],
+          "dataSource": "Data Source: New York City Government"
+        },
+        {
+          "id": "navEconomy",
+          "name": "Economy",
+          "hasCharts": false,
+          "deny": "",
+          "restrictedFeature":"",
+          "sections":[
+            {
+              "template":"../econ-local.html",
+              "sections":[]
+            },
+            {
+              "template":"../econ-natl.html",
+              "sections":[]
+            }
+          ],
+          "dataSource": "Data Source: New York City Government"
+        }
+      ]
+    },
+    {
+      "id": "navFinancing",
+      "name": "Financing",
+      "tabs": [
+        {
+          "id": "navDebt",
+          "name": "Debt",
+          "hasCharts": "false",
+          "deny": "",
+          "restrictedFeature":"",
+          "sections":[
+            {
+              "template":"../fin-zmortgage.html",
+              "sections":[]
+            },
+            {
+              "template":"../fin-benchmark.html",
+              "sections":[]
+            },
+            {
+              "template":"../fin-lending.html",
+              "sections":[]
+            },
+            {
+              "template":"../fin-tenyear.html",
+              "sections":[]
+            }
+          ],
+          "dataSource": "Data source: <a class='inline' href='http://www.cushmanwakefield.com/~/media/reports/corporate/Global%20Reports/CW_Capital_Markets_Update.pdf' target='_blank'>Cushman and Wakefield Report</a>"
+        },
+        {
+          "id": "navLoans",
+          "name": "CMBS Loans",
+          "hasCharts": "false",
+          "deny": "",
+          "restrictedFeature":"inhouseDemog",
+          "sections":[
+            {
+              "template":"../trepp-teaser.html",
+              "sections":[]
+
+            }
+          ],
+          "dataSource": "Data Source: New York City Government"
+        },
+        {
+          "id": "navProforma",
+          "name": "CMBS Proforma",
+          "hasCharts": "false",
+          "deny": "",
+          "restrictedFeature":"trepp",
+          "sections":[
+            {
+              "template":"../trepp.html",
+              "sections":[
+                {
+                  "showSection":"trepp.trepp_cr_id",
+                  "template":"../trepp-general.html"
+                },
+                {
+                  "showSection":"trepp.trepp_cr_id",
+                  "template":"../trepp-loan.html"
+                },
+                {
+                  "showSection":"trepp.trepp_cr_id",
+                  "template":"../trepp-tenant.html"
+                },
+                {
+                  "showSection":"trepp.trepp_cr_id",
+                  "template":"../trepp-expiration.html"
+                },
+                {
+                  "showSection":"trepp.trepp_cr_id",
+                  "template":"../trepp-financials.html"
+                },
+                {
+                  "showSection":"trepp.trepp_cr_id",
+                  "template":"../trepp-loan.html"
+                },
+                {
+                  "showSection":"trepp.trepp_cr_id",
+                  "template":"../trepp-appraisal.html"
+                }
+              ]
+
+            }
+          ],
+          "dataSource": "Data Source: New York City Government"
+        },
+        {
+          "id": "navEquity",
+          "name": "Equity",
+          "hasCharts": "false",
+          "deny": "",
+          "restrictedFeature":"",
+          "sections":[
+            {
+              "template":"../eq-multifam.html",
+              "sections":[]
+            },
+            {
+              "template":"../eq-multifamlightadd.html",
+              "sections":[]
+            },
+            {
+              "template":"../eq-multifamadd.html",
+              "sections":[]
+            },
+            {
+              "template":"../eq-officesub.html",
+              "sections":[]
+            }
+
+          ],
+          "dataSource": "Data Source: New York City Government"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+[
+{
+  "name": "District of Columbia",
+  "title": "Washington, DC",
+  "initials": "WAS",
+  "abbreviation": "DC",
+  "code": "MD_DC",
+  "supportLevel": "full"
+},
+{
+  "name": "New York City, NY",
+  "title": "New York, NY",
+  "initials": "NYC",
+  "abbreviation": "NYC",
+  "code": "MD_NYC",
+  "supportLevel": "demo"
+},
+{
+  "name": "City of Baltimore, MD",
+  "title": "Baltimore, MD",
+  "initials": "BACI",
+  "abbreviation": "BACI",
+  "code": "MD_BACI",
+  "supportLevel": "demo"
+},
+{
+  "name": "Shanghai, China",
+  "title": "Shanghai, CN",
+  "initials": "CNSHG",
+  "abbreviation": "CNSHG",
+  "code": "MD_CNSHG",
+  "supportLevel": "bare"
+}
+]
+
