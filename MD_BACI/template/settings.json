@@ -2,11 +2,11 @@
    "settingsJSONs":{  
       "layerMenu":{  
          "regionTag":"US24510",
-         "fileName":"layer_menu_021216"
+         "fileName":"layer_menu"
       },
       "layerMapCode":{  
          "regionTag":"US24510",
-         "fileName":"layer_map_code_021216"
+         "fileName":"layer_map_code"
       },
       "filters":{  
          "regionTag":"US24510",
