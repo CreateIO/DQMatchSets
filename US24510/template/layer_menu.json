@@ -117,7 +117,7 @@
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "metroRailAndStations"
+                            "param2": "Rail Transit"
                         }
                     }
                 }
