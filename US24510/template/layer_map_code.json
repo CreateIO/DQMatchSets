@@ -45,6 +45,58 @@
             "billboards": {
                 "exists": false
             }
+        },
+        "Rail Transit": {
+            "name": "Light_Rail_Stations",
+            "removeName": "Light_Rail_Stations.geojson",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/Light_Rail_Stations.geojson",
+            "cartographic": true,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "metrorail",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/balt_transit.png",
+                        "xMin": -76.7903,
+                        "yMin": 39.1657,
+                        "xMax": -76.5905,
+                        "yMax": 39.5009,
+                        "alpha": 0.7,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": true,
+                "billboardLayers": {
+                    "billboard1": {
+                        "type": "custom",
+                        "name": "baltstationbillboards",
+                        "url": "../../geoJSON/layerIcons/icon-metro.png",
+                        "position": {
+                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                            "z": 20
+                        },
+                        "NearFarScalar": {
+                            "minElevation": 3000,
+                            "maxElevation": 4000,
+                            "minScale": 1.0,
+                            "maxScale": 0.0
+                        }
+                    }
+                }
+            }
         }
     }
 }
