@@ -1,5 +1,24 @@
 {
-  "name": "District of Columbia",
-  "abbreviation": "DC"
+  "name": "Global list of all market areas",
+  "markets": [
+    {
+      "initials": "WAS",
+      "title": "Washington, DC",
+      "code": "MD_DC",
+      "defaultRegion": "US11001"
+    },
+    {
+      "initials": "BACI",
+      "title": "Baltimore, MD",
+      "code": "MD_BACI",
+      "defaultRegion": "US24510"
+    },
+    {
+      "initials": "NYC",
+      "title": "New York, NY",
+      "code": "MD_NYC",
+      "defaultRegion": "US36_51000"
+    }
+  ]
 }
 

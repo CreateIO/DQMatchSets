@@ -1,10 +1,13 @@
 {
   "name": "DC",
-  "regionTags": [
+  "regions": [
     {
       "name": "District of Columbia",
-      "tag": "US11001"
+      "tag": "US11001",
+      "filters": "filters_050416",
+      "layerMenu":"layer_menu_050416",
+      "layerMapCode":"layer_map_code_050416",
+      "infobox":"infobox_050416"
     }
   ]
 }
-
