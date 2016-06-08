@@ -5,7 +5,7 @@
       "name": "District of Columbia",
       "regionTag": "US11001",
       "filterTemplate": "filters_050416",
-      "layerMenuTemplate":"layer_menu_050416",
+      "rm dc-infobox-":"layer_menu_050416",
       "layerMapCodeTemplate":"layer_map_code_050416",
       "infoboxTemplate":"infobox_050416"
     }
