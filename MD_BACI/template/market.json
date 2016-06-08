@@ -5,16 +5,32 @@
       "name": "City of Baltimore",
       "regionTag": "US24510",
       "filterTemplate": "filters_021216",
-      "layerMenuTemplate":"layer_menu",
-      "layerMapCodeTemplate":"layer_map_code",
-      "infoboxTemplate":"infobox_021216",
+      "layerMenuTemplate": "layer_menu",
+      "layerMapCodeTemplate": "layer_map_code",
+      "infoboxTemplate": "infobox_021216",
       "camera": [
         {
           "name": "Inner Harbor",
-          "frontVect": {"type":"LineString","coordinates":[[-76.606955,39.281690],[-76.606955,39.281690]], "height": 400}}
-        ],
-      "geocoder": { "searchTag": "baci", "searchText": "Baltimore, MD" }
-
-}
+          "frontVect": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -76.606955,
+                39.281690
+              ],
+              [
+                -76.606955,
+                39.281690
+              ]
+            ],
+            "height": 400
+          }
+        }
+      ],
+      "geocoder": {
+        "searchTag": "baci",
+        "searchText": "Baltimore, MD"
+      }
+    }
   ]
 }

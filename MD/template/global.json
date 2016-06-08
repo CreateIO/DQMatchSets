@@ -18,6 +18,12 @@
       "title": "New York, NY",
       "code": "MD_NYC",
       "defaultRegion": "US36_51000"
+    },
+    {
+      "initials": "CHSHG",
+      "title": "Shanghai",
+      "code": "MD_CNSHG",
+      "defaultRegion": "CN07006"
     }
   ]
 }

@@ -1,16 +1,35 @@
 {
   "name": "Shanghai",
-  "abbreviation": "CNSHG",
-  "code": "MD_CNSHG",
-  "regionTags": [
+  "regions": [
     {
-      "name": "Shanghai",
-      "tag": "CN07006"
-    }],
-  "camera": [
-	{"name": "At The River", 
-      "frontVect": {"type":"LineString",
-                              "coordinates":[[121.51836104,31.20768722],[121.51856104,31.20768722]], "height": 400}}
+      "regionTag": "CN07006",
+      "filterTemplate": "filters_021216",
+      "layerMenuTemplate": "layer_menu_021216",
+      "layerMapCodeTemplate": "layer_map_code_021216",
+      "infoboxTemplate": "infobox_021216",
+      "camera": [
+        {
+          "name": "At The River",
+          "frontVect": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                121.51836104,
+                31.20768722
+              ],
+              [
+                121.51856104,
+                31.20768722
+              ]
+            ],
+            "height": 400
+          }
+        }
       ],
-  "geocoder": { "searchTag": "cnshg", "searchText": "Shanghai, China" }
+      "geocoder": {
+        "searchTag": "cnshg",
+        "searchText": "Shanghai, China"
+      }
+    }
+  ]
 }
