@@ -3,11 +3,11 @@
   "regions": [
     {
       "name": "District of Columbia",
-      "tag": "US11001",
-      "filters": "filters_050416",
-      "layerMenu":"layer_menu_050416",
-      "layerMapCode":"layer_map_code_050416",
-      "infobox":"infobox_050416"
+      "regionTag": "US11001",
+      "filterTemplate": "filters_050416",
+      "layerMenuTemplate":"layer_menu_050416",
+      "layerMapCodeTemplate":"layer_map_code_050416",
+      "infoboxTemplate":"infobox_050416"
     }
   ]
 }
