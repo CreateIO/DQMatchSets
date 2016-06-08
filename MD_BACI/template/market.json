@@ -1,10 +1,13 @@
 {
   "name": "Baltimore",
-  "regionTags": [
+  "regions": [
     {
       "name": "City of Baltimore",
-      "tag": "US24510"
+      "regionTag": "US24510",
+      "filterTemplate": "filters_021216",
+      "layerMenuTemplate":"layer_menu",
+      "layerMapCodeTemplate":"layer_map_code",
+      "infoboxTemplate":"infobox_021216"
     }
   ]
 }
-
