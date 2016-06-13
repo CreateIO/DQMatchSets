@@ -134,7 +134,7 @@
           "name": "Debt",
           "url": "financing.html",
           "hasCharts": false,
-          "deny": ""
+          "deny": "Limited Monthly DC_Public_Access Freemium Premium beta_premium beta_freemium beta_fremium"
         },
         {
           "id": "navLoans",
