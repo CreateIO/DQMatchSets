@@ -114,7 +114,6 @@
           "name": "Construction Costs",
           "url": "op-construct.html",
           "hasCharts": "false",
-          "deny": "Limited Project Premium Monthly DC_Public_Access Freemium beta_premium beta_freemium SmithCharles"
         },
         {
           "id": "navEconomy",
@@ -134,7 +133,7 @@
           "name": "Debt",
           "url": "financing.html",
           "hasCharts": false,
-          "deny": ""
+          "deny": "Limited Project Premium Monthly DC_Public_Access Freemium beta_premium beta_freemium SmithCharles"
         },
         {
           "id": "navLoans",
