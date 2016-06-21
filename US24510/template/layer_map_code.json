@@ -136,7 +136,7 @@
                 "objClass": "UserInfo-poly",
                 "id": "entity.properties.UNIQUEID",
                 "name": "area-master-plans",
-                "folder": "https://s3.amazonaws.com/create-common/layerFiles/infoboxJSONs/",
+                "folder": "https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/",
                 "applyFunction": null
             },
             "labels": {
