@@ -124,6 +124,52 @@
                     }
                 }
             }
+        },
+        "area-master-plans": {
+            "name": "area-master-plans",
+            "removeName": "Area_Master_Plans.geojson",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/Area_Master_Plans.geojson",
+            "cartographic": false,
+            "id": {
+                "exists": true,
+                "poly": true,
+                "objClass": "UserInfo-poly",
+                "id": "entity.properties.UNIQUEID",
+                "name": "area-master-plans",
+                "folder": "https://s3.amazonaws.com/create-common/layerFiles/infoboxJSONs/",
+                "applyFunction": null
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": true,
+                "polygonLayers": {
+                    "polygon1": {
+                        "type": "singleColor",
+                        "name": "entity.properties.Plan_Name",
+                        "color": {
+                            "alpha": 0.5,
+                            "type": "rgb",
+                            "rgb": {
+                                "r": 255,
+                                "g": 130,
+                                "b": 0,
+                                "a": 100
+                            }
+                        },
+                        "material": "new Cesium.ColorMaterialProperty(color)",
+                        "outlineColor": "Cesium.Color.ANTIQUEWHITE",
+                        "outlineWidth": 2.0
+                    }
+                }
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
         }
     }
 }

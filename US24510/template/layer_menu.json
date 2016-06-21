@@ -125,6 +125,142 @@
             "category": "2",
             "subCategory": "2",
             "order": 1
+        },
+        "overlay-hotel": {
+            "name": "overlay-hotel",
+            "removeName": "hotelResIncentive.geojson",
+            "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/overlays/hotelResIncentive.geojson",
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": true,
+                "labelLayers": {
+                    "label1": {
+                        "name": "labeloverlayhotel",
+                        "position": {
+                            "x": "entity._properties.X",
+                            "y": "entity._properties.Y",
+                            "z": 50
+                        },
+                        "text": "entity.properties.DESCRIPTION",
+                        "font": "14px sans-serif",
+                        "fillColor": "Cesium.Color.WHITE",
+                        "outlineColor": "Cesium.Color.BLACK",
+                        "outlineWidth": 1,
+                        "style": "Cesium.LabelStyle.FILL",
+                        "pixelOffset": "Cesium.Cartesian2.ZERO",
+                        "eyeOffset": "Cesium.Cartesian3.ZERO",
+                        "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
+                        "verticalOrigin": "Cesium.VerticalOrigin.TOP",
+                        "translucencyByDistance": {
+                            "minElevation": 9000,
+                            "maxElevation": 10000,
+                            "minScale": 1.0,
+                            "maxScale": 0.0
+                        },
+                        "scale": 1.0
+                    }
+                }
+            },
+            "polygons": {
+                "exists": true,
+                "polygonLayers": {
+                    "polygon1": {
+                        "type": "colorHash",
+                        "name": "entity.properties.NAME",
+                        "color": {
+                            "type": "random",
+                            "alpha": 0.5,
+                            "assignments": {
+                                "color1": {
+                                    "field": "HR",
+                                    "hexValue": "#FFAAD4"
+                                },
+                                "color2": {
+                                    "field": "DD-HPA",
+                                    "hexValue": "#A55D61"
+                                },
+                                "color3": {
+                                    "field": "DD-HPB",
+                                    "hexValue": "#A55D61"
+                                },
+                                "color4": {
+                                    "field": "DD-HPC",
+                                    "hexValue": "#A55D61"
+                                }
+                            }
+                        },
+                        "material": "new Cesium.ColorMaterialProperty(color)",
+                        "outlineColor": "Cesium.Color.WHITE",
+                        "outlineWidth": 7.0
+                    }
+                }
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "Area Master Plans": {
+            "id": 3,
+            "displayName": "AMP",
+            "mouseoverName": "Area Master Plans",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Boundaries of the Area Master Plans that have been approved by the Mayor & City Council of Baltimore. Click on polygons for details.",
+                "sourceURL": "https://data.baltimorecity.gov/Geographic/Area-Master-Plans/es3e-9rfw",
+                "sourceDescription": "OpenBaltimore",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#FF8200",
+                        "boxDescription": "Area Master Plans",
+                        "imageUrl": null
+                    }
+                }
+            },
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HTL.png",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "area-master-plans"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Area Master Plans'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "area-master-plans"
+                        }
+                    }
+                }
+            },
+            "category": "1",
+            "subCategory": "6",
+            "order": 3
         }
     }
 }
