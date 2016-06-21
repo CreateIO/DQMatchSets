@@ -170,6 +170,73 @@
             "billboards": {
                 "exists": false
             }
+        },
+        "urp": {
+            "name": "urp",
+            "removeName": "baltimore_URP_labels.geojson",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/baltimore_URP_labels.geojson",
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": true,
+                "labelLayers": {
+                    "label1": {
+                        "name": "labelURP",
+                        "position": {
+                            "x": "entity._properties.X",
+                            "y": "entity._properties.Y",
+                            "z": 50
+                        },
+                        "text": "entity.properties.Name",
+                        "font": "14px sans-serif",
+                        "fillColor": "Cesium.Color.WHITE",
+                        "outlineColor": "Cesium.Color.BLACK",
+                        "outlineWidth": 1,
+                        "style": "Cesium.LabelStyle.FILL",
+                        "pixelOffset": "Cesium.Cartesian2.ZERO",
+                        "eyeOffset": "Cesium.Cartesian3.ZERO",
+                        "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
+                        "verticalOrigin": "Cesium.VerticalOrigin.TOP",
+                        "translucencyByDistance": {
+                            "minElevation": 9000,
+                            "maxElevation": 10000,
+                            "minScale": 1.0,
+                            "maxScale": 0.0
+                        },
+                        "scale": 1.0
+                    }
+                }
+            },
+            "polygons": {
+                "exists": true,
+                "polygonLayers": {
+                    "polygon1": {
+                        "type": "singleColor",
+                        "name": "entity.properties.Name",
+                        "color": {
+                            "alpha": 0.5,
+                            "type": "rgb",
+                            "rgb": {
+                                "r": 2,
+                                "g": 166,
+                                "b": 71,
+                                "a": 100
+                            }
+                        },
+                        "material": "new Cesium.ColorMaterialProperty(color)",
+                        "outlineColor": "Cesium.Color.ANTIQUEWHITE",
+                        "outlineWidth": 2.0
+                    }
+                }
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
         }
     }
 }
