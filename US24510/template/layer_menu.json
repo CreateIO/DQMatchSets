@@ -368,6 +368,71 @@
             "category": "1",
             "subCategory": "3",
             "order": 1
+        },
+        "historic district landmarks": {
+            "id": 7,
+            "displayName": "CHAP Historic Landmarks",
+            "mouseoverName": "CHAP Historic Landmarks",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Locations of Local (CHAP) Historic Landmarks as designated by the Commission on Historical & Architectural Preservation and the Mayor & City Council.",
+                "sourceURL": "https://data.baltimorecity.gov/Culture-Arts/Historic-Landmarks-CHAP/67u5-qhe5",
+                "sourceDescription": "OpenBaltimore",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "",
+                        "imageUrl": "../../geoJSON/layerIcons/circle-60.png",
+                        "boxDescription": "Historic Landmarks - CHAP"
+                    }
+                }
+            },
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/GS.png",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "historic-district-landmarks"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: CHAP Historic Districts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "historic-district-landmarks"
+                        }
+                    }
+                },
+                "emits": {
+                    "emit1": {
+                        "type": "remove",
+                        "parameters": {
+                            "param1": "clearBillboard"
+                        }
+                    }
+                }
+            },
+            "category": "1",
+            "subCategory": "3",
+            "order": 2
         }
     }
 }
