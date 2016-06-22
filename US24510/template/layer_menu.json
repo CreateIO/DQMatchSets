@@ -1,6 +1,6 @@
 {
     "allTheLayers": {
-        "Land Use Initiatives": {
+        "Park Heights Major Land Use Initiatives": {
             "id": 6,
             "displayName": "",
             "mouseoverName": "Land Use Initiatives",
@@ -20,7 +20,17 @@
                 "listItems": {
                     "item1": {
                         "boxStyle": "background:#FFFF00",
-                        "boxDescription": "PUD",
+                        "boxDescription": "Major Site Residential Redevelopment Areas",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#FFFF66",
+                        "boxDescription": "Cluster-Site Residential Redevelopment Areas",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxStyle": "background:#FF00FF",
+                        "boxDescription": "Stabilization Areas",
                         "imageUrl": null
                     }
                 }
