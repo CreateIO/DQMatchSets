@@ -311,6 +311,63 @@
             "category": "1",
             "subCategory": "2",
             "order": 1
+        },
+        "CHAP Historic Districts": {
+            "id": 6,
+            "displayName": "CHAP",
+            "mouseoverName": "CHAP Historic Districts",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Boundaries of Local (CHAP) that have been approved by the Mayor & City Council of Baltimore. Click on polygons for details.",
+                "sourceURL": "https://data.baltimorecity.gov/Culture-Arts/CHAP-Historic-Districts/ibry-626h",
+                "sourceDescription": "OpenBaltimore",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#FD4A50",
+                        "boxDescription": "CHAP Historic Districts",
+                        "imageUrl": null
+                    }
+                }
+            },
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HTL.png",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "historic-district-chap"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: CHAP Historic Districts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "historic-district-chap"
+                        }
+                    }
+                }
+            },
+            "category": "1",
+            "subCategory": "3",
+            "order": 1
         }
     }
 }
