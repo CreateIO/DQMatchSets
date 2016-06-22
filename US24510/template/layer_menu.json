@@ -19,47 +19,47 @@
                 "type": "singleColumn",
                 "listItems": {
                     "item1": {
-                        "boxStyle": "background:#FFFF00",
+                        "boxStyle": "background:#FF9C9F",
                         "boxDescription": "Major Site Residential Redevelopment Areas",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxStyle": "background:#FFFF66",
+                        "boxStyle": "background:#FEE293",
                         "boxDescription": "Cluster-Site Residential Redevelopment Areas",
                         "imageUrl": null
                     },
                     "item3": {
-                        "boxStyle": "background:#FF00FF",
+                        "boxStyle": "background:#FFFCEB",
                         "boxDescription": "Stabilization Areas",
                         "imageUrl": null
                     },
                     "item4": {
-                        "boxStyle": "background:#FF00FF",
+                        "boxStyle": "background:#7758E0",
                         "boxDescription": "Historical Preservation Target Areas",
                         "imageUrl": null
                     },
                     "item5": {
-                        "boxStyle": "background:#FF00FF",
+                        "boxStyle": "background:#4600FE",
                         "boxDescription": "Neighborhood Center Area",
                         "imageUrl": null
                     },
                     "item6": {
-                        "boxStyle": "background:#FF00FF",
+                        "boxStyle": "border: 2.5px solid #00DCDF",
                         "boxDescription": "Convenience and Service Corridor Areas",
                         "imageUrl": null
                     },
                     "item7": {
-                        "boxStyle": "background:#FF00FF",
+                        "boxStyle": "background:#00EA16",
                         "boxDescription": "Pimlico Racetrack Redevelopment Area",
                         "imageUrl": null
                     },
                     "item8": {
-                        "boxStyle": "background:#FF00FF",
+                        "boxStyle": "background:#FEFEBE",
                         "boxDescription": "Transit Oriented Development Areas",
                         "imageUrl": null
                     },
                     "item9": {
-                        "boxStyle": "background:#FF00FF",
+                        "boxStyle": "background:#FEBDFC",
                         "boxDescription": "Industrial Development Areas",
                         "imageUrl": null
                     }
