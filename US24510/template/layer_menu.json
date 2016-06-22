@@ -98,12 +98,241 @@
             "order": 1
         },
 
+        "Park Heights Shopping Center": {
+            "id": 9,
+            "displayName": "",
+            "mouseoverName": "Park Heights Shopping Center",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "sourceDescription": "OpenBaltimore",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#FF9C9F",
+                        "boxDescription": "ParkHeightsChoppingCenter",
+                        "imageUrl": null
+                    }
+                }
+            },
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "ParkHeightsChoppingCenter"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Park Heights Shopping Center'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "ParkHeightsChoppingCenter"
+                        }
+                    }
+                }
+            },
+            "category": "1",
+            "subCategory": "1",
+            "order": 1
+        },
+        "Park Heights Vacant Properties": {
+            "id": 10,
+            "displayName": "",
+            "mouseoverName": "Park Heights Vacant Properties",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "sourceDescription": "OpenBaltimore",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#FF9C9F",
+                        "boxDescription": "ParkHeightsVacantProperties",
+                        "imageUrl": null
+                    }
+                }
+            },
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "ParkHeightsVacantProperties"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Park Heights Vacant Properties'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "ParkHeightsVacantProperties"
+                        }
+                    }
+                }
+            },
+            "category": "1",
+            "subCategory": "1",
+            "order": 1
+        },
+        "ParkHeightsProposedDevelopmentPlan": {
+            "id": 11,
+            "displayName": "",
+            "mouseoverName": "ParkHeightsProposedDevelopmentPlan",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "sourceDescription": "OpenBaltimore",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#FF9C9F",
+                        "boxDescription": "ParkHeightsProposedDevelopmentPlan",
+                        "imageUrl": null
+                    }
+                }
+            },
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "ParkHeightsProposedDevelopmentPlan"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Park Heights Proposed Development Plan'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "ParkHeightsProposedDevelopmentPlan"
+                        }
+                    }
+                }
+            },
+            "category": "1",
+            "subCategory": "1",
+            "order": 1
+        },
+        "PimlicoParkRedevelopment": {
+            "id": 12,
+            "displayName": "",
+            "mouseoverName": "PimlicoParkRedevelopment",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "sourceDescription": "OpenBaltimore",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#FF9C9F",
+                        "boxDescription": "PimlicoParkRedevelopment",
+                        "imageUrl": null
+                    }
+                }
+            },
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "PimlicoParkRedevelopment"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Park Heights Pimlico Park Redevelopment'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "PimlicoParkRedevelopment"
+                        }
+                    }
+                }
+            },
+            "category": "1",
+            "subCategory": "1",
+            "order": 1
+        },
+
 
 
 
 
         "ProposedParkHeightsShuttleLoop": {
-            "id": 1,
+            "id": 7,
             "displayName": "ProposedParkHeightsShuttleLoop",
             "mouseoverName": "ProposedParkHeightsShuttleLoop",
             "denyToggle": false,
@@ -141,7 +370,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Baltimore Data: Planned Unit Development'"
+                        "param1": "'Baltimore Data: ProposedParkHeightsShuttleLoop'"
                     }
                 },
                 "removeFunctions": {
@@ -160,7 +389,7 @@
             "order": 1
         },
         "Park Heights": {
-            "id": 1,
+            "id": 8,
             "displayName": "Park Heights",
             "mouseoverName": "Park Heights",
             "denyToggle": false,

@@ -148,8 +148,8 @@
                 "exists": false
             }
         },
-	"ProposedDevelopmentPlan": {
-            "name": "ProposedDevelopmentPlan",
+	"ParkHeightsProposedDevelopmentPlan": {
+            "name": "ParkHeightsProposedDevelopmentPlan",
             "removeName": null,
             "url": null,
             "cartographic": false,
@@ -166,7 +166,7 @@
                 "exists": true,
                 "rasterLayers": {
                     "raster1": {
-                        "name": "ProposedDevelopmentPlan",
+                        "name": "ParkHeightsProposedDevelopmentPlan",
                         "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/ProposedDevelopmentPlan_GeoRef.png",
                         "xMin": -76.6781512,
                         "yMin": 39.3371138,
@@ -182,8 +182,8 @@
                 "exists": false
             }
         },
-	"ShoppingCenter": {
-            "name": "ShoppingCenter",
+	"ParkHeightsShoppingCenter": {
+            "name": "ParkHeightsShoppingCenter",
             "removeName": null,
             "url": null,
             "cartographic": false,
@@ -200,7 +200,7 @@
                 "exists": true,
                 "rasterLayers": {
                     "raster1": {
-                        "name": "ShoppingCenter",
+                        "name": "ParkHeightsShoppingCenter",
                         "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/ShoppingCenter_GeoRef.png",
                         "xMin": -76.6698995,
                         "yMin": 39.3388928,
@@ -216,8 +216,8 @@
                 "exists": false
             }
         },
-	"VacantProperties": {
-            "name": "VacantProperties",
+	"ParkHeightsVacantProperties": {
+            "name": "ParkHeightsVacantProperties",
             "removeName": null,
             "url": null,
             "cartographic": false,
@@ -234,7 +234,7 @@
                 "exists": true,
                 "rasterLayers": {
                     "raster1": {
-                        "name": "VacantProperties",
+                        "name": "ParkHeightsVacantProperties",
                         "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/VacantProperties_GeoRef.png",
                         "xMin": -76.6964611,
                         "yMin": 39.3174815,
