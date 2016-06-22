@@ -377,7 +377,7 @@
                         "NearFarScalar": {
                             "minElevation": 2000,
                             "maxElevation": 25000,
-                            "minScale": 1.0,
+                            "minScale": 0.7,
                             "maxScale": 0.15
                         }
                     }
