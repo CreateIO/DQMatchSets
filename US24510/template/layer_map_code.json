@@ -1,5 +1,90 @@
 {
     "layerjson": {
+        "ProposedParkHeightsShuttleLoop": {
+            "name": "ProposedParkHeightsShuttleLoop",
+            "removeName": "ProposedParkHeightsShuttleLoop.geojson",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/ProposedParkHeightsShuttleLoop.geojson",
+            "cartographic": false,
+            "id": {
+                "exists": true,
+                "poly": true,
+                "objClass": "UserInfo-poly",
+                "id": "entity.properties.UNIQUEID",
+                "name": "balt_PUD_full",
+                "folder": "https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/",
+                "applyFunction": null
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": true,
+                "polygonLayers": {
+                    "polygon1": {
+                        "type": "singleColor",
+                        "name": "entity.properties.NAME",
+                        "color": {
+                            "alpha": 0.5,
+                            "type": "rgb",
+                            "rgb": {
+                                "r": 255,
+                                "g": 255,
+                                "b": 0,
+                                "a": 100
+                            }
+                        },
+                        "material": "new Cesium.ColorMaterialProperty(color)",
+                        "outlineColor": "Cesium.Color.ANTIQUEWHITE",
+                        "outlineWidth": 2.0
+                    }
+                }
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+	"LandUseInitiatives_GeoRef": {
+            "name": "LandUseInitiatives_GeoRef",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "LandUseInitiatives_GeoRef",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/LandUseInitiatives_GeoRef.png",
+                        "xMin": -76.6967685,
+                        "yMin": 39.3183180,
+                        "xMax": -76.6509116,
+                        "yMax": 39.3589137,
+                        "alpha": 0.8,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+
+
+
+
+
         "PUD1": {
             "name": "PUD1",
             "removeName": "PUD0915-basic-1.geojson",
