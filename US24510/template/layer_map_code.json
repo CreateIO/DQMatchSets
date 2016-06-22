@@ -356,6 +356,152 @@
             "billboards": {
                 "exists": false
             }
+        },
+        "historic-district-chap": {
+            "name": "historic-district-chap",
+            "removeName": "baltimore_hist_dist_chap.geojson",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/baltimore_hist_dist_chap.geojson",
+            "cartographic": false,
+            "id": {
+                "exists": true,
+                "poly": true,
+                "objClass": "UserInfo-poly",
+                "id": "entity.properties.UNIQUEID",
+                "name": "baltimore_hist_dist_chap",
+                "folder": "https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/",
+                "applyFunction": null
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": true,
+                "polygonLayers": {
+                    "polygon1": {
+                        "type": "singleColor",
+                        "name": "entity.properties.NAME",
+                        "color": {
+                            "alpha": 0.5,
+                            "type": "rgb",
+                            "rgb": {
+                                "r": 253,
+                                "g": 74,
+                                "b": 80,
+                                "a": 100
+                            }
+                        },
+                        "material": "new Cesium.ColorMaterialProperty(color)",
+                        "outlineColor": "Cesium.Color.ANTIQUEWHITE",
+                        "outlineWidth": 2.0
+                    }
+                }
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "historic-district-landmarks": {
+            "name": "historic-district-landmarks",
+            "removeName": "balt_historic_landmarks.geojson",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/balt_historic_landmarks.geojson",
+            "cartographic": true,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": true,
+                "labelLayers": {
+                    "label1": {
+                        "name": "landmarkslabels",
+                        "position": {
+                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                            "z": 40
+                        },
+                        "text": "entity.properties.name",
+                        "font": "16px sans-serif",
+                        "fillColor": "Cesium.Color.WHITE",
+                        "outlineColor": "Cesium.Color.BLACK",
+                        "outlineWidth": 1,
+                        "style": "Cesium.LabelStyle.FILL",
+                        "pixelOffset": "Cesium.Cartesian2.ZERO",
+                        "eyeOffset": "Cesium.Cartesian3.ZERO",
+                        "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
+                        "verticalOrigin": "Cesium.VerticalOrigin.TOP",
+                        "translucencyByDistance": {
+                            "minElevation": 3000,
+                            "maxElevation": 4000,
+                            "minScale": 1.0,
+                            "maxScale": 0.0
+                        },
+                        "scale": 1.0
+                    }
+                }
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": true,
+                "billboardLayers": {
+                    "billboard1": {
+                        "type": "custom",
+                        "name": "landmarksbillboards",
+                        "url": "../../geoJSON/layerIcons/circle-60.png",
+                        "position": {
+                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                            "z": 5
+                        },
+                        "NearFarScalar": {
+                            "minElevation": 2000,
+                            "maxElevation": 25000,
+                            "minScale": 0.7,
+                            "maxScale": 0.15
+                        }
+                    }
+                }
+            }
+        },
+        "mizod": {
+            "name": "mizod",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "mizod",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/balt_mizod.png",
+                        "xMin": -76.6086,
+                        "yMin": 39.1989,
+                        "xMax": -76.5266,
+                        "yMax": 39.2788,
+                        "alpha": 0.75,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
         }
     }
 }
