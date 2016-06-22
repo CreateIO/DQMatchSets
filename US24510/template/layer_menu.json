@@ -200,7 +200,7 @@
                     }
                 }
             },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/MET.png",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/RT.png",
             "functions": {
                 "addFunctions": {
                     "func1": {
@@ -443,7 +443,7 @@
                     }
                 }
             },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HTL.png",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HD.png",
             "functions": {
                 "addFunctions": {
                     "func1": {
@@ -500,7 +500,7 @@
                     }
                 }
             },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/GS.png",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/HL.png",
             "functions": {
                 "addFunctions": {
                     "func1": {
@@ -582,7 +582,7 @@
                     }
                 }
             },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/CAM.png",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/MIZOD.png",
             "functions": {
                 "addFunctions": {
                     "func1": {
