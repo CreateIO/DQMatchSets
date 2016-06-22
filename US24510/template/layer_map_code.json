@@ -383,6 +383,40 @@
                     }
                 }
             }
+        },
+        "mizod": {
+            "name": "mizod",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "mizod",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/balt_mizod.png",
+                        "xMin": -76.6086,
+                        "yMin": 39.1989,
+                        "xMax": -76.5266,
+                        "yMax": 39.2788,
+                        "alpha": 0.75,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
         }
     }
 }

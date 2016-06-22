@@ -433,6 +433,80 @@
             "category": "1",
             "subCategory": "3",
             "order": 2
+        },
+        "MIZOD": {
+            "id": 8,
+            "displayName": "MIZOD",
+            "mouseoverName": "MIZOD",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Maritime Industrial Zoning Overlay District boundaries.",
+                "sourceURL": "https://data.baltimorecity.gov/Geographic/MIZOD/hkck-wphk",
+                "sourceDescription": "OpenBaltimore",
+                "type": "doubleColumn",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxStyle": "background:#7570b3;",
+                        "boxDescription": "Canton/Marine Terminal",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#ffff33;",
+                        "boxDescription": "Fairfield/Curtis Bay",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxStyle": "background:#4daf4a;",
+                        "boxDescription": "Hawkins Point",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxStyle": "background:#e41a1c;",
+                        "boxDescription": "Locust Point",
+                        "imageUrl": null
+                    }
+                }
+            },
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/CAM.png",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "mizod"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: MIZOD'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "mizod"
+                        }
+                    }
+                }
+            },
+            "category": "1",
+            "subCategory": "3",
+            "order": 3
         }
     }
 }
