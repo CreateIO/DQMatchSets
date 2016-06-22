@@ -32,6 +32,36 @@
                         "boxStyle": "background:#FF00FF",
                         "boxDescription": "Stabilization Areas",
                         "imageUrl": null
+                    },
+                    "item4": {
+                        "boxStyle": "background:#FF00FF",
+                        "boxDescription": "Historical Preservation Target Areas",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxStyle": "background:#FF00FF",
+                        "boxDescription": "Neighborhood Center Area",
+                        "imageUrl": null
+                    },
+                    "item6": {
+                        "boxStyle": "background:#FF00FF",
+                        "boxDescription": "Convenience and Service Corridor Areas",
+                        "imageUrl": null
+                    },
+                    "item7": {
+                        "boxStyle": "background:#FF00FF",
+                        "boxDescription": "Pimlico Racetrack Redevelopment Area",
+                        "imageUrl": null
+                    },
+                    "item8": {
+                        "boxStyle": "background:#FF00FF",
+                        "boxDescription": "Transit Oriented Development Areas",
+                        "imageUrl": null
+                    },
+                    "item9": {
+                        "boxStyle": "background:#FF00FF",
+                        "boxDescription": "Industrial Development Areas",
+                        "imageUrl": null
                     }
                 }
             },
