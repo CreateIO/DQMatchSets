@@ -34,7 +34,7 @@
                         "imageUrl": null
                     },
                     "item4": {
-                        "boxStyle": "background:#7758E0",
+                        "boxStyle": "border: 2.5px solid #7758E0",
                         "boxDescription": "Historical Preservation Target Areas",
                         "imageUrl": null
                     },
@@ -44,7 +44,7 @@
                         "imageUrl": null
                     },
                     "item6": {
-                        "boxStyle": "border: 2.5px solid #00DCDF",
+                        "boxStyle": "background:#00DCDF",
                         "boxDescription": "Convenience and Service Corridor Areas",
                         "imageUrl": null
                     },
@@ -98,6 +98,124 @@
             "order": 1
         },
 
+
+
+
+
+        "ProposedParkHeightsShuttleLoop": {
+            "id": 1,
+            "displayName": "ProposedParkHeightsShuttleLoop",
+            "mouseoverName": "ProposedParkHeightsShuttleLoop",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "sourceDescription": "OpenBaltimore",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#FFFF00",
+                        "boxDescription": "PUD",
+                        "imageUrl": null
+                    }
+                }
+            },
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "ProposedParkHeightsShuttleLoop"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Planned Unit Development'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "ProposedParkHeightsShuttleLoop"
+                        }
+                    }
+                }
+            },
+            "category": "1",
+            "subCategory": "1",
+            "order": 1
+        },
+        "Park Heights": {
+            "id": 1,
+            "displayName": "Park Heights",
+            "mouseoverName": "Park Heights",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/template-legend.jade",
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "sourceDescription": "OpenBaltimore",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#FFFF00",
+                        "boxDescription": "PUD",
+                        "imageUrl": null
+                    }
+                }
+            },
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "parkHeights"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: parkHeights Boundary'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "parkHeights"
+                        }
+                    }
+                }
+            },
+            "category": "1",
+            "subCategory": "1",
+            "order": 1
+        },
 
 
 
