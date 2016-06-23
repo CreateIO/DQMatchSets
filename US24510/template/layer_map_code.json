@@ -56,7 +56,7 @@
             "polygonLayers":{  
                "polygon1":{  
                   "type":"singleColor",
-                  "name":"entity.properties.NAME",
+                  "name":"entity.properties.objectid",
                   "color":{  
                      "alpha":0.5,
                      "type":"rgb",
