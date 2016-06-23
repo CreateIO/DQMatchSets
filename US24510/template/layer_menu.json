@@ -97,10 +97,10 @@
          "subCategory":"1",
          "order":1
       },
-      "Cold Spring Center Redevelopment":{  
+      "Cold Spring Center Redevelopment Plan":{  
          "id":9,
          "displayName":"",
-         "mouseoverName":"Cold Spring Center Redevelopment",
+         "mouseoverName":"Cold Spring Center Redevelopment Plan",
          "denyToggle":false,
          "denyList":{  
             "denyList1":null
@@ -117,7 +117,7 @@
             "listItems":{  
                "item1":{  
                   "boxStyle":"background:#FF9C9F",
-                  "boxDescription":"Cold Spring Center Redevelopment",
+                  "boxDescription":"Cold Spring Center Redevelopment Plan",
                   "imageUrl":null
                }
             }

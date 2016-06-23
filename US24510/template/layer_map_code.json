@@ -202,10 +202,10 @@
                "raster1":{  
                   "name":"ParkHeightsShoppingCenter",
                   "url":"https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/ShoppingCenter_GeoRef.png",
-                  "xMin":-76.6698995,
-                  "yMin":39.3388928,
-                  "xMax":-76.6662574,
-                  "yMax":39.3412628,
+                  "xMin":-76.6700014,
+                  "yMin":39.3388392,
+                  "xMax":-76.6661938,
+                  "yMax":39.3412120,
                   "alpha":0.8,
                   "show":true,
                   "hasDropdown":false
