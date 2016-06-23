@@ -97,17 +97,17 @@
          "subCategory":"1",
          "order":1
       },
-      "Park Heights Shopping Center":{  
+      "Cold Spring Center Redevelopment":{  
          "id":9,
          "displayName":"",
-         "mouseoverName":"Park Heights Shopping Center",
+         "mouseoverName":"Cold Spring Center Redevelopment",
          "denyToggle":false,
          "denyList":{  
             "denyList1":null
          },
          "isActive":false,
          "layerUsed":true,
-         "hasLegend":true,
+         "hasLegend":false,
          "urlLegend":"../../legends/template-legend.jade",
          "legendContents":{  
             "description":"Click map polygons for more information",
@@ -117,7 +117,7 @@
             "listItems":{  
                "item1":{  
                   "boxStyle":"background:#FF9C9F",
-                  "boxDescription":"ParkHeightsChoppingCenter",
+                  "boxDescription":"Cold Spring Center Redevelopment",
                   "imageUrl":null
                }
             }
@@ -130,7 +130,7 @@
                   "functionName":"addLayer",
                   "parameters":{  
                      "param1":"$scope",
-                     "param2":"ParkHeightsChoppingCenter"
+                     "param2":"ParkHeightsShoppingCenter"
                   }
                }
             },
@@ -145,7 +145,7 @@
                   "functionName":"removeLayer",
                   "parameters":{  
                      "param1":"$scope",
-                     "param2":"ParkHeightsChoppingCenter"
+                     "param2":"ParkHeightsShoppingCenter"
                   }
                }
             }
@@ -211,17 +211,17 @@
          "subCategory":"1",
          "order":1
       },
-      "ParkHeightsProposedDevelopmentPlan":{  
+      "Park Heights Proposed Development Plan":{  
          "id":11,
-         "displayName":"",
-         "mouseoverName":"ParkHeightsProposedDevelopmentPlan",
+         "displayName":"Proposed Developement Plan",
+         "mouseoverName":"Proposed Development Plan",
          "denyToggle":false,
          "denyList":{  
             "denyList1":null
          },
          "isActive":false,
          "layerUsed":true,
-         "hasLegend":true,
+         "hasLegend":false,
          "urlLegend":"../../legends/template-legend.jade",
          "legendContents":{  
             "description":"Click map polygons for more information",
