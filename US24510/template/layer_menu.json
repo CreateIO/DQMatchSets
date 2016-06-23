@@ -1133,5 +1133,61 @@
             "subCategory": "1",
             "order": 4
         },
+        "Zoning Districts": {
+            "id": 42,
+            "displayName": "Zoning",
+            "mouseoverName": "Zoning Districts",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/layerLegendZoning.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png",
+            "colors": {
+                "type": "?",
+                "hex": {
+                }
+            },
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "gltf3DService",
+                        "functionName": "addSingleTMSLayer",
+                        "parameters": {
+                            "param1": "zoningLayer"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Data: Zoning'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "gltf3DService",
+                        "functionName": "removeSingleTMSLayer",
+                        "parameters": {
+                            "param1": "zoningLayer"
+                        }
+                    }
+                },
+                "emits": {
+                    "emit1": {
+                        "type": "add",
+                        "parameters": {
+                            "param1": "tileZoom"
+                        }
+                    }
+                }
+            },
+            "category": "1",
+            "subCategory": "1",
+            "order": 1
+        }
+
    }
 }
