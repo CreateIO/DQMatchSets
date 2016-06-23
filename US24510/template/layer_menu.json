@@ -1,965 +1,951 @@
-{
-    "allTheLayers": {
-        "Park Heights Major Land Use Initiatives": {
-            "id": 6,
-            "displayName": "",
-            "mouseoverName": "Park Heights Major Land Use Initiatives",
-            "denyToggle": false,
-            "denyList": {
-                "denyList1": null
+{  
+   "allTheLayers":{  
+      "Park Heights Major Land Use Initiatives":{  
+         "id":6,
+         "displayName":"",
+         "mouseoverName":"Park Heights Major Land Use Initiatives",
+         "denyToggle":false,
+         "denyList":{  
+            "denyList1":null
+         },
+         "isActive":false,
+         "layerUsed":true,
+         "hasLegend":true,
+         "urlLegend":"../../legends/template-legend.jade",
+         "legendContents":{  
+            "description":"Click map polygons for more information",
+            "sourceURL":"https://data.baltimorecity.gov/",
+            "sourceDescription":"OpenBaltimore",
+            "type":"singleColumn",
+            "listItems":{  
+               "item1":{  
+                  "boxStyle":"background:#FF9C9F",
+                  "boxDescription":"Major Site Residential Redevelopment Areas",
+                  "imageUrl":null
+               },
+               "item2":{  
+                  "boxStyle":"background:#FEE293",
+                  "boxDescription":"Cluster-Site Residential Redevelopment Areas",
+                  "imageUrl":null
+               },
+               "item3":{  
+                  "boxStyle":"background:#FFFCEB",
+                  "boxDescription":"Stabilization Areas",
+                  "imageUrl":null
+               },
+               "item4":{  
+                  "boxStyle":"border: 2.5px solid #7758E0",
+                  "boxDescription":"Historical Preservation Target Areas",
+                  "imageUrl":null
+               },
+               "item5":{  
+                  "boxStyle":"background:#4600FE",
+                  "boxDescription":"Neighborhood Center Area",
+                  "imageUrl":null
+               },
+               "item6":{  
+                  "boxStyle":"background:#00DCDF",
+                  "boxDescription":"Convenience and Service Corridor Areas",
+                  "imageUrl":null
+               },
+               "item7":{  
+                  "boxStyle":"background:#00EA16",
+                  "boxDescription":"Pimlico Racetrack Redevelopment Area",
+                  "imageUrl":null
+               },
+               "item8":{  
+                  "boxStyle":"background:#FEFEBE",
+                  "boxDescription":"Transit Oriented Development Areas",
+                  "imageUrl":null
+               },
+               "item9":{  
+                  "boxStyle":"background:#FEBDFC",
+                  "boxDescription":"Industrial Development Areas",
+                  "imageUrl":null
+               }
+            }
+         },
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+         "functions":{  
+            "addFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"LandUseInitiatives_GeoRef"
+                  }
+               }
             },
-            "isActive": false,
-            "layerUsed": true,
-            "hasLegend": true,
-            "urlLegend": "../../legends/template-legend.jade",
-            "legendContents": {
-                "description": "Click map polygons for more information",
-                "sourceURL": "https://data.baltimorecity.gov/",
-                "sourceDescription": "OpenBaltimore",
-                "type": "singleColumn",
-                "listItems": {
-                    "item1": {
-                        "boxStyle": "background:#FF9C9F",
-                        "boxDescription": "Major Site Residential Redevelopment Areas",
-                        "imageUrl": null
-                    },
-                    "item2": {
-                        "boxStyle": "background:#FEE293",
-                        "boxDescription": "Cluster-Site Residential Redevelopment Areas",
-                        "imageUrl": null
-                    },
-                    "item3": {
-                        "boxStyle": "background:#FFFCEB",
-                        "boxDescription": "Stabilization Areas",
-                        "imageUrl": null
-                    },
-                    "item4": {
-                        "boxStyle": "border: 2.5px solid #7758E0",
-                        "boxDescription": "Historical Preservation Target Areas",
-                        "imageUrl": null
-                    },
-                    "item5": {
-                        "boxStyle": "background:#4600FE",
-                        "boxDescription": "Neighborhood Center Area",
-                        "imageUrl": null
-                    },
-                    "item6": {
-                        "boxStyle": "background:#00DCDF",
-                        "boxDescription": "Convenience and Service Corridor Areas",
-                        "imageUrl": null
-                    },
-                    "item7": {
-                        "boxStyle": "background:#00EA16",
-                        "boxDescription": "Pimlico Racetrack Redevelopment Area",
-                        "imageUrl": null
-                    },
-                    "item8": {
-                        "boxStyle": "background:#FEFEBE",
-                        "boxDescription": "Transit Oriented Development Areas",
-                        "imageUrl": null
-                    },
-                    "item9": {
-                        "boxStyle": "background:#FEBDFC",
-                        "boxDescription": "Industrial Development Areas",
-                        "imageUrl": null
-                    }
-                }
+            "piwikTrack":{  
+               "parameters":{  
+                  "param1":"'Baltimore Data: Land Use Initiatives'"
+               }
             },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "LandUseInitiatives_GeoRef"
-                        }
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Data: Land Use Initiatives'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "LandUseInitiatives_GeoRef"
-                        }
-                    }
-                }
+            "removeFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"LandUseInitiatives_GeoRef"
+                  }
+               }
+            }
+         },
+         "category":"1",
+         "subCategory":"1",
+         "order":1
+      },
+      "Park Heights Shopping Center":{  
+         "id":9,
+         "displayName":"",
+         "mouseoverName":"Park Heights Shopping Center",
+         "denyToggle":false,
+         "denyList":{  
+            "denyList1":null
+         },
+         "isActive":false,
+         "layerUsed":true,
+         "hasLegend":true,
+         "urlLegend":"../../legends/template-legend.jade",
+         "legendContents":{  
+            "description":"Click map polygons for more information",
+            "sourceURL":"https://data.baltimorecity.gov/",
+            "sourceDescription":"OpenBaltimore",
+            "type":"singleColumn",
+            "listItems":{  
+               "item1":{  
+                  "boxStyle":"background:#FF9C9F",
+                  "boxDescription":"ParkHeightsChoppingCenter",
+                  "imageUrl":null
+               }
+            }
+         },
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+         "functions":{  
+            "addFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"ParkHeightsChoppingCenter"
+                  }
+               }
             },
-            "category": "1",
-            "subCategory": "1",
-            "order": 1
-        },
-
-        "Park Heights Shopping Center": {
-            "id": 9,
-            "displayName": "",
-            "mouseoverName": "Park Heights Shopping Center",
-            "denyToggle": false,
-            "denyList": {
-                "denyList1": null
+            "piwikTrack":{  
+               "parameters":{  
+                  "param1":"'Baltimore Data: Park Heights Shopping Center'"
+               }
             },
-            "isActive": false,
-            "layerUsed": true,
-            "hasLegend": true,
-            "urlLegend": "../../legends/template-legend.jade",
-            "legendContents": {
-                "description": "Click map polygons for more information",
-                "sourceURL": "https://data.baltimorecity.gov/",
-                "sourceDescription": "OpenBaltimore",
-                "type": "singleColumn",
-                "listItems": {
-                    "item1": {
-                        "boxStyle": "background:#FF9C9F",
-                        "boxDescription": "ParkHeightsChoppingCenter",
-                        "imageUrl": null
-                    }
-                }
+            "removeFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"ParkHeightsChoppingCenter"
+                  }
+               }
+            }
+         },
+         "category":"1",
+         "subCategory":"1",
+         "order":1
+      },
+      "Park Heights Vacant Properties":{  
+         "id":10,
+         "displayName":"",
+         "mouseoverName":"Park Heights Vacant Properties",
+         "denyToggle":false,
+         "denyList":{  
+            "denyList1":null
+         },
+         "isActive":false,
+         "layerUsed":true,
+         "hasLegend":true,
+         "urlLegend":"../../legends/template-legend.jade",
+         "legendContents":{  
+            "description":"Click map polygons for more information",
+            "sourceURL":"https://data.baltimorecity.gov/",
+            "sourceDescription":"OpenBaltimore",
+            "type":"singleColumn",
+            "listItems":{  
+               "item1":{  
+                  "boxStyle":"background:#FF9C9F",
+                  "boxDescription":"ParkHeightsVacantProperties",
+                  "imageUrl":null
+               }
+            }
+         },
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+         "functions":{  
+            "addFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"ParkHeightsVacantProperties"
+                  }
+               }
             },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "ParkHeightsChoppingCenter"
-                        }
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Data: Park Heights Shopping Center'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "ParkHeightsChoppingCenter"
-                        }
-                    }
-                }
+            "piwikTrack":{  
+               "parameters":{  
+                  "param1":"'Baltimore Data: Park Heights Vacant Properties'"
+               }
             },
-            "category": "1",
-            "subCategory": "1",
-            "order": 1
-        },
-        "Park Heights Vacant Properties": {
-            "id": 10,
-            "displayName": "",
-            "mouseoverName": "Park Heights Vacant Properties",
-            "denyToggle": false,
-            "denyList": {
-                "denyList1": null
+            "removeFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"ParkHeightsVacantProperties"
+                  }
+               }
+            }
+         },
+         "category":"1",
+         "subCategory":"1",
+         "order":1
+      },
+      "ParkHeightsProposedDevelopmentPlan":{  
+         "id":11,
+         "displayName":"",
+         "mouseoverName":"ParkHeightsProposedDevelopmentPlan",
+         "denyToggle":false,
+         "denyList":{  
+            "denyList1":null
+         },
+         "isActive":false,
+         "layerUsed":true,
+         "hasLegend":true,
+         "urlLegend":"../../legends/template-legend.jade",
+         "legendContents":{  
+            "description":"Click map polygons for more information",
+            "sourceURL":"https://data.baltimorecity.gov/",
+            "sourceDescription":"OpenBaltimore",
+            "type":"singleColumn",
+            "listItems":{  
+               "item1":{  
+                  "boxStyle":"background:#FF9C9F",
+                  "boxDescription":"ParkHeightsProposedDevelopmentPlan",
+                  "imageUrl":null
+               }
+            }
+         },
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+         "functions":{  
+            "addFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"ParkHeightsProposedDevelopmentPlan"
+                  }
+               }
             },
-            "isActive": false,
-            "layerUsed": true,
-            "hasLegend": true,
-            "urlLegend": "../../legends/template-legend.jade",
-            "legendContents": {
-                "description": "Click map polygons for more information",
-                "sourceURL": "https://data.baltimorecity.gov/",
-                "sourceDescription": "OpenBaltimore",
-                "type": "singleColumn",
-                "listItems": {
-                    "item1": {
-                        "boxStyle": "background:#FF9C9F",
-                        "boxDescription": "ParkHeightsVacantProperties",
-                        "imageUrl": null
-                    }
-                }
+            "piwikTrack":{  
+               "parameters":{  
+                  "param1":"'Baltimore Data: Park Heights Proposed Development Plan'"
+               }
             },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "ParkHeightsVacantProperties"
-                        }
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Data: Park Heights Vacant Properties'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "ParkHeightsVacantProperties"
-                        }
-                    }
-                }
+            "removeFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"ParkHeightsProposedDevelopmentPlan"
+                  }
+               }
+            }
+         },
+         "category":"1",
+         "subCategory":"1",
+         "order":1
+      },
+      "PimlicoParkRedevelopment":{  
+         "id":12,
+         "displayName":"",
+         "mouseoverName":"PimlicoParkRedevelopment",
+         "denyToggle":false,
+         "denyList":{  
+            "denyList1":null
+         },
+         "isActive":false,
+         "layerUsed":true,
+         "hasLegend":true,
+         "urlLegend":"../../legends/template-legend.jade",
+         "legendContents":{  
+            "description":"Click map polygons for more information",
+            "sourceURL":"https://data.baltimorecity.gov/",
+            "sourceDescription":"OpenBaltimore",
+            "type":"singleColumn",
+            "listItems":{  
+               "item1":{  
+                  "boxStyle":"background:#FF9C9F",
+                  "boxDescription":"PimlicoParkRedevelopment",
+                  "imageUrl":null
+               }
+            }
+         },
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+         "functions":{  
+            "addFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"PimlicoParkRedevelopment"
+                  }
+               }
             },
-            "category": "1",
-            "subCategory": "1",
-            "order": 1
-        },
-        "ParkHeightsProposedDevelopmentPlan": {
-            "id": 11,
-            "displayName": "",
-            "mouseoverName": "ParkHeightsProposedDevelopmentPlan",
-            "denyToggle": false,
-            "denyList": {
-                "denyList1": null
+            "piwikTrack":{  
+               "parameters":{  
+                  "param1":"'Baltimore Data: Park Heights Pimlico Park Redevelopment'"
+               }
             },
-            "isActive": false,
-            "layerUsed": true,
-            "hasLegend": true,
-            "urlLegend": "../../legends/template-legend.jade",
-            "legendContents": {
-                "description": "Click map polygons for more information",
-                "sourceURL": "https://data.baltimorecity.gov/",
-                "sourceDescription": "OpenBaltimore",
-                "type": "singleColumn",
-                "listItems": {
-                    "item1": {
-                        "boxStyle": "background:#FF9C9F",
-                        "boxDescription": "ParkHeightsProposedDevelopmentPlan",
-                        "imageUrl": null
-                    }
-                }
+            "removeFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"PimlicoParkRedevelopment"
+                  }
+               }
+            }
+         },
+         "category":"1",
+         "subCategory":"1",
+         "order":1
+      },
+      "ProposedParkHeightsShuttleLoop":{  
+         "id":7,
+         "displayName":"ProposedParkHeightsShuttleLoop",
+         "mouseoverName":"ProposedParkHeightsShuttleLoop",
+         "denyToggle":false,
+         "denyList":{  
+            "denyList1":null
+         },
+         "isActive":false,
+         "layerUsed":true,
+         "hasLegend":true,
+         "urlLegend":"../../legends/template-legend.jade",
+         "legendContents":{  
+            "description":"Click map polygons for more information",
+            "sourceURL":"https://data.baltimorecity.gov/",
+            "sourceDescription":"OpenBaltimore",
+            "type":"singleColumn",
+            "listItems":{  
+               "item1":{  
+                  "boxStyle":"background:#FFFF00",
+                  "boxDescription":"PUD",
+                  "imageUrl":null
+               }
+            }
+         },
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+         "functions":{  
+            "addFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"ProposedParkHeightsShuttleLoop"
+                  }
+               }
             },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "ParkHeightsProposedDevelopmentPlan"
-                        }
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Data: Park Heights Proposed Development Plan'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "ParkHeightsProposedDevelopmentPlan"
-                        }
-                    }
-                }
+            "piwikTrack":{  
+               "parameters":{  
+                  "param1":"'Baltimore Data: ProposedParkHeightsShuttleLoop'"
+               }
             },
-            "category": "1",
-            "subCategory": "1",
-            "order": 1
-        },
-        "PimlicoParkRedevelopment": {
-            "id": 12,
-            "displayName": "",
-            "mouseoverName": "PimlicoParkRedevelopment",
-            "denyToggle": false,
-            "denyList": {
-                "denyList1": null
+            "removeFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"ProposedParkHeightsShuttleLoop"
+                  }
+               }
+            }
+         },
+         "category":"1",
+         "subCategory":"1",
+         "order":1
+      },
+      "Park Heights":{  
+         "id":8,
+         "displayName":"Park Heights",
+         "mouseoverName":"Park Heights",
+         "denyToggle":false,
+         "denyList":{  
+            "denyList1":null
+         },
+         "isActive":false,
+         "layerUsed":true,
+         "hasLegend":true,
+         "urlLegend":"../../legends/template-legend.jade",
+         "legendContents":{  
+            "description":"Click map polygons for more information",
+            "sourceURL":"https://data.baltimorecity.gov/",
+            "sourceDescription":"OpenBaltimore",
+            "type":"singleColumn",
+            "listItems":{  
+               "item1":{  
+                  "boxStyle":"background:#FFFF00",
+                  "boxDescription":"PUD",
+                  "imageUrl":null
+               }
+            }
+         },
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+         "functions":{  
+            "addFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"parkHeights"
+                  }
+               }
             },
-            "isActive": false,
-            "layerUsed": true,
-            "hasLegend": true,
-            "urlLegend": "../../legends/template-legend.jade",
-            "legendContents": {
-                "description": "Click map polygons for more information",
-                "sourceURL": "https://data.baltimorecity.gov/",
-                "sourceDescription": "OpenBaltimore",
-                "type": "singleColumn",
-                "listItems": {
-                    "item1": {
-                        "boxStyle": "background:#FF9C9F",
-                        "boxDescription": "PimlicoParkRedevelopment",
-                        "imageUrl": null
-                    }
-                }
+            "piwikTrack":{  
+               "parameters":{  
+                  "param1":"'Baltimore Data: parkHeights Boundary'"
+               }
             },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "PimlicoParkRedevelopment"
-                        }
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Data: Park Heights Pimlico Park Redevelopment'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "PimlicoParkRedevelopment"
-                        }
-                    }
-                }
+            "removeFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"parkHeights"
+                  }
+               }
+            }
+         },
+         "category":"1",
+         "subCategory":"1",
+         "order":1
+      },
+      "Planned Unit Development":{  
+         "id":1,
+         "displayName":"PUD",
+         "mouseoverName":"Planned Unit Development",
+         "denyToggle":false,
+         "denyList":{  
+            "denyList1":null
+         },
+         "isActive":false,
+         "layerUsed":true,
+         "hasLegend":true,
+         "urlLegend":"../../legends/template-legend.jade",
+         "legendContents":{  
+            "description":"Click map polygons for more information",
+            "sourceURL":"https://data.baltimorecity.gov/",
+            "sourceDescription":"OpenBaltimore",
+            "type":"singleColumn",
+            "listItems":{  
+               "item1":{  
+                  "boxStyle":"background:#FFFF00",
+                  "boxDescription":"PUD",
+                  "imageUrl":null
+               }
+            }
+         },
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+         "functions":{  
+            "addFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"PUD1"
+                  }
+               }
             },
-            "category": "1",
-            "subCategory": "1",
-            "order": 1
-        },
-
-
-
-
-
-        "ProposedParkHeightsShuttleLoop": {
-            "id": 7,
-            "displayName": "ProposedParkHeightsShuttleLoop",
-            "mouseoverName": "ProposedParkHeightsShuttleLoop",
-            "denyToggle": false,
-            "denyList": {
-                "denyList1": null
+            "piwikTrack":{  
+               "parameters":{  
+                  "param1":"'Baltimore Data: Planned Unit Development'"
+               }
             },
-            "isActive": false,
-            "layerUsed": true,
-            "hasLegend": true,
-            "urlLegend": "../../legends/template-legend.jade",
-            "legendContents": {
-                "description": "Click map polygons for more information",
-                "sourceURL": "https://data.baltimorecity.gov/",
-                "sourceDescription": "OpenBaltimore",
-                "type": "singleColumn",
-                "listItems": {
-                    "item1": {
-                        "boxStyle": "background:#FFFF00",
-                        "boxDescription": "PUD",
-                        "imageUrl": null
-                    }
-                }
+            "removeFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"PUD1"
+                  }
+               }
+            }
+         },
+         "category":"1",
+         "subCategory":"1",
+         "order":1
+      },
+      "Rail Transit":{  
+         "id":2,
+         "displayName":"transit",
+         "mouseoverName":"Rail Transit",
+         "denyToggle":false,
+         "denyList":{  
+            "denyList1":null
+         },
+         "isActive":false,
+         "layerUsed":true,
+         "hasLegend":true,
+         "urlLegend":"../../legends/template-legend.jade",
+         "legendContents":{  
+            "description":"",
+            "sourceURL":"http://www.urbanrail.net/am/balt/baltimore.htm",
+            "sourceDescription":"Baltimore Open Data",
+            "type":"doubleColumn",
+            "listItemsLeft":{  
+               "item1":{  
+                  "boxStyle":"background:#DE3B38;",
+                  "boxDescription":"Subway",
+                  "imageUrl":null
+               },
+               "item2":{  
+                  "boxStyle":"background:#FFDF01;",
+                  "boxDescription":"Light Rail",
+                  "imageUrl":null
+               }
             },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "ProposedParkHeightsShuttleLoop"
-                        }
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Data: ProposedParkHeightsShuttleLoop'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "ProposedParkHeightsShuttleLoop"
-                        }
-                    }
-                }
+            "listItemsRight":{  
+               "item1":{  
+                  "boxStyle":"display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
+                  "imageUrl":"https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metro.png",
+                  "boxDescription":"Light Rail Stations"
+               }
+            }
+         },
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/cityInfo/MET.png",
+         "functions":{  
+            "addFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"Rail Transit"
+                  }
+               }
             },
-            "category": "1",
-            "subCategory": "1",
-            "order": 1
-        },
-        "Park Heights": {
-            "id": 8,
-            "displayName": "Park Heights",
-            "mouseoverName": "Park Heights",
-            "denyToggle": false,
-            "denyList": {
-                "denyList1": null
+            "piwikTrack":{  
+               "parameters":{  
+                  "param1":"'Baltimore Data: Rail Transit'"
+               }
             },
-            "isActive": false,
-            "layerUsed": true,
-            "hasLegend": true,
-            "urlLegend": "../../legends/template-legend.jade",
-            "legendContents": {
-                "description": "Click map polygons for more information",
-                "sourceURL": "https://data.baltimorecity.gov/",
-                "sourceDescription": "OpenBaltimore",
-                "type": "singleColumn",
-                "listItems": {
-                    "item1": {
-                        "boxStyle": "background:#FFFF00",
-                        "boxDescription": "PUD",
-                        "imageUrl": null
-                    }
-                }
+            "removeFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"Rail Transit"
+                  }
+               }
+            }
+         },
+         "category":"2",
+         "subCategory":"2",
+         "order":1
+      },
+      "Area Master Plans":{  
+         "id":3,
+         "displayName":"AMP",
+         "mouseoverName":"Area Master Plans",
+         "denyToggle":false,
+         "denyList":{  
+            "denyList1":null
+         },
+         "isActive":false,
+         "layerUsed":true,
+         "hasLegend":true,
+         "urlLegend":"../../legends/template-legend.jade",
+         "legendContents":{  
+            "description":"Boundaries of the Area Master Plans that have been approved by the Mayor & City Council of Baltimore. Click on polygons for details.",
+            "sourceURL":"https://data.baltimorecity.gov/Geographic/Area-Master-Plans/es3e-9rfw",
+            "sourceDescription":"OpenBaltimore",
+            "type":"singleColumn",
+            "listItems":{  
+               "item1":{  
+                  "boxStyle":"background:#FF8200",
+                  "boxDescription":"Area Master Plans",
+                  "imageUrl":null
+               }
+            }
+         },
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/HTL.png",
+         "functions":{  
+            "addFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"area-master-plans"
+                  }
+               }
             },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "parkHeights"
-                        }
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Data: parkHeights Boundary'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "parkHeights"
-                        }
-                    }
-                }
+            "piwikTrack":{  
+               "parameters":{  
+                  "param1":"'Baltimore Data: Area Master Plans'"
+               }
             },
-            "category": "1",
-            "subCategory": "1",
-            "order": 1
-        },
-
-
-
-
-
-
-
-
-        "Planned Unit Development": {
-            "id": 1,
-            "displayName": "PUD",
-            "mouseoverName": "Planned Unit Development",
-            "denyToggle": false,
-            "denyList": {
-                "denyList1": null
+            "removeFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"area-master-plans"
+                  }
+               }
+            }
+         },
+         "category":"1",
+         "subCategory":"6",
+         "order":1
+      },
+      "URP":{  
+         "id":4,
+         "displayName":"URP",
+         "mouseoverName":"Urban Renewal Plans",
+         "denyToggle":false,
+         "denyList":{  
+            "denyList1":null
+         },
+         "isActive":false,
+         "layerUsed":true,
+         "hasLegend":true,
+         "urlLegend":"../../legends/template-legend.jade",
+         "legendContents":{  
+            "description":"Boundaries of Urban Renewal Plans that have been approved by the Mayor & City Council of Baltimore.",
+            "sourceURL":"https://data.baltimorecity.gov/Housing-Development/Urban-Renewal-Plans-URP-/byqd-cbfs",
+            "sourceDescription":"OpenBaltimore",
+            "type":"singleColumn",
+            "listItems":{  
+               "item1":{  
+                  "boxStyle":"background:#02A647",
+                  "boxDescription":"Urban Renewal Plans",
+                  "imageUrl":null
+               }
+            }
+         },
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/DT.png",
+         "functions":{  
+            "addFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"urp"
+                  }
+               }
             },
-            "isActive": false,
-            "layerUsed": true,
-            "hasLegend": true,
-            "urlLegend": "../../legends/template-legend.jade",
-            "legendContents": {
-                "description": "Click map polygons for more information",
-                "sourceURL": "https://data.baltimorecity.gov/",
-                "sourceDescription": "OpenBaltimore",
-                "type": "singleColumn",
-                "listItems": {
-                    "item1": {
-                        "boxStyle": "background:#FFFF00",
-                        "boxDescription": "PUD",
-                        "imageUrl": null
-                    }
-                }
+            "piwikTrack":{  
+               "parameters":{  
+                  "param1":"'Baltimore Data: Urban Renewal Plans'"
+               }
             },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "PUD1"
-                        }
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Data: Planned Unit Development'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "PUD1"
-                        }
-                    }
-                }
+            "removeFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"urp"
+                  }
+               }
+            }
+         },
+         "category":"1",
+         "subCategory":"6",
+         "order":2
+      },
+      "Flood Zones":{  
+         "id":5,
+         "displayName":"Flood Zones",
+         "mouseoverName":"Floodplain Overlay Districts",
+         "denyToggle":false,
+         "denyList":{  
+            "denyList1":null
+         },
+         "isActive":false,
+         "layerUsed":true,
+         "hasLegend":true,
+         "urlLegend":"../../legends/template-legend.jade",
+         "legendContents":{  
+            "description":"Polygon feature representing flood risk as defined by the FEMA Digital Flood Insurance Rate Map database. Last Updated 2014.",
+            "sourceURL":"https://data.baltimorecity.gov/Geographic/Floodplain-Shape/pqt8-n8r7",
+            "sourceDescription":"OpenBaltimore",
+            "type":"singleColumn",
+            "listItems":{  
+               "item1":{  
+                  "boxStyle":"background:#265da3",
+                  "boxDescription":"VE (Extreme Risk)",
+                  "imageUrl":null
+               },
+               "item2":{  
+                  "boxStyle":"background:#37b7c2",
+                  "boxDescription":"AE (Very High Risk)",
+                  "imageUrl":null
+               },
+               "item3":{  
+                  "boxStyle":"background:#b8dee6",
+                  "boxDescription":"A (High Risk)",
+                  "imageUrl":null
+               },
+               "item4":{  
+                  "boxStyle":"background:#a1dab4",
+                  "boxDescription":"0.2 Pct Annual Chance Flood Hazard",
+                  "imageUrl":null
+               }
+            }
+         },
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/FZ.png",
+         "functions":{  
+            "addFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"baltimoreFloodZones"
+                  }
+               }
             },
-            "category": "1",
-            "subCategory": "1",
-            "order": 1
-        },
-        "Rail Transit": {
-            "id": 2,
-            "displayName": "transit",
-            "mouseoverName": "Rail Transit",
-            "denyToggle": false,
-            "denyList": {
-                "denyList1": null
+            "piwikTrack":{  
+               "parameters":{  
+                  "param1":"'Baltimore Hazard: Flood Zones'"
+               }
             },
-            "isActive": false,
-            "layerUsed": true,
-            "hasLegend": true,
-            "urlLegend": "../../legends/template-legend.jade",
-            "legendContents": {
-                "description": "",
-                "sourceURL": "http://www.urbanrail.net/am/balt/baltimore.htm",
-                "sourceDescription": "Baltimore Open Data",
-                "type": "doubleColumn",
-                "listItemsLeft": {
-                    "item1": {
-                        "boxStyle": "background:#DE3B38;",
-                        "boxDescription": "Subway",
-                        "imageUrl": null
-                    },
-                    "item2": {
-                        "boxStyle": "background:#FFDF01;",
-                        "boxDescription": "Light Rail",
-                        "imageUrl": null
-                    }
-                },
-                "listItemsRight": {
-                    "item1": {
-                        "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metro.png",
-                        "boxDescription": "Light Rail Stations"
-                    }
-                }
+            "removeFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"baltimoreFloodZones"
+                  }
+               }
+            }
+         },
+         "category":"1",
+         "subCategory":"2",
+         "order":1
+      },
+      "CHAP Historic Districts":{  
+         "id":6,
+         "displayName":"CHAP",
+         "mouseoverName":"CHAP Historic Districts",
+         "denyToggle":false,
+         "denyList":{  
+            "denyList1":null
+         },
+         "isActive":false,
+         "layerUsed":true,
+         "hasLegend":true,
+         "urlLegend":"../../legends/template-legend.jade",
+         "legendContents":{  
+            "description":"Boundaries of Local (CHAP) that have been approved by the Mayor & City Council of Baltimore. Click on polygons for details.",
+            "sourceURL":"https://data.baltimorecity.gov/Culture-Arts/CHAP-Historic-Districts/ibry-626h",
+            "sourceDescription":"OpenBaltimore",
+            "type":"singleColumn",
+            "listItems":{  
+               "item1":{  
+                  "boxStyle":"background:#FD4A50",
+                  "boxDescription":"CHAP Historic Districts",
+                  "imageUrl":null
+               }
+            }
+         },
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/HTL.png",
+         "functions":{  
+            "addFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"historic-district-chap"
+                  }
+               }
             },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/MET.png",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "Rail Transit"
-                        }
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Data: Rail Transit'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "Rail Transit"
-                        }
-                    }
-                }
+            "piwikTrack":{  
+               "parameters":{  
+                  "param1":"'Baltimore Data: CHAP Historic Districts'"
+               }
             },
-            "category": "2",
-            "subCategory": "2",
-            "order": 1
-        },
-        "Area Master Plans": {
-            "id": 3,
-            "displayName": "AMP",
-            "mouseoverName": "Area Master Plans",
-            "denyToggle": false,
-            "denyList": {
-                "denyList1": null
+            "removeFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"historic-district-chap"
+                  }
+               }
+            }
+         },
+         "category":"1",
+         "subCategory":"3",
+         "order":1
+      },
+      "historic district landmarks":{  
+         "id":7,
+         "displayName":"CHAP Historic Landmarks",
+         "mouseoverName":"CHAP Historic Landmarks",
+         "denyToggle":false,
+         "denyList":{  
+            "denyList1":null
+         },
+         "isActive":false,
+         "layerUsed":true,
+         "hasLegend":true,
+         "urlLegend":"../../legends/template-legend.jade",
+         "legendContents":{  
+            "description":"Locations of Local (CHAP) Historic Landmarks as designated by the Commission on Historical & Architectural Preservation and the Mayor & City Council.",
+            "sourceURL":"https://data.baltimorecity.gov/Culture-Arts/Historic-Landmarks-CHAP/67u5-qhe5",
+            "sourceDescription":"OpenBaltimore",
+            "type":"singleColumn",
+            "listItems":{  
+               "item1":{  
+                  "boxStyle":"",
+                  "imageUrl":"../../geoJSON/layerIcons/circle-60.png",
+                  "boxDescription":"Historic Landmarks - CHAP"
+               }
+            }
+         },
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/wdcep/GS.png",
+         "functions":{  
+            "addFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"historic-district-landmarks"
+                  }
+               }
             },
-            "isActive": false,
-            "layerUsed": true,
-            "hasLegend": true,
-            "urlLegend": "../../legends/template-legend.jade",
-            "legendContents": {
-                "description": "Boundaries of the Area Master Plans that have been approved by the Mayor & City Council of Baltimore. Click on polygons for details.",
-                "sourceURL": "https://data.baltimorecity.gov/Geographic/Area-Master-Plans/es3e-9rfw",
-                "sourceDescription": "OpenBaltimore",
-                "type": "singleColumn",
-                "listItems": {
-                    "item1": {
-                        "boxStyle": "background:#FF8200",
-                        "boxDescription": "Area Master Plans",
-                        "imageUrl": null
-                    }
-                }
+            "piwikTrack":{  
+               "parameters":{  
+                  "param1":"'Baltimore Data: CHAP Historic Districts'"
+               }
             },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HTL.png",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "area-master-plans"
-                        }
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Data: Area Master Plans'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "area-master-plans"
-                        }
-                    }
-                }
+            "removeFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"historic-district-landmarks"
+                  }
+               }
             },
-            "category": "1",
-            "subCategory": "6",
-            "order": 1
-        },
-        "URP": {
-            "id": 4,
-            "displayName": "URP",
-            "mouseoverName": "Urban Renewal Plans",
-            "denyToggle": false,
-            "denyList": {
-                "denyList1": null
+            "emits":{  
+               "emit1":{  
+                  "type":"remove",
+                  "parameters":{  
+                     "param1":"clearBillboard"
+                  }
+               }
+            }
+         },
+         "category":"1",
+         "subCategory":"3",
+         "order":2
+      },
+      "MIZOD":{  
+         "id":8,
+         "displayName":"MIZOD",
+         "mouseoverName":"MIZOD",
+         "denyToggle":false,
+         "denyList":{  
+            "denyList1":null
+         },
+         "isActive":false,
+         "layerUsed":true,
+         "hasLegend":true,
+         "urlLegend":"../../legends/template-legend.jade",
+         "legendContents":{  
+            "description":"Maritime Industrial Zoning Overlay District boundaries.",
+            "sourceURL":"https://data.baltimorecity.gov/Geographic/MIZOD/hkck-wphk",
+            "sourceDescription":"OpenBaltimore",
+            "type":"doubleColumn",
+            "listItemsLeft":{  
+               "item1":{  
+                  "boxStyle":"background:#7570b3;",
+                  "boxDescription":"Canton/Marine Terminal",
+                  "imageUrl":null
+               },
+               "item2":{  
+                  "boxStyle":"background:#ffff33;",
+                  "boxDescription":"Fairfield/Curtis Bay",
+                  "imageUrl":null
+               }
             },
-            "isActive": false,
-            "layerUsed": true,
-            "hasLegend": true,
-            "urlLegend": "../../legends/template-legend.jade",
-            "legendContents": {
-                "description": "Boundaries of Urban Renewal Plans that have been approved by the Mayor & City Council of Baltimore.",
-                "sourceURL": "https://data.baltimorecity.gov/Housing-Development/Urban-Renewal-Plans-URP-/byqd-cbfs",
-                "sourceDescription": "OpenBaltimore",
-                "type": "singleColumn",
-                "listItems": {
-                    "item1": {
-                        "boxStyle": "background:#02A647",
-                        "boxDescription": "Urban Renewal Plans",
-                        "imageUrl": null
-                    }
-                }
+            "listItemsRight":{  
+               "item1":{  
+                  "boxStyle":"background:#4daf4a;",
+                  "boxDescription":"Hawkins Point",
+                  "imageUrl":null
+               },
+               "item2":{  
+                  "boxStyle":"background:#e41a1c;",
+                  "boxDescription":"Locust Point",
+                  "imageUrl":null
+               }
+            }
+         },
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/cityInfo/CAM.png",
+         "functions":{  
+            "addFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"mizod"
+                  }
+               }
             },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/DT.png",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "urp"
-                        }
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Data: Urban Renewal Plans'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "urp"
-                        }
-                    }
-                }
+            "piwikTrack":{  
+               "parameters":{  
+                  "param1":"'Baltimore Data: MIZOD'"
+               }
             },
-            "category": "1",
-            "subCategory": "6",
-            "order": 2
-        },
-        "Flood Zones": {
-            "id": 5,
-            "displayName": "Flood Zones",
-            "mouseoverName": "Floodplain Overlay Districts",
-            "denyToggle": false,
-            "denyList": {
-                "denyList1": null
-            },
-            "isActive": false,
-            "layerUsed": true,
-            "hasLegend": true,
-            "urlLegend": "../../legends/template-legend.jade",
-            "legendContents": {
-                "description": "Polygon feature representing flood risk as defined by the FEMA Digital Flood Insurance Rate Map database. Last Updated 2014.",
-                "sourceURL": "https://data.baltimorecity.gov/Geographic/Floodplain-Shape/pqt8-n8r7",
-                "sourceDescription": "OpenBaltimore",
-                "type": "singleColumn",
-                "listItems": {
-                    "item1": {
-                        "boxStyle": "background:#265da3",
-                        "boxDescription": "VE (Extreme Risk)",
-                        "imageUrl": null
-                    },
-                    "item2": {
-                        "boxStyle": "background:#37b7c2",
-                        "boxDescription": "AE (Very High Risk)",
-                        "imageUrl": null
-                    },
-                    "item3": {
-                        "boxStyle": "background:#b8dee6",
-                        "boxDescription": "A (High Risk)",
-                        "imageUrl": null
-                    },
-                    "item4": {
-                        "boxStyle": "background:#a1dab4",
-                        "boxDescription": "0.2 Pct Annual Chance Flood Hazard",
-                        "imageUrl": null
-                    }
-                }
-            },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/FZ.png",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "baltimoreFloodZones"
-                        }
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Hazard: Flood Zones'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "baltimoreFloodZones"
-                        }
-                    }
-                }
-            },
-            "category": "1",
-            "subCategory": "2",
-            "order": 1
-        },
-        "CHAP Historic Districts": {
-            "id": 6,
-            "displayName": "CHAP",
-            "mouseoverName": "CHAP Historic Districts",
-            "denyToggle": false,
-            "denyList": {
-                "denyList1": null
-            },
-            "isActive": false,
-            "layerUsed": true,
-            "hasLegend": true,
-            "urlLegend": "../../legends/template-legend.jade",
-            "legendContents": {
-                "description": "Boundaries of Local (CHAP) that have been approved by the Mayor & City Council of Baltimore. Click on polygons for details.",
-                "sourceURL": "https://data.baltimorecity.gov/Culture-Arts/CHAP-Historic-Districts/ibry-626h",
-                "sourceDescription": "OpenBaltimore",
-                "type": "singleColumn",
-                "listItems": {
-                    "item1": {
-                        "boxStyle": "background:#FD4A50",
-                        "boxDescription": "CHAP Historic Districts",
-                        "imageUrl": null
-                    }
-                }
-            },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HTL.png",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "historic-district-chap"
-                        }
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Data: CHAP Historic Districts'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "historic-district-chap"
-                        }
-                    }
-                }
-            },
-            "category": "1",
-            "subCategory": "3",
-            "order": 1
-        },
-        "historic district landmarks": {
-            "id": 7,
-            "displayName": "CHAP Historic Landmarks",
-            "mouseoverName": "CHAP Historic Landmarks",
-            "denyToggle": false,
-            "denyList": {
-                "denyList1": null
-            },
-            "isActive": false,
-            "layerUsed": true,
-            "hasLegend": true,
-            "urlLegend": "../../legends/template-legend.jade",
-            "legendContents": {
-                "description": "Locations of Local (CHAP) Historic Landmarks as designated by the Commission on Historical & Architectural Preservation and the Mayor & City Council.",
-                "sourceURL": "https://data.baltimorecity.gov/Culture-Arts/Historic-Landmarks-CHAP/67u5-qhe5",
-                "sourceDescription": "OpenBaltimore",
-                "type": "singleColumn",
-                "listItems": {
-                    "item1": {
-                        "boxStyle": "",
-                        "imageUrl": "../../geoJSON/layerIcons/circle-60.png",
-                        "boxDescription": "Historic Landmarks - CHAP"
-                    }
-                }
-            },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/GS.png",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "historic-district-landmarks"
-                        }
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Data: CHAP Historic Districts'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "historic-district-landmarks"
-                        }
-                    }
-                },
-                "emits": {
-                    "emit1": {
-                        "type": "remove",
-                        "parameters": {
-                            "param1": "clearBillboard"
-                        }
-                    }
-                }
-            },
-            "category": "1",
-            "subCategory": "3",
-            "order": 2
-        },
-        "MIZOD": {
-            "id": 8,
-            "displayName": "MIZOD",
-            "mouseoverName": "MIZOD",
-            "denyToggle": false,
-            "denyList": {
-                "denyList1": null
-            },
-            "isActive": false,
-            "layerUsed": true,
-            "hasLegend": true,
-            "urlLegend": "../../legends/template-legend.jade",
-            "legendContents": {
-                "description": "Maritime Industrial Zoning Overlay District boundaries.",
-                "sourceURL": "https://data.baltimorecity.gov/Geographic/MIZOD/hkck-wphk",
-                "sourceDescription": "OpenBaltimore",
-                "type": "doubleColumn",
-                "listItemsLeft": {
-                    "item1": {
-                        "boxStyle": "background:#7570b3;",
-                        "boxDescription": "Canton/Marine Terminal",
-                        "imageUrl": null
-                    },
-                    "item2": {
-                        "boxStyle": "background:#ffff33;",
-                        "boxDescription": "Fairfield/Curtis Bay",
-                        "imageUrl": null
-                    }
-                },
-                "listItemsRight": {
-                    "item1": {
-                        "boxStyle": "background:#4daf4a;",
-                        "boxDescription": "Hawkins Point",
-                        "imageUrl": null
-                    },
-                    "item2": {
-                        "boxStyle": "background:#e41a1c;",
-                        "boxDescription": "Locust Point",
-                        "imageUrl": null
-                    }
-                }
-            },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/CAM.png",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "mizod"
-                        }
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Data: MIZOD'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "mizod"
-                        }
-                    }
-                }
-            },
-            "category": "1",
-            "subCategory": "3",
-            "order": 3
-        }
-    }
+            "removeFunctions":{  
+               "func1":{  
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{  
+                     "param1":"$scope",
+                     "param2":"mizod"
+                  }
+               }
+            }
+         },
+         "category":"1",
+         "subCategory":"3",
+         "order":3
+      }
+   }
 }
