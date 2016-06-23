@@ -1107,7 +1107,7 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "service": "gltf3DService",
+                        "service": "tileMapServiceService",
                         "functionName": "toggleParcelFills",
                         "parameters": {
                             "param1": "add"
@@ -1121,7 +1121,7 @@
                 },
                 "removeFunctions": {
                     "func1": {
-                        "service": "gltf3DService",
+                        "service": "tileMapServiceService",
                         "functionName": "toggleParcelFills",
                         "parameters": {
                             "param1": "remove"
@@ -1154,7 +1154,7 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "service": "gltf3DService",
+                        "service": "tileMapServiceService",
                         "functionName": "addSingleTMSLayer",
                         "parameters": {
                             "param1": "zoningLayer"
@@ -1168,7 +1168,7 @@
                 },
                 "removeFunctions": {
                     "func1": {
-                        "service": "gltf3DService",
+                        "service": "tileMapServiceService",
                         "functionName": "removeSingleTMSLayer",
                         "parameters": {
                             "param1": "zoningLayer"
