@@ -261,7 +261,7 @@
                         "a":100
                      }
                   },
-                  "material":"new Cesium.ColorMaterialProperty(color)",
+                  "material":"new Cesium.ColorMaterialProperty(color)"
                }
             }
          },
