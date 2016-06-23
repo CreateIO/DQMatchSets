@@ -40,46 +40,6 @@
             "exists":false
          }
       },
-      "ProposedParkHeightsShuttleLoop":{  
-         "name":"ProposedParkHeightsShuttleLoop",
-         "removeName":"ProposedParkHeightsShuttleLoop.geojson",
-         "url":"https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/ProposedParkHeightsShuttleLoop.geojson",
-         "cartographic":false,
-         "id":{  
-            "exists":false
-         },
-         "labels":{  
-            "exists":false
-         },
-         "polygons":{  
-            "exists":true,
-            "polygonLayers":{  
-               "polygon1":{  
-                  "type":"singleColor",
-                  "name":"entity.properties.objectid",
-                  "color":{  
-                     "alpha":0.5,
-                     "type":"rgb",
-                     "rgb":{  
-                        "r":255,
-                        "g":255,
-                        "b":0,
-                        "a":100
-                     }
-                  },
-                  "material":"new Cesium.ColorMaterialProperty(color)",
-                  "outlineColor":"Cesium.Color.ANTIQUEWHITE",
-                  "outlineWidth":2.0
-               }
-            }
-         },
-         "rasters":{  
-            "exists":false
-         },
-         "billboards":{  
-            "exists":false
-         }
-      },
       "LandUseInitiatives_GeoRef":{  
          "name":"LandUseInitiatives_GeoRef",
          "removeName":null,
@@ -109,6 +69,204 @@
                   "hasDropdown":false
                }
             }
+         },
+         "billboards":{  
+            "exists":false
+         }
+      },
+
+
+
+
+
+      "BaltimoreHurricaneInnundationZones":{  
+         "name":"BaltimoreHurricaneInnundationZones",
+         "removeName":null,
+         "url":null,
+         "cartographic":false,
+         "id":{  
+            "exists":false
+         },
+         "labels":{  
+            "exists":false
+         },
+         "polygons":{  
+            "exists":false
+         },
+         "rasters":{  
+            "exists":true,
+            "rasterLayers":{  
+               "raster1":{  
+                  "name":"balt-hurricane-inundation",
+                  "url":"https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/balt-hurricane-inundation.png",
+                  "xMin":-76.6564,
+                  "yMin":39.1989,
+                  "xMax":-76.5294,
+                  "yMax":39.2970,
+                  "alpha":0.5,
+                  "show":true,
+                  "hasDropdown":false
+               }
+            }
+         },
+         "billboards":{  
+            "exists":false
+         }
+      },
+
+
+
+      "ShuttleLoopStops":{  
+         "name":"ShuttleLoopStops",
+         "removeName":"ShuttleLoopStops.geojson",
+         "url":"https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/ShuttleLoopStops.geojson",
+         "cartographic":false,
+         "id":{  
+            "exists":false
+         },
+         "labels":{  
+            "exists":false
+         },
+         "points":{  
+            "exists":true,
+            "pointLayers":{  
+               "point1":{  
+                  "type":"singleColor",
+                  "name":"entity.properties.objectid",
+                  "color":{  
+                     "alpha":1,
+                     "type":"rgb",
+                     "rgb":{  
+                        "r":227,
+                        "g":26,
+                        "b":28,
+                        "a":100
+                     }
+                  },
+                  "material":"new Cesium.ColorMaterialProperty(color)",
+                  "pointWidth":20.0
+               }
+            }
+         },
+         "rasters":{  
+            "exists":false
+         },
+         "billboards":{  
+            "exists":false
+         }
+      },
+      "ProposedParkHeightsShuttleLoop":{  
+         "name":"ProposedParkHeightsShuttleLoop",
+         "removeName":"ProposedParkHeightsShuttleLoop.geojson",
+         "url":"https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/ProposedParkHeightsShuttleLoop.geojson",
+         "cartographic":false,
+         "id":{  
+            "exists":false
+         },
+         "labels":{  
+            "exists":false
+         },
+         "lines":{  
+            "exists":true,
+            "lineLayers":{  
+               "line1":{  
+                  "type":"singleColor",
+                  "name":"entity.properties.NAME",
+                  "color":{  
+                     "alpha":1,
+                     "type":"rgb",
+                     "rgb":{  
+                        "r":227,
+                        "g":26,
+                        "b":28,
+                        "a":100
+                     }
+                  },
+                  "material":"new Cesium.ColorMaterialProperty(color)",
+                  "outlineWidth":5
+               }
+            }
+         },
+         "rasters":{  
+            "exists":false
+         },
+         "billboards":{  
+            "exists":false
+         }
+      },
+      "AllShuttleStops_wQtrMileBufferOutline":{  
+         "name":"AllShuttleStops_wQtrMileBufferOutline",
+         "removeName":"AllShuttleStops_wQtrMileBuffer.geojson",
+         "url":"https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/AllShuttleStops_wQtrMileBuffer.geojson",
+         "cartographic":false,
+         "id":{  
+            "exists":false
+         },
+         "labels":{  
+            "exists":false
+         },
+         "polygons":{  
+            "exists":true,
+            "polygonLayers":{  
+               "polygon1":{  
+                  "type":"singleColor",
+                  "name":"entity.properties.NAME",
+                  "color":{  
+                     "alpha":1,
+                     "type":"rgb",
+                     "rgb":{  
+                        "r":0,
+                        "g":0,
+                        "b":0,
+                        "a":100
+                     }
+                  },
+                  "material":"new Cesium.ColorMaterialProperty(color)",
+                  "outlineColor":"Cesium.Color.ANTIQUEWHITE",
+                  "outlineWidth":1.5
+               }
+            }
+         },
+         "rasters":{  
+            "exists":false
+         },
+         "billboards":{  
+            "exists":false
+         }
+      },
+      "AllShuttleStops_wQtrMileBufferFill":{  
+         "name":"AllShuttleStops_wQtrMileBufferFill",
+         "removeName":"AllShuttleStops_wQtrMileBuffer.geojson",
+         "url":"https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/AllShuttleStops_wQtrMileBuffer.geojson",
+         "cartographic":false,
+         "id":{  
+            "exists":false
+         },
+         "labels":{  
+            "exists":false
+         },
+         "polygons":{  
+            "exists":true,
+            "polygonLayers":{  
+               "polygon1":{  
+                  "type":"singleColor",
+                  "name":"entity.properties.NAME",
+                  "color":{  
+                     "alpha":0.35,
+                     "type":"rgb",
+                     "rgb":{  
+                        "r":255,
+                        "g":255,
+                        "b":255,
+                        "a":100
+                     }
+                  },
+                  "material":"new Cesium.ColorMaterialProperty(color)",
+               }
+            }
+         },
+         "rasters":{  
+            "exists":false
          },
          "billboards":{  
             "exists":false
@@ -252,7 +410,7 @@
       },
       "PUD1":{  
          "name":"PUD1",
-         "removeName":"PUD0915-basic-1.geojson",
+         "removeName":"balt_PUD_full.geojson",
          "url":"https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/balt_PUD_full.geojson",
          "cartographic":false,
          "id":{  
