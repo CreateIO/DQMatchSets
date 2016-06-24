@@ -1,9 +1,9 @@
 {
    "allTheLayers":{
-      "Park Heights Major Land Use Initiatives":{
+      "Major Land Use Initiatives":{
          "id":6,
          "displayName":"",
-         "mouseoverName":"Park Heights Major Land Use Initiatives",
+         "mouseoverName":"Major Land Use Initiatives",
          "denyToggle":false,
          "denyList":{
             "denyList1":null
@@ -65,7 +65,7 @@
                }
             }
          },
-         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/parkHeights/MLUI.png",
          "functions":{
             "addFunctions":{
                "func1":{
@@ -95,7 +95,7 @@
          },
          "category":"6",
          "subCategory":"1",
-         "order":1
+         "order":2
       },
 
 
@@ -328,7 +328,7 @@
                    }
                }
          },
-         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/parkHeights/CSCR.png",
          "functions":{
             "addFunctions":{
                "func1":{
@@ -386,7 +386,7 @@
                }
             
          },
-         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/parkHeights/PHV.png",
          "functions":{
             "addFunctions":{
                "func1":{
@@ -416,7 +416,7 @@
          },
          "category":"6",
          "subCategory":"1",
-         "order":1
+         "order":4
       },
       "Proposed Development Plan":{
          "id":11,
@@ -443,7 +443,7 @@
                    }
                }
          },
-         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/parkHeights/PDP.png",
          "functions":{
             "addFunctions":{
                "func1":{
@@ -473,7 +473,7 @@
          },
          "category":"6",
          "subCategory":"1",
-         "order":1
+         "order":7
       },
       "Pimlico Park Redevelopment Plan":{
          "id":12,
@@ -500,7 +500,7 @@
                    }
                }
          },
-         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/parkHeights/PPR.png",
          "functions":{
             "addFunctions":{
                "func1":{
@@ -530,7 +530,7 @@
          },
          "category":"6",
          "subCategory":"1",
-         "order":1
+         "order":5
       },
       "Proposed Park Heights Shuttle Loop":{
          "id":7,
@@ -557,7 +557,7 @@
                }
             }
          },
-         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/parkHeights/PPHSL.png",
          "functions":{
             "addFunctions":{
                "func1":{
@@ -635,7 +635,7 @@
          },
          "category":"6",
          "subCategory":"1",
-         "order":1
+         "order":8
       },
       "Park Heights Boundary":{
          "id":8,
@@ -657,12 +657,12 @@
             "listItems":{
                "item1":{
                   "boxStyle":"background:#FFFF00",
-                  "boxDescription":"PUD",
+                  "boxDescription":"Park Heights neighborhood boundary.",
                   "imageUrl":null
                }
             }
          },
-         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/parkHeights/PHB.png",
          "functions":{
             "addFunctions":{
                "func1":{
@@ -676,7 +676,7 @@
             },
             "piwikTrack":{
                "parameters":{
-                  "param1":"'Baltimore Data: parkHeights Boundary'"
+                  "param1":"'Baltimore Data: Park Heights Boundary'"
                }
             },
             "removeFunctions":{
@@ -692,7 +692,7 @@
          },
          "category":"6",
          "subCategory":"1",
-         "order":1
+         "order":3
       },
       "Planned Unit Development":{
          "id":1,
@@ -1202,10 +1202,10 @@
          "subCategory":"2",
          "order":3
       },
-      "Property Types": {
+      "Property Use Types": {
             "id": 48,
-            "displayName": "Property Types",
-            "mouseoverName": "Property Types",
+            "displayName": "Property Use Types",
+            "mouseoverName": "Property Use Types",
             "denyToggle": false,
             "denyList": {
                 "denyList1": null
@@ -1247,7 +1247,7 @@
             },
             "category": "1",
             "subCategory": "1",
-            "order": 4
+            "order": 6
       },
       "Zoning Districts": {
             "id": 42,
