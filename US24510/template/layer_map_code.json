@@ -183,7 +183,7 @@
                      }
                   },
                   "material":"new Cesium.ColorMaterialProperty(color)",
-                  "outlineWidth":5
+                  "lineWidth":5
                }
             }
          },
