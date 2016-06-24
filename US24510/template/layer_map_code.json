@@ -849,7 +849,8 @@
             "tileHeight":256,
             "minimumLevel":0,
             "maximumLevel":15,
-            "alpha":0.8
+            "alpha":0.8,
+            "tmsStyle": "OSM"
          },
          "rasters":{  
             "exists":false
