@@ -322,7 +322,7 @@
                "type": "singleColumn",
                "listItems": {
                    "item1": {
-                       "boxStyle": "width: 183px; height: 150px; display: block; margin-left: 26px;",
+                       "boxStyle": "width: 173px; height: 138px; display: block; margin-left: 0",
                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/ShoppingCenter_sm.png",
                        "boxDescription": "Proposed redevelopment plan for the Cold Spring Shopping Center."
                    }
@@ -379,7 +379,7 @@
                "type": "singleColumn",
                "listItems": {
                    "item1": {
-                       "boxStyle": "width: 183px; height: 150px; display: block; margin-left: 26px;",
+                       "boxStyle": "width: 173px; height: 138px; display: block; margin-left: 0",
                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/VacantProperties_sm.png",
                        "boxDescription": "Vacant buildings and lots in Park Heights."
                    }
@@ -437,7 +437,7 @@
                "type": "singleColumn",
                "listItems": {
                    "item1": {
-                       "boxStyle": "width: 183px; height: 150px; display: block; margin-left: 26px;",
+                       "boxStyle": "width: 173px; height: 138px; display: block; margin-left: 0",
                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/ProposedDevelopmentPlan_sm.png",
                        "boxDescription": "Proposed development plan."
                    }
@@ -494,7 +494,7 @@
                "type": "singleColumn",
                "listItems": {
                    "item1": {
-                       "boxStyle": "width: 183px; height: 150px; display: block; margin-left: 26px;",
+                       "boxStyle": "width: 173px; height: 138px; display: block; margin-left: 0",
                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PimlicoParkRedevelopment_sm.png",
                        "boxDescription": "Recommended Pimlico Park redevelopment."
                    }
@@ -532,80 +532,107 @@
          "subCategory":"1",
          "order":5
       },
-      "Proposed Park Heights Shuttle Loop": {
-            "id": 42,
-            "displayName": "Proposed Park Heights Shuttle Loop",
-            "mouseoverName": "Proposed Park Heights Shuttle Loop",
-            "denyToggle": false,
-            "denyList": {
-                "denyList1": null
-            },
-            "isActive": false,
-            "layerUsed": true,
-            "hasLegend": true,
-            "urlLegend":"../../legends/template-legend.jade",
-            "legendContents":{
-              "description":"Click map polygons for more information",
-               "sourceURL":"https://data.baltimorecity.gov/",
-               "sourceDescription":"OpenBaltimore",
-               "type":"singleColumn",
-               "listItems":{
-                  "item1":{
-                     "boxStyle":"background:#1A35E4",
-                    "boxDescription":"Shuttle Stops",
-                     "imageUrl":null
-                  },
-                  "item2":{
-                     "boxStyle":"background:#BDEF84",
-                     "boxDescription":"Shuttle Line",
-                     "imageUrl":null
-                  },
-                  "item3":{
-                     "boxStyle":"background:#ED20DC",
-                     "boxDescription":"Quarter mile buffer",
-                     "imageUrl":null
+      "Proposed Park Heights Shuttle Loop":{
+         "id":7,
+         "displayName":"Proposed Park Heights Shuttle Loop",
+         "mouseoverName":"Proposed Park Heights Shuttle Loop",
+         "denyToggle":false,
+         "denyList":{
+            "denyList1":null
+         },
+         "isActive":false,
+         "layerUsed":true,
+         "hasLegend":true,
+         "urlLegend":"../../legends/template-legend.jade",
+         "legendContents":{
+            "description":"Click map polygons for more information",
+            "sourceURL":"https://data.baltimorecity.gov/",
+            "sourceDescription":"OpenBaltimore",
+            "type":"singleColumn",
+            "listItems":{
+               "item1":{
+                  "boxStyle":"background:#FFFF00",
+                  "boxDescription":"PUD",
+                  "imageUrl":null
+               }
+            }
+         },
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/parkHeights/PPHSL.png",
+         "functions":{
+            "addFunctions":{
+               "func1":{
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{
+                     "param1":"$scope",
+                     "param2":"AllShuttleStops_wQtrMileBufferFill"
+                  }
+               },
+               "func2":{
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{
+                     "param1":"$scope",
+                     "param2":"AllShuttleStops_wQtrMileBufferOutline"
+                  }
+               },
+               "func3":{
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{
+                     "param1":"$scope",
+                     "param2":"ProposedParkHeightsShuttleLoop"
+                  }
+               },
+               "func4":{
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{
+                     "param1":"$scope",
+                     "param2":"ShuttleLoopStops"
                   }
                }
             },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/PPHSL.png",
-            "colors": {
-                "type": "?",
-                "hex": {
-                }
+            "piwikTrack":{
+               "parameters":{
+                  "param1":"'Baltimore Data: ProposedParkHeightsShuttleLoop'"
+               }
             },
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "service": "tileMapServiceService",
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ParkHeightsShuttleLoop"
-                        }
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Data: Proposed Park Heights Shuttle Loop'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "service": "tileMapServiceService",
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ParkHeightsShuttleLoop"
-                        }
-                    }
-                },
-                "emits": {
-                    "emit1": {
-                        "type": "add",
-                        "parameters": {
-                            "param1": "tileZoom"
-                        }
-                    }
-                }
-            },
+            "removeFunctions":{
+               "func1":{
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{
+                     "param1":"$scope",
+                     "param2":"AllShuttleStops_wQtrMileBufferFill"
+                   }
+               },
+               "func2":{
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{
+                     "param1":"$scope",
+                     "param2":"AllShuttleStops_wQtrMileBufferOutline"
+                   }
+               },
+               "func3":{
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{
+                     "param1":"$scope",
+                     "param2":"ProposedParkHeightsShuttleLoop"
+                  }
+               },
+               "func4":{
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{
+                     "param1":"$scope",
+                     "param2":"ShuttleLoopStops"
+                  }
+               }
+            }
+         },
          "category":"6",
          "subCategory":"1",
          "order":8
@@ -630,7 +657,7 @@
             "listItems":{
                "item1":{
                   "boxStyle":"background:#FFFF00",
-                  "boxDescription":"Park Heights boundary.",
+                  "boxDescription":"Park Heights neighborhood boundary.",
                   "imageUrl":null
                }
             }
@@ -1175,7 +1202,7 @@
          "subCategory":"2",
          "order":3
       },
-      "Property Use Types": {
+      "Property Types": {
             "id": 48,
             "displayName": "Property Use Types",
             "mouseoverName": "Property Use Types",
