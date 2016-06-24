@@ -1161,7 +1161,9 @@
                   "boxStyle":"background:#49E2AF",
                   "boxDescription":"Residence",
                   "imageUrl":null
-               },
+               }
+            }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png",
             "colors": {
                 "type": "?",
