@@ -272,7 +272,7 @@
                   "functionName":"addLayer",
                   "parameters":{
                      "param1":"$scope",
-                     "param2":"FoodDeserts"
+                     "param2":"BaltEnterpriseFocus"
                   }
                }
             },
