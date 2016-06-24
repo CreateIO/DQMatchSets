@@ -540,17 +540,17 @@
         "type": "singleColumn",
         "listItems": {
           "item1": {
-            "boxStyle": "background:#1A35E4",
+            "boxStyle": "border-radius: 20px; border: 10px solid #BB4444",
             "boxDescription": "Shuttle Stops",
             "imageUrl": null
           },
           "item2": {
-            "boxStyle": "background:#BDEF84",
+            "boxStyle": "background:#BB4444",
             "boxDescription": "Shuttle Line",
             "imageUrl": null
           },
           "item3": {
-            "boxStyle": "background:#ED20DC",
+            "boxStyle": "border: 2.5px dashed #808080",
             "boxDescription": "Quarter mile buffer",
             "imageUrl": null
           }
