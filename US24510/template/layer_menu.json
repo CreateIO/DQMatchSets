@@ -1130,7 +1130,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerLegendZoning.jade",
+         "urlLegend":"../../legends/template-legend.jade",
             "legendContents":{
             "description":"Click map polygons for more information",
             "sourceURL":"https://data.baltimorecity.gov/",
