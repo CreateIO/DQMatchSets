@@ -659,7 +659,7 @@
                }
             }
          },
-         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/cityInfo/MET.png",
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/cityInfo/RT.png",
          "functions":{
             "addFunctions":{
                "func1":{
