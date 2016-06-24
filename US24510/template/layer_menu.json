@@ -1174,7 +1174,7 @@
                 "addFunctions": {
                     "func1": {
                         "service": "tileMapServiceService",
-                        "functionName": "addSingleTMSLayer",
+                        "functionName": "addDynamicTMSLayer",
                         "parameters": {
                             "param1": "zoningLayer"
                         }
@@ -1188,7 +1188,7 @@
                 "removeFunctions": {
                     "func1": {
                         "service": "tileMapServiceService",
-                        "functionName": "removeSingleTMSLayer",
+                        "functionName": "removeDynamicTMSLayer",
                         "parameters": {
                             "param1": "zoningLayer"
                         }
