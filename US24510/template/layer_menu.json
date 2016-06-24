@@ -184,20 +184,20 @@
          },
          "isActive":false,
          "layerUsed":true,
-         "hasLegend":false,
+         "hasLegend":true,
          "urlLegend":"../../legends/template-legend.jade",
-         "legendContents":{
-            "description":"Click map polygons for more information",
-            "sourceURL":"https://data.baltimorecity.gov/",
-            "sourceDescription":"OpenBaltimore",
-            "type":"singleColumn",
-            "listItems":{
-               "item1":{
-                  "boxStyle":"background:#FF9C9F",
-                  "boxDescription":"Cold Spring Center Redevelopment Plan",
-                  "imageUrl":null
+         "legendContents": {
+               "description": "Example site plan shown above.",
+               "sourceURL": "http://www.wdcep.com/",
+               "sourceDescription": "WDCEP",
+               "type": "singleColumn",
+               "listItems": {
+                   "item1": {
+                       "boxStyle": "width: 183px; display: block; margin-left: 26px;",
+                       "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/ShoppingCenter_GeoRefsm.png",
+                       "boxDescription": "Proposed redevelopment plan for the Cold Spring Shopping Center."
+                   }
                }
-            }
          },
          "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
          "functions":{
