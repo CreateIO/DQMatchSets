@@ -540,12 +540,12 @@
         "type": "singleColumn",
         "listItems": {
           "item1": {
-            "boxStyle": "border-radius: 20px; border: 8px solid #BB4444",
+            "boxStyle": "border-radius: 20px; border: 8px solid #E15D5D",
             "boxDescription": "Shuttle Stops",
             "imageUrl": null
           },
           "item2": {
-            "boxStyle": "background:#BB4444",
+            "boxStyle": "background:#E15D5D",
             "boxDescription": "Shuttle Line",
             "imageUrl": null
           },
