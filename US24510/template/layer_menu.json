@@ -1196,10 +1196,17 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "service": "tileMapServiceService",
+                        "service": "gltf3DService",
                         "functionName": "toggleParcelFills",
                         "parameters": {
                             "param1": "add"
+                        }
+                    },
+                    "func2": {
+                        "service": "tileMapServiceService",
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "parcelUseLayer"
                         }
                     }
                 },
@@ -1210,10 +1217,17 @@
                 },
                 "removeFunctions": {
                     "func1": {
-                        "service": "tileMapServiceService",
+                        "service": "gltf3DService",
                         "functionName": "toggleParcelFills",
                         "parameters": {
                             "param1": "remove"
+                        }
+                    },
+                    "func2": {
+                        "service": "tileMapServiceService",
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "parcelUseLayer"
                         }
                     }
                 }
