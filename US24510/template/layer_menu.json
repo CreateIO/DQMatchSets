@@ -261,6 +261,11 @@
                   "boxStyle":"background:#7570B3",
                   "boxDescription":"Enterprise Focus Areas",
                   "imageUrl":null
+               },
+               "item2":{
+                  "boxStyle":"background:#ae8",
+                  "boxDescription":"Enterprise Focus Areas",
+                  "imageUrl":null
                }
             }
          },
