@@ -170,7 +170,7 @@
             "tmsLayerName":"ParkHeightsShuttleLoop",
             "url":"http://s3.amazonaws.com/models-dc/img_tilesets/ParkHeightsShuttleLoop",
             "extension":"png",
-            "coords":{"xMin":-78,"yMin":36,"xMax":-75,"yMax":40},
+            "coords":{"xMin":-76.6980,"yMin":39.329,"xMax":-76.662,"yMax":39.357},
             "tileWidth":256,
             "tileHeight":256,
             "minimumLevel":3,
