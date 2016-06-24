@@ -366,7 +366,7 @@
                "listItems": {
                    "item1": {
                        "boxStyle": "width: 183px; height: 150px; display: block; margin-left: 26px;",
-                       "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PimlicoParkRedevelopment_sm",
+                       "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PimlicoParkRedevelopment_sm.png",
                        "boxDescription": "Recommended Pimlico Park redevelopment."
                    }
                }
