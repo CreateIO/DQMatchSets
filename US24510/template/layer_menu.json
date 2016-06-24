@@ -194,7 +194,7 @@
                "listItems": {
                    "item1": {
                        "boxStyle": "width: 183px; display: block; margin-left: 26px;",
-                       "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/ShoppingCenter_GeoRefsm.png",
+                       "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/ShoppingCenter_sm.png",
                        "boxDescription": "Proposed redevelopment plan for the Cold Spring Shopping Center."
                    }
                }
