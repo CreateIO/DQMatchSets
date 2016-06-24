@@ -142,7 +142,7 @@
                }
             }
          },
-         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/cityInfo/HIZ.png",
          "functions":{
             "addFunctions":{
                "func1":{
@@ -653,7 +653,7 @@
             "listItemsRight":{
                "item1":{
                   "boxStyle":"display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
-                  "imageUrl":"https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metro.png",
+                  "imageUrl":"https://s3.amazonaws.com/models-dc/tiles/cityInfo/MET.png",
                   "boxDescription":"Light Rail Stations"
                }
             }
@@ -715,7 +715,7 @@
                }
             }
          },
-         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/HTL.png",
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/incentives/AMP.png",
          "functions":{
             "addFunctions":{
                "func1":{
@@ -772,7 +772,7 @@
                }
             }
          },
-         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/DT.png",
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/incentives/URP.png",
          "functions":{
             "addFunctions":{
                "func1":{
@@ -901,7 +901,7 @@
                }
             }
          },
-         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/HTL.png",
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/incentives/HD.png",
          "functions":{
             "addFunctions":{
                "func1":{
@@ -958,7 +958,7 @@
                }
             }
          },
-         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/wdcep/GS.png",
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/incentives/HL.png",
          "functions":{
             "addFunctions":{
                "func1":{
@@ -1040,7 +1040,7 @@
                }
             }
          },
-         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/cityInfo/CAM.png",
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/incentives/MIZOD.png",
          "functions":{
             "addFunctions":{
                "func1":{

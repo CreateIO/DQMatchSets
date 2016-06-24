@@ -825,6 +825,38 @@
          "billboards":{  
             "exists":false
          }
+      },
+         "zoningLayer":{  
+         "name":"zoningLayer",
+         "removeName":null,
+         "url":null,
+         "cartographic":false,
+         "id":{  
+            "exists":false
+         },
+         "labels":{  
+            "exists":false
+         },
+         "polygons":{  
+            "exists":false
+         },
+         "tms":{
+            "tmsLayerName":"baci_zoning",
+            "url":"http://s3.amazon.aws.com/models-dc/img_tilesets/baci-zoning",
+            "extension":"png",
+            "coords":{"xMin":0,"yMin":-180,"xMax":90,"yMax":0},
+            "tileWidth":256,
+            "tileHeight":256,
+            "minimumLevel":0,
+            "maximumLevel":15,
+            "alpha":0.8
+         },
+         "rasters":{  
+            "exists":false
+         },
+         "billboards":{  
+            "exists":false
+         }
       }
    }
 }
