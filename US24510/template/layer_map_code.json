@@ -118,6 +118,42 @@
       },
 
 
+     "BaltEnterpriseFocus":{  
+         "name":"BaltEnterpriseFocus",
+         "removeName":null,
+         "url":null,
+         "cartographic":false,
+         "id":{  
+            "exists":false
+         },
+         "labels":{  
+            "exists":false
+         },
+         "polygons":{  
+            "exists":false
+         },
+         "rasters":{  
+            "exists":true,
+            "rasterLayers":{  
+               "raster1":{  
+                  "name":"balt-enterprise-focus",
+                  "url":"https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/balt-enterprise-focus.png",
+                  "xMin":-76.71,
+                  "yMin":39.1967,
+                  "xMax":-76.529,
+                  "yMax":39.3740,
+                  "alpha":0.8,
+                  "show":true,
+                  "hasDropdown":false
+               }
+            }
+         },
+         "billboards":{  
+            "exists":false
+         }
+      },
+
+
 
       "ShuttleLoopStops":{  
          "name":"ShuttleLoopStops",

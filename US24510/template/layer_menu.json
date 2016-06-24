@@ -239,6 +239,64 @@
       },
 
 
+      "Enterprise Focus Areas":{
+         "id":6,
+         "displayName":"",
+         "mouseoverName":"Enterprise Focus Areas",
+         "denyToggle":false,
+         "denyList":{
+            "denyList1":null
+         },
+         "isActive":false,
+         "layerUsed":true,
+         "hasLegend":true,
+         "urlLegend":"../../legends/template-legend.jade",
+         "legendContents":{
+            "description":"Click map polygons for more information",
+            "sourceURL":"https://data.baltimorecity.gov/",
+            "sourceDescription":"OpenBaltimore",
+            "type":"singleColumn",
+            "listItems":{
+               "item1":{
+                  "boxStyle":"background:#7570B3",
+                  "boxDescription":"Enterprise Focus Areas",
+                  "imageUrl":null
+               }
+            }
+         },
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/cityInfo/FD.png",
+         "functions":{
+            "addFunctions":{
+               "func1":{
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{
+                     "param1":"$scope",
+                     "param2":"FoodDeserts"
+                  }
+               }
+            },
+            "piwikTrack":{
+               "parameters":{
+                  "param1":"'BaltEnterpriseFocus'"
+               }
+            },
+            "removeFunctions":{
+               "func1":{
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{
+                     "param1":"$scope",
+                     "param2":"BaltEnterpriseFocus"
+                  }
+               }
+            }
+         },
+         "category":"1",
+         "subCategory":"1",
+         "order":1
+      },
+
 
       "Cold Spring Center Redevelopment Plan":{
          "id":9,
