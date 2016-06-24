@@ -243,18 +243,19 @@
          "layerUsed":true,
          "hasLegend":true,
          "urlLegend":"../../legends/template-legend.jade",
-         "legendContents":{
-            "description":"Click map polygons for more information",
-            "sourceURL":"https://data.baltimorecity.gov/",
-            "sourceDescription":"OpenBaltimore",
-            "type":"singleColumn",
-            "listItems":{
-               "item1":{
-                  "boxStyle":"background:#FF9C9F",
-                  "boxDescription":"ParkHeightsVacantProperties",
-                  "imageUrl":null
+         "legendContents": {
+               "description": "Example site plan shown above.",
+               "sourceURL": "http://www.wdcep.com/",
+               "sourceDescription": "WDCEP",
+               "type": "singleColumn",
+               "listItems": {
+                   "item1": {
+                       "boxStyle": "width: 183px; height: 150px; display: block; margin-left: 26px;",
+                       "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/VacantProperties_sm.png",
+                       "boxDescription": "Vacant buildings and lots in Park Heights."
+                   }
                }
-            }
+            
          },
          "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
          "functions":{
@@ -300,18 +301,18 @@
          "layerUsed":true,
          "hasLegend":false,
          "urlLegend":"../../legends/template-legend.jade",
-         "legendContents":{
-            "description":"Click map polygons for more information",
-            "sourceURL":"https://data.baltimorecity.gov/",
-            "sourceDescription":"OpenBaltimore",
-            "type":"singleColumn",
-            "listItems":{
-               "item1":{
-                  "boxStyle":"background:#FF9C9F",
-                  "boxDescription":"ParkHeightsProposedDevelopmentPlan",
-                  "imageUrl":null
+         "legendContents": {
+               "description": "Example site plan shown above.",
+               "sourceURL": "http://www.wdcep.com/",
+               "sourceDescription": "WDCEP",
+               "type": "singleColumn",
+               "listItems": {
+                   "item1": {
+                       "boxStyle": "width: 183px; height: 150px; display: block; margin-left: 26px;",
+                       "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/ProposedDevelopmentPlan_sm.png",
+                       "boxDescription": "Proposed development plan."
+                   }
                }
-            }
          },
          "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
          "functions":{
@@ -357,18 +358,18 @@
          "layerUsed":true,
          "hasLegend":false,
          "urlLegend":"../../legends/template-legend.jade",
-         "legendContents":{
-            "description":"Click map polygons for more information",
-            "sourceURL":"https://data.baltimorecity.gov/",
-            "sourceDescription":"OpenBaltimore",
-            "type":"singleColumn",
-            "listItems":{
-               "item1":{
-                  "boxStyle":"background:#FF9C9F",
-                  "boxDescription":"PimlicoParkRedevelopment",
-                  "imageUrl":null
+         "legendContents": {
+               "description": "Example site plan shown above.",
+               "sourceURL": "http://www.wdcep.com/",
+               "sourceDescription": "WDCEP",
+               "type": "singleColumn",
+               "listItems": {
+                   "item1": {
+                       "boxStyle": "width: 183px; height: 150px; display: block; margin-left: 26px;",
+                       "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PimlicoParkRedevelopment_sm",
+                       "boxDescription": "Recommended Pimlico Park redevelopment."
+                   }
                }
-            }
          },
          "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
          "functions":{
@@ -1130,39 +1131,39 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-         "urlLegend":"../../legends/template-legend.jade",
+            "urlLegend":"../../legends/template-legend.jade",
             "legendContents":{
-            "description":"Click map polygons for more information",
-            "sourceURL":"https://data.baltimorecity.gov/",
-            "sourceDescription":"OpenBaltimore",
-            "type":"singleColumn",
-            "listItems":{
-               "item1":{
-                  "boxStyle":"background:#1A35E4",
-                  "boxDescription":"Business",
-                  "imageUrl":null
-               },
-               "item2":{
-                  "boxStyle":"background:#BDEF84",
-                  "boxDescription":"Industrial",
-                  "imageUrl":null
-               },
-               "item3":{
-                  "boxStyle":"background:#ED20DC",
-                  "boxDescription":"Office-Residence",
-                  "imageUrl":null
-               },
-               "item4":{
-                  "boxStyle":"background:#D87B56",
-                  "boxDescription":"Open Space",
-                  "imageUrl":null
-               },
-               "item5":{
-                  "boxStyle":"background:#49E2AF",
-                  "boxDescription":"Residence",
-                  "imageUrl":null
+              "description":"Click map polygons for more information",
+               "sourceURL":"https://data.baltimorecity.gov/",
+               "sourceDescription":"OpenBaltimore",
+               "type":"singleColumn",
+               "listItems":{
+                  "item1":{
+                     "boxStyle":"background:#1A35E4",
+                    "boxDescription":"Business",
+                     "imageUrl":null
+                  },
+                  "item2":{
+                     "boxStyle":"background:#BDEF84",
+                     "boxDescription":"Industrial",
+                     "imageUrl":null
+                  },
+                  "item3":{
+                     "boxStyle":"background:#ED20DC",
+                     "boxDescription":"Office-Residence",
+                     "imageUrl":null
+                  },
+                  "item4":{
+                     "boxStyle":"background:#D87B56",
+                     "boxDescription":"Open Space",
+                     "imageUrl":null
+                  },
+                  "item5":{
+                     "boxStyle":"background:#49E2AF",
+                     "boxDescription":"Residence",
+                     "imageUrl":null
+                  }
                }
-            }
             },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png",
             "colors": {
@@ -1207,5 +1208,5 @@
             "subCategory": "1",
             "order": 1
       }
-    }
+   }
 }
