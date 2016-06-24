@@ -64,7 +64,7 @@
                   "yMin":39.3183180,
                   "xMax":-76.6509116,
                   "yMax":39.3589137,
-                  "alpha":0.8,
+                  "alpha":0.5,
                   "show":true,
                   "hasDropdown":false
                }
@@ -106,7 +106,7 @@
                   "yMin":39.2244,
                   "xMax":-76.529,
                   "yMax":39.3599,
-                  "alpha":0.8,
+                  "alpha":0.5,
                   "show":true,
                   "hasDropdown":false
                }
@@ -142,7 +142,7 @@
                   "yMin":39.1967,
                   "xMax":-76.529,
                   "yMax":39.3740,
-                  "alpha":0.8,
+                  "alpha":0.5,
                   "show":true,
                   "hasDropdown":false
                }
@@ -335,7 +335,7 @@
                   "yMin":39.3482063,
                   "xMax":-76.6659006,
                   "yMax":39.3574927,
-                  "alpha":0.8,
+                  "alpha":0.5,
                   "show":true,
                   "hasDropdown":false
                }
@@ -369,7 +369,7 @@
                   "yMin":39.3371138,
                   "xMax":-76.6658273,
                   "yMax":39.3488498,
-                  "alpha":0.8,
+                  "alpha":1,
                   "show":true,
                   "hasDropdown":false
                }
@@ -403,7 +403,7 @@
                   "yMin":39.3388392,
                   "xMax":-76.6661938,
                   "yMax":39.3412120,
-                  "alpha":0.8,
+                  "alpha":1,
                   "show":true,
                   "hasDropdown":false
                }
@@ -437,7 +437,7 @@
                   "yMin":39.3174815,
                   "xMax":-76.6473016,
                   "yMax":39.3611311,
-                  "alpha":0.8,
+                  "alpha":1,
                   "show":true,
                   "hasDropdown":false
                }
@@ -888,7 +888,7 @@
             "tileHeight":256,
             "minimumLevel":3,
             "maximumLevel":15,
-            "alpha":0.8,
+            "alpha":0.5,
             "tmsStyle": "OSM"
          },
          "rasters":{  
