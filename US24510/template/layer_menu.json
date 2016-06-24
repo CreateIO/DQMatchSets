@@ -97,6 +97,9 @@
          "subCategory":"1",
          "order":1
       },
+
+
+
       "Baltimore Hurricane Inundation Zones":{
          "id":6,
          "displayName":"",
@@ -174,6 +177,69 @@
          "subCategory":"1",
          "order":1
       },
+
+
+
+      "Food Deserts":{
+         "id":6,
+         "displayName":"",
+         "mouseoverName":"Food Deserts",
+         "denyToggle":false,
+         "denyList":{
+            "denyList1":null
+         },
+         "isActive":false,
+         "layerUsed":true,
+         "hasLegend":true,
+         "urlLegend":"../../legends/template-legend.jade",
+         "legendContents":{
+            "description":"Click map polygons for more information",
+            "sourceURL":"https://data.baltimorecity.gov/",
+            "sourceDescription":"OpenBaltimore",
+            "type":"singleColumn",
+            "listItems":{
+               "item1":{
+                  "boxStyle":"background:#DF3D0C",
+                  "boxDescription":"Food Deserts",
+                  "imageUrl":null
+               }
+            }
+         },
+         "urlPicture":"https://s3.amazonaws.com/models-dc/tiles/cityInfo/FD.png",
+         "functions":{
+            "addFunctions":{
+               "func1":{
+                  "service":"mapOverlayService",
+                  "functionName":"addLayer",
+                  "parameters":{
+                     "param1":"$scope",
+                     "param2":"FoodDeserts"
+                  }
+               }
+            },
+            "piwikTrack":{
+               "parameters":{
+                  "param1":"'FoodDeserts'"
+               }
+            },
+            "removeFunctions":{
+               "func1":{
+                  "service":"mapOverlayService",
+                  "functionName":"removeLayer",
+                  "parameters":{
+                     "param1":"$scope",
+                     "param2":"FoodDeserts"
+                  }
+               }
+            }
+         },
+         "category":"1",
+         "subCategory":"1",
+         "order":1
+      },
+
+
+
       "Cold Spring Center Redevelopment Plan":{
          "id":9,
          "displayName":"",

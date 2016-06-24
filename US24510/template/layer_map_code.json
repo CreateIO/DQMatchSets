@@ -79,8 +79,11 @@
 
 
 
-      "BaltimoreHurricaneInnundationZones":{  
-         "name":"BaltimoreHurricaneInnundationZones",
+
+
+
+      "FoodDeserts":{  
+         "name":"FoodDeserts",
          "removeName":null,
          "url":null,
          "cartographic":false,
@@ -97,13 +100,13 @@
             "exists":true,
             "rasterLayers":{  
                "raster1":{  
-                  "name":"balt-hurricane-inundation",
-                  "url":"https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/balt-hurricane-inundation.png",
-                  "xMin":-76.6564,
-                  "yMin":39.1989,
-                  "xMax":-76.5294,
-                  "yMax":39.2970,
-                  "alpha":0.5,
+                  "name":"balt-food-deserts",
+                  "url":"https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/balt-food-deserts.png",
+                  "xMin":-76.7155,
+                  "yMin":39.2244,
+                  "xMax":-76.529,
+                  "yMax":39.3599,
+                  "alpha":0.8,
                   "show":true,
                   "hasDropdown":false
                }
