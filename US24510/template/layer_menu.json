@@ -654,7 +654,7 @@
             "listItemsRight":{
                "item1":{
                   "boxStyle":"display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
-                  "imageUrl":"https://s3.amazonaws.com/models-dc/tiles/cityInfo/MET.png",
+                  "imageUrl":"https://s3.amazonaws.com/models-dc/tiles/cityInfo/RT.png",
                   "boxDescription":"Light Rail Stations"
                }
             }
