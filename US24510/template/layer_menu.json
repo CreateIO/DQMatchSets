@@ -534,9 +534,9 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "https://data.baltimorecity.gov/",
-        "sourceDescription": "OpenBaltimore",
+        "description": "",
+        "sourceURL": "",
+        "sourceDescription": "",
         "type": "singleColumn",
         "listItems": {
           "item1": {
