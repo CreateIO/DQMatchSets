@@ -13,9 +13,9 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "https://data.baltimorecity.gov/",
-        "sourceDescription": "OpenBaltimore",
+        "description": "",
+        "sourceURL": "",
+        "sourceDescription": "",
         "type": "singleColumn",
         "listItems": {
           "item1": {
@@ -306,9 +306,9 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "Example site plan shown above.",
-        "sourceURL": "http://www.wdcep.com/",
-        "sourceDescription": "WDCEP",
+        "description": "",
+        "sourceURL": "",
+        "sourceDescription": "",
         "type": "singleColumn",
         "listItems": {
           "item1": {
@@ -363,9 +363,9 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "Example site plan shown above.",
-        "sourceURL": "http://www.wdcep.com/",
-        "sourceDescription": "WDCEP",
+        "description": "",
+        "sourceURL": "",
+        "sourceDescription": "",
         "type": "singleColumn",
         "listItems": {
           "item1": {
@@ -420,9 +420,9 @@
       "hasLegend": false,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "Example site plan shown above.",
-        "sourceURL": "http://www.wdcep.com/",
-        "sourceDescription": "WDCEP",
+        "description": "",
+        "sourceURL": "",
+        "sourceDescription": "",
         "type": "singleColumn",
         "listItems": {
           "item1": {
@@ -477,9 +477,9 @@
       "hasLegend": false,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "Example site plan shown above.",
-        "sourceURL": "http://www.wdcep.com/",
-        "sourceDescription": "WDCEP",
+        "description": "",
+        "sourceURL": "",
+        "sourceDescription": "",
         "type": "singleColumn",
         "listItems": {
           "item1": {
@@ -611,9 +611,9 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "https://data.baltimorecity.gov/",
-        "sourceDescription": "OpenBaltimore",
+        "description": "",
+        "sourceURL": "",
+        "sourceDescription": "",
         "type": "singleColumn",
         "listItems": {
           "item1": {
