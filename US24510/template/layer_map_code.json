@@ -128,10 +128,10 @@
           "raster1": {
             "name": "balt-hurricane-inundation",
             "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/balt-hurricane-inundation.png",
-            "xMin": -76.71,
-            "yMin": 39.1967,
-            "xMax": -76.529,
-            "yMax": 39.3740,
+            "xMin": -76.6564289,
+            "yMin": 39.1989232,
+            "xMax": -76.5293942,
+            "yMax": 39.297007,
             "alpha": 0.5,
             "show": true,
             "hasDropdown": false
