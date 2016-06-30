@@ -598,6 +598,140 @@
       "subCategory": "1",
       "order": 8
     },
+    "Vacant Buildings": {
+      "id": 42,
+      "displayName": "Vacant Buildings",
+      "mouseoverName": "Vacant Buildings",
+      "denyToggle": false,
+      "denyList": {
+        "denyList1": null
+      },
+      "isActive": false,
+      "layerUsed": true,
+      "hasLegend": true,
+      "urlLegend": "../../legends/template-legend.jade",
+      "legendContents": {
+        "description": "City of Baltimore vacant buildings.",
+        "sourceURL": "http://gisdata.baltimorecity.gov/",
+        "sourceDescription": "",
+        "type": "singleColumn",
+        "listItems": {
+          "item1": {
+            "boxStyle": "border-radius: 20px; border: 8px solid #E31A1C",
+            "boxDescription": "Vacant Buildings",
+            "imageUrl": null
+          }
+        }
+      },
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/PPHSL.png",
+      "colors": {
+        "type": "?",
+        "hex": {}
+      },
+      "functions": {
+        "addFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "addDynamicTMSLayer",
+            "parameters": {
+              "param1": "VacantBuildings"
+            }
+          }
+        },
+        "piwikTrack": {
+          "parameters": {
+            "param1": "'Data: Vacant Buildings"
+          }
+        },
+        "removeFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "removeDynamicTMSLayer",
+            "parameters": {
+              "param1": "VacantBuildings"
+            }
+          }
+        },
+        "emits": {
+          "emit1": {
+            "type": "add",
+            "parameters": {
+              "param1": "tileZoom"
+            }
+          }
+        }
+      },
+      "category": "1",
+      "subCategory": "1",
+      "order": 6
+    },
+    "Vacant Lots": {
+      "id": 42,
+      "displayName": "Vacant Lots",
+      "mouseoverName": "Vacant Lots",
+      "denyToggle": false,
+      "denyList": {
+        "denyList1": null
+      },
+      "isActive": false,
+      "layerUsed": true,
+      "hasLegend": true,
+      "urlLegend": "../../legends/template-legend.jade",
+      "legendContents": {
+        "description": "City of Baltimore vacant lots.",
+        "sourceURL": "http://gisdata.baltimorecity.gov/",
+        "sourceDescription": "",
+        "type": "singleColumn",
+        "listItems": {
+          "item1": {
+            "boxStyle": "border-radius: 20px; border: 8px solid #FF7F00",
+            "boxDescription": "Vacant Lots",
+            "imageUrl": null
+          }
+        }
+      },
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/PPHSL.png",
+      "colors": {
+        "type": "?",
+        "hex": {}
+      },
+      "functions": {
+        "addFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "addDynamicTMSLayer",
+            "parameters": {
+              "param1": "VacantLots"
+            }
+          }
+        },
+        "piwikTrack": {
+          "parameters": {
+            "param1": "'Data: Vacant Lots'"
+          }
+        },
+        "removeFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "removeDynamicTMSLayer",
+            "parameters": {
+              "param1": "VacantLots"
+            }
+          }
+        },
+        "emits": {
+          "emit1": {
+            "type": "add",
+            "parameters": {
+              "param1": "tileZoom"
+            }
+          }
+        }
+      },
+      "category": "1",
+      "subCategory": "1",
+      "order": 7
+    },
     "Park Heights Boundary": {
       "id": 8,
       "displayName": "Park Heights Boundary",
@@ -1308,7 +1442,7 @@
       },
       "category": "1",
       "subCategory": "1",
-      "order": 1
+      "order": 8
     }
   }
 }
