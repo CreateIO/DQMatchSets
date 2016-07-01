@@ -240,8 +240,8 @@
         },
         "tileWidth": 256,
         "tileHeight": 256,
-        "minimumLevel": 3,
-        "maximumLevel": 15,
+        "minimumLevel": 0,
+        "maximumLevel": 17,
         "alpha": 1,
         "tmsStyle": "OSM"
       },
@@ -278,8 +278,8 @@
         },
         "tileWidth": 256,
         "tileHeight": 256,
-        "minimumLevel": 3,
-        "maximumLevel": 15,
+        "minimumLevel": 0,
+        "maximumLevel": 17,
         "alpha": 1,
         "tmsStyle": "OSM"
       },
