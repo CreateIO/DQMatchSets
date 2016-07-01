@@ -171,7 +171,7 @@
         }
       },
       "category": "1",
-      "subCategory": "1",
+      "subCategory": "5",
       "order": 1
     },
     "Food Deserts": {
@@ -227,9 +227,9 @@
           }
         }
       },
-      "category": "1",
+      "category": "4",
       "subCategory": "1",
-      "order": 1
+      "order": 2
     },
     "Enterprise Focus Areas": {
       "id": 6,
@@ -289,7 +289,7 @@
           }
         }
       },
-      "category": "1",
+      "category": "4",
       "subCategory": "1",
       "order": 1
     },
