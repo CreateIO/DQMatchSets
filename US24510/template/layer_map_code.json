@@ -880,7 +880,45 @@
       },
       "billboards": {
         "exists": false
+    },
+    "BaltimoreNeighborhoods": {
+      "name": "BaltimoreNeighborhoods",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci-neighborhoods",
+        "url": "https://s3.amazonaws.com/models-dc/img_tilesets/baci-neighborhoods",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.78,
+          "yMin": 39.17,
+          "xMax": -76.46,
+          "yMax": 39.40
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 3,
+        "maximumLevel": 15,
+        "alpha": 0.5,
+        "tmsStyle": "OSM"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
       }
     }
   }
+}
 }
