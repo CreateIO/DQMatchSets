@@ -192,7 +192,7 @@
       },
       "tms": {
         "tmsLayerName": "ParkHeightsShuttleLoop",
-        "url": "http://s3.amazonaws.com/models-dc/img_tilesets/ParkHeightsShuttleLoop",
+        "url": "https://s3.amazonaws.com/models-dc/img_tilesets/ParkHeightsShuttleLoop",
         "extension": "png",
         "coords": {
           "xMin": -76.6980,
@@ -230,7 +230,7 @@
       },
       "tms": {
         "tmsLayerName": "VacantBuildings",
-        "url": "http://s3.amazonaws.com/models-dc/img_tilesets/VacantBuildings",
+        "url": "https://s3.amazonaws.com/models-dc/img_tilesets/VacantBuildings",
         "extension": "png",
         "coords": {
           "xMin": -76.73,
@@ -268,7 +268,7 @@
       },
       "tms": {
         "tmsLayerName": "VacantLots",
-        "url": "http://s3.amazonaws.com/models-dc/img_tilesets/VacantLots",
+        "url": "https://s3.amazonaws.com/models-dc/img_tilesets/VacantLots",
         "extension": "png",
         "coords": {
           "xMin": -76.73,
@@ -860,7 +860,7 @@
       },
       "tms": {
         "tmsLayerName": "baci_zoning",
-        "url": "http://s3.amazonaws.com/models-dc/img_tilesets/baci_zoning",
+        "url": "https://s3.amazonaws.com/models-dc/img_tilesets/baci_zoning",
         "extension": "png",
         "coords": {
           "xMin": -78,
