@@ -859,8 +859,8 @@
         "exists": false
       },
       "tms": {
-        "tmsLayerName": "baci_zoning",
-        "url": "https://s3.amazonaws.com/models-dc/img_tilesets/baci_zoning",
+        "tmsLayerName": "baci-zoning",
+        "url": "https://s3.amazonaws.com/models-dc/img_tilesets/baci-zoning",
         "extension": "png",
         "coords": {
           "xMin": -78,
