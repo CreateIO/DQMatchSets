@@ -231,10 +231,10 @@
       "subCategory": "1",
       "order": 2
     },
-    "Enterprise Focus Areas": {
+    "Enterprise Zone & EZ Focus Areas": {
       "id": 6,
       "displayName": "",
-      "mouseoverName": "Enterprise Focus Areas",
+      "mouseoverName": "Enterprise Zone & EZ Focus Areas",
       "denyToggle": false,
       "denyList": {
         "denyList1": null
@@ -251,12 +251,12 @@
         "listItems": {
           "item1": {
             "boxStyle": "background:#7570B3",
-            "boxDescription": "Enterprise Focus Areas",
+            "boxDescription": "Enterprise Zones",
             "imageUrl": null
           },
           "item2": {
             "boxStyle": "background:#ae8",
-            "boxDescription": "Enterprise Focus Areas",
+            "boxDescription": "EZ Focus Areas",
             "imageUrl": null
           }
         }
