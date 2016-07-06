@@ -117,27 +117,27 @@
         "listItems": {
           "item1": {
             "boxStyle": "background:#810f7c",
-            "boxDescription": "area 1",
+            "boxDescription": "Major Water Body",
             "imageUrl": null
           },
           "item2": {
             "boxStyle": "background:#8856a7",
-            "boxDescription": "area 2",
+            "boxDescription": "Category 1 Hurricane",
             "imageUrl": null
           },
           "item3": {
             "boxStyle": "background:#8c96c6",
-            "boxDescription": "area 3",
+            "boxDescription": "Category 2 Hurricane",
             "imageUrl": null
           },
           "item4": {
             "boxStyle": "background:#b3cde3",
-            "boxDescription": "area 4",
+            "boxDescription": "Category 3 Hurricane",
             "imageUrl": null
           },
           "item5": {
             "boxStyle": "background:#edf8fb",
-            "boxDescription": "area 5",
+            "boxDescription": "Category 4 Hurricane",
             "imageUrl": null
           }
         }
@@ -174,10 +174,10 @@
       "subCategory": "5",
       "order": 1
     },
-    "Food Deserts": {
+    "Food Desert Incentive Areas": {
       "id": 6,
       "displayName": "",
-      "mouseoverName": "Food Deserts",
+      "mouseoverName": "Food Desert Incentirve Areas",
       "denyToggle": false,
       "denyList": {
         "denyList1": null
@@ -194,7 +194,7 @@
         "listItems": {
           "item1": {
             "boxStyle": "background:#DF3D0C",
-            "boxDescription": "Food Deserts",
+            "boxDescription": "Food Desert Incentive Areas",
             "imageUrl": null
           }
         }
@@ -231,10 +231,82 @@
       "subCategory": "1",
       "order": 2
     },
-    "Enterprise Zone & EZ Focus Areas": {
+    "Critical Area Overlay": {
       "id": 6,
       "displayName": "",
-      "mouseoverName": "Enterprise Zone & EZ Focus Areas",
+      "mouseoverName": "Critical Area Overlay",
+      "denyToggle": false,
+      "denyList": {
+        "denyList1": null
+      },
+      "isActive": false,
+      "layerUsed": true,
+      "hasLegend": true,
+      "urlLegend": "../../legends/template-legend.jade",
+      "legendContents": {
+        "description": "Click map polygons for more information",
+        "sourceURL": "https://data.baltimorecity.gov/",
+        "sourceDescription": "OpenBaltimore",
+        "type": "singleColumn",
+        "listItems": {
+          "item1": {
+            "boxStyle": "background:#ff7f00",
+            "boxDescription": "Waterfront Industrial Area - 100ft Buffer",
+            "imageUrl": null
+          },
+          "item2": {
+            "boxStyle": "background:#fdbf6f",
+            "boxDescription": "Waterfront Industrial Area - 1000ft Buffer",
+            "imageUrl": null
+          },
+          "item3": {
+            "boxStyle": "background:#e31a1c",
+            "boxDescription": "Waterfront Revitalization Area - 100ft Buffer",
+            "imageUrl": null
+          },
+          "item4": {
+            "boxStyle": "background:#fb9a99",
+            "boxDescription": "Waterfront Revitalization Area - 1000ft Buffer",
+            "imageUrl": null
+          }
+        }
+      },
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
+      "functions": {
+        "addFunctions": {
+          "func1": {
+            "service": "mapOverlayService",
+            "functionName": "addLayer",
+            "parameters": {
+              "param1": "$scope",
+              "param2": "CriticalAreaOverlay"
+            }
+          }
+        },
+        "piwikTrack": {
+          "parameters": {
+            "param1": "'CriticalAreaOverlay'"
+          }
+        },
+        "removeFunctions": {
+          "func1": {
+            "service": "mapOverlayService",
+            "functionName": "removeLayer",
+            "parameters": {
+              "param1": "$scope",
+              "param2": "CriticalAreaOverlay"
+            }
+          }
+        }
+      },
+      "category": "1",
+      "subCategory": "2",
+      "order": 1
+    },
+    "Enterprise Zones & EZ Focus Areas": {
+      "id": 6,
+      "displayName": "",
+      "mouseoverName": "Enterprise Zones & EZ Focus Areas",
       "denyToggle": false,
       "denyList": {
         "denyList1": null
@@ -1099,7 +1171,7 @@
       },
       "category": "1",
       "subCategory": "2",
-      "order": 1
+      "order": 2
     },
     "CHAP Historic Districts": {
       "id": 6,
