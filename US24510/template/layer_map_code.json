@@ -124,7 +124,7 @@
       },
       "tms": {
         "tmsLayerName": "baci_CriticalAreaOverlay",
-        "url": "http://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_CriticalAreaOverlay@EPSG:900913@png",
+        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_CriticalAreaOverlay@EPSG:900913@png",
         "extension": "png",
         "coords": {
           "xMin": -76.692,
