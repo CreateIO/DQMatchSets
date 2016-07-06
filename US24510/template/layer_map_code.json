@@ -938,10 +938,10 @@
         "url": "https://s3.amazonaws.com/models-dc/img_tilesets/baci-neighborhoods",
         "extension": "png",
         "coords": {
-          "xMin": -76.78,
-          "yMin": 39.17,
-          "xMax": -76.46,
-          "yMax": 39.40
+          "xMin": -76.72,
+          "yMin": 39.19,
+          "xMax": -76.42,
+          "yMax": 39.38
         },
         "tileWidth": 256,
         "tileHeight": 256,
