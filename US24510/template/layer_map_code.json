@@ -108,8 +108,6 @@
         "exists": false
       }
     },
-
-
     "CriticalAreaOverlay": {
       "name": "CriticalAreaOverlay",
       "removeName": null,
@@ -124,22 +122,25 @@
       "polygons": {
         "exists": false
       },
+      "tms": {
+        "tmsLayerName": "baci_CriticalAreaOverlay",
+        "url": "http://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_CriticalAreaOverlay@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.692,
+          "yMin": 39.198,
+          "xMax": -76.489,
+          "yMax": 39.292
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 3,
+        "maximumLevel": 15,
+        "alpha": 1,
+        "tmsStyle": "OSM"
+      },
       "rasters": {
-        "exists": true,
-        "rasterLayers": {
-          "raster1": {
-            "name": "baci_CriticalAreaOverlay",
-            "url": "http://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_CriticalAreaOverlay@EPSG:900913@png",
-            "extension": "png",
-            "xMin": -76.692,
-            "yMin": 39.198,
-            "xMax": -76.489,
-            "yMax": 39.292,
-            "alpha": 0.5,
-            "show": true,
-            "hasDropdown": false
-          }
-        }
+        "exists": false
       },
       "billboards": {
         "exists": false
