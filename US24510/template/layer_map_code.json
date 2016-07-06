@@ -129,11 +129,11 @@
         "rasterLayers": {
           "raster1": {
             "name": "baci_CriticalAreaOverlay",
-            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/balt-food-deserts.png",
-            "xMin": -76.7155,
-            "yMin": 39.2244,
-            "xMax": -76.529,
-            "yMax": 39.3599,
+            "url": "http://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_CriticalOverlayArea@EPSG:900913@png",
+            "xMin": -76.692,
+            "yMin": 39.198,
+            "xMax": -76.489,
+            "yMax": 39.292,
             "alpha": 0.5,
             "show": true,
             "hasDropdown": false
@@ -144,9 +144,6 @@
         "exists": false
       }
     },
-
-
-
     "BaltimoreHurricaneInnundationZones": {
       "name": "BaltimoreHurricaneInnundationZones",
       "removeName": null,
