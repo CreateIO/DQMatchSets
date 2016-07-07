@@ -534,7 +534,7 @@
       "subCategory": "2",
       "order": 5
     },
-    "Enterprise Zones & EZ Focus Areas": {
+    "Enterprise Zone & EZ Focus Areas": {
       "id": 6,
       "displayName": "",
       "mouseoverName": "Enterprise Zones & EZ Focus Areas",
@@ -553,41 +553,39 @@
         "type": "singleColumn",
         "listItems": {
           "item1": {
-            "boxStyle": "background:#7570B3",
-            "boxDescription": "Enterprise Zones",
+            "boxStyle": "background:#60acd2",
+            "boxDescription": "Enterprise Zone",
             "imageUrl": null
           },
           "item2": {
-            "boxStyle": "background:#ae8",
-            "boxDescription": "EZ Focus Areas",
+            "boxStyle": "background:#1f78b4",
+            "boxDescription": "EZ Focus Area",
             "imageUrl": null
           }
         }
       },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/FD.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
       "functions": {
         "addFunctions": {
           "func1": {
-            "service": "mapOverlayService",
-            "functionName": "addLayer",
+            "service": "tileMapServiceService",
+            "functionName": "addDynamicTMSLayer",
             "parameters": {
-              "param1": "$scope",
-              "param2": "BaltEnterpriseFocus"
+              "param1": "baci_EnterpriseZones"
             }
           }
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'Baltimore Data: Enterprise Focus Areas'"
+            "param1": "'Baltimore Data: Enterprise Zones & EZ Focus Areas'"
           }
         },
         "removeFunctions": {
           "func1": {
-            "service": "mapOverlayService",
-            "functionName": "removeLayer",
+            "service": "tileMapServiceService",
+            "functionName": "removeDynamicTMSLayer",
             "parameters": {
-              "param1": "$scope",
-              "param2": "BaltEnterpriseFocus"
+              "param1": "baci_EnterpriseZones"
             }
           }
         }
