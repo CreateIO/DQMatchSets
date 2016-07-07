@@ -184,6 +184,44 @@
         "exists": false
       }
     },
+    "HabitatProtectionAreas": {
+      "name": "HabitatProtectionAreas",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_HabitatProtectionAreas",
+        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_HabitatProtectionAreas@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.654,
+          "yMin": 39.202 ,
+          "xMax": -76.527,
+          "yMax": 39.279
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 0,
+        "maximumLevel": 20,
+        "alpha": 0.5,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
     "BaltimoreHurricaneInnundationZones": {
       "name": "BaltimoreHurricaneInnundationZones",
       "removeName": null,
