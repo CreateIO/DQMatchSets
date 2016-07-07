@@ -301,8 +301,6 @@
       "subCategory": "2",
       "order": 2
     },
-
-
     "Habitat Protection Areas": {
       "id": 6,
       "displayName": "",
@@ -323,7 +321,7 @@
         "listItems": {
           "item1": {
             "boxStyle": "background:#ae0331",
-            "boxDescription": "Habitat Protection Areas - Water",
+            "boxDescription": "Habitat Protection Areas - Water Body",
             "imageUrl": null
           },
           "item2": {
@@ -368,9 +366,6 @@
       "subCategory": "2",
       "order": 3
     },
-
-
-
     "Resource Conservation Areas": {
       "id": 6,
       "displayName": "",
