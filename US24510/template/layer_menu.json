@@ -193,36 +193,34 @@
         "type": "singleColumn",
         "listItems": {
           "item1": {
-            "boxStyle": "background:#DF3D0C",
+            "boxStyle": "background:#fb5263",
             "boxDescription": "Food Desert Incentive Areas",
             "imageUrl": null
           }
         }
       },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/FD.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
       "functions": {
         "addFunctions": {
           "func1": {
-            "service": "mapOverlayService",
-            "functionName": "addLayer",
+            "service": "tileMapServiceService",
+            "functionName": "addDynamicTMSLayer",
             "parameters": {
-              "param1": "$scope",
-              "param2": "FoodDeserts"
+              "param1": "baci_FoodDesertIncentiveZones"
             }
           }
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'Baltimore Data: Food Deserts Incentive Areas'"
+            "param1": "'Baltimore Data: Food Desert Incentive Areas'"
           }
         },
         "removeFunctions": {
           "func1": {
-            "service": "mapOverlayService",
-            "functionName": "removeLayer",
+            "service": "tileMapServiceService",
+            "functionName": "removeDynamicTMSLayer",
             "parameters": {
-              "param1": "$scope",
-              "param2": "FoodDeserts"
+              "param1": "baci_FoodDesertIncentiveZones"
             }
           }
         }
