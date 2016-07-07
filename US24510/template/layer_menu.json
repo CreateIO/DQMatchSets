@@ -299,6 +299,66 @@
       },
       "category": "1",
       "subCategory": "2",
+      "order": 2
+    },
+    "Resource Conservation Areas": {
+      "id": 6,
+      "displayName": "",
+      "mouseoverName": "Resource Conservation Areas",
+      "denyToggle": false,
+      "denyList": {
+        "denyList1": null
+      },
+      "isActive": false,
+      "layerUsed": true,
+      "hasLegend": true,
+      "urlLegend": "../../legends/template-legend.jade",
+      "legendContents": {
+        "description": "Click map polygons for more information",
+        "sourceURL": "https://data.baltimorecity.gov/",
+        "sourceDescription": "OpenBaltimore",
+        "type": "singleColumn",
+        "listItems": {
+          "item1": {
+            "boxStyle": "background:#33a02c",
+            "boxDescription": "100ft Buffer",
+            "imageUrl": null
+          },
+          "item2": {
+            "boxStyle": "background:#b2df8a",
+            "boxDescription": "1000ft Buffer",
+            "imageUrl": null
+          }
+        }
+      },
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/RCA.png",
+      "functions": {
+        "addFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "addDynamicTMSLayer",
+            "parameters": {
+              "param1": "baci_ResourceConservationAreas"
+            }
+          }
+        },
+        "piwikTrack": {
+          "parameters": {
+            "param1": "'baci_ResourceConservationAreas'"
+          }
+        },
+        "removeFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "removeDynamicTMSLayer",
+            "parameters": {
+              "param1": "baci_ResourceConservationAreas"
+            }
+          }
+        }
+      },
+      "category": "1",
+      "subCategory": "2",
       "order": 1
     },
     "Enterprise Zones & EZ Focus Areas": {
@@ -732,7 +792,7 @@
         }
       },
       "category": "1",
-      "subCategory": "1",
+      "subCategory": "4",
       "order": 3
     },
     "Vacant Lots": {
@@ -799,7 +859,7 @@
         }
       },
       "category": "1",
-      "subCategory": "1",
+      "subCategory": "4",
       "order": 4
     },
     "Park Heights Boundary": {
