@@ -213,7 +213,7 @@
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'FoodDeserts'"
+            "param1": "'Baltimore Data: Food Deserts Incentive Areas'"
           }
         },
         "removeFunctions": {
@@ -284,7 +284,7 @@
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "CriticalAreaOverlay'"
+            "param1": "'Baltimore Data: Critical Area Overlay'"
           }
         },
         "removeFunctions": {
@@ -301,6 +301,9 @@
       "subCategory": "2",
       "order": 2
     },
+
+
+
     "Habitat Protection Areas": {
       "id": 6,
       "displayName": "",
@@ -315,23 +318,23 @@
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
         "description": "Click map polygons for more information",
-        "sourceURL": "http://data.imap.maryland.gov/datasets",
-        "sourceDescription": "Maryland's Mapping & GIS Data Portal'",
+        "sourceURL": "https://data.baltimorecity.gov/",
+        "sourceDescription": "OpenBaltimore",
         "type": "singleColumn",
         "listItems": {
           "item1": {
-            "boxStyle": "background:#ae0331",
-            "boxDescription": "Habitat Protection Areas - Water Body",
+            "boxStyle": "background:#4603b2",
+            "boxDescription": "Habitat Projection Areas - Water",
             "imageUrl": null
           },
           "item2": {
-            "boxStyle": "background:#f6768f",
-            "boxDescription": "Habitat Protection Areas - 100ft Buffer",
+            "boxStyle": "background:#7634d2",
+            "boxDescription": "Habitat Projection Areas - 100ft Buffer",
             "imageUrl": null
           },
           "item3": {
-            "boxStyle": "background:#f6768f",
-            "boxDescription": "Habitat Protection Areas - 1000ft Buffer",
+            "boxStyle": "background:#ba87f5",
+            "boxDescription": "Habitat Projection Areas - 1000ft Buffer",
             "imageUrl": null
           }
         }
@@ -343,13 +346,13 @@
             "service": "tileMapServiceService",
             "functionName": "addDynamicTMSLayer",
             "parameters": {
-              "param1": "HabitatProtectionAreas"
+              "param1": "baci_HabitatProtectionAreas"
             }
           }
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'HabitatProtectionAreas'"
+            "param1": "'Baltimore Data: Resource Conservation Areas'"
           }
         },
         "removeFunctions": {
@@ -357,7 +360,7 @@
             "service": "tileMapServiceService",
             "functionName": "removeDynamicTMSLayer",
             "parameters": {
-              "param1": "HabitatProtectionAreas"
+              "param1": "baci_HabitatProtectionAreas"
             }
           }
         }
@@ -366,6 +369,9 @@
       "subCategory": "2",
       "order": 3
     },
+
+
+
     "Resource Conservation Areas": {
       "id": 6,
       "displayName": "",
@@ -409,7 +415,7 @@
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'ResourceConservationAreas'"
+            "param1": "'Baltimore Data: Resource Conservation Areas'"
           }
         },
         "removeFunctions": {
@@ -470,7 +476,7 @@
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'BaltEnterpriseFocus'"
+            "param1": "'Baltimore Data: Enterprise Focus Areas'"
           }
         },
         "removeFunctions": {
@@ -768,7 +774,7 @@
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'Data: Proposed Park Heights Shuttle Loop'"
+            "param1": "'Baltimore Data: Proposed Park Heights Shuttle Loop'"
           }
         },
         "removeFunctions": {
@@ -835,7 +841,7 @@
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'Data: Vacant Buildings"
+            "param1": "'Baltimore Data: Vacant Buildings"
           }
         },
         "removeFunctions": {
@@ -902,7 +908,7 @@
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'Data: Vacant Lots'"
+            "param1": "'Baltimore Data: Vacant Lots'"
           }
         },
         "removeFunctions": {
@@ -1528,7 +1534,7 @@
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'Data: Parcel Use Layer'"
+            "param1": "'Baltimore Data: Parcel Use Layer'"
           }
         },
         "removeFunctions": {
@@ -1614,7 +1620,7 @@
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'Data: Zoning'"
+            "param1": "'Baltimore Data: Zoning'"
           }
         },
         "removeFunctions": {
@@ -1681,7 +1687,7 @@
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'Data: Baltimore Neighborhoods'"
+            "param1": "'Baltimore Data: Neighborhoods'"
           }
         },
         "removeFunctions": {
