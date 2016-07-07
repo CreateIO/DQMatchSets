@@ -338,13 +338,13 @@
             "service": "tileMapServiceService",
             "functionName": "addDynamicTMSLayer",
             "parameters": {
-              "param1": "baci_ResourceConservationAreas"
+              "param1": "ResourceConservationAreas"
             }
           }
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'baci_ResourceConservationAreas'"
+            "param1": "'ResourceConservationAreas'"
           }
         },
         "removeFunctions": {
@@ -352,7 +352,7 @@
             "service": "tileMapServiceService",
             "functionName": "removeDynamicTMSLayer",
             "parameters": {
-              "param1": "baci_ResourceConservationAreas"
+              "param1": "ResourceConservationAreas"
             }
           }
         }
@@ -791,8 +791,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "4",
+      "category": "4",
+      "subCategory": "1",
       "order": 3
     },
     "Vacant Lots": {
@@ -858,8 +858,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "4",
+      "category": "4",
+      "subCategory": "1",
       "order": 4
     },
     "Park Heights Boundary": {
