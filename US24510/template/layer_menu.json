@@ -301,9 +301,6 @@
       "subCategory": "2",
       "order": 2
     },
-
-
-
     "Habitat Protection Areas": {
       "id": 6,
       "displayName": "",
@@ -318,8 +315,8 @@
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
         "description": "Click map polygons for more information",
-        "sourceURL": "https://data.baltimorecity.gov/",
-        "sourceDescription": "OpenBaltimore",
+        "sourceURL": "http://data.imap.maryland.gov/datasets",
+        "sourceDescription": "Maryland.gov",
         "type": "singleColumn",
         "listItems": {
           "item1": {
@@ -369,9 +366,6 @@
       "subCategory": "2",
       "order": 3
     },
-
-
-
     "Resource Conservation Areas": {
       "id": 6,
       "displayName": "",
