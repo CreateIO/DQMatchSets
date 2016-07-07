@@ -301,10 +301,10 @@
       "subCategory": "2",
       "order": 2
     },
-    "CHAP Historic Districts": {
+    "Hub Zones": {
       "id": 6,
       "displayName": "",
-      "mouseoverName": "CHAP Historic Districts",
+      "mouseoverName": "Hub Zones",
       "denyToggle": false,
       "denyList": {
         "denyList1": null
@@ -320,26 +320,26 @@
         "type": "singleColumn",
         "listItems": {
           "item1": {
-            "boxStyle": "background:#c3b9ee",
-            "boxDescription": "CHAP Historic Districts",
+            "boxStyle": "background:#20f378",
+            "boxDescription": "Hub Zones",
             "imageUrl": null
           }
         }
       },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/HD.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
       "functions": {
         "addFunctions": {
           "func1": {
             "service": "tileMapServiceService",
             "functionName": "addDynamicTMSLayer",
             "parameters": {
-              "param1": "baci_CHAP_HistoricDistricts"
+              "param1": "baci_HubZones"
             }
           }
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'Baltimore Data: CHAP Historic Districts'"
+            "param1": "'Baltimore Data: Hub Zones'"
           }
         },
         "removeFunctions": {
@@ -347,14 +347,14 @@
             "service": "tileMapServiceService",
             "functionName": "removeDynamicTMSLayer",
             "parameters": {
-              "param1": "baci_CHAP_HistoricDistricts"
+              "param1": "baci_HubZones"
             }
           }
         }
       },
       "category": "4",
       "subCategory": "1",
-      "order": 1
+      "order": 6
     },
     "GeoServer Vacant Buildings": {
       "id": 6,
