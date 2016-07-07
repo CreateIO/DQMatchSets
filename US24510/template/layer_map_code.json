@@ -203,10 +203,10 @@
         "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_HabitatProtectionAreas@EPSG:900913@png",
         "extension": "png",
         "coords": {
-          "xMin": -76.654,
-          "yMin": 39.202 ,
-          "xMax": -76.527,
-          "yMax": 39.279
+          "xMin": 76.65103202767783,
+          "yMin": 39.20603554155625,
+          "xMax": 76.5297944528037,
+          "yMax": 39.27488378769388
         },
         "tileWidth": 256,
         "tileHeight": 256,
