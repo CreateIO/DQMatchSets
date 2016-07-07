@@ -174,7 +174,7 @@
         "tileHeight": 256,
         "minimumLevel": 0,
         "maximumLevel": 20,
-        "alpha": 1,
+        "alpha": 0.75,
         "tmsStyle": "OGC"
       },
       "rasters": {
