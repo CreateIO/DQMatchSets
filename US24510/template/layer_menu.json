@@ -349,7 +349,7 @@
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "HabitatProtectionAreas"
+            "param1": "'HabitatProtectionAreas'"
           }
         },
         "removeFunctions": {
