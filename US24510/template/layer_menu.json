@@ -227,7 +227,7 @@
       },
       "category": "4",
       "subCategory": "1",
-      "order": 4
+      "order": 3
     },
     "Critical Area Overlay": {
       "id": 6,
@@ -299,6 +299,61 @@
       "subCategory": "2",
       "order": 2
     },
+    "Tax Credit Areas": {
+      "id": 6,
+      "displayName": "",
+      "mouseoverName": "Tax Credit Areas",
+      "denyToggle": false,
+      "denyList": {
+        "denyList1": null
+      },
+      "isActive": false,
+      "layerUsed": true,
+      "hasLegend": true,
+      "urlLegend": "../../legends/template-legend.jade",
+      "legendContents": {
+        "description": "Click map polygons for more information",
+        "sourceURL": "https://data.baltimorecity.gov/",
+        "sourceDescription": "OpenBaltimore",
+        "type": "singleColumn",
+        "listItems": {
+          "item1": {
+            "boxStyle": "background:#f7ab12",
+            "boxDescription": "Tax Credit Areas",
+            "imageUrl": null
+          }
+        }
+      },
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
+      "functions": {
+        "addFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "addDynamicTMSLayer",
+            "parameters": {
+              "param1": "baci_TaxCreditAreas"
+            }
+          }
+        },
+        "piwikTrack": {
+          "parameters": {
+            "param1": "'Baltimore Data: Tax Credit Areas'"
+          }
+        },
+        "removeFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "removeDynamicTMSLayer",
+            "parameters": {
+              "param1": "baci_TaxCreditAreas"
+            }
+          }
+        }
+      },
+      "category": "4",
+      "subCategory": "1",
+      "order": 6
+    },
     "Hub Zones": {
       "id": 6,
       "displayName": "",
@@ -352,7 +407,7 @@
       },
       "category": "4",
       "subCategory": "1",
-      "order": 6
+      "order": 5
     },
     "GeoServer Vacant Buildings": {
       "id": 6,
