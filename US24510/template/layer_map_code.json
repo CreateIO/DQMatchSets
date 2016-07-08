@@ -226,8 +226,8 @@
         "exists": false
       }
     },
-    "baci_VacantBuildings": {
-      "name": "baci_VacantBuildings",
+    "baci_CHAP_HistoricDistricts": {
+      "name": "baci_CHAP_HistoricDistricts",
       "removeName": null,
       "url": null,
       "cartographic": false,
@@ -241,20 +241,20 @@
         "exists": false
       },
       "tms": {
-        "tmsLayerName": "baci_VacantBuildings",
-        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_VacantBuildings@EPSG:900913@png",
+        "tmsLayerName": "baci_CHAP_HistoricDistricts",
+        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_CHAP_HistoricDistricts@EPSG:900913@png",
         "extension": "png",
         "coords": {
-          "xMin": -76.74,
-          "yMin": 39.22,
-          "xMax": -76.50,
-          "yMax": 39.38
+          "xMin": -76.76,
+          "yMin": 39.27,
+          "xMax": -76.54,
+          "yMax": 39.37
         },
         "tileWidth": 256,
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 1,
+        "alpha": 0.75,
         "tmsStyle": "OGC"
       },
       "rasters": {

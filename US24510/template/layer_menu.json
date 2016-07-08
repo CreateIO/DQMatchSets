@@ -409,10 +409,10 @@
       "subCategory": "1",
       "order": 5
     },
-    "GeoServer Vacant Buildings": {
+    "CHAP Historic Districts": {
       "id": 6,
       "displayName": "",
-      "mouseoverName": "GeoServer Vacant Buildings",
+      "mouseoverName": "CHAP Historic Districts",
       "denyToggle": false,
       "denyList": {
         "denyList1": null
@@ -427,27 +427,27 @@
         "sourceDescription": "OpenBaltimore",
         "type": "singleColumn",
         "listItems": {
-        "item1": {
-            "boxStyle": "border-radius: 20px; border: 8px solid #E31A1C",
-            "boxDescription": "Vacant Buildings",
+          "item1": {
+            "boxStyle": "background:#c3b9ee",
+            "boxDescription": "CHAP Historic Districts",
             "imageUrl": null
           }
         }
       },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/HD.png",
       "functions": {
         "addFunctions": {
           "func1": {
             "service": "tileMapServiceService",
             "functionName": "addDynamicTMSLayer",
             "parameters": {
-              "param1": "baci_VacantBuildings"
+              "param1": "baci_CHAP_HistoricDistricts"
             }
           }
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'Baltimore Data: Vacant Buildings'"
+            "param1": "'Baltimore Data: CHAP Historic Districts (geoserver version)'"
           }
         },
         "removeFunctions": {
@@ -455,14 +455,14 @@
             "service": "tileMapServiceService",
             "functionName": "removeDynamicTMSLayer",
             "parameters": {
-              "param1": "baci_VacantBuildings"
+              "param1": "baci_CHAP_HistoricDistricts"
             }
           }
         }
       },
       "category": "4",
       "subCategory": "1",
-      "order": 9
+      "order": 1
     },
     "Habitat Protection Areas": {
       "id": 6,
