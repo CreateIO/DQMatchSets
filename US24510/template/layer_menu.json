@@ -352,7 +352,7 @@
       },
       "category": "4",
       "subCategory": "1",
-      "order": 6
+      "order": 7
     },
     "Foreign Trade Zones": {
       "id": 6,
@@ -408,6 +408,61 @@
       "category": "4",
       "subCategory": "1",
       "order": 4
+    },
+    "One Maryland Tax Credit Jurisdiction": {
+      "id": 6,
+      "displayName": "",
+      "mouseoverName": "One Maryland Tax Credit Jurisdiction",
+      "denyToggle": false,
+      "denyList": {
+        "denyList1": null
+      },
+      "isActive": false,
+      "layerUsed": true,
+      "hasLegend": true,
+      "urlLegend": "../../legends/template-legend.jade",
+      "legendContents": {
+        "description": "Click map polygons for more information",
+        "sourceURL": "http://commerce.maryland.gov/fund/programs-for-businesses/one-maryland-tax-credit",
+        "sourceDescription": "Maryland.gov",
+        "type": "singleColumn",
+        "listItems": {
+          "item1": {
+            "boxStyle": "background:#e31a1c",
+            "boxDescription": "One Maryland Tax Credit qualified distressed county.",
+            "imageUrl": null
+          }
+        }
+      },
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
+      "functions": {
+        "addFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "addDynamicTMSLayer",
+            "parameters": {
+              "param1": "baci_City_of_Baltimore"
+            }
+          }
+        },
+        "piwikTrack": {
+          "parameters": {
+            "param1": "'One Marlyand Tax Credit Jurisdiction'"
+          }
+        },
+        "removeFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "removeDynamicTMSLayer",
+            "parameters": {
+              "param1": "baci_City_of_Baltimore"
+            }
+          }
+        }
+      },
+      "category": "4",
+      "subCategory": "1",
+      "order": 6
     },
     "Hub Zones": {
       "id": 6,
@@ -1074,7 +1129,7 @@
       },
       "category": "4",
       "subCategory": "1",
-      "order": 7
+      "order": 8
     },
     "Vacant Lots": {
       "id": 42,
@@ -1141,7 +1196,7 @@
       },
       "category": "4",
       "subCategory": "1",
-      "order": 8
+      "order": 9
     },
     "Park Heights Boundary": {
       "id": 8,
