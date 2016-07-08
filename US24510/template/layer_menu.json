@@ -409,10 +409,10 @@
       "subCategory": "1",
       "order": 5
     },
-    "CHAP Historic Districts": {
+    "CHAP Historic District Incentive Areas": {
       "id": 6,
       "displayName": "",
-      "mouseoverName": "CHAP Historic Districts",
+      "mouseoverName": "CHAP Historic District Incentive Areas",
       "denyToggle": false,
       "denyList": {
         "denyList1": null
@@ -429,12 +429,12 @@
         "listItems": {
           "item1": {
             "boxStyle": "background:#c3b9ee",
-            "boxDescription": "CHAP Historic Districts",
+            "boxDescription": "CHAP Historic District Incentive Areas",
             "imageUrl": null
           }
         }
       },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/HD.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
       "functions": {
         "addFunctions": {
           "func1": {
@@ -447,7 +447,7 @@
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'Baltimore Data: CHAP Historic Districts (geoserver version)'"
+            "param1": "'Baltimore Data: CHAP Historic District Incentive Areas'"
           }
         },
         "removeFunctions": {
