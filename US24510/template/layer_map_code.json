@@ -188,6 +188,44 @@
         "exists": false
       }
     },
+    "baci_ForeignTradeZone": {
+      "name": "baci_ForeignTradeZone",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_ForeignTradeZone",
+        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_ForeignTradeZone@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.659,
+          "yMin": 39.236,
+          "xMax": -76.473,
+          "yMax": 39.321
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 0.75,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
     "baci_HubZones": {
       "name": "baci_HubZones",
       "removeName": null,
