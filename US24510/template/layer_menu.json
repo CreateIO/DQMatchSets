@@ -428,7 +428,7 @@
         "type": "singleColumn",
         "listItems": {
           "item1": {
-            "boxStyle": "background:#e31a1c",
+            "boxStyle": "border-radius: 0px; border: 8px dashed #e31a1c",
             "boxDescription": "One Maryland Tax Credit qualified distressed county.",
             "imageUrl": null
           }
