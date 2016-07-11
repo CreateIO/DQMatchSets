@@ -629,10 +629,10 @@
       "subCategory": "1",
       "order": 3
     },
-    "baci_CouncilDistricts2011": {
+    "Council Districts": {
       "id": 6,
       "displayName": "",
-      "mouseoverName": "baci_CouncilDistricts2011",
+      "mouseoverName": "Council Districts",
       "denyToggle": false,
       "denyList": {
         "denyList1": null
@@ -667,7 +667,7 @@
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'Baltimore Data: H2011 Council Districts'"
+            "param1": "'Baltimore Data: 2011 Council Districts'"
           }
         },
         "removeFunctions": {

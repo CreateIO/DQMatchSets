@@ -280,7 +280,7 @@
       },
       "tms": {
         "tmsLayerName": "baci_LegislativeDistricts",
-        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_LegislativeDistricts@EPSG:900913@png",
+        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_LegislativeDistricts@EPSG:900913@png",
         "extension": "png",
         "coords": {
           "xMin": -76.77,
@@ -356,7 +356,7 @@
       },
       "tms": {
         "tmsLayerName": "baci_CouncilDistricts2011",
-        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_CouncilDistricts2011@EPSG:900913@png",
+        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_CouncilDistricts2011@EPSG:900913@png",
         "extension": "png",
         "coords": {
           "xMin": -76.77,
