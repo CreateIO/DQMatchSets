@@ -464,10 +464,10 @@
       "subCategory": "1",
       "order": 6
     },
-    "Neighborhoods": {
+    "Create Neighborhoods": {
       "id": 6,
       "displayName": "",
-      "mouseoverName": "Neighborhoods",
+      "mouseoverName": "Create Neighborhoods",
       "denyToggle": false,
       "denyList": {
         "denyList1": null
@@ -478,8 +478,8 @@
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
         "description": "Click map polygons for more information",
-        "sourceURL": "https://data.baltimorecity.gov/",
-        "sourceDescription": "OpenBaltimore",
+        "sourceURL": "",
+        "sourceDescription": "",
         "type": "singleColumn",
         "listItems": {
           "item1": {
