@@ -409,6 +409,61 @@
       "subCategory": "1",
       "order": 4
     },
+    "City Boundary": {
+      "id": 6,
+      "displayName": "",
+      "mouseoverName": "City Boundary",
+      "denyToggle": false,
+      "denyList": {
+        "denyList1": null
+      },
+      "isActive": false,
+      "layerUsed": true,
+      "hasLegend": true,
+      "urlLegend": "../../legends/template-legend.jade",
+      "legendContents": {
+        "description": "Click map polygons for more information",
+        "sourceURL": "",
+        "sourceDescription": "baltimore.gov",
+        "type": "singleColumn",
+        "listItems": {
+          "item1": {
+            "boxStyle": "border: 2px dashed #e31a1c",
+            "boxDescription": "City of Balimore boundary.",
+            "imageUrl": null
+          }
+        }
+      },
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
+      "functions": {
+        "addFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "addDynamicTMSLayer",
+            "parameters": {
+              "param1": "baci_City_of_Baltimore"
+            }
+          }
+        },
+        "piwikTrack": {
+          "parameters": {
+            "param1": "'Baltimore Data: City Boundary'"
+          }
+        },
+        "removeFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "removeDynamicTMSLayer",
+            "parameters": {
+              "param1": "baci_City_of_Baltimore"
+            }
+          }
+        }
+      },
+      "category": "2",
+      "subCategory": "1",
+      "order": 1
+    },
     "One Maryland Tax Credit Jurisdiction": {
       "id": 6,
       "displayName": "",
@@ -484,7 +539,7 @@
         "listItems": {
           "item1": {
             "boxStyle": "border: 2px dashed #33a02c",
-            "boxDescription": "One Maryland Tax Credit qualified distressed county.",
+            "boxDescription": "Create Neighborhoods",
             "imageUrl": null
           }
         }
@@ -502,7 +557,7 @@
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'Baltimore Data: Baltimore Neighborhoods'"
+            "param1": "'Baltimore Data: (Create) Neighborhoods'"
           }
         },
         "removeFunctions": {
@@ -517,7 +572,7 @@
       },
       "category": "2",
       "subCategory": "1",
-      "order": 1
+      "order": 2
     },
     "Hub Zones": {
       "id": 6,
