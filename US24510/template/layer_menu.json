@@ -519,6 +519,61 @@
       "subCategory": "1",
       "order": 6
     },
+    "Legislative Districts": {
+      "id": 6,
+      "displayName": "",
+      "mouseoverName": "Legislative Districts",
+      "denyToggle": false,
+      "denyList": {
+        "denyList1": null
+      },
+      "isActive": false,
+      "layerUsed": true,
+      "hasLegend": true,
+      "urlLegend": "../../legends/template-legend.jade",
+      "legendContents": {
+        "description": "Click map polygons for more information",
+        "sourceURL": "",
+        "sourceDescription": "",
+        "type": "singleColumn",
+        "listItems": {
+          "item1": {
+            "boxStyle": "background:#78b9f9",
+            "boxDescription": "Legislative Districts",
+            "imageUrl": null
+          }
+        }
+      },
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
+      "functions": {
+        "addFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "addDynamicTMSLayer",
+            "parameters": {
+              "param1": "baci_LegislativeDistricts"
+            }
+          }
+        },
+        "piwikTrack": {
+          "parameters": {
+            "param1": "'Baltimore Data: Legislative Districts'"
+          }
+        },
+        "removeFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "removeDynamicTMSLayer",
+            "parameters": {
+              "param1": "baci_LegislativeDistricts"
+            }
+          }
+        }
+      },
+      "category": "2",
+      "subCategory": "1",
+      "order": 4
+    },
     "Create Neighborhoods": {
       "id": 6,
       "displayName": "",
