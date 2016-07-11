@@ -572,7 +572,7 @@
       },
       "category": "2",
       "subCategory": "1",
-      "order": 3
+      "order": 4
     },
     "Create Neighborhoods": {
       "id": 6,
@@ -621,6 +621,61 @@
             "functionName": "removeDynamicTMSLayer",
             "parameters": {
               "param1": "baci_Neighborhoods2"
+            }
+          }
+        }
+      },
+      "category": "2",
+      "subCategory": "1",
+      "order": 3
+    },
+    "baci_CouncilDistricts2011": {
+      "id": 6,
+      "displayName": "",
+      "mouseoverName": "baci_CouncilDistricts2011",
+      "denyToggle": false,
+      "denyList": {
+        "denyList1": null
+      },
+      "isActive": false,
+      "layerUsed": true,
+      "hasLegend": true,
+      "urlLegend": "../../legends/template-legend.jade",
+      "legendContents": {
+        "description": "Click map polygons for more information",
+        "sourceURL": "https://data.baltimorecity.gov/",
+        "sourceDescription": "OpenBaltimore",
+        "type": "singleColumn",
+        "listItems": {
+          "item1": {
+            "boxStyle": "background:#aaddb2",
+            "boxDescription": "2011 Council Districts",
+            "imageUrl": null
+          }
+        }
+      },
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
+      "functions": {
+        "addFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "addDynamicTMSLayer",
+            "parameters": {
+              "param1": "baci_CouncilDistricts2011"
+            }
+          }
+        },
+        "piwikTrack": {
+          "parameters": {
+            "param1": "'Baltimore Data: H2011 Council Districts'"
+          }
+        },
+        "removeFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "removeDynamicTMSLayer",
+            "parameters": {
+              "param1": "baci_CouncilDistricts2011"
             }
           }
         }
