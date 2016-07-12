@@ -913,7 +913,7 @@
        "minvalue": 0,
        "maxvalue": 100000,
        "minsuggest": 500,
-       "maxsuggest": 10000,
+       "maxsuggest": 25000,
        "step": 100,
        "mapvalue":null,
        "listorder":11,
