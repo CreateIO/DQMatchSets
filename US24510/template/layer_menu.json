@@ -775,7 +775,7 @@
         "description": "Click map polygons for more information",
         "sourceURL": "https://data.baltimorecity.gov/",
         "sourceDescription": "OpenBaltimore",
-        "type": "doubleColumn",
+        "type": "singleColumn",
         "listItems": {
           "item1": {
             "boxStyle": "background:#896fc2",
