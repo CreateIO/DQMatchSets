@@ -759,6 +759,106 @@
       "subCategory": "1",
       "order": 3
     },
+    "Planning Districts": {
+      "id": 6,
+      "displayName": "",
+      "mouseoverName": "Planning Districts",
+      "denyToggle": false,
+      "denyList": {
+        "denyList1": null
+      },
+      "isActive": false,
+      "layerUsed": true,
+      "hasLegend": true,
+      "urlLegend": "../../legends/template-legend.jade",
+      "legendContents": {
+        "description": "Click map polygons for more information",
+        "sourceURL": "https://data.baltimorecity.gov/",
+        "sourceDescription": "OpenBaltimore",
+        "type": "singleColumn",
+        "listItems": {
+          "item1": {
+            "boxStyle": "background:#896fc2",
+            "boxDescription": "Central",
+            "imageUrl": null
+          },
+          "item2": {
+            "boxStyle": "background:#66c2a5",
+            "boxDescription": "East",
+            "imageUrl": null
+          },
+          "item3": {
+            "boxStyle": "background:#fc8d62",
+            "boxDescription": "Industrial",
+            "imageUrl": null
+          },
+          "item4": {
+            "boxStyle": "background:#8da0cb",
+            "boxDescription": "North/Northeast",
+            "imageUrl": null
+          },
+          "item5": {
+            "boxStyle": "background:#e793bd",
+            "boxDescription": "Northwest & West",
+            "imageUrl": null
+          },
+          "item6": {
+            "boxStyle": "background:#a6d854",
+            "boxDescription": "Outer East/Southeast",
+            "imageUrl": null
+          },
+          "item7": {
+            "boxStyle": "background:#ffe658",
+            "boxDescription": "Outer West/Southwest",
+            "imageUrl": null
+          },
+          "item8": {
+            "boxStyle": "background:#e5c494",
+            "boxDescription": "Park Heights Area",
+            "imageUrl": null
+          },
+          "item9": {
+            "boxStyle": "background:#b3b3b3",
+            "boxDescription": "South",
+            "imageUrl": null
+          },
+          "item10": {
+            "boxStyle": "background:#b34756",
+            "boxDescription": "Southeast",
+            "imageUrl": null
+          }
+        }
+      },
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
+      "functions": {
+        "addFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "addDynamicTMSLayer",
+            "parameters": {
+              "param1": "baci_PlanningDistricts"
+            }
+          }
+        },
+        "piwikTrack": {
+          "parameters": {
+            "param1": "'Baltimore Data: Planning Districts'"
+          }
+        },
+        "removeFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "removeDynamicTMSLayer",
+            "parameters": {
+              "param1": "baci_PlanningDistricts"
+            }
+          }
+        }
+      },
+      "category": "1",
+      "subCategory": "6",
+      "order": 3
+    },
     "Hub Zones": {
       "id": 6,
       "displayName": "",
