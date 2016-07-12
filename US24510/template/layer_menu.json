@@ -729,7 +729,7 @@
           }
         }
       },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/ZON.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png",
       "functions": {
         "addFunctions": {
           "func1": {
