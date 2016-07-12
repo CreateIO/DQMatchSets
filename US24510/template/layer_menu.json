@@ -857,7 +857,7 @@
       },
       "category": "1",
       "subCategory": "6",
-      "order": 3
+      "order": 4
     },
     "Hub Zones": {
       "id": 6,
@@ -1777,8 +1777,8 @@
       "order": 1
     },
     "Area Master Plans": {
-      "id": 3,
-      "displayName": "AMP",
+      "id": 6,
+      "displayName": "",
       "mouseoverName": "Area Master Plans",
       "denyToggle": false,
       "denyList": {
@@ -1805,11 +1805,10 @@
       "functions": {
         "addFunctions": {
           "func1": {
-            "service": "mapOverlayService",
-            "functionName": "addLayer",
+            "service": "tileMapServiceService",
+            "functionName": "addDynamicTMSLayer",
             "parameters": {
-              "param1": "$scope",
-              "param2": "area-master-plans"
+              "param1": "baci_AreaMasterPlans"
             }
           }
         },
@@ -1820,11 +1819,10 @@
         },
         "removeFunctions": {
           "func1": {
-            "service": "mapOverlayService",
-            "functionName": "removeLayer",
+            "service": "tileMapServiceService",
+            "functionName": "removeDynamicTMSLayer",
             "parameters": {
-              "param1": "$scope",
-              "param2": "area-master-plans"
+              "param1": "baci_AreaMasterPlans"
             }
           }
         }
