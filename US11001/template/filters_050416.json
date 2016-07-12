@@ -1,6 +1,6 @@
-{  
-   "filters":{  
-      "parcelArea":{  
+{
+   "filters":{
+      "parcelArea":{
          "id":1,
          "name":"Parcel area (sf)",
          "type":"min-max",
@@ -26,7 +26,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "zoningDistrict":{  
+      "zoningDistrict":{
          "id":2,
          "name":"Zoning District",
          "type":"lookup",
@@ -50,7 +50,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "neighborhood":{  
+      "neighborhood":{
          "id":3,
          "name":"Neighborhood",
          "type":"lookup",
@@ -74,7 +74,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "generalUse":{  
+      "generalUse":{
          "id":4,
          "name":"General Uses",
          "type":"lookup",
@@ -98,7 +98,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "commercialUse":{  
+      "commercialUse":{
          "id":5,
          "name":"Commercial Uses",
          "type":"lookup",
@@ -122,7 +122,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "residentialUse":{  
+      "residentialUse":{
          "id":6,
          "name":"Residential Uses",
          "type":"lookup",
@@ -146,7 +146,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "institutionalUse":{  
+      "institutionalUse":{
          "id":7,
          "name":"Residential Uses",
          "type":"lookup",
@@ -170,7 +170,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "retailSpaceAvailability":{  
+      "retailSpaceAvailability":{
          "id":8,
          "name":"Retail Space Availability (WDCEP)",
          "type":"lookup",
@@ -194,7 +194,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "retailSpaceSize":{  
+      "retailSpaceSize":{
          "id":9,
          "name":"Retail Space Size (WDCEP)",
          "type":"min-max",
@@ -220,7 +220,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "buildingSize":{  
+      "buildingSize":{
          "id":10,
          "name":"Building Size (sf)",
          "type":"min-max",
@@ -246,7 +246,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "numberBedrooms":{  
+      "numberBedrooms":{
          "id":11,
          "name":"No. of Bedrooms",
          "type":"lookup",
@@ -270,7 +270,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "numberUnits":{  
+      "numberUnits":{
          "id":12,
          "name":"No. of Units",
          "type":"min-max",
@@ -296,7 +296,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "yearBuilt":{  
+      "yearBuilt":{
          "id":13,
          "name":"Year Built",
          "type":"min-max",
@@ -322,7 +322,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "metroRailDistance":{  
+      "metroRailDistance":{
          "id":14,
          "name":"Metrorail Distance",
          "type":"min-max",
@@ -348,7 +348,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "metroBusDistance":{  
+      "metroBusDistance":{
          "id":15,
          "name":"Metrobus Distance",
          "type":"min-max",
@@ -374,7 +374,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "businessImprovementDistrict":{  
+      "businessImprovementDistrict":{
          "id":16,
          "name":"Business Improvement District",
          "type":"exists",
@@ -398,7 +398,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "tenantSpaceSF":{  
+      "tenantSpaceSF":{
          "id":17,
          "name":"Tenant Space Square Footage",
          "type":"lookup",
@@ -422,7 +422,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "numberEmployees":{  
+      "numberEmployees":{
          "id":18,
          "name":"Number of Employees",
          "type":"lookup",
@@ -446,7 +446,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "revenue":{  
+      "revenue":{
          "id":19,
          "name":"Revenue",
          "type":"lookup",
@@ -470,7 +470,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "hasTrepp":{  
+      "hasTrepp":{
          "id":20,
          "name":"Has Trepp",
          "type":"exists",
@@ -494,7 +494,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "loanClosingYear":{  
+      "loanClosingYear":{
          "id":21,
          "name":"Loan Securitization Closing Year",
          "type":"min-max",
@@ -520,7 +520,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "loanBalance":{  
+      "loanBalance":{
          "id":22,
          "name":"Current Loan Balance",
          "type":"min-max",
@@ -546,7 +546,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "groceryDistance":{  
+      "groceryDistance":{
          "id":23,
          "name":"Grocery Store Distance (WDCEP)",
          "type":"min-max",
@@ -572,7 +572,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "populationGrowth":{  
+      "populationGrowth":{
          "id":24,
          "name":"Total Population Growth (2020)",
          "type":"min-max",
@@ -598,7 +598,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "medianIncomeGrowth":{  
+      "medianIncomeGrowth":{
          "id":25,
          "name":"Median Household Income Growth (2020)",
          "type":"min-max",
@@ -624,7 +624,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "householdGrowth":{  
+      "householdGrowth":{
          "id":26,
          "name":"Total Households Growth (2020)",
          "type":"min-max",
@@ -650,7 +650,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "housingUnitsGrowth":{  
+      "housingUnitsGrowth":{
          "id":27,
          "name":"Total Housing Units Growth (2020)",
          "type":"min-max",
@@ -676,7 +676,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "homeValueGrowth":{  
+      "homeValueGrowth":{
          "id":28,
          "name":"Home Value Growth (2020)",
          "type":"min-max",
@@ -702,7 +702,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "greatStreets":{  
+      "greatStreets":{
          "id":29,
          "name":"Has greatStreets",
          "type":"exists",
@@ -726,7 +726,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "supermarketTaxCredit":{  
+      "supermarketTaxCredit":{
          "id":30,
          "name":"Supermarket Tax Credit Zones",
          "type":"exists",
@@ -750,7 +750,7 @@
          "toggled":false,
          "valueChange":false
       },
-      "centralEmploymentArea":{  
+      "centralEmploymentArea":{
          "id":31,
          "name":"Central Employment Area",
          "type":"exists",
@@ -911,8 +911,8 @@
        "values":null,
        "units":"SF",
        "minvalue": 0,
-       "maxvalue": 100000000,
-       "minsuggest": 0,
+       "maxvalue": 100000,
+       "minsuggest": 500,
        "maxsuggest": 10000,
        "step": 100,
        "mapvalue":null,
