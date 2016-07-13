@@ -939,7 +939,7 @@
           }
         }
       },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HD.png",
       "functions": {
         "addFunctions": {
           "func1": {
@@ -1960,10 +1960,10 @@
       "subCategory": "2",
       "order": 2
     },
-    "CHAP Historic Districts": {
+    "NRHP Historic Districts": {
       "id": 6,
-      "displayName": "CHAP",
-      "mouseoverName": "CHAP Historic Districts",
+      "displayName": "",
+      "mouseoverName": "NRHP Historic Districts",
       "denyToggle": false,
       "denyList": {
         "denyList1": null
@@ -1973,42 +1973,40 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "Boundaries of Local (CHAP) that have been approved by the Mayor & City Council of Baltimore. Click on polygons for details.",
-        "sourceURL": "https://data.baltimorecity.gov/Culture-Arts/CHAP-Historic-Districts/ibry-626h",
+        "description": "Click map polygons for more information",
+        "sourceURL": "https://data.baltimorecity.gov/",
         "sourceDescription": "OpenBaltimore",
         "type": "singleColumn",
         "listItems": {
           "item1": {
-            "boxStyle": "background:#FD4A50",
-            "boxDescription": "CHAP Historic Districts",
+            "boxStyle": "background:#fdbf6f",
+            "boxDescription": "National Register of Historic Places",
             "imageUrl": null
           }
         }
       },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HD.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
       "functions": {
         "addFunctions": {
           "func1": {
-            "service": "mapOverlayService",
-            "functionName": "addLayer",
+            "service": "tileMapServiceService",
+            "functionName": "addDynamicTMSLayer",
             "parameters": {
-              "param1": "$scope",
-              "param2": "historic-district-chap"
+              "param1": " baci_NRHP_HistoricDistricts"
             }
           }
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'Baltimore Data: CHAP Historic Districts'"
+            "param1": "'Baltimore Data: NRHP Historic Districts'"
           }
         },
         "removeFunctions": {
           "func1": {
-            "service": "mapOverlayService",
-            "functionName": "removeLayer",
+            "service": "tileMapServiceService",
+            "functionName": "removeDynamicTMSLayer",
             "parameters": {
-              "param1": "$scope",
-              "param2": "historic-district-chap"
+              "param1": " baci_NRHP_HistoricDistricts"
             }
           }
         }
