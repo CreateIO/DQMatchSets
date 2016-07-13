@@ -1985,14 +1985,14 @@
           }
         }
       },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HD.png",
       "functions": {
         "addFunctions": {
           "func1": {
             "service": "tileMapServiceService",
             "functionName": "addDynamicTMSLayer",
             "parameters": {
-              "param1": " baci_NRHP_HistoricDistricts"
+              "param1": "baci_NRHP_HistoricDistricts"
             }
           }
         },
@@ -2006,7 +2006,7 @@
             "service": "tileMapServiceService",
             "functionName": "removeDynamicTMSLayer",
             "parameters": {
-              "param1": " baci_NRHP_HistoricDistricts"
+              "param1": "baci_NRHP_HistoricDistricts"
             }
           }
         }
