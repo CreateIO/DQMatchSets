@@ -324,7 +324,7 @@
           }
         }
       },
-      "urlPicture": "https://s3://models-dc/tiles/incentives/TCA.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/TCA.png",
       "functions": {
         "addFunctions": {
           "func1": {
@@ -379,7 +379,7 @@
           }
         }
       },
-      "urlPicture": "https://s3://models-dc/tiles/incentives/FTZ.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/FTZ.png",
       "functions": {
         "addFunctions": {
           "func1": {
@@ -434,7 +434,7 @@
           }
         }
       },
-      "urlPicture": "https://s3://models-dc/tiles/cityinfo/CB.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CB.png",
       "functions": {
         "addFunctions": {
           "func1": {
@@ -489,7 +489,7 @@
           }
         }
       },
-      "urlPicture": "https://s3://models-dc/tiles/incentives/OMTC.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/OMTC.png",
       "functions": {
         "addFunctions": {
           "func1": {
@@ -544,7 +544,7 @@
           }
         }
       },
-      "urlPicture": "https://s3://models-dc/tiles/cityinfo/LD.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/LD.png",
       "functions": {
         "addFunctions": {
           "func1": {
@@ -599,7 +599,7 @@
           }
         }
       },
-      "urlPicture": "https://s3://models-dc/tiles/cityinfo/CN.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CN.png",
       "functions": {
         "addFunctions": {
           "func1": {
@@ -654,7 +654,7 @@
           }
         }
       },
-      "urlPicture": "https://s3://models-dc/tiles/cityinfo/CD.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png",
       "functions": {
         "addFunctions": {
           "func1": {
@@ -829,7 +829,7 @@
           }
         }
       },
-      "urlPicture": "https://s3://models-dc/tiles/landUse/PD.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PD.png",
       "functions": {
         "addFunctions": {
           "func1": {
@@ -884,7 +884,7 @@
           }
         }
       },
-      "urlPicture": "https://s3://models-dc/tiles/cityinfo/WP.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/WP.png",
       "functions": {
         "addFunctions": {
           "func1": {
@@ -939,7 +939,7 @@
           }
         }
       },
-      "urlPicture": "https://s3://models-dc/tiles/incentives/HUB.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HUB.png",
       "functions": {
         "addFunctions": {
           "func1": {
@@ -994,7 +994,7 @@
           }
         }
       },
-      "urlPicture": "https://s3://models-dc/tiles/incentives/CHAP.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/CHAP.png",
       "functions": {
         "addFunctions": {
           "func1": {
@@ -1179,7 +1179,7 @@
           }
         }
       },
-      "urlPicture": "https://s3://models-dc/tiles/incentives/EZ.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/EZ.png",
       "functions": {
         "addFunctions": {
           "func1": {
@@ -1539,7 +1539,7 @@
           }
         }
       },
-      "urlPicture": "https://s3://models-dc/tiles/incentives/VB.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/VB.png",
       "colors": {
         "type": "?",
         "hex": {}
@@ -1606,7 +1606,7 @@
           }
         }
       },
-      "urlPicture": "https://s3://models-dc/tiles/incentives/VL.png",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/VL.png",
       "colors": {
         "type": "?",
         "hex": {}
