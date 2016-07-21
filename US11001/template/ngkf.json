@@ -1,0 +1,128 @@
+{
+  "ngkf": [
+    {
+      "id":5034,
+      "pptyType":"Subject",
+      "address":"1350 I St",
+      "builtRenovated":"1989 / 2011",
+      "available":"Immediately",
+      "totSf":342014,
+      "availSf":56787,
+      "largestBlock":45438,
+      "divisTo":3702,
+      "flrPlates":31105,
+      "askRate":"$39.00 - $48.00 NNN",
+      "projTI":"$75.00 - $100.00",
+      "owner":"CBRE",
+      "mgr":"CBRE",
+      "leaseAgt":"NGKF",
+      "agents":[
+        {
+          "name":"Brendan Owen",
+          "phone":"202.312.5746",
+          "email":"bowen@ngkf.com"
+        },
+        {
+          "name":"George Vogelei",
+          "phone":"202.312.5746",
+          "email":"gvogelei@ngkf.com"
+        },
+        {
+          "name":"Rafael Notario",
+          "phone":"202.312.5463",
+          "email":"rnotario@ngkf.com"
+        }
+      ]
+    },
+    {
+      "id":141226,
+      "pptyType":"Comparison",
+      "address":"1301 K St",
+      "builtRenovated":"1990 / 2010",
+      "available":"Immediately",
+      "totSf":594431,
+      "availSf":246543,
+      "largestBlock":163222,
+      "divisTo":24877,
+      "flrPlates":50094,
+      "askRate":"$27.00 - $39.00 NNN",
+      "projTI":"$75.00 - $100.00",
+      "owner":"Hines / GM Pension",
+      "mgr":"Hines / GM Pension",
+      "leaseAgt":"JLL",
+      "leaseTeam":"Trip Howell, Amy Bowser, Kate Griffin"
+    },
+    {
+      "id":5119,
+      "pptyType":"Comparison",
+      "address":"1299 Pennsylvania Ave",
+      "builtRenovated":"1992 / 2012",
+      "available":"Immediately",
+      "totSf":644000,
+      "availSf":44922,
+      "largestBlock":37142,
+      "divisTo":1892,
+      "flrPlates":38014,
+      "askRate":"$42.00 - $45.00 NNN",
+      "projTI":"$85.00 - $110.00",
+      "owner":"Vornado / CPPIB",
+      "mgr":"Vordano Charles E. Smith",
+      "leaseAgt":"Vordano Charles E. Smith",
+      "leaseTeam":"Sandy Michaels, Beau Pearce, Martha Naughten"
+    },
+    {
+      "id":28947,
+      "pptyType":"Comparison",
+      "address":"701 Pennsylvania Ave",
+      "builtRenovated":"1990 / 2015",
+      "available":"Immediately",
+      "totSf":346855,
+      "availSf":57466,
+      "largestBlock":14588,
+      "divisTo":1605,
+      "flrPlates":25950,
+      "askRate":"$50.50 - $60.00 NNN",
+      "projTI":"$75.00 - $100.00",
+      "owner":"Columbia Property Trust / Blackstone",
+      "mgr":"Cushman & Wakefield",
+      "leaseAgt":"JLL",
+      "leaseTeam":"Mike Ellis, Evan Behr, Doug Mueller"
+    },
+    {
+      "id":53582,
+      "pptyType":"Comparison",
+      "address":"801 Pennsylvania Ave",
+      "builtRenovated":"1990 / 2015",
+      "available":"Immediately",
+      "totSf":346855,
+      "availSf":184258,
+      "largestBlock":90566,
+      "divisTo":2249,
+      "flrPlates":25950,
+      "askRate":"$51.00 - $59.00 NNN",
+      "projTI":"$75.00 - $100.00",
+      "owner":"Columbia Property Trust / Blackstone",
+      "mgr":"Cushman & Wakefield",
+      "leaseAgt":"JLL",
+      "leaseTeam":"Mike Ellis, Evan Behr, Doug Mueller"
+    },
+    {
+      "id":4534,
+      "pptyType":"Comparison",
+      "address":"875 15th St",
+      "builtRenovated":"2005",
+      "available":"Immediately",
+      "totSf":230743,
+      "availSf":35657,
+      "largestBlock":35657,
+      "divisTo":20133,
+      "flrPlates":20133,
+      "askRate":"$42.00 - $44.00 NNN",
+      "projTI":"$90.00 - $100.00",
+      "owner":"VNO",
+      "mgr":"VNO",
+      "leaseAgt":"VNO",
+      "leaseTeam":"Sandy Michaels, Beau Pearce, Martha Naughten"
+    }
+  ]
+}
