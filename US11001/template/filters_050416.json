@@ -21,7 +21,7 @@
          "calculation":null,
          "filter_exists":null,
          "teaser":"consoleLog",
-         "restrict": null,
+         "restrict": "rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -45,7 +45,7 @@
          "calculation":null,
          "filter_exists":null,
          "teaser":"consoleLog",
-         "restrict":null,
+         "restrict": "rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -69,7 +69,7 @@
          "calculation":null,
          "filter_exists":null,
          "teaser":"consoleLog",
-         "restrict":null,
+         "restrict": "rhs.filter.all",
          "inuse":false,
          "toggled":false,
          "valueChange":false
@@ -93,7 +93,7 @@
          "calculation":null,
          "filter_exists":null,
          "teaser":"consoleLog",
-         "restrict":null,
+         "restrict": "rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -117,7 +117,7 @@
          "calculation":null,
          "filter_exists":null,
          "teaser":"consoleLog",
-         "restrict":null,
+         "restrict": "rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -141,7 +141,7 @@
          "calculation":null,
          "filter_exists":null,
          "teaser":"consoleLog",
-         "restrict":null,
+         "restrict": "rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -165,7 +165,7 @@
          "calculation":null,
          "filter_exists":null,
          "teaser":"consoleLog",
-         "restrict":null,
+         "restrict": "rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -189,7 +189,7 @@
          "calculation":null,
          "filter_exists":null,
          "teaser":"consoleLog",
-         "restrict":null,
+         "restrict": "rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -215,7 +215,7 @@
          "calculation":null,
          "filter_exists":null,
          "teaser":"consoleLog",
-         "restrict":null,
+         "restrict": "rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -241,7 +241,7 @@
          "calculation":null,
          "filter_exists":null,
          "teaser":"consoleLog",
-         "restrict":null,
+         "restrict": "rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -265,7 +265,7 @@
          "calculation":null,
          "filter_exists":null,
          "teaser":"consoleLog",
-         "restrict":null,
+         "restrict": "rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -291,7 +291,7 @@
          "calculation":null,
          "filter_exists":null,
          "teaser":"consoleLog",
-         "restrict":null,
+         "restrict": "rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -317,7 +317,7 @@
          "calculation":null,
          "filter_exists":null,
          "teaser":"consoleLog",
-         "restrict":null,
+         "restrict": "rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -343,7 +343,7 @@
          "calculation":1609.344,
          "filter_exists":null,
          "teaser":"consoleLog",
-         "restrict":null,
+         "restrict": "rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -369,7 +369,7 @@
          "calculation":1609.344,
          "filter_exists":null,
          "teaser":"consoleLog",
-         "restrict":null,
+         "restrict": "rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -393,7 +393,7 @@
          "calculation":null,
          "filter_exists":false,
          "teaser":"consoleLog",
-         "restrict":null,
+         "restrict": "rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -567,7 +567,7 @@
          "calculation":1609.344,
          "filter_exists":null,
          "teaser":"consoleLog",
-         "restrict":null,
+         "restrict": "rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -721,7 +721,7 @@
          "calculation":null,
          "filter_exists":false,
          "teaser":"consoleLog",
-         "restrict":null,
+         "restrict": "rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -745,7 +745,7 @@
          "calculation":null,
          "filter_exists":false,
          "teaser":"consoleLog",
-         "restrict":null,
+         "restrict": "rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -769,7 +769,7 @@
          "calculation":null,
          "filter_exists":false,
          "teaser":"consoleLog",
-         "restrict":null,
+         "restrict": "rhs.filter.all",
          "inuse":true,
          "toggled":false,
          "valueChange":false
