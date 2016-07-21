@@ -1,35 +1,34 @@
 {
-  "name": "New York City",
+  "name": "Shanghai",
   "regions": [
     {
-      "name": "New York City",
-      "regionTag": "US36_51000"
+      "regionTag": "CN07006",
       "filterTemplate": "filters_021216",
       "layerMenuTemplate": "layer_menu_021216",
       "layerMapCodeTemplate": "layer_map_code_021216",
       "infoboxTemplate": "infobox_021216",
       "camera": [
         {
-          "name": "Lower Manhattan",
+          "name": "At The River",
           "frontVect": {
             "type": "LineString",
             "coordinates": [
               [
-                -74.017486,
-                40.705450
+                121.51836104,
+                31.20768722
               ],
               [
-                -74.017486,
-                40.704902
+                121.51856104,
+                31.20768722
               ]
             ],
-            "height": null
+            "height": 400
           }
         }
       ],
       "geocoder": {
-        "searchTag": "nyc",
-        "searchText": "New York, NY"
+        "searchTag": "cnshg",
+        "searchText": "Shanghai, China"
       }
     }
   ]

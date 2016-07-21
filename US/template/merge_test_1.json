@@ -1,0 +1,19 @@
+{
+  "bool": true,
+  "value": 99,
+  "a": [
+    { "letter": "e",
+      "text": "something"
+    },
+    { "letter": "x",
+      "text": "not"
+    },
+    { "letter": "t",
+    "text": "nice"
+    },
+    { "letter": "a",
+      "text": "Is The Same"
+    }
+  ],
+"s": "ext"
+}
