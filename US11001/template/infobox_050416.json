@@ -1,5 +1,36 @@
 {
     "infoboxContent":{
+        "zoning_layer":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"property_id",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"location",
+            "boxValues":{
+                "field1":{
+                    "value":"zoning_district",
+                    "display":"Zoning District: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"office_mx_occ",
+                    "display":"Ofc Max Occ: ",
+                    "fieldtype":"text",
+                    "units":null
+                }
+            }
+        },
         "wdcep_resi_com_data":{
             "referenceid":"UNIQUEID",
             "propertyid":null,
