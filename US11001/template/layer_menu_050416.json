@@ -3985,10 +3985,10 @@
         },
 
 
-    "Critical Area Overlay": {
+    "MedStar Georgetown University Hospital Drive-Time Analysis": {
       "id": 6,
       "displayName": "",
-      "mouseoverName": "Critical Area Overlay",
+      "mouseoverName": "MedStar Georgetown University Hospital Drive-Time Analysis",
       "denyToggle": false,
       "denyList": {
         "denyList1": null
@@ -4004,23 +4004,18 @@
         "type": "singleColumn",
         "listItems": {
           "item1": {
-            "boxStyle": "background:#ff7f00",
-            "boxDescription": "Waterfront Industrial Areas - 100ft Buffer",
+            "boxStyle": "background:#f46d43",
+            "boxDescription": "0-5 Minute Driving Radius",
             "imageUrl": null
           },
           "item2": {
-            "boxStyle": "background:#fdbf6f",
-            "boxDescription": "Waterfront Industrial Areas - 1000ft Buffer",
+            "boxStyle": "background:#fdae61",
+            "boxDescription": "5-10 Minute Driving Radius",
             "imageUrl": null
           },
           "item3": {
-            "boxStyle": "background:#e31a1c",
-            "boxDescription": "Waterfront Revitalization Areas - 100ft Buffer",
-            "imageUrl": null
-          },
-          "item4": {
-            "boxStyle": "background:#fb9a99",
-            "boxDescription": "Waterfront Revitalization Areas - 1000ft Buffer",
+            "boxStyle": "background:#fee08b",
+            "boxDescription": "10-15 Minute Driving Radius",
             "imageUrl": null
           }
         }
@@ -4032,13 +4027,13 @@
             "service": "tileMapServiceService",
             "functionName": "addDynamicTMSLayer",
             "parameters": {
-              "param1": "CriticalAreaOverlay"
+              "param1": "MedStarGeoorgetownUniveristyHospital_DTs"
             }
           }
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'Baltimore Data: Critical Area Overlay'"
+            "param1": "'Array Data: MedStar Georgetown University Hospital Drive-Time Analysis'"
           }
         },
         "removeFunctions": {
@@ -4046,7 +4041,7 @@
             "service": "tileMapServiceService",
             "functionName": "removeDynamicTMSLayer",
             "parameters": {
-              "param1": "CriticalAreaOverlay"
+              "param1": "MedStarGeoorgetownUniveristyHospital_DTs"
             }
           }
         }
