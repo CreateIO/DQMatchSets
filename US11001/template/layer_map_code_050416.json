@@ -2060,7 +2060,7 @@
         "id": {
           "exists": true,
           "objClass": "UserInfo",
-          "id": "entity.properties.UniqueID",
+          "id": "entity.properties.UNIQUEID",
           "name": "ArrayCompetitorLocations_4",
           "folder": "https://s3.amazonaws.com/create-common/layerFiles/dataGeoJSONs/",
           "applyFunction": null
