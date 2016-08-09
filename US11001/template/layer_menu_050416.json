@@ -4211,7 +4211,7 @@
       "functions": {
         "addFunctions": {
           "func1": {
-            "service": "tileMapServiceService",
+            "service": "mapOverlayService",
             "functionName": "addLayer",
             "parameters": {
               "param1": "ArrayCompetitorLocations_4"
@@ -4225,7 +4225,7 @@
         },
         "removeFunctions": {
           "func1": {
-            "service": "tileMapServiceService",
+            "service": "mapOverlayService",
             "functionName": "removeLayer",
             "parameters": {
               "param1": "ArrayCompetitorLocations_4"
