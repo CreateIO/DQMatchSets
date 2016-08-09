@@ -2,27 +2,38 @@
   "name": "Global list of all market areas",
   "markets": [
     {
-      "initials": "WAS",
+      "name": "District of Columbia",
       "title": "Washington, DC",
+      "initials": "WAS",
+      "abbreviation": "DC",
       "code": "MD_DC",
+      "supportLevel": "full",
       "defaultRegion": "US11001"
     },
     {
       "initials": "BACI",
       "title": "Baltimore, MD",
+      "abbreviation": "BACI",
       "code": "MD_BACI",
+      "supportLevel": "demo",
       "defaultRegion": "US24510"
     },
     {
-      "initials": "NYC",
+      "name": "New York City, NY",
       "title": "New York, NY",
+      "initials": "NYC",
+      "abbreviation": "NYC",
       "code": "MD_NYC",
+      "supportLevel": "demo",
       "defaultRegion": "US36_51000"
     },
     {
-      "initials": "CHSHG",
-      "title": "Shanghai",
+      "name": "Shanghai, China",
+      "title": "Shanghai, CN",
+      "initials": "CNSHG",
+      "abbreviation": "CNSHG",
       "code": "MD_CNSHG",
+      "supportLevel": "bare"
       "defaultRegion": "CN07006"
     }
   ]
