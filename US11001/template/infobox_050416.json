@@ -18,7 +18,7 @@
         "header":"HOSP_NAME",
         "boxValues":{
           "field2":{
-            "value":"ADDRESS",
+            "value":"FULL_ADDRE",
             "display":"Address: ",
             "fieldtype":"text",
             "units":null
