@@ -2117,7 +2117,7 @@
                 "billboardLayers": {
                     "billboard1": {
                         "type": "custom",
-                        "name": "SibleyMemorialHospital_billboards",
+                        "name": "chipotlebillboards",
                         "if": "entity.properties.label == 'Sibley Memorial Hospital'",
                         "url": "../../geoJSON/layerIcons/circle-chipotle.png",
                         "position": {
