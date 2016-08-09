@@ -4730,10 +4730,10 @@
             "subCategory": "1",
             "order": 11
         },
-        "WDCEP - Chipotle/Shophouse test": {
+        "Sibley Memorial Hospital": {
             "id": 5,
-            "displayName": "Chipotle/Shophouse",
-            "mouseoverName": "WDCEP - Chipotle/Shophouse Locations",
+            "displayName": "Sibley Memorial Hospital",
+            "mouseoverName": "Sibley Memorial Hospital",
             "denyToggle": false,
             "denyList": {
                 "denyList1": "Limited"
@@ -4743,20 +4743,15 @@
             "hasLegend": true,
             "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
-                "description": "Click on icons for details.",
-                "sourceURL": "http://www.wdcep.com/",
-                "sourceDescription": "WDCEP",
+                "description": "",
+                "sourceURL": "",
+                "sourceDescription": "",
                 "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "",
                         "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-chipotle.png",
-                        "boxDescription": "Chipotle Locations"
-                    },
-                    "item2": {
-                        "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-shophouse.png",
-                        "boxDescription": "Chophouse Locations"
+                        "boxDescription": "Sibley Memorial Hospital"
                     }
                 }
             },
@@ -4773,13 +4768,13 @@
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "WDCEP - chipotle"
+                            "param2": "SibleyMemorialHospital"
                         }
                     }
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Data: WDCEP: Chipotle'"
+                        "param1": "'Array Data: Sibley Memorial Hospital'"
                     }
                 },
                 "removeFunctions": {
@@ -4788,7 +4783,7 @@
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "WDCEP - chipotle"
+                            "param2": "SibleyMemorialHospital"
                         }
                     }
                 },
@@ -4803,7 +4798,7 @@
             },
             "category": "6",
             "subCategory": "1",
-            "order": 1
+            "order": 7
         }
     }
 }
