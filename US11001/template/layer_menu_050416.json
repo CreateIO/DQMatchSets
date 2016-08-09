@@ -4212,7 +4212,7 @@
         "addFunctions": {
           "func1": {
             "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
+            "functionName": "addLayer",
             "parameters": {
               "param1": "ArrayCompetitorLocations_4"
             }
@@ -4226,7 +4226,7 @@
         "removeFunctions": {
           "func1": {
             "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
+            "functionName": "removeLayer",
             "parameters": {
               "param1": "ArrayCompetitorLocations_4"
             }
