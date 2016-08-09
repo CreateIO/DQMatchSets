@@ -1891,7 +1891,7 @@
                 }
             }
         },
-
+ 
 
     "MedStarGeorgetownUniveristyHospital_DTs": {
       "name": "MedStarGeorgetownUniveristyHospital_DTs",
@@ -1992,6 +1992,44 @@
           "yMin": 38.82,
           "xMax": -76.96,
           "yMax": 38.97
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 0.75,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "SibleyMemorialHospital_DTs": {
+      "name": "SibleyMemorialHospital_DTs",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "SibleyMemorialHospital_DTs",
+        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:SibleyMemorialHospital_DTs@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -77.22,
+          "yMin": 38.88,
+          "xMax": -77.04,
+          "yMax": 39.02
         },
         "tileWidth": 256,
         "tileHeight": 256,
