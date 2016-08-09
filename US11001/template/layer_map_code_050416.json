@@ -1938,8 +1938,8 @@
         },
 
 
-    "CriticalAreaOverlay": {
-      "name": "CriticalAreaOverlay",
+    "MedStarGeoorgetownUniveristyHospital_DTs": {
+      "name": "MedStarGeoorgetownUniveristyHospital_DTs",
       "removeName": null,
       "url": null,
       "cartographic": false,
@@ -1953,14 +1953,14 @@
         "exists": false
       },
       "tms": {
-        "tmsLayerName": "baci_CriticalAreaOverlay",
-        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_CriticalAreaOverlay@EPSG:900913@png",
+        "tmsLayerName": "MedStarGeoorgetownUniveristyHospital_DTs",
+        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:MedStarGeoorgetownUniveristyHospital_DTs@EPSG:900913@png",
         "extension": "png",
         "coords": {
-          "xMin": -76.692,
-          "yMin": 39.198,
-          "xMax": -76.489,
-          "yMax": 39.292
+          "xMin": -77.20,
+          "yMin": 38.85,
+          "xMax": -77.00,
+          "yMax": 38.98
         },
         "tileWidth": 256,
         "tileHeight": 256,
@@ -1978,7 +1978,7 @@
     },
 
 
-        
+
         "WDCEP - chipotle": {
             "name": "WDCEP - chipotle",
             "removeName": "wdcep_chipotle_geo.geojson",
