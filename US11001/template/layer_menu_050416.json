@@ -3998,24 +3998,24 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "https://data.baltimorecity.gov/",
-        "sourceDescription": "OpenBaltimore",
+        "description": "",
+        "sourceURL": "",
+        "sourceDescription": "",
         "type": "singleColumn",
         "listItems": {
           "item1": {
             "boxStyle": "background:#f46d43",
-            "boxDescription": "0-5 Minute Driving Radius",
+            "boxDescription": "0-5 Minute Drive-Time",
             "imageUrl": null
           },
           "item2": {
             "boxStyle": "background:#fdae61",
-            "boxDescription": "5-10 Minute Driving Radius",
+            "boxDescription": "5-10 Minute Drive-Time",
             "imageUrl": null
           },
           "item3": {
             "boxStyle": "background:#fee08b",
-            "boxDescription": "10-15 Minute Driving Radius",
+            "boxDescription": "10-15 Minute Drive-Time",
             "imageUrl": null
           }
         }
@@ -4027,7 +4027,7 @@
             "service": "tileMapServiceService",
             "functionName": "addDynamicTMSLayer",
             "parameters": {
-              "param1": "MedStarGeoorgetownUniveristyHospital_DTs"
+              "param1": "MedStarGeorgetownUniveristyHospital_DTs"
             }
           }
         },
@@ -4041,7 +4041,7 @@
             "service": "tileMapServiceService",
             "functionName": "removeDynamicTMSLayer",
             "parameters": {
-              "param1": "MedStarGeoorgetownUniveristyHospital_DTs"
+              "param1": "MedStarGeorgetownUniveristyHospital_DTs"
             }
           }
         }
@@ -4049,6 +4049,71 @@
       "category": "6",
       "subCategory": "1",
       "order": 2
+    },
+    "MedStar Washington Hospital Center Drive-Time Analysis": {
+      "id": 6,
+      "displayName": "",
+      "mouseoverName": "MedStar Washington Hospital Center Drive-Time Analysis",
+      "denyToggle": false,
+      "denyList": {
+        "denyList1": null
+      },
+      "isActive": false,
+      "layerUsed": true,
+      "hasLegend": true,
+      "urlLegend": "../../legends/template-legend.jade",
+      "legendContents": {
+        "description": "",
+        "sourceURL": "",
+        "sourceDescription": "",
+        "type": "singleColumn",
+        "listItems": {
+          "item1": {
+            "boxStyle": "background:#f46d43",
+            "boxDescription": "0-5 Minute Drive-Time",
+            "imageUrl": null
+          },
+          "item2": {
+            "boxStyle": "background:#fdae61",
+            "boxDescription": "5-10 Minute Drive-Time",
+            "imageUrl": null
+          },
+          "item3": {
+            "boxStyle": "background:#fee08b",
+            "boxDescription": "10-15 Minute Drive-Time",
+            "imageUrl": null
+          }
+        }
+      },
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
+      "functions": {
+        "addFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "addDynamicTMSLayer",
+            "parameters": {
+              "param1": "MedStarWashingtonHospital_DTs"
+            }
+          }
+        },
+        "piwikTrack": {
+          "parameters": {
+            "param1": "'Array Data: MedStar Washington Hospital Center Drive-Time Analysis'"
+          }
+        },
+        "removeFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "removeDynamicTMSLayer",
+            "parameters": {
+              "param1": "MedStarWashingtonHospital_DTs"
+            }
+          }
+        }
+      },
+      "category": "6",
+      "subCategory": "1",
+      "order": 3
     },
 
 

@@ -1938,8 +1938,8 @@
         },
 
 
-    "MedStarGeoorgetownUniveristyHospital_DTs": {
-      "name": "MedStarGeoorgetownUniveristyHospital_DTs",
+    "MedStarGeorgetownUniveristyHospital_DTs": {
+      "name": "MedStarGeorgetownUniveristyHospital_DTs",
       "removeName": null,
       "url": null,
       "cartographic": false,
@@ -1953,14 +1953,52 @@
         "exists": false
       },
       "tms": {
-        "tmsLayerName": "MedStarGeoorgetownUniveristyHospital_DTs",
-        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:MedStarGeoorgetownUniveristyHospital_DTs@EPSG:900913@png",
+        "tmsLayerName": "MedStarGeorgetownUniveristyHospital_DTs",
+        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:MedStarGeorgetownUniveristyHospital_DTs@EPSG:900913@png",
         "extension": "png",
         "coords": {
           "xMin": -77.20,
           "yMin": 38.85,
           "xMax": -77.00,
           "yMax": 38.98
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 0.75,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "MedStarWashingtonHospital_DTs": {
+      "name": "MedStarWashingtonHospital_DTs",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "MedStarWashingtonHospital_DTs",
+        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:MedStarWashingtonHospital_DTs@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -77.09,
+          "yMin": 38.87,
+          "xMax": -76.91,
+          "yMax": 38.99
         },
         "tileWidth": 256,
         "tileHeight": 256,
