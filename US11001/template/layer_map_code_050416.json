@@ -2100,7 +2100,7 @@
           "objClass": "UserInfo",
           "id": "entity.properties.UniqueID",
           "name": "ArrayCompetitorLocations_4",
-          "folder": "https://s3.amazonaws.com/layerFiles/dataGeoJSONs/",
+          "folder": "https://s3.amazonaws.com/create-common/layerFiles/dataGeoJSONs/",
           "applyFunction": null
         },
         "labels": {
