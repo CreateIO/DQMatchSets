@@ -2048,7 +2048,7 @@
     "SibleyMemorialHospital": {
             "name": "SibleyMemorialHospital",
             "removeName": "SibleyMemorialHospital.geojson",
-            "url": "https://s3.amazonaws.com/layerFiles/dataGeoJSONs/SibleyMemorialHospital.geojson",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/dataGeoJSONs/SibleyMemorialHospital.geojson",
             "cartographic": true,
             "id": {
                 "exists": true,
