@@ -4046,7 +4046,7 @@
       },
       "category": "6",
       "subCategory": "1",
-      "order": 2
+      "order": 8
     },
     "MedStar Washington Hospital Center Drive-Time": {
       "id": 6,
@@ -4111,7 +4111,7 @@
       },
       "category": "6",
       "subCategory": "1",
-      "order": 3
+      "order": 9
     },
     "George Washington University Hospital Drive-Time": {
       "id": 6,
@@ -4176,7 +4176,7 @@
       },
       "category": "6",
       "subCategory": "1",
-      "order": 4
+      "order": 10
     },
     "Sibley Memorial Hospital Drive-Time": {
       "id": 6,
@@ -4241,7 +4241,7 @@
       },
       "category": "6",
       "subCategory": "1",
-      "order": 5
+      "order": 11
     },
 
 
@@ -4298,7 +4298,7 @@
       },
       "category": "6",
       "subCategory": "1",
-      "order": 4
+      "order": 7
     },
 
 
@@ -4818,7 +4818,7 @@
                     }
                 }
             },
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/CHP.png",
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/H.png",
             "colors": {
                 "type": "icon",
                 "hex": {
