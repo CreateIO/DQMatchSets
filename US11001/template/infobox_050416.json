@@ -1,5 +1,42 @@
 {
     "infoboxContent":{
+      "SibleyMemorialHospital":{
+        "referenceid":"UNIQUEID",
+        "propertyid":null,
+        "offset":null,
+        "fieldtype":"business",
+        "photos":{
+          "active":false,
+          "value":null
+        },
+        "pdfs":{
+          "active":false,
+          "value":null
+        },
+        "viewDetailsBox":false,
+        "wdcepDetailsBox":false,
+        "header":"HOSP_NAME",
+        "boxValues":{
+          "field2":{
+            "value":"ADDRESS",
+            "display":"Address: ",
+            "fieldtype":"text",
+            "units":null
+          },
+          "field3":{
+            "value":"PHONE",
+            "display":"Phone: ",
+            "fieldtype":"text",
+            "units":null
+          },
+          "field4":{
+            "value":"URL",
+            "display":"URL: ",
+            "fieldtype":"text",
+            "units":null
+          }
+        }
+      },
         "wdcep_resi_com_data":{
             "referenceid":"UNIQUEID",
             "propertyid":null,
