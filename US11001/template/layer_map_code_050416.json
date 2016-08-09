@@ -2014,6 +2014,44 @@
         "exists": false
       }
     },
+    "GeorgeWashingtonUniversityHospital_DTs": {
+      "name": "GeorgeWashingtonUniversityHospital_DTs",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "GeorgeWashingtonUniversityHospital_DTs",
+        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:GeorgeWashingtonUniversityHospital_DTs@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -77.18,
+          "yMin": 38.82,
+          "xMax": -76.96,
+          "yMax": 38.97
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 0.75,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
     "ArrayCompetitorLocations_4": {
       "name": "ArrayCompetitorLocations_4",
       "removeName": null,
