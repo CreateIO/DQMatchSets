@@ -6,7 +6,7 @@
         "offset":null,
         "fieldtype":"business",
         "photos":{
-          "active":false,
+          "active":true,
           "value":null
         },
         "pdfs":{
