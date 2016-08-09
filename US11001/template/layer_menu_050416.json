@@ -4115,6 +4115,61 @@
       "subCategory": "1",
       "order": 3
     },
+    "Array Competitor Locations": {
+      "id": 6,
+      "displayName": "",
+      "mouseoverName": "Array Competitor Locations",
+      "denyToggle": false,
+      "denyList": {
+        "denyList1": null
+      },
+      "isActive": false,
+      "layerUsed": true,
+      "hasLegend": true,
+      "urlLegend": "../../legends/template-legend.jade",
+      "legendContents": {
+        "description": "",
+        "sourceURL": "",
+        "sourceDescription": "",
+        "type": "singleColumn",
+        "listItems": {
+          "item1": {
+            "boxStyle": "background:#f46d43",
+            "boxDescription": "Hospitals",
+            "imageUrl": null
+          }
+        }
+      },
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
+      "functions": {
+        "addFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "addDynamicTMSLayer",
+            "parameters": {
+              "param1": "ArrayCompetitorLocations_4"
+            }
+          }
+        },
+        "piwikTrack": {
+          "parameters": {
+            "param1": "'Array Data: Competitor Locations'"
+          }
+        },
+        "removeFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "removeDynamicTMSLayer",
+            "parameters": {
+              "param1": "ArrayCompetitorLocations_4"
+            }
+          }
+        }
+      },
+      "category": "6",
+      "subCategory": "1",
+      "order": 4
+    },
 
 
 
