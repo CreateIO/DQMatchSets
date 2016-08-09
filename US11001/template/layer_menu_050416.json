@@ -4473,10 +4473,10 @@
             "subCategory": "1",
             "order": 11
         },
-        "MedStarGeorgetown": {
+        "WDCEP - Chipotle/Shophouse test": {
             "id": 5,
-            "displayName": "Array Competitor Locations",
-            "mouseoverName": "Array Competitor Locations",
+            "displayName": "Chipotle/Shophouse",
+            "mouseoverName": "WDCEP - Chipotle/Shophouse Locations",
             "denyToggle": false,
             "denyList": {
                 "denyList1": "Limited"
@@ -4487,14 +4487,19 @@
             "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Click on icons for details.",
-                "sourceURL": "",
-                "sourceDescription": "",
+                "sourceURL": "http://www.wdcep.com/",
+                "sourceDescription": "WDCEP",
                 "type": "singleColumn",
                 "listItems": {
                     "item1": {
                         "boxStyle": "",
                         "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-chipotle.png",
                         "boxDescription": "Chipotle Locations"
+                    },
+                    "item2": {
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-shophouse.png",
+                        "boxDescription": "Chophouse Locations"
                     }
                 }
             },
@@ -4511,13 +4516,13 @@
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "MedStarGeorgetown"
+                            "param2": "WDCEP - chipotle"
                         }
                     }
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Data: Array - MedStar Georgetown University Hospital'"
+                        "param1": "'Data: WDCEP: Chipotle'"
                     }
                 },
                 "removeFunctions": {
@@ -4526,7 +4531,7 @@
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "MedStarGeorgetown"
+                            "param2": "WDCEP - chipotle"
                         }
                     }
                 },
@@ -4539,9 +4544,9 @@
                     }
                 }
             },
-            "category": "1",
+            "category": "7",
             "subCategory": "1",
-            "order": 1
+            "order": 3
         }
     }
 }
