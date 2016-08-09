@@ -3982,9 +3982,7 @@
             "category": "5",
             "subCategory": "1",
             "order": 3
-        },
-
-
+    },
     "MedStar Georgetown University Hospital Drive-Time": {
       "id": 6,
       "displayName": "",
@@ -4047,7 +4045,7 @@
         }
       },
       "category": "6",
-      "subCategory": "2",
+      "subCategory": "1",
       "order": 2
     },
     "MedStar Washington Hospital Center Drive-Time": {
@@ -4112,7 +4110,7 @@
         }
       },
       "category": "6",
-      "subCategory": "2",
+      "subCategory": "1",
       "order": 3
     },
     "George Washington University Hospital Drive-Time": {
@@ -4177,7 +4175,7 @@
         }
       },
       "category": "6",
-      "subCategory": "2",
+      "subCategory": "1",
       "order": 4
     },
     "Sibley Memorial Hospital Drive-Time": {
@@ -4242,7 +4240,7 @@
         }
       },
       "category": "6",
-      "subCategory": "2",
+      "subCategory": "1",
       "order": 5
     },
 
