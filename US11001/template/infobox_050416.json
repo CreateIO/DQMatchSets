@@ -2,7 +2,7 @@
     "infoboxContent":{
       "ArrayCompetitorLocations_4":{
         "referenceid":"UNIQUEID",
-        "propertyid":null,
+        "propertyid":"UNIQUEID",
         "offset":null,
         "fieldtype":"business",
         "photos":{
