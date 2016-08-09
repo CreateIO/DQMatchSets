@@ -1935,7 +1935,7 @@
                         "boxDescription": "Click for more info on SMD & ANC."
                     }
                 }
-            }, 
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/ANC.png",
             "colors": {
                 "type": "multi",
@@ -2122,7 +2122,7 @@
                         "boxDescription": "Metro Bus Stops."
                     }
                 }
-            },  
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/MB.png",
             "colors": {
                 "type": "?",
@@ -4276,8 +4276,8 @@
       "functions": {
         "addFunctions": {
           "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
+            "service": "mapOverlayService",
+            "functionName": "addLayer",
             "parameters": {
               "param1": "ArrayCompetitorLocations_4"
             }
@@ -4290,8 +4290,8 @@
         },
         "removeFunctions": {
           "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
+            "service": "mapOverlayService",
+            "functionName": "removeLayer",
             "parameters": {
               "param1": "ArrayCompetitorLocations_4"
             }
@@ -4399,7 +4399,7 @@
                         "boxDescription": "Subway Locations."
                     }
                 }
-            },            
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/S.png",
             "colors": {
                 "type": "icon",
