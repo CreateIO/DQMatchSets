@@ -4270,7 +4270,7 @@
           }
         }
       },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
+      "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/H.png",
       "functions": {
         "addFunctions": {
           "func1": {
@@ -4298,7 +4298,7 @@
       },
       "category": "6",
       "subCategory": "1",
-      "order": 7
+      "order": 6
     },
 
 
