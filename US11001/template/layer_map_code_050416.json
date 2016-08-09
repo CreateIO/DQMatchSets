@@ -2007,44 +2007,44 @@
         "exists": false
       }
     },
-    "ArrayCompetitorLocations_4": {
-      "name": "ArrayCompetitorLocations_4",
-      "removeName": null,
-      "url": null,
-      "cartographic": false,
-      "id": {
-        "exists": false
-      },
-      "labels": {
-        "exists": false
-      },
-      "polygons": {
-        "exists": false
-      },
-      "tms": {
-        "tmsLayerName": "ArrayCompetitorLocations_4",
-        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:ArrayCompetitorLocations_4@EPSG:900913@png",
-        "extension": "png",
-        "coords": {
-          "xMin": -77.112,
-          "yMin": 38.886,
-          "xMax": -77.014,
-          "yMax": 38.951
-        },
-        "tileWidth": 256,
-        "tileHeight": 256,
-        "minimumLevel": 1,
-        "maximumLevel": 20,
-        "alpha": 0.75,
-        "tmsStyle": "OGC"
-      },
-      "rasters": {
-        "exists": false
-      },
-      "billboards": {
-        "exists": false
-      }
-    },
+//    "ArrayCompetitorLocations_4": {
+//      "name": "ArrayCompetitorLocations_4",
+//      "removeName": null,
+//      "url": null,
+//      "cartographic": false,
+//      "id": {
+//        "exists": false
+//      },
+//      "labels": {
+//        "exists": false
+//      },
+//      "polygons": {
+//        "exists": false
+//      },
+//      "tms": {
+//        "tmsLayerName": "ArrayCompetitorLocations_4",
+//        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:ArrayCompetitorLocations_4@EPSG:900913@png",
+//        "extension": "png",
+//        "coords": {
+//          "xMin": -77.112,
+//          "yMin": 38.886,
+//          "xMax": -77.014,
+//          "yMax": 38.951
+//        },
+//        "tileWidth": 256,
+//        "tileHeight": 256,
+//        "minimumLevel": 1,
+//        "maximumLevel": 20,
+//        "alpha": 0.75,
+//        "tmsStyle": "OGC"
+//      },
+//      "rasters": {
+//        "exists": false
+//      },
+//      "billboards": {
+//        "exists": false
+//      }
+//    },
     "SibleyMemorialHospital": {
             "name": "SibleyMemorialHospital",
             "removeName": "SibleyMemorialHospital.geojson",
@@ -2090,7 +2090,7 @@
                 }
             }
         },
-      "SibleyMemorialHospital": {
+      "ArrayCompetitorLocations_4": {
         "name": "ArrayCompetitorLocations_4",
         "removeName": "ArrayCompetitorLocations_4.geojson",
         "url": "https://s3.amazonaws.com/create-common/layerFiles/dataGeoJSONs/ArrayCompetitorLocations_4.geojson",
@@ -2098,8 +2098,8 @@
         "id": {
           "exists": true,
           "objClass": "UserInfo",
-          "id": "entity.properties.UNIQUEID",
-          "name": "SibleyMemorialHospital",
+          "id": "entity.properties.UniqueID",
+          "name": "ArrayCompetitorLocations_4",
           "folder": "https://s3.amazonaws.com/layerFiles/dataGeoJSONs/",
           "applyFunction": null
         },
@@ -2135,14 +2135,6 @@
           }
         }
       },
-
-
-
-
-
-
-
-
         "WDCEP - chipotle": {
             "name": "WDCEP - chipotle",
             "removeName": "wdcep_chipotle_geo.geojson",
