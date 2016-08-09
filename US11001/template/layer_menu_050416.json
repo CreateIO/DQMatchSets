@@ -3983,6 +3983,81 @@
             "subCategory": "1",
             "order": 3
         },
+
+
+    "Critical Area Overlay": {
+      "id": 6,
+      "displayName": "",
+      "mouseoverName": "Critical Area Overlay",
+      "denyToggle": false,
+      "denyList": {
+        "denyList1": null
+      },
+      "isActive": false,
+      "layerUsed": true,
+      "hasLegend": true,
+      "urlLegend": "../../legends/template-legend.jade",
+      "legendContents": {
+        "description": "Click map polygons for more information",
+        "sourceURL": "https://data.baltimorecity.gov/",
+        "sourceDescription": "OpenBaltimore",
+        "type": "singleColumn",
+        "listItems": {
+          "item1": {
+            "boxStyle": "background:#ff7f00",
+            "boxDescription": "Waterfront Industrial Areas - 100ft Buffer",
+            "imageUrl": null
+          },
+          "item2": {
+            "boxStyle": "background:#fdbf6f",
+            "boxDescription": "Waterfront Industrial Areas - 1000ft Buffer",
+            "imageUrl": null
+          },
+          "item3": {
+            "boxStyle": "background:#e31a1c",
+            "boxDescription": "Waterfront Revitalization Areas - 100ft Buffer",
+            "imageUrl": null
+          },
+          "item4": {
+            "boxStyle": "background:#fb9a99",
+            "boxDescription": "Waterfront Revitalization Areas - 1000ft Buffer",
+            "imageUrl": null
+          }
+        }
+      },
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
+      "functions": {
+        "addFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "addDynamicTMSLayer",
+            "parameters": {
+              "param1": "CriticalAreaOverlay"
+            }
+          }
+        },
+        "piwikTrack": {
+          "parameters": {
+            "param1": "'Baltimore Data: Critical Area Overlay'"
+          }
+        },
+        "removeFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "removeDynamicTMSLayer",
+            "parameters": {
+              "param1": "CriticalAreaOverlay"
+            }
+          }
+        }
+      },
+      "category": "6",
+      "subCategory": "1",
+      "order": 2
+    },
+
+
+
         "WDCEP - Potbelly": {
             "id": 12,
             "displayName": "Potbelly",

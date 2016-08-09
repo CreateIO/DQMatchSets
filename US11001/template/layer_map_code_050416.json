@@ -1936,6 +1936,49 @@
                 }
             }
         },
+
+
+    "CriticalAreaOverlay": {
+      "name": "CriticalAreaOverlay",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_CriticalAreaOverlay",
+        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_CriticalAreaOverlay@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.692,
+          "yMin": 39.198,
+          "xMax": -76.489,
+          "yMax": 39.292
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 0.75,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+
+
+        
         "WDCEP - chipotle": {
             "name": "WDCEP - chipotle",
             "removeName": "wdcep_chipotle_geo.geojson",
