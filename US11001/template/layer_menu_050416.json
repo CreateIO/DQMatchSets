@@ -3985,10 +3985,10 @@
         },
 
 
-    "MedStar Georgetown University Hospital Drive-Time Analysis": {
+    "MedStar Georgetown University Hospital Drive-Time": {
       "id": 6,
       "displayName": "",
-      "mouseoverName": "MedStar Georgetown University Hospital Drive-Time Analysis",
+      "mouseoverName": "MedStar Georgetown University Hospital Drive-Time",
       "denyToggle": false,
       "denyList": {
         "denyList1": null
@@ -4020,7 +4020,7 @@
           }
         }
       },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
+      "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/DT1.png",
       "functions": {
         "addFunctions": {
           "func1": {
@@ -4033,7 +4033,7 @@
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'Array Data: MedStar Georgetown University Hospital Drive-Time Analysis'"
+            "param1": "'Array Data: MedStar Georgetown University Hospital Drive-Time'"
           }
         },
         "removeFunctions": {
@@ -4047,13 +4047,13 @@
         }
       },
       "category": "6",
-      "subCategory": "1",
+      "subCategory": "2",
       "order": 2
     },
-    "MedStar Washington Hospital Center Drive-Time Analysis": {
+    "MedStar Washington Hospital Center Drive-Time": {
       "id": 6,
       "displayName": "",
-      "mouseoverName": "MedStar Washington Hospital Center Drive-Time Analysis",
+      "mouseoverName": "MedStar Washington Hospital Center Drive-Time",
       "denyToggle": false,
       "denyList": {
         "denyList1": null
@@ -4085,7 +4085,7 @@
           }
         }
       },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
+      "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/DT2.png",
       "functions": {
         "addFunctions": {
           "func1": {
@@ -4098,7 +4098,7 @@
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'Array Data: MedStar Washington Hospital Center Drive-Time Analysis'"
+            "param1": "'Array Data: MedStar Washington Hospital Center Drive-Time'"
           }
         },
         "removeFunctions": {
@@ -4112,13 +4112,13 @@
         }
       },
       "category": "6",
-      "subCategory": "1",
+      "subCategory": "2",
       "order": 3
     },
-    "George Washington University Hospital Drive-Time Analysis": {
+    "George Washington University Hospital Drive-Time": {
       "id": 6,
       "displayName": "",
-      "mouseoverName": "George Washington University Hospital Drive-Time Analysis",
+      "mouseoverName": "George Washington University Hospital Drive-Time",
       "denyToggle": false,
       "denyList": {
         "denyList1": null
@@ -4150,7 +4150,7 @@
           }
         }
       },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
+      "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/DT3.png",
       "functions": {
         "addFunctions": {
           "func1": {
@@ -4163,7 +4163,7 @@
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'Array Data: George Washington University Hospital Drive-Time Analysis'"
+            "param1": "'Array Data: George Washington University Hospital Drive-Time'"
           }
         },
         "removeFunctions": {
@@ -4177,8 +4177,73 @@
         }
       },
       "category": "6",
-      "subCategory": "1",
+      "subCategory": "2",
       "order": 4
+    },
+    "Sibley Memorial Hospital Drive-Time": {
+      "id": 6,
+      "displayName": "",
+      "mouseoverName": "Sibley Memorial University Hospital Drive-Time",
+      "denyToggle": false,
+      "denyList": {
+        "denyList1": null
+      },
+      "isActive": false,
+      "layerUsed": true,
+      "hasLegend": true,
+      "urlLegend": "../../legends/template-legend.jade",
+      "legendContents": {
+        "description": "",
+        "sourceURL": "",
+        "sourceDescription": "",
+        "type": "singleColumn",
+        "listItems": {
+          "item1": {
+            "boxStyle": "background:#f46d43",
+            "boxDescription": "0-5 Minute Drive-Time",
+            "imageUrl": null
+          },
+          "item2": {
+            "boxStyle": "background:#fdae61",
+            "boxDescription": "5-10 Minute Drive-Time",
+            "imageUrl": null
+          },
+          "item3": {
+            "boxStyle": "background:#fee08b",
+            "boxDescription": "10-15 Minute Drive-Time",
+            "imageUrl": null
+          }
+        }
+      },
+      "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/DT4.png",
+      "functions": {
+        "addFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "addDynamicTMSLayer",
+            "parameters": {
+              "param1": "SibleyMemorialHospital_DTs"
+            }
+          }
+        },
+        "piwikTrack": {
+          "parameters": {
+            "param1": "'Array Data: Sibley Memorial Hospital Drive-Time'"
+          }
+        },
+        "removeFunctions": {
+          "func1": {
+            "service": "tileMapServiceService",
+            "functionName": "removeDynamicTMSLayer",
+            "parameters": {
+              "param1": "SibleyMemorialHospital_DTs"
+            }
+          }
+        }
+      },
+      "category": "6",
+      "subCategory": "2",
+      "order": 5
     },
 
 
