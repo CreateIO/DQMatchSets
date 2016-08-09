@@ -4487,8 +4487,8 @@
             "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "Click on icons for details.",
-                "sourceURL": "http://www.wdcep.com/",
-                "sourceDescription": "WDCEP",
+                "sourceURL": "",
+                "sourceDescription": "",
                 "type": "singleColumn",
                 "listItems": {
                     "item1": {
@@ -4542,7 +4542,6 @@
             "category": "5",
             "subCategory": "1",
             "order": 1
-        	},
         }
     }
 }
