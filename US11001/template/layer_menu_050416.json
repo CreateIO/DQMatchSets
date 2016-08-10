@@ -4522,7 +4522,7 @@
         "addFunctions": {
           "func1": {
             "service": "mapOverlayService",
-            "functionName": "removeLayer",
+            "functionName": "addLayer",
             "parameters": {
               "param1": "$scope",
               "param2": "PT2024png"
