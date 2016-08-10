@@ -4521,10 +4521,11 @@
       "functions": {
         "addFunctions": {
           "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
+            "service": "mapOverlayService",
+            "functionName": "removeLayer",
             "parameters": {
-              "param1": "PT2024png"
+              "param1": "$scope",
+              "param2": "PT2024png"
             }
           }
         },
@@ -4535,10 +4536,11 @@
         },
         "removeFunctions": {
           "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
+            "service": "mapOverlayService",
+            "functionName": "removeLayer",
             "parameters": {
-              "param1": "PT2024png"
+              "param1": "$scope",
+              "param2": "PT2024png"
             }
           }
         },
