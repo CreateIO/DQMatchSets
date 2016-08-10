@@ -2005,6 +2005,45 @@
         "exists": false
       }
     },
+
+
+        "PT2024png": {
+            "name": "PT2024png",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "retailHeat",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PT2024.png",
+                        "xMin": -77.1090564822,
+                        "yMin": 38.8190000479,
+                        "xMax": -76.9087140426,
+                        "yMax": 38.986304164,
+                        "alpha": 0.7,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+
+
+
     "Ortho2014": {
       "name": "Ortho2014",
       "removeName": null,
