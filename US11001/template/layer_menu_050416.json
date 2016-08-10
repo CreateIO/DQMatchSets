@@ -4230,7 +4230,7 @@
     "Physical Theraphy / Rehab - 2014": {
       "id": 8,
       "displayName": "Physical Therapy / Rehab - 2014",
-      "mouseoverName": "Service Market Trends - Inpatient | Physical Therapy / Rehab - 2014",
+      "mouseoverName": "Physical Therapy / Rehab - 2014",
       "denyToggle": false,
       "denyList": {
         "denyList1": null
@@ -4246,7 +4246,6 @@
         "type": "singleColumn",
         "listItems": {
           "item1": {
-            "boxStyle": "",
             "boxDescription": "Service Market Trends - Inpatient",
             "imageUrl": null
           },
