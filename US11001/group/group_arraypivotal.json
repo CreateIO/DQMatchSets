@@ -9,10 +9,19 @@
           "name": "Dupont Circle Way OverHead",
           "frontVect": {
             "type":"LineString",
-            "coordinates":[[-77.04346,38.909624],[-77.04346,38.908131]],
+            "coordinates":[[-77.04346, 38.909624, 3.0],[-77.04346, 38.908131, 3000]],
             "height": 3000
           }
-        } ] },
+        }, 
+        {
+          "name": "All of DC OverHead",
+          "frontVect": {
+            "type":"LineString",
+            "coordinates":[[-77.04346, 38.909624, 3.0],[-77.04346, 38.909624, 8000.0]],
+            "height": 3000
+          }
+        } 
+    ] },
     "start_layers":{}
   },
   "layers": {
