@@ -1920,6 +1920,7 @@
             "xMax": -76.90,
             "yMax": 39.00,
             "show": true,
+            "alpha": 1,
             "hasDropdown": false
           }
         }
@@ -1953,6 +1954,7 @@
             "xMax": -76.90,
             "yMax": 39.00,
             "show": true,
+            "alpha": 1,
             "hasDropdown": false
           }
         }
@@ -1986,6 +1988,7 @@
             "xMax": -76.90,
             "yMax": 39.00,
             "show": true,
+            "alpha": 1,
             "hasDropdown": false
           }
         }
@@ -2019,6 +2022,7 @@
             "xMax": -76.90,
             "yMax": 39.00,
             "show": true,
+            "alpha": 1,
             "hasDropdown": false
           }
         }
@@ -2052,6 +2056,7 @@
             "xMax": -76.90,
             "yMax": 39.00,
             "show": true,
+            "alpha": 1,
             "hasDropdown": false
           }
         }
@@ -2085,6 +2090,7 @@
             "xMax": -76.90,
             "yMax": 39.00,
             "show": true,
+            "alpha": 1,
             "hasDropdown": false
           }
         }
