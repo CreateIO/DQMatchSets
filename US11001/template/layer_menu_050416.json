@@ -3978,9 +3978,9 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "",
+        "description": "Analysis showing 5, 10 & 15 minute drive-times from the MedStar Georgetown University Hopsital.",
         "sourceURL": "",
-        "sourceDescription": "",
+        "sourceDescription": "Pivotal",
         "type": "singleColumn",
         "listItems": {
           "item1": {
@@ -4043,9 +4043,9 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "",
+        "description": "Analysis showing 5, 10 & 15 minute drive-times from the MedStar Washington Hopsital Center.",
         "sourceURL": "",
-        "sourceDescription": "",
+        "sourceDescription": "Pivotal",
         "type": "singleColumn",
         "listItems": {
           "item1": {
@@ -4108,9 +4108,9 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "",
+        "description": "Analysis showing 5, 10 & 15 minute drive-times from the George Washington University Hopsital.",
         "sourceURL": "",
-        "sourceDescription": "",
+        "sourceDescription": "Pivotal",
         "type": "singleColumn",
         "listItems": {
           "item1": {
@@ -4173,9 +4173,9 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "",
+        "description": "Analysis showing 5, 10 & 15 minute drive-times from the Sibley Memorial Hopsital.",
         "sourceURL": "",
-        "sourceDescription": "",
+        "sourceDescription": "Pivotal",
         "type": "singleColumn",
         "listItems": {
           "item1": {
@@ -4230,7 +4230,7 @@
     "Physical Theraphy / Rehab - 2014": {
       "id": 8,
       "displayName": "Physical Therapy / Rehab - 2014",
-      "mouseoverName": "Physical Therapy / Rehab - 2014",
+      "mouseoverName": "Service Market Trends - Inpatient | Physical Therapy / Rehab - 2014",
       "denyToggle": false,
       "denyList": {
         "denyList1": null
@@ -4240,30 +4240,37 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "",
+        "description": "Analysis showing relative density of 2014 inpatient volume for the Physical Therapy / Rehab service line.",
+        "sourceURL": "",
+        "sourceDescription": "Pivotal",
         "type": "singleColumn",
         "listItems": {
           "item1": {
+            "boxStyle": "",
+            "boxDescription": "Service Market Trends - Inpatient",
+            "imageUrl": null
+          },
+          "item2": {
             "boxStyle": "background:#d73027",
             "boxDescription": "60,000",
             "imageUrl": null
           },
-          "item2": {
+          "item3": {
             "boxStyle": "background:#DA8026",
             "boxDescription": "45,000",
             "imageUrl": null
           },
-          "item3": {
+          "item4": {
             "boxStyle": "background:#dcd024",
             "boxDescription": "30,000",
             "imageUrl": null
           },
-          "item4": {
+          "item5": {
             "boxStyle": "background:#48896d",
             "boxDescription": "15,000",
             "imageUrl": null
                       },
-           "item5": {
+           "item6": {
             "boxStyle": "border: 1px solid #000000",
             "boxDescription": "0",
             "imageUrl": null
@@ -4315,7 +4322,9 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "",
+        "description": "Analysis showing relative density of projected 2019 inpatient volume for the Physical Therapy / Rehab service line.",
+        "sourceURL": "",
+        "sourceDescription": "Pivotal",
         "type": "singleColumn",
         "listItems": {
           "item1": {
@@ -4390,7 +4399,9 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "",
+        "description": "Analysis showing relative density of projected 2024 inpatient volume for the Physical Therapy / Rehab service line.",
+        "sourceURL": "",
+        "sourceDescription": "Pivotal",
         "type": "singleColumn",
         "listItems": {
           "item1": {
@@ -4465,7 +4476,9 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "",
+        "description": "Analysis showing relative density of 2014 inpatient volume for the Orthopedics service line.",
+        "sourceURL": "",
+        "sourceDescription": "Pivotal",
         "type": "singleColumn",
         "listItems": {
           "item1": {
@@ -4540,7 +4553,9 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "",
+        "description": "Analysis showing relative density of projected 2019 inpatient volume for the Orthopedics service line.",
+        "sourceURL": "",
+        "sourceDescription": "Pivotal",
         "type": "singleColumn",
         "listItems": {
           "item1": {
@@ -4602,7 +4617,7 @@
       "subCategory": "1",
       "order": 5
     },
-    "Orthopedics - 2024": {
+    "Orthopedics - 202o4": {
       "id": 8,
       "displayName": "Orthopedics - 2024",
       "mouseoverName": "Orthopedics - 2024",
@@ -4615,7 +4630,9 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "",
+        "description": "Analysis showing relative density of projected 2024 inpatient volume for the Orthopedics service line.",
+        "sourceURL": "",
+        "sourceDescription": "Pivotal",
         "type": "singleColumn",
         "listItems": {
           "item1": {
@@ -4691,9 +4708,9 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "",
+        "description": "Competitor facility locations in the DC Metro area.",
         "sourceURL": "",
-        "sourceDescription": "",
+        "sourceDescription": "Pivotal",
         "type": "singleColumn",
         "listItems": {
           "item1": {
