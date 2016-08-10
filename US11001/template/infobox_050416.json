@@ -1,12 +1,13 @@
 {
     "infoboxContent":{
-      "SibleyMemorialHospital":{
+      "ArrayCompetitorLocations_4":{
         "referenceid":"UNIQUEID",
-        "propertyid":null,
+        "propertyid":"UNIQUEID",
         "offset":null,
         "fieldtype":"business",
+        "resourceType":"array",
         "photos":{
-          "active":false,
+          "active":true,
           "value":null
         },
         "pdfs":{
