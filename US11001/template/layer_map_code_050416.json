@@ -2007,6 +2007,41 @@
     },
 
 
+    "PT2024png2": {
+      "name": "PT2024png2",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "rasters": {
+        "exists": true,
+        "rasterLayers": {
+          "raster1": {
+            "name": "PT2024png2",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PT2024.png",
+            "xMin": -77.15,
+            "yMin": 38.79,
+            "xMax": -76.88,
+            "yMax": 39.00,
+            "show": true,
+            "hasDropdown": false
+          }
+        }
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+
+
         "PT2024png": {
             "name": "PT2024png",
             "removeName": null,
@@ -2025,7 +2060,7 @@
                 "exists": true,
                 "rasterLayers": {
                     "raster1": {
-                        "name": "retailHeat",
+                        "name": "PT2024png",
                         "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PT2024.png",
                         "xMin": -77.15,
                         "yMin": 38.79,
