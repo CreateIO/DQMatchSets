@@ -4,7 +4,15 @@
   "init": {
     "group_dislay_name": "Array Pivotal Product",
     "logo": "https://s3.amazonaws.com/create-common/logo/pivotal-mark.png" ,
-    "start_position":{ "lat": " ", "long":" "}, // whatever this should be...
+    "start_position":{ "camera": [
+        {
+          "name": "Dupont Circle Way OverHead",
+          "frontVect": {
+            "type":"LineString",
+            "coordinates":[[-77.04346,38.909624],[-77.04346,38.908131]],
+            "height": 3000
+          }
+        } ] },
     "start_layers":{}
   },
   "layers": {
