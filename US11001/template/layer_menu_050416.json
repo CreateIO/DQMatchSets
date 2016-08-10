@@ -4246,7 +4246,7 @@
         "type": "singleColumn",
         "listItems": {
           "item1": {
-            "boxDescription": "Service Market Trends - Inpatient",
+            "description": "Service Market Trends - Inpatient",
             "imageUrl": null
           },
           "item2": {
