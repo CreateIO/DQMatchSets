@@ -4710,7 +4710,7 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
-        "description": "Competitor hospital facility locations in the DC Metro area.",
+        "description": "Competitor hospital locations in the DC Metro area.",
         "sourceURL": "",
         "sourceDescription": "Pivotal",
         "type": "singleColumn",
