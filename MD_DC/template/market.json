@@ -14,7 +14,7 @@
           "frontVect": {
             "type":"LineString",
             "coordinates":[[-77.04346,38.909624],[-77.04346,38.908131]],
-            "height": null
+            "height": 3000
           }
         }
       ],
