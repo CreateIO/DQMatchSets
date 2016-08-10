@@ -4473,6 +4473,80 @@
     },
 
 
+    "Physical Theraphy / Rehab png test 2": {
+      "id": 8,
+      "displayName": "Physical Therapy / Rehab png test 2",
+      "mouseoverName": "Physical Therapy / Rehab png test 2",
+      "denyToggle": false,
+      "denyList": {
+        "denyList1": null
+      },
+      "isActive": false,
+      "layerUsed": true,
+      "hasLegend": true,
+      "urlLegend": "../../legends/template-legend.jade",
+      "legendContents": {
+        "description": "",
+        "type": "doubleColumn",
+        "listItemsLeft": {
+          "item1": {
+            "boxStyle": "background:#7570b3;",
+            "boxDescription": "Canton/Marine Terminal",
+            "imageUrl": null
+          },
+          "item2": {
+            "boxStyle": "background:#ffff33;",
+            "boxDescription": "Fairfield/Curtis Bay",
+            "imageUrl": null
+          }
+        },
+        "listItemsRight": {
+          "item1": {
+            "boxStyle": "background:#4daf4a;",
+            "boxDescription": "Hawkins Point",
+            "imageUrl": null
+          },
+          "item2": {
+            "boxStyle": "background:#e41a1c;",
+            "boxDescription": "Locust Point",
+            "imageUrl": null
+          }
+        }
+      },
+      "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/P24.png",
+      "functions": {
+        "addFunctions": {
+          "func1": {
+            "service": "mapOverlayService",
+            "functionName": "addLayer",
+            "parameters": {
+              "param1": "$scope",
+              "param2": "PT2024png2"
+            }
+          }
+        },
+        "piwikTrack": {
+          "parameters": {
+            "param1": "'Array Data: Heat Map test'"
+          }
+        },
+        "removeFunctions": {
+          "func1": {
+            "service": "mapOverlayService",
+            "functionName": "removeLayer",
+            "parameters": {
+              "param1": "$scope",
+              "param2": "PT2024png2"
+            }
+          }
+        }
+      },
+      "category": "6",
+      "subCategory": "1",
+      "order": 9
+    },
+
+
     "Physical Therapy/Rehab - 2024 png": {
       "id": 42,
       "displayName": "Physical Therapy/Rehab - 2024 png",
