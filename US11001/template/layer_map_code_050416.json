@@ -2047,52 +2047,7 @@
         "exists": false
       }
     },
-    "SibleyMemorialHospital": {
-            "name": "SibleyMemorialHospital",
-            "removeName": "SibleyMemorialHospital.geojson",
-            "url": "https://s3.amazonaws.com/create-common/layerFiles/dataGeoJSONs/SibleyMemorialHospital.geojson",
-            "cartographic": true,
-            "id": {
-                "exists": true,
-                "objClass": "UserInfo",
-                "id": "entity.properties.UNIQUEID",
-                "name": "SibleyMemorialHospital",
-                "folder": "https://s3.amazonaws.com/layerFiles/dataGeoJSONs/",
-                "applyFunction": null
-            },
-            "labels": {
-                "exists": false
-            },
-            "polygons": {
-                "exists": false
-            },
-            "rasters": {
-                "exists": false
-            },
-            "billboards": {
-                "exists": true,
-                "billboardLayers": {
-                    "billboard1": {
-                        "type": "custom",
-                        "name": "chipotlebillboards",
-                        "if": "entity.properties.label == 'Sibley Memorial Hospital'",
-                        "url": "../../geoJSON/layerIcons/circle-chipotle.png",
-                        "position": {
-                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
-                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 5
-                        },
-                        "NearFarScalar": {
-                            "minElevation": 2000,
-                            "maxElevation": 25000,
-                            "minScale": 1.0,
-                            "maxScale": 0.15
-                        }
-                    }
-                }
-            }
-        },
-      "ArrayCompetitorLocations_4": {
+    "ArrayCompetitorLocations_4": {
         "name": "ArrayCompetitorLocations_4",
         "removeName": "ArrayCompetitorLocations_4.geojson",
         "url": "https://s3.amazonaws.com/create-common/layerFiles/dataGeoJSONs/ArrayCompetitorLocations_4.geojson",
