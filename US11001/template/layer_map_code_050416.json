@@ -1891,7 +1891,82 @@
                 }
             }
         },
- 
+    "PT2014": {
+      "name": "PT2014",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "PT2014",
+        "url": "https://s3.amazonaws.com/models-dc/img_tilesets/PT2014",
+        "extension": "png",
+        "coords": {
+          "xMin": -77.13,
+          "yMin": 38.80,
+          "xMax": -76.90,
+          "yMax": 39.00
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 3,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OSM"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "PT2019": {
+      "name": "PT2019",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "PT2019",
+        "url": "https://s3.amazonaws.com/models-dc/img_tilesets/PT2019",
+        "extension": "png",
+        "coords": {
+          "xMin": -77.13,
+          "yMin": 38.80,
+          "xMax": -76.90,
+          "yMax": 39.00
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 3,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OSM"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
     "PT2024": {
       "name": "PT2024",
       "removeName": null,
