@@ -4716,22 +4716,22 @@
         "type": "singleColumn",
         "listItems": {
           "item1": {
-            "boxStyle": "width:150, height:48",
+            "boxStyle": "width: 150px; height: 48px",
             "boxDescription": "MedStar Georgetown University Hospital",
             "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/MedStarGeorgetown_logo_150.png"
           },
           "item2": {
-            "boxStyle": "width:150, height:48",
+            "boxStyle": "width: 150px; height: 48px",
             "boxDescription": "MedStar Washington Hospital Center",
             "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/MedStarWashington_logo_150.png"
           },
           "item3": {
-            "boxStyle": "width:150, height:48",
+            "boxStyle": "width: 150px; height: 48px",
             "boxDescription": "George Washington University Hospital",
             "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/GeorgeWashingtonHospital_logo_150.png"
           },
           "item4": {
-            "boxStyle": "width:150, height:48",
+            "boxStyle": "width: 150px; height: 48px",
             "boxDescription": "Sibley Memorial Hospital",
             "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/SibleyMemorial_logo_150.png"
           }
