@@ -5,6 +5,7 @@
         "propertyid":"UNIQUEID",
         "offset":null,
         "fieldtype":"business",
+        "resourceType":"array",
         "photos":{
           "active":true,
           "value":null
