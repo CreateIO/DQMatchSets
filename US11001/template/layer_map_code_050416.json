@@ -2030,8 +2030,8 @@
                         "xMin": -77.15,
                         "yMin": 38.79,
                         "xMax": -76.88,
-                        "yMax": 39,
-                        "alpha": 0.7,
+                        "yMax": 39.00,
+                        "alpha": 1,
                         "show": true,
                         "hasDropdown": false
                     }
