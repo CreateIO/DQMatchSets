@@ -1892,6 +1892,82 @@
             }
         },
  
+    "PT2024": {
+      "name": "PT2024",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "PT2024",
+        "url": "https://s3.amazonaws.com/models-dc/img_tilesets/PT2024",
+        "extension": "png",
+        "coords": {
+          "xMin": -77.13,
+          "yMin": 38.80,
+          "xMax": -76.90,
+          "yMax": 39.00
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 3,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OSM"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "Ortho2014": {
+      "name": "Ortho2014",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "Ortho2014",
+        "url": "https://s3.amazonaws.com/models-dc/img_tilesets/Ortho2014",
+        "extension": "png",
+        "coords": {
+          "xMin": -77.13,
+          "yMin": 38.80,
+          "xMax": -76.90,
+          "yMax": 39.00
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 3,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OSM"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
     "Ortho2019": {
       "name": "Ortho2019",
       "removeName": null,
@@ -1912,7 +1988,7 @@
         "extension": "png",
         "coords": {
           "xMin": -77.13,
-          "yMin": 39.80,
+          "yMin": 38.80,
           "xMax": -76.90,
           "yMax": 39.00
         },
@@ -1950,7 +2026,7 @@
         "extension": "png",
         "coords": {
           "xMin": -77.13,
-          "yMin": 39.80,
+          "yMin": 38.80,
           "xMax": -76.90,
           "yMax": 39.00
         },
