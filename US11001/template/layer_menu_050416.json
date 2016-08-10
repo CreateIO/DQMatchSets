@@ -70,6 +70,7 @@
       "subCategory": "1",
       "order": 1
     },
+
     "Planned Unit Development": {
       "id": 27,
       "displayName": "PUD",
@@ -4240,36 +4241,33 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
+        "headerDescription": "Market Estimator - Inpatient Volume",
         "description": "Analysis showing relative density of 2014 inpatient volume for the Physical Therapy / Rehab service line.",
         "sourceURL": "",
         "sourceDescription": "Pivotal",
         "type": "singleColumn",
         "listItems": {
           "item1": {
-            "boxDescription": "Market Estimator - Inpatient Volume",
-            "imageUrl": null
-          },
-          "item2": {
             "boxStyle": "background:#d73027",
             "boxDescription": "60,000",
             "imageUrl": null
           },
-          "item3": {
+          "item2": {
             "boxStyle": "background:#DA8026",
             "boxDescription": "45,000",
             "imageUrl": null
           },
-          "item4": {
+          "item3": {
             "boxStyle": "background:#dcd024",
             "boxDescription": "30,000",
             "imageUrl": null
           },
-          "item5": {
+          "item4": {
             "boxStyle": "background:#48896d",
             "boxDescription": "15,000",
             "imageUrl": null
                       },
-           "item6": {
+           "item5": {
             "boxStyle": "border: 1px solid #000000",
             "boxDescription": "0",
             "imageUrl": null
@@ -4321,36 +4319,33 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
+        "headerDescription": "Market Estimator - Inpatient Volume",
         "description": "Analysis showing relative density of projected 2019 inpatient volume for the Physical Therapy / Rehab service line.",
         "sourceURL": "",
         "sourceDescription": "Pivotal",
         "type": "singleColumn",
         "listItems": {
-         "item1": {
-            "boxDescription": "Market Estimator - Inpatient Volume",
-            "imageUrl": null
-          },
-          "item2": {
+          "item1": {
             "boxStyle": "background:#d73027",
             "boxDescription": "60,000",
             "imageUrl": null
           },
-          "item3": {
+          "item2": {
             "boxStyle": "background:#DA8026",
             "boxDescription": "45,000",
             "imageUrl": null
           },
-          "item4": {
+          "item3": {
             "boxStyle": "background:#dcd024",
             "boxDescription": "30,000",
             "imageUrl": null
           },
-          "item5": {
+          "item4": {
             "boxStyle": "background:#48896d",
             "boxDescription": "15,000",
             "imageUrl": null
                       },
-           "item6": {
+           "item5": {
             "boxStyle": "border: 1px solid #000000",
             "boxDescription": "0",
             "imageUrl": null
@@ -4402,36 +4397,33 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
+        "headerDescription": "Market Estimator - Inpatient Volume",
         "description": "Analysis showing relative density of projected 2024 inpatient volume for the Physical Therapy / Rehab service line.",
         "sourceURL": "",
         "sourceDescription": "Pivotal",
         "type": "singleColumn",
         "listItems": {
-         "item1": {
-            "boxDescription": "Market Estimator - Inpatient Volume",
-            "imageUrl": null
-          },
-          "item2": {
+          "item1": {
             "boxStyle": "background:#d73027",
             "boxDescription": "60,000",
             "imageUrl": null
           },
-          "item3": {
+          "item2": {
             "boxStyle": "background:#DA8026",
             "boxDescription": "45,000",
             "imageUrl": null
           },
-          "item4": {
+          "item3": {
             "boxStyle": "background:#dcd024",
             "boxDescription": "30,000",
             "imageUrl": null
           },
-          "item5": {
+          "item4": {
             "boxStyle": "background:#48896d",
             "boxDescription": "15,000",
             "imageUrl": null
                       },
-           "item6": {
+           "item5": {
             "boxStyle": "border: 1px solid #000000",
             "boxDescription": "0",
             "imageUrl": null
@@ -4483,36 +4475,33 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
+        "headerDescription": "Market Estimator - Inpatient Volume",
         "description": "Analysis showing relative density of 2014 inpatient volume for the Orthopedics service line.",
         "sourceURL": "",
         "sourceDescription": "Pivotal",
         "type": "singleColumn",
         "listItems": {
          "item1": {
-            "boxDescription": "Market Estimator - Inpatient Volume",
-            "imageUrl": null
-          },
-          "item2": {
             "boxStyle": "background:#d73027",
             "boxDescription": "10,000",
             "imageUrl": null
           },
-          "item3": {
+          "item2": {
             "boxStyle": "background:#DA8026",
             "boxDescription": "7,500",
             "imageUrl": null
           },
-          "item4": {
+          "item3": {
             "boxStyle": "background:#dcd024",
             "boxDescription": "5,000",
             "imageUrl": null
           },
-          "item5": {
+          "item4": {
             "boxStyle": "background:#48896d",
             "boxDescription": "2,500",
             "imageUrl": null
           },
-          "item6": {
+          "item5": {
             "boxStyle": "border: 1px solid #000000",
             "boxDescription": "0",
             "imageUrl": null
@@ -4564,36 +4553,33 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
+        "headerDescription": "Market Estimator - Inpatient Volume",
         "description": "Analysis showing relative density of projected 2019 inpatient volume for the Orthopedics service line.",
         "sourceURL": "",
         "sourceDescription": "Pivotal",
         "type": "singleColumn",
         "listItems": {
          "item1": {
-            "boxDescription": "Market Estimator - Inpatient Volume",
-            "imageUrl": null
-          },
-          "item2": {
             "boxStyle": "background:#d73027",
             "boxDescription": "10,000",
             "imageUrl": null
           },
-          "item3": {
+          "item2": {
             "boxStyle": "background:#DA8026",
             "boxDescription": "7,500",
             "imageUrl": null
           },
-          "item4": {
+          "item3": {
             "boxStyle": "background:#dcd024",
             "boxDescription": "5,000",
             "imageUrl": null
           },
-          "item5": {
+          "item4": {
             "boxStyle": "background:#48896d",
             "boxDescription": "2,500",
             "imageUrl": null
           },
-          "item6": {
+          "item5": {
             "boxStyle": "border: 1px solid #000000",
             "boxDescription": "0",
             "imageUrl": null
@@ -4632,7 +4618,7 @@
       "subCategory": "1",
       "order": 5
     },
-    "Orthopedics - 202o4": {
+    "Orthopedics - 2024": {
       "id": 8,
       "displayName": "Orthopedics - 2024",
       "mouseoverName": "Orthopedics - 2024",
@@ -4645,36 +4631,33 @@
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
       "legendContents": {
+        "headerDescription": "Market Estimator - Inpatient Volume",
         "description": "Analysis showing relative density of projected 2024 inpatient volume for the Orthopedics service line.",
         "sourceURL": "",
         "sourceDescription": "Pivotal",
         "type": "singleColumn",
         "listItems": {
          "item1": {
-            "boxDescription": "Market Estimator - Inpatient Volume",
-            "imageUrl": null
-          },
-          "item2": {
             "boxStyle": "background:#d73027",
             "boxDescription": "10,000",
             "imageUrl": null
           },
-          "item3": {
+          "item2": {
             "boxStyle": "background:#DA8026",
             "boxDescription": "7,500",
             "imageUrl": null
           },
-          "item4": {
+          "item3": {
             "boxStyle": "background:#dcd024",
             "boxDescription": "5,000",
             "imageUrl": null
           },
-          "item5": {
+          "item4": {
             "boxStyle": "background:#48896d",
             "boxDescription": "2,500",
             "imageUrl": null
           },
-          "item6": {
+          "item5": {
             "boxStyle": "border: 1px solid #000000",
             "boxDescription": "0",
             "imageUrl": null
@@ -4798,7 +4781,7 @@
       "colors": {
         "type": "icon",
         "hex": {}
-      },
+  },
       "functions": {
         "addFunctions": {
           "func1": {
