@@ -4251,7 +4251,7 @@
       "denyList": {
         "denyList1": null
       },
-      "isActive": false,
+      "isActive": true,
       "layerUsed": true,
       "hasLegend": true,
       "urlLegend": "../../legends/template-legend.jade",
@@ -4327,12 +4327,12 @@
       },
       "category": "6",
       "subCategory": "1",
-      "order": 6
+      "order": 1
     },
-    "Array Competitor Locations": {
+    "Facilities - Hospitals": {
       "id": 6,
       "displayName": "",
-      "mouseoverName": "Array Competitor Locations",
+      "mouseoverName": "Facilities - Hospitals",
       "denyToggle": false,
       "denyList": {
         "denyList1": null
@@ -4367,7 +4367,7 @@
         },
         "piwikTrack": {
           "parameters": {
-            "param1": "'Array Data: Competitor Locations'"
+            "param1": "'Array Data: Facilities - Hospitals'"
           }
         },
         "removeFunctions": {
@@ -4382,7 +4382,7 @@
       },
       "category": "6",
       "subCategory": "1",
-      "order": 6
+      "order": 7
     },
 
 
@@ -4876,76 +4876,6 @@
             "category": "4",
             "subCategory": "1",
             "order": 11
-        },
-        "Sibley Memorial Hospital": {
-            "id": 5,
-            "displayName": "Sibley Memorial Hospital",
-            "mouseoverName": "Sibley Memorial Hospital",
-            "denyToggle": false,
-            "denyList": {
-                "denyList1": "Limited"
-            },
-            "isActive": false,
-            "layerUsed": true,
-            "hasLegend": true,
-            "urlLegend": "../../legends/template-legend.jade",
-            "legendContents": {
-                "description": "",
-                "sourceURL": "",
-                "sourceDescription": "",
-                "type": "singleColumn",
-                "listItems": {
-                    "item1": {
-                        "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-chipotle.png",
-                        "boxDescription": "Sibley Memorial Hospital"
-                    }
-                }
-            },
-            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/H.png",
-            "colors": {
-                "type": "icon",
-                "hex": {
-                }
-            },
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "SibleyMemorialHospital"
-                        }
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Array Data: Sibley Memorial Hospital'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "SibleyMemorialHospital"
-                        }
-                    }
-                },
-                "emits": {
-                    "emit1": {
-                        "type": "remove",
-                        "parameters": {
-                            "param1": "clearBillboard"
-                        }
-                    }
-                }
-            },
-            "category": "6",
-            "subCategory": "1",
-            "order": 7
         }
     }
 }
