@@ -1891,7 +1891,412 @@
                 }
             }
         },
-        "WDCEP - chipotle": {
+
+ 
+
+
+   "PT2014": {
+      "name": "PT2014",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "rasters": {
+        "exists": true,
+        "rasterLayers": {
+          "raster1": {
+            "name": "PT2014",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PT2014.png",
+            "xMin": -77.13,
+            "yMin": 38.79,
+            "xMax": -76.90,
+            "yMax": 39.00,
+            "show": true,
+            "alpha": 1,
+            "hasDropdown": false
+          }
+        }
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+   "PT2019": {
+      "name": "PT2019",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "rasters": {
+        "exists": true,
+        "rasterLayers": {
+          "raster1": {
+            "name": "PT2019",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PT2019.png",
+            "xMin": -77.13,
+            "yMin": 38.79,
+            "xMax": -76.90,
+            "yMax": 39.00,
+            "show": true,
+            "alpha": 1,
+            "hasDropdown": false
+          }
+        }
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "PT2024": {
+      "name": "PT2024",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "rasters": {
+        "exists": true,
+        "rasterLayers": {
+          "raster1": {
+            "name": "PT2024",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PT2024.png",
+            "xMin": -77.13,
+            "yMin": 38.79,
+            "xMax": -76.90,
+            "yMax": 39.00,
+            "show": true,
+            "alpha": 1,
+            "hasDropdown": false
+          }
+        }
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "Ortho2014": {
+      "name": "Ortho2014",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "rasters": {
+        "exists": true,
+        "rasterLayers": {
+          "raster1": {
+            "name": "Ortho2014",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/Ortho2014.png",
+            "xMin": -77.13,
+            "yMin": 38.79,
+            "xMax": -76.90,
+            "yMax": 39.00,
+            "show": true,
+            "alpha": 1,
+            "hasDropdown": false
+          }
+        }
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "Ortho2019": {
+      "name": "Ortho2019",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "rasters": {
+        "exists": true,
+        "rasterLayers": {
+          "raster1": {
+            "name": "Ortho2019",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/Ortho2019.png",
+            "xMin": -77.13,
+            "yMin": 38.79,
+            "xMax": -76.90,
+            "yMax": 39.00,
+            "show": true,
+            "alpha": 1,
+            "hasDropdown": false
+          }
+        }
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "Ortho2024": {
+      "name": "Ortho2024",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "rasters": {
+        "exists": true,
+        "rasterLayers": {
+          "raster1": {
+            "name": "Ortho2024",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/Ortho2024.png",
+            "xMin": -77.13,
+            "yMin": 38.79,
+            "xMax": -76.90,
+            "yMax": 39.00,
+            "show": true,
+            "alpha": 1,
+            "hasDropdown": false
+          }
+        }
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "MedStarGeorgetownUniveristyHospital_DTs": {
+      "name": "MedStarGeorgetownUniveristyHospital_DTs",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "MedStarGeorgetownUniveristyHospital_DTs",
+        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:MedStarGeorgetownUniveristyHospital_DTs@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -77.20,
+          "yMin": 38.85,
+          "xMax": -77.00,
+          "yMax": 38.98
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 0.75,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "MedStarWashingtonHospital_DTs": {
+      "name": "MedStarWashingtonHospital_DTs",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "MedStarWashingtonHospital_DTs",
+        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:MedStarWashingtonHospital_DTs@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -77.09,
+          "yMin": 38.87,
+          "xMax": -76.91,
+          "yMax": 38.99
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 0.75,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "GeorgeWashingtonUniversityHospital_DTs": {
+      "name": "GeorgeWashingtonUniversityHospital_DTs",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "GeorgeWashingtonUniversityHospital_DTs",
+        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:GeorgeWashingtonUniversityHospital_DTs@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -77.18,
+          "yMin": 38.82,
+          "xMax": -76.96,
+          "yMax": 38.97
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 0.75,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "SibleyMemorialHospital_DTs": {
+      "name": "SibleyMemorialHospital_DTs",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "SibleyMemorialHospital_DTs",
+        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:SibleyMemorialHospital_DTs@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -77.22,
+          "yMin": 38.88,
+          "xMax": -77.04,
+          "yMax": 39.02
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 0.75,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "ArrayCompetitorLocations_4": {
+        "name": "ArrayCompetitorLocations_4",
+        "removeName": "ArrayCompetitorLocations_4.geojson",
+        "url": "https://s3.amazonaws.com/create-common/layerFiles/dataGeoJSONs/ArrayCompetitorLocations_4.geojson",
+        "cartographic": true,
+        "id": {
+          "exists": true,
+          "objClass": "UserInfo",
+          "id": "entity.properties.UNIQUEID",
+          "name": "ArrayCompetitorLocations_4",
+          "folder": "https://s3.amazonaws.com/create-common/layerFiles/dataGeoJSONs/",
+          "applyFunction": null
+        },
+        "labels": {
+          "exists": false
+        },
+        "polygons": {
+          "exists": false
+        },
+        "rasters": {
+          "exists": false
+        },
+        "billboards": {
+          "exists": true,
+          "billboardLayers": {
+            "billboard1": {
+              "type": "custom",
+              "name": "chipotlebillboards",
+              "if": "entity.properties.label == 'Sibley Memorial Hospital'",
+              "url": "../../geoJSON/layerIcons/circle-chipotle.png",
+              "position": {
+                "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                "z": 5
+              },
+              "NearFarScalar": {
+                "minElevation": 2000,
+                "maxElevation": 25000,
+                "minScale": 1.0,
+                "maxScale": 0.15
+              }
+            }
+          }
+        }
+      },
+      "WDCEP - chipotle": {
             "name": "WDCEP - chipotle",
             "removeName": "wdcep_chipotle_geo.geojson",
             "url": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_chipotle_geo.geojson",
