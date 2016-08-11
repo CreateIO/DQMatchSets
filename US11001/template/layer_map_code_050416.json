@@ -2275,12 +2275,63 @@
         },
         "billboards": {
           "exists": true,
-          "billboardLayers": {
+          "billboardLayers": {        
             "billboard1": {
               "type": "custom",
-              "name": "chipotlebillboards",
-              "if": "entity.properties.label == 'Sibley Memorial Hospital'",
-              "url": "../../geoJSON/layerIcons/circle-chipotle.png",
+              "name": "hospitalbillboards",
+              "if": "entity.properties.hosp_namep == 'George Washington University Hospital'",
+              "url": "s3://create-common/layerFiles/layerPNGs/billboard-gw.png",
+              "position": {
+                "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                "z": 5
+              },
+              "NearFarScalar": {
+                "minElevation": 2000,
+                "maxElevation": 25000,
+                "minScale": 1.0,
+                "maxScale": 0.15
+                }
+            },
+            "billboard2": {
+              "type": "custom",
+              "name": "hospitalbillboards",
+              "if": "entity.properties.hosp_name == 'MedStar Washington Hospital Center'",
+              "url": "s3://create-common/layerFiles/layerPNGs/billboard-medstar.png",
+              "position": {
+                "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                "z": 5
+              },
+              "NearFarScalar": {
+                "minElevation": 2000,
+                "maxElevation": 25000,
+                "minScale": 1.0,
+                "maxScale": 0.15
+                }
+            },
+            "billboard3": {
+              "type": "custom",
+              "name": "hospitalbillboards",
+              "if": "entity.properties.hosp_name == 'MedStar Georgetown University Hospital'",
+              "url": "s3://create-common/layerFiles/layerPNGs/billboard-medstar.png",
+              "position": {
+                "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                "z": 5
+              },
+              "NearFarScalar": {
+                "minElevation": 2000,
+                "maxElevation": 25000,
+                "minScale": 1.0,
+                "maxScale": 0.15
+                }
+            },
+            "billboard4": {
+              "type": "custom",
+              "name": "hospitalbillboards",
+              "if": "entity.properties.hosp_name == 'Sibley Memorial Hospital'",
+              "url": "s3://create-common/layerFiles/layerPNGs/billboard-sibley.png",
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                 "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
