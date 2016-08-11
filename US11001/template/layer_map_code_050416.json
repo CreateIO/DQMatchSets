@@ -2279,7 +2279,7 @@
             "billboard1": {
               "type": "custom",
               "name": "gwbillboards",
-              "if": "entity.properties.hosp_namep == 'George Washington University Hospital'",
+              "if": "entity.properties.HOSP_NAME == 'George Washington University Hospital'",
               "url": "s3://create-common/layerFiles/layerPNGs/billboard-gw.png",
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
@@ -2296,7 +2296,7 @@
             "billboard2": {
               "type": "custom",
               "name": "medstarbillboards",
-              "if": "entity.properties.hosp_name == 'MedStar Washington Hospital Center'",
+              "if": "entity.properties.HOSP_NAME == 'MedStar Washington Hospital Center'",
               "url": "s3://create-common/layerFiles/layerPNGs/billboard-medstar.png",
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
@@ -2312,8 +2312,8 @@
             },
             "billboard3": {
               "type": "custom",
-              "name": "medstarbillboards",
-              "if": "entity.properties.hosp_name == 'MedStar Georgetown University Hospital'",
+              "name": "medstarbillboards2",
+              "if": "entity.properties.HOSP_NAME == 'MedStar Georgetown University Hospital'",
               "url": "s3://create-common/layerFiles/layerPNGs/billboard-medstar.png",
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
@@ -2330,7 +2330,7 @@
             "billboard4": {
               "type": "custom",
               "name": "sibleybillboards",
-              "if": "entity.properties.hosp_name == 'Sibley Memorial Hospital'",
+              "if": "entity.properties.HOSP_NAME == 'Sibley Memorial Hospital'",
               "url": "s3://create-common/layerFiles/layerPNGs/billboard-sibley.png",
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
