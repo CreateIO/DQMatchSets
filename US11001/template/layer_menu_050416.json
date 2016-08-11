@@ -4761,6 +4761,14 @@
               "param1": "ArrayCompetitorLocations_4"
             }
           }
+        },
+        "emits": {
+          "emit1": {
+            "type": "remove",
+            "parameters": {
+              "param1": "clearBillboard"
+            }
+          }
         }
       },
       "category": "6",
