@@ -2297,7 +2297,7 @@
               "type": "custom",
               "name": "medstarbillboards",
               "if": "entity.properties.HOSP_NAME == 'MedStar Washington Hospital Center'",
-              "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/MedStarWashington_bldg.png",
+              "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/billboard-medstar.png",
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                 "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -2314,7 +2314,7 @@
               "type": "custom",
               "name": "medstarbillboards2",
               "if": "entity.properties.HOSP_NAME == 'MedStar Georgetown University Hospital'",
-              "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/MedStarGeorgetown_logo.png",
+              "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/billboard-medstar.png",
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                 "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -2339,9 +2339,9 @@
               },
               "NearFarScalar": {
                 "minElevation": 5000,
-                "maxElevation": 25000,
+                "maxElevation": 20000,
                 "minScale": 1.0,
-                "maxScale": 0.15
+                "maxScale": 0.50
               }
             }
           }
