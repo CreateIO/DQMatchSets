@@ -2289,9 +2289,9 @@
               "pixelOffset": 100,
               "NearFarScalar": {
                 "minElevation": 4000,
-                "maxElevation": 25000,
-                "minScale": 1.0,
-                "maxScale": 0.15
+                "maxElevation": 20000,
+                "minScale": 0.9,
+                "maxScale": 0.08
                 }
             },
             "billboard2": {
@@ -2307,7 +2307,7 @@
               "pixelOffset": 100,
               "NearFarScalar": {
                 "minElevation": 4000,
-                "maxElevation": 30000,
+                "maxElevation": 25000,
                 "minScale": 1.2,
                 "maxScale": 0.2
                 }
@@ -2343,9 +2343,9 @@
             "pixelOffset": 100,
               "NearFarScalar": {
                 "minElevation": 4000,
-                "maxElevation": 25000,
-                "minScale": 1.0,
-                "maxScale": 0.15
+                "maxElevation": 20000,
+                "minScale": 0.9,
+                "maxScale": 0.08
               }
             }
           }
