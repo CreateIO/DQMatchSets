@@ -2287,7 +2287,7 @@
                 "z": 50
               },
               "NearFarScalar": {
-                "minElevation": 4000,
+                "minElevation": 2000,
                 "maxElevation": 40000,
                 "minScale": 0.5,
                 "maxScale": 0.03
@@ -2304,7 +2304,7 @@
                 "z": 45
               },
               "NearFarScalar": {
-                "minElevation": 4000,
+                "minElevation": 2000,
                 "maxElevation": 40000,
                 "minScale": 0.6,
                 "maxScale": 0.2
@@ -2321,7 +2321,7 @@
                 "z": 50
             },
               "NearFarScalar": {
-                "minElevation": 4000,
+                "minElevation": 2000,
                 "maxElevation": 40000,
                 "minScale": 0.6,
                 "maxScale": 0.2
@@ -2338,7 +2338,7 @@
                 "z": 70
             },
               "NearFarScalar": {
-                "minElevation": 4000,
+                "minElevation": 2000,
                 "maxElevation": 40000,
                 "minScale": 0.5,
                 "maxScale": 0.08
