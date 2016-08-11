@@ -2280,7 +2280,7 @@
               "type": "custom",
               "name": "gwbillboards",
               "if": "entity.properties.HOSP_NAME == 'George Washington University Hospital'",
-              "url": "s3://create-common/layerFiles/layerPNGs/billboard-gw.png",
+              "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/billboard-gw.png",
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                 "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -2297,7 +2297,7 @@
               "type": "custom",
               "name": "medstarbillboards",
               "if": "entity.properties.HOSP_NAME == 'MedStar Washington Hospital Center'",
-              "url": "s3://create-common/layerFiles/layerPNGs/billboard-medstar.png",
+              "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/billboard-medstar.png",
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                 "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -2314,7 +2314,7 @@
               "type": "custom",
               "name": "medstarbillboards2",
               "if": "entity.properties.HOSP_NAME == 'MedStar Georgetown University Hospital'",
-              "url": "s3://create-common/layerFiles/layerPNGs/billboard-medstar.png",
+              "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/billboard-medstar.png",
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                 "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -2331,7 +2331,7 @@
               "type": "custom",
               "name": "sibleybillboards",
               "if": "entity.properties.HOSP_NAME == 'Sibley Memorial Hospital'",
-              "url": "s3://create-common/layerFiles/layerPNGs/billboard-sibley.png",
+              "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/billboard-sibley.png",
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                 "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
