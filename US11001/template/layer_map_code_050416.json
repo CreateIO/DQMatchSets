@@ -2284,9 +2284,8 @@
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                 "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                "z": 5
+                "z": 80
               },
-              "pixelOffset": 100,
               "NearFarScalar": {
                 "minElevation": 4000,
                 "maxElevation": 20000,
@@ -2302,9 +2301,8 @@
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                 "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                "z": 5
+                "z": 80
               },
-              "pixelOffset": 100,
               "NearFarScalar": {
                 "minElevation": 4000,
                 "maxElevation": 25000,
@@ -2320,9 +2318,8 @@
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                 "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                "z": 5
+                "z": 80
             },
-            "pixelOffset": 100,
               "NearFarScalar": {
                 "minElevation": 4000,
                 "maxElevation": 25000,
@@ -2338,9 +2335,8 @@
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                 "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                "z": 5
+                "z": 80
             },
-            "pixelOffset": 100,
               "NearFarScalar": {
                 "minElevation": 4000,
                 "maxElevation": 20000,
