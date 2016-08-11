@@ -2290,7 +2290,7 @@
                 "minElevation": 4000,
                 "maxElevation": 25000,
                 "minScale": 1.4,
-                "maxScale": 0.25
+                "maxScale": 0.3
                 }
             },
             "billboard2": {
@@ -2341,7 +2341,7 @@
                 "minElevation": 4000,
                 "maxElevation": 25000,
                 "minScale": 1.4,
-                "maxScale": 0.25
+                "maxScale": 0.3
               }
             }
           }
