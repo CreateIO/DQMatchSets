@@ -2338,10 +2338,10 @@
                 "z": 5
               },
               "NearFarScalar": {
-                "minElevation": 5000,
-                "maxElevation": 20000,
-                "minScale": 1.0,
-                "maxScale": 0.50
+                "minElevation": 10000,
+                "maxElevation": 30000,
+                "minScale": 2.0,
+                "maxScale": 1
               }
             }
           }
