@@ -2284,13 +2284,13 @@
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                 "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                "z": 5
+                "z": 50
               },
               "NearFarScalar": {
-                "minElevation": 5000,
-                "maxElevation": 25000,
-                "minScale": 1.0,
-                "maxScale": 0.15
+                "minElevation": 2000,
+                "maxElevation": 40000,
+                "minScale": 0.5,
+                "maxScale": 0.03
                 }
             },
             "billboard2": {
@@ -2301,13 +2301,13 @@
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                 "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                "z": 5
+                "z": 45
               },
               "NearFarScalar": {
-                "minElevation": 5000,
-                "maxElevation": 25000,
-                "minScale": 1.0,
-                "maxScale": 0.15
+                "minElevation": 2000,
+                "maxElevation": 40000,
+                "minScale": 0.6,
+                "maxScale": 0.2
                 }
             },
             "billboard3": {
@@ -2318,13 +2318,13 @@
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                 "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                "z": 5
-              },
+                "z": 50
+            },
               "NearFarScalar": {
-                "minElevation": 5000,
-                "maxElevation": 25000,
-                "minScale": 1.0,
-                "maxScale": 0.15
+                "minElevation": 2000,
+                "maxElevation": 40000,
+                "minScale": 0.6,
+                "maxScale": 0.2
                 }
             },
             "billboard4": {
@@ -2335,13 +2335,13 @@
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                 "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                "z": 5
-              },
+                "z": 70
+            },
               "NearFarScalar": {
-                "minElevation": 5000,
-                "maxElevation": 25000,
-                "minScale": 1.0,
-                "maxScale": 0.15
+                "minElevation": 2000,
+                "maxElevation": 40000,
+                "minScale": 0.5,
+                "maxScale": 0.08
               }
             }
           }

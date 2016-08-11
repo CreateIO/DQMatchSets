@@ -4708,35 +4708,7 @@
       "isActive": false,
       "layerUsed": true,
       "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Competitor hospital locations in the DC Metro area.",
-        "sourceURL": "",
-        "sourceDescription": "Pivotal",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "width: 150px; height: 48px",
-            "boxDescription": "MedStar Georgetown University Hospital",
-            "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/MedStarGeorgetown_logo_150.png"
-          },
-          "item2": {
-            "boxStyle": "width: 150px; height: 48px",
-            "boxDescription": "MedStar Washington Hospital Center",
-            "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/MedStarWashington_logo_150.png"
-          },
-          "item3": {
-            "boxStyle": "width: 150px; height: 48px",
-            "boxDescription": "George Washington University Hospital",
-            "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/GeorgeWashingtonHospital_logo_150.png"
-          },
-          "item4": {
-            "boxStyle": "width: 150px; height: 48px",
-            "boxDescription": "Sibley Memorial Hospital",
-            "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/SibleyMemorial_logo_150.png"
-          }
-        }
-      },
+      "urlLegend": "../../legends/layerPivotalHospitals.jade",
       "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/H.png",
       "functions": {
         "addFunctions": {
