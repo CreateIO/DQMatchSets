@@ -2284,13 +2284,13 @@
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                 "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                "z": 45
+                "z": 50
               },
               "NearFarScalar": {
                 "minElevation": 4000,
                 "maxElevation": 20000,
-                "minScale": 0.9,
-                "maxScale": 0.08
+                "minScale": 0.8,
+                "maxScale": 0.04
                 }
             },
             "billboard2": {
@@ -2301,7 +2301,7 @@
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                 "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                "z": 40
+                "z": 45
               },
               "NearFarScalar": {
                 "minElevation": 4000,
@@ -2318,7 +2318,7 @@
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                 "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                "z": 40
+                "z": 50
             },
               "NearFarScalar": {
                 "minElevation": 4000,
@@ -2335,13 +2335,13 @@
               "position": {
                 "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                 "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                "z": 45
+                "z": 70
             },
               "NearFarScalar": {
                 "minElevation": 4000,
                 "maxElevation": 20000,
                 "minScale": 0.9,
-                "maxScale": 0.08
+                "maxScale": 0.8
               }
             }
           }
