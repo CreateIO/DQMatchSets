@@ -2287,10 +2287,10 @@
                 "z": 5
               },
               "NearFarScalar": {
-                "minElevation": 5000,
-                "maxElevation": 25000,
-                "minScale": 1.0,
-                "maxScale": 0.15
+                "minElevation": 10000,
+                "maxElevation": 30000,
+                "minScale": 2.0,
+                "maxScale": 0.5
                 }
             },
             "billboard2": {
@@ -2304,10 +2304,10 @@
                 "z": 5
               },
               "NearFarScalar": {
-                "minElevation": 5000,
-                "maxElevation": 25000,
-                "minScale": 1.0,
-                "maxScale": 0.15
+                "minElevation": 10000,
+                "maxElevation": 30000,
+                "minScale": 2.0,
+                "maxScale": 0.5
                 }
             },
             "billboard3": {
@@ -2321,10 +2321,10 @@
                 "z": 5
               },
               "NearFarScalar": {
-                "minElevation": 5000,
-                "maxElevation": 25000,
-                "minScale": 1.0,
-                "maxScale": 0.15
+                "minElevation": 10000,
+                "maxElevation": 30000,
+                "minScale": 2.0,
+                "maxScale": 0.5
                 }
             },
             "billboard4": {
@@ -2341,7 +2341,7 @@
                 "minElevation": 10000,
                 "maxElevation": 30000,
                 "minScale": 2.0,
-                "maxScale": 1
+                "maxScale": 0.5
               }
             }
           }
