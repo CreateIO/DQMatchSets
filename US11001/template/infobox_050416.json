@@ -14,7 +14,7 @@
           "active":false,
           "value":null
         },
-        "viewDetailsBox":true,
+        "viewDetailsBoxArray":true,
         "wdcepDetailsBox":false,
         "header":"HOSP_NAME",
         "boxValues":{
