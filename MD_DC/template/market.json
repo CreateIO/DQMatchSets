@@ -17,14 +17,6 @@
             "comment": "very small offset to force a North UP orientation",
             "height": null
           }
-        },
-        {
-          "name": "Dupont Circle",
-          "cameraPosition": {
-            "type":"LineString",
-            "coordinates":[[-77.04346, 38.909624, 3.0],[-77.04346, 38.907131, 560.0]],
-            "height": null
-          }
         }
       ],
       "geocoder": {
