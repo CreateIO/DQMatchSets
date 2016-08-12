@@ -13,7 +13,7 @@
           "name": "GW Hospital Overhead",
           "cameraPosition": {
             "type":"LineString",
-            "coordinates":[[-77.05074, 38.901282, 3.0],[-77.05074, 38.900, 1000.0]],
+            "coordinates":[[-77.05074, 38.901282, 3.0],[-77.05074, 38.900, 2000.0]],
             "comment": "very small offset to force a North UP orientation",
             "height": null
           }
