@@ -13,7 +13,7 @@
           "name": "DC Overhead",
           "frontVect": {
             "type":"LineString",
-            "coordinates":[[-77.0386, 38.8906, 7000],[-77.0386,38.8906, 3]],
+            "coordinates":[[-77.0386, 38.8906, 3],[-77.0386,38.8906, 15000]],
             "height": null
           }
         },
@@ -21,8 +21,8 @@
           "name": "Dupont Circle",
           "frontVect": {
             "type":"LineString",
-            "coordinates":[[-77.04346,38.909624],[-77.04346,38.908131]],
-            "height": 360
+            "coordinates":[[-77.04346, 38.909624, 3.0],[-77.04346, 38.908131, 360.0]],
+            "height": null
           }
         }
       ],
