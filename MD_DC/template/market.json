@@ -11,7 +11,7 @@
       "camera": [
         {
           "name": "DC Overhead",
-          "frontVect": {
+          "cameraPosition": {
             "type":"LineString",
             "coordinates":[[-77.0386, 38.8906, 3.0],[-77.0386, 38.8906, 15000.0]],
             "height": null
@@ -19,9 +19,9 @@
         },
         {
           "name": "Dupont Circle",
-          "frontVect": {
+          "cameraPosition": {
             "type":"LineString",
-            "coordinates":[[-77.04346, 38.909624, 3.0],[-77.04346, 38.908131, 360.0]],
+            "coordinates":[[-77.04346, 38.909624, 3.0],[-77.04346, 38.908131, 560.0]],
             "height": null
           }
         }
