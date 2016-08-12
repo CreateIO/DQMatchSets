@@ -13,7 +13,7 @@
           "name": "DC Overhead",
           "frontVect": {
             "type":"LineString",
-            "coordinates":[[-77.0386, 38.8906, 3],[-77.0386,38.8906, 15000]],
+            "coordinates":[[-77.0386, 38.8906, 3.0],[-77.0386, 38.8906, 15000.0]],
             "height": null
           }
         },
