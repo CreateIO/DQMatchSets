@@ -22,7 +22,7 @@
           }
         } 
     ] },
-    "start_layers": { "Property Types": "off", "ArrayCompetitorLocations_4": "on" },
+    "start_layers": { "Property Types": "off", "Facilities - Hospitals": "on" },
     "start_menus": { "Layer_Menu": "open", "Layer_Pivotal": "open" }
   },
   "layers": {
