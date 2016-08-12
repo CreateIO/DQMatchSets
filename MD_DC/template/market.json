@@ -10,6 +10,14 @@
       "infoboxTemplate":"infobox_050416",
       "camera": [
         {
+          "name": "DC Overhead",
+          "frontVect": {
+            "type":"LineString",
+            "coordinates":[[-77.0386, 38.8906, 7000],[-77.0386,38.8906, 3]],
+            "height": null
+          }
+        },
+        {
           "name": "Dupont Circle",
           "frontVect": {
             "type":"LineString",
