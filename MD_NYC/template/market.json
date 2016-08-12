@@ -11,7 +11,7 @@
       "camera": [
         {
           "name": "Lower Manhattan",
-          "frontVect": {
+          "cameraPosition": {
             "type": "LineString",
             "coordinates": [
               [
