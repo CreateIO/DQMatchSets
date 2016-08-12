@@ -22,7 +22,8 @@
           }
         } 
     ] },
-    "start_layers":{ "Parcel_Types": "off", "Competitor_Locations": "on"}
+    "start_layers": { "Parcel_Types": "off", "Competitor_Locations": "on" },
+    "start_menus": { "Layer_Menu": "open", "Layer_Pivotal": "open" }
   },
   "layers": {
     "gsa": {
