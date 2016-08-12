@@ -13,7 +13,8 @@
           "name": "DC Overhead",
           "cameraPosition": {
             "type":"LineString",
-            "coordinates":[[-77.0386, 38.8906, 3.0],[-77.0386, 38.8906, 15000.0]],
+            "coordinates":[[-77.0386, 38.8906, 3.0],[-77.0386, 38.8905, 20000.0]],
+            "comment": "very small offset to force a North UP orientation",
             "height": null
           }
         },
