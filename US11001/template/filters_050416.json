@@ -488,8 +488,8 @@
          "operator":null,
          "calculation":null,
          "filter_exists":false,
-         "teaser": "rhs.filter.teasePremium",
-         "restrict":"rhs.filter.premium",
+         "teaser": "rhs.filter.noteaser",
+         "restrict":"trepp",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -514,8 +514,8 @@
          "operator":null,
          "calculation":null,
          "filter_exists":false,
-         "teaser": "rhs.filter.teasePremium",
-         "restrict":"rhs.filter.premium",
+         "teaser": "rhs.filter.noteaser",
+         "restrict":"trepp",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -540,8 +540,8 @@
          "operator":null,
          "calculation":null,
          "filter_exists":false,
-         "teaser": "rhs.filter.teasePremium",
-         "restrict":"rhs.filter.premium",
+         "teaser": "rhs.filter.noteaser",
+         "restrict":"trepp",
          "inuse":true,
          "toggled":false,
          "valueChange":false
