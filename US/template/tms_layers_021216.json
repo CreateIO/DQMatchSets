@@ -56,7 +56,7 @@
             "maximumLevel" : 17,
             "alpha" : 0.45,
             "flag" : false,
-            "show" : false
+            "show" : true
         },
         "parcelLayerNY": {
             "tmsProvider" : "parcelTMSProviderNY",
