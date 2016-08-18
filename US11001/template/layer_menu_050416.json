@@ -262,10 +262,10 @@
       "functions": {
         "addFunctions": {
           "func1": {
-            "service": "gltf3DService",
-            "functionName": "toggleParcelFills",
+            "service": "tileMapServiceService",
+            "functionName": "addSingleTMSLayer",
             "parameters": {
-              "param1": "add"
+              "param1": "parcelLayer"
             }
           }
         },
@@ -276,10 +276,10 @@
         },
         "removeFunctions": {
           "func1": {
-            "service": "gltf3DService",
-            "functionName": "toggleParcelFills",
+            "service": "tileMapServiceService",
+            "functionName": "removeSingleTMSLayer",
             "parameters": {
-              "param1": "remove"
+              "param1": "parcelLayer"
             }
           }
         }
