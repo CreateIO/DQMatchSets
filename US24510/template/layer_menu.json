@@ -1,4 +1,27 @@
 {
+  "allTheTabs": {
+  	"LandUse": { "title": "Land Use", "order": 0, "isActive": true, "redact": false, "permissions": null },
+  	"CityInfo": { "title": "City Info", "order": 1, "isActive": false, "redact": false, "permissions": null },
+  	"Development": { "title": "Development", "order": 2, "isActive": false, "redact": false, "permissions": null },
+  	"Incentives": { "title": "Incentives", "order": 3, "isActive": false, "redact": false, "permissions": null },
+  	"WDCEP": { "title": "WDCEP", "order": 4, "isActive": false, "redact": false, "permissions": "layer.tab.WDCEP" },
+  	"InPatient": { "title": "In Patient", "order": 5, "isActive": false, "redact": false, "permissions": "group.tab.Array" },
+  	"ParkHeights": { "title": "Park Heights", "order": 6, "isActive": false, "redact": false, "permissions": null }
+  },
+  "allTheSections": {
+  	"one": { "title": "Land Use & Entitlement", "order": 0, "redact": false, "permissions": null, "parentTab": "LandUse" },
+  	"two": { "title": "Overlay Zones", "order": 0, "redact": false, "permissions": null, "parentTab": "LandUse" },
+  	"three": { "title": "Historic Districts", "order": 0, "redact": false, "permissions": null, "parentTab": "LandUse" },
+  	"four": { "title": "Heatmaps", "order": 0, "redact": false, "permissions": null, "parentTab": "LandUse" },
+  	"five": { "title": "Natural Hazards", "order": 0, "redact": false, "permissions": null, "parentTab": "LandUse" },
+  	"six": { "title": "Geography", "order": 0, "redact": false, "permissions": null, "parentTab": "CityInfo" },
+  	"seven": { "title": "Amenities", "order": 0, "redact": false, "permissions": null, "parentTab": "CityInfo" },
+  	"eight": { "title": "Leasing", "order": 0, "redact": false, "permissions": null, "parentTab": "Development" },
+  	"nine": { "title": "Development", "order": 0, "redact": false, "permissions": null, "parentTab": "Development" },
+  	"ten": { "title": "Demographics", "order": 0, "redact": false, "permissions": null, "parentTab": "Development" },
+  	"eleven": { "title": "Incentives", "order": 0, "redact": false, "permissions": null, "parentTab": "Incentives" },
+  	"tweleve": { "title": "WDCEP", "order": 0, "redact": false, "permissions": "layer.section.WDCEP", "parentTab": "WDCEP" }
+  },
   "allTheLayers": {
     "Major Land Use Initiatives": {
       "id": 6,
