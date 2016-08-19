@@ -490,6 +490,7 @@
          "filter_exists":false,
          "teaser": "rhs.filter.noteaser",
          "restrict":"createio.search.filters.demoOnly",
+         "hide":"createio.search.filters.demoOnly",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -516,6 +517,7 @@
          "filter_exists":false,
          "teaser": "rhs.filter.noteaser",
          "restrict":"createio.search.filters.demoOnly",
+         "hide":"createio.search.filters.demoOnly",
          "inuse":true,
          "toggled":false,
          "valueChange":false
@@ -542,6 +544,7 @@
          "filter_exists":false,
          "teaser": "rhs.filter.noteaser",
          "restrict":"createio.search.filters.demoOnly",
+         "hide":"createio.search.filters.demoOnly",
          "inuse":true,
          "toggled":false,
          "valueChange":false
