@@ -141,14 +141,14 @@
           "name": "CMBS Loans",
           "url": "financing.html",
           "hasCharts": false,
-          "deny": ""
+          "deny": "Limited Project Premium Monthly DC_Public_Access Freemium beta_premium beta_freemium SmithCharles"
         },
         {
           "id": "navProforma",
           "name": "CMBS Proforma",
           "url": "financing.html",
           "hasCharts": false,
-          "deny": ""
+          "deny": "Limited Project Premium Monthly DC_Public_Access Freemium beta_premium beta_freemium SmithCharles"
         },
         {
           "id": "navEquity",
