@@ -725,7 +725,7 @@
          "filter_exists":false,
          "teaser":"rhs.filter.noteaser",
          "restrict":null,
-         "inuse":true,
+         "inuse":false,
          "toggled":false,
          "valueChange":false
       },
