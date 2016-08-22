@@ -7,7 +7,22 @@
       "filterTemplate": "filters_050416",
       "layerMenuTemplate":"layer_menu_050416",
       "layerMapCodeTemplate":"layer_map_code_050416",
-      "infoboxTemplate":"infobox_050416"
+      "infoboxTemplate":"infobox_050416",
+      "camera": [
+        {
+          "name": "Dupont Circle",
+          "frontVect": {
+            "type":"LineString",
+            "coordinates":[[-77.04346,38.909624],[-77.04346,38.908131]],
+            "height": null
+          }
+        }
+      ],
+      "geocoder": {
+        "searchTag": "gdc",
+        "searchText": "Washington, DC"
+      }
     }
   ]
 }
+

@@ -20,11 +20,15 @@ Regions are identifed by a region tag, Market areas (also identified by a region
           Arlington County        US51013
           Alexandria (city)       US51510
 
+        New York:
+          New York City           US36_51000
+
       Market "Superregions":    MD
         DC                        MD_DC
           DC (US11001)
-        Baltimore                 MD_Baltimore
+        Baltimore                 MD_BACI
           Baltimore City (US24510)
+        New York City             MD_NYC
 
 Template resources are HIERARCHICAL!!  This means that templates that are global (or at least for use in the US) should
    be in the "US" folder.  Templates (or parts of a template) that are unique to a specific region should be in the
