@@ -660,7 +660,7 @@
          "category": "Community",
          "subcategory":"Demographics",
          "output":"demographics.pctNumHunits=GE <minVal> & demographics.pctNumHunits=LE <maxVal>",
-         "label":"Total Households Growth (2020)",
+         "label":"Total Households Units Growth (2020)",
          "values":null,
          "units":"%",
          "minvalue": 0,
