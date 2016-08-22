@@ -1476,7 +1476,7 @@
         }
       },
       "category": "CityInfo",
-      "subCategory": "CityInfoOne",
+      "subCategory": "CityInfo1",
       "order": 1
     },
     "Commercial Submarkets": {
@@ -1555,7 +1555,7 @@
         }
       },
       "category": "CityInfo",
-      "subCategory": "CityInfoOne",
+      "subCategory": "CityInfo1",
       "order": 2
     },
     "Neighborhood Profiles (WDCEP)": {
@@ -1624,7 +1624,7 @@
         }
       },
       "category": "CityInfo",
-      "subCategory": "CityInfoOne",
+      "subCategory": "CityInfo1",
       "order": 3
     },
     "Campus Area Zones": {
@@ -1731,7 +1731,7 @@
         }
       },
       "category": "CityInfo",
-      "subCategory": "CityInfoOne",
+      "subCategory": "CityInfo1",
       "order": 4
     },
     "Census Tracts": {
@@ -1810,7 +1810,7 @@
         }
       },
       "category": "CityInfo",
-      "subCategory": "CityInfoOne",
+      "subCategory": "CityInfo1",
       "order": 5
     },
     "Wards 2012": {
@@ -1918,7 +1918,7 @@
         "emits": {}
       },
       "category": "CityInfo",
-      "subCategory": "CityInfoOne",
+      "subCategory": "CityInfo1",
       "order": 6
     },
     "Single Member Districts": {
@@ -1993,7 +1993,7 @@
         "emits": {}
       },
       "category": "CityInfo",
-      "subCategory": "CityInfoOne",
+      "subCategory": "CityInfo1",
       "order": 7
     },
     "Metrorail Lines & Stations": {
@@ -2114,7 +2114,7 @@
         }
       },
       "category": "CityInfo",
-      "subCategory": "CityInfoTwo",
+      "subCategory": "CityInfo2",
       "order": 1
     },
     "Metro Bus Stops": {
@@ -2181,7 +2181,7 @@
         }
       },
       "category": "CityInfo",
-      "subCategory": "CityInfoTwo",
+      "subCategory": "CityInfo2",
       "order": 2
     },
     "Grocery Stores (WDCEP)": {
@@ -2250,7 +2250,7 @@
         }
       },
       "category": "CityInfo",
-      "subCategory": "CityInfoTwo",
+      "subCategory": "CityInfo2",
       "order": 3
     },
     "Pharmacies (WDCEP)": {
@@ -2319,7 +2319,7 @@
         }
       },
       "category": "CityInfo",
-      "subCategory": "CityInfoTwo",
+      "subCategory": "CityInfo2",
       "order": 4
     },
     "Movie Theatres (WDCEP)": {
@@ -2388,7 +2388,7 @@
         }
       },
       "category": "CityInfo",
-      "subCategory": "CityInfoTwo",
+      "subCategory": "CityInfo2",
       "order": 5
     },
     "Available Retail Sites (WDCEP)": {
@@ -2444,7 +2444,7 @@
         }
       },
       "category": "Development",
-      "subCategory": "DevelopmentOne",
+      "subCategory": "Development1",
       "order": 1
     },
     "WDCEP Development Site Plans": {
@@ -3711,7 +3711,7 @@
         }
       },
       "category": "Incentives",
-      "subCategory": "IncentiveesOne",
+      "subCategory": "Incentives1",
       "order": 6
     },
     "irb": {
@@ -4955,7 +4955,7 @@
         }
       },
       "category": "Development",
-      "subCategory": "DevelopmentOne",
+      "subCategory": "Development1",
       "order": 2
     },
     "taxAbatement": {
