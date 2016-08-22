@@ -26,7 +26,14 @@
     "start_menus": { "Layer_Menu": "open", "Layer_Pivotal": "open" }
   },
   "layers": {
-    "gsa": {
+    "allTheTabs": {
+      "otherPivotal": { "title": "Other", "order": 0, "isActive": true, "redact": false, "permissions": null }
+    },
+    "allTheSections": {
+      "gsaPivotal": { "title": "GSA", "order": 0, "redact": false, "permissions": null, "parentTab": "otherPivotal" }
+    },
+    "allTheLayers": {
+    "gsa2": {
       "id": 47,
       "displayName": "gsa",
       "mouseoverName": "GSA Leases",
@@ -96,9 +103,10 @@
           }
         }
       },
-      "category": "3",
-      "subCategory": "1",
-      "order": 3
+      "category": "otherPivotal",
+      "subCategory": "gsaPivotal",
+      "order": 1
+    }
     }
   },
   "filters": {

@@ -9,18 +9,19 @@
   	"ParkHeights": { "title": "Park Heights", "order": 6, "isActive": false, "redact": false, "permissions": null }
   },
   "allTheSections": {
-  	"one": { "title": "Land Use & Entitlement", "order": 0, "redact": false, "permissions": null, "parentTab": "LandUse" },
-  	"two": { "title": "Overlay Zones", "order": 0, "redact": false, "permissions": null, "parentTab": "LandUse" },
-  	"three": { "title": "Historic Districts", "order": 0, "redact": false, "permissions": null, "parentTab": "LandUse" },
-  	"four": { "title": "Heatmaps", "order": 0, "redact": false, "permissions": null, "parentTab": "LandUse" },
-  	"five": { "title": "Natural Hazards", "order": 0, "redact": false, "permissions": null, "parentTab": "LandUse" },
-  	"six": { "title": "Geography", "order": 0, "redact": false, "permissions": null, "parentTab": "CityInfo" },
-  	"seven": { "title": "Amenities", "order": 0, "redact": false, "permissions": null, "parentTab": "CityInfo" },
-  	"eight": { "title": "Leasing", "order": 0, "redact": false, "permissions": null, "parentTab": "Development" },
-  	"nine": { "title": "Development", "order": 0, "redact": false, "permissions": null, "parentTab": "Development" },
-  	"ten": { "title": "Demographics", "order": 0, "redact": false, "permissions": null, "parentTab": "Development" },
-  	"eleven": { "title": "Incentives", "order": 0, "redact": false, "permissions": null, "parentTab": "Incentives" },
-  	"tweleve": { "title": "WDCEP", "order": 0, "redact": false, "permissions": "layer.section.WDCEP", "parentTab": "WDCEP" }
+  	"LandUse1": { "title": "Land Use & Entitlement", "order": 0, "redact": false, "permissions": null, "parentTab": "LandUse" },
+  	"LandUsetwo": { "title": "Overlay Zones", "order": 0, "redact": false, "permissions": null, "parentTab": "LandUse" },
+  	"LandUsethree": { "title": "Historic Districts", "order": 0, "redact": false, "permissions": null, "parentTab": "LandUse" },
+  	"LandUsefour": { "title": "Heatmaps", "order": 0, "redact": false, "permissions": null, "parentTab": "LandUse" },
+  	"LandUsefive": { "title": "Natural Hazards", "order": 0, "redact": false, "permissions": null, "parentTab": "LandUse" },
+  	"CityInfo1": { "title": "Geography", "order": 0, "redact": false, "permissions": null, "parentTab": "CityInfo" },
+  	"CityInfo2": { "title": "Amenities", "order": 0, "redact": false, "permissions": null, "parentTab": "CityInfo" },
+  	"Development1": { "title": "Leasing", "order": 0, "redact": false, "permissions": null, "parentTab": "Development" },
+  	"Development2": { "title": "Development", "order": 0, "redact": false, "permissions": null, "parentTab": "Development" },
+  	"Development3": { "title": "Demographics", "order": 0, "redact": false, "permissions": null, "parentTab": "Development" },
+  	"Incentives1": { "title": "Incentives", "order": 0, "redact": false, "permissions": null, "parentTab": "Incentives" },
+  	"WDCEP1": { "title": "WDCEP", "order": 0, "redact": false, "permissions": "layer.section.WDCEP", "parentTab": "WDCEP" },
+	"ParkHeights1": { "title": "WDCEP", "order": 0, "redact": false, "permissions": null, "parentTab": "ParkHeights" }
   },
   "allTheLayers": {
     "Major Land Use Initiatives": {
@@ -116,8 +117,8 @@
           }
         }
       },
-      "category": "7",
-      "subCategory": "1",
+      "category": "ParkHeights",
+      "subCategory": "ParkHeights1",
       "order": 2
     },
     "Baltimore Hurricane Inundation Zones": {
@@ -193,8 +194,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "5",
+      "category": "LandUse",
+      "subCategory": "LandUse5",
       "order": 1
     },
     "Food Desert Incentive Areas": {
@@ -248,8 +249,8 @@
           }
         }
       },
-      "category": "4",
-      "subCategory": "1",
+      "category": "Incentives",
+      "subCategory": "Incentives1",
       "order": 3
     },
     "Critical Area Overlay": {
@@ -318,8 +319,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "2",
+      "category": "LandUse",
+      "subCategory": "LandUse2",
       "order": 2
     },
     "Tax Credit Areas": {
@@ -373,8 +374,8 @@
           }
         }
       },
-      "category": "4",
-      "subCategory": "1",
+      "category": "Incentives",
+      "subCategory": "Incentives1",
       "order": 7
     },
     "Foreign Trade Zones": {
@@ -428,8 +429,8 @@
           }
         }
       },
-      "category": "4",
-      "subCategory": "1",
+      "category": "Incentives",
+      "subCategory": "Incentives1",
       "order": 4
     },
     "City Boundary": {
@@ -483,8 +484,8 @@
           }
         }
       },
-      "category": "2",
-      "subCategory": "1",
+      "category": "CityInfo",
+      "subCategory": "CityInfo1",
       "order": 1
     },
     "One Maryland Tax Credit Jurisdiction": {
@@ -538,8 +539,8 @@
           }
         }
       },
-      "category": "4",
-      "subCategory": "1",
+      "category": "Incentives",
+      "subCategory": "Incentives1",
       "order": 6
     },
     "Legislative Districts": {
@@ -593,8 +594,8 @@
           }
         }
       },
-      "category": "2",
-      "subCategory": "1",
+      "category": "CityInfo",
+      "subCategory": "CityInfo1",
       "order": 4
     },
     "Create Neighborhoods": {
@@ -648,8 +649,8 @@
           }
         }
       },
-      "category": "2",
-      "subCategory": "1",
+      "category": "CityInfo",
+      "subCategory": "CityInfo1",
       "order": 3
     },
     "Council Districts": {
@@ -703,8 +704,8 @@
           }
         }
       },
-      "category": "2",
-      "subCategory": "1",
+      "category": "CityInfo",
+      "subCategory": "CityInfo1",
       "order": 2
     },
     "Zoning Districts": {
@@ -778,8 +779,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "1",
+      "category": "LandUse",
+      "subCategory": "LandUse1",
       "order": 3
     },
     "Planning Districts": {
@@ -878,8 +879,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "6",
+      "category": "LandUse",
+      "subCategory": "LandUse6",
       "order": 4
     },
     "Ward Precincts": {
@@ -933,8 +934,8 @@
           }
         }
       },
-      "category": "2",
-      "subCategory": "1",
+      "category": "CityInfo",
+      "subCategory": "CityInfo1",
       "order": 4
     },
     "Hub Zones": {
@@ -988,8 +989,8 @@
           }
         }
       },
-      "category": "4",
-      "subCategory": "1",
+      "category": "Incentives",
+      "subCategory": "Incentives1",
       "order": 5
     },
     "CHAP Historic District Incentive Areas": {
@@ -1043,8 +1044,8 @@
           }
         }
       },
-      "category": "4",
-      "subCategory": "1",
+      "category": "Incentives",
+      "subCategory": "Incentives1",
       "order": 1
     },
     "Habitat Protection Areas": {
@@ -1108,8 +1109,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "2",
+      "category": "LandUse",
+      "subCategory": "LandUse2",
       "order": 3
     },
     "Resource Conservation Areas": {
@@ -1168,8 +1169,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "2",
+      "category": "LandUse",
+      "subCategory": "LandUse2",
       "order": 5
     },
     "Enterprise Zone & EZ Focus Areas": {
@@ -1228,8 +1229,8 @@
           }
         }
       },
-      "category": "4",
-      "subCategory": "1",
+      "category": "Incentives",
+      "subCategory": "Incentives1",
       "order": 2
     },
     "Cold Spring Center Redevelopment Plan": {
@@ -1285,8 +1286,8 @@
           }
         }
       },
-      "category": "7",
-      "subCategory": "1",
+      "category": "ParkHeights",
+      "subCategory": "ParkHeights1",
       "order": 1
     },
     "Park Heights Vacant Properties": {
@@ -1342,8 +1343,8 @@
           }
         }
       },
-      "category": "7",
-      "subCategory": "1",
+      "category": "ParkHeights",
+      "subCategory": "ParkHeights1",
       "order": 4
     },
     "Proposed Development Plan": {
@@ -1399,8 +1400,8 @@
           }
         }
       },
-      "category": "7",
-      "subCategory": "1",
+      "category": "ParkHeights",
+      "subCategory": "ParkHeights1",
       "order": 7
     },
     "Pimlico Park Redevelopment Plan": {
@@ -1456,8 +1457,8 @@
           }
         }
       },
-      "category": "7",
-      "subCategory": "1",
+      "category": "ParkHeights",
+      "subCategory": "ParkHeights1",
       "order": 5
     },
     "Proposed Park Heights Shuttle Loop": {
@@ -1533,8 +1534,8 @@
           }
         }
       },
-      "category": "7",
-      "subCategory": "1",
+      "category": "ParkHeights",
+      "subCategory": "ParkHeights1",
       "order": 8
     },
     "Vacant Buildings": {
@@ -1600,8 +1601,8 @@
           }
         }
       },
-      "category": "4",
-      "subCategory": "1",
+      "category": "Incentives",
+      "subCategory": "Incentives1",
       "order": 8
     },
     "Vacant Lots": {
@@ -1667,8 +1668,8 @@
           }
         }
       },
-      "category": "4",
-      "subCategory": "1",
+      "category": "Incentives",
+      "subCategory": "Incentives1",
       "order": 9
     },
     "Park Heights Boundary": {
@@ -1724,8 +1725,8 @@
           }
         }
       },
-      "category": "7",
-      "subCategory": "1",
+      "category": "ParkHeights",
+      "subCategory": "ParkHeights1",
       "order": 3
     },
     "Planned Unit Development": {
@@ -1781,8 +1782,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "1",
+      "category": "LandUse",
+      "subCategory": "LandUse1",
       "order": 1
     },
     "Rail Transit": {
@@ -1850,8 +1851,8 @@
           }
         }
       },
-      "category": "2",
-      "subCategory": "2",
+      "category": "CityInfo",
+      "subCategory": "CityInfo2",
       "order": 1
     },
     "Area Master Plans": {
@@ -1905,8 +1906,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "6",
+      "category": "LandUse",
+      "subCategory": "LandUse6",
       "order": 1
     },
     "URP": {
@@ -1962,8 +1963,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "6",
+      "category": "LandUse",
+      "subCategory": "LandUse6",
       "order": 2
     },
     "Flood Zones": {
@@ -2034,8 +2035,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "2",
+      "category": "LandUse",
+      "subCategory": "LandUse2",
       "order": 2
     },
     "NRHP Historic Districts": {
@@ -2089,8 +2090,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "3",
+      "category": "LandUse",
+      "subCategory": "LandUse3",
       "order": 1
     },
     "historic district landmarks": {
@@ -2154,8 +2155,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "3",
+      "category": "LandUse",
+      "subCategory": "LandUse3",
       "order": 2
     },
     "MIZOD": {
@@ -2228,8 +2229,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "2",
+      "category": "LandUse",
+      "subCategory": "LandUse2",
       "order": 4
     },
     "Property Types": {
@@ -2288,8 +2289,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "1",
+      "category": "LandUse",
+      "subCategory": "LandUse1",
       "order": 2
     }
   }

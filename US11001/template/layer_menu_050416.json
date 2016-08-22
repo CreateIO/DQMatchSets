@@ -1,4 +1,27 @@
 {
+  "allTheTabs": {
+  	"LandUse": { "title": "Land Use", "order": 0, "isActive": true, "redact": false, "permissions": null },
+  	"CityInfo": { "title": "City Info", "order": 1, "isActive": false, "redact": false, "permissions": null },
+  	"Development": { "title": "Development", "order": 2, "isActive": false, "redact": false, "permissions": null },
+  	"Incentives": { "title": "Incentives", "order": 3, "isActive": false, "redact": false, "permissions": null },
+  	"WDCEP": { "title": "WDCEP", "order": 4, "isActive": false, "redact": false, "permissions": "layer.tab.WDCEP" },
+  	"InPatient": { "title": "In Patient", "order": 5, "isActive": false, "redact": false, "permissions": "group.tab.Array" },
+  	"ParkHeights": { "title": "Park Heights", "order": 6, "isActive": false, "redact": false, "permissions": null }
+  },
+  "allTheSections": {
+  	"LandUse1": { "title": "Land Use & Entitlement", "order": 0, "redact": false, "permissions": null, "parentTab": "LandUse" },
+  	"LandUse2": { "title": "Overlay Zones", "order": 0, "redact": false, "permissions": null, "parentTab": "LandUse" },
+  	"LandUse3": { "title": "Historic Districts", "order": 0, "redact": false, "permissions": null, "parentTab": "LandUse" },
+  	"LandUse4": { "title": "Heatmaps", "order": 0, "redact": false, "permissions": null, "parentTab": "LandUse" },
+        "LandUse5": { "title": "Natural Hazards", "order": 0, "redact": false, "permissions": null, "parentTab": "LandUse" },
+  	"CityInfo1": { "title": "Geography", "order": 0, "redact": false, "permissions": null, "parentTab": "CityInfo" },
+  	"CityInfo2": { "title": "Amenities", "order": 0, "redact": false, "permissions": null, "parentTab": "CityInfo" },
+  	"Development1": { "title": "Leasing", "order": 0, "redact": false, "permissions": null, "parentTab": "Development" },
+  	"Development2": { "title": "Development", "order": 0, "redact": false, "permissions": null, "parentTab": "Development" },
+  	"Development3": { "title": "Demographics", "order": 0, "redact": false, "permissions": null, "parentTab": "Development" },
+  	"Incentives1": { "title": "Incentives", "order": 0, "redact": false, "permissions": null, "parentTab": "Incentives" },
+  	"WDCEP1": { "title": "WDCEP", "order": 0, "redact": false, "permissions": "layer.section.WDCEP", "parentTab": "WDCEP" }
+  },
   "allTheLayers": {
     "Zoning Districts": {
       "id": 42,
@@ -66,8 +89,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "1",
+      "category": "LandUse",
+      "subCategory": "LandUse1",
       "order": 1
     },
 
@@ -151,8 +174,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "1",
+      "category": "LandUse",
+      "subCategory": "LandUse1",
       "order": 2
     },
     "Transfer of Development Rights": {
@@ -238,8 +261,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "1",
+      "category": "LandUse",
+      "subCategory": "LandUse1",
       "order": 3
     },
     "Property Types": {
@@ -284,8 +307,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "1",
+      "category": "LandUse",
+      "subCategory": "LandUse1",
       "order": 4
     },
     "Overlays - Arts": {
@@ -347,8 +370,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "2",
+      "category": "LandUse",
+      "subCategory": "LandUse2",
       "order": 1
     },
     "Overlays - Government & Diplomatic": {
@@ -410,8 +433,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "2",
+      "category": "LandUse",
+      "subCategory": "LandUse2",
       "order": 2
     },
     "Overlays - Hotels": {
@@ -479,8 +502,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "2",
+      "category": "LandUse",
+      "subCategory": "LandUse2",
       "order": 3
     },
     "Overlays - Mixed Use": {
@@ -542,8 +565,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "2",
+      "category": "LandUse",
+      "subCategory": "LandUse2",
       "order": 4
     },
     "Overlays - Neighborhood Commercial": {
@@ -605,8 +628,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "2",
+      "category": "LandUse",
+      "subCategory": "LandUse2",
       "order": 5
     },
     "Overlays - Open Space": {
@@ -674,8 +697,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "2",
+      "category": "LandUse",
+      "subCategory": "LandUse2",
       "order": 6
     },
     "Historic Districts - Corridors": {
@@ -753,8 +776,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "3",
+      "category": "LandUse",
+      "subCategory": "LandUse3",
       "order": 1
     },
     "Historic Districts - Institutions": {
@@ -832,8 +855,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "3",
+      "category": "LandUse",
+      "subCategory": "LandUse3",
       "order": 2
     },
     "Historic Districts - Neighborhoods": {
@@ -911,8 +934,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "3",
+      "category": "LandUse",
+      "subCategory": "LandUse3",
       "order": 3
     },
     "Historic Districts - Parks": {
@@ -990,8 +1013,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "3",
+      "category": "LandUse",
+      "subCategory": "LandUse3",
       "order": 4
     },
     "Retail Density Heatmap": {
@@ -1072,8 +1095,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "4",
+      "category": "LandUse",
+      "subCategory": "LandUse4",
       "order": 1
     },
     "Office Density Heatmap": {
@@ -1154,8 +1177,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "4",
+      "category": "LandUse",
+      "subCategory": "LandUse4",
       "order": 2
     },
     "Residential Density Heatmap": {
@@ -1236,8 +1259,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "4",
+      "category": "LandUse",
+      "subCategory": "LandUse4",
       "order": 3
     },
     "FEMA Flood Zones": {
@@ -1311,8 +1334,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "5",
+      "category": "LandUse",
+      "subCategory": "LandUse5",
       "order": 1
     },
     "Coastal Surge": {
@@ -1386,8 +1409,8 @@
           }
         }
       },
-      "category": "1",
-      "subCategory": "5",
+      "category": "LandUse",
+      "subCategory": "LandUse5",
       "order": 2
     },
     "Zillow Neighborhoods": {
@@ -1452,8 +1475,8 @@
           }
         }
       },
-      "category": "2",
-      "subCategory": "1",
+      "category": "CityInfo",
+      "subCategory": "CityInfoOne",
       "order": 1
     },
     "Commercial Submarkets": {
@@ -1531,8 +1554,8 @@
           }
         }
       },
-      "category": "2",
-      "subCategory": "1",
+      "category": "CityInfo",
+      "subCategory": "CityInfoOne",
       "order": 2
     },
     "Neighborhood Profiles (WDCEP)": {
@@ -1600,8 +1623,8 @@
           }
         }
       },
-      "category": "2",
-      "subCategory": "1",
+      "category": "CityInfo",
+      "subCategory": "CityInfoOne",
       "order": 3
     },
     "Campus Area Zones": {
@@ -1707,8 +1730,8 @@
           }
         }
       },
-      "category": "2",
-      "subCategory": "1",
+      "category": "CityInfo",
+      "subCategory": "CityInfoOne",
       "order": 4
     },
     "Census Tracts": {
@@ -1786,8 +1809,8 @@
           }
         }
       },
-      "category": "2",
-      "subCategory": "1",
+      "category": "CityInfo",
+      "subCategory": "CityInfoOne",
       "order": 5
     },
     "Wards 2012": {
@@ -1894,8 +1917,8 @@
         },
         "emits": {}
       },
-      "category": "2",
-      "subCategory": "1",
+      "category": "CityInfo",
+      "subCategory": "CityInfoOne",
       "order": 6
     },
     "Single Member Districts": {
@@ -1969,8 +1992,8 @@
         },
         "emits": {}
       },
-      "category": "2",
-      "subCategory": "1",
+      "category": "CityInfo",
+      "subCategory": "CityInfoOne",
       "order": 7
     },
     "Metrorail Lines & Stations": {
@@ -2090,8 +2113,8 @@
           }
         }
       },
-      "category": "2",
-      "subCategory": "2",
+      "category": "CityInfo",
+      "subCategory": "CityInfoTwo",
       "order": 1
     },
     "Metro Bus Stops": {
@@ -2157,8 +2180,8 @@
           }
         }
       },
-      "category": "2",
-      "subCategory": "2",
+      "category": "CityInfo",
+      "subCategory": "CityInfoTwo",
       "order": 2
     },
     "Grocery Stores (WDCEP)": {
@@ -2226,8 +2249,8 @@
           }
         }
       },
-      "category": "2",
-      "subCategory": "2",
+      "category": "CityInfo",
+      "subCategory": "CityInfoTwo",
       "order": 3
     },
     "Pharmacies (WDCEP)": {
@@ -2295,8 +2318,8 @@
           }
         }
       },
-      "category": "2",
-      "subCategory": "2",
+      "category": "CityInfo",
+      "subCategory": "CityInfoTwo",
       "order": 4
     },
     "Movie Theatres (WDCEP)": {
@@ -2364,8 +2387,8 @@
           }
         }
       },
-      "category": "2",
-      "subCategory": "2",
+      "category": "CityInfo",
+      "subCategory": "CityInfoTwo",
       "order": 5
     },
     "Available Retail Sites (WDCEP)": {
@@ -2420,8 +2443,8 @@
           }
         }
       },
-      "category": "3",
-      "subCategory": "1",
+      "category": "Development",
+      "subCategory": "DevelopmentOne",
       "order": 1
     },
     "WDCEP Development Site Plans": {
@@ -2489,8 +2512,8 @@
           }
         }
       },
-      "category": "3",
-      "subCategory": "2",
+      "category": "Development",
+      "subCategory": "Development2",
       "order": 1
     },
     "Residential Pipeline Projects (WDCEP)": {
@@ -2565,8 +2588,8 @@
           }
         }
       },
-      "category": "3",
-      "subCategory": "2",
+      "category": "Development",
+      "subCategory": "Development2",
       "order": 2
     },
     "Residential Completed Projects (WDCEP)": {
@@ -2641,8 +2664,8 @@
           }
         }
       },
-      "category": "3",
-      "subCategory": "2",
+      "category": "Development",
+      "subCategory": "Development2",
       "order": 3
     },
     "Retail Pipeline Projects (WDCEP)": {
@@ -2717,8 +2740,8 @@
           }
         }
       },
-      "category": "3",
-      "subCategory": "2",
+      "category": "Development",
+      "subCategory": "Development2",
       "order": 4
     },
     "Retail Completed Projects (WDCEP)": {
@@ -2793,8 +2816,8 @@
           }
         }
       },
-      "category": "3",
-      "subCategory": "2",
+      "category": "Development",
+      "subCategory": "Development2",
       "order": 5
     },
     "Projected Housing Units Growth": {
@@ -2879,8 +2902,8 @@
           }
         }
       },
-      "category": "3",
-      "subCategory": "3",
+      "category": "Development",
+      "subCategory": "Development3",
       "order": 1
     },
     "Projected Home Value Growth": {
@@ -2970,8 +2993,8 @@
           }
         }
       },
-      "category": "3",
-      "subCategory": "3",
+      "category": "Development",
+      "subCategory": "Development3",
       "order": 2
     },
     "Projected Household Income Growth": {
@@ -3056,8 +3079,8 @@
           }
         }
       },
-      "category": "3",
-      "subCategory": "3",
+      "category": "Development",
+      "subCategory": "Development3",
       "order": 3
     },
     "Projected Households Growth": {
@@ -3147,8 +3170,8 @@
           }
         }
       },
-      "category": "3",
-      "subCategory": "3",
+      "category": "Development",
+      "subCategory": "Development3",
       "order": 4
     },
     "Projected Population Growth": {
@@ -3238,8 +3261,8 @@
           }
         }
       },
-      "category": "3",
-      "subCategory": "3",
+      "category": "Development",
+      "subCategory": "Development3",
       "order": 5
     },
     "Business Improvement Districts": {
@@ -3351,8 +3374,8 @@
           }
         }
       },
-      "category": "4",
-      "subCategory": "1",
+      "category": "Incentives",
+      "subCategory": "Incentives1",
       "order": 1
     },
     "Great Streets": {
@@ -3414,8 +3437,8 @@
           }
         }
       },
-      "category": "4",
-      "subCategory": "1",
+      "category": "Incentives",
+      "subCategory": "Incentives1",
       "order": 2
     },
     "HUBs": {
@@ -3498,8 +3521,8 @@
           }
         }
       },
-      "category": "4",
-      "subCategory": "1",
+      "category": "Incentives",
+      "subCategory": "Incentives1",
       "order": 3
     },
     "Supermarket Tax Credit Zone": {
@@ -3561,8 +3584,8 @@
           }
         }
       },
-      "category": "4",
-      "subCategory": "1",
+      "category": "Incentives",
+      "subCategory": "Incentives1",
       "order": 4
     },
     "High Technology Development": {
@@ -3624,8 +3647,8 @@
           }
         }
       },
-      "category": "4",
-      "subCategory": "1",
+      "category": "Incentives",
+      "subCategory": "Incentives1",
       "order": 5
     },
     "Central Employment Area": {
@@ -3687,8 +3710,8 @@
           }
         }
       },
-      "category": "4",
-      "subCategory": "1",
+      "category": "Incentives",
+      "subCategory": "IncentiveesOne",
       "order": 6
     },
     "irb": {
@@ -3750,8 +3773,8 @@
           }
         }
       },
-      "category": "4",
-      "subCategory": "1",
+      "category": "Incentives",
+      "subCategory": "Incentives1",
       "order": 7
     },
     "WDCEP Bookmarks": {
@@ -3819,8 +3842,8 @@
           }
         }
       },
-      "category": "5",
-      "subCategory": "1",
+      "category": "WDCEP",
+      "subCategory": "WDCEP1",
       "order": 1
     },
     "WDCEP - 711": {
@@ -3888,8 +3911,8 @@
           }
         }
       },
-      "category": "5",
-      "subCategory": "1",
+      "category": "WDCEP",
+      "subCategory": "WDCEP1",
       "order": 2
     },
     "WDCEP - Chipotle/Shophouse": {
@@ -3962,8 +3985,8 @@
           }
         }
       },
-      "category": "5",
-      "subCategory": "1",
+      "category": "WDCEP",
+      "subCategory": "WDCEP1",
       "order": 3
     },
     "MedStar Georgetown University Hospital Drive-Time": {
@@ -4027,7 +4050,7 @@
           }
         }
       },
-      "category": "6",
+      "category": "InPatient",
       "subCategory": "2",
       "order": 2
     },
@@ -4092,7 +4115,7 @@
           }
         }
       },
-      "category": "6",
+      "category": "InPatient",
       "subCategory": "2",
       "order": 3
     },
@@ -4157,7 +4180,7 @@
           }
         }
       },
-      "category": "6",
+      "category": "InPatient",
       "subCategory": "2",
       "order": 4
     },
@@ -4222,7 +4245,7 @@
           }
         }
       },
-      "category": "6",
+      "category": "InPatient",
       "subCategory": "2",
       "order": 5
     },
@@ -4302,7 +4325,7 @@
           }
         }
       },
-      "category": "6",
+      "category": "InPatient",
       "subCategory": "1",
       "order": 1
     },
@@ -4380,7 +4403,7 @@
           }
         }
       },
-      "category": "6",
+      "category": "InPatient",
       "subCategory": "1",
       "order": 2
     },
@@ -4458,7 +4481,7 @@
           }
         }
       },
-      "category": "6",
+      "category": "InPatient",
       "subCategory": "1",
       "order": 3
     },
@@ -4536,7 +4559,7 @@
           }
         }
       },
-      "category": "6",
+      "category": "InPatient",
       "subCategory": "1",
       "order": 4
     },
@@ -4614,7 +4637,7 @@
           }
         }
       },
-      "category": "6",
+      "category": "InPatient",
       "subCategory": "1",
       "order": 5
     },
@@ -4692,7 +4715,7 @@
           }
         }
       },
-      "category": "6",
+      "category": "InPatient",
       "subCategory": "1",
       "order": 6
     },
@@ -4743,7 +4766,7 @@
           }
         }
       },
-      "category": "6",
+      "category": "InPatient",
       "subCategory": "2",
       "order": 1
     },
@@ -4812,8 +4835,8 @@
           }
         }
       },
-      "category": "5",
-      "subCategory": "1",
+      "category": "WDCEP",
+      "subCategory": "WDCEP1",
       "order": 4
     },
     "WDCEP - Subways": {
@@ -4881,8 +4904,8 @@
           }
         }
       },
-      "category": "5",
-      "subCategory": "1",
+      "category": "WDCEP",
+      "subCategory": "WDCEP1",
       "order": 5
     },
     "Trepp Data": {
@@ -4931,8 +4954,8 @@
           }
         }
       },
-      "category": "3",
-      "subCategory": "1",
+      "category": "Development",
+      "subCategory": "DevelopmentOne",
       "order": 2
     },
     "taxAbatement": {
@@ -5019,8 +5042,8 @@
         },
         "emits": {}
       },
-      "category": "4",
-      "subCategory": "1",
+      "category": "Incentives",
+      "subCategory": "Incentives1",
       "order": 8
     },
     "Workforce Investment Council (WIC)": {
@@ -5082,8 +5105,8 @@
           }
         }
       },
-      "category": "4",
-      "subCategory": "1",
+      "category": "Incentives",
+      "subCategory": "Incentives1",
       "order": 9
     },
     "anacostia": {
@@ -5146,8 +5169,8 @@
         },
         "emits": {}
       },
-      "category": "4",
-      "subCategory": "1",
+      "category": "Incentives",
+      "subCategory": "Incentives1",
       "order": 10
     },
     "NCI": {
@@ -5228,8 +5251,8 @@
         },
         "emits": {}
       },
-      "category": "4",
-      "subCategory": "1",
+      "category": "Incentives",
+      "subCategory": "Incentives1",
       "order": 11
     }
   }
