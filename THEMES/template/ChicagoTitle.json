@@ -1,0 +1,10 @@
+{
+  "group_name": "Chicago Title Insurance Company",
+  "entry": "http://ctic.create.io",
+  "init": {
+    "group_display_name": "Chicago Title Insurance Company",
+    "url": "http://www.ctic.com/",
+    "favicon": "",
+    "logo": "https://s3.amazonaws.com/create-common/logo/logo-ct_ncs_c.png" 
+  }  
+}  
