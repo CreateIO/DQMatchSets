@@ -4510,7 +4510,7 @@
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/NTA.png"
  
     },
-
+}
         "allTheSections": {
             "CityInfo1": {
                 "order": 0,
@@ -4596,7 +4596,6 @@
                 "redact": false,
                 "title": "WDCEP"
             }
-        }
     },
         "allTheTabs": {
             "CityInfo": {
