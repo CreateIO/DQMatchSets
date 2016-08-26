@@ -4508,9 +4508,9 @@
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/NTA.png"
-        }
+ 
     },
-    "allTheSections": {
+
         "allTheSections": {
             "CityInfo1": {
                 "order": 0,
@@ -4598,7 +4598,6 @@
             }
         }
     },
-    "allTheTabs": {
         "allTheTabs": {
             "CityInfo": {
                 "isActive": false,
@@ -4650,5 +4649,5 @@
                 "title": "WDCEP"
             }
         }
-    }
+
 }
