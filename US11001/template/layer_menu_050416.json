@@ -470,7 +470,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "CoreLogic\u00ae has developed a comprehensive risk model that assesses storm surge risk. Incorporates off-shore variables, on-shore variables, and storm heights derived from category 1-5 hurricanes.",
+                "description": "CoreLogic® has developed a comprehensive risk model that assesses storm surge risk. Incorporates off-shore variables, on-shore variables, and storm heights derived from category 1-5 hurricanes.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Very High (includes water)",
@@ -488,7 +488,7 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "CoreLogic \u00ae",
+                "sourceDescription": "CoreLogic ®",
                 "sourceURL": "http://www.corelogic.com/",
                 "type": "singleColumn"
             },
@@ -644,7 +644,7 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "CoreLogic \u00ae",
+                "sourceDescription": "CoreLogic ®",
                 "sourceURL": "http://www.corelogic.com/",
                 "type": "singleColumn"
             },
@@ -4508,145 +4508,143 @@
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/NTA.png"
- 
-    },
-}
-        "allTheSections": {
-            "CityInfo1": {
-                "order": 0,
-                "parentTab": "CityInfo",
-                "permissions": null,
-                "redact": false,
-                "title": "Geography"
-            },
-            "CityInfo2": {
-                "order": 0,
-                "parentTab": "CityInfo",
-                "permissions": null,
-                "redact": false,
-                "title": "Amenities"
-            },
-            "Development1": {
-                "order": 0,
-                "parentTab": "Development",
-                "permissions": null,
-                "redact": false,
-                "title": "Leasing"
-            },
-            "Development2": {
-                "order": 0,
-                "parentTab": "Development",
-                "permissions": null,
-                "redact": false,
-                "title": "Development"
-            },
-            "Development3": {
-                "order": 0,
-                "parentTab": "Development",
-                "permissions": null,
-                "redact": false,
-                "title": "Demographics"
-            },
-            "Incentives1": {
-                "order": 0,
-                "parentTab": "Incentives",
-                "permissions": null,
-                "redact": false,
-                "title": "Incentives"
-            },
-            "LandUse1": {
-                "order": 0,
-                "parentTab": "LandUse",
-                "permissions": null,
-                "redact": false,
-                "title": "Land Use & Entitlement"
-            },
-            "LandUse2": {
-                "order": -1,
-                "parentTab": "LandUse",
-                "permissions": null,
-                "redact": false,
-                "title": "Overlay Zones"
-            },
-            "LandUse3": {
-                "order": 2,
-                "parentTab": "LandUse",
-                "permissions": null,
-                "redact": false,
-                "title": "Historic Districts"
-            },
-            "LandUse4": {
-                "order": 0,
-                "parentTab": "LandUse",
-                "permissions": null,
-                "redact": false,
-                "title": "Heatmaps"
-            },
-            "LandUse5": {
-                "order": 0,
-                "parentTab": "LandUse",
-                "permissions": null,
-                "redact": false,
-                "title": "Natural Hazards"
-            },
-            "WDCEP1": {
-                "order": 0,
-                "parentTab": "WDCEP",
-                "permissions": "layer.section.WDCEP",
-                "redact": false,
-                "title": "WDCEP"
-            }
-    },
-        "allTheTabs": {
-            "CityInfo": {
-                "isActive": false,
-                "order": 2,
-                "permissions": null,
-                "redact": false,
-                "title": "City Info"
-            },
-            "Development": {
-                "isActive": false,
-                "order": 1,
-                "permissions": null,
-                "redact": false,
-                "title": "Development"
-            },
-            "InPatient": {
-                "isActive": false,
-                "order": 5,
-                "permissions": "group.tab.Array",
-                "redact": false,
-                "title": "In Patient"
-            },
-            "Incentives": {
-                "isActive": false,
-                "order": 3,
-                "permissions": null,
-                "redact": false,
-                "title": "Incentives"
-            },
-            "LandUse": {
-                "isActive": true,
-                "order": 0,
-                "permissions": null,
-                "redact": false,
-                "title": "Land Use"
-            },
-            "ParkHeights": {
-                "isActive": false,
-                "order": 6,
-                "permissions": null,
-                "redact": false,
-                "title": "Park Heights"
-            },
-            "WDCEP": {
-                "isActive": false,
-                "order": 4,
-                "permissions": "layer.tab.WDCEP",
-                "redact": false,
-                "title": "WDCEP"
-            }
         }
-
+    },
+    "allTheSections": {
+        "CityInfo1": {
+            "order": 0,
+            "parentTab": "CityInfo",
+            "permissions": null,
+            "redact": false,
+            "title": "Geography"
+        },
+        "CityInfo2": {
+            "order": 0,
+            "parentTab": "CityInfo",
+            "permissions": null,
+            "redact": false,
+            "title": "Amenities"
+        },
+        "Development1": {
+            "order": 0,
+            "parentTab": "Development",
+            "permissions": null,
+            "redact": false,
+            "title": "Leasing"
+        },
+        "Development2": {
+            "order": 0,
+            "parentTab": "Development",
+            "permissions": null,
+            "redact": false,
+            "title": "Development"
+        },
+        "Development3": {
+            "order": 0,
+            "parentTab": "Development",
+            "permissions": null,
+            "redact": false,
+            "title": "Demographics"
+        },
+        "Incentives1": {
+            "order": 0,
+            "parentTab": "Incentives",
+            "permissions": null,
+            "redact": false,
+            "title": "Incentives"
+        },
+        "LandUse1": {
+            "order": 0,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Land Use & Entitlement"
+        },
+        "LandUse2": {
+            "order": -1,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Overlay Zones"
+        },
+        "LandUse3": {
+            "order": 2,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Historic Districts"
+        },
+        "LandUse4": {
+            "order": 0,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Heatmaps"
+        },
+        "LandUse5": {
+            "order": 0,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Natural Hazards"
+        },
+        "WDCEP1": {
+            "order": 0,
+            "parentTab": "WDCEP",
+            "permissions": "layer.section.WDCEP",
+            "redact": false,
+            "title": "WDCEP"
+        }
+    },
+    "allTheTabs": {
+        "CityInfo": {
+            "isActive": false,
+            "order": 2,
+            "permissions": null,
+            "redact": false,
+            "title": "City Info"
+        },
+        "Development": {
+            "isActive": false,
+            "order": 1,
+            "permissions": null,
+            "redact": false,
+            "title": "Development"
+        },
+        "InPatient": {
+            "isActive": false,
+            "order": 5,
+            "permissions": "group.tab.Array",
+            "redact": false,
+            "title": "In Patient"
+        },
+        "Incentives": {
+            "isActive": false,
+            "order": 3,
+            "permissions": null,
+            "redact": false,
+            "title": "Incentives"
+        },
+        "LandUse": {
+            "isActive": true,
+            "order": 0,
+            "permissions": null,
+            "redact": false,
+            "title": "Land Use"
+        },
+        "ParkHeights": {
+            "isActive": false,
+            "order": 6,
+            "permissions": null,
+            "redact": false,
+            "title": "Park Heights"
+        },
+        "WDCEP": {
+            "isActive": false,
+            "order": 4,
+            "permissions": "layer.tab.WDCEP",
+            "redact": false,
+            "title": "WDCEP"
+        }
+    }
 }
