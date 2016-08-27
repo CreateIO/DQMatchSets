@@ -470,7 +470,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "CoreLogic® has developed a comprehensive risk model that assesses storm surge risk. Incorporates off-shore variables, on-shore variables, and storm heights derived from category 1-5 hurricanes.",
+                "description": "CoreLogic\u00ae has developed a comprehensive risk model that assesses storm surge risk. Incorporates off-shore variables, on-shore variables, and storm heights derived from category 1-5 hurricanes.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Very High (includes water)",
@@ -488,11 +488,11 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "CoreLogic ®",
+                "sourceDescription": "CoreLogic \u00ae",
                 "sourceURL": "http://www.corelogic.com/",
                 "type": "singleColumn"
             },
-            "menuSection": "Landuse5",
+            "menuSection": "LandUse5",
             "mouseoverName": "Coastal Surge",
             "order": 2,
             "subCategory": "5",
@@ -644,11 +644,11 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "CoreLogic ®",
+                "sourceDescription": "CoreLogic \u00ae",
                 "sourceURL": "http://www.corelogic.com/",
                 "type": "singleColumn"
             },
-            "menuSection": "Landuse5",
+            "menuSection": "LandUse5",
             "mouseoverName": "FEMA Flood Zones",
             "order": 1,
             "subCategory": "5",
@@ -1011,7 +1011,7 @@
                 "sourceURL": "http://www.dcpreservation.org/historic-districts-coalition/",
                 "type": "singleColumn"
             },
-            "menuSection": "Landuse3",
+            "menuSection": "LandUse3",
             "mouseoverName": "Historic Districts - Corridors",
             "order": 1,
             "subCategory": "3",
@@ -1091,7 +1091,7 @@
                 "sourceURL": "http://www.dcpreservation.org/historic-districts-coalition/",
                 "type": "singleColumn"
             },
-            "menuSection": "Landuse3",
+            "menuSection": "LandUse3",
             "mouseoverName": "Historic Districts - Institutions",
             "order": 2,
             "subCategory": "3",
@@ -1171,7 +1171,7 @@
                 "sourceURL": "http://www.dcpreservation.org/historic-districts-coalition/",
                 "type": "singleColumn"
             },
-            "menuSection": "Landuse3",
+            "menuSection": "LandUse3",
             "mouseoverName": "Historic Districts - Neighborhoods",
             "order": 3,
             "subCategory": "3",
@@ -1251,7 +1251,7 @@
                 "sourceURL": "http://www.dcpreservation.org/historic-districts-coalition/",
                 "type": "singleColumn"
             },
-            "menuSection": "Landuse3",
+            "menuSection": "LandUse3",
             "mouseoverName": "Historic Districts - Parks",
             "order": 4,
             "subCategory": "3",
@@ -1747,7 +1747,7 @@
                 "sourceURL": "http://otr.cfo.dc.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "Landuse4",
+            "menuSection": "LandUse4",
             "mouseoverName": "Office Density Heatmap",
             "order": 2,
             "subCategory": "4",
@@ -1811,7 +1811,7 @@
                 "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
                 "type": "singleColumn"
             },
-            "menuSection": "Landuse2",
+            "menuSection": "LandUse2",
             "mouseoverName": "Overlays - Arts",
             "order": 1,
             "subCategory": "2",
@@ -1875,7 +1875,7 @@
                 "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
                 "type": "singleColumn"
             },
-            "menuSection": "Landuse2",
+            "menuSection": "LandUse2",
             "mouseoverName": "Overlays - Government & Diplomatic",
             "order": 2,
             "subCategory": "2",
@@ -1945,7 +1945,7 @@
                 "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
                 "type": "singleColumn"
             },
-            "menuSection": "Landuse2",
+            "menuSection": "LandUse2",
             "mouseoverName": "Overlays - Hotels",
             "order": 3,
             "subCategory": "2",
@@ -2009,7 +2009,7 @@
                 "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
                 "type": "singleColumn"
             },
-            "menuSection": "Landuse2",
+            "menuSection": "LandUse2",
             "mouseoverName": "Overlays - Mixed Use",
             "order": 4,
             "subCategory": "2",
@@ -2073,7 +2073,7 @@
                 "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
                 "type": "singleColumn"
             },
-            "menuSection": "Landuse2",
+            "menuSection": "LandUse2",
             "mouseoverName": "Overlays - Neighborhood Commercial",
             "order": 5,
             "subCategory": "2",
@@ -2143,7 +2143,7 @@
                 "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
                 "type": "singleColumn"
             },
-            "menuSection": "Landuse2",
+            "menuSection": "LandUse2",
             "mouseoverName": "Overlays - Open Space",
             "order": 6,
             "subCategory": "2",
@@ -2298,7 +2298,7 @@
                 "sourceURL": "http://www.dcoz.dc.gov/resources/resources.shtm",
                 "type": "singleColumn"
             },
-            "menuSection": "Landuse1",
+            "menuSection": "LandUse1",
             "mouseoverName": "Planned Unit Development",
             "order": 2,
             "subCategory": "1",
@@ -2795,7 +2795,7 @@
             "id": 48,
             "isActive": false,
             "layerUsed": true,
-            "menuSection": "Landuse1",
+            "menuSection": "LandUse1",
             "mouseoverName": "Property Types",
             "order": 4,
             "subCategory": "1",
@@ -2955,7 +2955,7 @@
                 "sourceURL": "http://otr.cfo.dc.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "Landuse4",
+            "menuSection": "LandUse4",
             "mouseoverName": "Residential Density Heatmap",
             "order": 3,
             "subCategory": "4",
@@ -3192,7 +3192,7 @@
                 "sourceURL": "http://otr.cfo.dc.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "Landuse4",
+            "menuSection": "LandUse4",
             "mouseoverName": "Retail Density Heatmap",
             "order": 1,
             "subCategory": "4",
@@ -3497,7 +3497,7 @@
                 "sourceURL": "http://www.dcregs.dc.gov/Gateway/RuleHome.aspx?RuleNumber=11-1709",
                 "type": "singleColumn"
             },
-            "menuSection": "Landuse1",
+            "menuSection": "LandUse1",
             "mouseoverName": "Transfer of Development Rights",
             "order": 3,
             "subCategory": "1",
@@ -4284,7 +4284,7 @@
             "id": 42,
             "isActive": false,
             "layerUsed": true,
-            "menuSection": "Landuse1",
+            "menuSection": "LandUse1",
             "mouseoverName": "Zoning Districts",
             "order": 1,
             "subCategory": "1",
