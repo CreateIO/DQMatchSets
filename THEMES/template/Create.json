@@ -1,10 +1,10 @@
 {
-  "group_name": "Newmark Grubb Knight Frank",
-  "entry": "http://www.ngkf.com/",
+  "group_name": "Create, Inc",
+  "entry": "http://www.create.io",
   "init": {
-    "group_display_name": "NGKF",
-    "url": "http://www.ngkf.com/",
-    "favicon": "",
+    "group_display_name": "Create",
+    "url": "http://www.create.io",
+    "favicon": "/favicon-96x96.png",
     "logo": "" 
   }  
 }  
