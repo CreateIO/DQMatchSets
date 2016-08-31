@@ -2,9 +2,11 @@
   "group_name": "Create, Inc",
   "entry": "http://www.create.io",
   "init": {
+    "class_name": "create-group",
     "group_display_name": "Create",
     "url": "http://www.create.io",
     "favicon": "/favicon-96x96.png",
-    "logo": "" 
+    "logo": "",
+    "sponsor_logo": ""
   }  
 }  

@@ -2,9 +2,11 @@
   "group_name": "Newmark Grubb Knight Frank",
   "entry": "http://www.ngkf.com/",
   "init": {
+    "class_name": "ngkf-group",
     "group_display_name": "NGKF",
     "url": "http://www.ngkf.com/",
     "favicon": "",
-    "logo": "" 
+    "logo": "", 
+    "sponsor_logo": ""
   }  
 }  
