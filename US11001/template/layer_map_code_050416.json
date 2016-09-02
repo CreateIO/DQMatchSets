@@ -4,39 +4,12 @@
             "name": "2014TrafficFatalities",
             "removeName": "2014TrafficFatalities.geojson",
             "url": "https://s3.amazonaws.com/models-dc/geoJSON/2014TrafficFatalities.geojson",
-            "cartographic": false,
+            "cartographic": true,
             "id": {
                 "exists": false
             },
             "labels": {
-                "exists": true,
-                "labelLayers": {
-                    "label1": {
-                        "name": "2014TrafficFatalities",
-                        "position": {
-                            "x": "entity._properties.lon",
-                            "y": "entity._properties.lat",
-                            "z": 100
-                        },
-                        "text": "entity.name",
-                        "font": "20px Lato",
-                        "fillColor": "Cesium.Color.BLUE",
-                        "outlineColor": "Cesium.Color.WHITESMOKE",
-                        "outlineWidth": 1,
-                        "style": "Cesium.LabelStyle.FILL_AND_OUTLINE",
-                        "pixelOffset": "Cesium.Cartesian2.ZERO",
-                        "eyeOffset": "Cesium.Cartesian3.ZERO",
-                        "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-                        "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
-                        "translucencyByDistance": {
-                            "minElevation": 13000,
-                            "maxElevation": 17000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
-                        },
-                        "scale": 1.0
-                    }
-                }
+                "exists": false
             },
             "polygons": {
                 "exists": false
@@ -45,46 +18,37 @@
                 "exists": false
             },
             "billboards": {
-                "exists": false
+                "exists": true,
+                "billboardLayers": {
+                    "billboard1": {
+                        "type": "custom",
+                        "name": "2014TrafficFatalities",
+                        "url": "",
+                        "position": {
+                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                            "z": 5
+                        },
+                        "NearFarScalar": {
+                            "minElevation": 4000,
+                            "maxElevation": 12000,
+                            "minScale": 0.7,
+                            "maxScale": 0.0
+                        }
+                    }
+                }
             }
         },
         "2015TrafficFatalities": {
             "name": "2015TrafficFatalities",
             "removeName": "2015TrafficFatalities.geojson",
             "url": "https://s3.amazonaws.com/models-dc/geoJSON/2015TrafficFatalities.geojson",
-            "cartographic": false,
+            "cartographic": true,
             "id": {
                 "exists": false
             },
             "labels": {
-                "exists": true,
-                "labelLayers": {
-                    "label1": {
-                        "name": "2015TrafficFatalities",
-                        "position": {
-                            "x": "entity._properties.lon",
-                            "y": "entity._properties.lat",
-                            "z": 100
-                        },
-                        "text": "entity.name",
-                        "font": "20px Lato",
-                        "fillColor": "Cesium.Color.RED",
-                        "outlineColor": "Cesium.Color.WHITESMOKE",
-                        "outlineWidth": 1,
-                        "style": "Cesium.LabelStyle.FILL_AND_OUTLINE",
-                        "pixelOffset": "Cesium.Cartesian2.ZERO",
-                        "eyeOffset": "Cesium.Cartesian3.ZERO",
-                        "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-                        "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
-                        "translucencyByDistance": {
-                            "minElevation": 13000,
-                            "maxElevation": 17000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
-                        },
-                        "scale": 1.0
-                    }
-                }
+                "exists": false
             },
             "polygons": {
                 "exists": false
@@ -93,7 +57,25 @@
                 "exists": false
             },
             "billboards": {
-                "exists": false
+                "exists": true,
+                "billboardLayers": {
+                    "billboard1": {
+                        "type": "custom",
+                        "name": "2015TrafficFatalities",
+                        "url": "",
+                        "position": {
+                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                            "z": 5
+                        },
+                        "NearFarScalar": {
+                            "minElevation": 4000,
+                            "maxElevation": 12000,
+                            "minScale": 0.7,
+                            "maxScale": 0.0
+                        }
+                    }
+                }
             }
         },
         "zillow-label": {
