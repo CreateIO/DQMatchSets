@@ -1,0 +1,110 @@
+{
+  "group_name": "Array Pivotal Product",
+  "last_update": "08/09/16",
+  "init": {
+    "group_dislay_name": "Array Pivotal Product",
+    "logo": "https://s3.amazonaws.com/create-common/logo/pivotal-mark.png" ,
+    "start_position":{ "camera": [
+        {
+          "name": "Dupont Circle Way OverHead",
+          "cameraPosition": {
+            "type":"LineString",
+            "coordinates":[[-77.04346, 38.909624, 3.0],[-77.04346, 38.908131, 3000]],
+            "height": null
+          }
+        }, 
+        {
+          "name": "All of DC OverHead",
+          "cameraPosition": {
+            "type":"LineString",
+            "coordinates":[[-77.04346, 38.909624, 3.0],[-77.04346, 38.909624, 15000.0]],
+            "height": null
+          }
+        } 
+    ] },
+    "start_layers": { "Property Types": "off", "Facilities - Hospitals": "on" },
+    "start_menus": { "Layer_Menu": "open", "Layer_Pivotal": "open" }
+  },
+  "layers": {
+    "gsa": {
+      "id": 47,
+      "displayName": "gsa",
+      "mouseoverName": "GSA Leases",
+      "denyToggle": false,
+      "isActive": false,
+      "layerUsed": true,
+      "hasLegend": true,
+      "urlLegend": "../../legends/gsaLeases.jade",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/geoJSON/prod/icons/GSABillboard.png",
+      "colors": {
+        "type": "?",
+        "hex": {
+        }
+      },
+      "functions": {
+        "addFunctions": {
+          "func1": {
+            "service": "mapOverlayService",
+            "functionName": "addLayer",
+            "parameters": {
+              "param1": "$scope",
+              "param2": "gsa"
+            }
+          }
+        },
+        "piwikTrack": {
+          "parameters": {
+            "param1": "'Data: GSA Leases'"
+          }
+        },
+        "removeFunctions": {
+          "func1": {
+            "service": "mapOverlayService",
+            "functionName": "removeLayer",
+            "parameters": {
+              "param1": "$scope",
+              "param2": "gsa"
+            }
+          }
+        },
+        "infoboxAdd": {
+          "service": "infoBoxService",
+          "functionName": "getCirclesGSA",
+          "parameters": {
+            "param1": "https://s3.amazonaws.com/models-dc/geoJSON/prod/gsaGeomFullPoint.geojson",
+            "param2": "expiryear",
+            "param3": "leaseagree",
+            "param4": 25000,
+            "param5": 50000,
+            "param6": 100000,
+            "param7": 250000
+          }
+        },
+        "infoboxRemove": {
+          "service": "infoBoxService",
+          "functionName": "clearBufferRings",
+          "parameters": {
+            "param1": "https://s3.amazonaws.com/models-dc/geoJSON/prod/gsaGeomFullPoint.geojson"
+          }
+        },
+        "emits": {
+          "emit1": {
+            "type": "remove",
+            "parameters": {
+              "param1": "clearBillboard"
+            }
+          }
+        }
+      },
+      "category": "3",
+      "subCategory": "1",
+      "order": 3
+    }
+  },
+  "filters": {
+  },
+  "infobox": {
+  },
+  "tms": {
+  }
+}

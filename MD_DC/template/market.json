@@ -10,10 +10,11 @@
       "infoboxTemplate":"infobox_050416",
       "camera": [
         {
-          "name": "Dupont Circle",
-          "frontVect": {
+          "name": "GW Hospital Overhead",
+          "cameraPosition": {
             "type":"LineString",
-            "coordinates":[[-77.04346,38.909624],[-77.04346,38.908131]],
+            "coordinates":[[-77.05074, 38.901282, 3.0],[-77.05074, 38.900, 20000.0]],
+            "comment": "very small offset to force a North UP orientation",
             "height": null
           }
         }

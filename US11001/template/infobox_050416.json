@@ -1,5 +1,43 @@
 {
     "infoboxContent":{
+      "ArrayCompetitorLocations_4":{
+        "referenceid":"UNIQUEID",
+        "propertyid":"UNIQUEID",
+        "offset":null,
+        "fieldtype":"business",
+        "resourceType":"array",
+        "photos":{
+          "active":true,
+          "value":null
+        },
+        "pdfs":{
+          "active":false,
+          "value":null
+        },
+        "viewDetailsBoxArray":true,
+        "wdcepDetailsBox":false,
+        "header":"HOSP_NAME",
+        "boxValues":{
+          "field2":{
+            "value":"FULL_ADDRE",
+            "display":"Address: ",
+            "fieldtype":"text",
+            "units":null
+          },
+          "field3":{
+            "value":"PHONE",
+            "display":"Phone: ",
+            "fieldtype":"text",
+            "units":null
+          },
+          "field4":{
+            "value":"URL",
+            "display":"URL: ",
+            "fieldtype":"text",
+            "units":null
+          }
+        }
+      },
         "wdcep_resi_com_data":{
             "referenceid":"UNIQUEID",
             "propertyid":null,
