@@ -36,7 +36,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "2014TrafficFatalities",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/redDot.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -88,7 +88,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "2015TrafficFatalities",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/redDot.png",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
