@@ -1405,7 +1405,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerZillow.jade",
+            "urlLegend": "",
             "legendContents": {
                 "description": "",
                 "sourceURL": "http://www.nhtsa.gov/",
@@ -1467,7 +1467,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "../../legends/layerZillow.jade",
+            "urlLegend": "",
             "legendContents": {
                 "description": "",
                 "sourceURL": "http://www.nhtsa.gov/",
