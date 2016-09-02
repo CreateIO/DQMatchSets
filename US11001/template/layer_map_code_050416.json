@@ -1,5 +1,101 @@
 {
     "layerjson": {
+        "2014TrafficFatalities": {
+            "name": "2014TrafficFatalities",
+            "removeName": "2014TrafficFatalities.geojson",
+            "url": "https://s3.amazonaws.com/models-dc/geoJSON/2014TrafficFatalities.geojson",
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": true,
+                "labelLayers": {
+                    "label1": {
+                        "name": "2014TrafficFatalities",
+                        "position": {
+                            "x": "entity._properties.lon",
+                            "y": "entity._properties.lat",
+                            "z": 100
+                        },
+                        "text": "entity.name",
+                        "font": "20px Lato",
+                        "fillColor": "Cesium.Color.BLUE",
+                        "outlineColor": "Cesium.Color.WHITESMOKE",
+                        "outlineWidth": 1,
+                        "style": "Cesium.LabelStyle.FILL_AND_OUTLINE",
+                        "pixelOffset": "Cesium.Cartesian2.ZERO",
+                        "eyeOffset": "Cesium.Cartesian3.ZERO",
+                        "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
+                        "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
+                        "translucencyByDistance": {
+                            "minElevation": 13000,
+                            "maxElevation": 17000,
+                            "minScale": 1.0,
+                            "maxScale": 0.0
+                        },
+                        "scale": 1.0
+                    }
+                }
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "2015TrafficFatalities": {
+            "name": "2015TrafficFatalities",
+            "removeName": "2015TrafficFatalities.geojson",
+            "url": "https://s3.amazonaws.com/models-dc/geoJSON/2015TrafficFatalities.geojson",
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": true,
+                "labelLayers": {
+                    "label1": {
+                        "name": "2015TrafficFatalities",
+                        "position": {
+                            "x": "entity._properties.lon",
+                            "y": "entity._properties.lat",
+                            "z": 100
+                        },
+                        "text": "entity.name",
+                        "font": "20px Lato",
+                        "fillColor": "Cesium.Color.RED",
+                        "outlineColor": "Cesium.Color.WHITESMOKE",
+                        "outlineWidth": 1,
+                        "style": "Cesium.LabelStyle.FILL_AND_OUTLINE",
+                        "pixelOffset": "Cesium.Cartesian2.ZERO",
+                        "eyeOffset": "Cesium.Cartesian3.ZERO",
+                        "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
+                        "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
+                        "translucencyByDistance": {
+                            "minElevation": 13000,
+                            "maxElevation": 17000,
+                            "minScale": 1.0,
+                            "maxScale": 0.0
+                        },
+                        "scale": 1.0
+                    }
+                }
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
         "zillow-label": {
             "name": "zillow-label",
             "removeName": "zillowLabel.geojson",

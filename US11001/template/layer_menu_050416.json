@@ -1391,6 +1391,109 @@
             "subCategory": "5",
             "order": 2
         },
+
+
+
+        "2014 Traffic Fatalities": {
+            "id": 38,
+            "displayName": "2014 Traffic Fatalities",
+            "mouseoverName": "2014 Traffic Fatalities",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/layerZillow.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/2014.png",
+            "colors": {
+                "type": "outline",
+                "hex": {
+                    "hex1": "#E6E6FA"
+                }
+            },
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "2014TrafficFatalities"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Data: 2014 Traffic Fatalities'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "2014TrafficFatalities"
+                        }
+                    }
+                }
+            },
+            "category": "2",
+            "subCategory": "1",
+            "order": 1
+        },        
+        "2015 Traffic Fatalities": {
+            "id": 38,
+            "displayName": "2015 Traffic Fatalities",
+            "mouseoverName": "2015 Traffic Fatalities",
+            "denyToggle": false,
+            "denyList": {
+                "denyList1": null
+            },
+            "isActive": false,
+            "layerUsed": true,
+            "hasLegend": true,
+            "urlLegend": "../../legends/layerZillow.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/2015.png",
+            "colors": {
+                "type": "outline",
+                "hex": {
+                    "hex1": "#E6E6FA"
+                }
+            },
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "2015TrafficFatalities"
+                        }
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Data: 2015 Trafic Fatalities"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "2014TrafficFatalities"
+                        }
+                    }
+                }
+            },
+            "category": "2",
+            "subCategory": "1",
+            "order": 1
+        },
         "Zillow Neighborhoods": {
             "id": 38,
             "displayName": "Neighborhoods",
