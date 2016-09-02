@@ -1406,11 +1406,23 @@
             "layerUsed": true,
             "hasLegend": true,
             "urlLegend": "../../legends/layerZillow.jade",
+            "legendContents": {
+                "description": "",
+                "sourceURL": "http://www.nhtsa.gov/",
+                "sourceDescription": "NHTSA - National Highway Traffic Safety Administration",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#d53e4f; border-radius: 20px;",
+                        "boxDescription": "2014 Fatality Analysis Reporting System (FARS) data for the DC area."
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/2014.png",
             "colors": {
-                "type": "outline",
+                "type": "fill",
                 "hex": {
-                    "hex1": "#E6E6FA"
+                    "hex1": "#d53e4f"
                 }
             },
             "functions": {
@@ -1442,7 +1454,7 @@
             },
             "category": "2",
             "subCategory": "1",
-            "order": 1
+            "order": 8
         },        
         "2015 Traffic Fatalities": {
             "id": 38,
@@ -1456,11 +1468,23 @@
             "layerUsed": true,
             "hasLegend": true,
             "urlLegend": "../../legends/layerZillow.jade",
+            "legendContents": {
+                "description": "",
+                "sourceURL": "http://www.nhtsa.gov/",
+                "sourceDescription": "NHTSA - National Highway Traffic Safety Administration",
+                "type": "singleColumn",
+                "listItems": {
+                    "item1": {
+                        "boxStyle": "background:#3288bd; border-radius: 20px;",
+                        "boxDescription": "2015 Fatality Analysis Reporting System (FARS) data for the DC area."
+                    }
+                }
+            },
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/2015.png",
             "colors": {
-                "type": "outline",
+                "type": "fill",
                 "hex": {
-                    "hex1": "#E6E6FA"
+                    "hex1": "#3288bd"
                 }
             },
             "functions": {
@@ -1492,7 +1516,7 @@
             },
             "category": "2",
             "subCategory": "1",
-            "order": 1
+            "order": 9
         },
         "Zillow Neighborhoods": {
             "id": 38,
