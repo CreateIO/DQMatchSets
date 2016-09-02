@@ -16,7 +16,7 @@
             },
             "rasters": {
                 "exists": true,
-                    "rasterLayers":
+                    "rasterLayers": {
                     "raster1": {
                         "name": "fatal2014",
                         "url": "https://s3.amazonaws.com/models-dc/geoJSON/2014TrafficFatalities.png",
