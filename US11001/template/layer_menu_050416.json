@@ -1392,10 +1392,8 @@
             "order": 2
         },
 
-
-
         "2014 Traffic Fatalities": {
-            "id": 38,
+            "id": 51,
             "displayName": "2014 Traffic Fatalities",
             "mouseoverName": "2014 Traffic Fatalities",
             "denyToggle": false,
@@ -1405,7 +1403,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "",
                 "sourceURL": "http://www.nhtsa.gov/",
@@ -1413,26 +1411,25 @@
                 "type": "singleColumn",
                 "listItems": {
                     "item1": {
-                        "boxStyle": "background:#d53e4f; border-radius: 20px;",
+                        "boxStyle": "background:#d53e4f; border-radius: 20px",
+                        "imageUrl": "",
                         "boxDescription": "2014 Fatality Analysis Reporting System (FARS) data for the DC area."
                     }
                 }
-            },
+            },  
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/2014.png",
             "colors": {
-                "type": "fill",
+                "type": "?",
                 "hex": {
-                    "hex1": "#d53e4f"
                 }
             },
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "addLayer",
+                        "service": "tileMapServiceService",
+                        "functionName": "addSingleTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "2014TrafficFatalities"
+                            "param1": "2014TrafficFatalities"
                         }
                     }
                 },
@@ -1443,21 +1440,28 @@
                 },
                 "removeFunctions": {
                     "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "removeLayer",
+                        "service": "tileMapServiceService",
+                        "functionName": "removeSingleTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "2014TrafficFatalities"
+                            "param1": "2014TrafficFatalities"
+                        }
+                    }
+                },
+                "emits": {
+                    "emit1": {
+                        "type": "add",
+                        "parameters": {
+                            "param1": "tileZoom"
                         }
                     }
                 }
             },
-            "category": "2",
+            "category": "3",
             "subCategory": "1",
             "order": 8
-        },        
-        "2015 Traffic Fatalities": {
-            "id": 38,
+        },
+    "2015 Traffic Fatalities": {
+            "id": 51,
             "displayName": "2015 Traffic Fatalities",
             "mouseoverName": "2015 Traffic Fatalities",
             "denyToggle": false,
@@ -1467,7 +1471,7 @@
             "isActive": false,
             "layerUsed": true,
             "hasLegend": true,
-            "urlLegend": "",
+            "urlLegend": "../../legends/template-legend.jade",
             "legendContents": {
                 "description": "",
                 "sourceURL": "http://www.nhtsa.gov/",
@@ -1475,46 +1479,52 @@
                 "type": "singleColumn",
                 "listItems": {
                     "item1": {
-                        "boxStyle": "background:#3288bd; border-radius: 20px;",
+                        "boxStyle": "background:#d53e4f; border-radius: 20px",
+                        "imageUrl": "",
                         "boxDescription": "2015 Fatality Analysis Reporting System (FARS) data for the DC area."
                     }
                 }
-            },
+            },  
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/2015.png",
             "colors": {
-                "type": "fill",
+                "type": "?",
                 "hex": {
-                    "hex1": "#3288bd"
                 }
             },
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "addLayer",
+                        "service": "tileMapServiceService",
+                        "functionName": "addSingleTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "2015TrafficFatalities"
+                            "param1": "2015TrafficFatalities"
                         }
                     }
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Data: 2015 Trafic Fatalities"
+                        "param1": "'Data: 2015 Traffic Fatalities'"
                     }
                 },
                 "removeFunctions": {
                     "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "removeLayer",
+                        "service": "tileMapServiceService",
+                        "functionName": "removeSingleTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "2014TrafficFatalities"
+                            "param1": "2015TrafficFatalities"
+                        }
+                    }
+                },
+                "emits": {
+                    "emit1": {
+                        "type": "add",
+                        "parameters": {
+                            "param1": "tileZoom"
                         }
                     }
                 }
             },
-            "category": "2",
+            "category": "3",
             "subCategory": "1",
             "order": 9
         },
