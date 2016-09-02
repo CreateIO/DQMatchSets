@@ -1411,7 +1411,7 @@
                 "type": "singleColumn",
                 "listItems": {
                     "item1": {
-                        "boxStyle": "background:#d53e4f; border-radius: 20px",
+                        "boxStyle": "border-radius: 20px; border: 8px solid #d53e4f",
                         "imageUrl": "",
                         "boxDescription": "2014 Fatality Analysis Reporting System (FARS) data for the DC area."
                     }
@@ -1460,7 +1460,7 @@
             "subCategory": "1",
             "order": 8
         },
-    "2015 Traffic Fatalities": {
+    "2015f Traffic Fatalities": {
             "id": 51,
             "displayName": "2015 Traffic Fatalities",
             "mouseoverName": "2015 Traffic Fatalities",
@@ -1479,7 +1479,7 @@
                 "type": "singleColumn",
                 "listItems": {
                     "item1": {
-                        "boxStyle": "background:#d53e4f; border-radius: 20px",
+                        "boxStyle": "border-radius: 20px; border: 8px solid #3288bd",
                         "imageUrl": "",
                         "boxDescription": "2015 Fatality Analysis Reporting System (FARS) data for the DC area."
                     }
