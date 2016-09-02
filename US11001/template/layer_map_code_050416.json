@@ -24,7 +24,7 @@
                         "yMin": 38.82,
                         "xMax": -76.88,
                         "yMax": 39.00,
-                        "alpha": 0,
+                        "alpha": 0.8,
                         "show": true,
                         "hasDropdown": false
                     }
@@ -76,7 +76,7 @@
                         "yMin": 38.82,
                         "xMax": -76.88,
                         "yMax": 39.00,
-                        "alpha": 0,
+                        "alpha": 0.8,
                         "show": true,
                         "hasDropdown": false
                     }
