@@ -3,7 +3,7 @@
   "entry": "http://ctic.create.io",
   "init": {
     "class_name": "ctic",
-    "group_display_name": "Chicago Title Insurance Company",
+    "group_display_name": "",
     "url": "http://www.ctic.com/",
     "favicon": "",
     "logo": "", 
