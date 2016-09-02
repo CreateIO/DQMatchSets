@@ -23,7 +23,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "2014TrafficFatalities",
-                        "url": "",
+                        "url": "../../geoJSON/layerIcons/icon-bus-green.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -62,7 +62,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "2015TrafficFatalities",
-                        "url": "",
+                        "url": "../../geoJSON/layerIcons/icon-bus-green.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",

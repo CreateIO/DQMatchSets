@@ -1425,11 +1425,12 @@
             },
             "functions": {
                 "addFunctions": {
-                    "func1": {
-                        "service": "tileMapServiceService",
-                        "functionName": "addSingleTMSLayer",
+                     "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
                         "parameters": {
-                            "param1": "2014TrafficFatalities"
+                            "param1": "$scope",
+                            "param2": "2014TrafficFatalities"
                         }
                     }
                 },
@@ -1439,11 +1440,12 @@
                     }
                 },
                 "removeFunctions": {
-                    "func1": {
-                        "service": "tileMapServiceService",
-                        "functionName": "removeSingleTMSLayer",
+                     "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
                         "parameters": {
-                            "param1": "2014TrafficFatalities"
+                            "param1": "$scope",
+                            "param2": "2014TrafficFatalities"
                         }
                     }
                 },
@@ -1458,7 +1460,7 @@
             },
             "category": "2",
             "subCategory": "1",
-            "order": 8
+            "order": 1
         },
     "2015f Traffic Fatalities": {
             "id": 51,
@@ -1494,10 +1496,11 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "service": "tileMapServiceService",
-                        "functionName": "addSingleTMSLayer",
+                        "service": "mapOverlayService",
+                        "functionName": "addLayer",
                         "parameters": {
-                            "param1": "2015TrafficFatalities"
+                            "param1": "$scope",
+                            "param2": "2015TrafficFatalities"
                         }
                     }
                 },
@@ -1507,11 +1510,12 @@
                     }
                 },
                 "removeFunctions": {
-                    "func1": {
-                        "service": "tileMapServiceService",
-                        "functionName": "removeSingleTMSLayer",
+                     "func1": {
+                        "service": "mapOverlayService",
+                        "functionName": "removeLayer",
                         "parameters": {
-                            "param1": "2015TrafficFatalities"
+                            "param1": "$scope",
+                            "param2": "2015TrafficFatalities"
                         }
                     }
                 },
@@ -1526,7 +1530,7 @@
             },
             "category": "2",
             "subCategory": "1",
-            "order": 9
+            "order": 1
         },
         "Zillow Neighborhoods": {
             "id": 38,
