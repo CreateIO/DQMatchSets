@@ -29,7 +29,7 @@
                     }
             },
             "billboards": {
-                "exists": true,
+                "exists": false,
                 "billboardLayers": {
                     "billboard1": {
                         "type": "custom",
@@ -79,7 +79,7 @@
                     }
             },
             "billboards": {
-                "exists": true,
+                "exists": false,
                 "billboardLayers": {
                     "billboard1": {
                         "type": "custom",
