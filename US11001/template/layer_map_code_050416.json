@@ -18,7 +18,7 @@
                 "exists": true,
                     "raster1": {
                         "name": "fatal2014",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/balt_transit_lines.png",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/2014TrafficFatalities.png",
                         "xMin": -77.12,
                         "yMin": 38.82,
                         "xMax": -76.88,
@@ -68,7 +68,7 @@
                 "exists": true,
                     "raster1": {
                         "name": "fatal2015",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/balt_transit_lines.png",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/2015TrafficFatalities.png",
                         "xMin": -77.12,
                         "yMin": 38.82,
                         "xMax": -76.88,
