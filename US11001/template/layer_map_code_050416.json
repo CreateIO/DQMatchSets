@@ -15,7 +15,7 @@
                 "exists": false
             },
             "rasters": {
-                "exists": true,
+                "exists": false,
                     "rasterLayers": {
                     "raster1": {
                         "name": "fatal2014",
@@ -31,12 +31,12 @@
                 }
             },
             "billboards": {
-                "exists": false,
+                "exists": true,
                 "billboardLayers": {
                     "billboard1": {
                         "type": "custom",
                         "name": "2014TrafficFatalities",
-                        "url": "../../geoJSON/layerIcons/icon-bus-green.png",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -67,7 +67,7 @@
                 "exists": false
             },
             "rasters": {
-                "exists": true,
+                "exists": false,
                 "rasterLayers": {
                     "raster1": {
                         "name": "fatal2015",
@@ -83,12 +83,12 @@
                 }
             },
             "billboards": {
-                "exists": false,
+                "exists": true,
                 "billboardLayers": {
                     "billboard1": {
                         "type": "custom",
                         "name": "2015TrafficFatalities",
-                        "url": "../../geoJSON/layerIcons/icon-bus-green.png",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/redDot.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
