@@ -4519,7 +4519,7 @@
             "title": "Geography"
         },
         "CityInfo2": {
-            "order": 0,
+            "order": -1,
             "parentTab": "CityInfo",
             "permissions": null,
             "redact": false,
@@ -4614,7 +4614,7 @@
         "InPatient": {
             "isActive": false,
             "order": 5,
-            "permissions": "group.tab.Array",
+            "permissions": null,
             "redact": false,
             "title": "In Patient"
         },
@@ -4627,7 +4627,7 @@
         },
         "LandUse": {
             "isActive": true,
-            "order": 0,
+            "order": -1,
             "permissions": null,
             "redact": false,
             "title": "Land Use"
