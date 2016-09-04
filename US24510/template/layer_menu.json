@@ -49,6 +49,7 @@
                 "sourceURL": "https://data.baltimorecity.gov/Geographic/Area-Master-Plans/es3e-9rfw",
                 "type": "singleColumn"
             },
+            "menuSection": "LandUse-Planning",
             "mouseoverName": "Area Master Plans",
             "order": 1,
             "subCategory": "6",
@@ -2324,6 +2325,13 @@
             "permissions": null,
             "redact": false,
             "title": "Natural Hazards"
+        },
+        "LandUse-Planning": {
+            "order": 0,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Planning"
         },
         "WDCEP1": {
             "order": 0,
