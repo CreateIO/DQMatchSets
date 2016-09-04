@@ -1,97 +1,83 @@
 {
    "layerjson": {
-    "MainBaciHospitals_Array": {
-      "name": "MainBaciHospitals_Array",
-      "removeName": "MainBaciHospitals_Array.geojson",
-      "url": "https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/MainBaciHospitals_Array.geojson",
-      "cartographic": false,
-      "id": {
-        "exists": true,
-        "poly": true,
-        "objClass": "UserInfo-poly",
-        "id": "entity.properties.UNIQUEID",
-        "name": "balt_PUD_full",
-        "folder": "https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/",
-        "applyFunction": null
-      },
-      "labels": {
-        "exists": false
-      },
-      "polygons": {
-        "exists": true,
-        "polygonLayers": {
-          "polygon1": {
-            "type": "singleColor",
-            "name": "entity.properties.NAME",
-            "color": {
-              "alpha": 0.5,
-              "type": "rgb",
-              "rgb": {
-                "r": 255,
-                "g": 255,
-                "b": 0,
-                "a": 100
-              }
+        "MainBaciHospitals_Array": {
+            "name": "MainBaciHospitals_Array",
+            "removeName": "MainBaciHospitals_Array.geojson",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/MainBaciHospitals_Array.geojson",
+            "cartographic": true,
+            "id": {
+                "exists": false
             },
-            "material": "new Cesium.ColorMaterialProperty(color)",
-            "outlineColor": "Cesium.Color.ANTIQUEWHITE",
-            "outlineWidth": 2.0
-          }
-        }
-      },
-      "rasters": {
-        "exists": false
-      },
-      "billboards": {
-        "exists": false
-      }
-    },
-    "OtherBaciHospitals_Array": {
-      "name": "OtherBaciHospitals_Array",
-      "removeName": "MainBaciHospitals_Array.geojson",
-      "url": "https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/OtherBaciHospitals_Array.geojson",
-      "cartographic": false,
-      "id": {
-        "exists": true,
-        "poly": true,
-        "objClass": "UserInfo-poly",
-        "id": "entity.properties.UNIQUEID",
-        "name": "balt_PUD_full",
-        "folder": "https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/",
-        "applyFunction": null
-      },
-      "labels": {
-        "exists": false
-      },
-      "polygons": {
-        "exists": true,
-        "polygonLayers": {
-          "polygon1": {
-            "type": "singleColor",
-            "name": "entity.properties.NAME",
-            "color": {
-              "alpha": 0.5,
-              "type": "rgb",
-              "rgb": {
-                "r": 255,
-                "g": 255,
-                "b": 0,
-                "a": 100
-              }
+            "labels": {
+                "exists": false
             },
-            "material": "new Cesium.ColorMaterialProperty(color)",
-            "outlineColor": "Cesium.Color.ANTIQUEWHITE",
-            "outlineWidth": 2.0
-          }
-        }
-      },
-      "rasters": {
-        "exists": false
-      },
-      "billboards": {
-        "exists": false
-      }
-    },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": true,
+                "billboardLayers": {
+                    "billboard1": {
+                        "type": "custom",
+                        "name": "MainBaciHospitals_Array",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
+                        "position": {
+                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                            "z": 5
+                        },
+                        "NearFarScalar": {
+                            "minElevation": 4000,
+                            "maxElevation": 20000,
+                            "minScale": 0.7,
+                            "maxScale": 0.05
+                        }
+                    }
+                }
+            }
+        },
+        "OtherBaciHospitals_Array": {
+            "name": "OtherBaciHospitals_Array",
+            "removeName": "OtherBaciHospitals_Array.geojson",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/OtherBaciHospitals_Array.geojson",
+            "cartographic": true,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": true,
+                "billboardLayers": {
+                    "billboard1": {
+                        "type": "custom",
+                        "name": "OtherBaciHospitals_Array",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
+                        "position": {
+                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                            "z": 5
+                        },
+                        "NearFarScalar": {
+                            "minElevation": 4000,
+                            "maxElevation": 20000,
+                            "minScale": 0.7,
+                            "maxScale": 0.05
+                        }
+                    }
+                }
+            }
+        },
     "parkHeights": {
       "name": "parkHeights",
       "removeName": "parkHeights.geojson",
