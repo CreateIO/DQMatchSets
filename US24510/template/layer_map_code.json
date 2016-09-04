@@ -18,8 +18,18 @@
               "exists": true,
               "pointLayers": {
                 "point1": {
-                  "type": "colorHash",
-                  "color": "#FF6680",
+                  "type": "rgb",
+                  "name": "entity.properties.NAME",
+                  "color": {
+                   "alpha": 0.5,
+                   "type": "rgb",
+                   "rgb": {
+                    "r": 255,
+                    "g": 255,
+                    "b": 0,
+                    "a": 100
+                   }
+                  },
                   "pointWidth": 24
                 }
               }
