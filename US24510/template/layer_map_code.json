@@ -15,7 +15,7 @@
                 "exists": false
             },
             "points": {
-              "exists": true,
+              "exists": false,
               "pointLayers": {
                 "point1": {
                   "type": "singleColor",
@@ -44,7 +44,41 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "MainBaciHospitals_Array",
-                        "if": "entity.properties.MainHospit == 'LifeBridge Health'",
+                        "if": "entity.properties.MapName == 'Sinai Hospital of Baltimore'",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
+                        "position": {
+                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                            "z": 5
+                        },
+                        "NearFarScalar": {
+                            "minElevation": 4000,
+                            "maxElevation": 100000,
+                            "minScale": 0.7,
+                            "maxScale": 0.2
+                        }
+                    },
+                    "billboard2": {
+                        "type": "custom",
+                        "name": "MainBaciHospitals_Array",
+                        "if": "entity.properties.MapName == 'The Johns Hopkins Hospital'",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
+                        "position": {
+                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                            "z": 5
+                        },
+                        "NearFarScalar": {
+                            "minElevation": 4000,
+                            "maxElevation": 100000,
+                            "minScale": 0.7,
+                            "maxScale": 0.2
+                        }
+                    },
+                    "billboard3": {
+                        "type": "custom",
+                        "name": "MainBaciHospitals_Array",
+                        "if": "entity.properties.MapName == 'University of Maryland Medical Center'",
                         "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
@@ -84,6 +118,58 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "OtherBaciHospitals_Array",
+                        "if": "entity.properties.MainHospit == 'LifeBridge Health'",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
+                        "position": {
+                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                            "z": 5
+                        },
+                        "NearFarScalar": {
+                            "minElevation": 4000,
+                            "maxElevation": 100000,
+                            "minScale": 0.7,
+                            "maxScale": 0.2
+                        }
+                    },
+                    "billboard2": {
+                        "type": "custom",
+                        "name": "OtherBaciHospitals_Array",
+                        "if": "entity.properties.MainHospit == 'Johns Hopkins'",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
+                        "position": {
+                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                            "z": 5
+                        },
+                        "NearFarScalar": {
+                            "minElevation": 4000,
+                            "maxElevation": 100000,
+                            "minScale": 0.7,
+                            "maxScale": 0.2
+                        }
+                    },
+                    "billboard3": {
+                        "type": "custom",
+                        "if": "entity.properties.MainHospit == 'University of Maryland Medical Center'",
+                        "name": "OtherBaciHospitals_Array",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
+                        "position": {
+                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                            "z": 5
+                        },
+                        "NearFarScalar": {
+                            "minElevation": 4000,
+                            "maxElevation": 100000,
+                            "minScale": 0.7,
+                            "maxScale": 0.2
+                        }
+                    },
+                    "billboard4": {
+                        "type": "custom",
+                        "name": "OtherBaciHospitals_Array",
+                        "if": "entity.properties.MainHospit == 'MedStar'",
                         "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
