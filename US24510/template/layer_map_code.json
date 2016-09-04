@@ -78,7 +78,7 @@
                     "billboard3": {
                         "type": "custom",
                         "name": "MainBaciHospitals_Array",
-                        "if": "entity.properties.MapName == 'University of Maryland Medical Center'",
+                        "if": "entity.properties.MapName == 'University of Maryland Medical System'",
                         "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
