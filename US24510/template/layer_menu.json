@@ -1,5 +1,123 @@
 {
     "allTheLayers": {
+        "Main Hospitals": {
+            "category": "7",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Main Hospitals",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "MainBaciHospitals_Array"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Array main hospitals'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "MainBaciHospitals_Array"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 8,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Locations of the Baltimore regional hospitals.",
+                        "boxStyle": "background:#FFFF00",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "",
+                "sourceURL": "",
+                "type": "singleColumn"
+            },
+            "menuSection": "Pivotal-Hospitals",
+            "mouseoverName": "Main Hospitals",
+            "order": 3,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/MH.png"
+        },
+        "Other Baci Hospitals": {
+            "category": "7",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Other Hospitals",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "OtherBaciHospitals_Array"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Array other hospitals'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "OtherBaciHospitals_Array"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 8,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Locations of the Baltimore regional hospitals.",
+                        "boxStyle": "background:#FFFF00",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "",
+                "sourceURL": "",
+                "type": "singleColumn"
+            },
+            "menuSection": "Pivotal-Hospitals",
+            "mouseoverName": "Hospitals",
+            "order": 3,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/H.png"
+        },
+
+
         "Area Master Plans": {
             "category": "1",
             "denyList": {
@@ -2249,6 +2367,48 @@
         }
     },
     "allTheSections": {
+       "LandUse1": {
+            "order": 0,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Land Use & Entitlement"
+        },
+        "LandUse2": {
+            "order": -1,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Overlay Zones"
+        },
+        "LandUse3": {
+            "order": 2,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Historic Districts"
+        },
+        "LandUse4": {
+            "order": 0,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Heatmaps"
+        },
+        "LandUse5": {
+            "order": 0,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Natural Hazards"
+        }, 
+        "LandUse-Planning": {
+            "order": 0,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Planning"
+        },    
         "CityInfo1": {
             "order": 0,
             "parentTab": "CityInfo",
@@ -2291,47 +2451,19 @@
             "redact": false,
             "title": "Incentives"
         },
-        "LandUse1": {
+        "Pivotal-Hospitals": {
             "order": 0,
-            "parentTab": "LandUse",
+            "parentTab": "Pivotal",
             "permissions": null,
             "redact": false,
-            "title": "Land Use & Entitlement"
+            "title": "Hospitals"
         },
-        "LandUse2": {
-            "order": -1,
-            "parentTab": "LandUse",
-            "permissions": null,
-            "redact": false,
-            "title": "Overlay Zones"
-        },
-        "LandUse3": {
-            "order": 2,
-            "parentTab": "LandUse",
-            "permissions": null,
-            "redact": false,
-            "title": "Historic Districts"
-        },
-        "LandUse4": {
+        "Pivotal-DriveTimes": {
             "order": 0,
-            "parentTab": "LandUse",
+            "parentTab": "Pivotal",
             "permissions": null,
             "redact": false,
-            "title": "Heatmaps"
-        },
-        "LandUse5": {
-            "order": 0,
-            "parentTab": "LandUse",
-            "permissions": null,
-            "redact": false,
-            "title": "Natural Hazards"
-        },
-        "LandUse-Planning": {
-            "order": 0,
-            "parentTab": "LandUse",
-            "permissions": null,
-            "redact": false,
-            "title": "Planning"
+            "title": "Drive-Times"
         },
         "WDCEP1": {
             "order": 0,
@@ -2342,40 +2474,40 @@
         }
     },
     "allTheTabs": {
-        "CityInfo": {
-            "isActive": false,
-            "order": 2,
-            "permissions": null,
-            "redact": false,
-            "title": "City Info"
-        },
-        "Development": {
-            "isActive": false,
-            "order": 1,
-            "permissions": null,
-            "redact": false,
-            "title": "Development"
-        },
-        "InPatient": {
-            "isActive": false,
-            "order": 5,
-            "permissions": "group.tab.Array",
-            "redact": false,
-            "title": "In Patient"
-        },
-        "Incentives": {
-            "isActive": false,
-            "order": 3,
-            "permissions": null,
-            "redact": false,
-            "title": "Incentives"
-        },
         "LandUse": {
             "isActive": true,
             "order": 0,
             "permissions": null,
             "redact": false,
             "title": "Land Use"
+        },
+        "CityInfo": {
+            "isActive": false,
+            "order": 1,
+            "permissions": null,
+            "redact": false,
+            "title": "City Info"
+        },
+        "Development": {
+            "isActive": false,
+            "order": 3,
+            "permissions": null,
+            "redact": false,
+            "title": "Development"
+        },
+        "Incentives": {
+            "isActive": false,
+            "order": 4,
+            "permissions": null,
+            "redact": false,
+            "title": "Incentives"
+        },
+        "Pivotal": {
+            "isActive": false,
+            "order": 5,
+            "permissions": "null",
+            "redact": false,
+            "title": "Pivotal"
         },
         "ParkHeights": {
             "isActive": false,
@@ -2386,7 +2518,7 @@
         },
         "WDCEP": {
             "isActive": false,
-            "order": 4,
+            "order": 7,
             "permissions": "layer.tab.WDCEP",
             "redact": false,
             "title": "WDCEP"
