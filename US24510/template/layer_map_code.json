@@ -14,6 +14,16 @@
             "polygons": {
                 "exists": false
             },
+            "points": {
+              "exists": true,
+              "pointLayers": {
+                "point1": {
+                  "type": "colorHash",
+                  "color": "#FF6680",
+                  "pointWidth": 24
+                }
+              }
+            },
             "rasters": {
                 "exists": false
             },
@@ -23,6 +33,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "MainBaciHospitals_Array",
+                        "if": "entity.properties.MainHospit == 'LifeBridge Health'",
                         "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
