@@ -699,6 +699,7 @@
             "id": 6,
             "isActive": false,
             "layerUsed": true,
+            "menuSection": "InPatient-Competitors",
             "mouseoverName": "Facilities - Hospitals",
             "order": 1,
             "subCategory": "2",
@@ -764,6 +765,7 @@
                 "sourceURL": "",
                 "type": "singleColumn"
             },
+            "menuSection": "InPatient-Competitors",
             "mouseoverName": "George Washington University Hospital Drive-Time",
             "order": 4,
             "subCategory": "2",
@@ -1433,6 +1435,7 @@
                 "type": "singleColumn"
             },
             "mouseoverName": "MedStar Georgetown University Hospital Drive-Time",
+            "menuSection": "InPatient-Competitors",
             "order": 2,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
@@ -1498,6 +1501,7 @@
                 "type": "singleColumn"
             },
             "mouseoverName": "MedStar Washington Hospital Center Drive-Time",
+            "menuSection": "InPatient-Competitors",
             "order": 3,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
@@ -4055,6 +4059,7 @@
                 "type": "singleColumn"
             },
             "mouseoverName": "Sibley Memorial University Hospital Drive-Time",
+            "menuSection": "InPatient-Competitors",
             "order": 5,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
@@ -5378,6 +5383,13 @@
             "permissions": "layer.section.WDCEP",
             "redact": false,
             "title": "WDCEP"
+        },
+        "InPatient-Competitors": {
+            "order": 0,
+            "parentTab": "InPatient",
+            "permissions": null,
+            "redact": false,
+            "title": "Competitors"
         }
     },
     "allTheTabs": {
