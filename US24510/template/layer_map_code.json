@@ -18,7 +18,7 @@
               "exists": true,
               "pointLayers": {
                 "point1": {
-                  "type": "rgb",
+                  "type": "singleColor",
                   "name": "entity.properties.NAME",
                   "color": {
                    "alpha": 0.5,
