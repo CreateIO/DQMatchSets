@@ -20,7 +20,7 @@
                 "point1": {
                   "type": "singleColor",
                   "name": "entity.properties.NAME",
-                  "if": "entity.properties.MainHospit == 'LifeBridge Health'",
+                  "iff": "entity.properties.MainHospit == 'LifeBridge Health'",
                   "color": {
                    "alpha": 0.5,
                    "type": "rgb",
@@ -39,7 +39,7 @@
                 "exists": false
             },
             "billboards": {
-                "exists": false,
+                "exists": true,
                 "billboardLayers": {
                     "billboard1": {
                         "type": "custom",
