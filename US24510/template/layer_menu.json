@@ -1,2223 +1,2387 @@
 {
-  "allTheLayers": {
-    "Major Land Use Initiatives": {
-      "id": 6,
-      "displayName": "",
-      "mouseoverName": "Major Land Use Initiatives",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "",
-        "sourceURL": "",
-        "sourceDescription": "",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#FF9C9F",
-            "boxDescription": "Major Site Residential Redevelopment Areas",
-            "imageUrl": null
-          },
-          "item2": {
-            "boxStyle": "background:#FEE293",
-            "boxDescription": "Cluster-Site Residential Redevelopment Areas",
-            "imageUrl": null
-          },
-          "item3": {
-            "boxStyle": "background:#FFFCEB",
-            "boxDescription": "Stabilization Areas",
-            "imageUrl": null
-          },
-          "item4": {
-            "boxStyle": "border: 2.5px solid #7758E0",
-            "boxDescription": "Historical Preservation Target Areas",
-            "imageUrl": null
-          },
-          "item5": {
-            "boxStyle": "background:#4600FE",
-            "boxDescription": "Neighborhood Center Area",
-            "imageUrl": null
-          },
-          "item6": {
-            "boxStyle": "background:#00DCDF",
-            "boxDescription": "Convenience and Service Corridor Areas",
-            "imageUrl": null
-          },
-          "item7": {
-            "boxStyle": "background:#00EA16",
-            "boxDescription": "Pimlico Racetrack Redevelopment Area",
-            "imageUrl": null
-          },
-          "item8": {
-            "boxStyle": "background:#FEFEBE",
-            "boxDescription": "Transit Oriented Development Areas",
-            "imageUrl": null
-          },
-          "item9": {
-            "boxStyle": "background:#FEBDFC",
-            "boxDescription": "Industrial Development Areas",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/MLUI.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "addLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "LandUseInitiatives_GeoRef"
-            }
-          }
+    "allTheLayers": {
+        "Area Master Plans": {
+            "category": "1",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_AreaMasterPlans"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Area Master Plans'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_AreaMasterPlans"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Boundaries of the Area Master Plans that have been approved by the Mayor & City Council of Baltimore. Click on polygons for details.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Area Master Plans",
+                        "boxStyle": "background:#FF8200",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/Geographic/Area-Master-Plans/es3e-9rfw",
+                "type": "singleColumn"
+            },
+            "mouseoverName": "Area Master Plans",
+            "order": 1,
+            "subCategory": "6",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/AMP.png"
         },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Land Use Initiatives'"
-          }
+        "Baltimore Hurricane Inundation Zones": {
+            "category": "1",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "BaltimoreHurricaneInnundationZones"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Hurricane Innundation Zones'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "BaltimoreHurricaneInnundationZones"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Major Water Body",
+                        "boxStyle": "background:#810f7c",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Category 1 Hurricane",
+                        "boxStyle": "background:#8856a7",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Category 2 Hurricane",
+                        "boxStyle": "background:#8c96c6",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "Category 3 Hurricane",
+                        "boxStyle": "background:#b3cde3",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "Category 4 Hurricane",
+                        "boxStyle": "background:#edf8fb",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse5",
+            "mouseoverName": "Baltimore Hurricane Innundation Zones",
+            "order": 1,
+            "subCategory": "5",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/HIZ.png"
         },
-        "removeFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "removeLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "LandUseInitiatives_GeoRef"
-            }
-          }
+        "CHAP Historic District Incentive Areas": {
+            "category": "4",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_CHAP_HistoricDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: CHAP Historic District Incentive Areas'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_CHAP_HistoricDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "CHAP Historic District Incentive Areas",
+                        "boxStyle": "background:#c3b9ee",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "Incentives1",
+            "mouseoverName": "CHAP Historic District Incentive Areas",
+            "order": 1,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/CHAP.png"
+        },
+        "City Boundary": {
+            "category": "2",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_City_of_Baltimore"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: City Boundary'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_City_of_Baltimore"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "City of Balimore boundary.",
+                        "boxStyle": "border: 2px dashed #e31a1c",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "baltimore.gov",
+                "sourceURL": "",
+                "type": "singleColumn"
+            },
+            "menuSection": "CityInfo1",
+            "mouseoverName": "City Boundary",
+            "order": 1,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CB.png"
+        },
+        "Cold Spring Center Redevelopment Plan": {
+            "category": "7",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "ParkHeightsShoppingCenter"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Park Heights Shopping Center'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "ParkHeightsShoppingCenter"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 9,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Proposed redevelopment plan for the Cold Spring Shopping Center.",
+                        "boxStyle": "width: 173px; height: 138px; display: block; margin-left: 0px;",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/ShoppingCenter_sm.png"
+                    }
+                },
+                "sourceDescription": "",
+                "sourceURL": "",
+                "type": "singleColumn"
+            },
+            "menuSection": "ParkHeights1",
+            "mouseoverName": "Cold Spring Center Redevelopment Plan",
+            "order": 1,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/CSCR.png"
+        },
+        "Council Districts": {
+            "category": "2",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_CouncilDistricts2011"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: 2011 Council Districts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_CouncilDistricts2011"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "2011 Council Districts",
+                        "boxStyle": "background:#aaddb2",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "CityInfo1",
+            "mouseoverName": "Council Districts",
+            "order": 2,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
+        },
+        "Create Neighborhoods": {
+            "category": "2",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_Neighborhoods2"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: (Create) Neighborhoods'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_Neighborhoods2"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Create Neighborhoods",
+                        "boxStyle": "border: 2px dashed #33a02c",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "",
+                "sourceURL": "",
+                "type": "singleColumn"
+            },
+            "menuSection": "CityInfo1",
+            "mouseoverName": "Create Neighborhoods",
+            "order": 3,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CN.png"
+        },
+        "Critical Area Overlay": {
+            "category": "1",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "CriticalAreaOverlay"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Critical Area Overlay'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "CriticalAreaOverlay"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Resource Conservation Areas - 100ft Buffer",
+                        "boxStyle": "background:#33a02c",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Resource Conservation Areas - 1000ft Buffer",
+                        "boxStyle": "background:#b2df8a",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Waterfront Industrial Areas - 100ft Buffer",
+                        "boxStyle": "background:#ff7f00",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "Waterfront Industrial Areas - 1000ft Buffer",
+                        "boxStyle": "background:#fdbf6f",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "Waterfront Revitalization Areas - 1000ft Buffer",
+                        "boxStyle": "background:#fb9a99",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse2",
+            "mouseoverName": "Critical Area Overlay",
+            "order": 2,
+            "subCategory": "2",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png"
+        },
+        "Enterprise Zone & EZ Focus Areas": {
+            "category": "4",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_EnterpriseZones"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Enterprise Zones & EZ Focus Areas'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_EnterpriseZones"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Enterprise Zone",
+                        "boxStyle": "background:#60acd2",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "EZ Focus Area",
+                        "boxStyle": "background:#1f78b4",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "Incentives1",
+            "mouseoverName": "Enterprise Zones & EZ Focus Areas",
+            "order": 2,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/EZ.png"
+        },
+        "Flood Zones": {
+            "category": "1",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Flood Zones",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "baltimoreFloodZones"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Hazard: Flood Zones'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "baltimoreFloodZones"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 5,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Polygon feature representing flood risk as defined by the FEMA Digital Flood Insurance Rate Map database. Last Updated 2014.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "VE (Extreme Risk)",
+                        "boxStyle": "background:#265da3",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "AE (Very High Risk)",
+                        "boxStyle": "background:#37b7c2",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "A (High Risk)",
+                        "boxStyle": "background:#b8dee6",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "0.2 Pct Annual Chance Flood Hazard",
+                        "boxStyle": "background:#a1dab4",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/Geographic/Floodplain-Shape/pqt8-n8r7",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse2",
+            "mouseoverName": "Floodplain Overlay Districts",
+            "order": 2,
+            "subCategory": "2",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/FZ.png"
+        },
+        "Food Desert Incentive Areas": {
+            "category": "4",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_FoodDesertIncentiveZones"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Food Desert Incentive Areas'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_FoodDesertIncentiveZones"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Food Desert Incentive Areas",
+                        "boxStyle": "background:#fb5263",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "Incentives1",
+            "mouseoverName": "Food Desert Incentive Areas",
+            "order": 3,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png"
+        },
+        "Foreign Trade Zones": {
+            "category": "4",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_ForeignTradeZone"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Foreign Trade Zones'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_ForeignTradeZone"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Foreign Trade Zones",
+                        "boxStyle": "background:#f3f617",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "Incentives1",
+            "mouseoverName": "Foreign Trade Zones",
+            "order": 4,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/FTZ.png"
+        },
+        "Habitat Protection Areas": {
+            "category": "1",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_HabitatProtectionAreas"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Habitat Protection Areas'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_HabitatProtectionAreas"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Habitat Projection Areas - Water",
+                        "boxStyle": "background:#4603b2",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Habitat Projection Areas - 100ft Buffer",
+                        "boxStyle": "background:#7634d2",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Habitat Projection Areas - 1000ft Buffer",
+                        "boxStyle": "background:#ba87f5",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "Maryland.gov",
+                "sourceURL": "http://data.imap.maryland.gov/datasets",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse2",
+            "mouseoverName": "Habitat Protection Areas",
+            "order": 3,
+            "subCategory": "2",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/HPA.png"
+        },
+        "Hub Zones": {
+            "category": "4",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_HubZones"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Hub Zones'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_HubZones"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Hub Zones",
+                        "boxStyle": "background:#20f378",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "Incentives1",
+            "mouseoverName": "Hub Zones",
+            "order": 5,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HUB.png"
+        },
+        "Legislative Districts": {
+            "category": "2",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_LegislativeDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Legislative Districts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_LegislativeDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Legislative Districts",
+                        "boxStyle": "background:#78b9f9",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "",
+                "sourceURL": "",
+                "type": "singleColumn"
+            },
+            "menuSection": "CityInfo1",
+            "mouseoverName": "Legislative Districts",
+            "order": 4,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/LD.png"
+        },
+        "MIZOD": {
+            "category": "1",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "MIZOD",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "mizod"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: MIZOD'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "mizod"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 8,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Maritime Industrial Zoning Overlay District boundaries.",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxDescription": "Canton/Marine Terminal",
+                        "boxStyle": "background:#7570b3;",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Fairfield/Curtis Bay",
+                        "boxStyle": "background:#ffff33;",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxDescription": "Hawkins Point",
+                        "boxStyle": "background:#4daf4a;",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Locust Point",
+                        "boxStyle": "background:#e41a1c;",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/Geographic/MIZOD/hkck-wphk",
+                "type": "doubleColumn"
+            },
+            "menuSection": "LandUse2",
+            "mouseoverName": "MIZOD",
+            "order": 4,
+            "subCategory": "2",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/MIZOD.png"
+        },
+        "Major Land Use Initiatives": {
+            "category": "7",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "LandUseInitiatives_GeoRef"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Land Use Initiatives'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "LandUseInitiatives_GeoRef"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Major Site Residential Redevelopment Areas",
+                        "boxStyle": "background:#FF9C9F",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Cluster-Site Residential Redevelopment Areas",
+                        "boxStyle": "background:#FEE293",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Stabilization Areas",
+                        "boxStyle": "background:#FFFCEB",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "Historical Preservation Target Areas",
+                        "boxStyle": "border: 2.5px solid #7758E0",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "Neighborhood Center Area",
+                        "boxStyle": "background:#4600FE",
+                        "imageUrl": null
+                    },
+                    "item6": {
+                        "boxDescription": "Convenience and Service Corridor Areas",
+                        "boxStyle": "background:#00DCDF",
+                        "imageUrl": null
+                    },
+                    "item7": {
+                        "boxDescription": "Pimlico Racetrack Redevelopment Area",
+                        "boxStyle": "background:#00EA16",
+                        "imageUrl": null
+                    },
+                    "item8": {
+                        "boxDescription": "Transit Oriented Development Areas",
+                        "boxStyle": "background:#FEFEBE",
+                        "imageUrl": null
+                    },
+                    "item9": {
+                        "boxDescription": "Industrial Development Areas",
+                        "boxStyle": "background:#FEBDFC",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "",
+                "sourceURL": "",
+                "type": "singleColumn"
+            },
+            "menuSection": "ParkHeights1",
+            "mouseoverName": "Major Land Use Initiatives",
+            "order": 2,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/MLUI.png"
+        },
+        "NRHP Historic Districts": {
+            "category": "1",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_NRHP_HistoricDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: NRHP Historic Districts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_NRHP_HistoricDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "National Register of Historic Places",
+                        "boxStyle": "background:#fdbf6f",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse3",
+            "mouseoverName": "NRHP Historic Districts",
+            "order": 1,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HD.png"
+        },
+        "One Maryland Tax Credit Jurisdiction": {
+            "category": "4",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_City_of_Baltimore"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'One Marlyand Tax Credit Jurisdiction'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_City_of_Baltimore"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "One Maryland Tax Credit qualified distressed county.",
+                        "boxStyle": "border: 2px dashed #e31a1c",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "Maryland.gov",
+                "sourceURL": "http://commerce.maryland.gov/fund/programs-for-businesses/one-maryland-tax-credit",
+                "type": "singleColumn"
+            },
+            "menuSection": "Incentives1",
+            "mouseoverName": "One Maryland Tax Credit Jurisdiction",
+            "order": 6,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/OMTC.png"
+        },
+        "Park Heights Boundary": {
+            "category": "7",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Park Heights Boundary",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "parkHeights"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Park Heights Boundary'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "parkHeights"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 8,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Park Heights neighborhood boundary.",
+                        "boxStyle": "background:#FFFF00",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "",
+                "sourceURL": "",
+                "type": "singleColumn"
+            },
+            "menuSection": "ParkHeights1",
+            "mouseoverName": "Park Heights Boundary",
+            "order": 3,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/PHB.png"
+        },
+        "Park Heights Vacant Properties": {
+            "category": "7",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "ParkHeightsVacantProperties"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Park Heights Vacant Properties'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "ParkHeightsVacantProperties"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 10,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Vacant buildings and lots in Park Heights.",
+                        "boxStyle": "width: 173px; height: 138px; display: block; margin-left: 0px;",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/VacantProperties_sm.png"
+                    }
+                },
+                "sourceDescription": "",
+                "sourceURL": "",
+                "type": "singleColumn"
+            },
+            "menuSection": "ParkHeights1",
+            "mouseoverName": "Park Heights Vacant Properties",
+            "order": 4,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/PHV.png"
+        },
+        "Pimlico Park Redevelopment Plan": {
+            "category": "7",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "PimlicoParkRedevelopment"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Park Heights Pimlico Park Redevelopment'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "PimlicoParkRedevelopment"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": false,
+            "id": 12,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Recommended Pimlico Park redevelopment.",
+                        "boxStyle": "width: 173px; height: 138px; display: block; margin-left: 0px;",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PimlicoParkRedevelopment_sm.png"
+                    }
+                },
+                "sourceDescription": "",
+                "sourceURL": "",
+                "type": "singleColumn"
+            },
+            "menuSection": "ParkHeights1",
+            "mouseoverName": "Pimlico Park Redevelopment Plan",
+            "order": 5,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/PPR.png"
+        },
+        "Planned Unit Development": {
+            "category": "1",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "PUD1"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Planned Unit Development'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "PUD1"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 1,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "PUD",
+                        "boxStyle": "background:#FFFF00",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse1",
+            "mouseoverName": "Planned Unit Development",
+            "order": 1,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png"
+        },
+        "Planning Districts": {
+            "category": "1",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_PlanningDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Planning Districts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_PlanningDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Central",
+                        "boxStyle": "background:#896fc2",
+                        "imageUrl": null
+                    },
+                    "item10": {
+                        "boxDescription": "Southeast",
+                        "boxStyle": "background:#b34756",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "East",
+                        "boxStyle": "background:#66c2a5",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Industrial",
+                        "boxStyle": "background:#fc8d62",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "North/Northeast",
+                        "boxStyle": "background:#8da0cb",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "Northwest & West",
+                        "boxStyle": "background:#e793bd",
+                        "imageUrl": null
+                    },
+                    "item6": {
+                        "boxDescription": "Outer East/Southeast",
+                        "boxStyle": "background:#a6d854",
+                        "imageUrl": null
+                    },
+                    "item7": {
+                        "boxDescription": "Outer West/Southwest",
+                        "boxStyle": "background:#ffe658",
+                        "imageUrl": null
+                    },
+                    "item8": {
+                        "boxDescription": "Park Heights Area",
+                        "boxStyle": "background:#e5c494",
+                        "imageUrl": null
+                    },
+                    "item9": {
+                        "boxDescription": "South",
+                        "boxStyle": "background:#b3b3b3",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "type": "singleColumn"
+            },
+            "mouseoverName": "Planning Districts",
+            "order": 4,
+            "subCategory": "6",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PD.png"
+        },
+        "Property Types": {
+            "category": "1",
+            "colors": {
+                "hex": {},
+                "type": "?"
+            },
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Property Use Types",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "toggleParcelFills",
+                        "parameters": {
+                            "param1": "add"
+                        },
+                        "service": "gltf3DService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "parcelUseLayer"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Parcel Use Layer'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "toggleParcelFills",
+                        "parameters": {
+                            "param1": "remove"
+                        },
+                        "service": "gltf3DService"
+                    },
+                    "func2": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "parcelUseLayer"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 48,
+            "isActive": false,
+            "layerUsed": true,
+            "menuSection": "LandUse1",
+            "mouseoverName": "Property Use Types",
+            "order": 2,
+            "subCategory": "1",
+            "urlLegend": "../../legends/layerPropertyType.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png"
+        },
+        "Proposed Development Plan": {
+            "category": "7",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Proposed Developement Plan",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "ParkHeightsProposedDevelopmentPlan"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Park Heights Proposed Development Plan'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "ParkHeightsProposedDevelopmentPlan"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": false,
+            "id": 11,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Proposed development plan.",
+                        "boxStyle": "width: 173px; height: 138px; display: block; margin-left: 0px;",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/ProposedDevelopmentPlan_sm.png"
+                    }
+                },
+                "sourceDescription": "",
+                "sourceURL": "",
+                "type": "singleColumn"
+            },
+            "menuSection": "ParkHeights1",
+            "mouseoverName": "Proposed Development Plan",
+            "order": 7,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/PDP.png"
+        },
+        "Proposed Park Heights Shuttle Loop": {
+            "category": "7",
+            "colors": {
+                "hex": {},
+                "type": "?"
+            },
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Proposed Park Heights Shuttle Loop",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ParkHeightsShuttleLoop"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "emits": {
+                    "emit1": {
+                        "parameters": {
+                            "param1": "tileZoom"
+                        },
+                        "type": "add"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Proposed Park Heights Shuttle Loop'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ParkHeightsShuttleLoop"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 42,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Shuttle Stops",
+                        "boxStyle": "border-radius: 20px; border: 8px solid #E15D5D",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Shuttle Line",
+                        "boxStyle": "background:#E15D5D",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Quarter mile buffer",
+                        "boxStyle": "border: 1.5px dashed #808080",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "",
+                "sourceURL": "",
+                "type": "singleColumn"
+            },
+            "menuSection": "ParkHeights1",
+            "mouseoverName": "Proposed Park Heights Shuttle Loop",
+            "order": 8,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/PPHSL.png"
+        },
+        "Rail Transit": {
+            "category": "2",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "transit",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "Rail Transit"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Rail Transit'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "Rail Transit"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 2,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxDescription": "Subway",
+                        "boxStyle": "background:#DE3B38;",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Light Rail",
+                        "boxStyle": "background:#FFDF01;",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item1": {
+                        "boxDescription": "Light Rail Stations",
+                        "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/RT.png"
+                    }
+                },
+                "sourceDescription": "Baltimore Open Data",
+                "sourceURL": "http://www.urbanrail.net/am/balt/baltimore.htm",
+                "type": "doubleColumn"
+            },
+            "menuSection": "CityInfo2",
+            "mouseoverName": "Rail Transit",
+            "order": 1,
+            "subCategory": "2",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/RT.png"
+        },
+        "Tax Credit Areas": {
+            "category": "4",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_TaxCreditAreas"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Tax Credit Areas'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_TaxCreditAreas"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Tax Credit Areas",
+                        "boxStyle": "background:#f7ab12",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "Incentives1",
+            "mouseoverName": "Tax Credit Areas",
+            "order": 7,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/TCA.png"
+        },
+        "URP": {
+            "category": "1",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "URP",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "urp"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Urban Renewal Plans'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "urp"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 4,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Boundaries of Urban Renewal Plans that have been approved by the Mayor & City Council of Baltimore.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Urban Renewal Plans",
+                        "boxStyle": "background:#02A647",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/Housing-Development/Urban-Renewal-Plans-URP-/byqd-cbfs",
+                "type": "singleColumn"
+            },
+            "mouseoverName": "Urban Renewal Plans",
+            "order": 2,
+            "subCategory": "6",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/URP.png"
+        },
+        "Vacant Buildings": {
+            "category": "4",
+            "colors": {
+                "hex": {},
+                "type": "?"
+            },
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Vacant Buildings",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "VacantBuildings"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "emits": {
+                    "emit1": {
+                        "parameters": {
+                            "param1": "tileZoom"
+                        },
+                        "type": "add"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Vacant Buildings"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "VacantBuildings"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 42,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "City of Baltimore vacant buildings.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Vacant Buildings",
+                        "boxStyle": "border-radius: 20px; border: 8px solid #E31A1C",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "",
+                "sourceURL": "http://gisdata.baltimorecity.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "Incentives1",
+            "mouseoverName": "Vacant Buildings",
+            "order": 8,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/VB.png"
+        },
+        "Vacant Lots": {
+            "category": "4",
+            "colors": {
+                "hex": {},
+                "type": "?"
+            },
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Vacant Lots",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "VacantLots"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "emits": {
+                    "emit1": {
+                        "parameters": {
+                            "param1": "tileZoom"
+                        },
+                        "type": "add"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Vacant Lots'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "VacantLots"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 42,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "City of Baltimore vacant lots.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Vacant Lots",
+                        "boxStyle": "border-radius: 20px; border: 8px solid #FF7F00",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "",
+                "sourceURL": "http://gisdata.baltimorecity.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "Incentives1",
+            "mouseoverName": "Vacant Lots",
+            "order": 9,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/VL.png"
+        },
+        "Ward Precincts": {
+            "category": "2",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_Wards"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Ward Precincts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_Wards"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Ward precinct boundaries prior to 2012",
+                        "boxStyle": "background:#6d9cc2",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "CityInfo1",
+            "mouseoverName": "Ward Precincts",
+            "order": 4,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/WP.png"
+        },
+        "Zoning Districts": {
+            "category": "1",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_ZoningDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Zoning Districts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_ZoningDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click map polygons for more information",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Business",
+                        "boxStyle": "background:#1A35E4",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Industrial",
+                        "boxStyle": "background:#BDEF84",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Office-Residence",
+                        "boxStyle": "background:#ED20DC",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "Open Space",
+                        "boxStyle": "background:#D87B56",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "Residence",
+                        "boxStyle": "background:#49E2AF",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse1",
+            "mouseoverName": "Zoning Districts",
+            "order": 3,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "historic district landmarks": {
+            "category": "1",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "CHAP Historic Landmarks",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "historic-district-landmarks"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "emits": {
+                    "emit1": {
+                        "parameters": {
+                            "param1": "clearBillboard"
+                        },
+                        "type": "remove"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: CHAP Historic Districts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "historic-district-landmarks"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 7,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Locations of Local (CHAP) Historic Landmarks as designated by the Commission on Historical & Architectural Preservation and the Mayor & City Council.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Historic Landmarks - CHAP",
+                        "boxStyle": "",
+                        "imageUrl": "../../geoJSON/layerIcons/circle-60.png"
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/Culture-Arts/Historic-Landmarks-CHAP/67u5-qhe5",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse3",
+            "mouseoverName": "CHAP Historic Landmarks",
+            "order": 2,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HL.png"
         }
-      },
-      "category": "7",
-      "subCategory": "1",
-      "order": 2
     },
-    "Baltimore Hurricane Inundation Zones": {
-      "id": 6,
-      "displayName": "",
-      "mouseoverName": "Baltimore Hurricane Innundation Zones",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "https://data.baltimorecity.gov/",
-        "sourceDescription": "OpenBaltimore",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#810f7c",
-            "boxDescription": "Major Water Body",
-            "imageUrl": null
-          },
-          "item2": {
-            "boxStyle": "background:#8856a7",
-            "boxDescription": "Category 1 Hurricane",
-            "imageUrl": null
-          },
-          "item3": {
-            "boxStyle": "background:#8c96c6",
-            "boxDescription": "Category 2 Hurricane",
-            "imageUrl": null
-          },
-          "item4": {
-            "boxStyle": "background:#b3cde3",
-            "boxDescription": "Category 3 Hurricane",
-            "imageUrl": null
-          },
-          "item5": {
-            "boxStyle": "background:#edf8fb",
-            "boxDescription": "Category 4 Hurricane",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/HIZ.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "addLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "BaltimoreHurricaneInnundationZones"
-            }
-          }
+    "allTheSections": {
+        "CityInfo1": {
+            "order": 0,
+            "parentTab": "CityInfo",
+            "permissions": null,
+            "redact": false,
+            "title": "Geography"
         },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Hurricane Innundation Zones'"
-          }
+        "CityInfo2": {
+            "order": 0,
+            "parentTab": "CityInfo",
+            "permissions": null,
+            "redact": false,
+            "title": "Amenities"
         },
-        "removeFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "removeLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "BaltimoreHurricaneInnundationZones"
-            }
-          }
+        "Development1": {
+            "order": 0,
+            "parentTab": "Development",
+            "permissions": null,
+            "redact": false,
+            "title": "Leasing"
+        },
+        "Development2": {
+            "order": 0,
+            "parentTab": "Development",
+            "permissions": null,
+            "redact": false,
+            "title": "Development"
+        },
+        "Development3": {
+            "order": 0,
+            "parentTab": "Development",
+            "permissions": null,
+            "redact": false,
+            "title": "Demographics"
+        },
+        "Incentives1": {
+            "order": 0,
+            "parentTab": "Incentives",
+            "permissions": null,
+            "redact": false,
+            "title": "Incentives"
+        },
+        "LandUse1": {
+            "order": 0,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Land Use & Entitlement"
+        },
+        "LandUse2": {
+            "order": -1,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Overlay Zones"
+        },
+        "LandUse3": {
+            "order": 2,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Historic Districts"
+        },
+        "LandUse4": {
+            "order": 0,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Heatmaps"
+        },
+        "LandUse5": {
+            "order": 0,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Natural Hazards"
+        },
+        "WDCEP1": {
+            "order": 0,
+            "parentTab": "WDCEP",
+            "permissions": "layer.section.WDCEP",
+            "redact": false,
+            "title": "WDCEP"
         }
-      },
-      "category": "1",
-      "subCategory": "5",
-      "order": 1
     },
-    "Food Desert Incentive Areas": {
-      "id": 6,
-      "displayName": "",
-      "mouseoverName": "Food Desert Incentive Areas",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "https://data.baltimorecity.gov/",
-        "sourceDescription": "OpenBaltimore",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#fb5263",
-            "boxDescription": "Food Desert Incentive Areas",
-            "imageUrl": null
-          }
+    "allTheTabs": {
+        "CityInfo": {
+            "isActive": false,
+            "order": 2,
+            "permissions": null,
+            "redact": false,
+            "title": "City Info"
+        },
+        "Development": {
+            "isActive": false,
+            "order": 1,
+            "permissions": null,
+            "redact": false,
+            "title": "Development"
+        },
+        "InPatient": {
+            "isActive": false,
+            "order": 5,
+            "permissions": "group.tab.Array",
+            "redact": false,
+            "title": "In Patient"
+        },
+        "Incentives": {
+            "isActive": false,
+            "order": 3,
+            "permissions": null,
+            "redact": false,
+            "title": "Incentives"
+        },
+        "LandUse": {
+            "isActive": true,
+            "order": 0,
+            "permissions": null,
+            "redact": false,
+            "title": "Land Use"
+        },
+        "ParkHeights": {
+            "isActive": false,
+            "order": 6,
+            "permissions": null,
+            "redact": false,
+            "title": "Park Heights"
+        },
+        "WDCEP": {
+            "isActive": false,
+            "order": 4,
+            "permissions": "layer.tab.WDCEP",
+            "redact": false,
+            "title": "WDCEP"
         }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_FoodDesertIncentiveZones"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Food Desert Incentive Areas'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_FoodDesertIncentiveZones"
-            }
-          }
-        }
-      },
-      "category": "4",
-      "subCategory": "1",
-      "order": 3
-    },
-    "Critical Area Overlay": {
-      "id": 6,
-      "displayName": "",
-      "mouseoverName": "Critical Area Overlay",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "https://data.baltimorecity.gov/",
-        "sourceDescription": "OpenBaltimore",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#33a02c",
-            "boxDescription": "Resource Conservation Areas - 100ft Buffer",
-            "imageUrl": null
-          },
-          "item2": {
-            "boxStyle": "background:#b2df8a",
-            "boxDescription": "Resource Conservation Areas - 1000ft Buffer",
-            "imageUrl": null
-          },
-          "item3": {
-            "boxStyle": "background:#ff7f00",
-            "boxDescription": "Waterfront Industrial Areas - 100ft Buffer",
-            "imageUrl": null
-          },
-          "item4": {
-            "boxStyle": "background:#fdbf6f",
-            "boxDescription": "Waterfront Industrial Areas - 1000ft Buffer",
-            "imageUrl": null
-          },
-          "item5": {
-            "boxStyle": "background:#e31a1c",
-            "boxDescription": "Waterfront Revitalization Areas - 100ft Buffer",
-            "imageUrl": null
-          },
-          "item5": {
-            "boxStyle": "background:#fb9a99",
-            "boxDescription": "Waterfront Revitalization Areas - 1000ft Buffer",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "CriticalAreaOverlay"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Critical Area Overlay'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "CriticalAreaOverlay"
-            }
-          }
-        }
-      },
-      "category": "1",
-      "subCategory": "2",
-      "order": 2
-    },
-    "Tax Credit Areas": {
-      "id": 6,
-      "displayName": "",
-      "mouseoverName": "Tax Credit Areas",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "https://data.baltimorecity.gov/",
-        "sourceDescription": "OpenBaltimore",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#f7ab12",
-            "boxDescription": "Tax Credit Areas",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/TCA.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_TaxCreditAreas"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Tax Credit Areas'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_TaxCreditAreas"
-            }
-          }
-        }
-      },
-      "category": "4",
-      "subCategory": "1",
-      "order": 7
-    },
-    "Foreign Trade Zones": {
-      "id": 6,
-      "displayName": "",
-      "mouseoverName": "Foreign Trade Zones",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "https://data.baltimorecity.gov/",
-        "sourceDescription": "OpenBaltimore",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#f3f617",
-            "boxDescription": "Foreign Trade Zones",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/FTZ.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_ForeignTradeZone"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Foreign Trade Zones'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_ForeignTradeZone"
-            }
-          }
-        }
-      },
-      "category": "4",
-      "subCategory": "1",
-      "order": 4
-    },
-    "City Boundary": {
-      "id": 6,
-      "displayName": "",
-      "mouseoverName": "City Boundary",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "",
-        "sourceDescription": "baltimore.gov",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "border: 2px dashed #e31a1c",
-            "boxDescription": "City of Balimore boundary.",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CB.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_City_of_Baltimore"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: City Boundary'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_City_of_Baltimore"
-            }
-          }
-        }
-      },
-      "category": "2",
-      "subCategory": "1",
-      "order": 1
-    },
-    "One Maryland Tax Credit Jurisdiction": {
-      "id": 6,
-      "displayName": "",
-      "mouseoverName": "One Maryland Tax Credit Jurisdiction",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "http://commerce.maryland.gov/fund/programs-for-businesses/one-maryland-tax-credit",
-        "sourceDescription": "Maryland.gov",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "border: 2px dashed #e31a1c",
-            "boxDescription": "One Maryland Tax Credit qualified distressed county.",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/OMTC.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_City_of_Baltimore"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'One Marlyand Tax Credit Jurisdiction'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_City_of_Baltimore"
-            }
-          }
-        }
-      },
-      "category": "4",
-      "subCategory": "1",
-      "order": 6
-    },
-    "Legislative Districts": {
-      "id": 6,
-      "displayName": "",
-      "mouseoverName": "Legislative Districts",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "",
-        "sourceDescription": "",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#78b9f9",
-            "boxDescription": "Legislative Districts",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/LD.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_LegislativeDistricts"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Legislative Districts'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_LegislativeDistricts"
-            }
-          }
-        }
-      },
-      "category": "2",
-      "subCategory": "1",
-      "order": 4
-    },
-    "Create Neighborhoods": {
-      "id": 6,
-      "displayName": "",
-      "mouseoverName": "Create Neighborhoods",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "",
-        "sourceDescription": "",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "border: 2px dashed #33a02c",
-            "boxDescription": "Create Neighborhoods",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CN.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_Neighborhoods2"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: (Create) Neighborhoods'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_Neighborhoods2"
-            }
-          }
-        }
-      },
-      "category": "2",
-      "subCategory": "1",
-      "order": 3
-    },
-    "Council Districts": {
-      "id": 6,
-      "displayName": "",
-      "mouseoverName": "Council Districts",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "https://data.baltimorecity.gov/",
-        "sourceDescription": "OpenBaltimore",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#aaddb2",
-            "boxDescription": "2011 Council Districts",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_CouncilDistricts2011"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: 2011 Council Districts'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_CouncilDistricts2011"
-            }
-          }
-        }
-      },
-      "category": "2",
-      "subCategory": "1",
-      "order": 2
-    },
-    "Zoning Districts": {
-      "id": 6,
-      "displayName": "",
-      "mouseoverName": "Zoning Districts",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "https://data.baltimorecity.gov/",
-        "sourceDescription": "OpenBaltimore",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#1A35E4",
-            "boxDescription": "Business",
-            "imageUrl": null
-          },
-          "item2": {
-            "boxStyle": "background:#BDEF84",
-            "boxDescription": "Industrial",
-            "imageUrl": null
-          },
-          "item3": {
-            "boxStyle": "background:#ED20DC",
-            "boxDescription": "Office-Residence",
-            "imageUrl": null
-          },
-          "item4": {
-            "boxStyle": "background:#D87B56",
-            "boxDescription": "Open Space",
-            "imageUrl": null
-          },
-          "item5": {
-            "boxStyle": "background:#49E2AF",
-            "boxDescription": "Residence",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_ZoningDistricts"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Zoning Districts'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_ZoningDistricts"
-            }
-          }
-        }
-      },
-      "category": "1",
-      "subCategory": "1",
-      "order": 3
-    },
-    "Planning Districts": {
-      "id": 6,
-      "displayName": "",
-      "mouseoverName": "Planning Districts",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "https://data.baltimorecity.gov/",
-        "sourceDescription": "OpenBaltimore",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#896fc2",
-            "boxDescription": "Central",
-            "imageUrl": null
-          },
-          "item2": {
-            "boxStyle": "background:#66c2a5",
-            "boxDescription": "East",
-            "imageUrl": null
-          },
-          "item3": {
-            "boxStyle": "background:#fc8d62",
-            "boxDescription": "Industrial",
-            "imageUrl": null
-          },
-          "item4": {
-            "boxStyle": "background:#8da0cb",
-            "boxDescription": "North/Northeast",
-            "imageUrl": null
-          },
-          "item5": {
-            "boxStyle": "background:#e793bd",
-            "boxDescription": "Northwest & West",
-            "imageUrl": null
-          },
-          "item6": {
-            "boxStyle": "background:#a6d854",
-            "boxDescription": "Outer East/Southeast",
-            "imageUrl": null
-          },
-          "item7": {
-            "boxStyle": "background:#ffe658",
-            "boxDescription": "Outer West/Southwest",
-            "imageUrl": null
-          },
-          "item8": {
-            "boxStyle": "background:#e5c494",
-            "boxDescription": "Park Heights Area",
-            "imageUrl": null
-          },
-          "item9": {
-            "boxStyle": "background:#b3b3b3",
-            "boxDescription": "South",
-            "imageUrl": null
-          },
-          "item10": {
-            "boxStyle": "background:#b34756",
-            "boxDescription": "Southeast",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PD.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_PlanningDistricts"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Planning Districts'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_PlanningDistricts"
-            }
-          }
-        }
-      },
-      "category": "1",
-      "subCategory": "6",
-      "order": 4
-    },
-    "Ward Precincts": {
-      "id": 6,
-      "displayName": "",
-      "mouseoverName": "Ward Precincts",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "https://data.baltimorecity.gov/",
-        "sourceDescription": "OpenBaltimore",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#6d9cc2",
-            "boxDescription": "Ward precinct boundaries prior to 2012",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/WP.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_Wards"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Ward Precincts'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_Wards"
-            }
-          }
-        }
-      },
-      "category": "2",
-      "subCategory": "1",
-      "order": 4
-    },
-    "Hub Zones": {
-      "id": 6,
-      "displayName": "",
-      "mouseoverName": "Hub Zones",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "https://data.baltimorecity.gov/",
-        "sourceDescription": "OpenBaltimore",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#20f378",
-            "boxDescription": "Hub Zones",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HUB.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_HubZones"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Hub Zones'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_HubZones"
-            }
-          }
-        }
-      },
-      "category": "4",
-      "subCategory": "1",
-      "order": 5
-    },
-    "CHAP Historic District Incentive Areas": {
-      "id": 6,
-      "displayName": "",
-      "mouseoverName": "CHAP Historic District Incentive Areas",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "https://data.baltimorecity.gov/",
-        "sourceDescription": "OpenBaltimore",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#c3b9ee",
-            "boxDescription": "CHAP Historic District Incentive Areas",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/CHAP.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_CHAP_HistoricDistricts"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: CHAP Historic District Incentive Areas'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_CHAP_HistoricDistricts"
-            }
-          }
-        }
-      },
-      "category": "4",
-      "subCategory": "1",
-      "order": 1
-    },
-    "Habitat Protection Areas": {
-      "id": 6,
-      "displayName": "",
-      "mouseoverName": "Habitat Protection Areas",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "http://data.imap.maryland.gov/datasets",
-        "sourceDescription": "Maryland.gov",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#4603b2",
-            "boxDescription": "Habitat Projection Areas - Water",
-            "imageUrl": null
-          },
-          "item2": {
-            "boxStyle": "background:#7634d2",
-            "boxDescription": "Habitat Projection Areas - 100ft Buffer",
-            "imageUrl": null
-          },
-          "item3": {
-            "boxStyle": "background:#ba87f5",
-            "boxDescription": "Habitat Projection Areas - 1000ft Buffer",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/HPA.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_HabitatProtectionAreas"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Habitat Protection Areas'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_HabitatProtectionAreas"
-            }
-          }
-        }
-      },
-      "category": "1",
-      "subCategory": "2",
-      "order": 3
-    },
-    "Enterprise Zone & EZ Focus Areas": {
-      "id": 6,
-      "displayName": "",
-      "mouseoverName": "Enterprise Zones & EZ Focus Areas",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "https://data.baltimorecity.gov/",
-        "sourceDescription": "OpenBaltimore",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#60acd2",
-            "boxDescription": "Enterprise Zone",
-            "imageUrl": null
-          },
-          "item2": {
-            "boxStyle": "background:#1f78b4",
-            "boxDescription": "EZ Focus Area",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/EZ.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_EnterpriseZones"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Enterprise Zones & EZ Focus Areas'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_EnterpriseZones"
-            }
-          }
-        }
-      },
-      "category": "4",
-      "subCategory": "1",
-      "order": 2
-    },
-    "Cold Spring Center Redevelopment Plan": {
-      "id": 9,
-      "displayName": "",
-      "mouseoverName": "Cold Spring Center Redevelopment Plan",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "",
-        "sourceURL": "",
-        "sourceDescription": "",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "width: 173px; height: 138px; display: block; margin-left: 0px;",
-            "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/ShoppingCenter_sm.png",
-            "boxDescription": "Proposed redevelopment plan for the Cold Spring Shopping Center."
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/CSCR.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "addLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "ParkHeightsShoppingCenter"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Park Heights Shopping Center'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "removeLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "ParkHeightsShoppingCenter"
-            }
-          }
-        }
-      },
-      "category": "7",
-      "subCategory": "1",
-      "order": 1
-    },
-    "Park Heights Vacant Properties": {
-      "id": 10,
-      "displayName": "",
-      "mouseoverName": "Park Heights Vacant Properties",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "",
-        "sourceURL": "",
-        "sourceDescription": "",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "width: 173px; height: 138px; display: block; margin-left: 0px;",
-            "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/VacantProperties_sm.png",
-            "boxDescription": "Vacant buildings and lots in Park Heights."
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/PHV.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "addLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "ParkHeightsVacantProperties"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Park Heights Vacant Properties'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "removeLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "ParkHeightsVacantProperties"
-            }
-          }
-        }
-      },
-      "category": "7",
-      "subCategory": "1",
-      "order": 4
-    },
-    "Proposed Development Plan": {
-      "id": 11,
-      "displayName": "Proposed Developement Plan",
-      "mouseoverName": "Proposed Development Plan",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": false,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "",
-        "sourceURL": "",
-        "sourceDescription": "",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "width: 173px; height: 138px; display: block; margin-left: 0px;",
-            "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/ProposedDevelopmentPlan_sm.png",
-            "boxDescription": "Proposed development plan."
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/PDP.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "addLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "ParkHeightsProposedDevelopmentPlan"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Park Heights Proposed Development Plan'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "removeLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "ParkHeightsProposedDevelopmentPlan"
-            }
-          }
-        }
-      },
-      "category": "7",
-      "subCategory": "1",
-      "order": 7
-    },
-    "Pimlico Park Redevelopment Plan": {
-      "id": 12,
-      "displayName": "",
-      "mouseoverName": "Pimlico Park Redevelopment Plan",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": false,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "",
-        "sourceURL": "",
-        "sourceDescription": "",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "width: 173px; height: 138px; display: block; margin-left: 0px;",
-            "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PimlicoParkRedevelopment_sm.png",
-            "boxDescription": "Recommended Pimlico Park redevelopment."
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/PPR.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "addLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "PimlicoParkRedevelopment"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Park Heights Pimlico Park Redevelopment'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "removeLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "PimlicoParkRedevelopment"
-            }
-          }
-        }
-      },
-      "category": "7",
-      "subCategory": "1",
-      "order": 5
-    },
-    "Proposed Park Heights Shuttle Loop": {
-      "id": 42,
-      "displayName": "Proposed Park Heights Shuttle Loop",
-      "mouseoverName": "Proposed Park Heights Shuttle Loop",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "",
-        "sourceURL": "",
-        "sourceDescription": "",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "border-radius: 20px; border: 8px solid #E15D5D",
-            "boxDescription": "Shuttle Stops",
-            "imageUrl": null
-          },
-          "item2": {
-            "boxStyle": "background:#E15D5D",
-            "boxDescription": "Shuttle Line",
-            "imageUrl": null
-          },
-          "item3": {
-            "boxStyle": "border: 1.5px dashed #808080",
-            "boxDescription": "Quarter mile buffer",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/PPHSL.png",
-      "colors": {
-        "type": "?",
-        "hex": {}
-      },
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "ParkHeightsShuttleLoop"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Proposed Park Heights Shuttle Loop'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "ParkHeightsShuttleLoop"
-            }
-          }
-        },
-        "emits": {
-          "emit1": {
-            "type": "add",
-            "parameters": {
-              "param1": "tileZoom"
-            }
-          }
-        }
-      },
-      "category": "7",
-      "subCategory": "1",
-      "order": 8
-    },
-    "Vacant Buildings": {
-      "id": 42,
-      "displayName": "Vacant Buildings",
-      "mouseoverName": "Vacant Buildings",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "City of Baltimore vacant buildings.",
-        "sourceURL": "http://gisdata.baltimorecity.gov/",
-        "sourceDescription": "",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "border-radius: 20px; border: 8px solid #E31A1C",
-            "boxDescription": "Vacant Buildings",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/VB.png",
-      "colors": {
-        "type": "?",
-        "hex": {}
-      },
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "VacantBuildings"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Vacant Buildings"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "VacantBuildings"
-            }
-          }
-        },
-        "emits": {
-          "emit1": {
-            "type": "add",
-            "parameters": {
-              "param1": "tileZoom"
-            }
-          }
-        }
-      },
-      "category": "4",
-      "subCategory": "1",
-      "order": 8
-    },
-    "Vacant Lots": {
-      "id": 42,
-      "displayName": "Vacant Lots",
-      "mouseoverName": "Vacant Lots",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "City of Baltimore vacant lots.",
-        "sourceURL": "http://gisdata.baltimorecity.gov/",
-        "sourceDescription": "",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "border-radius: 20px; border: 8px solid #FF7F00",
-            "boxDescription": "Vacant Lots",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/VL.png",
-      "colors": {
-        "type": "?",
-        "hex": {}
-      },
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "VacantLots"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Vacant Lots'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "VacantLots"
-            }
-          }
-        },
-        "emits": {
-          "emit1": {
-            "type": "add",
-            "parameters": {
-              "param1": "tileZoom"
-            }
-          }
-        }
-      },
-      "category": "4",
-      "subCategory": "1",
-      "order": 9
-    },
-    "Park Heights Boundary": {
-      "id": 8,
-      "displayName": "Park Heights Boundary",
-      "mouseoverName": "Park Heights Boundary",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "",
-        "sourceURL": "",
-        "sourceDescription": "",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#FFFF00",
-            "boxDescription": "Park Heights neighborhood boundary.",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/PHB.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "addLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "parkHeights"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Park Heights Boundary'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "removeLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "parkHeights"
-            }
-          }
-        }
-      },
-      "category": "7",
-      "subCategory": "1",
-      "order": 3
-    },
-    "Planned Unit Development": {
-      "id": 1,
-      "displayName": "",
-      "mouseoverName": "Planned Unit Development",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "https://data.baltimorecity.gov/",
-        "sourceDescription": "OpenBaltimore",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#FFFF00",
-            "boxDescription": "PUD",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PUD.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "addLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "PUD1"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Planned Unit Development'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "removeLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "PUD1"
-            }
-          }
-        }
-      },
-      "category": "1",
-      "subCategory": "1",
-      "order": 1
-    },
-    "Rail Transit": {
-      "id": 2,
-      "displayName": "transit",
-      "mouseoverName": "Rail Transit",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "",
-        "sourceURL": "http://www.urbanrail.net/am/balt/baltimore.htm",
-        "sourceDescription": "Baltimore Open Data",
-        "type": "doubleColumn",
-        "listItemsLeft": {
-          "item1": {
-            "boxStyle": "background:#DE3B38;",
-            "boxDescription": "Subway",
-            "imageUrl": null
-          },
-          "item2": {
-            "boxStyle": "background:#FFDF01;",
-            "boxDescription": "Light Rail",
-            "imageUrl": null
-          }
-        },
-        "listItemsRight": {
-          "item1": {
-            "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
-            "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/RT.png",
-            "boxDescription": "Light Rail Stations"
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/RT.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "addLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "Rail Transit"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Rail Transit'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "removeLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "Rail Transit"
-            }
-          }
-        }
-      },
-      "category": "2",
-      "subCategory": "2",
-      "order": 1
-    },
-    "Area Master Plans": {
-      "id": 6,
-      "displayName": "",
-      "mouseoverName": "Area Master Plans",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Boundaries of the Area Master Plans that have been approved by the Mayor & City Council of Baltimore. Click on polygons for details.",
-        "sourceURL": "https://data.baltimorecity.gov/Geographic/Area-Master-Plans/es3e-9rfw",
-        "sourceDescription": "OpenBaltimore",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#FF8200",
-            "boxDescription": "Area Master Plans",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/AMP.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_AreaMasterPlans"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Area Master Plans'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_AreaMasterPlans"
-            }
-          }
-        }
-      },
-      "category": "1",
-      "subCategory": "6",
-      "order": 1
-    },
-    "URP": {
-      "id": 4,
-      "displayName": "URP",
-      "mouseoverName": "Urban Renewal Plans",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Boundaries of Urban Renewal Plans that have been approved by the Mayor & City Council of Baltimore.",
-        "sourceURL": "https://data.baltimorecity.gov/Housing-Development/Urban-Renewal-Plans-URP-/byqd-cbfs",
-        "sourceDescription": "OpenBaltimore",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#02A647",
-            "boxDescription": "Urban Renewal Plans",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/URP.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "addLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "urp"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Urban Renewal Plans'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "removeLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "urp"
-            }
-          }
-        }
-      },
-      "category": "1",
-      "subCategory": "6",
-      "order": 2
-    },
-    "Flood Zones": {
-      "id": 5,
-      "displayName": "Flood Zones",
-      "mouseoverName": "Floodplain Overlay Districts",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Polygon feature representing flood risk as defined by the FEMA Digital Flood Insurance Rate Map database. Last Updated 2014.",
-        "sourceURL": "https://data.baltimorecity.gov/Geographic/Floodplain-Shape/pqt8-n8r7",
-        "sourceDescription": "OpenBaltimore",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#265da3",
-            "boxDescription": "VE (Extreme Risk)",
-            "imageUrl": null
-          },
-          "item2": {
-            "boxStyle": "background:#37b7c2",
-            "boxDescription": "AE (Very High Risk)",
-            "imageUrl": null
-          },
-          "item3": {
-            "boxStyle": "background:#b8dee6",
-            "boxDescription": "A (High Risk)",
-            "imageUrl": null
-          },
-          "item4": {
-            "boxStyle": "background:#a1dab4",
-            "boxDescription": "0.2 Pct Annual Chance Flood Hazard",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/FZ.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "addLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "baltimoreFloodZones"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Hazard: Flood Zones'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "removeLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "baltimoreFloodZones"
-            }
-          }
-        }
-      },
-      "category": "1",
-      "subCategory": "2",
-      "order": 2
-    },
-    "NRHP Historic Districts": {
-      "id": 6,
-      "displayName": "",
-      "mouseoverName": "NRHP Historic Districts",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Click map polygons for more information",
-        "sourceURL": "https://data.baltimorecity.gov/",
-        "sourceDescription": "OpenBaltimore",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "background:#fdbf6f",
-            "boxDescription": "National Register of Historic Places",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HD.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_NRHP_HistoricDistricts"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: NRHP Historic Districts'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "baci_NRHP_HistoricDistricts"
-            }
-          }
-        }
-      },
-      "category": "1",
-      "subCategory": "3",
-      "order": 1
-    },
-    "historic district landmarks": {
-      "id": 7,
-      "displayName": "CHAP Historic Landmarks",
-      "mouseoverName": "CHAP Historic Landmarks",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Locations of Local (CHAP) Historic Landmarks as designated by the Commission on Historical & Architectural Preservation and the Mayor & City Council.",
-        "sourceURL": "https://data.baltimorecity.gov/Culture-Arts/Historic-Landmarks-CHAP/67u5-qhe5",
-        "sourceDescription": "OpenBaltimore",
-        "type": "singleColumn",
-        "listItems": {
-          "item1": {
-            "boxStyle": "",
-            "imageUrl": "../../geoJSON/layerIcons/circle-60.png",
-            "boxDescription": "Historic Landmarks - CHAP"
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HL.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "addLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "historic-district-landmarks"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: CHAP Historic Districts'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "removeLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "historic-district-landmarks"
-            }
-          }
-        },
-        "emits": {
-          "emit1": {
-            "type": "remove",
-            "parameters": {
-              "param1": "clearBillboard"
-            }
-          }
-        }
-      },
-      "category": "1",
-      "subCategory": "3",
-      "order": 2
-    },
-    "MIZOD": {
-      "id": 8,
-      "displayName": "MIZOD",
-      "mouseoverName": "MIZOD",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/template-legend.jade",
-      "legendContents": {
-        "description": "Maritime Industrial Zoning Overlay District boundaries.",
-        "sourceURL": "https://data.baltimorecity.gov/Geographic/MIZOD/hkck-wphk",
-        "sourceDescription": "OpenBaltimore",
-        "type": "doubleColumn",
-        "listItemsLeft": {
-          "item1": {
-            "boxStyle": "background:#7570b3;",
-            "boxDescription": "Canton/Marine Terminal",
-            "imageUrl": null
-          },
-          "item2": {
-            "boxStyle": "background:#ffff33;",
-            "boxDescription": "Fairfield/Curtis Bay",
-            "imageUrl": null
-          }
-        },
-        "listItemsRight": {
-          "item1": {
-            "boxStyle": "background:#4daf4a;",
-            "boxDescription": "Hawkins Point",
-            "imageUrl": null
-          },
-          "item2": {
-            "boxStyle": "background:#e41a1c;",
-            "boxDescription": "Locust Point",
-            "imageUrl": null
-          }
-        }
-      },
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/MIZOD.png",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "addLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "mizod"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: MIZOD'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "mapOverlayService",
-            "functionName": "removeLayer",
-            "parameters": {
-              "param1": "$scope",
-              "param2": "mizod"
-            }
-          }
-        }
-      },
-      "category": "1",
-      "subCategory": "2",
-      "order": 4
-    },
-    "Property Types": {
-      "id": 48,
-      "displayName": "Property Use Types",
-      "mouseoverName": "Property Use Types",
-      "denyToggle": false,
-      "denyList": {
-        "denyList1": null
-      },
-      "isActive": false,
-      "layerUsed": true,
-      "hasLegend": true,
-      "urlLegend": "../../legends/layerPropertyType.jade",
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png",
-      "colors": {
-        "type": "?",
-        "hex": {}
-      },
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "service": "gltf3DService",
-            "functionName": "toggleParcelFills",
-            "parameters": {
-              "param1": "add"
-            }
-          },
-          "func2": {
-            "service": "tileMapServiceService",
-            "functionName": "addDynamicTMSLayer",
-            "parameters": {
-              "param1": "parcelUseLayer"
-            }
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Baltimore Data: Parcel Use Layer'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "service": "gltf3DService",
-            "functionName": "toggleParcelFills",
-            "parameters": {
-              "param1": "remove"
-            }
-          },
-          "func2": {
-            "service": "tileMapServiceService",
-            "functionName": "removeDynamicTMSLayer",
-            "parameters": {
-              "param1": "parcelUseLayer"
-            }
-          }
-        }
-      },
-      "category": "1",
-      "subCategory": "1",
-      "order": 2
     }
-  }
 }
