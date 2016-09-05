@@ -264,7 +264,7 @@
             },
             "menuSection": "Pivotal-DriveTimes",
             "mouseoverName": "Drive-Times",
-            "order": 1,
+            "order": 2,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/DT2.png"
@@ -330,7 +330,7 @@
             },
             "menuSection": "Pivotal-DriveTimes",
             "mouseoverName": "Drive-Times",
-            "order": 1,
+            "order": 3,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/DT3.png"
