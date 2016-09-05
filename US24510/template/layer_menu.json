@@ -2726,7 +2726,7 @@
         "Pivotal": {
             "isActive": false,
             "order": 5,
-            "permissions": "null",
+            "permissions": null,
             "redact": false,
             "title": "Pivotal"
         },
