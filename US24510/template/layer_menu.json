@@ -42,9 +42,19 @@
                 "description": "",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Locations of the Baltimore regional hospitals.",
-                        "boxStyle": "background:#FFFF00",
-                        "imageUrl": null
+                        "boxDescription": "The Johns Hopkins Hospital",
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/images/array/JohnsHopkinsWolfSt_logo.png"
+                    },
+                    "item2": {
+                        "boxDescription": "Sinai Hospital of Baltimore",
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/images/array/SinaiHospitalofBaltimore_logo.png"
+                    },
+                    "item3": {
+                        "boxDescription": "University of Maryland Medical Center",
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/images/array/MarylandMedicalCenter_logo.png"
                     }
                 },
                 "sourceDescription": "",
@@ -100,8 +110,23 @@
                 "description": "",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Locations of the Baltimore regional hospitals.",
-                        "boxStyle": "background:#FFFF00",
+                        "boxDescription": "Sinai Hospital of Baltimore Facilities",
+                        "boxStyle": "border-radius: 20px; border: 8px solid #2F87C3",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Johns Hopkins Facilities",
+                        "boxStyle": "border-radius: 20px; border: 8px solid #FFD101",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "University of Maryland Facilities",
+                        "boxStyle": "border-radius: 20px; border: 8px solid #DD3640",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "MedStat Facilities",
+                        "boxStyle": "border-radius: 20px; border: 8px solid #003777",
                         "imageUrl": null
                     }
                 },
