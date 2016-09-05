@@ -20,7 +20,6 @@
                 "point1": {
                   "type": "singleColor",
                   "name": "entity.properties.NAME",
-                  "iff": "entity.properties.MainHospit == 'LifeBridge Health'",
                   "color": {
                    "alpha": 0.5,
                    "type": "rgb",

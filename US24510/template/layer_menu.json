@@ -61,8 +61,8 @@
                 "sourceURL": "",
                 "type": "singleColumn"
             },
-            "menuSection": "Pivotal-Hospitals",
-            "mouseoverName": "Main Hospitals",
+            "menuSection": "Pivotal-Facilities",
+            "mouseoverName": "Main Facilities",
             "order": 3,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
@@ -111,22 +111,22 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Sinai Hospital of Baltimore Facilities",
-                        "boxStyle": "border-radius: 20px; border: 8px solid #2F87C3",
+                        "boxStyle": "border-radius: 20px; border: 8.5px solid #2F87C3",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "Johns Hopkins Facilities",
-                        "boxStyle": "border-radius: 20px; border: 8px solid #FFD101",
+                        "boxStyle": "border-radius: 20px; border: 8.5px solid #FFD101",
                         "imageUrl": null
                     },
                     "item3": {
                         "boxDescription": "University of Maryland Facilities",
-                        "boxStyle": "border-radius: 20px; border: 8px solid #DD3640",
+                        "boxStyle": "border-radius: 20px; border: 8.5px solid #DD3640",
                         "imageUrl": null
                     },
                     "item4": {
-                        "boxDescription": "MedStat Facilities",
-                        "boxStyle": "border-radius: 20px; border: 8px solid #003777",
+                        "boxDescription": "MedStar Facilities",
+                        "boxStyle": "border-radius: 20px; border: 8.5px solid #003777",
                         "imageUrl": null
                     }
                 },
@@ -134,15 +134,13 @@
                 "sourceURL": "",
                 "type": "singleColumn"
             },
-            "menuSection": "Pivotal-Hospitals",
-            "mouseoverName": "Hospitals",
+            "menuSection": "Pivotal-Facilities",
+            "mouseoverName": "Facilities",
             "order": 3,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/H.png"
         },
-
-
         "Area Master Plans": {
             "category": "1",
             "denyList": {
@@ -2476,12 +2474,12 @@
             "redact": false,
             "title": "Incentives"
         },
-        "Pivotal-Hospitals": {
+        "Pivotal-Facilities": {
             "order": 0,
             "parentTab": "Pivotal",
             "permissions": null,
             "redact": false,
-            "title": "Hospitals"
+            "title": "Facilities"
         },
         "Pivotal-DriveTimes": {
             "order": 0,
