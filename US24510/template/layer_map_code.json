@@ -125,10 +125,10 @@
                             "z": 5
                         },
                         "NearFarScalar": {
-                            "minElevation": 4000,
+                            "minElevation": 1,
                             "maxElevation": 100000,
-                            "minScale": 0.7,
-                            "maxScale": 0.2
+                            "minScale": 0.5,
+                            "maxScale": 0.1
                         }
                     },
                     "billboard2": {
@@ -142,10 +142,10 @@
                             "z": 5
                         },
                         "NearFarScalar": {
-                            "minElevation": 4000,
+                            "minElevation": 100,
                             "maxElevation": 100000,
-                            "minScale": 0.7,
-                            "maxScale": 0.2
+                            "minScale": 0.6,
+                            "maxScale": 0.15
                         }
                     },
                     "billboard3": {
