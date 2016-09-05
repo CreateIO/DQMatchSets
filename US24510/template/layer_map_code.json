@@ -185,6 +185,120 @@
                 }
             }
         },
+    "baci_UoMarylandMedicalCenter_dt": {
+      "name": "baci_UoMarylandMedicalCenter_dt",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_UoMarylandMedicalCenter_dt",
+        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_UoMarylandMedicalCenter_dt@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.80,
+          "yMin": 39.21,
+          "xMax": -76.46,
+          "yMax": 39.42
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 0.75,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "baci_LifeBridgeHealth_dt": {
+      "name": "baci_LifeBridgeHealth_dt",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_LifeBridgeHealth_dt",
+        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_LifeBridgeHealth_dt@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.84,
+          "yMin": 39.28,
+          "xMax": -76.49,
+          "yMax": 39.49
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 0.75,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "baci_JohnsHopkins_dt": {
+      "name": "baci_JohnsHopkins_dt",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_JohnsHopkins_dt",
+        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_JohnsHopkins_dt@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.69,
+          "yMin": 39.24,
+          "xMax": -76.47,
+          "yMax": 39.38
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 0.75,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
     "parkHeights": {
       "name": "parkHeights",
       "removeName": "parkHeights.geojson",
