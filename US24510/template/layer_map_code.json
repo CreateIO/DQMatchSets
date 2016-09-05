@@ -43,7 +43,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "MainBaciHospitals_Array",
-                        "if": "entity.properties.MapName == 'Sinai Hospital Of Baltimore'",
+                        "if": "entity.properties.MapName == 'Sinai Hospital of Baltimore'",
                         "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/SH_logo.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
