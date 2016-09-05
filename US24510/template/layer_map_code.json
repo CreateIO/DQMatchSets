@@ -94,9 +94,9 @@
                 }
             }
         },
-        "OtherBaciHospitals_Array": {
-            "name": "OtherBaciHospitals_Array",
-            "removeName": "OtherBaciHospitals_Array.geojson",
+        "OtherBaciHospitals_Array2": {
+            "name": "OtherBaciHospitals_Array2",
+            "removeName": "OtherBaciHospitals_Array2.geojson",
             "url": "https://s3.amazonaws.com/models-dc/geoJSON/OtherBaciHospitals_Array2.geojson",
             "cartographic": true,
             "id": {
@@ -116,7 +116,7 @@
                 "billboardLayers": {
                     "billboard1": {
                         "type": "custom",
-                        "name": "OtherBaciHospitals_Array",
+                        "name": "OtherBaciHospitals_Array2",
                         "if": "entity.properties.MainHospit == 'LifeBridge Health'",
                         "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/royalblue_H.png",
                         "position": {
@@ -133,7 +133,7 @@
                     },
                     "billboard2": {
                         "type": "custom",
-                        "name": "OtherBaciHospitals_Array",
+                        "name": "OtherBaciHospitals_Array2",
                         "if": "entity.properties.MainHospit == 'Johns Hopkins'",
                         "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/gold_H.png",
                         "position": {
@@ -151,7 +151,7 @@
                     "billboard3": {
                         "type": "custom",
                         "if": "entity.properties.MainHospit == 'University of Maryland Medical Center'",
-                        "name": "OtherBaciHospitals_Array",
+                        "name": "OtherBaciHospitals_Array2",
                         "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/red_H.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
@@ -167,7 +167,7 @@
                     },
                     "billboard4": {
                         "type": "custom",
-                        "name": "OtherBaciHospitals_Array",
+                        "name": "OtherBaciHospitals_Array2",
                         "if": "entity.properties.MainHospit == 'MedStar'",
                         "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/navyblue_H.png",
                         "position": {
