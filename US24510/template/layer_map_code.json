@@ -53,8 +53,8 @@
                         "NearFarScalar": {
                             "minElevation": 1,
                             "maxElevation": 100000,
-                            "minScale": 0.4,
-                            "maxScale": 0.07
+                            "minScale": 0.3,
+                            "maxScale": 0.05
                         }
                     },
                     "billboard2": {
