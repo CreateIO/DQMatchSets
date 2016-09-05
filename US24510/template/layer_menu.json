@@ -20,7 +20,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Baltimore Data: Array main hospitals'"
+                        "param1": "'Array Data: Baltimore hospitals'"
                     }
                 },
                 "removeFunctions": {
@@ -43,17 +43,17 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "The Johns Hopkins Hospital",
-                        "boxStyle": "",
+                        "boxStyle": "width: 200px; height: 121px; display: block; margin-left: 0px;",
                         "imageUrl": "https://s3.amazonaws.com/create-common/images/array/JohnsHopkinsWolfSt_logo.png"
                     },
                     "item2": {
                         "boxDescription": "Sinai Hospital of Baltimore",
-                        "boxStyle": "",
+                        "boxStyle": "width: 200px; height: 80px; display: block; margin-left: 0px;",
                         "imageUrl": "https://s3.amazonaws.com/create-common/images/array/SinaiHospitalofBaltimore_logo.png"
                     },
                     "item3": {
                         "boxDescription": "University of Maryland Medical Center",
-                        "boxStyle": "",
+                        "boxStyle": "width: 200px; height: 53px; display: block; margin-left: 0px;",
                         "imageUrl": "https://s3.amazonaws.com/create-common/images/array/MarylandMedicalCenter_logo.png"
                     }
                 },
@@ -88,7 +88,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Baltimore Data: Array other hospitals'"
+                        "param1": "'Array Data: Baltimore area hospitals'"
                     }
                 },
                 "removeFunctions": {
@@ -111,18 +111,22 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Sinai Hospital of Baltimore Facilities",
+                        "boxStyle": "width: 35px; height: 50px; display: block; margin-left: 0px;",
                         "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/red_H.png"
                     },
                     "item2": {
                         "boxDescription": "Johns Hopkins Facilities",
+                        "boxStyle": "width: 35px; height: 50px; display: block; margin-left: 0px;",
                         "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/gold_H.png"
                     },
                     "item3": {
                         "boxDescription": "University of Maryland Facilities",
+                        "boxStyle": "width: 35px; height: 50px; display: block; margin-left: 0px;",
                         "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/royalblue_H.png"
                     },
                     "item4": {
                         "boxDescription": "MedStar Facilities",
+                        "boxStyle": "width: 35px; height: 50px; display: block; margin-left: 0px;",
                         "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/navyblue_H.png"
                     }
                 },
