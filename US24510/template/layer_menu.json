@@ -111,23 +111,19 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Sinai Hospital of Baltimore Facilities",
-                        "boxStyle": "border-radius: 20px; border: 8.5px solid #2F87C3",
-                        "imageUrl": null
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/red_H.png"
                     },
                     "item2": {
                         "boxDescription": "Johns Hopkins Facilities",
-                        "boxStyle": "border-radius: 20px; border: 8.5px solid #FFD101",
-                        "imageUrl": null
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/gold_H.png"
                     },
                     "item3": {
                         "boxDescription": "University of Maryland Facilities",
-                        "boxStyle": "border-radius: 20px; border: 8.5px solid #DD3640",
-                        "imageUrl": null
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/royalblue_H.png"
                     },
                     "item4": {
                         "boxDescription": "MedStar Facilities",
-                        "boxStyle": "border-radius: 20px; border: 8.5px solid #003777",
-                        "imageUrl": null
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/navyblue_H.png"
                     }
                 },
                 "sourceDescription": "",

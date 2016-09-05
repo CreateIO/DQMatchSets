@@ -118,7 +118,7 @@
                         "type": "custom",
                         "name": "OtherBaciHospitals_Array",
                         "if": "entity.properties.MainHospit == 'LifeBridge Health'",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/royalblue_H.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -135,7 +135,7 @@
                         "type": "custom",
                         "name": "OtherBaciHospitals_Array",
                         "if": "entity.properties.MainHospit == 'Johns Hopkins'",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/gold_H.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -152,7 +152,7 @@
                         "type": "custom",
                         "if": "entity.properties.MainHospit == 'University of Maryland Medical Center'",
                         "name": "OtherBaciHospitals_Array",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/red_H.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -169,7 +169,7 @@
                         "type": "custom",
                         "name": "OtherBaciHospitals_Array",
                         "if": "entity.properties.MainHospit == 'MedStar'",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/navyblue_H.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
