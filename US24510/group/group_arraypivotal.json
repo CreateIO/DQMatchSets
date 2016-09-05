@@ -1,0 +1,31 @@
+{
+  "group_name": "Array Pivotal Product",
+  "last_update": "09/05/16",
+  "init": {
+    "group_display_name": "Pivotal",
+    "class_name": "pivotal-array",
+    "url": "http://array-analytics.io/",
+    "favicon": "https://s3.amazonaws.com/create-common/logo/pivotal-icon-192x192.png",
+    "logo": "https://s3.amazonaws.com/create-common/logo/pivotal-mark.png" ,
+    "start_position":{ "camera": [
+        {
+          "name": "Baltimore Overhead",
+          "cameraPosition": {
+            "type":"LineString",
+            "coordinates":[[-76.6178, 39.31381, 30.0],[-76.6178, 39.31390, 20000]],
+            "height": null
+          }
+        }
+    ] },
+    "start_layers": { "Property Types": "off", "Facilities - Hospitals": "on" },
+    "start_menus": { "Layer_Menu": "open", "Layer_Pivotal": "open" }
+  },
+  "layers": {
+  },
+  "filters": {
+  },
+  "infobox": {
+  },
+  "tms": {
+  }
+}
