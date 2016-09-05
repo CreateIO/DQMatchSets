@@ -44,51 +44,51 @@
                         "type": "custom",
                         "name": "MainBaciHospitals_Array",
                         "if": "entity.properties.MapName == 'Sinai Hospital Of Baltimore'",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/SH_logo.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
                             "z": 5
                         },
                         "NearFarScalar": {
-                            "minElevation": 4000,
+                            "minElevation": 1,
                             "maxElevation": 100000,
-                            "minScale": 0.7,
-                            "maxScale": 0.2
+                            "minScale": 0.5,
+                            "maxScale": 0.1
                         }
                     },
                     "billboard2": {
                         "type": "custom",
                         "name": "MainBaciHospitals_Array",
                         "if": "entity.properties.MapName == 'The Johns Hopkins Hospital'",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/JH_logo.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
                             "z": 5
                         },
                         "NearFarScalar": {
-                            "minElevation": 4000,
+                            "minElevation": 1,
                             "maxElevation": 100000,
-                            "minScale": 0.7,
-                            "maxScale": 0.2
+                            "minScale": 0.5,
+                            "maxScale": 0.1
                         }
                     },
                     "billboard3": {
                         "type": "custom",
                         "name": "MainBaciHospitals_Array",
                         "if": "entity.properties.MapName == 'University of Maryland Medical System'",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/blueDot.png",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/UoM_logo.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
                             "z": 5
                         },
                         "NearFarScalar": {
-                            "minElevation": 4000,
+                            "minElevation": 1,
                             "maxElevation": 100000,
-                            "minScale": 0.7,
-                            "maxScale": 0.2
+                            "minScale": 0.5,
+                            "maxScale": 0.1
                         }
                     }
                 }
@@ -122,7 +122,7 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 5
+                            "z": 6
                         },
                         "NearFarScalar": {
                             "minElevation": 1,
@@ -139,7 +139,7 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 5
+                            "z": 6
                         },
                         "NearFarScalar": {
                             "minElevation": 1,
@@ -156,7 +156,7 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 5
+                            "z": 6
                         },
                         "NearFarScalar": {
                             "minElevation": 1,
@@ -173,7 +173,7 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 5
+                            "z": 6
                         },
                         "NearFarScalar": {
                             "minElevation": 1,
