@@ -97,7 +97,7 @@
         "OtherBaciHospitals_Array": {
             "name": "OtherBaciHospitals_Array",
             "removeName": "OtherBaciHospitals_Array.geojson",
-            "url": "https://s3.amazonaws.com/models-dc/geoJSON/OtherBaciHospitals_Array.geojson",
+            "url": "https://s3.amazonaws.com/models-dc/geoJSON/OtherBaciHospitals_Array2.geojson",
             "cartographic": true,
             "id": {
                 "exists": false
