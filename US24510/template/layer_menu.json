@@ -16,14 +16,6 @@
                             "param2": "MainBaciHospitals_Array"
                         },
                         "service": "mapOverlayService"
-                    },
-                    "func2": {
-                        "functionName": "addLayer2",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "OtherBaciHospitals_Array"
-                        },
-                        "service": "mapOverlayService"
                     }
                 },
                 "piwikTrack": {
@@ -37,14 +29,6 @@
                         "parameters": {
                             "param1": "$scope",
                             "param2": "MainBaciHospitals_Array"
-                        },
-                        "service": "mapOverlayService"
-                    },
-                    "func2": {
-                        "functionName": "removeLayer2",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "OtherBaciHospitals_Array"
                         },
                         "service": "mapOverlayService"
                     }

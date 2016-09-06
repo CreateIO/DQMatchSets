@@ -90,31 +90,8 @@
                             "minScale": 0.4,
                             "maxScale": 0.09
                         }
-                    }
-                }
-            }
-        },
-        "OtherBaciHospitals_Array": {
-            "name": "OtherBaciHospitals_Array",
-            "removeName": "OtherBaciHospitals_Array.geojson",
-            "url": "https://s3.amazonaws.com/models-dc/geoJSON/OtherBaciHospitals_Array.geojson",
-            "cartographic": true,
-            "id": {
-                "exists": false
-            },
-            "labels": {
-                "exists": false
-            },
-            "polygons": {
-                "exists": false
-            },
-            "rasters": {
-                "exists": false
-            },
-            "billboards": {
-                "exists": true,
-                "billboardLayers": {
-                    "billboard1": {
+                    },
+                    "billboard4": {
                         "type": "custom",
                         "name": "OtherBaciHospitals_Array",
                         "if": "entity.properties.MainHospit == 'Johns Hopkins'",
@@ -131,7 +108,7 @@
                             "maxScale": 0.04
                         }
                     },
-                    "billboard2": {
+                    "billboard5": {
                         "type": "custom",
                         "if": "entity.properties.MainHospit == 'University of Maryland Medical Center'",
                         "name": "OtherBaciHospitals_Array",
@@ -148,7 +125,7 @@
                             "maxScale": 0.04
                         }
                     },
-                    "billboard3": {
+                    "billboard6": {
                         "type": "custom",
                         "name": "OtherBaciHospitals_Array",
                         "if": "entity.properties.MainHospit == 'MedStar'",
