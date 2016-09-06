@@ -1,12 +1,12 @@
 {
     "allTheLayers": {
-        "Main Hospitals": {
+        "Facilities - Main Hospitals": {
             "category": "7",
             "denyList": {
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "Main Hospitals",
+            "displayName": "Facilities - Main Hospitals",
             "functions": {
                 "addFunctions": {
                     "func1": {
@@ -62,19 +62,19 @@
                 "type": "singleColumn"
             },
             "menuSection": "Pivotal-Facilities",
-            "mouseoverName": "Main Facilities",
+            "mouseoverName": "Facilities - Main Hospitals",
             "order": 3,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/MH.png"
         },
-        "Other Baci Hospitals": {
+        "Facilities - Hospitals": {
             "category": "7",
             "denyList": {
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "Other Hospitals",
+            "displayName": "Facilities - Hospitals",
             "functions": {
                 "addFunctions": {
                     "func1": {
@@ -111,22 +111,22 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Sinai Hospital of Baltimore Facilities",
-                        "boxStyle": "width: 35px; height: 50px; display: block; margin-left: 0px;",
+                        "boxStyle": "width: 30px; height: 42px",
                         "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/red_H.png"
                     },
                     "item2": {
                         "boxDescription": "Johns Hopkins Facilities",
-                        "boxStyle": "width: 35px; height: 50px; display: block; margin-left: 0px;",
+                        "boxStyle": "width: 30px; height: 42px",
                         "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/gold_H.png"
                     },
                     "item3": {
                         "boxDescription": "University of Maryland Facilities",
-                        "boxStyle": "width: 35px; height: 50px; display: block; margin-left: 0px;",
+                        "boxStyle": "width: 30px; height: 42px",
                         "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/royalblue_H.png"
                     },
                     "item4": {
                         "boxDescription": "MedStar Facilities",
-                        "boxStyle": "width: 35px; height: 50px; display: block; margin-left: 0px;",
+                        "boxStyle": "width: 30px; height: 42px",
                         "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/navyblue_H.png"
                     }
                 },
