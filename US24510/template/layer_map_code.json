@@ -42,7 +42,7 @@
                 "billboardLayers": {
                     "billboard1": {
                         "type": "custom",
-                        "name": "MainBaciHospitals_Array",
+                        "name": "MainBaciHospitals_Array_SH",
                         "if": "entity.properties.MapName == 'Sinai Hospital of Baltimore'",
                         "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/SH_logo.png",
                         "position": {
@@ -59,7 +59,7 @@
                     },
                     "billboard2": {
                         "type": "custom",
-                        "name": "MainBaciHospitals_Array",
+                        "name": "MainBaciHospitals_Array_JH",
                         "if": "entity.properties.MapName == 'The Johns Hopkins Hospital'",
                         "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/JH_logo.png",
                         "position": {
@@ -76,7 +76,7 @@
                     },
                     "billboard3": {
                         "type": "custom",
-                        "name": "MainBaciHospitals_Array",
+                        "name": "MainBaciHospitals_Array_UM",
                         "if": "entity.properties.MapName == 'University of Maryland Medical System'",
                         "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/UoM_logo.png",
                         "position": {
@@ -93,7 +93,7 @@
                     },
                     "billboard4": {
                         "type": "custom",
-                        "name": "OtherBaciHospitals_Array",
+                        "name": "OtherBaciHospitals_Array_JH",
                         "if": "entity.properties.MainHospit == 'Johns Hopkins'",
                         "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/gold_H.png",
                         "position": {
@@ -111,7 +111,7 @@
                     "billboard5": {
                         "type": "custom",
                         "if": "entity.properties.MainHospit == 'University of Maryland Medical Center'",
-                        "name": "OtherBaciHospitals_Array",
+                        "name": "OtherBaciHospitals_Array_UM",
                         "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/red_H.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
@@ -127,7 +127,7 @@
                     },
                     "billboard6": {
                         "type": "custom",
-                        "name": "OtherBaciHospitals_Array",
+                        "name": "OtherBaciHospitals_Array_MS",
                         "if": "entity.properties.MainHospit == 'MedStar'",
                         "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/navyblue_H.png",
                         "position": {
