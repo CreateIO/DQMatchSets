@@ -43,18 +43,18 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "The Johns Hopkins Hospital",
-                        "boxStyle": "width: 200px; height: 121px; display: block; margin-left: 0px;",
-                        "imageUrl": "https://s3.amazonaws.com/create-common/images/array/JohnsHopkinsWolfSt_logo2.png"
+                        "boxStyle": "width: 150px; height: 95px; display: block; margin-left: 0px;",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/JohnsHopkinsWolfSt_logo2.png"
                     },
                     "item2": {
                         "boxDescription": "Sinai Hospital of Baltimore",
-                        "boxStyle": "width: 200px; height: 80px; display: block; margin-left: 0px;",
+                        "boxStyle": "width: 150px; height: 60px; display: block; margin-left: 0px;",
                         "imageUrl": "https://s3.amazonaws.com/create-common/images/array/SinaiHospitalofBaltimore_logo.png"
                     },
                     "item3": {
                         "boxDescription": "University of Maryland Medical Center",
-                        "boxStyle": "width: 200px; height: 53px; display: block; margin-left: 0px;",
-                        "imageUrl": "https://s3.amazonaws.com/create-common/images/array/MarylandMedicalCenter_logo2.png"
+                        "boxStyle": "width: 150px; height: 40px; display: block; margin-left: 0px;",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/MarylandMedicalCenter_logo2.png"
                     }
                 },
                 "sourceDescription": "",
