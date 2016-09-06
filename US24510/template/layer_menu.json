@@ -1,5 +1,344 @@
 {
     "allTheLayers": {
+        "Main Hospitals": {
+            "category": "7",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Main Hospitals",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "MainBaciHospitals_Array"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Array Data: Baltimore hospitals'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "MainBaciHospitals_Array"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 8,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "The Johns Hopkins Hospital",
+                        "boxStyle": "width: 200px; height: 121px; display: block; margin-left: 0px;",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/images/array/JohnsHopkinsWolfSt_logo2.png"
+                    },
+                    "item2": {
+                        "boxDescription": "Sinai Hospital of Baltimore",
+                        "boxStyle": "width: 200px; height: 80px; display: block; margin-left: 0px;",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/images/array/SinaiHospitalofBaltimore_logo.png"
+                    },
+                    "item3": {
+                        "boxDescription": "University of Maryland Medical Center",
+                        "boxStyle": "width: 200px; height: 53px; display: block; margin-left: 0px;",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/images/array/MarylandMedicalCenter_logo2.png"
+                    }
+                },
+                "sourceDescription": "",
+                "sourceURL": "",
+                "type": "singleColumn"
+            },
+            "menuSection": "Pivotal-Facilities",
+            "mouseoverName": "Main Facilities",
+            "order": 3,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/MH.png"
+        },
+        "Other Baci Hospitals": {
+            "category": "7",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Other Hospitals",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "OtherBaciHospitals_Array"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Array Data: Baltimore area hospitals'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "OtherBaciHospitals_Array"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 8,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Sinai Hospital of Baltimore Facilities",
+                        "boxStyle": "width: 35px; height: 50px; display: block; margin-left: 0px;",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/red_H.png"
+                    },
+                    "item2": {
+                        "boxDescription": "Johns Hopkins Facilities",
+                        "boxStyle": "width: 35px; height: 50px; display: block; margin-left: 0px;",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/gold_H.png"
+                    },
+                    "item3": {
+                        "boxDescription": "University of Maryland Facilities",
+                        "boxStyle": "width: 35px; height: 50px; display: block; margin-left: 0px;",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/royalblue_H.png"
+                    },
+                    "item4": {
+                        "boxDescription": "MedStar Facilities",
+                        "boxStyle": "width: 35px; height: 50px; display: block; margin-left: 0px;",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/navyblue_H.png"
+                    }
+                },
+                "sourceDescription": "",
+                "sourceURL": "",
+                "type": "singleColumn"
+            },
+            "menuSection": "Pivotal-Facilities",
+            "mouseoverName": "Facilities",
+            "order": 3,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/H.png"
+        },
+       "Johns Hopkins Hospital Drive-Time": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_JohnsHopkins_dt"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Array Data: Johns Hopkins Hospital Drive-Time'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_JohnsHopkins_dt"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Analysis showing 5, 10 & 15 minute drive-times from the Johns Hopkins Hopsital.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "0-5 Minute Drive-Time",
+                        "boxStyle": "background:#2C7FB8",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "5-10 Minute Drive-Time",
+                        "boxStyle": "background:#41B6C4",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "10-15 Minute Drive-Time",
+                        "boxStyle": "background:#A1DAB4",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "Pivotal",
+                "sourceURL": "",
+                "type": "singleColumn"
+            },
+            "menuSection": "Pivotal-DriveTimes",
+            "mouseoverName": "Drive-Times",
+            "order": 1,
+            "subCategory": "2",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/DT1.png"
+        },
+        "Sinai Hospital of Baltimore Drive-Time": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_LifeBridgeHealth_dt"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Array Data: Sinai Hospital of Baltimore Drive-Time'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_LifeBridgeHealth_dt"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Analysis showing 5, 10 & 15 minute drive-times from the Sinai Hopsital of Baltimore.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "0-5 Minute Drive-Time",
+                        "boxStyle": "background:#2C7FB8",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "5-10 Minute Drive-Time",
+                        "boxStyle": "background:#41B6C4",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "10-15 Minute Drive-Time",
+                        "boxStyle": "background:#A1DAB4",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "Pivotal",
+                "sourceURL": "",
+                "type": "singleColumn"
+            },
+            "menuSection": "Pivotal-DriveTimes",
+            "mouseoverName": "Drive-Times",
+            "order": 2,
+            "subCategory": "2",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/DT2.png"
+        },
+        "University of Maryland Medical Center Drive-Time": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_UoMarylandMedicalCenter_dt"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Array Data: University of Maryland Medical Center Drive-Time'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_UoMarylandMedicalCenter_dt"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Analysis showing 5, 10 & 15 minute drive-times from the University of Maryland Medical Center.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "0-5 Minute Drive-Time",
+                        "boxStyle": "background:#2C7FB8",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "5-10 Minute Drive-Time",
+                        "boxStyle": "background:#41B6C4",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "10-15 Minute Drive-Time",
+                        "boxStyle": "background:#A1DAB4",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "Pivotal",
+                "sourceURL": "",
+                "type": "singleColumn"
+            },
+            "menuSection": "Pivotal-DriveTimes",
+            "mouseoverName": "Drive-Times",
+            "order": 3,
+            "subCategory": "2",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/DT3.png"
+        },
         "Area Master Plans": {
             "category": "1",
             "denyList": {
@@ -49,6 +388,7 @@
                 "sourceURL": "https://data.baltimorecity.gov/Geographic/Area-Master-Plans/es3e-9rfw",
                 "type": "singleColumn"
             },
+            "menuSection": "LandUse-Planning",
             "mouseoverName": "Area Master Plans",
             "order": 1,
             "subCategory": "6",
@@ -2248,6 +2588,48 @@
         }
     },
     "allTheSections": {
+       "LandUse1": {
+            "order": 0,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Land Use & Entitlement"
+        },
+        "LandUse2": {
+            "order": -1,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Overlay Zones"
+        },
+        "LandUse3": {
+            "order": 2,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Historic Districts"
+        },
+        "LandUse4": {
+            "order": 0,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Heatmaps"
+        },
+        "LandUse5": {
+            "order": 0,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Natural Hazards"
+        }, 
+        "LandUse-Planning": {
+            "order": 0,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Planning"
+        },    
         "CityInfo1": {
             "order": 0,
             "parentTab": "CityInfo",
@@ -2290,40 +2672,19 @@
             "redact": false,
             "title": "Incentives"
         },
-        "LandUse1": {
+        "Pivotal-Facilities": {
             "order": 0,
-            "parentTab": "LandUse",
+            "parentTab": "Pivotal",
             "permissions": null,
             "redact": false,
-            "title": "Land Use & Entitlement"
+            "title": "Facilities"
         },
-        "LandUse2": {
-            "order": -1,
-            "parentTab": "LandUse",
-            "permissions": null,
-            "redact": false,
-            "title": "Overlay Zones"
-        },
-        "LandUse3": {
-            "order": 2,
-            "parentTab": "LandUse",
-            "permissions": null,
-            "redact": false,
-            "title": "Historic Districts"
-        },
-        "LandUse4": {
+        "Pivotal-DriveTimes": {
             "order": 0,
-            "parentTab": "LandUse",
+            "parentTab": "Pivotal",
             "permissions": null,
             "redact": false,
-            "title": "Heatmaps"
-        },
-        "LandUse5": {
-            "order": 0,
-            "parentTab": "LandUse",
-            "permissions": null,
-            "redact": false,
-            "title": "Natural Hazards"
+            "title": "Drive-Times"
         },
         "WDCEP1": {
             "order": 0,
@@ -2334,40 +2695,40 @@
         }
     },
     "allTheTabs": {
-        "CityInfo": {
-            "isActive": false,
-            "order": 2,
-            "permissions": null,
-            "redact": false,
-            "title": "City Info"
-        },
-        "Development": {
-            "isActive": false,
-            "order": 1,
-            "permissions": null,
-            "redact": false,
-            "title": "Development"
-        },
-        "InPatient": {
-            "isActive": false,
-            "order": 5,
-            "permissions": "group.tab.Array",
-            "redact": false,
-            "title": "In Patient"
-        },
-        "Incentives": {
-            "isActive": false,
-            "order": 3,
-            "permissions": null,
-            "redact": false,
-            "title": "Incentives"
-        },
         "LandUse": {
             "isActive": true,
             "order": 0,
             "permissions": null,
             "redact": false,
             "title": "Land Use"
+        },
+        "CityInfo": {
+            "isActive": false,
+            "order": 1,
+            "permissions": null,
+            "redact": false,
+            "title": "City Info"
+        },
+        "Development": {
+            "isActive": false,
+            "order": 3,
+            "permissions": null,
+            "redact": false,
+            "title": "Development"
+        },
+        "Incentives": {
+            "isActive": false,
+            "order": 4,
+            "permissions": null,
+            "redact": false,
+            "title": "Incentives"
+        },
+        "Pivotal": {
+            "isActive": false,
+            "order": 5,
+            "permissions": null,
+            "redact": false,
+            "title": "Pivotal"
         },
         "ParkHeights": {
             "isActive": false,
@@ -2378,7 +2739,7 @@
         },
         "WDCEP": {
             "isActive": false,
-            "order": 4,
+            "order": 7,
             "permissions": "layer.tab.WDCEP",
             "redact": false,
             "title": "WDCEP"

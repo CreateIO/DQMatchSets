@@ -1,5 +1,6 @@
 {
   "name": "Baltimore",
+  "initials": "BACI",
   "regions": [
     {
       "name": "City of Baltimore",
@@ -17,12 +18,12 @@
               [
                 -76.606955,
                 39.281690,
-                3.0
+                30.0
               ],
               [
-                -76.606955,
+                -76.610955,
                 39.281690,
-               400.0
+               300.0
               ]
             ],
             "height": null
