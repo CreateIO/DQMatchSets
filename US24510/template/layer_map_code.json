@@ -165,9 +165,9 @@
         "extension": "png",
         "coords": {
           "xMin": -76.80,
-          "yMin": 39.21,
-          "xMax": -76.46,
-          "yMax": 39.42
+          "yMin": 36.15,
+          "xMax": -76.45,
+          "yMax": 39.40
         },
         "tileWidth": 256,
         "tileHeight": 256,
