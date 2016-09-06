@@ -18,7 +18,7 @@
                         "service": "mapOverlayService"
                     },
                     "func2": {
-                        "functionName": "addLayer",
+                        "functionName": "addLayer2",
                         "parameters": {
                             "param1": "$scope",
                             "param2": "OtherBaciHospitals_Array"
@@ -41,7 +41,7 @@
                         "service": "mapOverlayService"
                     },
                     "func2": {
-                        "functionName": "removeLayer",
+                        "functionName": "removeLayer2",
                         "parameters": {
                             "param1": "$scope",
                             "param2": "OtherBaciHospitals_Array"
