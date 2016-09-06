@@ -5,10 +5,10 @@
     {
       "name": "City of Baltimore",
       "regionTag": "US24510",
-      "filterTemplate": "filters_021216",
+      "filterTemplate": "filters",
       "layerMenuTemplate": "layer_menu",
       "layerMapCodeTemplate": "layer_map_code",
-      "infoboxTemplate": "infobox_021216",
+      "infoboxTemplate": "infobox",
       "camera": [
         {
           "name": "Inner Harbor",
