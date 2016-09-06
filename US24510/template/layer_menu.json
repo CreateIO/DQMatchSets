@@ -18,7 +18,7 @@
                         "service": "mapOverlayService"
                     },
                     "func2": {
-                        "functionName": "addLayer",
+                        "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
                             "param2": "OtherBaciHospitals_Array"
@@ -28,7 +28,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Baltimore Data: Parcel Use Layer'"
+                        "param1": "'Array Data: Baltimore hospitals'"
                     }
                 },
                 "removeFunctions": {
