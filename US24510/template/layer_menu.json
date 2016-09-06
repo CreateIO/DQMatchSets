@@ -116,7 +116,7 @@
                     },
                     "item2": {
                         "boxDescription": "Johns Hopkins Facilities",
-                        "boxStyle": "width: 325px; height: 35px; margin-right: 2px;",
+                        "boxStyle": "width: 25px; height: 35px; margin-right: 2px;",
                         "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/gold_H.png"
                     },
                     "item3": {
