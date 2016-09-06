@@ -18,7 +18,7 @@
                         "service": "mapOverlayService"
                     },
                     "func2": {
-                        "functionName": "removeLayer",
+                        "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
                             "param2": "OtherBaciHospitals_Array"
@@ -28,7 +28,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Array Data: Baltimore hospitals'"
+                        "param1": "'Baltimore Data: Parcel Use Layer'"
                     }
                 },
                 "removeFunctions": {
@@ -82,7 +82,7 @@
             "order": 3,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/MH.png"
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/H.png"
         },
        "Johns Hopkins Hospital Drive-Time": {
             "category": "6",
