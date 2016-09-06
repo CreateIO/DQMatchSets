@@ -53,7 +53,7 @@
                         "NearFarScalar": {
                             "minElevation": 1,
                             "maxElevation": 100000,
-                            "minScale": 0.3,
+                            "minScale": 0.25,
                             "maxScale": 0.05
                         }
                     },
@@ -70,8 +70,8 @@
                         "NearFarScalar": {
                             "minElevation": 1,
                             "maxElevation": 100000,
-                            "minScale": 0.5,
-                            "maxScale": 0.1
+                            "minScale": 0.3,
+                            "maxScale": 0.05
                         }
                     },
                     "billboard3": {
@@ -87,8 +87,8 @@
                         "NearFarScalar": {
                             "minElevation": 1,
                             "maxElevation": 100000,
-                            "minScale": 0.5,
-                            "maxScale": 0.1
+                            "minScale": 0.4,
+                            "maxScale": 0.09
                         }
                     }
                 }
@@ -117,23 +117,6 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "OtherBaciHospitals_Array",
-                        "if": "entity.properties.MainHospit == 'LifeBridge Health'",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/royalblue_H.png",
-                        "position": {
-                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
-                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 6
-                        },
-                        "NearFarScalar": {
-                            "minElevation": 1,
-                            "maxElevation": 100000,
-                            "minScale": 0.4,
-                            "maxScale": 0.05
-                        }
-                    },
-                    "billboard2": {
-                        "type": "custom",
-                        "name": "OtherBaciHospitals_Array",
                         "if": "entity.properties.MainHospit == 'Johns Hopkins'",
                         "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/gold_H.png",
                         "position": {
@@ -144,11 +127,11 @@
                         "NearFarScalar": {
                             "minElevation": 1,
                             "maxElevation": 100000,
-                            "minScale": 0.4,
-                            "maxScale": 0.05
+                            "minScale": 0.3,
+                            "maxScale": 0.04
                         }
                     },
-                    "billboard3": {
+                    "billboard2": {
                         "type": "custom",
                         "if": "entity.properties.MainHospit == 'University of Maryland Medical Center'",
                         "name": "OtherBaciHospitals_Array",
@@ -161,11 +144,11 @@
                         "NearFarScalar": {
                             "minElevation": 1,
                             "maxElevation": 100000,
-                            "minScale": 0.4,
-                            "maxScale": 0.05
+                            "minScale": 0.3,
+                            "maxScale": 0.04
                         }
                     },
-                    "billboard4": {
+                    "billboard3": {
                         "type": "custom",
                         "name": "OtherBaciHospitals_Array",
                         "if": "entity.properties.MainHospit == 'MedStar'",
@@ -178,8 +161,8 @@
                         "NearFarScalar": {
                             "minElevation": 1,
                             "maxElevation": 100000,
-                            "minScale": 0.4,
-                            "maxScale": 0.05
+                            "minScale": 0.3,
+                            "maxScale": 0.04
                         }
                     }
                 }

@@ -1,12 +1,12 @@
 {
     "allTheLayers": {
-        "Main Hospitals": {
+        "Facilities - Hospitals": {
             "category": "7",
             "denyList": {
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "Main Hospitals",
+            "displayName": "Facilities - Main Hospitals",
             "functions": {
                 "addFunctions": {
                     "func1": {
@@ -14,6 +14,14 @@
                         "parameters": {
                             "param1": "$scope",
                             "param2": "MainBaciHospitals_Array"
+                        },
+                        "service": "mapOverlayService"
+                    },
+                    "func2": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "OtherBaciHospitals_Array"
                         },
                         "service": "mapOverlayService"
                     }
@@ -31,68 +39,8 @@
                             "param2": "MainBaciHospitals_Array"
                         },
                         "service": "mapOverlayService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 8,
-            "isActive": false,
-            "layerUsed": true,
-            "legendContents": {
-                "description": "",
-                "listItems": {
-                    "item1": {
-                        "boxDescription": "The Johns Hopkins Hospital",
-                        "boxStyle": "width: 200px; height: 121px; display: block; margin-left: 0px;",
-                        "imageUrl": "https://s3.amazonaws.com/create-common/images/array/JohnsHopkinsWolfSt_logo2.png"
                     },
-                    "item2": {
-                        "boxDescription": "Sinai Hospital of Baltimore",
-                        "boxStyle": "width: 200px; height: 80px; display: block; margin-left: 0px;",
-                        "imageUrl": "https://s3.amazonaws.com/create-common/images/array/SinaiHospitalofBaltimore_logo.png"
-                    },
-                    "item3": {
-                        "boxDescription": "University of Maryland Medical Center",
-                        "boxStyle": "width: 200px; height: 53px; display: block; margin-left: 0px;",
-                        "imageUrl": "https://s3.amazonaws.com/create-common/images/array/MarylandMedicalCenter_logo2.png"
-                    }
-                },
-                "sourceDescription": "",
-                "sourceURL": "",
-                "type": "singleColumn"
-            },
-            "menuSection": "Pivotal-Facilities",
-            "mouseoverName": "Main Facilities",
-            "order": 3,
-            "subCategory": "1",
-            "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/MH.png"
-        },
-        "Other Baci Hospitals": {
-            "category": "7",
-            "denyList": {
-                "denyList1": null
-            },
-            "denyToggle": false,
-            "displayName": "Other Hospitals",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "OtherBaciHospitals_Array"
-                        },
-                        "service": "mapOverlayService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Array Data: Baltimore area hospitals'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
+                    "func2": {
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
@@ -110,24 +58,19 @@
                 "description": "",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Sinai Hospital of Baltimore Facilities",
-                        "boxStyle": "width: 35px; height: 50px; display: block; margin-left: 0px;",
-                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/red_H.png"
+                        "boxDescription": "The Johns Hopkins Hospital",
+                        "boxStyle": "width: 125px; height: 76px; display: block; margin-bottom: 2px;",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/JohnsHopkinsWolfSt_logo2.png"
                     },
                     "item2": {
-                        "boxDescription": "Johns Hopkins Facilities",
-                        "boxStyle": "width: 35px; height: 50px; display: block; margin-left: 0px;",
-                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/gold_H.png"
+                        "boxDescription": "Sinai Hospital of Baltimore",
+                        "boxStyle": "width: 150px; height: 60px; display: block; margin-bottom: 2px;",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/images/array/SinaiHospitalofBaltimore_logo.png"
                     },
                     "item3": {
-                        "boxDescription": "University of Maryland Facilities",
-                        "boxStyle": "width: 35px; height: 50px; display: block; margin-left: 0px;",
-                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/royalblue_H.png"
-                    },
-                    "item4": {
-                        "boxDescription": "MedStar Facilities",
-                        "boxStyle": "width: 35px; height: 50px; display: block; margin-left: 0px;",
-                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/navyblue_H.png"
+                        "boxDescription": "University of Maryland Medical Center",
+                        "boxStyle": "width: 150px; height: 40px; display: block; margin-bottom: 2px;",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/MarylandMedicalCenter_logo2.png"
                     }
                 },
                 "sourceDescription": "",
@@ -135,7 +78,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "Pivotal-Facilities",
-            "mouseoverName": "Facilities",
+            "mouseoverName": "Facilities - Hospitals",
             "order": 3,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
@@ -201,7 +144,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "Pivotal-DriveTimes",
-            "mouseoverName": "Drive-Times",
+            "mouseoverName": "Johns Hopkins Hospital Drive-Time",
             "order": 1,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
@@ -267,7 +210,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "Pivotal-DriveTimes",
-            "mouseoverName": "Drive-Times",
+            "mouseoverName": "Sinai Hospital of Baltimore Drive-Time",
             "order": 2,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
@@ -333,7 +276,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "Pivotal-DriveTimes",
-            "mouseoverName": "Drive-Times",
+            "mouseoverName": "University of Maryland Medical Center Drive-Time",
             "order": 3,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
