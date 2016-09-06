@@ -1,6 +1,6 @@
 {
     "allTheLayers": {
-        "Facilities - Main Hospitals": {
+        "Facilities - Hospitals": {
             "category": "7",
             "denyList": {
                 "denyList1": null
@@ -16,6 +16,14 @@
                             "param2": "MainBaciHospitals_Array"
                         },
                         "service": "mapOverlayService"
+                    },
+                    "func2": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "OtherBaciHospitals_Array"
+                        },
+                        "service": "mapOverlayService"
                     }
                 },
                 "piwikTrack": {
@@ -29,6 +37,14 @@
                         "parameters": {
                             "param1": "$scope",
                             "param2": "MainBaciHospitals_Array"
+                        },
+                        "service": "mapOverlayService"
+                    },
+                    "func2": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "OtherBaciHospitals_Array"
                         },
                         "service": "mapOverlayService"
                     }
@@ -62,79 +78,11 @@
                 "type": "singleColumn"
             },
             "menuSection": "Pivotal-Facilities",
-            "mouseoverName": "Facilities - Main Hospitals",
-            "order": 3,
-            "subCategory": "1",
-            "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/MH.png"
-        },
-        "Facilities - Hospitals": {
-            "category": "7",
-            "denyList": {
-                "denyList1": null
-            },
-            "denyToggle": false,
-            "displayName": "Facilities - Hospitals",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "OtherBaciHospitals_Array"
-                        },
-                        "service": "mapOverlayService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Array Data: Baltimore area hospitals'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "OtherBaciHospitals_Array"
-                        },
-                        "service": "mapOverlayService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 8,
-            "isActive": false,
-            "layerUsed": true,
-            "legendContents": {
-                "description": "",
-                "listItems": {
-                    "item1": {
-                        "boxDescription": "Johns Hopkins Facilities",
-                        "boxStyle": "width: 25px; height: 35px; margin-right: 2px;",
-                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/gold_H.png"
-                    },
-                    "item2": {
-                        "boxDescription": "University of Maryland Facilities",
-                        "boxStyle": "width: 25px; height: 35px; margin-right: 2px;",
-                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/red_H.png"
-                    },
-                    "item3": {
-                        "boxDescription": "MedStar Facilities",
-                        "boxStyle": "width: 25px; height: 35px; margin-right: 2px;",
-                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/navyblue_H.png"
-                    }
-                },
-                "sourceDescription": "",
-                "sourceURL": "",
-                "type": "singleColumn"
-            },
-            "menuSection": "Pivotal-Facilities",
             "mouseoverName": "Facilities - Hospitals",
             "order": 3,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/H.png"
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/MH.png"
         },
        "Johns Hopkins Hospital Drive-Time": {
             "category": "6",
