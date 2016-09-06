@@ -12,7 +12,7 @@
           "name": "Dupont Circle Way OverHead",
           "cameraPosition": {
             "type":"LineString",
-            "coordinates":[[-77.04346, 38.909624, 3.0],[-77.04346, 38.908131, 3000]],
+            "coordinates":[[-77.04346, 38.909624, 3.0],[-77.04346, 38.908131, 20000]],
             "height": null
           }
         }, 
@@ -20,7 +20,7 @@
           "name": "All of DC OverHead",
           "cameraPosition": {
             "type":"LineString",
-            "coordinates":[[-77.04346, 38.909624, 3.0],[-77.04346, 38.909624, 15000.0]],
+            "coordinates":[[-77.04346, 38.909624, 3.0],[-77.04346, 38.909624, 45000.0]],
             "height": null
           }
         } 
