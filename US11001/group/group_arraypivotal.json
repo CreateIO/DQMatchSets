@@ -344,11 +344,7 @@
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/DT4.png"
-        },
-
-
-
-
+        }
     },
     "allTheSections": {
         "InPatient-Competitors": {
@@ -366,7 +362,7 @@
             "permissions": "group.tab.Array",
             "redact": false,
             "title": "In Patient"
-        },
+        }
     }
   },
   "filters": {
