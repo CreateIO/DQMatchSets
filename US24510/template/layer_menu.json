@@ -28,7 +28,7 @@
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "MainBaciHospitals_Array"
+                            "param2": "MainBaciHospitals_Array.geojson"
                         },
                         "service": "mapOverlayService"
                     }
