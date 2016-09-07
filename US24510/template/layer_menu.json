@@ -43,7 +43,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "",
-                        "boxStyle": "width: 150px; height: 232px; display: block; margin-bottom: 2px; border: none",
+                        "boxStyle": "width: 350px; height: 172px; display: block; margin-bottom: 2px; border: none",
                         "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/HospitalLegend.png"
                     }
                 },
