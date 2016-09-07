@@ -8,7 +8,7 @@
       "filterTemplate": "filters",
       "layerMenuTemplate":"layer_menu",
       "layerMapCodeTemplate":"layer_map_code",
-      "infoboxTemplate":"infobox",
+      "infoboxTemplate":"infobox_050416",
       "camera": [
         {
           "name": "Dupont Circle",
