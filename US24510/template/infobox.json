@@ -1,5 +1,43 @@
 {
     "infoboxContent":{
+        "MainBaciHospitals_Array":{
+          "referenceid":"UNIQUEID",
+          "propertyid":"UNIQUEID",
+          "offset":null,
+          "fieldtype":"business",
+          "resourceType":"array",
+          "photos":{
+            "active":true,
+            "value":null
+          },
+          "pdfs":{
+            "active":false,
+            "value":null
+          },
+          "viewDetailsBoxArray":true,
+          "wdcepDetailsBox":false,
+          "header":"HOSPITAL_N",
+          "boxValues":{
+            "field2":{
+              "value":"ADDRESS",
+              "display":"Address: ",
+              "fieldtype":"text",
+              "units":null
+            },
+            "field3":{
+              "value":"HQ_PHONE",
+              "display":"Phone: ",
+              "fieldtype":"text",
+              "units":null
+            },
+            "field4":{
+              "value":"URL",
+              "display":"URL: ",
+              "fieldtype":"text",
+              "units":null
+            }
+          }
+        },
         "Area_Master_Plans":{
             "referenceid":"UNIQUEID",
             "propertyid":"UNIQUEID",
