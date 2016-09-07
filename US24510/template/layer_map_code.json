@@ -6,7 +6,12 @@
             "url": "https://s3.amazonaws.com/models-dc/geoJSON/MainBaciHospitals_Array.geojson",
             "cartographic": true,
             "id": {
-                "exists": false
+              "exists": true,
+              "objClass": "UserInfo",
+              "id": "entity.properties.UNIQUEID",
+              "name": "MainBaciHospitals_Array",
+              "folder": "https://s3.amazonaws.com/models-dc/geoJSON/",
+              "applyFunction": null
             },
             "labels": {
                 "exists": false
