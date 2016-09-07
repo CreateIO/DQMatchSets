@@ -49,7 +49,7 @@
                     "item2": {
                         "boxDescription": "",
                         "boxStyle": "width: 120px; height: 48px; display: block; margin-bottom: 2px; border: none",
-                        "imageUrl": "https://s3.amazonaws.com/create-common/images/array/SinaiHospitalofBaltimore_logo.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/SinaiHospitalofBaltimore_logo.jpg"
                     },
                     "item3": {
                         "boxDescription": "",
