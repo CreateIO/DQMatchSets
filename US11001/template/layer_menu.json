@@ -4497,7 +4497,7 @@
             "title": "Land Use & Entitlement"
         },
         "LandUse2": {
-            "order": -1,
+            "order": 1,
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
@@ -4511,14 +4511,14 @@
             "title": "Historic Districts"
         },
         "LandUse4": {
-            "order": 0,
+            "order": 3,
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
             "title": "Heatmaps"
         },
         "LandUse5": {
-            "order": 0,
+            "order": 5,
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
@@ -4535,14 +4535,14 @@
     "allTheTabs": {
         "CityInfo": {
             "isActive": false,
-            "order": 2,
+            "order": 1,
             "permissions": null,
             "redact": false,
             "title": "City Info"
         },
         "Development": {
             "isActive": false,
-            "order": 1,
+            "order": 2,
             "permissions": null,
             "redact": false,
             "title": "Development"
