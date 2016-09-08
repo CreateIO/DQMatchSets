@@ -18,7 +18,7 @@
         } 
     ] },
     "start_layers": { "Property Types": "off", "Facilities - Hospitals": "on" },
-    "start_menus": { "Layer_Menu": "open", "Layer_Pivotal": "open" }
+    "start_menus": { "Layer_Menu": "off", "Layer_Pivotal": "on" }
   },
   "layers": {
     "allTheLayers": {
@@ -830,7 +830,7 @@
     },
     "allTheTabs": {
         "InPatient": {
-            "isActive": false,
+            "isActive": true,
             "order": 5,
             "permissions": null,
             "redact": false,
