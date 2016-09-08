@@ -2729,7 +2729,7 @@
             },
             "hasLegend": true,
             "id": 48,
-            "isActive": false,
+            "isActive": true,
             "layerUsed": true,
             "menuSection": "LandUse1",
             "mouseoverName": "Property Types",
