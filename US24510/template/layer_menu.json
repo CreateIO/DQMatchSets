@@ -2629,7 +2629,7 @@
     },
     "allTheTabs": {
         "LandUse": {
-            "isActive": true,
+            "isActive": false,
             "order": 0,
             "permissions": null,
             "redact": false,
@@ -2657,7 +2657,7 @@
             "title": "Incentives"
         },
         "Pivotal": {
-            "isActive": false,
+            "isActive": true,
             "order": 5,
             "permissions": null,
             "redact": false,
