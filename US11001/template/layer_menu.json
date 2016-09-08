@@ -3451,6 +3451,7 @@
             "denyList": {
                 "denyList1": null
             },
+            "permissions": "trepp",
             "denyToggle": false,
             "displayName": "Trepp",
             "functions": {
