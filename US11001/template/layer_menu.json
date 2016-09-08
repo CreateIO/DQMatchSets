@@ -4527,7 +4527,7 @@
         "WDCEP1": {
             "order": 0,
             "parentTab": "WDCEP",
-            "permissions": "layer.section.WDCEP",
+            "permissions": null,
             "redact": false,
             "title": "WDCEP"
         }
