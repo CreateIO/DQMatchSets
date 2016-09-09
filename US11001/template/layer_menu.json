@@ -3902,7 +3902,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Development site plans for proposed or projects under construction.",
-                        "boxStyle": "width: 183px; display: block; margin-left: 26px;",
+                        "boxStyle": "width: 200px; height: 132px; display: block; margin-left: 26px;",
                         "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/sitePlan-sm.png"
                     }
                 },
