@@ -4045,10 +4045,10 @@
                 "url": "https://s3.amazonaws.com/models-dc/img_tilesets/parcel_tileset_DC_flats/",
                 "extension": "png",
                 "coords": {
-                    "xMin": -76.8,
-                    "yMin": 39.21,
-                    "xMax": -76.46,
-                    "yMax": 39.42
+                    "xMin": -77.11,
+                    "yMin": 38.78,
+                    "xMax": -76.907,
+                    "yMax": 39.001
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
