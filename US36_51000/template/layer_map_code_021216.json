@@ -1,4 +1,42 @@
 {
     "layerjson": {
+        "parcelFills": {
+            "name": "parcelFills",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "parcelFills",
+                "url": "https://s3.amazonaws.com/models-dc/img_tilesets/parcel_manhattan/",
+                "extension": "png",
+            "coords" : {
+                "xMin" : -74.04761,
+                "yMin" : 40.68395,
+                "xMax" : -73.90682,
+                "yMax" : 40.87913
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 0.45,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        }
     }
 }
