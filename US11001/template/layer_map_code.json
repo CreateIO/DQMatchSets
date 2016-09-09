@@ -31,10 +31,10 @@
                         "translucencyByDistance": {
                             "minElevation": 13000,
                             "maxElevation": 17000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -66,7 +66,7 @@
                         "type": "singleColor",
                         "name": null,
                         "color": {
-                            "alpha": 0.0,
+                            "alpha": 0,
                             "type": "rgb",
                             "rgb": {
                                 "r": 86,
@@ -77,7 +77,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.LAVENDER",
-                        "outlineWidth": 4.0
+                        "outlineWidth": 4
                     }
                 }
             },
@@ -119,10 +119,10 @@
                         "translucencyByDistance": {
                             "minElevation": 5000,
                             "maxElevation": 6000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -154,7 +154,7 @@
                         "type": "singleColor",
                         "name": null,
                         "color": {
-                            "alpha": 0.0,
+                            "alpha": 0,
                             "type": "rgb",
                             "rgb": {
                                 "r": 233,
@@ -165,7 +165,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.CHARTREUSE",
-                        "outlineWidth": 2.0
+                        "outlineWidth": 2
                     }
                 }
             },
@@ -207,10 +207,10 @@
                         "translucencyByDistance": {
                             "minElevation": 5000,
                             "maxElevation": 6000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -256,10 +256,10 @@
                         "translucencyByDistance": {
                             "minElevation": 1000,
                             "maxElevation": 20000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -524,7 +524,7 @@
                         "xMin": -77.1227,
                         "yMin": 38.7908,
                         "xMax": -76.9084,
-                        "yMax": 38.9970,
+                        "yMax": 38.997,
                         "alpha": 0.5,
                         "show": true,
                         "hasDropdown": false
@@ -558,7 +558,7 @@
                         "xMin": -77.1227,
                         "yMin": 38.7908,
                         "xMax": -76.9084,
-                        "yMax": 38.9970,
+                        "yMax": 38.997,
                         "alpha": 0.5,
                         "show": true,
                         "hasDropdown": false
@@ -600,10 +600,10 @@
                         "translucencyByDistance": {
                             "minElevation": 8000,
                             "maxElevation": 9000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -680,7 +680,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.DODGERBLUE",
-                        "outlineWidth": 2.0
+                        "outlineWidth": 2
                     }
                 }
             },
@@ -730,7 +730,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.DODGERBLUE",
-                        "outlineWidth": 2.0
+                        "outlineWidth": 2
                     }
                 }
             },
@@ -778,8 +778,8 @@
                         "NearFarScalar": {
                             "minElevation": 3000,
                             "maxElevation": 4000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         }
                     }
                 }
@@ -830,8 +830,8 @@
                         "NearFarScalar": {
                             "minElevation": 3000,
                             "maxElevation": 4000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         }
                     }
                 }
@@ -870,7 +870,7 @@
                             "minElevation": 4000,
                             "maxElevation": 12000,
                             "minScale": 0.7,
-                            "maxScale": 0.0
+                            "maxScale": 0
                         }
                     }
                 }
@@ -897,7 +897,7 @@
                         "name": "stcz",
                         "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/STCZ.png",
                         "xMin": -77.0815,
-                        "yMin": 38.7900,
+                        "yMin": 38.79,
                         "xMax": -76.9077,
                         "yMax": 38.9797,
                         "alpha": 0.7,
@@ -941,10 +941,10 @@
                         "translucencyByDistance": {
                             "minElevation": 13000,
                             "maxElevation": 17000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -1042,10 +1042,10 @@
                         "translucencyByDistance": {
                             "minElevation": 50000,
                             "maxElevation": 80000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -1095,7 +1095,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.WHITE",
-                        "outlineWidth": 2.0
+                        "outlineWidth": 2
                     }
                 }
             },
@@ -1168,8 +1168,8 @@
                         "NearFarScalar": {
                             "minElevation": 9000,
                             "maxElevation": 12000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         }
                     }
                 }
@@ -1198,7 +1198,7 @@
                         "xMin": -77.0542,
                         "yMin": 38.8602,
                         "xMax": -76.9868,
-                        "yMax": 38.9110,
+                        "yMax": 38.911,
                         "alpha": 0.8,
                         "show": true,
                         "hasDropdown": false
@@ -1270,10 +1270,10 @@
                         "translucencyByDistance": {
                             "minElevation": 9000,
                             "maxElevation": 10000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -1299,7 +1299,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.YELLOW",
-                        "outlineWidth": 4.0
+                        "outlineWidth": 4
                     }
                 }
             },
@@ -1341,10 +1341,10 @@
                         "translucencyByDistance": {
                             "minElevation": 9000,
                             "maxElevation": 10000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -1378,7 +1378,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.WHITE",
-                        "outlineWidth": 7.0
+                        "outlineWidth": 7
                     }
                 }
             },
@@ -1420,10 +1420,10 @@
                         "translucencyByDistance": {
                             "minElevation": 9000,
                             "maxElevation": 10000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -1445,7 +1445,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.ANTIQUEWHITE",
-                        "outlineWidth": 4.0
+                        "outlineWidth": 4
                     }
                 }
             },
@@ -1487,10 +1487,10 @@
                         "translucencyByDistance": {
                             "minElevation": 9000,
                             "maxElevation": 10000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -1512,7 +1512,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.BLUE",
-                        "outlineWidth": 5.0
+                        "outlineWidth": 5
                     }
                 }
             },
@@ -1554,10 +1554,10 @@
                         "translucencyByDistance": {
                             "minElevation": 9000,
                             "maxElevation": 10000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -1583,7 +1583,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.VIOLET",
-                        "outlineWidth": 4.0
+                        "outlineWidth": 4
                     }
                 }
             },
@@ -1625,10 +1625,10 @@
                         "translucencyByDistance": {
                             "minElevation": 9000,
                             "maxElevation": 10000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -1650,7 +1650,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.TOMATO",
-                        "outlineWidth": 5.0
+                        "outlineWidth": 5
                     }
                 }
             },
@@ -1697,10 +1697,10 @@
                         "translucencyByDistance": {
                             "minElevation": 3000,
                             "maxElevation": 4000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -1725,7 +1725,7 @@
                         "NearFarScalar": {
                             "minElevation": 2000,
                             "maxElevation": 25000,
-                            "minScale": 1.0,
+                            "minScale": 1,
                             "maxScale": 0.15
                         }
                     }
@@ -1769,7 +1769,7 @@
                         "NearFarScalar": {
                             "minElevation": 2000,
                             "maxElevation": 25000,
-                            "minScale": 1.0,
+                            "minScale": 1,
                             "maxScale": 0.15
                         }
                     }
@@ -1813,7 +1813,7 @@
                         "NearFarScalar": {
                             "minElevation": 2000,
                             "maxElevation": 25000,
-                            "minScale": 1.0,
+                            "minScale": 1,
                             "maxScale": 0.15
                         }
                     }
@@ -1856,10 +1856,10 @@
                         "translucencyByDistance": {
                             "minElevation": 3000,
                             "maxElevation": 4000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -1884,470 +1884,466 @@
                         "NearFarScalar": {
                             "minElevation": 2000,
                             "maxElevation": 25000,
-                            "minScale": 1.0,
+                            "minScale": 1,
                             "maxScale": 0.15
                         }
                     }
                 }
             }
         },
-
- 
-
-
-   "PT2014": {
-      "name": "PT2014",
-      "removeName": null,
-      "url": null,
-      "cartographic": false,
-      "id": {
-        "exists": false
-      },
-      "labels": {
-        "exists": false
-      },
-      "polygons": {
-        "exists": false
-      },
-      "rasters": {
-        "exists": true,
-        "rasterLayers": {
-          "raster1": {
+        "PT2014": {
             "name": "PT2014",
-            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PT2014.png",
-            "xMin": -77.13,
-            "yMin": 38.79,
-            "xMax": -76.90,
-            "yMax": 39.00,
-            "show": true,
-            "alpha": 1,
-            "hasDropdown": false
-          }
-        }
-      },
-      "billboards": {
-        "exists": false
-      }
-    },
-   "PT2019": {
-      "name": "PT2019",
-      "removeName": null,
-      "url": null,
-      "cartographic": false,
-      "id": {
-        "exists": false
-      },
-      "labels": {
-        "exists": false
-      },
-      "polygons": {
-        "exists": false
-      },
-      "rasters": {
-        "exists": true,
-        "rasterLayers": {
-          "raster1": {
-            "name": "PT2019",
-            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PT2019.png",
-            "xMin": -77.13,
-            "yMin": 38.79,
-            "xMax": -76.90,
-            "yMax": 39.00,
-            "show": true,
-            "alpha": 1,
-            "hasDropdown": false
-          }
-        }
-      },
-      "billboards": {
-        "exists": false
-      }
-    },
-    "PT2024": {
-      "name": "PT2024",
-      "removeName": null,
-      "url": null,
-      "cartographic": false,
-      "id": {
-        "exists": false
-      },
-      "labels": {
-        "exists": false
-      },
-      "polygons": {
-        "exists": false
-      },
-      "rasters": {
-        "exists": true,
-        "rasterLayers": {
-          "raster1": {
-            "name": "PT2024",
-            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PT2024.png",
-            "xMin": -77.13,
-            "yMin": 38.79,
-            "xMax": -76.90,
-            "yMax": 39.00,
-            "show": true,
-            "alpha": 1,
-            "hasDropdown": false
-          }
-        }
-      },
-      "billboards": {
-        "exists": false
-      }
-    },
-    "Ortho2014": {
-      "name": "Ortho2014",
-      "removeName": null,
-      "url": null,
-      "cartographic": false,
-      "id": {
-        "exists": false
-      },
-      "labels": {
-        "exists": false
-      },
-      "polygons": {
-        "exists": false
-      },
-      "rasters": {
-        "exists": true,
-        "rasterLayers": {
-          "raster1": {
-            "name": "Ortho2014",
-            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/Ortho2014.png",
-            "xMin": -77.13,
-            "yMin": 38.79,
-            "xMax": -76.90,
-            "yMax": 39.00,
-            "show": true,
-            "alpha": 1,
-            "hasDropdown": false
-          }
-        }
-      },
-      "billboards": {
-        "exists": false
-      }
-    },
-    "Ortho2019": {
-      "name": "Ortho2019",
-      "removeName": null,
-      "url": null,
-      "cartographic": false,
-      "id": {
-        "exists": false
-      },
-      "labels": {
-        "exists": false
-      },
-      "polygons": {
-        "exists": false
-      },
-      "rasters": {
-        "exists": true,
-        "rasterLayers": {
-          "raster1": {
-            "name": "Ortho2019",
-            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/Ortho2019.png",
-            "xMin": -77.13,
-            "yMin": 38.79,
-            "xMax": -76.90,
-            "yMax": 39.00,
-            "show": true,
-            "alpha": 1,
-            "hasDropdown": false
-          }
-        }
-      },
-      "billboards": {
-        "exists": false
-      }
-    },
-    "Ortho2024": {
-      "name": "Ortho2024",
-      "removeName": null,
-      "url": null,
-      "cartographic": false,
-      "id": {
-        "exists": false
-      },
-      "labels": {
-        "exists": false
-      },
-      "polygons": {
-        "exists": false
-      },
-      "rasters": {
-        "exists": true,
-        "rasterLayers": {
-          "raster1": {
-            "name": "Ortho2024",
-            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/Ortho2024.png",
-            "xMin": -77.13,
-            "yMin": 38.79,
-            "xMax": -76.90,
-            "yMax": 39.00,
-            "show": true,
-            "alpha": 1,
-            "hasDropdown": false
-          }
-        }
-      },
-      "billboards": {
-        "exists": false
-      }
-    },
-    "MedStarGeorgetownUniveristyHospital_DTs": {
-      "name": "MedStarGeorgetownUniveristyHospital_DTs",
-      "removeName": null,
-      "url": null,
-      "cartographic": false,
-      "id": {
-        "exists": false
-      },
-      "labels": {
-        "exists": false
-      },
-      "polygons": {
-        "exists": false
-      },
-      "tms": {
-        "tmsLayerName": "MedStarGeorgetownUniveristyHospital_DTs",
-        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:MedStarGeorgetownUniveristyHospital_DTs@EPSG:900913@png",
-        "extension": "png",
-        "coords": {
-          "xMin": -77.20,
-          "yMin": 38.85,
-          "xMax": -77.00,
-          "yMax": 38.98
-        },
-        "tileWidth": 256,
-        "tileHeight": 256,
-        "minimumLevel": 1,
-        "maximumLevel": 20,
-        "alpha": 0.75,
-        "tmsStyle": "OGC"
-      },
-      "rasters": {
-        "exists": false
-      },
-      "billboards": {
-        "exists": false
-      }
-    },
-    "MedStarWashingtonHospital_DTs": {
-      "name": "MedStarWashingtonHospital_DTs",
-      "removeName": null,
-      "url": null,
-      "cartographic": false,
-      "id": {
-        "exists": false
-      },
-      "labels": {
-        "exists": false
-      },
-      "polygons": {
-        "exists": false
-      },
-      "tms": {
-        "tmsLayerName": "MedStarWashingtonHospital_DTs",
-        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:MedStarWashingtonHospital_DTs@EPSG:900913@png",
-        "extension": "png",
-        "coords": {
-          "xMin": -77.09,
-          "yMin": 38.87,
-          "xMax": -76.91,
-          "yMax": 38.99
-        },
-        "tileWidth": 256,
-        "tileHeight": 256,
-        "minimumLevel": 1,
-        "maximumLevel": 20,
-        "alpha": 0.75,
-        "tmsStyle": "OGC"
-      },
-      "rasters": {
-        "exists": false
-      },
-      "billboards": {
-        "exists": false
-      }
-    },
-    "GeorgeWashingtonUniversityHospital_DTs": {
-      "name": "GeorgeWashingtonUniversityHospital_DTs",
-      "removeName": null,
-      "url": null,
-      "cartographic": false,
-      "id": {
-        "exists": false
-      },
-      "labels": {
-        "exists": false
-      },
-      "polygons": {
-        "exists": false
-      },
-      "tms": {
-        "tmsLayerName": "GeorgeWashingtonUniversityHospital_DTs",
-        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:GeorgeWashingtonUniversityHospital_DTs@EPSG:900913@png",
-        "extension": "png",
-        "coords": {
-          "xMin": -77.18,
-          "yMin": 38.82,
-          "xMax": -76.96,
-          "yMax": 38.97
-        },
-        "tileWidth": 256,
-        "tileHeight": 256,
-        "minimumLevel": 1,
-        "maximumLevel": 20,
-        "alpha": 0.75,
-        "tmsStyle": "OGC"
-      },
-      "rasters": {
-        "exists": false
-      },
-      "billboards": {
-        "exists": false
-      }
-    },
-    "SibleyMemorialHospital_DTs": {
-      "name": "SibleyMemorialHospital_DTs",
-      "removeName": null,
-      "url": null,
-      "cartographic": false,
-      "id": {
-        "exists": false
-      },
-      "labels": {
-        "exists": false
-      },
-      "polygons": {
-        "exists": false
-      },
-      "tms": {
-        "tmsLayerName": "SibleyMemorialHospital_DTs",
-        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:SibleyMemorialHospital_DTs@EPSG:900913@png",
-        "extension": "png",
-        "coords": {
-          "xMin": -77.22,
-          "yMin": 38.88,
-          "xMax": -77.04,
-          "yMax": 39.02
-        },
-        "tileWidth": 256,
-        "tileHeight": 256,
-        "minimumLevel": 1,
-        "maximumLevel": 20,
-        "alpha": 0.75,
-        "tmsStyle": "OGC"
-      },
-      "rasters": {
-        "exists": false
-      },
-      "billboards": {
-        "exists": false
-      }
-    },
-    "ArrayCompetitorLocations_4": {
-        "name": "ArrayCompetitorLocations_4",
-        "removeName": "ArrayCompetitorLocations_4.geojson",
-        "url": "https://s3.amazonaws.com/create-common/layerFiles/dataGeoJSONs/ArrayCompetitorLocations_4.geojson",
-        "cartographic": true,
-        "id": {
-          "exists": true,
-          "objClass": "UserInfo",
-          "id": "entity.properties.UNIQUEID",
-          "name": "ArrayCompetitorLocations_4",
-          "folder": "https://s3.amazonaws.com/create-common/layerFiles/dataGeoJSONs/",
-          "applyFunction": null
-        },
-        "labels": {
-          "exists": false
-        },
-        "polygons": {
-          "exists": false
-        },
-        "rasters": {
-          "exists": false
-        },
-        "billboards": {
-          "exists": true,
-          "billboardLayers": {        
-            "billboard1": {
-              "type": "custom",
-              "name": "gwbillboards",
-              "if": "entity.properties.HOSP_NAME == 'George Washington University Hospital'",
-              "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/billboard-gw.png",
-              "position": {
-                "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
-                "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                "z": 50
-              },
-              "NearFarScalar": {
-                "minElevation": 2000,
-                "maxElevation": 40000,
-                "minScale": 0.5,
-                "maxScale": 0.03
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "PT2014",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PT2014.png",
+                        "xMin": -77.13,
+                        "yMin": 38.79,
+                        "xMax": -76.9,
+                        "yMax": 39,
+                        "show": true,
+                        "alpha": 1,
+                        "hasDropdown": false
+                    }
                 }
             },
-            "billboard2": {
-              "type": "custom",
-              "name": "medstarbillboards",
-              "if": "entity.properties.HOSP_NAME == 'MedStar Washington Hospital Center'",
-              "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/billboard-medstar.png",
-              "position": {
-                "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
-                "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                "z": 49
-              },
-              "NearFarScalar": {
-                "minElevation": 2000,
-                "maxElevation": 40000,
-                "minScale": 0.6,
-                "maxScale": 0.2
-                }
-            },
-            "billboard3": {
-              "type": "custom",
-              "name": "medstarbillboards2",
-              "if": "entity.properties.HOSP_NAME == 'MedStar Georgetown University Hospital'",
-              "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/billboard-medstar.png",
-              "position": {
-                "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
-                "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                "z": 50
-            },
-              "NearFarScalar": {
-                "minElevation": 2000,
-                "maxElevation": 40000,
-                "minScale": 0.6,
-                "maxScale": 0.2
-                }
-            },
-            "billboard4": {
-              "type": "custom",
-              "name": "sibleybillboards",
-              "if": "entity.properties.HOSP_NAME == 'Sibley Memorial Hospital'",
-              "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/billboard-sibley.png",
-              "position": {
-                "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
-                "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                "z": 70
-            },
-              "NearFarScalar": {
-                "minElevation": 2000,
-                "maxElevation": 40000,
-                "minScale": 0.5,
-                "maxScale": 0.08
-              }
+            "billboards": {
+                "exists": false
             }
-          }
-        }
-      },
-      "WDCEP - chipotle": {
+        },
+        "PT2019": {
+            "name": "PT2019",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "PT2019",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PT2019.png",
+                        "xMin": -77.13,
+                        "yMin": 38.79,
+                        "xMax": -76.9,
+                        "yMax": 39,
+                        "show": true,
+                        "alpha": 1,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "PT2024": {
+            "name": "PT2024",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "PT2024",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PT2024.png",
+                        "xMin": -77.13,
+                        "yMin": 38.79,
+                        "xMax": -76.9,
+                        "yMax": 39,
+                        "show": true,
+                        "alpha": 1,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "Ortho2014": {
+            "name": "Ortho2014",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "Ortho2014",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/Ortho2014.png",
+                        "xMin": -77.13,
+                        "yMin": 38.79,
+                        "xMax": -76.9,
+                        "yMax": 39,
+                        "show": true,
+                        "alpha": 1,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "Ortho2019": {
+            "name": "Ortho2019",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "Ortho2019",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/Ortho2019.png",
+                        "xMin": -77.13,
+                        "yMin": 38.79,
+                        "xMax": -76.9,
+                        "yMax": 39,
+                        "show": true,
+                        "alpha": 1,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "Ortho2024": {
+            "name": "Ortho2024",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "Ortho2024",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/Ortho2024.png",
+                        "xMin": -77.13,
+                        "yMin": 38.79,
+                        "xMax": -76.9,
+                        "yMax": 39,
+                        "show": true,
+                        "alpha": 1,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "MedStarGeorgetownUniveristyHospital_DTs": {
+            "name": "MedStarGeorgetownUniveristyHospital_DTs",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "MedStarGeorgetownUniveristyHospital_DTs",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:MedStarGeorgetownUniveristyHospital_DTs@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.2,
+                    "yMin": 38.85,
+                    "xMax": -77,
+                    "yMax": 38.98
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 0.75,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "MedStarWashingtonHospital_DTs": {
+            "name": "MedStarWashingtonHospital_DTs",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "MedStarWashingtonHospital_DTs",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:MedStarWashingtonHospital_DTs@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.09,
+                    "yMin": 38.87,
+                    "xMax": -76.91,
+                    "yMax": 38.99
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 0.75,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "GeorgeWashingtonUniversityHospital_DTs": {
+            "name": "GeorgeWashingtonUniversityHospital_DTs",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "GeorgeWashingtonUniversityHospital_DTs",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:GeorgeWashingtonUniversityHospital_DTs@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.18,
+                    "yMin": 38.82,
+                    "xMax": -76.96,
+                    "yMax": 38.97
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 0.75,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "SibleyMemorialHospital_DTs": {
+            "name": "SibleyMemorialHospital_DTs",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "SibleyMemorialHospital_DTs",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:SibleyMemorialHospital_DTs@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.22,
+                    "yMin": 38.88,
+                    "xMax": -77.04,
+                    "yMax": 39.02
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 0.75,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ArrayCompetitorLocations_4": {
+            "name": "ArrayCompetitorLocations_4",
+            "removeName": "ArrayCompetitorLocations_4.geojson",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/dataGeoJSONs/ArrayCompetitorLocations_4.geojson",
+            "cartographic": true,
+            "id": {
+                "exists": true,
+                "objClass": "UserInfo",
+                "id": "entity.properties.UNIQUEID",
+                "name": "ArrayCompetitorLocations_4",
+                "folder": "https://s3.amazonaws.com/create-common/layerFiles/dataGeoJSONs/",
+                "applyFunction": null
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": true,
+                "billboardLayers": {
+                    "billboard1": {
+                        "type": "custom",
+                        "name": "gwbillboards",
+                        "if": "entity.properties.HOSP_NAME == 'George Washington University Hospital'",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/billboard-gw.png",
+                        "position": {
+                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                            "z": 50
+                        },
+                        "NearFarScalar": {
+                            "minElevation": 2000,
+                            "maxElevation": 40000,
+                            "minScale": 0.5,
+                            "maxScale": 0.03
+                        }
+                    },
+                    "billboard2": {
+                        "type": "custom",
+                        "name": "medstarbillboards",
+                        "if": "entity.properties.HOSP_NAME == 'MedStar Washington Hospital Center'",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/billboard-medstar.png",
+                        "position": {
+                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                            "z": 49
+                        },
+                        "NearFarScalar": {
+                            "minElevation": 2000,
+                            "maxElevation": 40000,
+                            "minScale": 0.6,
+                            "maxScale": 0.2
+                        }
+                    },
+                    "billboard3": {
+                        "type": "custom",
+                        "name": "medstarbillboards2",
+                        "if": "entity.properties.HOSP_NAME == 'MedStar Georgetown University Hospital'",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/billboard-medstar.png",
+                        "position": {
+                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                            "z": 50
+                        },
+                        "NearFarScalar": {
+                            "minElevation": 2000,
+                            "maxElevation": 40000,
+                            "minScale": 0.6,
+                            "maxScale": 0.2
+                        }
+                    },
+                    "billboard4": {
+                        "type": "custom",
+                        "name": "sibleybillboards",
+                        "if": "entity.properties.HOSP_NAME == 'Sibley Memorial Hospital'",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/billboard-sibley.png",
+                        "position": {
+                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                            "z": 70
+                        },
+                        "NearFarScalar": {
+                            "minElevation": 2000,
+                            "maxElevation": 40000,
+                            "minScale": 0.5,
+                            "maxScale": 0.08
+                        }
+                    }
+                }
+            }
+        },
+        "WDCEP - chipotle": {
             "name": "WDCEP - chipotle",
             "removeName": "wdcep_chipotle_geo.geojson",
             "url": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_chipotle_geo.geojson",
@@ -2385,7 +2381,7 @@
                         "NearFarScalar": {
                             "minElevation": 2000,
                             "maxElevation": 25000,
-                            "minScale": 1.0,
+                            "minScale": 1,
                             "maxScale": 0.15
                         }
                     },
@@ -2402,7 +2398,7 @@
                         "NearFarScalar": {
                             "minElevation": 2000,
                             "maxElevation": 25000,
-                            "minScale": 1.0,
+                            "minScale": 1,
                             "maxScale": 0.15
                         }
                     }
@@ -2440,10 +2436,10 @@
                         "translucencyByDistance": {
                             "minElevation": 9000,
                             "maxElevation": 10000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -2528,10 +2524,10 @@
                         "translucencyByDistance": {
                             "minElevation": 9000,
                             "maxElevation": 10000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -2616,10 +2612,10 @@
                         "translucencyByDistance": {
                             "minElevation": 9000,
                             "maxElevation": 10000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -2704,10 +2700,10 @@
                         "translucencyByDistance": {
                             "minElevation": 9000,
                             "maxElevation": 10000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -2798,7 +2794,7 @@
                         "NearFarScalar": {
                             "minElevation": 1000,
                             "maxElevation": 8000,
-                            "minScale": 1.0,
+                            "minScale": 1,
                             "maxScale": 0.09
                         }
                     }
@@ -2842,7 +2838,7 @@
                         "NearFarScalar": {
                             "minElevation": 1000,
                             "maxElevation": 8000,
-                            "minScale": 1.0,
+                            "minScale": 1,
                             "maxScale": 0.09
                         }
                     }
@@ -2886,7 +2882,7 @@
                         "NearFarScalar": {
                             "minElevation": 1000,
                             "maxElevation": 8000,
-                            "minScale": 1.0,
+                            "minScale": 1,
                             "maxScale": 0.09
                         }
                     }
@@ -2930,7 +2926,7 @@
                         "NearFarScalar": {
                             "minElevation": 1000,
                             "maxElevation": 8000,
-                            "minScale": 1.0,
+                            "minScale": 1,
                             "maxScale": 0.09
                         }
                     }
@@ -2973,10 +2969,10 @@
                         "translucencyByDistance": {
                             "minElevation": 3000,
                             "maxElevation": 4000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -3001,7 +2997,7 @@
                         "NearFarScalar": {
                             "minElevation": 2000,
                             "maxElevation": 25000,
-                            "minScale": 1.0,
+                            "minScale": 1,
                             "maxScale": 0.15
                         }
                     }
@@ -3045,7 +3041,7 @@
                         "NearFarScalar": {
                             "minElevation": 2000,
                             "maxElevation": 25000,
-                            "minScale": 1.0,
+                            "minScale": 1,
                             "maxScale": 0.15
                         }
                     }
@@ -3089,7 +3085,7 @@
                         "NearFarScalar": {
                             "minElevation": 2000,
                             "maxElevation": 25000,
-                            "minScale": 1.0,
+                            "minScale": 1,
                             "maxScale": 0.15
                         }
                     }
@@ -3134,7 +3130,7 @@
                         "NearFarScalar": {
                             "minElevation": 1000,
                             "maxElevation": 8000,
-                            "minScale": 1.0,
+                            "minScale": 1,
                             "maxScale": 0.09
                         }
                     },
@@ -3151,7 +3147,7 @@
                         "NearFarScalar": {
                             "minElevation": 1000,
                             "maxElevation": 8000,
-                            "minScale": 1.0,
+                            "minScale": 1,
                             "maxScale": 0.09
                         }
                     },
@@ -3168,7 +3164,7 @@
                         "NearFarScalar": {
                             "minElevation": 1000,
                             "maxElevation": 8000,
-                            "minScale": 1.0,
+                            "minScale": 1,
                             "maxScale": 0.09
                         }
                     }
@@ -3211,10 +3207,10 @@
                         "translucencyByDistance": {
                             "minElevation": 7000,
                             "maxElevation": 9000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -3239,7 +3235,7 @@
                         "NearFarScalar": {
                             "minElevation": 2000,
                             "maxElevation": 25000,
-                            "minScale": 1.0,
+                            "minScale": 1,
                             "maxScale": 0.15
                         }
                     }
@@ -3277,10 +3273,10 @@
                         "translucencyByDistance": {
                             "minElevation": 20000,
                             "maxElevation": 21000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -3302,7 +3298,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.WHITE",
-                        "outlineWidth": 4.0
+                        "outlineWidth": 4
                     }
                 }
             },
@@ -3636,7 +3632,7 @@
                         "type": "singleColor",
                         "name": null,
                         "color": {
-                            "alpha": 0.0,
+                            "alpha": 0,
                             "type": "rgb",
                             "rgb": {
                                 "r": 136,
@@ -3647,7 +3643,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.ORANGE",
-                        "outlineWidth": 4.0
+                        "outlineWidth": 4
                     }
                 }
             },
@@ -3689,10 +3685,10 @@
                         "translucencyByDistance": {
                             "minElevation": 40000,
                             "maxElevation": 60000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -3743,7 +3739,7 @@
                         "NearFarScalar": {
                             "minElevation": 2000,
                             "maxElevation": 25000,
-                            "minScale": 1.0,
+                            "minScale": 1,
                             "maxScale": 0.15
                         }
                     }
@@ -3781,10 +3777,10 @@
                         "translucencyByDistance": {
                             "minElevation": 9000,
                             "maxElevation": 20001,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -3822,7 +3818,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.WHITE",
-                        "outlineWidth": 2.0
+                        "outlineWidth": 2
                     }
                 }
             },
@@ -3896,7 +3892,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.WHITE",
-                        "outlineWidth": 2.0
+                        "outlineWidth": 2
                     }
                 }
             },
@@ -3938,10 +3934,10 @@
                         "translucencyByDistance": {
                             "minElevation": 9000,
                             "maxElevation": 20000,
-                            "minScale": 1.0,
-                            "maxScale": 0.0
+                            "minScale": 1,
+                            "maxScale": 0
                         },
-                        "scale": 1.0
+                        "scale": 1
                     }
                 }
             },
@@ -3975,7 +3971,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.WHITE",
-                        "outlineWidth": 2.0
+                        "outlineWidth": 2
                     }
                 }
             },
@@ -4028,6 +4024,44 @@
                         }
                     }
                 }
+            }
+        },
+        "parcelFills": {
+            "name": "parcelFills",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "parcelFills",
+                "url": "https://s3.amazonaws.com/models-dc/img_tilesets/parcel_tileset_DC_flats/",
+                "extension": "png",
+                "coords": {
+                    "xMin": -76.8,
+                    "yMin": 39.21,
+                    "xMax": -76.46,
+                    "yMax": 39.42
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 0.45,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
             }
         }
     }

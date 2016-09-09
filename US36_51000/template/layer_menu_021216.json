@@ -14,11 +14,11 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "functionName": "toggleParcelFills",
+                        "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "add"
+                            "param1": "parcelFills"
                         },
-                        "service": "gltf3DService"
+                        "service": "tileMapServiceService"
                     }
                 },
                 "piwikTrack": {
@@ -28,11 +28,11 @@
                 },
                 "removeFunctions": {
                     "func1": {
-                        "functionName": "toggleParcelFills",
+                        "functionName": "RemoveDynamicTMSLayer",
                         "parameters": {
-                            "param1": "remove"
+                            "param1": "parcelFills"
                         },
-                        "service": "gltf3DService"
+                        "service": "tileMapServiceService"
                     }
                 }
             },
@@ -125,13 +125,6 @@
             "permissions": null,
             "redact": false,
             "title": "Natural Hazards"
-        },
-        "WDCEP1": {
-            "order": 0,
-            "parentTab": "WDCEP",
-            "permissions": "layer.section.WDCEP",
-            "redact": false,
-            "title": "WDCEP"
         }
     },
     "allTheTabs": {
@@ -149,13 +142,6 @@
             "redact": false,
             "title": "Development"
         },
-        "InPatient": {
-            "isActive": false,
-            "order": 5,
-            "permissions": "group.tab.Array",
-            "redact": false,
-            "title": "In Patient"
-        },
         "Incentives": {
             "isActive": false,
             "order": 3,
@@ -169,20 +155,6 @@
             "permissions": null,
             "redact": false,
             "title": "Land Use"
-        },
-        "ParkHeights": {
-            "isActive": false,
-            "order": 6,
-            "permissions": null,
-            "redact": false,
-            "title": "Park Heights"
-        },
-        "WDCEP": {
-            "isActive": false,
-            "order": 4,
-            "permissions": "layer.tab.WDCEP",
-            "redact": false,
-            "title": "WDCEP"
         }
     }
 }
