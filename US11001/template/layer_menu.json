@@ -2701,15 +2701,15 @@
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "Property Types",
+            "displayName": "Property Use Types",
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "functionName": "toggleParcelFills",
+                        "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "add"
+                            "param1": "parcelFills"
                         },
-                        "service": "gltf3DService"
+                        "service": "tileMapServiceService"
                     }
                 },
                 "piwikTrack": {
@@ -2719,11 +2719,11 @@
                 },
                 "removeFunctions": {
                     "func1": {
-                        "functionName": "toggleParcelFills",
+                        "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "remove"
+                            "param1": "parcelFills"
                         },
-                        "service": "gltf3DService"
+                        "service": "tileMapServiceService"
                     }
                 }
             },
@@ -2732,7 +2732,7 @@
             "isActive": false,
             "layerUsed": true,
             "menuSection": "LandUse1",
-            "mouseoverName": "Property Types",
+            "mouseoverName": "Property Use Types",
             "order": 4,
             "subCategory": "1",
             "urlLegend": "../../legends/layerPropertyType.jade",
@@ -3902,7 +3902,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Development site plans for proposed or projects under construction.",
-                        "boxStyle": "width: 183px; display: block; margin-left: 26px;",
+                        "boxStyle": "width: 183px; height: 120px; display: block; margin-left: 19%;",
                         "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/sitePlan-sm.png"
                     }
                 },
