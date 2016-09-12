@@ -1,0 +1,13 @@
+{
+  "group_name": "Department of Transportation",
+  "entry": "http://dot.create.io",
+  "init": {
+    "class_name": "dot-group",
+    "group_display_name": "Department of Transportation",
+    "url": "https://www.transportation.gov/",
+    "favicon": "",
+    "logo": "https://s3.amazonaws.com/create-common/logo/icon-dot.png",
+    "sponsor_logo": "",
+    "sponsored_content":{}
+  }
+} 
