@@ -1,13 +1,12 @@
 {
-  "group_name": "Department of Transportation",
-  "entry": "http://dot.create.io",
+  "group_name": "Array Pivotal Product",
+  "entry": "http://pivotal.create.io",
   "init": {
-    "class_name": "dot-group",
-    "group_display_name": "Department of Transportation",
-    "url": "https://www.transportation.gov/",
-    "favicon": "",
-    "logo": "https://s3.amazonaws.com/create-common/logo/icon-dot.png",
-    "sponsor_logo": "",
-    "sponsored_content":{}
+    "class_name": "pivotal-array",
+    "group_display_name": "Pivotal",
+    "url": "http://array-analytics.io/",
+    "favicon": "/pivotal-icon.svg",
+    "logo": "https://s3.amazonaws.com/create-common/logo/pivotal-mark.png",
+    "sponsor_logo": ""
   }
 } 
