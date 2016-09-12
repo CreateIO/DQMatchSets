@@ -3,7 +3,7 @@
   "entry": "http://dot.create.io",
   "init": {
     "class_name": "dot-group",
-    "group_display_name": "Department of Transportation",
+    "group_display_name": "",
     "url": "https://www.transportation.gov/",
     "favicon": "",
     "logo": "",
