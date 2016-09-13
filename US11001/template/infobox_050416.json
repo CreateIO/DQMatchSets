@@ -93,7 +93,7 @@
           },
           "field7":{
             "value":"PEDS",
-            "display":"# Pedestrians",
+            "display":"# Peds",
             "fieldtype":"number",
             "units":null
           },
