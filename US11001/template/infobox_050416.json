@@ -114,12 +114,6 @@
             "display":"Number of Fatalities",
             "fieldtype":"number",
             "units":null
-          },
-          "field10":{
-            "value":"",
-            "display":"Number of Fatalities",
-            "fieldtype":"number",
-            "units":null
           }
         }
       },
