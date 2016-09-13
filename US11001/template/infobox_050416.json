@@ -87,19 +87,19 @@
           },
           "field6":{
             "value":"VE_TOTAL",
-            "display":"# of Vehicles",
+            "display":"# Vehicles",
             "fieldtype":"number",
             "units":null
           },
           "field7":{
             "value":"PEDS",
-            "display":"# of Pedestrians",
+            "display":"# Pedestrians",
             "fieldtype":"number",
             "units":null
           },
           "field8":{
             "value":"PBPTYPE",
-            "display":"# of Cyclists",
+            "display":"# Cyclists",
             "fieldtype":"text",
             "units":null
           },
@@ -111,7 +111,7 @@
           },
           "field10":{
             "value":"FATALS",
-            "display":"# of Fatalities",
+            "display":"# Fatalities",
             "fieldtype":"number",
             "units":null
           }
