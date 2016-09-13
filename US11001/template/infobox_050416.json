@@ -55,18 +55,6 @@
         "wdcepDetailsBox":false,
         "header":"'Accident Infomation:'",
         "boxValues":{
-          "field1":{
-            "value":"TWAY_ID",
-            "display":"Location",
-            "fieldtype":"text",
-            "units":null
-          },
-          "field2":{
-            "value":"TWAY_ID2",
-            "display":"",
-            "fieldtype":"text",
-            "units":null
-          },
           "field3":{
             "value":"MONTH + '/' + DAY + '/' + YEAR",
             "display":"Date",
