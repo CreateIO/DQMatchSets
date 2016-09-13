@@ -54,7 +54,7 @@
             "mouseoverName": "Available Retail Sites (WDCEP)",
             "order": 1,
             "subCategory": "1",
-            "urlLegend": "../../legends/layerLegendRetailSitePoints.jade",
+            "urlLegend": "",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/RSL.png"
         },
         "Business Improvement Districts": {
@@ -4445,6 +4445,71 @@
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/NTA.png"
+        },
+        "2015 DC Accidents": {
+          "category": "6",
+          "colors": {
+            "hex": {},
+            "type": "icon"
+          },
+          "denyList": {
+            "denyList1": "Limited"
+          },
+          "denyToggle": false,
+          "displayName": "2015 DC Accidents",
+          "functions": {
+            "addFunctions": {
+              "func1": {
+                "functionName": "addLayer",
+                "parameters": {
+                  "param1": "$scope",
+                  "param2": "2015-accidents"
+                },
+                "service": "mapOverlayService"
+              }
+            },
+            "emits": {
+              "emit1": {
+                "parameters": {
+                  "param1": "clearBillboard"
+                },
+                "type": "remove"
+              }
+            },
+            "piwikTrack": {
+              "parameters": {
+                "param1": "'Data: DOT: 2015 Accidents'"
+              }
+            },
+            "removeFunctions": {
+              "func1": {
+                "functionName": "removeLayer",
+                "parameters": {
+                  "param1": "$scope",
+                  "param2": "2015-accidents"
+                },
+                "service": "mapOverlayService"
+              }
+            }
+          },
+          "hasLegend": true,
+          "id": 0,
+          "isActive": false,
+          "layerUsed": true,
+          "legendContents": {
+            "description": "Click on icons for details.",
+            "listItems": {
+            },
+            "sourceDescription": "",
+            "sourceURL": "",
+            "type": "singleColumn"
+          },
+          "menuSection": "DOT1",
+          "mouseoverName": "2015 DC Accidents",
+          "order": 0,
+          "subCategory": "1",
+          "urlLegend": "../../legends/template-legend.jade",
+          "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/CHP.png"
         }
     },
     "allTheSections": {
@@ -4531,6 +4596,13 @@
             "permissions": null,
             "redact": false,
             "title": "WDCEP"
+        },
+        "DOT1": {
+          "order": 0,
+          "parentTab": "DOT",
+          "permissions": null,
+          "redact": false,
+          "title": "DOT"
         }
     },
     "allTheTabs": {
@@ -4569,6 +4641,13 @@
             "permissions": "layer.tab.WDCEP",
             "redact": false,
             "title": "WDCEP"
+        },
+        "DOT": {
+            "isActive": true,
+            "order": 5,
+            "permissions": null,
+            "redact": false,
+            "title": "DOT"
         }
     }
 }
