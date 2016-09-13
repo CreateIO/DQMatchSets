@@ -38,7 +38,7 @@
           }
         }
       },
-      "2013-2015-accidents":{
+      "2013to2015AccidentData":{
         "referenceid":"st_case",
         "offset":null,
         "fieldtype":"business",
