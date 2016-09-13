@@ -53,7 +53,7 @@
         },
         "viewDetailsBoxArray":true,
         "wdcepDetailsBox":false,
-        "header":"ST_CASE",
+        "header":"'Accident Infomation:'",
         "boxValues":{
           "field1":{
             "value":"TWAY_ID",
