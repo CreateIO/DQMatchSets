@@ -4034,8 +4034,8 @@
           "id": {
             "exists": true,
             "objClass": "UserInfo",
-            "id": "entity.properties.st_case",
-            "name": "2013-2015-accidents",
+            "id": "entity.properties.ST_CASE",
+            "name": "2013to2015AccidentData",
             "folder": "https://s3.amazonaws.com/create-common/layerFiles/dataGeoJSONs/",
             "applyFunction": null
           },

@@ -38,6 +38,85 @@
           }
         }
       },
+      "2013to2015AccidentData":{
+        "referenceid":"ST_CASE",
+        "offset":null,
+        "fieldtype":"business",
+        "resourceType":"array",
+        "photos":{
+          "active":true,
+          "value":null
+        },
+        "pdfs":{
+          "active":false,
+          "value":null
+        },
+        "viewDetailsBoxArray":true,
+        "wdcepDetailsBox":false,
+        "header":"ST_CASE",
+        "boxValues":{
+          "field1":{
+            "value":"TWAY_ID",
+            "display":"Accident Location: ",
+            "fieldtype":"text",
+            "units":null
+          },
+          "field2":{
+            "value":"TWAY_ID2",
+            "display":"",
+            "fieldtype":"text",
+            "units":null
+          },
+          "field3":{
+            "value":"MONTH + '/' + DAY + '/' + YEAR",
+            "display":"Date of Accident: ",
+            "fieldtype":"complex",
+            "units":null
+          },
+          "field4":{
+            "value":"HARM_EV_2",
+            "display":"Collision Type",
+            "fieldtype":"text",
+            "units":null
+          },
+          "field5":{
+            "value":"MAN_COLL_2",
+            "display":"Manner of Collision",
+            "fieldtype":"text",
+            "units":null
+          },
+          "field6":{
+            "value":"VE_TOTAL",
+            "display":"Vehicles Involved",
+            "fieldtype":"number",
+            "units":null
+          },
+          "field7":{
+            "value":"PEDS",
+            "display":"Pedestrians Involved",
+            "fieldtype":"number",
+            "units":null
+          },
+          "field8":{
+            "value":"PBPTYPE",
+            "display":"Cyclists Involved",
+            "fieldtype":"number",
+            "units":null
+          },
+          "field9":{
+            "value":"DRUNK_DR",
+            "display":"Drunk Driver",
+            "fieldtype":"number",
+            "units":null
+          },
+          "field10":{
+            "value":"FATALS",
+            "display":"Number of Fatalities",
+            "fieldtype":"number",
+            "units":null
+          }
+        }
+      },
         "wdcep_resi_com_data":{
             "referenceid":"UNIQUEID",
             "propertyid":null,
