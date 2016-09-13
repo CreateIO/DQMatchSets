@@ -52,7 +52,6 @@
           "value":null
         },
         "streetView":true,
-        "viewDetailsBoxArray":true,
         "wdcepDetailsBox":false,
         "header":"'Accident Infomation:'",
         "boxValues":{
