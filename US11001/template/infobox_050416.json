@@ -44,7 +44,7 @@
         "fieldtype":"business",
         "resourceType":"array",
         "photos":{
-          "active":true,
+          "active":false,
           "value":null
         },
         "pdfs":{
