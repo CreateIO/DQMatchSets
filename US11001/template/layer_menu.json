@@ -4498,14 +4498,19 @@
           "layerUsed": true,
           "legendContents": {
             "description": "Click on icons for details.",
-            "listItems": {
-            },
+             "listItems": {
+                    "item1": {
+                        "boxDescription": "2013 - 2015 Accicents",
+                        "boxStyle": "",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-accident.png"
+                    }
+                },
             "sourceDescription": "FARS is a nationwide census providing NHTSA, Congress and the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.",
             "sourceURL": "http://www.nhtsa.gov/FARS",
             "type": "singleColumn"
           },
           "menuSection": "DOT1",
-          "mouseoverName": "2015 DC Accidents",
+          "mouseoverName": "2013 - 2015 DC Accidents",
           "order": 0,
           "subCategory": "1",
           "urlLegend": "../../legends/template-legend.jade",
