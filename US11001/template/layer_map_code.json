@@ -4034,7 +4034,7 @@
           "id": {
             "exists": true,
             "objClass": "UserInfo",
-            "id": "entity.properties.UNIQUID",
+            "id": "entity.properties.UNIQUEID",
             "name": "2013to2015AccidentData",
             "folder": "https://s3.amazonaws.com/create-common/layerFiles/dataGeoJSONs/",
             "applyFunction": null
