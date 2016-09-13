@@ -74,13 +74,13 @@
             "units":null
           },
           "field4":{
-            "value":"HARM_EV",
+            "value":"HARM_EV_2",
             "display":"Collision Type",
             "fieldtype":"text",
             "units":null
           },
           "field5":{
-            "value":"MAN_COLL",
+            "value":"MAN_COLL_2",
             "display":"Manner of Collision",
             "fieldtype":"text",
             "units":null
