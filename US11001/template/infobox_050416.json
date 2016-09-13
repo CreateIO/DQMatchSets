@@ -53,18 +53,72 @@
         },
         "viewDetailsBoxArray":true,
         "wdcepDetailsBox":false,
-        "header":"st_case",
+        "header":"ST_CASE",
         "boxValues":{
           "field1":{
-            "value":"tway_id",
+            "value":"TWAY_ID",
             "display":"Accident Location: ",
             "fieldtype":"text",
             "units":null
           },
           "field2":{
-            "value":"month + '/' + day + '/' + year",
+            "value":"TWAY_ID2",
+            "display":"",
+            "fieldtype":"text",
+            "units":null
+          },
+          "field3":{
+            "value":"MONTH + '/' + DAY + '/' + YEAR",
             "display":"Date of Accident: ",
             "fieldtype":"complex",
+            "units":null
+          },
+          "field4":{
+            "value":"HARM_EV",
+            "display":"Collision Type",
+            "fieldtype":"text",
+            "units":null
+          },
+          "field5":{
+            "value":"MAN_COLL",
+            "display":"Manner of Collision",
+            "fieldtype":"text",
+            "units":null
+          },
+          "field6":{
+            "value":"VE_TOTAL",
+            "display":"Vehicles Involved",
+            "fieldtype":"number",
+            "units":null
+          },
+          "field7":{
+            "value":"PEDS",
+            "display":"Pedestrians Involved",
+            "fieldtype":"number",
+            "units":null
+          },
+          "field8":{
+            "value":"PBPTYPE",
+            "display":"Cyclists Involved",
+            "fieldtype":"number",
+            "units":null
+          },
+          "field9":{
+            "value":"DRUNK_DR",
+            "display":"Drunk Driver",
+            "fieldtype":"number",
+            "units":null
+          },
+          "field10":{
+            "value":"FATALS",
+            "display":"Number of Fatalities",
+            "fieldtype":"number",
+            "units":null
+          },
+          "field10":{
+            "value":"",
+            "display":"Number of Fatalities",
+            "fieldtype":"number",
             "units":null
           }
         }
