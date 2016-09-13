@@ -100,7 +100,7 @@
           "field8":{
             "value":"PBPTYPE",
             "display":"Cyclists Involved",
-            "fieldtype":"number",
+            "fieldtype":"text",
             "units":null
           },
           "field9":{
