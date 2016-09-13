@@ -4446,7 +4446,7 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/NTA.png"
         },
-        "2015 DC Accidents": {
+        "2013-2015 DC Accidents": {
           "category": "6",
           "colors": {
             "hex": {},
@@ -4456,14 +4456,14 @@
             "denyList1": "Limited"
           },
           "denyToggle": false,
-          "displayName": "2015 DC Accidents",
+          "displayName": "2013-2015 DC Accidents",
           "functions": {
             "addFunctions": {
               "func1": {
                 "functionName": "addLayer",
                 "parameters": {
                   "param1": "$scope",
-                  "param2": "2015-accidents"
+                  "param2": "2013-2015-accidents"
                 },
                 "service": "mapOverlayService"
               }
@@ -4478,7 +4478,7 @@
             },
             "piwikTrack": {
               "parameters": {
-                "param1": "'Data: DOT: 2015 Accidents'"
+                "param1": "'Data: DOT: 2013-2015 Accidents'"
               }
             },
             "removeFunctions": {
@@ -4486,7 +4486,7 @@
                 "functionName": "removeLayer",
                 "parameters": {
                   "param1": "$scope",
-                  "param2": "2015-accidents"
+                  "param2": "2013-2015-accidents"
                 },
                 "service": "mapOverlayService"
               }

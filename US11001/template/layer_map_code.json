@@ -4026,8 +4026,8 @@
                 }
             }
         },
-        "2015-accidents": {
-          "name": "2015-accidents",
+        "2013-2015-accidents": {
+          "name": "2013-2015-accidents",
           "removeName": "2013to2015AccidentData.geojson",
           "url": "https://s3.amazonaws.com/create-common/layerFiles/dataGeoJSONs/2013to2015AccidentData.geojson",
           "cartographic": true,
@@ -4035,7 +4035,7 @@
             "exists": true,
             "objClass": "UserInfo",
             "id": "entity.properties.st_case",
-            "name": "2015-accidents",
+            "name": "2013-2015-accidents",
             "folder": "https://s3.amazonaws.com/create-common/layerFiles/dataGeoJSONs/",
             "applyFunction": null
           },
@@ -4053,7 +4053,7 @@
             "billboardLayers": {
               "billboard1": {
                 "type": "custom",
-                "name": "2015-accidents",
+                "name": "2013-2015-accidents",
                 "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/navyblue_H.png",
                 "position": {
                   "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
