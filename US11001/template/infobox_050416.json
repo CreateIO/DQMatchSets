@@ -38,6 +38,37 @@
           }
         }
       },
+      "2013-2015-accidents":{
+        "referenceid":"st_case",
+        "offset":null,
+        "fieldtype":"business",
+        "resourceType":"array",
+        "photos":{
+          "active":true,
+          "value":null
+        },
+        "pdfs":{
+          "active":false,
+          "value":null
+        },
+        "viewDetailsBoxArray":true,
+        "wdcepDetailsBox":false,
+        "header":"st_case",
+        "boxValues":{
+          "field1":{
+            "value":"tway_id",
+            "display":"Accident Location: ",
+            "fieldtype":"text",
+            "units":null
+          },
+          "field2":{
+            "value":"month + '/' + day + '/' + year",
+            "display":"Date of Accident: ",
+            "fieldtype":"complex",
+            "units":null
+          }
+        }
+      },
         "wdcep_resi_com_data":{
             "referenceid":"UNIQUEID",
             "propertyid":null,
