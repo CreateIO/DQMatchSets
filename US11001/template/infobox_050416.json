@@ -57,7 +57,7 @@
         "boxValues":{
           "field1":{
             "value":"TWAY_ID",
-            "display":"Accident Location: ",
+            "display":"Location",
             "fieldtype":"text",
             "units":null
           },
@@ -69,37 +69,37 @@
           },
           "field3":{
             "value":"MONTH + '/' + DAY + '/' + YEAR",
-            "display":"Date of Accident: ",
+            "display":"Date",
             "fieldtype":"complex",
             "units":null
           },
           "field4":{
             "value":"HARM_EV_2",
-            "display":"Collision Type",
+            "display":"Type",
             "fieldtype":"text",
             "units":null
           },
           "field5":{
             "value":"MAN_COLL_2",
-            "display":"Manner of Collision",
+            "display":"Manner",
             "fieldtype":"text",
             "units":null
           },
           "field6":{
             "value":"VE_TOTAL",
-            "display":"Vehicles Involved",
+            "display":"# of Vehicles",
             "fieldtype":"number",
             "units":null
           },
           "field7":{
             "value":"PEDS",
-            "display":"Pedestrians Involved",
+            "display":"# of Pedestrians",
             "fieldtype":"number",
             "units":null
           },
           "field8":{
             "value":"PBPTYPE",
-            "display":"Cyclists Involved",
+            "display":"# of Cyclists",
             "fieldtype":"text",
             "units":null
           },
@@ -111,7 +111,7 @@
           },
           "field10":{
             "value":"FATALS",
-            "display":"Number of Fatalities",
+            "display":"# of Fatalities",
             "fieldtype":"number",
             "units":null
           }
