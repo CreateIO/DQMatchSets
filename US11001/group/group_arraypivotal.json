@@ -852,6 +852,7 @@
         "listIndex": 2,
         "url": "med-info.html",
         "hasCharts": true,
+        "showIf": "arrayData",
         "deny": ""
       }
     ]
