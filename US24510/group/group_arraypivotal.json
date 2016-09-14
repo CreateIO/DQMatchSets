@@ -26,6 +26,20 @@
   },
   "infobox": {
   },
+  "tabs": [{
+    "id": "navProperty",
+    "name": "Property",
+    "tabs": [
+      {
+        "id": "navMedicals",
+        "name": "Facility Data",
+        "listIndex": 2,
+        "url": "med-info.html",
+        "hasCharts": true,
+        "deny": ""
+      }
+    ]
+  }],
   "tms": {
   }
 }
