@@ -842,7 +842,7 @@
   },
   "infobox": {
   },
-  "tabs": {
+  "tabs": [{
     "id": "navProperty",
     "name": "Property",
     "tabs": [
@@ -855,7 +855,7 @@
         "deny": ""
       }
     ]
-  },
+  }],
   "tms": {
   }
 }
