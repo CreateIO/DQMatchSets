@@ -15,7 +15,7 @@
             "coordinates":[[-77.04346, 38.909624, 3.0],[-77.04346, 38.909624, 15000.0]],
             "height": null
           }
-        } 
+        }
     ] },
     "start_layers": { "Property Types": "off", "Facilities - Hospitals": "on" },
     "start_menus": { "Layer_Menu": "off", "Layer_Pivotal": "on" }
@@ -841,6 +841,20 @@
   "filters": {
   },
   "infobox": {
+  },
+  "tabs": {
+    "id": "navProperty",
+    "name": "Property",
+    "tabs": [
+      {
+        "id": "navMedicals",
+        "name": "Facility Data",
+        "listIndex": 2,
+        "url": "med-info.html",
+        "hasCharts": true,
+        "deny": ""
+      }
+    ]
   },
   "tms": {
   }
