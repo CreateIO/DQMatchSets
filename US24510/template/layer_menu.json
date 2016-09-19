@@ -2611,6 +2611,13 @@
             "permissions": "layer.section.WDCEP",
             "redact": false,
             "title": "WDCEP"
+        },
+        "ParkHeights1": {
+            "order": 0,
+            "parentTab": "ParkHeights",
+            "permissions": null,
+            "redact": false,
+            "title": "Park Heights"
         }
     },
     "allTheTabs": {

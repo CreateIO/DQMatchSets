@@ -20,13 +20,6 @@
           "deny": ""
         },
         {
-          "id": "navMedicals",
-          "name": "Facility Data",
-          "url": "med-info.html",
-          "hasCharts": true,
-          "deny": ""
-        },
-        {
           "id": "navListings",
           "name": "Listings",
           "url": "tenant.html",
