@@ -39,12 +39,12 @@
         }
       },
       "2013to2015AccidentData":{
-        "referenceid":"ST_CASE",
+        "referenceid":"UNIQUEID",
         "offset":null,
         "fieldtype":"business",
         "resourceType":"array",
         "photos":{
-          "active":true,
+          "active":false,
           "value":null
         },
         "pdfs":{
@@ -55,6 +55,18 @@
         "wdcepDetailsBox":false,
         "header":"'Accident Infomation:'",
         "boxValues":{
+          "field1":{
+            "value":"TWAY_ID",
+            "display":"Location",
+            "fieldtype":"text",
+            "units":null
+          },
+          "field2":{
+            "value":"TWAY_ID2",
+            "display":"",
+            "fieldtype":"text",
+            "units":null
+          },
           "field3":{
             "value":"MONTH + '/' + DAY + '/' + YEAR",
             "display":"Date",
@@ -62,7 +74,7 @@
             "units":null
           },
           "field4":{
-            "value":"HARM_EV_2",
+            "value":"HARM_EV",
             "display":"Type",
             "fieldtype":"text",
             "units":null
@@ -87,7 +99,7 @@
           },
           "field8":{
             "value":"PBPTYPE",
-            "display":"# Cyclists",
+            "display":"Cyclists",
             "fieldtype":"text",
             "units":null
           },
