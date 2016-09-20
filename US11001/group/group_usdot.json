@@ -32,11 +32,7 @@
     },
     "start_layers": {
       "Property Types": "off",
-      "Facilities - Hospitals": "on"
-    },
-    "start_menus": {
-      "Layer_Menu": "off",
-      "Layer_Pivotal": "on"
+      "2013-2015 DC Accidents": "on"
     }
   },
   "layers": {
