@@ -1,4 +1,5 @@
 {
+    "$template": "infobox",
     "infoboxContent":{
         "wdcep_resi_com_data":{
             "referenceid":"UNIQUEID",

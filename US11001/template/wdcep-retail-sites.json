@@ -1,4 +1,5 @@
 {
+    "$template": "wdcepRetailSites",
     "wdcepRetailSites": {
         "610HStreetNE": {
             "type": "tile",

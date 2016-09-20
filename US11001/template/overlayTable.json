@@ -1,4 +1,5 @@
 {
+  "$template": "overlayTable",
   "overlayTable": [
     {
       "overlayZone": "ARTS",
@@ -314,4 +315,3 @@
     }
   ]
 }
-

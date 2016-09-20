@@ -1,4 +1,5 @@
 {
+    "$template": "esriVars",
     "allTheItems": {
         "TOTPOP_CY": {
             "variables": "populationtotals.TOTPOP_CY",

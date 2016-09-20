@@ -1,4 +1,5 @@
 {
+    "$template": "layerMapCode",
     "layerjson": {
         "zillow-label": {
             "name": "zillow-label",
@@ -1892,7 +1893,7 @@
             }
         },
 
- 
+
 
 
    "PT2014": {
@@ -2275,7 +2276,7 @@
         },
         "billboards": {
           "exists": true,
-          "billboardLayers": {        
+          "billboardLayers": {
             "billboard1": {
               "type": "custom",
               "name": "gwbillboards",
