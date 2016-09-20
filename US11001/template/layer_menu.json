@@ -4445,76 +4445,6 @@
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/NTA.png"
-        },
-        "2013-2015 DC Accidents": {
-          "category": "6",
-          "colors": {
-            "hex": {},
-            "type": "icon"
-          },
-          "denyList": {
-            "denyList1": "Limited"
-          },
-          "denyToggle": false,
-          "displayName": "2013-2015 DC Accidents",
-          "functions": {
-            "addFunctions": {
-              "func1": {
-                "functionName": "addLayer",
-                "parameters": {
-                  "param1": "$scope",
-                  "param2": "2013-2015-accidents"
-                },
-                "service": "mapOverlayService"
-              }
-            },
-            "emits": {
-              "emit1": {
-                "parameters": {
-                  "param1": "clearBillboard"
-                },
-                "type": "remove"
-              }
-            },
-            "piwikTrack": {
-              "parameters": {
-                "param1": "'Data: DOT: 2013-2015 Accidents'"
-              }
-            },
-            "removeFunctions": {
-              "func1": {
-                "functionName": "removeLayer",
-                "parameters": {
-                  "param1": "$scope",
-                  "param2": "2013-2015-accidents"
-                },
-                "service": "mapOverlayService"
-              }
-            }
-          },
-          "hasLegend": true,
-          "id": 0,
-          "isActive": false,
-          "layerUsed": true,
-          "legendContents": {
-            "description": "Click on icons for details.",
-             "listItems": {
-                    "item1": {
-                        "boxDescription": "2013 - 2015 Accicents",
-                        "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-accident-car.png"
-                    }
-                },
-            "sourceDescription": "FARS is a nationwide census providing NHTSA, Congress and the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.",
-            "sourceURL": "http://www.nhtsa.gov/FARS",
-            "type": "singleColumn"
-          },
-          "menuSection": "DOT1",
-          "mouseoverName": "2013 - 2015 DC Accidents",
-          "order": 0,
-          "subCategory": "1",
-          "urlLegend": "../../legends/template-legend.jade",
-          "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/AccidentMenu.png"
         }
     },
     "allTheSections": {
@@ -4601,13 +4531,6 @@
             "permissions": null,
             "redact": false,
             "title": "WDCEP"
-        },
-        "DOT1": {
-          "order": 0,
-          "parentTab": "DOT",
-          "permissions": null,
-          "redact": false,
-          "title": "DOT"
         }
     },
     "allTheTabs": {
@@ -4646,13 +4569,6 @@
             "permissions": "layer.tab.WDCEP",
             "redact": false,
             "title": "WDCEP"
-        },
-        "DOT": {
-            "isActive": true,
-            "order": 5,
-            "permissions": null,
-            "redact": false,
-            "title": "DOT"
         }
     }
 }
