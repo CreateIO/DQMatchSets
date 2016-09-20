@@ -2867,7 +2867,7 @@
                 "description": "Residential density: Where people live.",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "test",
+                        "boxDescription": "Low",
                         "boxStyle": "background:#CCF2DE"
                     },
                     "item2": {
