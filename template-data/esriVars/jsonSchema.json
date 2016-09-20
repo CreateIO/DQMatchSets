@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "allTheItems": {
+      "type": "object",
+      "properties": {},
+      "patternProperties": {
+        ".*": { "$ref": "#/definitions/esriVariable" }
+      }
+    }
+  },
+  "required": [
+    "allTheItems"
+  ],
+  "definitions": {
+    "esriVariable": {
+      "type": "object",
+      "properties": {
+        "variables": { "type": "string" },
+        "query": { "type": "string" }
+      },
+      "patternProperties": {
+        ".*": {
+          "type": "null"
+        }
+      }
+    }
+  }
+}

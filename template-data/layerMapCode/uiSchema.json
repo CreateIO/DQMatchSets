@@ -1,0 +1,52 @@
+{
+  "ui:field": "container",
+  "ui:options": {
+    "key": "layerjson"
+  },
+  "layerjson": {
+    "ui:field": "cardList",
+    "ui:options": {
+      "name": "layer",
+      "sort": ["name"]
+    },
+    "patternProperties": {
+      ".*": {
+        "removeName": { "ui:field": "nullableString" },
+        "url": { "ui:field": "nullableString" },
+        "id": {
+          "applyFunction": { "ui:field": "nullableString" }
+        },
+        "labels": {
+          "labelLayers": {
+            "ui:field": "flexibleObject"
+          }
+        },
+        "polygons": {
+          "polygonLayers": {
+            "ui:field": "flexibleObject",
+            "patternProperties": {
+              ".*": {
+                "name": { "ui:field": "nullableString" },
+                "color": {
+                  "assignments": {
+                    "ui:field": "flexibleObject"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "rasters": {
+          "rasterLayers": {
+            "ui:field": "flexibleObject"
+          }
+        },
+        "billboards": {
+          "billboardLayers": {
+            "ui:field": "flexibleObject"
+          }
+        }
+      }
+    }
+  }
+}

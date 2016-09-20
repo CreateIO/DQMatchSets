@@ -1,0 +1,32 @@
+{
+  "ui:field": "container",
+  "ui:options": {
+    "key": "infoboxContent"
+  },
+  "infoboxContent": {
+    "ui:field": "cardList",
+    "properties": {},
+    "patternProperties": {
+      ".*": {
+        "referenceid": { "ui:field": "nullableStringDropdown" },
+        "propertyid": { "ui:field": "nullableStringDropdown" },
+        "offset": { "ui:field": "nullableNumber" },
+        "photos": {
+          "value": { "ui:field": "nullableString" }
+        },
+        "pdfs": {
+          "value": { "ui:field": "nullableString" }
+        },
+        "boxValues": {
+          "ui:field": "flexibleObject",
+          "patternProperties": {
+            ".*": {
+              "value": { "ui:field": "nullableString" },
+              "units": { "ui:field": "nullableString" }
+            }
+          }
+        }
+      }
+    }
+  }
+}
