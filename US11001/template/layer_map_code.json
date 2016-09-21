@@ -4026,6 +4026,50 @@
                 }
             }
         },
+        "2013-2015-accidents": {
+          "name": "2013-2015-accidents",
+          "removeName": "2013to2015AccidentData.geojson",
+          "url": "https://s3.amazonaws.com/create-common/layerFiles/dataGeoJSONs/2013to2015AccidentData.geojson",
+          "cartographic": true,
+          "id": {
+            "exists": true,
+            "objClass": "UserInfo",
+            "id": "entity.properties.UNIQUEID",
+            "name": "2013to2015AccidentData",
+            "folder": "https://s3.amazonaws.com/create-common/layerFiles/dataGeoJSONs/",
+            "applyFunction": null
+          },
+          "labels": {
+            "exists": false
+          },
+          "polygons": {
+            "exists": false
+          },
+          "rasters": {
+            "exists": false
+          },
+          "billboards": {
+            "exists": true,
+            "billboardLayers": {
+              "billboard1": {
+                "type": "custom",
+                "name": "2013-2015-accidents",
+                "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-accident-car.png",
+                "position": {
+                  "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                  "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                  "z": 6
+                },
+                "NearFarScalar": {
+                  "minElevation": 1,
+                  "maxElevation": 100000,
+                  "minScale": 0.3,
+                  "maxScale": 0.04
+                }
+              }
+            }
+          }
+        },
         "parcelFills": {
             "name": "parcelFills",
             "removeName": null,
@@ -4045,10 +4089,10 @@
                 "url": "https://s3.amazonaws.com/models-dc/img_tilesets/parcel_tileset_DC_flats/",
                 "extension": "png",
                 "coords": {
-                    "xMin": -77.45,
-                    "yMin": 38.78,
-                    "xMax": -76.907,
-                    "yMax": 39.001
+                    "xMin": -77.16,
+                    "yMin": 38.79,
+                    "xMax": -76.88,
+                    "yMax": 39.00
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
