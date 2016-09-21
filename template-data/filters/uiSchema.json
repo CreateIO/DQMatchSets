@@ -1,0 +1,28 @@
+{
+  "ui:field": "container",
+  "ui:options": {
+    "key": "filters"
+  },
+  "filters": {
+    "ui:field": "cardList",
+    "ui:options": {
+      "name": "filter",
+      "sort": ["listorder"]
+    },
+    "patternProperties": {
+      ".*": {
+        "id": { "ui:widget": "hidden" },
+        "values": { "ui:field": "nullableString" },
+        "units": { "ui:field": "nullableStringDropdown" },
+        "minvalue": { "ui:field": "nullableNumber" },
+        "maxvalue": { "ui:field": "nullableNumber" },
+        "step": { "ui:field": "nullableNumber" },
+        "mapvalue": { "ui:field": "nullableString" },
+        "operator": { "ui:field": "nullableStringDropdown" },
+        "filter_exists": { "ui:field": "nullOrFalse" },
+        "calculation": { "ui:field": "nullableNumber" },
+        "restrict": { "ui:field": "nullableStringDropdown" }
+      }
+    }
+  }
+}

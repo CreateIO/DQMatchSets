@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "overlayDistricts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "overlayZone": { "type": "string" },
+          "district": { "type": "string" },
+          "description": { "type": "string" },
+          "lookup": { "type": "string" }
+        },
+        "additionalProperties": false,
+        "required": [
+          "overlayZone",
+          "district",
+          "description",
+          "lookup"
+        ]
+      }
+    }
+  },
+  "required": [
+    "overlayDistricts"
+  ]
+}

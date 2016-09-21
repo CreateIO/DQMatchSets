@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "filters": {
+      "type": "object",
+      "properties": {},
+      "patternProperties": {
+        ".*": {
+          "type": "object",
+          "properties": {
+            "id": { "type": "number" },
+            "name": { "type": "string" },
+            "type": {
+              "type": "string",
+              "enum": ["lookup", "min-max", "exists", "text"]
+            },
+            "category": {
+              "type": "string",
+              "enum": ["Property", "Community", "Tenants", "Finance"]
+            },
+            "subcategory": {
+              "type": "string",
+              "enum": ["Property", "Tenants", "Amenities", "CMBS Loans", "Demographics", "Incentive", "Incentives", "Z-note"]
+            },
+            "subcategoryLabel": { "type": "string" },
+            "output": { "type": "string" },
+            "label": { "type": "string" },
+            "values": {
+              "type": ["string", "null"],
+              "pattern": "(?:.*\\|)+.*"
+            },
+            "units": {
+              "type": ["string", "null"],
+              "enum": ["''", "sf", "SF", "$", "%", "Use Type", "Rooms", "Units", "Year", "Years", "mile(s)", null]
+            },
+            "minvalue": {
+              "type": ["integer", "null"]
+            },
+            "maxvalue": {
+              "type": ["integer", "null"]
+            },
+            "minsuggest": { "type": "number" },
+            "maxsuggest": { "type": "number" },
+            "step": { "type": ["number", "null"] },
+            "mapvalue": {
+              "type": ["string", "null"],
+              "pattern": "^(\\d|[A-Z]){1}((,|\\|)(\\d|[A-Z]))*$"
+            },
+            "listorder": {
+              "type": "integer"
+            },
+            "operator": {
+              "type": ["string", "null"],
+              "enum": ["+", "-", "*", "/", null]
+            },
+            "calculation": {
+              "type": ["number", "null"]
+            },
+            "filter_exists": {
+              "type": ["boolean", "null"],
+              "enum": [false, null]
+            },
+            "teaser": {
+              "type": "string",
+              "enum": ["rhs.filter.all", "rhs.filter.premium", "rhs.filter.noteaser", "rhs.filter.teasePremium"]
+            },
+            "restrict": {
+              "type": ["string", "null"],
+              "enum": ["rhs.filter.all", "rhs.filter.premium", "rhs.filter.noteaser", "rhs.filter.teasePremium", null]
+            },
+            "inuse": { "type": "boolean" },
+            "toggled": { "type": "boolean" },
+            "valueChange": { "type": "boolean" }
+          },
+          "additionalProperties": false
+        }
+      },
+      "minProperties": 1
+    }
+  },
+  "required": [
+    "filters"
+  ]
+}
