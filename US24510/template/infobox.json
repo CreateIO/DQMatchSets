@@ -143,6 +143,44 @@
                     "units":null
                 }
             }
+        },
+        "baci_LifeBridgeHealth_dt":{
+          "referenceid":"UNIQUEID",
+          "propertyid":"UNIQUEID",
+          "offset":null,
+          "fieldtype":"business",
+          "resourceType":"array",
+          "photos":{
+            "active":false,
+            "value":null
+          },
+          "pdfs":{
+            "active":false,
+            "value":null
+          },
+          "viewDetailsBoxArray":true,
+          "wdcepDetailsBox":false,
+          "header":"ADDRESS",
+          "boxValues":{
+            "field2":{
+              "value":"ADDRESS",
+              "display":"Address: ",
+              "fieldtype":"text",
+              "units":null
+            },
+            "field3":{
+              "value":"FromBreak",
+              "display":"min time: ",
+              "fieldtype":"text",
+              "units":null
+            },
+            "field4":{
+              "value":"ToBreak",
+              "display":"max time: ",
+              "fieldtype":"text",
+              "units":null
+            }
+          }
         }
     }
 }
