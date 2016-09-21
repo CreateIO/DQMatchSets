@@ -2,18 +2,22 @@
   "bool": true,
   "value": 99,
   "a": [
-    { "letter": "e",
+    {
+      "letter": "e",
       "text": "something"
     },
-    { "letter": "x",
+    {
+      "letter": "x",
       "text": "not"
     },
-    { "letter": "t",
-    "text": "nice"
+    {
+      "letter": "t",
+      "text": "nice"
     },
-    { "letter": "a",
+    {
+      "letter": "a",
       "text": "Is The Same"
     }
   ],
-"s": "ext"
+  "s": "ext"
 }

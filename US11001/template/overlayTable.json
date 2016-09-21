@@ -197,7 +197,7 @@
       "overlayOcc": 100,
       "InitialHeight": 90,
       "OverlayHeight": "Act*",
-      "note":"Regulated by the Height of Buildings Act of 1910.",
+      "note": "Regulated by the Height of Buildings Act of 1910.",
       "lookup": "For more information, see 1101.7 of DC Zoning Code"
     },
     {
@@ -286,7 +286,7 @@
       "overlayOcc": "-",
       "InitialHeight": 90,
       "OverlayHeight": "Act*",
-      "note":"Regulated by the Height of Buildings Act of 1910.",
+      "note": "Regulated by the Height of Buildings Act of 1910.",
       "lookup": "For more information, see 1706.4 (a) of DC Zoning Code"
     },
     {
@@ -298,7 +298,7 @@
       "overlayOcc": "-",
       "InitialHeight": 90,
       "OverlayHeight": "Act*",
-      "note":"Regulated by the Height of Buildings Act of 1910.",
+      "note": "Regulated by the Height of Buildings Act of 1910.",
       "lookup": "For more information, see 1706.5 (a) of DC Zoning Code"
     },
     {
@@ -310,7 +310,7 @@
       "overlayOcc": "-",
       "InitialHeight": 110,
       "OverlayHeight": "Act*",
-      "note":"Regulated by the Height of Buildings Act of 1910.",
+      "note": "Regulated by the Height of Buildings Act of 1910.",
       "lookup": "For more information, see 1706.6 (a) of DC Zoning Code"
     }
   ]

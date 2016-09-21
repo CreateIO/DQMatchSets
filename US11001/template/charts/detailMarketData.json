@@ -515,7 +515,6 @@
       ]
     }
   },
-
   "officeA-avg-ask-rate": {
     "meta": {
       "title": "Average Asking Rent",
@@ -1056,7 +1055,6 @@
       ]
     }
   },
-
   "officeBC-avg-ask-rate": {
     "meta": {
       "title": "Average Asking Rate",
@@ -1589,7 +1587,6 @@
       ]
     }
   },
-
   "officeAll-avg-ask-rate": {
     "meta": {
       "title": "Average Asking Rent",

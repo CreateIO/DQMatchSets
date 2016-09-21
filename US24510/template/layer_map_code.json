@@ -1,150 +1,150 @@
 {
-   "layerjson": {
-        "MainBaciHospitals_Array": {
-            "name": "MainBaciHospitals_Array",
-            "removeName": "MainBaciHospitals_Array.geojson",
-            "url": "https://s3.amazonaws.com/models-dc/geoJSON/MainBaciHospitals_Array.geojson",
-            "cartographic": true,
-            "id": {
-                "exists": false
-            },
-            "labels": {
-                "exists": false
-            },
-            "polygons": {
-                "exists": false
-            },
-            "points": {
-              "exists": false,
-              "pointLayers": {
-                "point1": {
-                  "type": "singleColor",
-                  "name": "entity.properties.NAME",
-                  "color": {
-                   "alpha": 0.5,
-                   "type": "rgb",
-                   "rgb": {
-                    "r": 255,
-                    "g": 255,
-                    "b": 0,
-                    "a": 100
-                   }
-                  },
-                  "pointWidth": 24
-                }
+  "layerjson": {
+    "MainBaciHospitals_Array": {
+      "name": "MainBaciHospitals_Array",
+      "removeName": "MainBaciHospitals_Array.geojson",
+      "url": "https://s3.amazonaws.com/models-dc/geoJSON/MainBaciHospitals_Array.geojson",
+      "cartographic": true,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "points": {
+        "exists": false,
+        "pointLayers": {
+          "point1": {
+            "type": "singleColor",
+            "name": "entity.properties.NAME",
+            "color": {
+              "alpha": 0.5,
+              "type": "rgb",
+              "rgb": {
+                "r": 255,
+                "g": 255,
+                "b": 0,
+                "a": 100
               }
             },
-            "rasters": {
-                "exists": false
+            "pointWidth": 24
+          }
+        }
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": true,
+        "billboardLayers": {
+          "billboard1": {
+            "type": "custom",
+            "name": "MainBaciHospitals_Array_SH",
+            "if": "entity.properties.MapName == 'Sinai Hospital of Baltimore'",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/SH_logo.png",
+            "position": {
+              "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+              "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+              "z": 5
             },
-            "billboards": {
-                "exists": true,
-                "billboardLayers": {
-                    "billboard1": {
-                        "type": "custom",
-                        "name": "MainBaciHospitals_Array_SH",
-                        "if": "entity.properties.MapName == 'Sinai Hospital of Baltimore'",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/SH_logo.png",
-                        "position": {
-                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
-                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 5
-                        },
-                        "NearFarScalar": {
-                            "minElevation": 1,
-                            "maxElevation": 100000,
-                            "minScale": 0.25,
-                            "maxScale": 0.05
-                        }
-                    },
-                    "billboard2": {
-                        "type": "custom",
-                        "name": "MainBaciHospitals_Array_JH",
-                        "if": "entity.properties.MapName == 'The Johns Hopkins Hospital'",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/JH_logo.png",
-                        "position": {
-                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
-                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 5
-                        },
-                        "NearFarScalar": {
-                            "minElevation": 1,
-                            "maxElevation": 100000,
-                            "minScale": 0.3,
-                            "maxScale": 0.05
-                        }
-                    },
-                    "billboard3": {
-                        "type": "custom",
-                        "name": "MainBaciHospitals_Array_UM",
-                        "if": "entity.properties.MapName == 'University of Maryland Medical System'",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/UoM_logo.png",
-                        "position": {
-                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
-                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 5
-                        },
-                        "NearFarScalar": {
-                            "minElevation": 1,
-                            "maxElevation": 100000,
-                            "minScale": 0.4,
-                            "maxScale": 0.09
-                        }
-                    },
-                    "billboard4": {
-                        "type": "custom",
-                        "name": "OtherBaciHospitals_Array_JH",
-                        "if": "entity.properties.MainHospit == 'Johns Hopkins'",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/gold_H.png",
-                        "position": {
-                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
-                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 6
-                        },
-                        "NearFarScalar": {
-                            "minElevation": 1,
-                            "maxElevation": 100000,
-                            "minScale": 0.3,
-                            "maxScale": 0.04
-                        }
-                    },
-                    "billboard5": {
-                        "type": "custom",
-                        "if": "entity.properties.MainHospit == 'University of Maryland Medical Center'",
-                        "name": "OtherBaciHospitals_Array_UM",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/red_H.png",
-                        "position": {
-                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
-                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 6
-                        },
-                        "NearFarScalar": {
-                            "minElevation": 1,
-                            "maxElevation": 100000,
-                            "minScale": 0.3,
-                            "maxScale": 0.04
-                        }
-                    },
-                    "billboard6": {
-                        "type": "custom",
-                        "name": "OtherBaciHospitals_Array_MS",
-                        "if": "entity.properties.MainHospit == 'MedStar'",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/navyblue_H.png",
-                        "position": {
-                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
-                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 6
-                        },
-                        "NearFarScalar": {
-                            "minElevation": 1,
-                            "maxElevation": 100000,
-                            "minScale": 0.3,
-                            "maxScale": 0.04
-                        }
-                    }
-                }
+            "NearFarScalar": {
+              "minElevation": 1,
+              "maxElevation": 100000,
+              "minScale": 0.25,
+              "maxScale": 0.05
             }
-        },
+          },
+          "billboard2": {
+            "type": "custom",
+            "name": "MainBaciHospitals_Array_JH",
+            "if": "entity.properties.MapName == 'The Johns Hopkins Hospital'",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/JH_logo.png",
+            "position": {
+              "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+              "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+              "z": 5
+            },
+            "NearFarScalar": {
+              "minElevation": 1,
+              "maxElevation": 100000,
+              "minScale": 0.3,
+              "maxScale": 0.05
+            }
+          },
+          "billboard3": {
+            "type": "custom",
+            "name": "MainBaciHospitals_Array_UM",
+            "if": "entity.properties.MapName == 'University of Maryland Medical System'",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/UoM_logo.png",
+            "position": {
+              "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+              "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+              "z": 5
+            },
+            "NearFarScalar": {
+              "minElevation": 1,
+              "maxElevation": 100000,
+              "minScale": 0.4,
+              "maxScale": 0.09
+            }
+          },
+          "billboard4": {
+            "type": "custom",
+            "name": "OtherBaciHospitals_Array_JH",
+            "if": "entity.properties.MainHospit == 'Johns Hopkins'",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/gold_H.png",
+            "position": {
+              "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+              "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+              "z": 6
+            },
+            "NearFarScalar": {
+              "minElevation": 1,
+              "maxElevation": 100000,
+              "minScale": 0.3,
+              "maxScale": 0.04
+            }
+          },
+          "billboard5": {
+            "type": "custom",
+            "if": "entity.properties.MainHospit == 'University of Maryland Medical Center'",
+            "name": "OtherBaciHospitals_Array_UM",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/red_H.png",
+            "position": {
+              "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+              "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+              "z": 6
+            },
+            "NearFarScalar": {
+              "minElevation": 1,
+              "maxElevation": 100000,
+              "minScale": 0.3,
+              "maxScale": 0.04
+            }
+          },
+          "billboard6": {
+            "type": "custom",
+            "name": "OtherBaciHospitals_Array_MS",
+            "if": "entity.properties.MainHospit == 'MedStar'",
+            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/navyblue_H.png",
+            "position": {
+              "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+              "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+              "z": 6
+            },
+            "NearFarScalar": {
+              "minElevation": 1,
+              "maxElevation": 100000,
+              "minScale": 0.3,
+              "maxScale": 0.04
+            }
+          }
+        }
+      }
+    },
     "baci_UoMarylandMedicalCenter_dt": {
       "name": "baci_UoMarylandMedicalCenter_dt",
       "removeName": null,
@@ -164,7 +164,7 @@
         "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_UoMarylandMedicalCenter_dt@EPSG:900913@png",
         "extension": "png",
         "coords": {
-          "xMin": -76.80,
+          "xMin": -76.8,
           "yMin": 39.21,
           "xMax": -76.46,
           "yMax": 39.42
@@ -288,7 +288,7 @@
             },
             "material": "new Cesium.ColorMaterialProperty(color)",
             "outlineColor": "Cesium.Color.ANTIQUEWHITE",
-            "outlineWidth": 2.0
+            "outlineWidth": 2
           }
         }
       },
@@ -320,7 +320,7 @@
             "name": "LandUseInitiatives_GeoRef",
             "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/LandUseInitiatives_GeoRef.png",
             "xMin": -76.6967685,
-            "yMin": 39.3183180,
+            "yMin": 39.318318,
             "xMax": -76.6509116,
             "yMax": 39.3589137,
             "alpha": 1,
@@ -918,7 +918,7 @@
         "url": "https://s3.amazonaws.com/models-dc/img_tilesets/ParkHeightsShuttleLoop",
         "extension": "png",
         "coords": {
-          "xMin": -76.6980,
+          "xMin": -76.698,
           "yMin": 39.329,
           "xMax": -76.662,
           "yMax": 39.357
@@ -959,7 +959,7 @@
           "xMin": -76.73,
           "yMin": 39.19,
           "xMax": -76.51,
-          "yMax": 39.40
+          "yMax": 39.4
         },
         "tileWidth": 256,
         "tileHeight": 256,
@@ -997,7 +997,7 @@
           "xMin": -76.73,
           "yMin": 39.19,
           "xMax": -76.51,
-          "yMax": 39.40
+          "yMax": 39.4
         },
         "tileWidth": 256,
         "tileHeight": 256,
@@ -1033,7 +1033,7 @@
           "raster1": {
             "name": "PimlicoParkRedevelopment",
             "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PimlicoParkRedevelopment_GeoRef.png",
-            "xMin": -76.6809640,
+            "xMin": -76.680964,
             "yMin": 39.3482063,
             "xMax": -76.6659006,
             "yMax": 39.3574927,
@@ -1104,7 +1104,7 @@
             "xMin": -76.6700014,
             "yMin": 39.3388392,
             "xMax": -76.6661938,
-            "yMax": 39.3412120,
+            "yMax": 39.341212,
             "alpha": 1,
             "show": true,
             "hasDropdown": false
@@ -1184,7 +1184,7 @@
             },
             "material": "new Cesium.ColorMaterialProperty(color)",
             "outlineColor": "Cesium.Color.ANTIQUEWHITE",
-            "outlineWidth": 2.0
+            "outlineWidth": 2
           }
         }
       },
@@ -1226,10 +1226,10 @@
             "translucencyByDistance": {
               "minElevation": 1000,
               "maxElevation": 3000,
-              "minScale": 1.0,
-              "maxScale": 0.0
+              "minScale": 1,
+              "maxScale": 0
             },
-            "scale": 1.0
+            "scale": 1
           }
         }
       },
@@ -1267,8 +1267,8 @@
             "NearFarScalar": {
               "minElevation": 3000,
               "maxElevation": 4000,
-              "minScale": 1.0,
-              "maxScale": 0.0
+              "minScale": 1,
+              "maxScale": 0
             }
           }
         }
@@ -1295,7 +1295,7 @@
         "coords": {
           "xMin": -76.74,
           "yMin": 39.21,
-          "xMax": -76.50,
+          "xMax": -76.5,
           "yMax": 39.38
         },
         "tileWidth": 256,
@@ -1343,10 +1343,10 @@
             "translucencyByDistance": {
               "minElevation": 9000,
               "maxElevation": 10000,
-              "minScale": 1.0,
-              "maxScale": 0.0
+              "minScale": 1,
+              "maxScale": 0
             },
-            "scale": 1.0
+            "scale": 1
           }
         }
       },
@@ -1368,7 +1368,7 @@
             },
             "material": "new Cesium.ColorMaterialProperty(color)",
             "outlineColor": "Cesium.Color.ANTIQUEWHITE",
-            "outlineWidth": 2.0
+            "outlineWidth": 2
           }
         }
       },
@@ -1400,7 +1400,7 @@
             "name": "baltimoreFloodZones",
             "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/balt-flood.png",
             "xMin": -76.7153,
-            "yMin": 39.2050,
+            "yMin": 39.205,
             "xMax": -76.5285,
             "yMax": 39.3743,
             "alpha": 0.8,
@@ -1482,10 +1482,10 @@
             "translucencyByDistance": {
               "minElevation": 3000,
               "maxElevation": 4000,
-              "minScale": 1.0,
-              "maxScale": 0.0
+              "minScale": 1,
+              "maxScale": 0
             },
-            "scale": 1.0
+            "scale": 1
           }
         }
       },
@@ -1572,7 +1572,7 @@
         "coords": {
           "xMin": -76.74,
           "yMin": 39.19,
-          "xMax": -76.50,
+          "xMax": -76.5,
           "yMax": 39.38
         },
         "tileWidth": 256,
@@ -1587,7 +1587,7 @@
       },
       "billboards": {
         "exists": false
+      }
     }
   }
-}
 }

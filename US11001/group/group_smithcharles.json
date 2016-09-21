@@ -1,84 +1,80 @@
 {
-    "layers": {
-        "gsa": {
-            "id": 47,
-            "displayName": "gsa",
-            "mouseoverName": "GSA Leases",
-            "denyToggle": false,
-            "isActive": false,
-            "layerUsed": true,
-            "hasLegend": true,
-            "urlLegend": "../../legends/gsaLeases.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/geoJSON/prod/icons/GSABillboard.png",
-            "colors": {
-                "type": "?",
-                "hex": {
-                }
-            },
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "gsa"
-                        }
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Data: GSA Leases'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "service": "mapOverlayService",
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "gsa"
-                        }
-                    }
-                },
-                "infoboxAdd": {
-                    "service": "infoBoxService",
-                    "functionName": "getCirclesGSA",
-                    "parameters": {
-                        "param1": "https://s3.amazonaws.com/models-dc/geoJSON/prod/gsaGeomFullPoint.geojson",
-                        "param2": "expiryear",
-                        "param3": "leaseagree",
-                        "param4": 25000,
-                        "param5": 50000,
-                        "param6": 100000,
-                        "param7": 250000
-                    }
-                },
-                "infoboxRemove": {
-                    "service": "infoBoxService",
-                    "functionName": "clearBufferRings",
-                    "parameters": {
-                        "param1": "https://s3.amazonaws.com/models-dc/geoJSON/prod/gsaGeomFullPoint.geojson"
-                    }
-                },
-                "emits": {
-                    "emit1": {
-                        "type": "remove",
-                        "parameters": {
-                            "param1": "clearBillboard"
-                        }
-                    }
-                }
-            },
-            "category": "3",
-            "subCategory": "1",
-            "order": 3
-        }
-    },
-    "filters": {
+  "layers": {
+    "gsa": {
+      "id": 47,
+      "displayName": "gsa",
+      "mouseoverName": "GSA Leases",
+      "denyToggle": false,
+      "isActive": false,
+      "layerUsed": true,
+      "hasLegend": true,
+      "urlLegend": "../../legends/gsaLeases.jade",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/geoJSON/prod/icons/GSABillboard.png",
+      "colors": {
+        "type": "?",
+        "hex": {}
+      },
+      "functions": {
+        "addFunctions": {
+          "func1": {
+            "service": "mapOverlayService",
+            "functionName": "addLayer",
+            "parameters": {
+              "param1": "$scope",
+              "param2": "gsa"
+            }
+          }
         },
-    "infobox": {
-    },
-    "tms": {
+        "piwikTrack": {
+          "parameters": {
+            "param1": "'Data: GSA Leases'"
+          }
+        },
+        "removeFunctions": {
+          "func1": {
+            "service": "mapOverlayService",
+            "functionName": "removeLayer",
+            "parameters": {
+              "param1": "$scope",
+              "param2": "gsa"
+            }
+          }
+        },
+        "infoboxAdd": {
+          "service": "infoBoxService",
+          "functionName": "getCirclesGSA",
+          "parameters": {
+            "param1": "https://s3.amazonaws.com/models-dc/geoJSON/prod/gsaGeomFullPoint.geojson",
+            "param2": "expiryear",
+            "param3": "leaseagree",
+            "param4": 25000,
+            "param5": 50000,
+            "param6": 100000,
+            "param7": 250000
+          }
+        },
+        "infoboxRemove": {
+          "service": "infoBoxService",
+          "functionName": "clearBufferRings",
+          "parameters": {
+            "param1": "https://s3.amazonaws.com/models-dc/geoJSON/prod/gsaGeomFullPoint.geojson"
+          }
+        },
+        "emits": {
+          "emit1": {
+            "type": "remove",
+            "parameters": {
+              "param1": "clearBillboard"
+            }
+          }
+        }
+      },
+      "category": "3",
+      "subCategory": "1",
+      "order": 3
     }
+  },
+  "filters": {},
+  "infobox": {},
+  "tms": {}
 }

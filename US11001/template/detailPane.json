@@ -9,20 +9,20 @@
           "name": "Overview",
           "hasCharts": false,
           "radarChart": true,
-          "restrictedFeature":"",
-          "deny":"",
-          "sections":[
+          "restrictedFeature": "",
+          "deny": "",
+          "sections": [
             {
-              "template":"../newStreetView.html",
-              "sections":[]
+              "template": "../newStreetView.html",
+              "sections": []
             },
             {
-              "template":"../loc-details.html",
-              "sections":[]
+              "template": "../loc-details.html",
+              "sections": []
             },
             {
-              "template":"../map-inset.html",
-              "sections":[]
+              "template": "../map-inset.html",
+              "sections": []
             }
           ],
           "dataSource": "Data Source: DC City Government"
@@ -31,28 +31,28 @@
           "id": "navBuilding",
           "name": "Building",
           "hasCharts": true,
-          "restrictedFeature":"",
-          "deny":"",
-          "sections":[
+          "restrictedFeature": "",
+          "deny": "",
+          "sections": [
             {
-              "template":"../bldg-overview.html",
-              "sections":[]
+              "template": "../bldg-overview.html",
+              "sections": []
             },
             {
-              "template":"../bldg-assessment.html",
-              "sections":[]
+              "template": "../bldg-assessment.html",
+              "sections": []
             },
             {
-              "template":"../bldg-Rstructure.html",
-              "sections":[]
+              "template": "../bldg-Rstructure.html",
+              "sections": []
             },
             {
-              "template":"../permits.html",
-              "sections":[]
+              "template": "../permits.html",
+              "sections": []
             },
             {
-              "template":"../bldg-structure.html",
-              "sections":[]
+              "template": "../bldg-structure.html",
+              "sections": []
             }
           ],
           "dataSource": "Data Source: DC City Government"
@@ -61,12 +61,12 @@
           "id": "navListings",
           "name": "Listings",
           "hasCharts": true,
-          "restrictedFeature":"",
-          "deny":"",
-          "sections":[
+          "restrictedFeature": "",
+          "deny": "",
+          "sections": [
             {
-              "template":"../tenant.html",
-              "sections":[]
+              "template": "../tenant.html",
+              "sections": []
             }
           ],
           "dataSource": "Data Source: DC City Government"
@@ -75,12 +75,12 @@
           "id": "navTenants",
           "name": "Tenants",
           "hasCharts": false,
-          "restrictedFeature":"tenants",
-          "deny":"",
-          "sections":[
+          "restrictedFeature": "tenants",
+          "deny": "",
+          "sections": [
             {
-              "template":"../infogroup.html",
-              "sections":[]
+              "template": "../infogroup.html",
+              "sections": []
             }
           ],
           "dataSource": "Data Source: DC City Government"
@@ -89,28 +89,28 @@
           "id": "navZoning",
           "name": "Zoning",
           "hasCharts": true,
-          "restrictedFeature":"",
-          "deny":"",
-          "sections":[
+          "restrictedFeature": "",
+          "deny": "",
+          "sections": [
             {
-              "template":"../z-zoning.html",
-              "sections":[]
+              "template": "../z-zoning.html",
+              "sections": []
             },
             {
-              "template":"../z-density.html",
-              "sections":[]
+              "template": "../z-density.html",
+              "sections": []
             },
             {
-              "template":"../z-lotcov.html",
-              "sections":[]
+              "template": "../z-lotcov.html",
+              "sections": []
             },
             {
-              "template":"../z-heightset.html",
-              "sections":[]
+              "template": "../z-heightset.html",
+              "sections": []
             },
             {
-              "template":"../z-parking.html",
-              "sections":[]
+              "template": "../z-parking.html",
+              "sections": []
             }
           ],
           "dataSource": "Data Source: DC City Office of Zoning"
@@ -119,12 +119,12 @@
           "id": "navPlanning",
           "name": "Planning",
           "hasCharts": true,
-          "restrictedFeature":"",
-          "deny":"",
-          "sections":[
+          "restrictedFeature": "",
+          "deny": "",
+          "sections": [
             {
-              "template":"../planning.html",
-              "sections":[]
+              "template": "../planning.html",
+              "sections": []
             }
           ],
           "dataSource": "Data Source: DC City Government"
@@ -133,12 +133,12 @@
           "id": "navIncentives",
           "name": "Incentives",
           "hasCharts": false,
-          "restrictedFeature":"",
-          "deny":"",
-          "sections":[
+          "restrictedFeature": "",
+          "deny": "",
+          "sections": [
             {
-              "template":"../incentives.html",
-              "sections":[]
+              "template": "../incentives.html",
+              "sections": []
             }
           ],
           "dataSource": "Data Source: DC City Government"
@@ -147,18 +147,18 @@
           "id": "navTransit",
           "name": "Transit",
           "hasCharts": false,
-          "restrictedFeature":"",
-          "deny":"",
-          "sections":[
+          "restrictedFeature": "",
+          "deny": "",
+          "sections": [
             {
-              "template":"../t-transit.html",
-              "sections":[]
+              "template": "../t-transit.html",
+              "sections": []
             },
             {
-              "template":"../t-commuting.html",
-              "listDefinition":"",
-              "listItem":"",
-              "sections":[]
+              "template": "../t-commuting.html",
+              "listDefinition": "",
+              "listItem": "",
+              "sections": []
             }
           ],
           "dataSource": "Data Source: Walk Score, DC City Government, US Census - American Community Survey 2013 "
@@ -167,12 +167,12 @@
           "id": "navBuildIt",
           "name": "Build It!",
           "hasCharts": false,
-          "deny":"Limited Monthly DC City_Public_Access Freemium Premium beta_premium beta_freemium beta_fremium",
-          "restrictedFeature":"buildIt",
-          "sections":[
+          "deny": "Limited Monthly DC City_Public_Access Freemium Premium beta_premium beta_freemium beta_fremium",
+          "restrictedFeature": "buildIt",
+          "sections": [
             {
-              "template":"../building_definition.html",
-              "sections":[]
+              "template": "../building_definition.html",
+              "sections": []
             }
           ],
           "dataSource": "Data Source: DC City Government"
@@ -188,11 +188,11 @@
           "name": "Demographics",
           "hasCharts": "false",
           "deny": "",
-          "restrictedFeature":"esriDemog",
-          "sections":[
+          "restrictedFeature": "esriDemog",
+          "sections": [
             {
-              "template":"premium-charts",
-              "sections":[]
+              "template": "premium-charts",
+              "sections": []
             }
           ],
           "dataSource": "Data Source: DC City Government"
@@ -202,11 +202,11 @@
           "name": "Demographics",
           "hasCharts": "false",
           "deny": "",
-          "restrictedFeature":"inhouseDemog",
-          "sections":[
+          "restrictedFeature": "inhouseDemog",
+          "sections": [
             {
-              "template":"freemium-charts",
-              "sections":[]
+              "template": "freemium-charts",
+              "sections": []
             }
           ],
           "dataSource": "Data Source: DC City Government"
@@ -216,15 +216,15 @@
           "name": "Economy",
           "hasCharts": false,
           "deny": "",
-          "restrictedFeature":"",
-          "sections":[
+          "restrictedFeature": "",
+          "sections": [
             {
-              "template":"../econ-local.html",
-              "sections":[]
+              "template": "../econ-local.html",
+              "sections": []
             },
             {
-              "template":"../econ-natl.html",
-              "sections":[]
+              "template": "../econ-natl.html",
+              "sections": []
             }
           ],
           "dataSource": "Data Source: DC City Government"
@@ -240,23 +240,23 @@
           "name": "Debt",
           "hasCharts": "false",
           "deny": "",
-          "restrictedFeature":"",
-          "sections":[
+          "restrictedFeature": "",
+          "sections": [
             {
-              "template":"../fin-zmortgage.html",
-              "sections":[]
+              "template": "../fin-zmortgage.html",
+              "sections": []
             },
             {
-              "template":"../fin-benchmark.html",
-              "sections":[]
+              "template": "../fin-benchmark.html",
+              "sections": []
             },
             {
-              "template":"../fin-lending.html",
-              "sections":[]
+              "template": "../fin-lending.html",
+              "sections": []
             },
             {
-              "template":"../fin-tenyear.html",
-              "sections":[]
+              "template": "../fin-tenyear.html",
+              "sections": []
             }
           ]
         },
@@ -265,12 +265,11 @@
           "name": "CMBS Loans",
           "hasCharts": "false",
           "deny": "",
-          "restrictedFeature":"inhouseDemog",
-          "sections":[
+          "restrictedFeature": "inhouseDemog",
+          "sections": [
             {
-              "template":"../trepp-teaser.html",
-              "sections":[]
-
+              "template": "../trepp-teaser.html",
+              "sections": []
             }
           ],
           "dataSource": "Data Source: DC City Government"
@@ -280,41 +279,40 @@
           "name": "CMBS Proforma",
           "hasCharts": "false",
           "deny": "",
-          "restrictedFeature":"trepp",
-          "sections":[
+          "restrictedFeature": "trepp",
+          "sections": [
             {
-              "template":"../trepp.html",
-              "sections":[
+              "template": "../trepp.html",
+              "sections": [
                 {
-                  "showSection":"trepp.trepp_cr_id",
-                  "template":"../trepp-general.html"
+                  "showSection": "trepp.trepp_cr_id",
+                  "template": "../trepp-general.html"
                 },
                 {
-                  "showSection":"trepp.trepp_cr_id",
-                  "template":"../trepp-loan.html"
+                  "showSection": "trepp.trepp_cr_id",
+                  "template": "../trepp-loan.html"
                 },
                 {
-                  "showSection":"trepp.trepp_cr_id",
-                  "template":"../trepp-tenant.html"
+                  "showSection": "trepp.trepp_cr_id",
+                  "template": "../trepp-tenant.html"
                 },
                 {
-                  "showSection":"trepp.trepp_cr_id",
-                  "template":"../trepp-expiration.html"
+                  "showSection": "trepp.trepp_cr_id",
+                  "template": "../trepp-expiration.html"
                 },
                 {
-                  "showSection":"trepp.trepp_cr_id",
-                  "template":"../trepp-financials.html"
+                  "showSection": "trepp.trepp_cr_id",
+                  "template": "../trepp-financials.html"
                 },
                 {
-                  "showSection":"trepp.trepp_cr_id",
-                  "template":"../trepp-loan.html"
+                  "showSection": "trepp.trepp_cr_id",
+                  "template": "../trepp-loan.html"
                 },
                 {
-                  "showSection":"trepp.trepp_cr_id",
-                  "template":"../trepp-appraisal.html"
+                  "showSection": "trepp.trepp_cr_id",
+                  "template": "../trepp-appraisal.html"
                 }
               ]
-
             }
           ],
           "dataSource": "Data Source: DC City Government"
@@ -324,25 +322,24 @@
           "name": "Equity",
           "hasCharts": "false",
           "deny": "",
-          "restrictedFeature":"",
-          "sections":[
+          "restrictedFeature": "",
+          "sections": [
             {
-              "template":"../eq-multifam.html",
-              "sections":[]
+              "template": "../eq-multifam.html",
+              "sections": []
             },
             {
-              "template":"../eq-multifamlightadd.html",
-              "sections":[]
+              "template": "../eq-multifamlightadd.html",
+              "sections": []
             },
             {
-              "template":"../eq-multifamadd.html",
-              "sections":[]
+              "template": "../eq-multifamadd.html",
+              "sections": []
             },
             {
-              "template":"../eq-officesub.html",
-              "sections":[]
+              "template": "../eq-officesub.html",
+              "sections": []
             }
-
           ],
           "dataSource": "Data Source: DC City Government"
         }
