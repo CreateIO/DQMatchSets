@@ -1060,26 +1060,27 @@
             "header":"HEADER",
             "boxValues":{
                 "field1":{
-                    "value":"USERTYPE",
-                    "display":"Comment by: ",
-                    "fieldtype":"text",
-                    "units":null
-                },
-                "field2":{
                     "value":"REQUESTTYP",
                     "display":"Category: ",
                     "fieldtype":"text",
                     "units":null
                 },
+                "field1":{
+                    "value":"USERTYPE",
+                    "display":"Entered by: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+
                 "field3":{
                     "value":"DATE",
                     "display":"Entered on: ",
-                    "fieldtype":"text",
+                    "fieldtype":"date",
                     "units":null
                 },
                 "field4":{
                     "value":"COMMENTS",
-                    "display":"User Note: ",
+                    "display":"Comment: ",
                     "fieldtype":"text",
                     "units": null
                 }
