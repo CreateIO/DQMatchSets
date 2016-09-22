@@ -2975,7 +2975,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "DOT1",
-            "mouseoverName": "",
+            "mouseoverName": "2015 DC Crashes Heatmap",
             "order": 1,
             "subCategory": "1",
             "urlLegend": "../../legends/template-color-ramp.jade",
