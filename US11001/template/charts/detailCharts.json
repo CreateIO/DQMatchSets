@@ -7,55 +7,94 @@
       "fields": [
         {
           "label": "Agriculture",
-          "value": ["census", "empIndustryAgriculturePct"]
-        } ,
+          "value": [
+            "census",
+            "empIndustryAgriculturePct"
+          ]
+        },
         {
           "label": "Construction",
-          "value": ["census", "empIndustryConstructionPct"]
-        } ,
+          "value": [
+            "census",
+            "empIndustryConstructionPct"
+          ]
+        },
         {
           "label": "Manufacturing",
-          "value": ["census", "empIndustryManufacturingPct"]
-        } ,
+          "value": [
+            "census",
+            "empIndustryManufacturingPct"
+          ]
+        },
         {
           "label": "Wholesale Trade",
-          "value": ["census", "empIndustryWholesalePct"]
-        } ,
+          "value": [
+            "census",
+            "empIndustryWholesalePct"
+          ]
+        },
         {
           "label": "Retail Trade",
-          "value": ["census", "empIndustryRetailPct"]
-        } ,
+          "value": [
+            "census",
+            "empIndustryRetailPct"
+          ]
+        },
         {
           "label": "Transport., Utilities",
-          "value": ["census", "empIndustryTransportationPct"]
-        } ,
+          "value": [
+            "census",
+            "empIndustryTransportationPct"
+          ]
+        },
         {
           "label": "Information",
-          "value": ["census", "empIndustryInformationPct"]
-        } ,
+          "value": [
+            "census",
+            "empIndustryInformationPct"
+          ]
+        },
         {
           "label": "Finance, Real Estate, Insur. ",
-          "value": ["census", "empIndustryFirePct"]
-        } ,
+          "value": [
+            "census",
+            "empIndustryFirePct"
+          ]
+        },
         {
           "label": "Professional, Mgmt.",
-          "value": ["census", "empIndustryProfSciPct"]
-        } ,
+          "value": [
+            "census",
+            "empIndustryProfSciPct"
+          ]
+        },
         {
           "label": "Edu., Health & Social Assist.",
-          "value": ["census", "empIndustryEducationPct"]
-        } ,
+          "value": [
+            "census",
+            "empIndustryEducationPct"
+          ]
+        },
         {
           "label": "Arts, Entertain., Food Serv.",
-          "value": ["census", "empIndustryArtsHospitalityPct"]
-        } ,
+          "value": [
+            "census",
+            "empIndustryArtsHospitalityPct"
+          ]
+        },
         {
           "label": "Other Services",
-          "value": ["census", "empIndustryOtherPct"]
-        } ,
+          "value": [
+            "census",
+            "empIndustryOtherPct"
+          ]
+        },
         {
           "label": "Public Administration",
-          "value": ["census", "empIndustryPubAdminPct"]
+          "value": [
+            "census",
+            "empIndustryPubAdminPct"
+          ]
         }
       ]
     }
@@ -69,19 +108,31 @@
       "fields": [
         {
           "label": "0",
-          "value": ["census", "vehicles0Pct"]
-        } ,
+          "value": [
+            "census",
+            "vehicles0Pct"
+          ]
+        },
         {
           "label": "1",
-          "value": ["census", "vehicles1Pct"]
-        } ,
+          "value": [
+            "census",
+            "vehicles1Pct"
+          ]
+        },
         {
           "label": "2",
-          "value": ["census", "vehicles2Pct"]
-        } ,
+          "value": [
+            "census",
+            "vehicles2Pct"
+          ]
+        },
         {
           "label": "3+",
-          "value": ["census", "vehicles3plusPct"]
+          "value": [
+            "census",
+            "vehicles3plusPct"
+          ]
         }
       ]
     }
@@ -151,10 +202,21 @@
       "fields": [
         {
           "label": "<$25,000",
-          "sum":
-          [["census", "incomeHouseholdUnder10kPct"],
-            ["census", "incomeHousehold10kto15kPct"],
-            ["census","incomeHousehold15kto25kPct"]]},
+          "sum": [
+            [
+              "census",
+              "incomeHouseholdUnder10kPct"
+            ],
+            [
+              "census",
+              "incomeHousehold10kto15kPct"
+            ],
+            [
+              "census",
+              "incomeHousehold15kto25kPct"
+            ]
+          ]
+        },
         {
           "label": "$25k to $34,999",
           "value": [

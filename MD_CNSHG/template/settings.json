@@ -1,20 +1,20 @@
-{  
-   "settingsJSONs":{  
-      "layerMenu":{  
-         "regionTag":"MD_CNSHG",
-         "fileName":"layer_menu"
-      },
-      "layerMapCode":{  
-         "regionTag":"MD_CNSHG",
-         "fileName":"layer_map_code"
-      },
-      "filters":{  
-         "regionTag":"MD_CNSHG",
-         "fileName":"filters"
-      },
-      "infobox":{  
-         "regionTag":"MD_CNSHG",
-         "fileName":"infobox"
-      }
-   }
+{
+  "settingsJSONs": {
+    "layerMenu": {
+      "regionTag": "MD_CNSHG",
+      "fileName": "layer_menu"
+    },
+    "layerMapCode": {
+      "regionTag": "MD_CNSHG",
+      "fileName": "layer_map_code"
+    },
+    "filters": {
+      "regionTag": "MD_CNSHG",
+      "fileName": "filters"
+    },
+    "infobox": {
+      "regionTag": "MD_CNSHG",
+      "fileName": "infobox"
+    }
+  }
 }

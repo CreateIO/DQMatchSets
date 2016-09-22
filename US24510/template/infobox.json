@@ -1,72 +1,72 @@
 {
-    "infoboxContent":{
-        "Area_Master_Plans":{
-            "referenceid":"UNIQUEID",
-            "propertyid":"UNIQUEID",
-            "offset":157,
-            "fieldtype":"business",
-            "photos":{
-                "active":false,
-                "value":null
-            },
-            "pdfs":{
-                "active":false,
-                "value":null
-            },
-            "viewDetailsBox":false,
-            "wdcepDetailsBox":false,
-            "header":"Plan_Name",
-            "boxValues":{
-                "field1":{
-                    "value":"type",
-                    "display":"Type: ",
-                    "fieldtype":"text",
-                    "units":null
-                },
-                "field2":{
-                    "value":"acres",
-                    "display":"Acres: ",
-                    "fieldtype":"text",
-                    "units":null
-                },
-                "field3":{
-                    "value":"SqFt",
-                    "display":"SqFt: ",
-                    "fieldtype":"text",
-                    "units":null
-                }
-            }
+  "infoboxContent": {
+    "Area_Master_Plans": {
+      "referenceid": "UNIQUEID",
+      "propertyid": "UNIQUEID",
+      "offset": 157,
+      "fieldtype": "business",
+      "photos": {
+        "active": false,
+        "value": null
+      },
+      "pdfs": {
+        "active": false,
+        "value": null
+      },
+      "viewDetailsBox": false,
+      "wdcepDetailsBox": false,
+      "header": "Plan_Name",
+      "boxValues": {
+        "field1": {
+          "value": "type",
+          "display": "Type: ",
+          "fieldtype": "text",
+          "units": null
         },
-        "baltimore_hist_dist_chap":{
-            "referenceid":"UNIQUEID",
-            "propertyid":"UNIQUEID",
-            "offset":157,
-            "fieldtype":"business",
-            "photos":{
-                "active":false,
-                "value":null
-            },
-            "pdfs":{
-                "active":false,
-                "value":null
-            },
-            "viewDetailsBox":false,
-            "wdcepDetailsBox":false,
-            "header":"NAME",
-            "boxValues":{
-                "field1":{
-                    "value":"ACRES",
-                    "display":"Acres: ",
-                    "fieldtype":"text",
-                    "units":null
-                },
-                "field2":{
-                    "value":"SqFt",
-                    "display":"SqFt: ",
-                    "fieldtype":"text",
-                    "units":null
-                }
-            }
+        "field2": {
+          "value": "acres",
+          "display": "Acres: ",
+          "fieldtype": "text",
+          "units": null
+        },
+        "field3": {
+          "value": "SqFt",
+          "display": "SqFt: ",
+          "fieldtype": "text",
+          "units": null
         }
+      }
+    },
+    "baltimore_hist_dist_chap": {
+      "referenceid": "UNIQUEID",
+      "propertyid": "UNIQUEID",
+      "offset": 157,
+      "fieldtype": "business",
+      "photos": {
+        "active": false,
+        "value": null
+      },
+      "pdfs": {
+        "active": false,
+        "value": null
+      },
+      "viewDetailsBox": false,
+      "wdcepDetailsBox": false,
+      "header": "NAME",
+      "boxValues": {
+        "field1": {
+          "value": "ACRES",
+          "display": "Acres: ",
+          "fieldtype": "text",
+          "units": null
+        },
+        "field2": {
+          "value": "SqFt",
+          "display": "SqFt: ",
+          "fieldtype": "text",
+          "units": null
+        }
+      }
     }
+  }
 }
