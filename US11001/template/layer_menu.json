@@ -2891,7 +2891,7 @@
                 "sourceURL": "http://opendata.dc.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "DOT1",
+            "menuSection": "DOT3",
             "mouseoverName": "2010 - 2015 DC Crash Fatalities Heatmap",
             "order": 1,
             "subCategory": "1",
@@ -2974,7 +2974,7 @@
                 "sourceURL": "http://opendata.dc.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "DOT1",
+            "menuSection": "DOT3",
             "mouseoverName": "2015 DC Crash Reports Heatmap",
             "order": 1,
             "subCategory": "1",
@@ -3040,7 +3040,7 @@
                 "sourceURL": "http://opendata.dc.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "DOT3",
+            "menuSection": "DOT1",
             "mouseoverName": "Vision Zero Safety Data",
             "order": 1,
             "subCategory": "3",
@@ -4762,7 +4762,7 @@
             "parentTab": "DOT",
             "permissions": null,
             "redact": false,
-            "title": "Heatmaps"
+            "title": "Vision Zero Safety Data"
         },
         "DOT2": {
             "order": 1,
@@ -4776,7 +4776,7 @@
             "parentTab": "DOT",
             "permissions": null,
             "redact": false,
-            "title": "Vision Zero Safety Data"
+            "title": "Heatmaps"
         },
         "WDCEP1": {
             "order": 0,
