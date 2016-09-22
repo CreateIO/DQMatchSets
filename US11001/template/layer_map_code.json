@@ -354,6 +354,44 @@
                 "exists": false
             }
         },
+        "dc_DOT_2015Crash_byAccidentType": {
+            "name": "dc_DOT_2015Crash_byAccidentType",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_DOT_2015Crash_byAccidentType",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_DOT_2015Crash_byAccidentType@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.16,
+                    "yMin": 38.81,
+                    "xMax": -76.86,
+                    "yMax": 39.00
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
         "dc_DOT_VisionZeroSafetyData": {
             "name": "dc_DOT_VisionZeroSafetyData",
             "removeName": null,
