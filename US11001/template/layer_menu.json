@@ -2815,6 +2815,172 @@
             "urlLegend": "../../legends/layerResidentialDev.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/ResC.png"
         },
+        "2010 - 2015 DC Crash Fatalities Heatmap": {
+            "category": "1",
+            "colors": {
+                "hex": {
+                    "hex1": "#CCF2DE",
+                    "hex2": "#ADF2CE",
+                    "hex3": "#58D895",
+                    "hex4": "#21C16D",
+                    "hex5": "#009C50"
+                },
+                "type": "multi"
+            },
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "2010 - 2015 DC Crash Fatalities Heatmap",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "DC_Crashes2010to2015HeatmapbyFatalities"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'DOT Data: 2010 - 2015 DC Crash Fatalities Heatmap'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "DC_Crashes2010to2015HeatmapbyFatalities"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 39,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Relative density of vehicular crash fatalities in DC from 2010 to 2015.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Low",
+                        "boxStyle": "background:#2B83BA"
+                    },
+                    "item2": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#ABDDA4"
+                    },
+                    "item3": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#FFFFBF"
+                    },
+                    "item4": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#FDAE6A"
+                    },
+                    "item5": {
+                        "boxDescription": "High",
+                        "boxStyle": "background:#D7191C"
+                    }
+                },
+                "sourceDescription": "DC Open Data",
+                "sourceURL": "http://opendata.dc.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "DOT1",
+            "mouseoverName": "2010 - 2015 DC Crash Fatalities Heatmap",
+            "order": 1,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-color-ramp.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/CF.png"
+        },
+        "2015 DC Crash Heatmap": {
+            "category": "1",
+            "colors": {
+                "hex": {
+                    "hex1": "#CCF2DE",
+                    "hex2": "#ADF2CE",
+                    "hex3": "#58D895",
+                    "hex4": "#21C16D",
+                    "hex5": "#009C50"
+                },
+                "type": "multi"
+            },
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "2015 DC Crash Heatmap",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "DC_Crashes2015Heatmap"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'DOT Data: 2015 DC Crash Heatmap'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "DC_Crashes2015Heatmap"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 39,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Relative density of DC vehicular crashes in 2015.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Low",
+                        "boxStyle": "background:#2B83BA"
+                    },
+                    "item2": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#ABDDA4"
+                    },
+                    "item3": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#FFFFBF"
+                    },
+                    "item4": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#FDAE6A"
+                    },
+                    "item5": {
+                        "boxDescription": "High",
+                        "boxStyle": "background:#D7191C"
+                    }
+                },
+                "sourceDescription": "DC Open Data",
+                "sourceURL": "http://opendata.dc.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "DOT1",
+            "mouseoverName": "2015 DC Crash Heatmap",
+            "order": 1,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-color-ramp.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/CR.png"
+        },
         "Residential Density Heatmap": {
             "category": "1",
             "colors": {
@@ -4525,6 +4691,27 @@
             "redact": false,
             "title": "Natural Hazards"
         },
+        "DOT1": {
+            "order": 0,
+            "parentTab": "DOT",
+            "permissions": null,
+            "redact": false,
+            "title": "Heatmaps"
+        },
+        "DOT2": {
+            "order": 1,
+            "parentTab": "DOT",
+            "permissions": null,
+            "redact": false,
+            "title": "DC Crash Data"
+        },
+        "DOT3": {
+            "order": 2,
+            "parentTab": "DOT",
+            "permissions": null,
+            "redact": false,
+            "title": "Vision Zero Safety Data"
+        },
         "WDCEP1": {
             "order": 0,
             "parentTab": "WDCEP",
@@ -4562,7 +4749,13 @@
             "redact": false,
             "title": "Land Use"
         },
-
+        "DOT": {
+            "isActive": true,
+            "order": 0,
+            "permissions": null,
+            "redact": false,
+            "title": "DOT"
+        },
         "WDCEP": {
             "isActive": false,
             "order": 4,
