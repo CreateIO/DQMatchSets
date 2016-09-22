@@ -1057,11 +1057,11 @@
             },
             "viewDetailsBox":false,
             "wdcepDetailsBox":false,
-            "header":"USERTYPE",
+            "header":"Comment by USERTYPE",
             "boxValues":{
                 "field1":{
                     "value":"REQUESTTYP",
-                    "display":"Request Type: ",
+                    "display":"Type: ",
                     "fieldtype":"text",
                     "units":null
                 },
@@ -1073,7 +1073,7 @@
                 },
                 "field4":{
                     "value":"COMMENTS",
-                    "display":"Comment: ",
+                    "display":"Note: ",
                     "fieldtype":"text",
                     "units": null
                 }
