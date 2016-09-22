@@ -1065,24 +1065,23 @@
                     "fieldtype":"text",
                     "units":null
                 },
-                "field1":{
+                "field2":{
+                    "value":"COMMENTS",
+                    "display":"Comment: ",
+                    "fieldtype":"text",
+                    "units": null
+                },
+                "field3":{
                     "value":"USERTYPE",
                     "display":"Entered by: ",
                     "fieldtype":"text",
                     "units":null
                 },
-
-                "field3":{
-                    "value":"DATE",
-                    "display":"Entered on: ",
-                    "fieldtype":"date",
-                    "units":null
-                },
                 "field4":{
-                    "value":"COMMENTS",
-                    "display":"Comment: ",
+                    "value":"DATETEXT",
+                    "display":"Entered on: ",
                     "fieldtype":"text",
-                    "units": null
+                    "units":null
                 }
             }
         }
