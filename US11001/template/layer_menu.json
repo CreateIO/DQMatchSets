@@ -3018,7 +3018,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "The Vision Zero Safety data comes from a web-based application developed to allow the public to communicate the real and perceived dangers along the roadway from the perspective of either a pedestrian, bicyclist or motorist. The data is captured from a site visitor who can click or tap on a location to report a transportation hazard.",
+                "description": "The Vision Zero Safety data comes from a web-based application developed to allow the public to communicate the real and perceived dangers along the roadway from the perspective of either a pedestrian, bicyclist or motorist. The data is captured from a site visitor who can click or tap on a location to report a transportation hazard.  http://www.dcvisionzero.com/",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Comments related to crosswalks & pedestrian safety.",
@@ -3037,7 +3037,7 @@
                     }
                 },
                 "sourceDescription": "DC Open Data",
-                "sourceURL": "http://opendata.dc.gov & http://visionzero.ddot.dc.gov/VisionZero/",
+                "sourceURL": "http://opendata.dc.gov/",
                 "type": "singleColumn"
             },
             "menuSection": "DOT3",
