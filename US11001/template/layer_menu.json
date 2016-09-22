@@ -3022,17 +3022,17 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Comments related to crosswalks & pedestrian safety.",
-                        "boxStyle": "border-radius: 20px; border: 8px solid #47bdc1",
+                        "boxStyle": "border-radius: 20px; border: 8.5px solid #47bdc1",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "Comments related to bikers & biking safety.",
-                        "boxStyle": "border-radius: 20px; border: 8px solid #813dc0p",
+                        "boxStyle": "border-radius: 20px; border: 8.5px solid #813dc0",
                         "imageUrl": null
                     },
                     "item3": {
-                        "boxDescription": "Comment related to driving, speeding & driver's safety.",
-                        "boxStyle": "border-radius: 20px; border: 8px solid #d53e4f",
+                        "boxDescription": "Comment related to speeding & driver's safety.",
+                        "boxStyle": "border-radius: 20px; border: 8.5px solid #d53e4f",
                         "imageUrl": null
                     }
                 },
