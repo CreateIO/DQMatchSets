@@ -3045,13 +3045,8 @@
             "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/VZ.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/VZ.png"
         },
-
-
-
-
-
         "Residential Density Heatmap": {
             "category": "1",
             "colors": {
