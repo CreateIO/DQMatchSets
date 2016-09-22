@@ -1,5 +1,93 @@
 {
     "layerjson": {
+        "zillow-label": {
+            "name": "zillow-label",
+            "removeName": "zillowLabel.geojson",
+            "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/zillowLabel.geojson",
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": true,
+                "labelLayers": {
+                    "label1": {
+                        "name": "labelzillow",
+                        "position": {
+                            "x": "entity._properties.lon",
+                            "y": "entity._properties.lat",
+                            "z": 100
+                        },
+                        "text": "entity.name",
+                        "font": "20px Lato",
+                        "fillColor": "Cesium.Color.YELLOW",
+                        "outlineColor": "Cesium.Color.WHITESMOKE",
+                        "outlineWidth": 1,
+                        "style": "Cesium.LabelStyle.FILL_AND_OUTLINE",
+                        "pixelOffset": "Cesium.Cartesian2.ZERO",
+                        "eyeOffset": "Cesium.Cartesian3.ZERO",
+                        "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
+                        "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
+                        "translucencyByDistance": {
+                            "minElevation": 13000,
+                            "maxElevation": 17000,
+                            "minScale": 1,
+                            "maxScale": 0
+                        },
+                        "scale": 1
+                    }
+                }
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "zillow-poly": {
+            "name": "zillow-poly",
+            "removeName": "zillowPoly.geojson",
+            "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/zillowPoly.geojson",
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": true,
+                "polygonLayers": {
+                    "polygon1": {
+                        "type": "singleColor",
+                        "name": null,
+                        "color": {
+                            "alpha": 0,
+                            "type": "rgb",
+                            "rgb": {
+                                "r": 86,
+                                "g": 216,
+                                "b": 148,
+                                "a": 0
+                            }
+                        },
+                        "material": "new Cesium.ColorMaterialProperty(color)",
+                        "outlineColor": "Cesium.Color.LAVENDER",
+                        "outlineWidth": 4
+                    }
+                }
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
         "census-label": {
             "name": "census-label",
             "removeName": "censusLabel.geojson",
@@ -266,8 +354,46 @@
                 "exists": false
             }
         },
-        "DC_Crashes2015Heatmap": {
-            "name": "DC_Crashes2015Heatmap",
+        "dc_DOT_2015Crash_byAccidentType": {
+            "name": "dc_DOT_2015Crash_byAccidentType",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_DOT_2015Crash_byAccidentType",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_DOT_2015Crash_byAccidentType@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.16,
+                    "yMin": 38.81,
+                    "xMax": -76.86,
+                    "yMax": 39.00
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "dc_DOT_VisionZeroSafetyData": {
+            "name": "dc_DOT_VisionZeroSafetyData",
             "removeName": null,
             "url": null,
             "cartographic": false,
