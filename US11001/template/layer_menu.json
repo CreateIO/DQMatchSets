@@ -2815,7 +2815,7 @@
             "urlLegend": "../../legends/layerResidentialDev.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/ResC.png"
         },
-        "2010 - 2015 DC Crash Fatalities Heatmap": {
+        "2010 - 2015 DC Crash Fatalities": {
             "category": "1",
             "colors": {
                 "hex": {
@@ -2864,7 +2864,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Relative density of vehicular crash fatalities in DC from 2010 to 2015.",
+                "description": "Heatmap displaying the relative density of the vehicular crash fatalities that occured in DC from 2010 to 2015.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Low",
@@ -2898,7 +2898,7 @@
             "urlLegend": "../../legends/template-color-ramp.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/CF.png"
         },
-        "2015 DC Crash Heatmap": {
+        "2015 DC Crashes": {
             "category": "1",
             "colors": {
                 "hex": {
@@ -2947,7 +2947,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Relative density of DC vehicular crashes in 2015.",
+                "description": "Heatmap displaying the relative density of the 11,585 vehicular crashes reported in DC in 2015.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Low",
@@ -2975,7 +2975,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "DOT1",
-            "mouseoverName": "2015 DC Crash Heatmap",
+            "mouseoverName": "",
             "order": 1,
             "subCategory": "1",
             "urlLegend": "../../legends/template-color-ramp.jade",
@@ -4721,19 +4721,26 @@
         }
     },
     "allTheTabs": {
-        "CityInfo": {
+        "LandUse": {
+            "isActive": false,
+            "order": 0,
+            "permissions": null,
+            "redact": false,
+            "title": "Land Use"
+        },
+        "Development": {
             "isActive": false,
             "order": 1,
             "permissions": null,
             "redact": false,
-            "title": "City Info"
+            "title": "Development"
         },
-        "Development": {
-            "isActive": false,
+        "CityData": {
+            "isActive": true,
             "order": 2,
             "permissions": null,
             "redact": false,
-            "title": "Development"
+            "title": "City Data"
         },
         "Incentives": {
             "isActive": false,
@@ -4742,26 +4749,19 @@
             "redact": false,
             "title": "Incentives"
         },
-        "LandUse": {
-            "isActive": true,
-            "order": 0,
-            "permissions": null,
-            "redact": false,
-            "title": "Land Use"
-        },
-        "DOT": {
-            "isActive": true,
-            "order": 0,
-            "permissions": null,
-            "redact": false,
-            "title": "DOT"
-        },
         "WDCEP": {
             "isActive": false,
             "order": 4,
             "permissions": "layer.tab.WDCEP",
             "redact": false,
             "title": "WDCEP"
+        },
+        "DOT": {
+            "isActive": true,
+            "order": 5,
+            "permissions": null,
+            "redact": false,
+            "title": "DOT"
         }
     }
 }
