@@ -2981,6 +2981,77 @@
             "urlLegend": "../../legends/template-color-ramp.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/CR.png"
         },
+       "Vision Zero Safety Data": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_DOT_VisionZeroSafetyData"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'DOT Data: DC Vision Zero Safety Data'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_DOT_VisionZeroSafetyData"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "The Vision Zero Safety data comes from a web-based application developed to allow the public to communicate the real and perceived dangers along the roadway from the perspective of either a pedestrian, bicyclist or motorist. The data is captured from a site visitor who can click or tap on a location to report a transportation hazard.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Comments related to crosswalks & pedestrian safety.",
+                        "boxStyle": "border-radius: 20px; border: 8px solid #47bdc1",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Comments related to bikers & biking safety.",
+                        "boxStyle": "border-radius: 20px; border: 8px solid #813dc0p",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Comment related to driving, speeding & driver's safety.",
+                        "boxStyle": "border-radius: 20px; border: 8px solid #d53e4f",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "DC Open Data",
+                "sourceURL": "http://opendata.dc.gov",
+                "type": "singleColumn"
+            },
+            "menuSection": "DOT3",
+            "mouseoverName": "Vision Zero Safety Data",
+            "order": 1,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/VZ.png"
+        },
+
+
+
+
+
         "Residential Density Heatmap": {
             "category": "1",
             "colors": {
