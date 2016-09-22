@@ -2815,7 +2815,7 @@
             "urlLegend": "../../legends/layerResidentialDev.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/ResC.png"
         },
-        "2010 - 2015 DC Crash Fatalities": {
+        "2010 - 2015 Crash Fatalities": {
             "category": "1",
             "colors": {
                 "hex": {
@@ -2831,7 +2831,7 @@
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "2010 - 2015 DC Crash Fatalities Heatmap",
+            "displayName": "2010-2015 Crash Fatalities Heatmap",
             "functions": {
                 "addFunctions": {
                     "func1": {
@@ -2864,7 +2864,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Heatmap displaying the relative density of the vehicular crash fatalities that occured in DC from 2010 to 2015.",
+                "description": "Heatmap displaying the relative density of the 1,128 vehicular crash fatalities that occured in DC from 2010 to 2015.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Low",
@@ -2898,7 +2898,7 @@
             "urlLegend": "../../legends/template-color-ramp.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/CF.png"
         },
-        "2015 DC Crashes": {
+        "2015 Crash Reports": {
             "category": "1",
             "colors": {
                 "hex": {
@@ -2928,7 +2928,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'DOT Data: 2015 DC Crash Heatmap'"
+                        "param1": "'DOT Data: 2015 DC Crash Reports Heatmap'"
                     }
                 },
                 "removeFunctions": {
@@ -2975,7 +2975,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "DOT1",
-            "mouseoverName": "2015 DC Crashes Heatmap",
+            "mouseoverName": "2015 DC Crash Reports Heatmap",
             "order": 1,
             "subCategory": "1",
             "urlLegend": "../../legends/template-color-ramp.jade",
