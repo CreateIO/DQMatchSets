@@ -1057,7 +1057,8 @@
             },
             "viewDetailsBox":false,
             "wdcepDetailsBox":false,
-            "header":"Comment by USERTYPE",
+            "header":"USERTYPE",
+            "display":"Comment by ",
             "boxValues":{
                 "field1":{
                     "value":"REQUESTTYP",
