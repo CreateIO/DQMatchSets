@@ -1041,6 +1041,43 @@
                     "units":null
                 }
             }
+        },
+        "dc_DOT_VisionZeroSafetyData":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"UNIQUEID",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"USERTYPE",
+            "boxValues":{
+                "field1":{
+                    "value":"REQUESTTYP",
+                    "display":"Request Type: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"REQUESTDAT",
+                    "display":"Date: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"COMMENTS",
+                    "display":"Comment: ",
+                    "fieldtype":"text",
+                    "units": null
+                }
+            }
         }
     }
 }
