@@ -2891,7 +2891,7 @@
                 "sourceURL": "http://opendata.dc.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "DOT3",
+            "menuSection": "DOT2",
             "mouseoverName": "2010 - 2015 DC Crash Fatalities Heatmap",
             "order": 1,
             "subCategory": "1",
@@ -2974,7 +2974,7 @@
                 "sourceURL": "http://opendata.dc.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "DOT3",
+            "menuSection": "DOT2",
             "mouseoverName": "2015 DC Crash Reports Heatmap",
             "order": 2,
             "subCategory": "3",
@@ -3018,7 +3018,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "The Vision Zero crash locations listed by accident type in the District of Columbia in 2015.",
+                "description": "The Vision Zero crash reports located in the District of Columbia in 2015.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Crash reports with fatalities.",
@@ -3040,7 +3040,7 @@
                 "sourceURL": "http://opendata.dc.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "DOT2",
+            "menuSection": "DOT1",
             "mouseoverName": "2015 DC Crash Reports",
             "order": 1,
             "subCategory": "3",
@@ -4761,16 +4761,9 @@
             "parentTab": "DOT",
             "permissions": null,
             "redact": false,
-            "title": "Vision Zero Safety Data"
+            "title": "Vision Zero Data"
         },
         "DOT2": {
-            "order": 1,
-            "parentTab": "DOT",
-            "permissions": null,
-            "redact": false,
-            "title": "DC Crash Data"
-        },
-        "DOT3": {
             "order": 2,
             "parentTab": "DOT",
             "permissions": null,
