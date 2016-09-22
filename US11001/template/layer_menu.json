@@ -2896,7 +2896,7 @@
             "order": 1,
             "subCategory": "1",
             "urlLegend": "../../legends/template-color-ramp.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/CF.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/HMF.png"
         },
         "Crash Reports Heatmap": {
             "category": "1",
@@ -2979,7 +2979,7 @@
             "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-color-ramp.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/CR.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/HMC.png"
         },
         "Crash Reports by Accident Type": {
             "category": "6",
@@ -3045,7 +3045,7 @@
             "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/AT.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/CR.png"
         },       
         "Vision Zero Safety Data": {
             "category": "6",
