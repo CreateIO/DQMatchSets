@@ -266,6 +266,108 @@
                 "exists": false
             }
         },
+        "DC_Crashes2015Heatmap": {
+            "name": "DC_Crashes2015Heatmap",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "DC_Crashes2015Heatmap",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DC_Crashes2015Heatmap.png",
+                        "xMin": -77.15,
+                        "yMin": 38.81,
+                        "xMax": -76.87,
+                        "yMax": 39.00,
+                        "alpha": 0.7,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "DC_Crashes2010to2015HeatmapbyFatalities": {
+            "name": "DC_Crashes2010to2015HeatmapbyFatalities",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "DC_Crashes2010to2015HeatmapbyFatalities",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DC_Crashes2010to2015HeatmapbyFatalities.png",
+                        "xMin": -77.15,
+                        "yMin": 38.81,
+                        "xMax": -76.87,
+                        "yMax": 39.00,
+                        "alpha": 0.7,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "DC_Crashes2015Heatmap": {
+            "name": "DC_Crashes2015Heatmap",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "DC_Crashes2015Heatmap",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/DC_Crashes2015Heatmap.png",
+                        "xMin": -77.15,
+                        "yMin": 38.81,
+                        "xMax": -76.87,
+                        "yMax": 39.00,
+                        "alpha": 0.7,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
         "retailHeat": {
             "name": "retailHeat",
             "removeName": null,
