@@ -1057,24 +1057,29 @@
             },
             "viewDetailsBox":false,
             "wdcepDetailsBox":false,
-            "header":"USERTYPE",
-            "display":"Comment by ",
+            "header":"HEADER",
             "boxValues":{
                 "field1":{
-                    "value":"REQUESTTYP",
-                    "display":"Type: ",
+                    "value":"USERTYPE",
+                    "display":"Comment by: ",
                     "fieldtype":"text",
                     "units":null
                 },
                 "field2":{
-                    "value":"REQUESTDAT",
-                    "display":"Date: ",
+                    "value":"REQUESTTYP",
+                    "display":"Category: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"DATE",
+                    "display":"Entered on: ",
                     "fieldtype":"text",
                     "units":null
                 },
                 "field4":{
                     "value":"COMMENTS",
-                    "display":"Note: ",
+                    "display":"User Note: ",
                     "fieldtype":"text",
                     "units": null
                 }
