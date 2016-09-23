@@ -88,7 +88,7 @@
         "isActive": false,
         "layerUsed": true,
         "legendContents": {
-          "description": "Click icons for more details.<br><br>FARS is a nationwide census providing NHTSA, Congress and the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.",
+          "description": "Click icons for more details.<br><br>The Fatality Analysis Reporting System(FARS) is a nationwide census providing the National Highway Traffic Safety Administration (NHTSA), Congress and the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.",
           "listItems": {
             "item1": {
               "boxDescription": "2013 - 2015 DC Fatalities",
@@ -96,7 +96,7 @@
               "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-accident-car.png"
             }
           },
-          "sourceDescription": "Fatality Analysis Reporting System (FARS)",
+          "sourceDescription": "www.nhtsa.gov/FARS",
           "sourceURL": "http://www.nhtsa.gov/FARS",
           "type": "singleColumn"
         },
@@ -376,7 +376,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click icons for more details.<br><br>The Vision Zero Safety data comes from a web-based application developed to allow the public to communicate the real and perceived dangers along the roadway from the perspective of either a pedestrian, bicyclist or motorist. The data is captured from a site visitor who can click or tap on a location to report a transportation hazard.  http://www.dcvisionzero.com/",
+                "description": "Click icons for more details.<br><br>The Vision Zero Safety data comes from a web-based application developed to allow the public to communicate the real and perceived dangers along the roadway from the perspective of either a pedestrian, bicyclist or motorist.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Crosswalk & pedestrian safety comments.",
