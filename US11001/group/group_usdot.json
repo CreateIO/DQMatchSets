@@ -7,6 +7,7 @@
     "url": "",
     "favicon": "",
     "logo": "",
+    "layer_limit": 999,
     "start_position": {
       "camera": [
         {

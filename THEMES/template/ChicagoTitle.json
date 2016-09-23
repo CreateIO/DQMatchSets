@@ -8,6 +8,7 @@
     "favicon": "/favicon-96x96.png",
     "logo": "", 
     "sponsor_logo": "https://s3.amazonaws.com/create-common/logo/logo-ct_ncs_c.png",
+    "layerLimit": null,
     "sponsored_content":{
       "content": "",
       "client_image": "https://s3.amazonaws.com/create-common/images/chicago-title/charlotte-portrait.png",
