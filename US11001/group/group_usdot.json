@@ -69,7 +69,7 @@
           },
           "piwikTrack": {
             "parameters": {
-              "param1": "'DOT Data: 2013-2015 Fatalities'"
+              "param1": "'USDOT Data: 2013 - 2015 Fatalities'"
             }
           },
           "removeFunctions": {
@@ -88,7 +88,7 @@
         "isActive": false,
         "layerUsed": true,
         "legendContents": {
-          "description": "FARS is a nationwide census providing NHTSA, Congress and the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.",
+          "description": "FARS is a nationwide census providing NHTSA, Congress and the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.<br>Click icon for more details.",
           "listItems": {
             "item1": {
               "boxDescription": "2013 - 2015 DC Fatalities",
