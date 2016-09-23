@@ -22,6 +22,7 @@
         "metroBusLayer": {
             "tmsProvider" : "metroBusProvider",
             "tmsLayer" : "metroBusLayer",
+            "tmsStyle" : "OGC",
             "tmsLayerName" : "metroBus",
             "url" : "https://s3.amazonaws.com/models-dc/img_tilesets/metro_bus_tiles_DC_0915/",
             "extension" : "png",
