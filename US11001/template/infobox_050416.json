@@ -1101,6 +1101,7 @@
             "viewDetailsBox":false,
             "wdcepDetailsBox":false,
             "header":"accidentda",
+            "streetView": true,
             "boxValues":{
                 "field1":{
                     "value":"accidentty",

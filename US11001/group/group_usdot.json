@@ -213,7 +213,7 @@
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "DC_Crashes2015Heatmap"
+                            "param2": "dc_Crashes2015Heatmap"
                         },
                         "service": "mapOverlayService"
                     }
@@ -228,7 +228,7 @@
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "DC_Crashes2015Heatmap"
+                            "param2": "dc_Crashes2015Heatmap"
                         },
                         "service": "mapOverlayService"
                     }

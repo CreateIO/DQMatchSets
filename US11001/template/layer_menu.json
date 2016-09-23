@@ -4468,7 +4468,7 @@
     },
     "allTheTabs": {
         "LandUse": {
-            "isActive": false,
+            "isActive": true,
             "order": 0,
             "permissions": null,
             "redact": false,
@@ -4481,7 +4481,7 @@
             "redact": false,
             "title": "Development"
         },
-        "CityData": {
+        "CityInfo": {
             "isActive": true,
             "order": 2,
             "permissions": null,
