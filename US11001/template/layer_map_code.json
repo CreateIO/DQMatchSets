@@ -951,7 +951,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "stationbillboards",
-                        "url": "../../geoJSON/layerIcons/metroStation.png",
+                        "url": "../../geoJSON/maki/metroStation.png",
                         "position": {
                             "x": "entity._properties.XCOORD",
                             "y": "entity._properties.YCOORD",
@@ -1003,7 +1003,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "stationbillboards",
-                        "url": "../../geoJSON/layerIcons/icon-metro.png",
+                        "url": "../../geoJSON/maki/icon-metro.png",
                         "position": {
                             "x": "entity._properties.X",
                             "y": "entity._properties.Y",
