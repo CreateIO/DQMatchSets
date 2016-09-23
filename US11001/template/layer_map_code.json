@@ -502,8 +502,8 @@
                 "exists": false
             }
         },
-        "dc_DOT_VisionZeroSafetyData": {
-            "name": "dc_DOT_VisionZeroSafetyData",
+        "dc_Crashes2015Heatmap": {
+            "name": "dc_Crashes2015Heatmap",
             "removeName": null,
             "url": null,
             "cartographic": false,
