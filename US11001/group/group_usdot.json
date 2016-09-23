@@ -69,7 +69,7 @@
           },
           "piwikTrack": {
             "parameters": {
-              "param1": "'Data: DOT: 2013-2015 Accidents'"
+              "param1": "'DOT Data: 2013-2015 Accidents'"
             }
           },
           "removeFunctions": {
@@ -314,17 +314,17 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Crash reports with fatalities.",
-                        "boxStyle": "background:#d53e4f; border-radius: 15px; border: 1px solid #cabac3",
+                        "boxStyle": "background:#d53e4f; border-radius: 15px; border: 1px solid #fb8b4e",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "Crash reports with injuries",
-                        "boxStyle": "background:#f46d43; border-radius: 15px; border: 1px solid #fee08b",
+                        "boxStyle": "background:#fb8b4e; border-radius: 15px; border: 1px solid #fee492",
                         "imageUrl": null
                     },
                     "item3": {
                         "boxDescription": "Crash reports with propery damage.",
-                        "boxStyle": "background:#f8ed69; border-radius: 15px; border: 1px solid #d3cc74",
+                        "boxStyle": "background:#fee492; border-radius: 15px; border: 1px solid #f9ffb3",
                         "imageUrl": null
                     }
                 },
@@ -380,17 +380,17 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Crosswalk & pedestrian safety comments.",
-                        "boxStyle": "background:#47bdc1; border-radius: 15px; border: 1px solid #92b7dc",
+                        "boxStyle": "background:#9dd9a6; border-radius: 15px; border: 1px solid #c7e8cc",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "Bike path & biker safety comments.",
-                        "boxStyle": "background:#813dc0; border-radius: 15px; border: 1px solid #b3abd4",
+                        "boxStyle": "background:#3288bd; border-radius: 15px; border: 1px solid #68aad2",
                         "imageUrl": null
                     },
                     "item3": {
                         "boxDescription": "Speeding & driver safety comments.",
-                        "boxStyle": "background:#35a53a; border-radius: 15px; border: 1px solid #abdda4",
+                        "boxStyle": "background:#635599; border-radius: 15px; border: 1px solid #796f9c",
                         "imageUrl": null
                     }
                 },

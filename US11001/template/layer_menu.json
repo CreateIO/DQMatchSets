@@ -4486,7 +4486,7 @@
             "order": 2,
             "permissions": null,
             "redact": false,
-            "title": "City Data"
+            "title": "City Info"
         },
         "Incentives": {
             "isActive": false,
