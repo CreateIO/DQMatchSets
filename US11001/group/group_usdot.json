@@ -5,7 +5,7 @@
     "group_display_name": "US DOT",
     "class_name": "",
     "url": "",
-    "favicon": "",
+    "favicon": "/favicon-96x96.png",
     "logo": "",
     "layer_limit": 999,
     "start_position": {
@@ -33,7 +33,7 @@
     },
     "start_layers": {
       "Property Types": "off",
-      "2013-2015 DC Accidents": "on"
+      "2013 - 2015 DC Fatalities": "on"
     },
     "start_menus": {
       "Layer_Menu": "on"
@@ -41,7 +41,7 @@
   },
   "layers": {
     "allTheLayers": {
-      "2013-2015 DC Accidents": {
+      "2013 - 2015 DC Fatalities": {
         "category": "6",
         "colors": {
           "hex": {},
@@ -51,7 +51,7 @@
           "denyList1": "Limited"
         },
         "denyToggle": false,
-        "displayName": "2013-2015 DC Accidents",
+        "displayName": "2013 - 2015 DC Fatalities",
         "functions": {
           "addFunctions": {
             "func1": {
@@ -73,7 +73,7 @@
           },
           "piwikTrack": {
             "parameters": {
-              "param1": "'DOT Data: 2013-2015 Accidents'"
+              "param1": "'USDOT Data: 2013 - 2015 Fatalities'"
             }
           },
           "removeFunctions": {
@@ -92,20 +92,20 @@
         "isActive": false,
         "layerUsed": true,
         "legendContents": {
-          "description": "Click on icons for details.",
+          "description": "Click icons for more details.<br><br>The Fatality Analysis Reporting System (FARS) is a nationwide census providing the National Highway Traffic Safety Administration (NHTSA), Congress and the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.",
           "listItems": {
             "item1": {
-              "boxDescription": "2013 - 2015 Accicents",
+              "boxDescription": " 2013 - 2015 DC Fatalities",
               "boxStyle": "",
               "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-accident-car.png"
             }
           },
-          "sourceDescription": "FARS is a nationwide census providing NHTSA, Congress and the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.",
+          "sourceDescription": "www.nhtsa.gov/FARS",
           "sourceURL": "http://www.nhtsa.gov/FARS",
           "type": "singleColumn"
         },
         "menuSection": "DOT1",
-        "mouseoverName": "2013 - 2015 DC Accidents",
+        "mouseoverName": "2013 - 2015 DC Fatalities",
         "order": 0,
         "subCategory": "1",
         "urlLegend": "../../legends/template-legend.jade",
@@ -127,7 +127,7 @@
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "2010-2015 Crash Fatalities Heatmap",
+            "displayName": "2010 - 2015 DC Fatalities Heatmap",
             "functions": {
                 "addFunctions": {
                     "func1": {
@@ -141,7 +141,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'DOT Data: 2010 - 2015 DC Crash Fatalities Heatmap'"
+                        "param1": "'DOT Data: 2010 - 2015 DC Fatalities Heatmap'"
                     }
                 },
                 "removeFunctions": {
@@ -188,7 +188,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "DOT3",
-            "mouseoverName": "2010 - 2015 DC Crash Fatalities Heatmap",
+            "mouseoverName": "2010 - 2015 DC Fatalities Heatmap",
             "order": 1,
             "subCategory": "1",
             "urlLegend": "../../legends/template-color-ramp.jade",
@@ -314,7 +314,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "The Vision Zero crash reports located in the District of Columbia in 2015.",
+                "description": "Click icons for more details.<br><br>The Vision Zero crash reports located in the District of Columbia in 2015.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Crash reports with fatalities.",
@@ -380,7 +380,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "The Vision Zero Safety data comes from a web-based application developed to allow the public to communicate the real and perceived dangers along the roadway from the perspective of either a pedestrian, bicyclist or motorist. The data is captured from a site visitor who can click or tap on a location to report a transportation hazard.  http://www.dcvisionzero.com/",
+                "description": "Click icons for more details.<br><br>The Vision Zero Safety data comes from a web-based application developed to allow the public to communicate the real and perceived dangers along the roadway from the perspective of either a pedestrian, bicyclist or motorist.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Crosswalk & pedestrian safety comments.",
@@ -436,10 +436,10 @@
     "allTheTabs": {
       "DOT": {
         "isActive": true,
-        "order": 5,
+        "order": 6,
         "permissions": null,
         "redact": false,
-        "title": "DOT"
+        "title": "USDOT"
       }
     }
   },
