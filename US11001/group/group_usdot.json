@@ -106,7 +106,7 @@
         "subCategory": "1",
         "urlLegend": "../../legends/template-legend.jade",
         "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/AccidentMenu.png"
-      },
+        },
         "Crash Fatalities Heatmap": {
             "category": "1",
             "colors": {
@@ -183,7 +183,7 @@
                 "sourceURL": "http://opendata.dc.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "DOT2",
+            "menuSection": "DOT3",
             "mouseoverName": "2010 - 2015 DC Crash Fatalities Heatmap",
             "order": 1,
             "subCategory": "1",
@@ -266,7 +266,7 @@
                 "sourceURL": "http://opendata.dc.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "DOT2",
+            "menuSection": "DOT3",
             "mouseoverName": "2015 DC Crash Reports Heatmap",
             "order": 2,
             "subCategory": "3",
@@ -332,7 +332,7 @@
                 "sourceURL": "http://opendata.dc.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "DOT1",
+            "menuSection": "DOT2",
             "mouseoverName": "2015 DC Crash Reports",
             "order": 1,
             "subCategory": "3",
@@ -390,7 +390,7 @@
                     },
                     "item3": {
                         "boxDescription": "Speeding & driver safety comments.",
-                        "boxStyle": "background:#d53e4f; border-radius: 15px; border: 1px solid #df8382",
+                        "boxStyle": "background:#35a53a; border-radius: 15px; border: 1px solid #abdda4",
                         "imageUrl": null
                     }
                 },
@@ -398,7 +398,7 @@
                 "sourceURL": "http://opendata.dc.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "DOT1",
+            "menuSection": "DOT2",
             "mouseoverName": "2015 - 2016 Vision Zero Safety Data",
             "order": 1,
             "subCategory": "3",
@@ -408,14 +408,21 @@
     },
     "allTheSections": {
       "DOT1": {
-        "order": 0,
+        "order": 1,
+        "parentTab": "DOT",
+        "permissions": null,
+        "redact": false,
+        "title": "FARS Data"
+      },
+      "DOT2": {
+        "order": 2,
         "parentTab": "DOT",
         "permissions": null,
         "redact": false,
         "title": "Vision Zero Data"
       },
-      "DOT2": {
-        "order": 2,
+      "DOT3": {
+        "order": 3,
         "parentTab": "DOT",
         "permissions": null,
         "redact": false,
