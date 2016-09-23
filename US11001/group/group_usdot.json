@@ -2,7 +2,7 @@
   "group_name": "US DOT",
   "last_update": "09/20/16",
   "init": {
-    "group_display_US DOTname": "US DOT",
+    "group_display_name": "US DOT",
     "class_name": "usdot",
     "url": "",
     "favicon": "/favicon-96x96.png",
