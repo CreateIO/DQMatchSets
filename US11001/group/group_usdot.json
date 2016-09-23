@@ -319,12 +319,12 @@
                     },
                     "item2": {
                         "boxDescription": "Crash reports with injuries",
-                        "boxStyle": "background:#fdae61; border-radius: 15px; border: 1px solid #fce08b",
+                        "boxStyle": "background:#f46d43; border-radius: 15px; border: 1px solid #fee08b",
                         "imageUrl": null
                     },
                     "item3": {
                         "boxDescription": "Crash reports with propery damage.",
-                        "boxStyle": "background:#3288bd; border-radius: 15px; border: 1px solid #92b7dc",
+                        "boxStyle": "background:#f8ed69; border-radius: 15px; border: 1px solid #d3cc74",
                         "imageUrl": null
                     }
                 },
