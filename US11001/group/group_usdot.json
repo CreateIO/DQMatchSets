@@ -88,10 +88,10 @@
         "isActive": false,
         "layerUsed": true,
         "legendContents": {
-          "description": "Click icons for more details.<br><br>The Fatality Analysis Reporting System(FARS) is a nationwide census providing the National Highway Traffic Safety Administration (NHTSA), Congress and the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.",
+          "description": "Click icons for more details.<br><br>The Fatality Analysis Reporting System (FARS) is a nationwide census providing the National Highway Traffic Safety Administration (NHTSA), Congress and the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.",
           "listItems": {
             "item1": {
-              "boxDescription": "2013 - 2015 DC Fatalities",
+              "boxDescription": " 2013 - 2015 DC Fatalities",
               "boxStyle": "",
               "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-accident-car.png"
             }
