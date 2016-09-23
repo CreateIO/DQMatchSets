@@ -88,15 +88,15 @@
         "isActive": false,
         "layerUsed": true,
         "legendContents": {
-          "description": "Click on icons for details.",
+          "description": "FARS is a nationwide census providing NHTSA, Congress and the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.",
           "listItems": {
             "item1": {
-              "boxDescription": "2013 - 2015 Accicents",
+              "boxDescription": "2013 - 2015 Accidents",
               "boxStyle": "",
               "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-accident-car.png"
             }
           },
-          "sourceDescription": "FARS is a nationwide census providing NHTSA, Congress and the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.",
+          "sourceDescription": "Fatality Analysis Reporting System (FARS)",
           "sourceURL": "http://www.nhtsa.gov/FARS",
           "type": "singleColumn"
         },
@@ -184,7 +184,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "DOT3",
-            "mouseoverName": "2010 - 2015 DC Crash Fatalities Heatmap",
+            "mouseoverName": "2010-2015 DC Crash Fatalities Heatmap",
             "order": 1,
             "subCategory": "1",
             "urlLegend": "../../legends/template-color-ramp.jade",
@@ -432,7 +432,7 @@
     "allTheTabs": {
       "DOT": {
         "isActive": true,
-        "order": 5,
+        "order": 6,
         "permissions": null,
         "redact": false,
         "title": "DOT"
