@@ -4467,19 +4467,26 @@
         }
     },
     "allTheTabs": {
-        "CityInfo": {
+        "LandUse": {
+            "isActive": true,
+            "order": 0,
+            "permissions": null,
+            "redact": false,
+            "title": "Land Use"
+        },
+        "Development": {
             "isActive": false,
             "order": 1,
             "permissions": null,
             "redact": false,
-            "title": "City Info"
+            "title": "Development"
         },
-        "Development": {
-            "isActive": false,
+        "CityInfo": {
+            "isActive": true,
             "order": 2,
             "permissions": null,
             "redact": false,
-            "title": "Development"
+            "title": "City Info"
         },
         "Incentives": {
             "isActive": false,
@@ -4488,14 +4495,6 @@
             "redact": false,
             "title": "Incentives"
         },
-        "LandUse": {
-            "isActive": true,
-            "order": 0,
-            "permissions": null,
-            "redact": false,
-            "title": "Land Use"
-        },
-
         "WDCEP": {
             "isActive": false,
             "order": 4,
