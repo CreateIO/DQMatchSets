@@ -3,6 +3,7 @@
         "zoningLayer": {
             "tmsProvider" : "zoningProvider",
             "tmsLayer" : "zoningLayer",
+            "tmsStyle" : "OGC",
             "tmsLayerName" : "zoning",
             "url" : "https://s3.amazonaws.com/models-dc/img_tilesets/zoningZoom19/",
             "extension" : "png",
@@ -22,6 +23,7 @@
         "metroBusLayer": {
             "tmsProvider" : "metroBusProvider",
             "tmsLayer" : "metroBusLayer",
+            "tmsStyle" : "OGC",
             "tmsLayerName" : "metroBus",
             "url" : "https://s3.amazonaws.com/models-dc/img_tilesets/metro_bus_tiles_DC_0915/",
             "extension" : "png",
@@ -41,6 +43,7 @@
         "parcelLayer": {
             "tmsProvider" : "parcelTMSProvider",
             "tmsLayer" : "parcelTMSLayer",
+            "tmsStyle" : "OGC",
             "tmsLayerName" : "Parcel TMS",
             "url" : "https://s3.amazonaws.com/models-dc/img_tilesets/parcel_tileset_DC_flats/",
             "extension" : "png",
@@ -61,6 +64,7 @@
         "parcelLayerNY": {
             "tmsProvider" : "parcelTMSProviderNY",
             "tmsLayer" : "parcelTMSLayerNY",
+            "tmsStyle" : "OGC",
             "tmsLayerName" : "Parcel TMS NY",
             "url" : "https://s3.amazonaws.com/models-dc/img_tilesets/parcel_manhattan/",
             "extension" : "png",
@@ -80,6 +84,7 @@
         "parcelLayerShanghai": {
             "tmsProvider" : "parcelTMSProviderShanghai",
             "tmsLayer" : "parcelTMSLayerShanghai",
+            "tmsStyle" : "OGC",
             "tmsLayerName" : "Parcel TMS Shanghai",
             "url" : "https://s3.amazonaws.com/models-dc/img_tilesets/shanghai-v1/",
             "extension" : "png",

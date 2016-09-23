@@ -1111,19 +1111,19 @@
                 },
                 "field2":{
                     "value":"numinvolve",
-                    "display":"Involved: ",
+                    "display":"# Involved: ",
                     "fieldtype":"number",
                     "units": null
                 },
                 "field3":{
                     "value":"numinjured",
-                    "display":"Injured: ",
+                    "display":"# Injured: ",
                     "fieldtype":"number",
                     "units":null
                 },
                 "field4":{
                     "value":"numfatalit",
-                    "display":"Fatalities: ",
+                    "display":"# Fatalities: ",
                     "fieldtype":"number",
                     "units":null
                 },
