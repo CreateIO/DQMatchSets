@@ -1392,7 +1392,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Projected Population Growth (2015-2020 by Neighborhood)",
+                "description": "DC METRO rail lines & stations.",
                 "listItemsLeft": {
                     "item1": {
                         "boxDescription": "Red Line",
@@ -1437,8 +1437,8 @@
                         "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metro.png"
                     }
                 },
-                "sourceDescription": "ESRI",
-                "sourceURL": "https://developers.arcgis.com/en/features/geo-enrichment/",
+                "sourceDescription": "DCGIS",
+                "sourceURL": "http://greatstreets.dc.gov/",
                 "type": "doubleColumn"
             },
             "menuSection": "CityInfo2",

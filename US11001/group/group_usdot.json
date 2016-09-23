@@ -5,7 +5,7 @@
     "group_display_name": "US DOT",
     "class_name": "",
     "url": "",
-    "favicon": "",
+    "favicon": "/favicon-96x96.png",
     "logo": "",
     "layer_limit": 999,
     "start_position": {
@@ -33,7 +33,7 @@
     },
     "start_layers": {
       "Property Types": "off",
-      "2013-2015 DC Accidents": "on"
+      "2013 - 2015 DC Fatalities": "on"
     },
     "start_menus": {
       "Layer_Menu": "on"
@@ -41,7 +41,7 @@
   },
   "layers": {
     "allTheLayers": {
-      "2013-2015 DC Accidents": {
+      "2013 - 2015 DC Fatalities": {
         "category": "6",
         "colors": {
           "hex": {},
@@ -51,7 +51,7 @@
           "denyList1": "Limited"
         },
         "denyToggle": false,
-        "displayName": "2013-2015 DC Accidents",
+        "displayName": "2013 - 2015 DC Fatalities",
         "functions": {
           "addFunctions": {
             "func1": {
@@ -73,7 +73,7 @@
           },
           "piwikTrack": {
             "parameters": {
-              "param1": "'DOT Data: 2013-2015 Accidents'"
+              "param1": "'USDOT Data: 2013 - 2015 Fatalities'"
             }
           },
           "removeFunctions": {
@@ -92,20 +92,20 @@
         "isActive": false,
         "layerUsed": true,
         "legendContents": {
-          "description": "Click on icons for details.",
+          "description": "Click icons for more details.<br><br>The Fatality Analysis Reporting System (FARS) is a nationwide census providing the National Highway Traffic Safety Administration (NHTSA), Congress and the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.",
           "listItems": {
             "item1": {
-              "boxDescription": "2013 - 2015 Accicents",
+              "boxDescription": " 2013 - 2015 DC Fatalities",
               "boxStyle": "",
               "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-accident-car.png"
             }
           },
-          "sourceDescription": "FARS is a nationwide census providing NHTSA, Congress and the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.",
+          "sourceDescription": "www.nhtsa.gov/FARS",
           "sourceURL": "http://www.nhtsa.gov/FARS",
           "type": "singleColumn"
         },
         "menuSection": "DOT1",
-        "mouseoverName": "2013 - 2015 DC Accidents",
+        "mouseoverName": "2013 - 2015 DC Fatalities",
         "order": 0,
         "subCategory": "1",
         "urlLegend": "../../legends/template-legend.jade",
@@ -170,14 +170,46 @@
               "boxDescription": "",
               "boxStyle": "background:#ABDDA4"
             },
+<<<<<<< HEAD
             "item3": {
               "boxDescription": "",
               "boxStyle": "background:#FFFFBF"
+=======
+            "denyToggle": false,
+            "displayName": "2010 - 2015 DC Fatalities Heatmap",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "DC_Crashes2010to2015HeatmapbyFatalities"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'DOT Data: 2010 - 2015 DC Fatalities Heatmap'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "DC_Crashes2010to2015HeatmapbyFatalities"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+>>>>>>> 6dcbc9f293b21e4b33cd177d9fec713d9e3bbbce
             },
             "item4": {
               "boxDescription": "",
               "boxStyle": "background:#FDAE6A"
             },
+<<<<<<< HEAD
             "item5": {
               "boxDescription": "High",
               "boxStyle": "background:#D7191C"
@@ -186,6 +218,14 @@
           "sourceDescription": "DC Open Data",
           "sourceURL": "http://opendata.dc.gov/",
           "type": "singleColumn"
+=======
+            "menuSection": "DOT3",
+            "mouseoverName": "2010 - 2015 DC Fatalities Heatmap",
+            "order": 1,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-color-ramp.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/HMF.png"
+>>>>>>> 6dcbc9f293b21e4b33cd177d9fec713d9e3bbbce
         },
         "menuSection": "DOT3",
         "mouseoverName": "2010 - 2015 DC Crash Fatalities Heatmap",
@@ -270,6 +310,7 @@
           "sourceURL": "http://opendata.dc.gov/",
           "type": "singleColumn"
         },
+<<<<<<< HEAD
         "menuSection": "DOT3",
         "mouseoverName": "2015 DC Crash Reports Heatmap",
         "order": 2,
@@ -320,6 +361,66 @@
               "boxDescription": "Crash reports with fatalities.",
               "boxStyle": "background:#d53e4f; border-radius: 15px; border: 1px solid #fb8b4e",
               "imageUrl": null
+=======
+        "Crash Reports by Accident Type": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Crash Reports by Accident Type",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_DOT_2015Crash_byAccidentType"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'DOT Data: 2015 DC Crash Reports by Accient Type'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_DOT_2015Crash_byAccidentType"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click icons for more details.<br><br>The Vision Zero crash reports located in the District of Columbia in 2015.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Crash reports with fatalities.",
+                        "boxStyle": "background:#d53e4f; border-radius: 15px; border: 1px solid #fb8b4e",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Crash reports with injuries",
+                        "boxStyle": "background:#fb8b4e; border-radius: 15px; border: 1px solid #fee492",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Crash reports with propery damage.",
+                        "boxStyle": "background:#fee492; border-radius: 15px; border: 1px solid #f9ffb3",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "DC Open Data",
+                "sourceURL": "http://opendata.dc.gov/",
+                "type": "singleColumn"
+>>>>>>> 6dcbc9f293b21e4b33cd177d9fec713d9e3bbbce
             },
             "item2": {
               "boxDescription": "Crash reports with injuries",
@@ -387,10 +488,39 @@
               "boxStyle": "background:#9dd9a6; border-radius: 15px; border: 1px solid #c7e8cc",
               "imageUrl": null
             },
+<<<<<<< HEAD
             "item2": {
               "boxDescription": "Bike path & biker safety comments.",
               "boxStyle": "background:#3288bd; border-radius: 15px; border: 1px solid #68aad2",
               "imageUrl": null
+=======
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click icons for more details.<br><br>The Vision Zero Safety data comes from a web-based application developed to allow the public to communicate the real and perceived dangers along the roadway from the perspective of either a pedestrian, bicyclist or motorist.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Crosswalk & pedestrian safety comments.",
+                        "boxStyle": "background:#9dd9a6; border-radius: 15px; border: 1px solid #c7e8cc",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Bike path & biker safety comments.",
+                        "boxStyle": "background:#3288bd; border-radius: 15px; border: 1px solid #68aad2",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Speeding & driver safety comments.",
+                        "boxStyle": "background:#635599; border-radius: 15px; border: 1px solid #796f9c",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "DC Open Data",
+                "sourceURL": "http://opendata.dc.gov/",
+                "type": "singleColumn"
+>>>>>>> 6dcbc9f293b21e4b33cd177d9fec713d9e3bbbce
             },
             "item3": {
               "boxDescription": "Speeding & driver safety comments.",
@@ -436,10 +566,10 @@
     "allTheTabs": {
       "DOT": {
         "isActive": true,
-        "order": 5,
+        "order": 6,
         "permissions": null,
         "redact": false,
-        "title": "DOT"
+        "title": "USDOT"
       }
     }
   },
