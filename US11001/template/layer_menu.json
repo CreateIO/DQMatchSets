@@ -1392,7 +1392,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "DC METRO rail lines & stations.",
+                "description": "(click for more info)<br><br>DC METRO rail lines & stations.",
                 "listItemsLeft": {
                     "item1": {
                         "boxDescription": "Red Line",
@@ -1432,7 +1432,7 @@
                         "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metroEntrance.png"
                     },
                     "item4": {
-                        "boxDescription": "Stations (click for more info)",
+                        "boxDescription": "Stations",
                         "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
                         "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metro.png"
                     }
