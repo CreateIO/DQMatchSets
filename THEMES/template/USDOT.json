@@ -2,12 +2,13 @@
   "group_name": "Department of Transportation",
   "entry": "http://dot.create.io",
   "init": {
-    "class_name": "dot-group",
+    "class_name": "usdot",
     "group_display_name": "",
     "url": "https://www.transportation.gov/",
     "favicon": "/favicon-96x96.png",
     "logo": "",
     "sponsor_logo": "https://s3.amazonaws.com/create-common/logo/icon-dot.png",
+    "layerLimit": null,
     "sponsored_content":{}
   }
 } 

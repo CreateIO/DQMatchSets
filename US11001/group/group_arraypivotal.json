@@ -7,6 +7,7 @@
     "url": "http://array-analytics.io/",
     "favicon": "https://s3.amazonaws.com/create-common/logo/pivotal-icon-192x192.png",
     "logo": "https://s3.amazonaws.com/create-common/logo/pivotal-mark.png" ,
+    "layer_limit": 999,
     "start_position":{ "camera": [
         {
           "name": "All of DC OverHead",

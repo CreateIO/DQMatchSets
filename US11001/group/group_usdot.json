@@ -5,8 +5,9 @@
     "group_display_name": "US DOT",
     "class_name": "",
     "url": "",
-    "favicon": "",
+    "favicon": "/favicon-96x96.png",
     "logo": "",
+    "layer_limit": 999,
     "start_position": {
       "camera": [
         {
@@ -33,6 +34,9 @@
     "start_layers": {
       "Property Types": "off",
       "2013 - 2015 DC Fatalities": "on"
+    },
+    "start_menus": {
+      "Layer_Menu": "on"
     }
   },
   "layers": {
@@ -338,7 +342,7 @@
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/CR.png"
-        },       
+        },
         "Vision Zero Safety Data": {
             "category": "6",
             "denyList": {
