@@ -959,7 +959,7 @@
                         },
                         "NearFarScalar": {
                             "minElevation": 3,
-                            "maxElevation": 5000,
+                            "maxElevation": 10000,
                             "minScale": 1,
                             "maxScale": 0
                         }
@@ -1003,7 +1003,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "stationbillboards",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metro.png",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metroEntrance.png",
                         "position": {
                             "x": "entity._properties.X",
                             "y": "entity._properties.Y",
@@ -1012,7 +1012,7 @@
                         "NearFarScalar": {
                             "minElevation": 3,
                             "maxElevation": 30000,
-                            "minScale": 1,
+                            "minScale": 2,
                             "maxScale": 0
                         }
                     }
