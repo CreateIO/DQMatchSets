@@ -1434,7 +1434,7 @@
                     "item4": {
                         "boxDescription": "Stations",
                         "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metro.png"
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metroStation.png"
                     }
                 },
                 "sourceDescription": "DCGIS",
