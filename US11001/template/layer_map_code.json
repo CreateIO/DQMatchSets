@@ -961,7 +961,7 @@
                             "minElevation": 3,
                             "maxElevation": 5000,
                             "minScale": 1,
-                            "maxScale": 0
+                            "maxScale": 0.7
                         }
                     }
                 }
@@ -1013,7 +1013,7 @@
                             "minElevation": 3,
                             "maxElevation": 30000,
                             "minScale": 1,
-                            "maxScale": 0
+                            "maxScale": 0.4
                         }
                     }
                 }
