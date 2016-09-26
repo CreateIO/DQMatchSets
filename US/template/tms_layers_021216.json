@@ -16,7 +16,7 @@
             "tileWidth" : 256,
             "tileHeight" : 256,
             "minimumLevel" : 1,
-            "maximumLevel" : 19,
+            "maximumLevel" : 17,
             "alpha" : 0.4,
             "flag" : false
         },
@@ -36,7 +36,7 @@
             "tileWidth" : 256,
             "tileHeight" : 256,
             "minimumLevel" : 1,
-            "maximumLevel" : 19,
+            "maximumLevel" : 17,
             "alpha" : 0.8,
             "flag" : false
         },
