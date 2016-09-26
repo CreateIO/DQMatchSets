@@ -3136,7 +3136,7 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 40
+                            "z": 35
                         },
                         "text": "entity.properties.label",
                         "font": "16px sans-serif",
@@ -3179,8 +3179,8 @@
                         "NearFarScalar": {
                             "minElevation": 2000,
                             "maxElevation": 25000,
-                            "minScale": 1,
-                            "maxScale": 0.15
+                            "minScale": 0.5,
+                            "maxScale": 0.05
                         }
                     }
                 }
