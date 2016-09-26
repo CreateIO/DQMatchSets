@@ -3149,10 +3149,10 @@
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
                         "translucencyByDistance": {
-                            "minElevation": 3000,
-                            "maxElevation": 4000,
-                            "minScale": 1,
-                            "maxScale": 0
+                        "minElevation": 1,
+                        "maxElevation": 100000,
+                        "minScale": 0.3,
+                        "maxScale": 0.04
                         },
                         "scale": 1
                     }
