@@ -3136,7 +3136,7 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 35
+                            "z": 6
                         },
                         "text": "entity.properties.label",
                         "font": "16px sans-serif",
