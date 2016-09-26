@@ -2142,7 +2142,7 @@
                     "item1": {
                         "boxDescription": "Pharmacy Locations.",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PH.png"
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/images/PH.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -2154,7 +2154,7 @@
             "order": 4,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PH.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/images/PH.png"
         },
         "Planned Unit Development": {
             "category": "1",
