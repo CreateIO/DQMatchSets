@@ -2292,7 +2292,7 @@
                 "exists": false
             },
             "tms": {
-                "tmsLayerName": "MedStarGeorgetownUniveristyHospital_DTs",
+                "tmsLayerName": "MedStarGeorgetownUniversityHospital_DTs",
                 "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/array_prod:MedStarGeorgetownUniveristyHospital_DTs@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
