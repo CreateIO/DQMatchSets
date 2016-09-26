@@ -3129,34 +3129,7 @@
                 "applyFunction": null
             },
             "labels": {
-                "exists": true,
-                "labelLayers": {
-                    "label1": {
-                        "name": "pharmacylabels",
-                        "position": {
-                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
-                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 6
-                        },
-                        "text": "entity.properties.label",
-                        "font": "16px sans-serif",
-                        "fillColor": "Cesium.Color.WHITE",
-                        "outlineColor": "Cesium.Color.BLACK",
-                        "outlineWidth": 1,
-                        "style": "Cesium.LabelStyle.FILL",
-                        "pixelOffset": "Cesium.Cartesian2.ZERO",
-                        "eyeOffset": "Cesium.Cartesian3.ZERO",
-                        "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-                        "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
-                        "translucencyByDistance": {
-                        "minElevation": 1,
-                        "maxElevation": 100000,
-                        "minScale": 0.3,
-                        "maxScale": 0.04
-                        },
-                        "scale": 1
-                    }
-                }
+                "exists": false,
             },
             "polygons": {
                 "exists": false
@@ -3177,10 +3150,10 @@
                             "z": 6
                         },
                         "NearFarScalar": {
-                            "minElevation": 2000,
-                            "maxElevation": 25000,
-                            "minScale": 0.5,
-                            "maxScale": 0.05
+                        "minElevation": 1,
+                        "maxElevation": 100000,
+                        "minScale": 0.3,
+                        "maxScale": 0.04
                         }
                     }
                 }
