@@ -1875,13 +1875,13 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 2
+                            "z": 1
                          },
                          "NearFarScalar": {
                          "minElevation": 2000,
-                         "maxElevation": 25000,
+                         "maxElevation": 100000,
                          "minScale": 1,
-                         "maxScale": 0.1
+                         "maxScale": 0.09
                         }
                     }
                 }
@@ -1989,34 +1989,7 @@
                 "applyFunction": null
             },
             "labels": {
-                "exists": true,
-                "labelLayers": {
-                    "label1": {
-                        "name": "labelmovies",
-                        "position": {
-                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
-                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 40
-                        },
-                        "text": "entity.properties.Label",
-                        "font": "16px sans-serif",
-                        "fillColor": "Cesium.Color.WHITE",
-                        "outlineColor": "Cesium.Color.BLACK",
-                        "outlineWidth": 1,
-                        "style": "Cesium.LabelStyle.FILL",
-                        "pixelOffset": "Cesium.Cartesian2.ZERO",
-                        "eyeOffset": "Cesium.Cartesian3.ZERO",
-                        "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-                        "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
-                        "translucencyByDistance": {
-                            "minElevation": 3000,
-                            "maxElevation": 4000,
-                            "minScale": 1,
-                            "maxScale": 0
-                        },
-                        "scale": 1
-                    }
-                }
+                "exists": false
             },
             "polygons": {
                 "exists": false
@@ -2030,17 +2003,17 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "moviebillboards",
-                        "url": "../../geoJSON/layerIcons/circle-theaters.png",
+                        "url": "https://s3.amazonaws.com/models-dc/images/circle-theaters.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 2
+                            "z": 1
                         },
                             "NearFarScalar": {
                             "minElevation": 2000,
-                            "maxElevation": 25000,
+                            "maxElevation": 100000,
                             "minScale": 1,
-                            "maxScale": 0.15
+                            "maxScale": 0.09
                         }
                     }
                 }
@@ -3124,9 +3097,9 @@
                         },
                         "NearFarScalar": {
                         "minElevation": 2000,
-                        "maxElevation": 25000,
+                        "maxElevation": 1000000,
                         "minScale": 1,
-                        "maxScale": 0.1
+                        "maxScale": 0.09
                         }
                     }
                 }
@@ -4190,9 +4163,9 @@
                 },
                 "NearFarScalar": {
                 "minElevation": 2000,
-                "maxElevation": 25000,
+                "maxElevation": 1000000,
                 "minScale": 1,
-                "maxScale": 0.1
+                "maxScale": 0.09
                 }
               }
             }
