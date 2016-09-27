@@ -1881,7 +1881,7 @@
                          "minElevation": 2000,
                          "maxElevation": 25000,
                          "minScale": 1,
-                         "maxScale": 0.15
+                         "maxScale": 0.1
                         }
                     }
                 }
@@ -3120,13 +3120,13 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 2
+                            "z": 1
                         },
                         "NearFarScalar": {
                         "minElevation": 2000,
                         "maxElevation": 25000,
                         "minScale": 1,
-                        "maxScale": 0.15
+                        "maxScale": 0.1
                         }
                     }
                 }
@@ -4186,13 +4186,13 @@
                 "position": {
                   "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                   "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                  "z": 2
+                  "z": 1
                 },
                 "NearFarScalar": {
                 "minElevation": 2000,
                 "maxElevation": 25000,
                 "minScale": 1,
-                "maxScale": 0.15
+                "maxScale": 0.1
                 }
               }
             }
