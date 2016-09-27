@@ -1878,10 +1878,10 @@
                             "z": 2
                          },
                          "NearFarScalar": {
-                         "minElevation": 2000,
+                         "minElevation": 1000,
                          "maxElevation": 100000,
-                         "minScale": 1,
-                         "maxScale": 0.05
+                         "minScale": 0.9,
+                         "maxScale": 0.04
                         }
                     }
                 }
@@ -2010,10 +2010,10 @@
                             "z": 2
                         },
                             "NearFarScalar": {
-                            "minElevation": 2000,
+                            "minElevation": 1000,
                             "maxElevation": 100000,
-                            "minScale": 1,
-                            "maxScale": 0.05
+                            "minScale": 0.9,
+                            "maxScale": 0.04
                         }
                     }
                 }
@@ -3096,10 +3096,10 @@
                             "z": 2
                         },
                         "NearFarScalar": {
-                        "minElevation": 2000,
+                        "minElevation": 1000,
                         "maxElevation": 100000,
-                        "minScale": 1,
-                        "maxScale": 0.05
+                        "minScale": 0.9,
+                        "maxScale": 0.04
                         }
                     }
                 }
@@ -4162,10 +4162,10 @@
                   "z": 2
                 },
                 "NearFarScalar": {
-                "minElevation": 2000,
+                "minElevation": 1000,
                 "maxElevation": 100000,
                 "minScale": 0.9,
-                "maxScale": 0.05
+                "maxScale": 0.04
                 }
               }
             }
