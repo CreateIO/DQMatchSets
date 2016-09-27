@@ -1881,7 +1881,7 @@
                          "minElevation": 1000,
                          "maxElevation": 65000,
                          "minScale": 0.9,
-                         "maxScale": 0.02
+                         "maxScale": 0.01
                         }
                     }
                 }
@@ -2013,7 +2013,7 @@
                             "minElevation": 1000,
                             "maxElevation": 65000,
                             "minScale": 0.9,
-                            "maxScale": 0.02
+                            "maxScale": 0.01
                         }
                     }
                 }
@@ -3099,7 +3099,7 @@
                         "minElevation": 1000,
                         "maxElevation": 65000,
                         "minScale": 0.9,
-                        "maxScale": 0.02
+                        "maxScale": 0.01
                         }
                     }
                 }
@@ -4165,7 +4165,7 @@
                 "minElevation": 1000,
                 "maxElevation": 65000,
                 "minScale": 0.9,
-                "maxScale": 0.02
+                "maxScale": 0.01
                 }
               }
             }
