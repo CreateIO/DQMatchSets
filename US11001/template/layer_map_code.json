@@ -4216,10 +4216,10 @@
                   "z": 5
                 },
                 "NearFarScalar": {
-                "minElevation": 1000,
-                "maxElevation": 100000,
+                "minElevation": 2000,
+                "maxElevation": 40000,
                 "minScale": 1,
-                "maxScale": 0.15
+                "maxScale": 1
                 }
               }
             }
