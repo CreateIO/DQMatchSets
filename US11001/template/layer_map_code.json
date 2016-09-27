@@ -783,7 +783,7 @@
                             "minElevation": 8000,
                             "maxElevation": 9000,
                             "minScale": 1,
-                            "maxScale": 20
+                            "maxScale": 0.3
                         },
                         "scale": 1
                     }
@@ -961,7 +961,7 @@
                             "minElevation": 3,
                             "maxElevation": 60000,
                             "minScale": 1,
-                            "maxScale": 20
+                            "maxScale": 0.01
                         }
                     }
                 }
@@ -1003,7 +1003,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "stationbillboards",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metro.png",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metroEntrance.png",
                         "position": {
                             "x": "entity._properties.X",
                             "y": "entity._properties.Y",
@@ -1013,7 +1013,7 @@
                             "minElevation": 3,
                             "maxElevation": 40000,
                             "minScale": 1,
-                            "maxScale": 20
+                            "maxScale": 0.02
                         }
                     }
                 }
