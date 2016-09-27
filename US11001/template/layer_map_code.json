@@ -1857,7 +1857,7 @@
                 "applyFunction": null
             },
             "labels": {
-                "exists": true,
+                "exists": false,
                 "labelLayers": {
                     "label1": {
                         "name": "grocerylabels",
