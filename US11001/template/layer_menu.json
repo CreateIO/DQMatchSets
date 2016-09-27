@@ -54,7 +54,7 @@
             "mouseoverName": "Available Retail Sites (WDCEP)",
             "order": 1,
             "subCategory": "1",
-            "urlLegend": "../../legends/layerLegendRetailSitePoints.jade",
+            "urlLegend": "",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/RSL.png"
         },
         "Business Improvement Districts": {
@@ -1392,7 +1392,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Projected Population Growth (2015-2020 by Neighborhood)",
+                "description": "(click for more info)<br><br>DC METRO rail lines & stations.",
                 "listItemsLeft": {
                     "item1": {
                         "boxDescription": "Red Line",
@@ -1432,13 +1432,13 @@
                         "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metroEntrance.png"
                     },
                     "item4": {
-                        "boxDescription": "Stations (click for more info)",
+                        "boxDescription": "Stations",
                         "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metro.png"
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metroStation.png"
                     }
                 },
-                "sourceDescription": "ESRI",
-                "sourceURL": "https://developers.arcgis.com/en/features/geo-enrichment/",
+                "sourceDescription": "DCGIS",
+                "sourceURL": "http://greatstreets.dc.gov/",
                 "type": "doubleColumn"
             },
             "menuSection": "CityInfo2",
@@ -4090,73 +4090,6 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/WIC.png"
         },
-        "Zillow Neighborhoods": {
-            "category": "2",
-            "colors": {
-                "hex": {
-                    "hex1": "#E6E6FA"
-                },
-                "type": "outline"
-            },
-            "denyList": {
-                "denyList1": null
-            },
-            "denyToggle": false,
-            "displayName": "Neighborhoods",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "zillow-label"
-                        },
-                        "service": "mapOverlayService"
-                    },
-                    "func2": {
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "zillow-poly"
-                        },
-                        "service": "mapOverlayService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Data: Zillow Neighborhoods'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "zillow-label"
-                        },
-                        "service": "mapOverlayService"
-                    },
-                    "func2": {
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "zillow-poly"
-                        },
-                        "service": "mapOverlayService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 38,
-            "isActive": false,
-            "layerUsed": true,
-            "menuSection": "CityInfo1",
-            "mouseoverName": "Zillow Neighborhoods",
-            "order": 1,
-            "subCategory": "1",
-            "urlLegend": "../../legends/layerZillow.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/NHD.png"
-        },
         "Zoning Districts": {
             "category": "1",
             "colors": {
@@ -4534,19 +4467,26 @@
         }
     },
     "allTheTabs": {
-        "CityInfo": {
+        "LandUse": {
+            "isActive": true,
+            "order": 0,
+            "permissions": null,
+            "redact": false,
+            "title": "Land Use"
+        },
+        "Development": {
             "isActive": false,
             "order": 1,
             "permissions": null,
             "redact": false,
-            "title": "City Info"
+            "title": "Development"
         },
-        "Development": {
-            "isActive": false,
+        "CityInfo": {
+            "isActive": true,
             "order": 2,
             "permissions": null,
             "redact": false,
-            "title": "Development"
+            "title": "City Info"
         },
         "Incentives": {
             "isActive": false,
@@ -4555,14 +4495,6 @@
             "redact": false,
             "title": "Incentives"
         },
-        "LandUse": {
-            "isActive": true,
-            "order": 0,
-            "permissions": null,
-            "redact": false,
-            "title": "Land Use"
-        },
-
         "WDCEP": {
             "isActive": false,
             "order": 4,

@@ -1,0 +1,531 @@
+{
+  "group_name": "US DOT",
+  "last_update": "09/20/16",
+  "init": {
+    "group_display_name": "US DOT",
+    "class_name": "usdot",
+    "url": "",
+    "favicon": "/favicon-96x96.png",
+    "logo": "",
+    "layer_limit": 999,
+    "start_position": {
+      "camera": [
+        {
+          "name": "All of DC OverHead",
+          "cameraPosition": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -77.04346,
+                38.909624,
+                3.0
+              ],
+              [
+                -77.04346,
+                38.909624,
+                15000.0
+              ]
+            ],
+            "height": null
+          }
+        }
+      ]
+    },
+    "start_layers": {
+      "Property Types": "off",
+      "2013 - 2015 DC Fatalities": "on"
+    },
+    "start_menus": {
+      "Layer_Menu": "on"
+    }
+  },
+  "layers": {
+    "allTheLayers": {
+      "2013 - 2015 DC Fatalities": {
+        "category": "6",
+        "colors": {
+          "hex": {},
+          "type": "icon"
+        },
+        "denyList": {
+          "denyList1": "Limited"
+        },
+        "denyToggle": false,
+        "displayName": "2013 - 2015 DC Fatalities",
+        "functions": {
+          "addFunctions": {
+            "func1": {
+              "functionName": "addLayer",
+              "parameters": {
+                "param1": "$scope",
+                "param2": "2013-2015-accidents"
+              },
+              "service": "mapOverlayService"
+            }
+          },
+          "emits": {
+            "emit1": {
+              "parameters": {
+                "param1": "clearBillboard"
+              },
+              "type": "remove"
+            }
+          },
+          "piwikTrack": {
+            "parameters": {
+              "param1": "'USDOT Data: 2013 - 2015 Fatalities'"
+            }
+          },
+          "removeFunctions": {
+            "func1": {
+              "functionName": "removeLayer",
+              "parameters": {
+                "param1": "$scope",
+                "param2": "2013-2015-accidents"
+              },
+              "service": "mapOverlayService"
+            }
+          }
+        },
+        "hasLegend": true,
+        "id": 0,
+        "isActive": false,
+        "layerUsed": true,
+        "legendContents": {
+          "description": "Click icons for more details.<br><br>The Fatality Analysis Reporting System (FARS) is a nationwide census providing the National Highway Traffic Safety Administration (NHTSA), Congress and the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.",
+          "listItems": {
+            "item1": {
+              "boxDescription": " 2013 - 2015 DC Fatalities",
+              "boxStyle": "",
+              "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-accident-car.png"
+            }
+          },
+          "sourceDescription": "www.nhtsa.gov/FARS",
+          "sourceURL": "http://www.nhtsa.gov/FARS",
+          "type": "singleColumn"
+        },
+        "menuSection": "DOT1",
+        "mouseoverName": "2013 - 2015 DC Fatalities",
+        "order": 0,
+        "subCategory": "1",
+        "urlLegend": "../../legends/template-legend.jade",
+        "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/AccidentMenu.png"
+        },
+        "Crash Fatalities Heatmap": {
+            "category": "1",
+            "colors": {
+                "hex": {
+                    "hex1": "#CCF2DE",
+                    "hex2": "#ADF2CE",
+                    "hex3": "#58D895",
+                    "hex4": "#21C16D",
+                    "hex5": "#009C50"
+                },
+                "type": "multi"
+            },
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "2010 - 2015 DC Fatalities Heatmap",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "DC_Crashes2010to2015HeatmapbyFatalities"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'DOT Data: 2010 - 2015 DC Fatalities Heatmap'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "DC_Crashes2010to2015HeatmapbyFatalities"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 39,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Heatmap displaying the relative density of the 1,128 vehicular crash fatalities that occured in DC from 2010 to 2015.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Low",
+                        "boxStyle": "background:#2B83BA"
+                    },
+                    "item2": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#ABDDA4"
+                    },
+                    "item3": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#FFFFBF"
+                    },
+                    "item4": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#FDAE6A"
+                    },
+                    "item5": {
+                        "boxDescription": "High",
+                        "boxStyle": "background:#D7191C"
+                    }
+                },
+                "sourceDescription": "DC Open Data",
+                "sourceURL": "http://opendata.dc.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "DOT3",
+            "mouseoverName": "2010 - 2015 DC Fatalities Heatmap",
+            "order": 1,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-color-ramp.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/HMF.png"
+        },
+        "Crash Reports Heatmap": {
+            "category": "1",
+            "colors": {
+                "hex": {
+                    "hex1": "#CCF2DE",
+                    "hex2": "#ADF2CE",
+                    "hex3": "#58D895",
+                    "hex4": "#21C16D",
+                    "hex5": "#009C50"
+                },
+                "type": "multi"
+            },
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "2015 Crash Reports Heatmap",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "dc_Crashes2015Heatmap"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'DOT Data: 2010 - 2015 DC Crash Reports Heatmap'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "dc_Crashes2015Heatmap"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 39,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Heatmap displaying the relative density of the 11,585 vehicular crashes that occured in DC in 2015.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Low",
+                        "boxStyle": "background:#2B83BA"
+                    },
+                    "item2": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#ABDDA4"
+                    },
+                    "item3": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#FFFFBF"
+                    },
+                    "item4": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#FDAE6A"
+                    },
+                    "item5": {
+                        "boxDescription": "High",
+                        "boxStyle": "background:#D7191C"
+                    }
+                },
+                "sourceDescription": "DC Open Data",
+                "sourceURL": "http://opendata.dc.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "DOT3",
+            "mouseoverName": "2015 DC Crash Reports Heatmap",
+            "order": 2,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-color-ramp.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/HMC.png"
+        },
+        "Crash Reports by Accident Type": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Crash Reports by Accident Type",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_DOT_2015Crash_byAccidentType"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'DOT Data: 2015 DC Crash Reports by Accient Type'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_DOT_2015Crash_byAccidentType"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click icons for more details.<br><br>The Vision Zero crash reports located in the District of Columbia in 2015.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Crash reports with fatalities.",
+                        "boxStyle": "background:#d53e4f; border-radius: 15px; border: 1px solid #fb8b4e",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Crash reports with injuries",
+                        "boxStyle": "background:#fb8b4e; border-radius: 15px; border: 1px solid #fee492",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Crash reports with property damage.",
+                        "boxStyle": "background:#fee492; border-radius: 15px; border: 1px solid #f9ffb3",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "DC Open Data",
+                "sourceURL": "http://opendata.dc.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "DOT2",
+            "mouseoverName": "2015 DC Crash Reports",
+            "order": 1,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/CR.png"
+        },
+        "Vision Zero Safety Data": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_DOT_VisionZeroSafetyData"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'DOT Data: DC Vision Zero Safety Data'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_DOT_VisionZeroSafetyData"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click icons for more details.<br><br>The Vision Zero Safety data comes from a web-based application developed to allow the public to communicate the real and perceived dangers along the roadway from the perspective of either a pedestrian, bicyclist or motorist.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Crosswalk & pedestrian safety comments.",
+                        "boxStyle": "background:#9dd9a6; border-radius: 15px; border: 1px solid #c7e8cc",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Bike path & biker safety comments.",
+                        "boxStyle": "background:#3288bd; border-radius: 15px; border: 1px solid #68aad2",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Speeding & driver safety comments.",
+                        "boxStyle": "background:#635599; border-radius: 15px; border: 1px solid #796f9c",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "DC Open Data",
+                "sourceURL": "http://opendata.dc.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "DOT2",
+            "mouseoverName": "2015 - 2016 Vision Zero Safety Data",
+            "order": 1,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/VZ.png"
+        }
+    },
+    "allTheSections": {
+      "DOT1": {
+        "order": 1,
+        "parentTab": "DOT",
+        "permissions": null,
+        "redact": false,
+        "title": "FARS Data"
+      },
+      "DOT2": {
+        "order": 2,
+        "parentTab": "DOT",
+        "permissions": null,
+        "redact": false,
+        "title": "Vision Zero Data"
+      },
+      "DOT3": {
+        "order": 3,
+        "parentTab": "DOT",
+        "permissions": null,
+        "redact": false,
+        "title": "Heatmaps"
+      }
+    },
+    "allTheTabs": {
+      "DOT": {
+        "isActive": true,
+        "order": 6,
+        "permissions": null,
+        "redact": false,
+        "title": "USDOT"
+      }
+    }
+  },
+  "filters": {
+  },
+  "infobox": {
+    "2013to2015AccidentData":{
+      "referenceid":"UNIQUEID",
+      "offset":null,
+      "fieldtype":"business",
+      "resourceType":"array",
+      "photos":{
+        "active":false,
+        "value":null
+      },
+      "pdfs":{
+        "active":false,
+        "value":null
+      },
+      "streetView":true,
+      "wdcepDetailsBox":false,
+      "header":"'Accident Infomation:'",
+      "boxValues":{
+        "field1":{
+          "value":"TWAY_ID",
+          "display":"Location",
+          "fieldtype":"text",
+          "units":null
+        },
+        "field2":{
+          "value":"TWAY_ID2",
+          "display":"",
+          "fieldtype":"text",
+          "units":null
+        },
+        "field3":{
+          "value":"MONTH + '/' + DAY + '/' + YEAR",
+          "display":"Date",
+          "fieldtype":"complex",
+          "units":null
+        },
+        "field4":{
+          "value":"HARM_EV",
+          "display":"Type",
+          "fieldtype":"text",
+          "units":null
+        },
+        "field5":{
+          "value":"MAN_COLL_2",
+          "display":"Manner",
+          "fieldtype":"text",
+          "units":null
+        },
+        "field6":{
+          "value":"VE_TOTAL",
+          "display":"# Vehicles",
+          "fieldtype":"number",
+          "units":null
+        },
+        "field7":{
+          "value":"PEDS",
+          "display":"# Peds",
+          "fieldtype":"number",
+          "units":null
+        },
+        "field8":{
+          "value":"PBPTYPE",
+          "display":"Cyclists",
+          "fieldtype":"text",
+          "units":null
+        },
+        "field9":{
+          "value":"DRUNK_DR",
+          "display":"Drunk Driver",
+          "fieldtype":"number",
+          "units":null
+        },
+        "field10":{
+          "value":"FATALS",
+          "display":"# Fatalities",
+          "fieldtype":"number",
+          "units":null
+        }
+      }
+    }
+  },
+  "tms": {
+  }
+}
