@@ -1881,7 +1881,7 @@
                          "minElevation": 2000,
                          "maxElevation": 100000,
                          "minScale": 1,
-                         "maxScale": 0.09
+                         "maxScale": 0.05
                         }
                     }
                 }
@@ -2013,7 +2013,7 @@
                             "minElevation": 2000,
                             "maxElevation": 100000,
                             "minScale": 1,
-                            "maxScale": 0.09
+                            "maxScale": 0.05
                         }
                     }
                 }
@@ -3097,9 +3097,9 @@
                         },
                         "NearFarScalar": {
                         "minElevation": 2000,
-                        "maxElevation": 1000000,
+                        "maxElevation": 100000,
                         "minScale": 1,
-                        "maxScale": 0.09
+                        "maxScale": 0.05
                         }
                     }
                 }
@@ -4163,9 +4163,9 @@
                 },
                 "NearFarScalar": {
                 "minElevation": 2000,
-                "maxElevation": 1000000,
+                "maxElevation": 100000,
                 "minScale": 1,
-                "maxScale": 0.09
+                "maxScale": 0.05
                 }
               }
             }
