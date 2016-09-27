@@ -1898,7 +1898,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "grocerybillboards",
-                        "url": "../../geoJSON/layerIcons/circle-grocery.png",
+                        "url": "https://s3.amazonaws.com/models-dc/images/circle-grocery.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
