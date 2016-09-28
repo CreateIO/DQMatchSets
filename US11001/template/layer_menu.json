@@ -3845,7 +3845,7 @@
             "order": 1,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/BMK.png"
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-wdcep.png"
         },
         "WDCEP Development Site Plans": {
             "category": "3",
