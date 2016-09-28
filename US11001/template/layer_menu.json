@@ -3490,7 +3490,7 @@
             "order": 2,
             "subCategory": "1",
             "urlLegend": "../../legends/layerLegendTrepp.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/WDCEP/icons/trepp.png"
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/trepp.png"
         },
         "WDCEP - 711": {
             "category": "5",
@@ -3833,7 +3833,7 @@
                     "item1": {
                         "boxDescription": "WDCEP Bookmarks",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-wdcep.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-wdcep.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
