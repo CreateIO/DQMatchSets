@@ -2917,13 +2917,13 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 2
+                            "z": 3
                         },
                         "NearFarScalar": {
                             "minElevation": 1000,
                             "maxElevation": 65000,
-                            "minScale": 0.9,
-                            "maxScale": 0.01
+                            "minScale": 0.7,
+                            "maxScale": 0.007
                         }
                     }
                 }
@@ -2957,17 +2957,17 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "resPipeBubbleBB",
-                        "url": "../../geoJSON/layerIcons/circle-residential.png",
+                        "url": "https://s3.amazonaws.com/models-dc/images/icon-residential-circle.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 5
+                            "z": 3
                         },
                         "NearFarScalar": {
                             "minElevation": 1000,
-                            "maxElevation": 8000,
-                            "minScale": 1,
-                            "maxScale": 0.09
+                            "maxElevation": 65000,
+                            "minScale": 0.7,
+                            "maxScale": 0.007
                         }
                     }
                 }
@@ -3005,13 +3005,13 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 2
+                            "z": 3
                         },
                         "NearFarScalar": {
                             "minElevation": 1000,
                             "maxElevation": 65000,
-                            "minScale": 0.9,
-                            "maxScale": 0.01
+                            "minScale": 0.7,
+                            "maxScale": 0.007
                         }
                     }
                 }
@@ -3045,7 +3045,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "retailPipeBubbleBB",
-                        "url": "../../geoJSON/layerIcons/circle-retails.png",
+                        "url": "https://s3.amazonaws.com/models-dc/images/icon-retail-circle.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
