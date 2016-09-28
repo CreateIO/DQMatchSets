@@ -951,17 +951,17 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "stationbillboards",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/metroStation.png",
+                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/metroStation.png",
                         "position": {
                             "x": "entity._properties.XCOORD",
                             "y": "entity._properties.YCOORD",
-                            "z": 20
+                            "z": 5
                         },
                         "NearFarScalar": {
-                            "minElevation": 3,
-                            "maxElevation": 60000,
-                            "minScale": 1,
-                            "maxScale": 0.01
+                            "minElevation": 2000,
+                            "maxElevation": 100000,
+                            "minScale": 0.08,
+                            "maxScale": 0
                         }
                     }
                 }
@@ -1003,17 +1003,17 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "stationbillboards",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-metroEntrance.png",
+                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-metroEntrance.png",
                         "position": {
                             "x": "entity._properties.X",
                             "y": "entity._properties.Y",
-                            "z": 20
+                            "z": 5
                         },
                         "NearFarScalar": {
-                            "minElevation": 3,
-                            "maxElevation": 40000,
-                            "minScale": 1,
-                            "maxScale": 0.02
+                            "minElevation": 2000,
+                            "maxElevation": 100000,
+                            "minScale": 0.08,
+                            "maxScale": 0
                         }
                     }
                 }
@@ -1042,7 +1042,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "metroBusBB",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-bus.png",
+                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-bus.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -1341,17 +1341,17 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "SMD",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/smd.png",
+                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/smd.png",
                         "position": {
                             "x": "entity._properties.X",
                             "y": "entity._properties.Y",
                             "z": 5
                         },
                         "NearFarScalar": {
-                            "minElevation": 1000,
-                            "maxElevation": 65000,
-                            "minScale": 0.6,
-                            "maxScale": 0.006
+                            "minElevation": 2000,
+                            "maxElevation": 100000,
+                            "minScale": 0.8,
+                            "maxScale": 0
                         }
                     }
                 }
@@ -1871,16 +1871,16 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "grocerybillboards",
-                        "url": "https://s3.amazonaws.com/models-dc/images/circle-grocery.png",
+                        "url": "http://s3.amazonaws.com/models-dc/images/circle-grocery.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
                             "z": 5
                          },
                          "NearFarScalar": {
-                         "minElevation": 5000,
+                         "minElevation": 2000,
                          "maxElevation": 100000,
-                         "minScale": 1,
+                         "minScale": 0.8,
                          "maxScale": 0
                         }
                     }
@@ -1915,16 +1915,16 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "subwaybillboards",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-subway.png",
+                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-subway.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
                             "z": 5
                         },
                         "NearFarScalar": {
-                            "minElevation": 5000,
+                            "minElevation": 2000,
                             "maxElevation": 100000,
-                            "minScale": 1,
+                            "minScale": 0.8,
                             "maxScale": 0
                         }
                     }
@@ -1959,16 +1959,16 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "potbellybillboards",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-potbelly.png",
+                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-potbelly.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
                             "z": 5
                         },
                         "NearFarScalar": {
-                            "minElevation": 5000,
+                            "minElevation": 2000,
                             "maxElevation": 100000,
-                            "minScale": 1,
+                            "minScale": 0.8,
                             "maxScale": 0
                         }
                     }
@@ -2003,16 +2003,16 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "moviebillboards",
-                        "url": "https://s3.amazonaws.com/models-dc/images/circle-theaters.png",
+                        "url": "http://s3.amazonaws.com/models-dc/images/circle-theaters.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
                             "z": 5
                         },
                             "NearFarScalar": {
-                            "minElevation": 5000,
+                            "minElevation": 2000,
                             "maxElevation": 100000,
-                            "minScale": 1,
+                            "minScale": 0.8,
                             "maxScale": 0
                         }
                     }
@@ -2404,7 +2404,7 @@
                         "type": "custom",
                         "name": "gwbillboards",
                         "if": "entity.properties.HOSP_NAME == 'George Washington University Hospital'",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/billboard-gw.png",
+                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/billboard-gw.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -2500,16 +2500,16 @@
                         "type": "custom",
                         "name": "chipotlebillboards",
                         "if": "entity.properties.label == 'Chipotle Mexican Grill'",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-chipotle.png",
+                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-chipotle.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
                             "z": 5
                         },
                         "NearFarScalar": {
-                            "minElevation": 5000,
+                            "minElevation": 2000,
                             "maxElevation": 100000,
-                            "minScale": 1,
+                            "minScale": 0.8,
                             "maxScale": 0
                         }
                     },
@@ -2913,7 +2913,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "resComBubbleBB",
-                        "url": "https://s3.amazonaws.com/models-dc/images/icon-residential-circle.png",
+                        "url": "http://s3.amazonaws.com/models-dc/images/icon-residential-circle.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -2957,7 +2957,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "resPipeBubbleBB",
-                        "url": "https://s3.amazonaws.com/models-dc/images/icon-residential-circle.png",
+                        "url": "http://s3.amazonaws.com/models-dc/images/icon-residential-circle.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -3001,7 +3001,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "retailComBubbleBB",
-                        "url": "https://s3.amazonaws.com/models-dc/images/icon-retail-circle.png",
+                        "url": "http://s3.amazonaws.com/models-dc/images/icon-retail-circle.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -3045,7 +3045,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "retailPipeBubbleBB",
-                        "url": "https://s3.amazonaws.com/models-dc/images/icon-retail-circle.png",
+                        "url": "http://s3.amazonaws.com/models-dc/images/icon-retail-circle.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -3089,17 +3089,17 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "pharmacyBB",
-                        "url": "https://s3.amazonaws.com/models-dc/images/circle-pharmacy.png",
+                        "url": "http://s3.amazonaws.com/models-dc/images/circle-pharmacy.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
                             "z": 5
                         },
                         "NearFarScalar": {
-                        "minElevation": 1000,
-                        "maxElevation": 65000,
-                        "minScale": 0.6,
-                        "maxScale": 0.006
+                        "minElevation": 2000,
+                        "maxElevation": 100000,
+                        "minScale": 0.8,
+                        "maxScale": 0
                         }
                     }
                 }
@@ -3133,7 +3133,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "wdcep711BB",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-7-11.png",
+                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-7-11.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -3141,9 +3141,9 @@
                         },
                         "NearFarScalar": {
                             "minElevation": 2000,
-                            "maxElevation": 25000,
-                            "minScale": 1,
-                            "maxScale": 0.15
+                            "maxElevation": 100000,
+                            "minScale": 0.8,
+                            "maxScale": 0
                         }
                     }
                 }
@@ -3177,16 +3177,16 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "wdcepbookmarksBB",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-wdcep.png",
+                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-wdcep.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
                             "z": 5
                         },
                         "NearFarScalar": {
-                            "minElevation": 5000,
+                            "minElevation": 2000,
                             "maxElevation": 100000,
-                            "minScale": 1,
+                            "minScale": 0.8,
                             "maxScale": 0
                         }
                     }
@@ -3203,7 +3203,7 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "retail_marketable_data",
-                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/",
+                "folder": "http://s3.amazonaws.com/models-dc/WDCEP/",
                 "applyFunction": null
             },
             "labels": {
@@ -3282,7 +3282,7 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "wdcep_neighborhoods_data",
-                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/",
+                "folder": "http://s3.amazonaws.com/models-dc/WDCEP/",
                 "applyFunction": null
             },
             "labels": {
@@ -3813,7 +3813,7 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "trepp",
-                "folder": "https://s3.amazonaws.com/models-dc/geoJSON/prod/",
+                "folder": "http://s3.amazonaws.com/models-dc/geoJSON/prod/",
                 "applyFunction": "test"
             },
             "labels": {
@@ -3831,7 +3831,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "treppBB",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/trepp.png",
+                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/trepp.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -4093,7 +4093,7 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "gsaDataFields",
-                "folder": "https://s3.amazonaws.com/models-dc/geoJSON/prod/infobox/",
+                "folder": "http://s3.amazonaws.com/models-dc/geoJSON/prod/infobox/",
                 "applyFunction": null
             },
             "labels": {
