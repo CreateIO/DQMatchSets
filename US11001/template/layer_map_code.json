@@ -2517,16 +2517,16 @@
                         "type": "custom",
                         "name": "shophousebillboards",
                         "if": "entity.properties.label == 'Shophouse Southeast Asian Kitchen'",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-shophouse.png",
+                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-shophouse.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
                             "z": 5
                         },
                         "NearFarScalar": {
-                            "minElevation": 5000,
+                            "minElevation": 2000,
                             "maxElevation": 100000,
-                            "minScale": 1,
+                            "minScale": 0.8,
                             "maxScale": 0
                         }
                     }
@@ -4162,9 +4162,9 @@
                   "z": 5
                 },
                 "NearFarScalar": {
-                "minElevation": 5000,
+                "minElevation": 2000,
                 "maxElevation": 100000,
-                "minScale": 1,
+                "minScale": 0.8,
                 "maxScale": 0
                 }
               }
