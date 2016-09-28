@@ -3775,7 +3775,7 @@
             "order": 5,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/subway.png"
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/subway-square.png"
         },
         "WDCEP Bookmarks": {
             "category": "5",
