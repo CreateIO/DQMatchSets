@@ -4162,10 +4162,10 @@
                   "z": 5
                 },
                 "NearFarScalar": {
-                "minElevation": 1000,
-                "maxElevation": 8000,
+                "minElevation": 2000,
+                "maxElevation": 25000,
                 "minScale": 1,
-                "maxScale": 0.09
+                "maxScale": 0.15
                 }
               }
             }
