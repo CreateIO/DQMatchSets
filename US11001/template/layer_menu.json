@@ -3548,7 +3548,7 @@
                     "item1": {
                         "boxDescription": "7-Eleven Locations.",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/711.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/711-square.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -3560,7 +3560,7 @@
             "order": 2,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/711.png"
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/711-square.png"
         },
         "WDCEP - Chipotle/Shophouse": {
             "category": "5",
@@ -3693,7 +3693,7 @@
                     "item1": {
                         "boxDescription": "PotBelly Locations.",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PB.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/potbelly-square.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -3705,7 +3705,7 @@
             "order": 4,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PB.png"
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/potbelly-square.png"
         },
         "WDCEP - Subways": {
             "category": "5",
