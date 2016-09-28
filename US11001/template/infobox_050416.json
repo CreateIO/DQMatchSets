@@ -843,13 +843,13 @@
                 "field1":{
                     "value":"ADDRESS",
                     "display":"Address: ",
-                    "fieldtype":"text",
+                    "fieldtype":"formatText",
                     "units":null
                 },
                 "field2":{
                     "value":"LINE",
                     "display":"Line(s): ",
-                    "fieldtype":"text",
+                    "fieldtype":"formatText",
                     "units":null
                 },
                 "field4":{
