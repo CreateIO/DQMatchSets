@@ -3618,12 +3618,12 @@
                     "item1": {
                         "boxDescription": "Chipotle Locations",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-chipotle.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/chipotle.png"
                     },
                     "item2": {
                         "boxDescription": "Chophouse Locations",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-shophouse.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/shophouse.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
