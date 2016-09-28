@@ -3049,13 +3049,13 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 9
+                            "z": 10
                         },
                         "NearFarScalar": {
-                            "minElevation": 1000,
-                            "maxElevation": 65000,
-                            "minScale": 0.5,
-                            "maxScale": 0.005
+                            "minElevation": 2000,
+                            "maxElevation": 100000,
+                            "minScale": 0.8,
+                            "maxScale": 0
                         }
                     }
                 }
