@@ -3763,7 +3763,7 @@
                     "item1": {
                         "boxDescription": "Subway Locations.",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/S.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/subway.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -3775,7 +3775,7 @@
             "order": 5,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/S.png"
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/subway.png"
         },
         "WDCEP Bookmarks": {
             "category": "5",

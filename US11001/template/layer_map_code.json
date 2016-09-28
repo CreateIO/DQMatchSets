@@ -1345,13 +1345,13 @@
                         "position": {
                             "x": "entity._properties.X",
                             "y": "entity._properties.Y",
-                            "z": 20
+                            "z": 5
                         },
                         "NearFarScalar": {
-                            "minElevation": 9000,
-                            "maxElevation": 12000,
-                            "minScale": 1,
-                            "maxScale": 0
+                            "minElevation": 1000,
+                            "maxElevation": 65000,
+                            "minScale": 0.6,
+                            "maxScale": 0.006
                         }
                     }
                 }
