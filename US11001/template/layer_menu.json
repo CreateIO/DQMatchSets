@@ -3762,7 +3762,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Subway Locations.",
-                        "boxStyle": "display: inline-block; width: 53px; height: 15px; margin-right: .4em; vertical-align: middle;",
+                        "boxStyle": "display: inline-block; width: 30px; height: 9px; margin-right: .4em; vertical-align: middle;",
                         "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/subway.png"
                     }
                 },
