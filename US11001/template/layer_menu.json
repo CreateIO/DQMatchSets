@@ -3490,7 +3490,7 @@
             "order": 2,
             "subCategory": "1",
             "urlLegend": "../../legends/layerLegendTrepp.jade",
-            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/trepp.png"
+            "urlPicture": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/trepp.png"
         },
         "WDCEP - 711": {
             "category": "5",
