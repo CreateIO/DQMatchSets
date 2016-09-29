@@ -1312,7 +1312,7 @@
                     "item1": {
                         "boxDescription": "Metro Bus Stops.",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-bus-green.png"
+                        "imageUrl": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-bus-green.png"
                     }
                 },
                 "sourceDescription": "WMATA",
@@ -3274,7 +3274,7 @@
                     "item3": {
                         "boxDescription": "Click for more info on SMD & ANC.",
                         "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
-                        "imageUrl": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/smd.png"
+                        "imageUrl": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/smd.pngbus"
                     }
                 },
                 "sourceDescription": "ANC DC",

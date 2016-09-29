@@ -97,7 +97,7 @@
             "item1": {
               "boxDescription": " 2013 - 2015 DC Fatalities",
               "boxStyle": "",
-              "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/accident-square.png"
+              "imageUrl": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/accident-square.png"
             }
           },
           "sourceDescription": "www.nhtsa.gov/FARS",
@@ -109,7 +109,7 @@
         "order": 0,
         "subCategory": "1",
         "urlLegend": "../../legends/template-legend.jade",
-        "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/accident-square.png"
+        "urlPicture": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/accident-square.png"
         },
         "Crash Fatalities Heatmap": {
             "category": "1",
