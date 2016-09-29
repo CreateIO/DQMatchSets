@@ -1,4 +1,5 @@
 {
+  "$template": "infobox",
   "infoboxContent": {
     "Area_Master_Plans": {
       "referenceid": "UNIQUEID",

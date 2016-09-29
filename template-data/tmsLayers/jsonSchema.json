@@ -34,7 +34,8 @@
             "minimumLevel": { "type": "number" },
             "maximumLevel": { "type": "number" },
             "alpha": { "type": "number" },
-            "flag": { "type": "boolean" }
+            "flag": { "type": "boolean" },
+            "show": { "type": "boolean" }
           },
           "additionalProperties": false
         }

@@ -1,4 +1,5 @@
 {
+  "$template": "layerMapCode",
   "layerjson": {
     "MainBaciHospitals_Array": {
       "name": "MainBaciHospitals_Array",

@@ -28,7 +28,7 @@
             "label": { "type": "string" },
             "values": {
               "type": ["string", "null"],
-              "pattern": "(?:.*\\|)+.*"
+              "pattern": "(?:(\\w|\\s)+\\|)*(\\w|\\s)+"
             },
             "units": {
               "type": ["string", "null"],
@@ -63,7 +63,7 @@
             },
             "teaser": {
               "type": "string",
-              "enum": ["rhs.filter.all", "rhs.filter.premium", "rhs.filter.noteaser", "rhs.filter.teasePremium"]
+              "enum": ["rhs.filter.all", "rhs.filter.premium", "rhs.filter.noteaser", "rhs.filter.teasePremium", "consoleLog"]
             },
             "restrict": {
               "type": ["string", "null"],
@@ -75,8 +75,7 @@
           },
           "additionalProperties": false
         }
-      },
-      "minProperties": 1
+      }
     }
   },
   "required": [

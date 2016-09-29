@@ -1,4 +1,5 @@
 {
+  "$template": "layerMenu",
   "allTheLayers": {
     "Facilities - Hospitals": {
       "category": "7",
