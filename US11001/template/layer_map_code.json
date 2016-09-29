@@ -1882,7 +1882,34 @@
                 "applyFunction": null
             },
             "labels": {
-                "exists": false
+                 "exists": true,
+                "labelLayers": {
+                    "label1": {
+                        "name": "grocerylabels",
+                        "position": {
+                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                            "z": 40
+                        },
+                        "text": "entity.properties.Label",
+                        "font": "16px bold sans-serif",
+                        "fillColor": "Cesium.Color.BLACK",
+                        "outlineColor": "Cesium.Color.WHITE",
+                        "outlineWidth": 2,
+                        "style": "Cesium.LabelStyle.FILL",
+                        "pixelOffset": "Cesium.Cartesian2.ZERO",
+                        "eyeOffset": "Cesium.Cartesian3.ZERO",
+                        "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
+                        "verticalOrigin": "Cesium.VerticalOrigin.TOP",
+                        "translucencyByDistance": {
+                            "minElevation": 2000,
+                            "maxElevation": 5000,
+                            "minScale": 1,
+                            "maxScale": 0
+                        },
+                        "scale": 1
+                    }
+                }
             },
             "polygons": {
                 "exists": false
