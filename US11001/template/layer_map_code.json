@@ -1882,7 +1882,7 @@
                 "applyFunction": null
             },
             "labels": {
-                 "exists": true,
+                "exists": true,
                 "labelLayers": {
                     "label1": {
                         "name": "grocerylabels",
@@ -1892,9 +1892,9 @@
                             "z": 25
                         },
                         "text": "entity.properties.Label",
-                        "font": "15px sans-serif",
+                        "font": "16px sans-serif",
                         "fillColor": "Cesium.Color.BLACK",
-                        "outlineColor": "",
+                        "outlineColor": "Cesium.Color.BLACK",
                         "outlineWidth": 1,
                         "style": "Cesium.LabelStyle.FILL",
                         "pixelOffset": "Cesium.Cartesian2.ZERO",
@@ -1902,8 +1902,8 @@
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.TOP",
                         "translucencyByDistance": {
-                            "minElevation": 2000,
-                            "maxElevation": 3000,
+                            "minElevation": 3000,
+                            "maxElevation": 4000,
                             "minScale": 1,
                             "maxScale": 0
                         },
@@ -2051,9 +2051,9 @@
                             "z": 25
                         },
                         "text": "entity.properties.Label",
-                        "font": "15px sans-serif",
+                        "font": "16px sans-serif",
                         "fillColor": "Cesium.Color.BLACK",
-                        "outlineColor": "",
+                        "outlineColor": "Cesium.Color.BLACK",
                         "outlineWidth": 1,
                         "style": "Cesium.LabelStyle.FILL",
                         "pixelOffset": "Cesium.Cartesian2.ZERO",
@@ -2061,8 +2061,8 @@
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
                         "translucencyByDistance": {
-                            "minElevation": 2000,
-                            "maxElevation": 3000,
+                            "minElevation": 3000,
+                            "maxElevation": 4000,
                             "minScale": 1,
                             "maxScale": 0
                         },
@@ -3164,18 +3164,18 @@
                             "z": 25
                         },
                         "text": "entity.properties.label",
-                        "font": "15px sans-serif",
+                        "font": "16px sans-serif",
                         "fillColor": "Cesium.Color.BLACK",
-                        "outlineColor": "",
-                        "outlineWidth": 2,
+                        "outlineColor": "Cesium.Color.BLACK",
+                        "outlineWidth": 1,
                         "style": "Cesium.LabelStyle.FILL",
                         "pixelOffset": "Cesium.Cartesian2.ZERO",
                         "eyeOffset": "Cesium.Cartesian3.ZERO",
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
                         "translucencyByDistance": {
-                            "minElevation": 2000,
-                            "maxElevation": 3000,
+                            "minElevation": 3000,
+                            "maxElevation": 4000,
                             "minScale": 1,
                             "maxScale": 0
                         },
