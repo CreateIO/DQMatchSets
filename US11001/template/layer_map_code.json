@@ -1889,7 +1889,7 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 25
+                            "z": 30
                         },
                         "text": "entity.properties.Label",
                         "font": "16px sans-serif",
@@ -2048,7 +2048,7 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 25
+                            "z": 30
                         },
                         "text": "entity.properties.Label",
                         "font": "16px sans-serif",
@@ -3161,7 +3161,7 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 25
+                            "z": 30
                         },
                         "text": "entity.properties.label",
                         "font": "16px sans-serif",
