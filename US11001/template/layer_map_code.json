@@ -1348,7 +1348,7 @@
                             "z": 5
                         },
                         "NearFarScalar": {
-                            "minElevation": 500,
+                            "minElevation": 1000,
                             "maxElevation": 100000,
                             "minScale": 0.7,
                             "maxScale": 0
@@ -3327,17 +3327,17 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "wdcepneighborhoodsBB",
-                        "url": "../../geoJSON/layerIcons/circle-wdcep.png",
+                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-wdcep.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
                             "z": 5
                         },
                         "NearFarScalar": {
-                            "minElevation": 2000,
-                            "maxElevation": 25000,
-                            "minScale": 1,
-                            "maxScale": 0.15
+                            "minElevation": 1000,
+                            "maxElevation": 100000,
+                            "minScale": 0.7,
+                            "maxScale": 0
                         }
                     }
                 }
