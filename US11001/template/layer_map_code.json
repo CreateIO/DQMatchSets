@@ -4127,6 +4127,44 @@
                 }
             }
         },
+        "dc_MetroRailLines": {
+            "name": "dc_DOT_VisionZeroSafetyData",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_MetroRailLines",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_MetroRailLines@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.37,
+                    "yMin": 38.76,
+                    "xMax": -76.82,
+                    "yMax": 39.13
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
         "2013-2015-accidents": {
           "name": "2013-2015-accidents",
           "removeName": "2013to2015AccidentData.geojson",
