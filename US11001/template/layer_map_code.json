@@ -1889,10 +1889,10 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 14
+                            "z": 20
                         },
                         "text": "entity.properties.Label",
-                        "font": "16px sans-serif",
+                        "font": "16px bold-sans-serif",
                         "fillColor": "Cesium.Color.BLACK",
                         "outlineColor": "Cesium.Color.WHITE",
                         "outlineWidth": 0,
