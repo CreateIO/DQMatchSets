@@ -1429,12 +1429,12 @@
                     "item3": {
                         "boxDescription": "Station Entrances",
                         "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metroEntrance.png"
+                        "imageUrl": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-metroEntrance.png"
                     },
                     "item4": {
                         "boxDescription": "Stations",
                         "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metroStation.png"
+                        "imageUrl": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/metroStation.png"
                     }
                 },
                 "sourceDescription": "DCGIS",
