@@ -1902,9 +1902,9 @@
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.TOP",
                         "translucencyByDistance": {
-                            "minElevation": 3000,
-                            "maxElevation": 4000,
-                            "minScale": 2,
+                            "minElevation": 2000,
+                            "maxElevation": 3000,
+                            "minScale": 1,
                             "maxScale": 0
                         },
                         "scale": 1
@@ -2061,9 +2061,9 @@
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
                         "translucencyByDistance": {
-                            "minElevation": 3000,
-                            "maxElevation": 4000,
-                            "minScale": 2,
+                            "minElevation": 2000,
+                            "maxElevation": 3000,
+                            "minScale": 1,
                             "maxScale": 0
                         },
                         "scale": 1
@@ -3167,15 +3167,15 @@
                         "font": "16px sans-serif",
                         "fillColor": "Cesium.Color.BLACK",
                         "outlineColor": "Cesium.Color.BLACK",
-                        "outlineWidth": 1,
+                        "outlineWidth": 2,
                         "style": "Cesium.LabelStyle.FILL",
                         "pixelOffset": "Cesium.Cartesian2.ZERO",
                         "eyeOffset": "Cesium.Cartesian3.ZERO",
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
                         "translucencyByDistance": {
-                            "minElevation": 3000,
-                            "maxElevation": 4000,
+                            "minElevation": 2000,
+                            "maxElevation": 3000,
                             "minScale": 1,
                             "maxScale": 0
                         },
