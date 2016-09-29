@@ -1922,7 +1922,7 @@
                             "z": 5
                         },
                         "NearFarScalar": {
-                            "minElevation": 500,
+                            "minElevation": 5000,
                             "maxElevation": 50000,
                             "minScale": 0.7,
                             "maxScale": 0
@@ -4162,9 +4162,9 @@
                   "z": 5
                 },
                 "NearFarScalar": {
-                "minElevation": 2000,
-                "maxElevation": 100000,
-                "minScale": 0.8,
+                "minElevation": 5000,
+                "maxElevation": 50000,
+                "minScale": 0.7,
                 "maxScale": 0
                 }
               }
