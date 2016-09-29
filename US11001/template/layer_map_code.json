@@ -1889,11 +1889,11 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 30
+                            "z": 40
                         },
                         "text": "entity.properties.Label",
                         "font": "16px sans-serif",
-                        "fillColor": "Cesium.Color.BLACK",
+                        "fillColor": "Cesium.Color.WHITE",
                         "outlineColor": "Cesium.Color.BLACK",
                         "outlineWidth": 1,
                         "style": "Cesium.LabelStyle.FILL",
@@ -1902,8 +1902,8 @@
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.TOP",
                         "translucencyByDistance": {
-                            "minElevation": 1000,
-                            "maxElevation": 2000,
+                            "minElevation": 3000,
+                            "maxElevation": 4000,
                             "minScale": 1,
                             "maxScale": 0
                         },
@@ -2048,11 +2048,11 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 30
+                            "z": 40
                         },
                         "text": "entity.properties.Label",
                         "font": "16px sans-serif",
-                        "fillColor": "Cesium.Color.BLACK",
+                        "fillColor": "Cesium.Color.WHITE",
                         "outlineColor": "Cesium.Color.BLACK",
                         "outlineWidth": 1,
                         "style": "Cesium.LabelStyle.FILL",
@@ -2061,8 +2061,8 @@
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
                         "translucencyByDistance": {
-                            "minElevation": 1000,
-                            "maxElevation": 2000,
+                            "minElevation": 3000,
+                            "maxElevation": 4000,
                             "minScale": 1,
                             "maxScale": 0
                         },
@@ -3161,12 +3161,12 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 30
+                            "z": 40
                         },
                         "text": "entity.properties.label",
                         "font": "16px sans-serif",
-                        "fillColor": "Cesium.Color.BLACK",
-                        "outlineColor": "Cesium.Color.WHITESMOKE",
+                        "fillColor": "Cesium.Color.WHITE",
+                        "outlineColor": "Cesium.Color.BLACK",
                         "outlineWidth": 1,
                         "style": "Cesium.LabelStyle.FILL",
                         "pixelOffset": "Cesium.Cartesian2.ZERO",
@@ -3174,8 +3174,8 @@
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
                         "translucencyByDistance": {
-                            "minElevation": 1000,
-                            "maxElevation": 2000,
+                            "minElevation": 3000,
+                            "maxElevation": 4000,
                             "minScale": 1,
                             "maxScale": 0
                         },
