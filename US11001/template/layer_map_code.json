@@ -1892,7 +1892,7 @@
                             "z": 25
                         },
                         "text": "entity.properties.Label",
-                        "font": "14px sans-serif",
+                        "font": "15px sans-serif",
                         "fillColor": "Cesium.Color.BLACK",
                         "outlineColor": "",
                         "outlineWidth": 1,
@@ -1902,8 +1902,8 @@
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.TOP",
                         "translucencyByDistance": {
-                            "minElevation": 500,
-                            "maxElevation": 1000,
+                            "minElevation": 3000,
+                            "maxElevation": 3000,
                             "minScale": 1,
                             "maxScale": 0
                         },
@@ -2051,7 +2051,7 @@
                             "z": 25
                         },
                         "text": "entity.properties.Label",
-                        "font": "14px sans-serif",
+                        "font": "15px sans-serif",
                         "fillColor": "Cesium.Color.BLACK",
                         "outlineColor": "",
                         "outlineWidth": 1,
@@ -2062,7 +2062,7 @@
                         "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
                         "translucencyByDistance": {
                             "minElevation": 500,
-                            "maxElevation": 1000,
+                            "maxElevation": 3000,
                             "minScale": 1,
                             "maxScale": 0
                         },
@@ -3164,7 +3164,7 @@
                             "z": 25
                         },
                         "text": "entity.properties.label",
-                        "font": "14px sans-serif",
+                        "font": "15px sans-serif",
                         "fillColor": "Cesium.Color.BLACK",
                         "outlineColor": "",
                         "outlineWidth": 2,
