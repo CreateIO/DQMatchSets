@@ -1892,9 +1892,9 @@
                             "z": 20
                         },
                         "text": "entity.properties.Label",
-                        "font": "16px bold-sans-serif",
+                        "font": "16px sans-serif",
                         "fillColor": "Cesium.Color.BLACK",
-                        "outlineColor": "Cesium.Color.WHITE",
+                        "outlineColor": "Cesium.Color.BLACK",
                         "outlineWidth": 0,
                         "style": "Cesium.LabelStyle.FILL",
                         "pixelOffset": "Cesium.Cartesian2.ZERO",
