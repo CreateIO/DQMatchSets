@@ -1410,34 +1410,34 @@
                 "listItemsLeft": {
                     "item1": {
                         "boxDescription": "Red Line",
-                        "boxStyle": "background:#DE3B38;",
+                        "boxStyle": "background:#D41542;",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "Yellow Line",
-                        "boxStyle": "background:#FFDF01;",
+                        "boxStyle": "background:#F8d515;",
                         "imageUrl": null
                     },
                     "item3": {
                         "boxDescription": "Green Line",
-                        "boxStyle": "background:#2C5E51;",
+                        "boxStyle": "background:#00b041;",
                         "imageUrl": null
                     },
                     "item4": {
                         "boxDescription": "Blue Line",
-                        "boxStyle": "background:#273B74;",
+                        "boxStyle": "background:#0a92d2;",
                         "imageUrl": null
                     }
                 },
                 "listItemsRight": {
                     "item1": {
                         "boxDescription": "Orange Line",
-                        "boxStyle": "background:#ED7D42;",
+                        "boxStyle": "background:#ec930e;",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "Silver Line",
-                        "boxStyle": "background:#D0CFD4;",
+                        "boxStyle": "background:#9fa5a3;",
                         "imageUrl": null
                     },
                     "item3": {
