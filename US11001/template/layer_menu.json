@@ -1347,14 +1347,22 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_MetroRailLines"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                    "func2": {
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "metroRailAndStations"
+                            "param2": "metroStations"
                         },
                         "service": "mapOverlayService"
                     },
-                    "func2": {
+                    "func3": {
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
@@ -1370,14 +1378,21 @@
                 },
                 "removeFunctions": {
                     "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_MetroRailLines"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "metroRailAndStations"
+                            "param2": "metroStations"
                         },
                         "service": "mapOverlayService"
                     },
-                    "func2": {
+                    "func3": {
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
