@@ -1,4 +1,5 @@
 {
+  "$template": "theme",
   "group_name": "Create, Inc",
   "entry": "http://www.create.io",
   "init": {

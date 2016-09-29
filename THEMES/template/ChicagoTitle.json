@@ -1,4 +1,5 @@
 {
+  "$template": "theme",
   "group_name": "Chicago Title Insurance Company",
   "entry": "http://dcncs.ctic.com/",
   "init": {

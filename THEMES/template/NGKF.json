@@ -1,4 +1,5 @@
 {
+  "$template": "theme",
   "group_name": "Newmark Grubb Knight Frank",
   "entry": "http://www.ngkf.com/",
   "init": {

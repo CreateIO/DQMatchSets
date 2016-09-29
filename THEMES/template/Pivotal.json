@@ -1,4 +1,5 @@
 {
+  "$template": "theme",
   "group_name": "Array Pivotal Product",
   "entry": "http://pivotal.create.io",
   "init": {
