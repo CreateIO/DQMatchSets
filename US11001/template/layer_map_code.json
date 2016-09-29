@@ -981,7 +981,6 @@
             "polygons": {
                 "exists": false
             },
-            },
             "tms": {
                 "tmsLayerName": "dc_MetroRailLines",
                 "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_MetroRailLines@EPSG:900913@png",

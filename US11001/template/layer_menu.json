@@ -1448,62 +1448,6 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/MET.png"
         },
-       "Metro Rail Lines": {
-            "category": "6",
-            "denyList": {
-                "denyList1": null
-            },
-            "denyToggle": false,
-            "displayName": "",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "dc_MetroRailLines"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'DC Data: Metro Rail Lines'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "dc_MetroRailLines"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 6,
-            "isActive": false,
-            "layerUsed": true,
-            "legendContents": {
-                "description": "Click icons for more details.<br><br>The Vision Zero Safety data comes from a web-based application developed to allow the public to communicate the real and perceived dangers along the roadway from the perspective of either a pedestrian, bicyclist or motorist.",
-                "listItems": {
-                    "item1": {
-                        "boxDescription": "Crosswalk & pedestrian safety comments.",
-                        "boxStyle": "background:#9dd9a6; border-radius: 15px; border: 1px solid #c7e8cc",
-                        "imageUrl": null
-                    }
-                },
-                "sourceDescription": "DC Open Data",
-                "sourceURL": "http://opendata.dc.gov/",
-                "type": "singleColumn"
-            },
-            "menuSection": "CityInfo1",
-            "mouseoverName": "Metro Rail Lines",
-            "order": 1,
-            "subCategory": "3",
-            "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/VZ.png"
-        },
         "Movie Theatres (WDCEP)": {
             "category": "2",
             "colors": {
