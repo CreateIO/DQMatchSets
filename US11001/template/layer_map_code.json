@@ -2051,7 +2051,7 @@
                             "z": 25
                         },
                         "text": "entity.properties.Label",
-                        "font": "16px sans-serif",
+                        "font": "bold 16px sans-serif",
                         "fillColor": "Cesium.Color.BLACK",
                         "outlineColor": "Cesium.Color.BLACK",
                         "outlineWidth": 1,
