@@ -787,7 +787,7 @@
             "order": 3,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/GS.png"
+            "urlPicture": "http://s3.amazonaws.com/models-dc/images/circle-grocery.png"
         },
         "HUBs": {
             "category": "4",
@@ -1530,7 +1530,7 @@
             "order": 5,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/MOV.png"
+            "urlPicture": "http://s3.amazonaws.com/models-dc/images/circle-theaters.png"
         },
         "NCI": {
             "category": "4",
@@ -2168,7 +2168,7 @@
             "order": 4,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/images/PH.png"
+            "urlPicture": "http://s3.amazonaws.com/models-dc/images/circle-pharmacy.png"
         },
         "Planned Unit Development": {
             "category": "1",
