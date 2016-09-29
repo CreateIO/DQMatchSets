@@ -1312,7 +1312,7 @@
                     "item1": {
                         "boxDescription": "Metro Bus Stops.",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/bus.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-bus-green.png"
                     }
                 },
                 "sourceDescription": "WMATA",
