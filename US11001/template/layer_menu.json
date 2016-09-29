@@ -775,7 +775,7 @@
                     "item1": {
                         "boxDescription": "Grocery Store Locations.",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/GS.png"
+                        "imageUrl": "http://s3.amazonaws.com/models-dc/images/circle-grocery.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -1518,7 +1518,7 @@
                     "item1": {
                         "boxDescription": "Movie Theatre Locations.",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/MOV.png"
+                        "imageUrl": "http://s3.amazonaws.com/models-dc/images/circle-theaters.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -2156,7 +2156,7 @@
                     "item1": {
                         "boxDescription": "Pharmacy Locations.",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/images/PH.png"
+                        "imageUrl": "http://s3.amazonaws.com/models-dc/images/circle-pharmacy.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
