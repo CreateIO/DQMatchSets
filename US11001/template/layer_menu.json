@@ -1406,7 +1406,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "(click for more info)<br><br>DC METRO rail lines & stations.",
+                "description": "(Click icons for more info.)<br><br>DC METRO rail lines, stations & station entrances.",
                 "listItemsLeft": {
                     "item1": {
                         "boxDescription": "Red Line",
