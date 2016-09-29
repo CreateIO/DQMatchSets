@@ -1,0 +1,26 @@
+{
+  "ui:field": "container",
+  "ui:options": {
+    "key": ["inclusionaryZoning"]
+  },
+  "inclusionaryZoning": {
+    "ui:field": "container",
+    "ui:options": {
+      "key": ["IZtable", "IZExclude", "IZDesc"]
+    },
+    "IZtable": {
+      "ui:field": "cardList",
+      "ui:options": {
+        "name": "zone",
+        "id": "zone"
+      }
+    },
+    "IZExclude": {
+      "ui:field": "cardList",
+      "ui:options": {
+        "name": "exclusion",
+        "id": ["overlayDist", "zoningDist", "histDist"]
+      }
+    }
+  }
+}

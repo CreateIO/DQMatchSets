@@ -1,0 +1,76 @@
+{
+  "type": "object",
+  "properties": {
+    "inclusionaryZoning": {
+      "type": "object",
+      "properties": {
+        "IZtable": { "$ref": "#/definitions/IZtable" },
+        "IZExclude": { "$ref": "#/definitions/IZExclude" },
+        "IZDesc": { "$ref": "#/definitions/IZDesc" }
+      },
+      "required": [
+        "IZtable",
+        "IZExclude",
+        "IZDesc"
+      ]
+    }
+  },
+  "required": [
+    "inclusionaryZoning"
+  ],
+  "definitions": {
+    "IZtable": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "zone": { "type": "string" },
+          "bonusDens": {
+            "type": "string",
+            "pattern": "\\d+%"
+          },
+          "lotOcc": {
+            "type": "string",
+            "pattern": "\\d+%"
+          },
+          "height": { "type": "number" },
+          "mod": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "modZoneDesc": { "type": "string" },
+                "modMinLotAreaIZ": { "type": "number" },
+                "modMinLotWidthIZ": { "type": "number" },
+                "modMinLotWidthIZSE": { "type": "number" }
+              }
+            }
+          }
+        },
+        "required": [
+          "zone",
+          "bonusDens"
+        ]
+      }
+    },
+    "IZExclude": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "overlayDist": { "type": "string" },
+          "zoningDist": { "type": "string" },
+          "histDist": { "type": "string" }
+        }
+      }
+    },
+    "IZDesc": {
+      "type": "object",
+      "properties": {
+        "description": { "type": "string" },
+        "applicTo": { "type": "string" },
+        "notApplicTo": { "type": "string" }
+      }
+    }
+  }
+}
