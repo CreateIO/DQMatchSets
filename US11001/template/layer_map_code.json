@@ -958,7 +958,7 @@
                             "z": 5
                         },
                         "NearFarScalar": {
-                            "minElevation": 500,
+                            "minElevation": 1000,
                             "maxElevation": 100000,
                             "minScale": 0.7,
                             "maxScale": 0
@@ -1010,9 +1010,9 @@
                             "z": 5
                         },
                         "NearFarScalar": {
-                            "minElevation": 500,
+                            "minElevation": 1000,
                             "maxElevation": 100000,
-                            "minScale": 0.6,
+                            "minScale": 0.5,
                             "maxScale": 0
                         }
                     }
@@ -1049,9 +1049,9 @@
                             "z": 5
                         },
                             "NearFarScalar": {
-                            "minElevation": 500,
+                            "minElevation": 1000,
                             "maxElevation": 100000,
-                            "minScale": 0.6,
+                            "minScale": 0.7,
                             "maxScale": 0
                         }
                     }
