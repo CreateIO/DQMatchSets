@@ -1904,7 +1904,7 @@
                         "translucencyByDistance": {
                             "minElevation": 3000,
                             "maxElevation": 4000,
-                            "minScale": 1,
+                            "minScale": 2,
                             "maxScale": 0
                         },
                         "scale": 1
@@ -2051,7 +2051,7 @@
                             "z": 25
                         },
                         "text": "entity.properties.Label",
-                        "font": "bold 16px sans-serif",
+                        "font": "16px sans-serif",
                         "fillColor": "Cesium.Color.BLACK",
                         "outlineColor": "Cesium.Color.BLACK",
                         "outlineWidth": 1,
@@ -2063,7 +2063,7 @@
                         "translucencyByDistance": {
                             "minElevation": 3000,
                             "maxElevation": 4000,
-                            "minScale": 1,
+                            "minScale": 2,
                             "maxScale": 0
                         },
                         "scale": 1
