@@ -1352,8 +1352,7 @@
                             "param1": "dc_MetroRailLines"
                         },
                         "service": "tileMapServiceService"
-                    }
-                },
+                    },
                     "func2": {
                         "functionName": "addLayer",
                         "parameters": {
@@ -1380,7 +1379,7 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "dc_MetroRailLines"
+                        "param1": "dc_MetroRailLines"
                         },
                         "service": "tileMapServiceService"
                     },
