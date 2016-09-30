@@ -3228,7 +3228,7 @@
         },
  
 
-        "Crash Reports by Accident Type": {
+        "AND & SMD Neighborhood Districts": {
             "category": "6",
             "denyList": {
                 "denyList1": null
@@ -3247,7 +3247,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'DC Data: Advisory Neighborhood Commisions (ANC) & Single Member Districts (SMD)'"
+                        "param1": "'DC Data: Advisory Neighborhood Commissions (ANC) & Single Member Districts (SMD)'"
                     }
                 },
                 "removeFunctions": {
@@ -3283,11 +3283,11 @@
                 "type": "singleColumn"
             },
             "menuSection": "CityInfo1",
-            "mouseoverName": "2015 DC Crash Reports",
+            "mouseoverName": "AND & SMD",
             "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/CR.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/ANC.png"
         },
 
 

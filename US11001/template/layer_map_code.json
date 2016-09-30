@@ -1330,7 +1330,7 @@
                 "exists": false
             },
             "tms": {
-                "tmsLayerName": "dANCnSMD",
+                "tmsLayerName": "ANCnSMD",
                 "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:ANCnSMD@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
