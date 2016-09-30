@@ -775,7 +775,7 @@
                     "item1": {
                         "boxDescription": "Grocery Store Locations.",
                         "boxStyle": "",
-                        "imageUrl": "http://s3.amazonaws.com/models-dc/images/circle-grocery.png"
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/images/icon-circle-grocery.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -787,7 +787,7 @@
             "order": 3,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "http://s3.amazonaws.com/models-dc/images/circle-grocery.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/images/icon-circle-grocery.png"
         },
         "HUBs": {
             "category": "4",
@@ -1312,7 +1312,7 @@
                     "item1": {
                         "boxDescription": "Metro Bus Stops.",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/bus.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-bus-green.png"
                     }
                 },
                 "sourceDescription": "WMATA",
@@ -1443,12 +1443,12 @@
                     "item3": {
                         "boxDescription": "Station Entrances",
                         "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
-                        "imageUrl": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-metroEntrance.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-metroEntrance.png"
                     },
                     "item4": {
                         "boxDescription": "Stations",
                         "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
-                        "imageUrl": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/metroStation.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-metroStation.png"
                     }
                 },
                 "sourceDescription": "DCGIS",
@@ -1518,7 +1518,7 @@
                     "item1": {
                         "boxDescription": "Movie Theatre Locations.",
                         "boxStyle": "",
-                        "imageUrl": "http://s3.amazonaws.com/models-dc/images/circle-theaters.png"
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/images/icon-circle-theaters.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -1530,7 +1530,7 @@
             "order": 5,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "http://s3.amazonaws.com/models-dc/images/circle-theaters.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/images/icon-circle-theaters.png"
         },
         "NCI": {
             "category": "4",
@@ -1671,7 +1671,7 @@
                     "item1": {
                         "boxDescription": "WDCEP Neighborhoods.",
                         "boxStyle": "",
-                        "imageUrl": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-wdcep.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-circle-wdcep.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -2156,7 +2156,7 @@
                     "item1": {
                         "boxDescription": "Pharmacy Locations.",
                         "boxStyle": "",
-                        "imageUrl": "http://s3.amazonaws.com/models-dc/images/circle-pharmacy.png"
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/images/icon-circle-pharmacy.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -2168,7 +2168,7 @@
             "order": 4,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "http://s3.amazonaws.com/models-dc/images/circle-pharmacy.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/images/icon-circle-pharmacy.png"
         },
         "Planned Unit Development": {
             "category": "1",
@@ -3288,7 +3288,7 @@
                     "item3": {
                         "boxDescription": "Click for more info on SMD & ANC.",
                         "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
-                        "imageUrl": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/smd.pngbus"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-smd.png"
                     }
                 },
                 "sourceDescription": "ANC DC",
@@ -3453,6 +3453,58 @@
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/TDR.png"
+        },
+        "Trepp Data": {
+            "category": "3",
+            "colors": {
+                "hex": {
+                    "hex1": "#EDAE39"
+                },
+                "type": "single"
+            },
+            "denyList": {
+                "denyList1": null
+            },
+            "permissions": "trepp",
+            "denyToggle": false,
+            "displayName": "Trepp",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "treppData"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Data: Trepp Data'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "treppData"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 25,
+            "isActive": false,
+            "layerUsed": true,
+            "menuSection": "Development1",
+            "mouseoverName": "Trepp Data",
+            "order": 2,
+            "subCategory": "1",
+            "urlLegend": "../../legends/layerLegendTrepp.jade",
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/trepp.png"
         },
         "WDCEP - 711": {
             "category": "5",
@@ -3795,7 +3847,7 @@
                     "item1": {
                         "boxDescription": "WDCEP Bookmarks",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-wdcep.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-circle-wdcep.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -3807,7 +3859,7 @@
             "order": 1,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-wdcep.png"
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-circle-wdcep.png"
         },
         "WDCEP Development Site Plans": {
             "category": "3",

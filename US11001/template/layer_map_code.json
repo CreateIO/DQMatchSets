@@ -1028,7 +1028,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "stationbillboards",
-                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-metroEntrance.png",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/metroEntrance.png",
                         "position": {
                             "x": "entity._properties.X",
                             "y": "entity._properties.Y",
@@ -1067,7 +1067,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "metroBusBB",
-                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-bus-green.png",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/bus-green.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -1366,7 +1366,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "SMD",
-                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/smd.png",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/smd.png",
                         "position": {
                             "x": "entity._properties.X",
                             "y": "entity._properties.Y",
@@ -1923,7 +1923,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "grocerybillboards",
-                        "url": "http://s3.amazonaws.com/models-dc/images/circle-grocery.png",
+                        "url": "https://s3.amazonaws.com/models-dc/images/circle-grocery.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -1967,7 +1967,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "subwaybillboards",
-                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-subway.png",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-subway.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -2011,7 +2011,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "potbellybillboards",
-                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-potbelly.png",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-potbelly.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -2082,7 +2082,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "moviebillboards",
-                        "url": "http://s3.amazonaws.com/models-dc/images/circle-theaters.png",
+                        "url": "https://s3.amazonaws.com/models-dc/images/circle-theaters.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -2483,7 +2483,7 @@
                         "type": "custom",
                         "name": "gwbillboards",
                         "if": "entity.properties.HOSP_NAME == 'George Washington University Hospital'",
-                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/billboard-gw.png",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/billboard-gw.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -2579,7 +2579,7 @@
                         "type": "custom",
                         "name": "chipotlebillboards",
                         "if": "entity.properties.label == 'Chipotle Mexican Grill'",
-                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-chipotle.png",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-chipotle.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -2596,7 +2596,7 @@
                         "type": "custom",
                         "name": "shophousebillboards",
                         "if": "entity.properties.label == 'Shophouse Southeast Asian Kitchen'",
-                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-shophouse.png",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-shophouse.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -2992,7 +2992,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "resComBubbleBB",
-                        "url": "http://s3.amazonaws.com/models-dc/images/icon-residential-circle.png",
+                        "url": "https://s3.amazonaws.com/models-dc/images/residential-circle.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -3036,7 +3036,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "resPipeBubbleBB",
-                        "url": "http://s3.amazonaws.com/models-dc/images/icon-residential-circle.png",
+                        "url": "https://s3.amazonaws.com/models-dc/images/residential-circle.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -3080,7 +3080,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "retailComBubbleBB",
-                        "url": "http://s3.amazonaws.com/models-dc/images/icon-retail-circle.png",
+                        "url": "https://s3.amazonaws.com/models-dc/images/retail-circle.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -3124,7 +3124,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "retailPipeBubbleBB",
-                        "url": "http://s3.amazonaws.com/models-dc/images/icon-retail-circle.png",
+                        "url": "https://s3.amazonaws.com/models-dc/images/retail-circle.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -3195,7 +3195,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "pharmacyBB",
-                        "url": "http://s3.amazonaws.com/models-dc/images/circle-pharmacy.png",
+                        "url": "https://s3.amazonaws.com/models-dc/images/circle-pharmacy.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -3239,7 +3239,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "wdcep711BB",
-                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-7-11.png",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-7-11.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -3283,7 +3283,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "wdcepbookmarksBB",
-                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-wdcep.png",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-wdcep.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -3309,7 +3309,7 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "retail_marketable_data",
-                "folder": "http://s3.amazonaws.com/models-dc/WDCEP/",
+                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/",
                 "applyFunction": null
             },
             "labels": {
@@ -3388,7 +3388,7 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "wdcep_neighborhoods_data",
-                "folder": "http://s3.amazonaws.com/models-dc/WDCEP/",
+                "folder": "https://s3.amazonaws.com/models-dc/WDCEP/",
                 "applyFunction": null
             },
             "labels": {
@@ -3433,7 +3433,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "wdcepneighborhoodsBB",
-                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-wdcep.png",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-wdcep.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -3909,6 +3909,50 @@
                 "exists": false
             }
         },
+        "treppData": {
+            "name": "treppData",
+            "removeName": "trepp.geojson",
+            "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/trepp.geojson",
+            "cartographic": true,
+            "id": {
+                "exists": true,
+                "objClass": "UserInfo",
+                "id": "entity.properties.UNIQUEID",
+                "name": "trepp",
+                "folder": "https://s3.amazonaws.com/models-dc/geoJSON/prod/",
+                "applyFunction": "test"
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": true,
+                "billboardLayers": {
+                    "billboard1": {
+                        "type": "custom",
+                        "name": "treppBB",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/trepp.png",
+                        "position": {
+                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
+                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
+                            "z": 5
+                        },
+                        "NearFarScalar": {
+                            "minElevation": 1000,
+                            "maxElevation": 100000,
+                            "minScale": 0.7,
+                            "maxScale": 0
+                        }
+                    }
+                }
+            }
+        },
         "taxAbatement": {
             "name": "taxAbatement",
             "removeName": "nonprofitAbatement.geojson",
@@ -4155,7 +4199,7 @@
                 "objClass": "UserInfo",
                 "id": "entity.properties.UNIQUEID",
                 "name": "gsaDataFields",
-                "folder": "http://s3.amazonaws.com/models-dc/geoJSON/prod/infobox/",
+                "folder": "https://s3.amazonaws.com/models-dc/geoJSON/prod/infobox/",
                 "applyFunction": null
             },
             "labels": {
@@ -4217,7 +4261,7 @@
               "billboard1": {
                 "type": "custom",
                 "name": "2013-2015-accidents",
-                "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-accident-car.png",
+                "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/accident-car.png",
                 "position": {
                   "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                   "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
