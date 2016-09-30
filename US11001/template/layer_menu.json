@@ -3454,58 +3454,6 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/TDR.png"
         },
-        "Trepp Data": {
-            "category": "3",
-            "colors": {
-                "hex": {
-                    "hex1": "#EDAE39"
-                },
-                "type": "single"
-            },
-            "denyList": {
-                "denyList1": null
-            },
-            "permissions": "trepp",
-            "denyToggle": false,
-            "displayName": "Trepp",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": ""
-                        },
-                        "service": "mapOverlayService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Data: Trepp Data'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": ""
-                        },
-                        "service": "mapOverlayService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 25,
-            "isActive": false,
-            "layerUsed": true,
-            "menuSection": "",
-            "mouseoverName": "Trepp Data",
-            "order": 2,
-            "subCategory": "1",
-            "urlLegend": "../../legends/layerLegendTrepp.jade",
-            "urlPicture": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/trepp.png"
-        },
         "WDCEP - 711": {
             "category": "5",
             "colors": {

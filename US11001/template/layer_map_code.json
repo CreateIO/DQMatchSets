@@ -3909,50 +3909,6 @@
                 "exists": false
             }
         },
-        "treppData": {
-            "name": "treppData",
-            "removeName": "trepp.geojson",
-            "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/trepp.geojson",
-            "cartographic": true,
-            "id": {
-                "exists": true,
-                "objClass": "UserInfo",
-                "id": "entity.properties.UNIQUEID",
-                "name": "trepp",
-                "folder": "http://s3.amazonaws.com/models-dc/geoJSON/prod/",
-                "applyFunction": "test"
-            },
-            "labels": {
-                "exists": false
-            },
-            "polygons": {
-                "exists": false
-            },
-            "rasters": {
-                "exists": false
-            },
-            "billboards": {
-                "exists": true,
-                "billboardLayers": {
-                    "billboard1": {
-                        "type": "custom",
-                        "name": "treppBB",
-                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/trepp.png",
-                        "position": {
-                            "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
-                            "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 5
-                        },
-                        "NearFarScalar": {
-                            "minElevation": 1000,
-                            "maxElevation": 100000,
-                            "minScale": 0.7,
-                            "maxScale": 0
-                        }
-                    }
-                }
-            }
-        },
         "taxAbatement": {
             "name": "taxAbatement",
             "removeName": "nonprofitAbatement.geojson",
