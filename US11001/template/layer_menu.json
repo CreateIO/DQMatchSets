@@ -3474,7 +3474,7 @@
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "treppData"
+                            "param2": ""
                         },
                         "service": "mapOverlayService"
                     }
@@ -3489,7 +3489,7 @@
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "treppData"
+                            "param2": ""
                         },
                         "service": "mapOverlayService"
                     }
@@ -3499,7 +3499,7 @@
             "id": 25,
             "isActive": false,
             "layerUsed": true,
-            "menuSection": "Development1",
+            "menuSection": "",
             "mouseoverName": "Trepp Data",
             "order": 2,
             "subCategory": "1",
