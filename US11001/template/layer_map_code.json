@@ -3283,7 +3283,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "wdcepbookmarksBB",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-wdcep.png",
+                        "url": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/map-wdcep-bookmark.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
@@ -3433,7 +3433,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "wdcepneighborhoodsBB",
-                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/circle-wdcep.png",
+                        "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/map-wdcep-neighborhood.png",
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",

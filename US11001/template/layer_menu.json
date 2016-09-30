@@ -1647,7 +1647,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Data: WDCEP: neighborhoods'"
+                        "param1": "'Data: WDCEP: Neighborhoods'"
                     }
                 },
                 "removeFunctions": {
@@ -1671,7 +1671,7 @@
                     "item1": {
                         "boxDescription": "WDCEP Neighborhoods.",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-circle-wdcep.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/menu-wdcep-neighborhood.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -3795,7 +3795,7 @@
                     "item1": {
                         "boxDescription": "WDCEP Bookmarks",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-circle-wdcep.png"
+                        "imageUrl": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/menu-wdcep-bookmark.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -3807,7 +3807,7 @@
             "order": 1,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-circle-wdcep.png"
+            "urlPicture": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/menu-wdcep-bookmark.png"
         },
         "WDCEP Development Site Plans": {
             "category": "3",
