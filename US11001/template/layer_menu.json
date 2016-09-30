@@ -3226,6 +3226,72 @@
             "urlLegend": "../../legends/layerRetailPip.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/RetP.png"
         },
+ 
+
+        "Crash Reports by Accident Type": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Crash Reports by Accident Type",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ANCnSMD"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'DC Data: Advisory Neighborhood Commisions (ANC) & Single Member Districts (SMD)'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ANCnSMD"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click icons for more details.<br><br>Advisory Neighborhood Commissions (ANCs) are collections of Single Member Districts (SMDs). ANCs allow input from an advisory board made up of the residents of the neighborhoods directly affected by government action.<br><br>Single Member Districts (SMDs) were created pursuant to legislation approving the District of Columbia's 'Home Rule' charter in 1973. ",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Advisory Neighborhood Commisions (ANC)",
+                        "boxStyle": "background:#ffffff; border-radius: 15px; border: 1px solid #790035",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Single Member Districts (SMD)",
+                        "boxStyle": "background:#6bbed0; border-radius: 15px; border: 1px solid #6bbed0",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "DC Open Data",
+                "sourceURL": "http://opendata.dc.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "CityInfo1",
+            "mouseoverName": "2015 DC Crash Reports",
+            "order": 1,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/CR.png"
+        },
+
+
+
         "Single Member Districts": {
             "category": "2",
             "colors": {

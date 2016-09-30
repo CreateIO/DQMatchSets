@@ -1313,6 +1313,49 @@
                 "exists": false
             }
         },
+
+
+        "ANCnSMD": {
+            "name": "ANCnSMD",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dANCnSMD",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:ANCnSMD@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.17,
+                    "yMin": 38.79,
+                    "xMax": -76.86,
+                    "yMax": 39.00
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+
+
+
         "SMD": {
             "name": "SMD",
             "removeName": "SMD-ANC.geojson",
