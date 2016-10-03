@@ -3263,7 +3263,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click icons for more details.<br><br>Advisory Neighborhood Commissions (ANCs) are collections of Single Member Districts (SMDs). ANCs allow input from an advisory board made up of the residents of the neighborhoods directly affected by government action.<br><br>Single Member Districts (SMDs) were created pursuant to legislation approving the District of Columbia's 'Home Rule' charter in 1973. ",
+                "description": "Click SMD polygons for more details.<br><br>Advisory Neighborhood Commissions (ANCs) are collections of Single Member Districts (SMDs). ANCs allow input from an advisory board made up of the residents of the neighborhoods directly affected by government action.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Advisory Neighborhood Commisions (ANC)",
@@ -3285,7 +3285,7 @@
             "order": 7,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/ANC.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/ANC.png"
         },
         "Single Member Districts": {
             "category": "2",
