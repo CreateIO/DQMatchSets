@@ -1068,7 +1068,7 @@
                 "field2":{
                     "value":"WEB_URL",
                     "display":"URL: ",
-                    "fieldtype":"text",
+                    "fieldtype":"url",
                     "units":null
                 },
                 "field3":{
