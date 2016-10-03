@@ -1092,7 +1092,7 @@
                 "field6":{
                     "value":"EMAIL",
                     "display":"Email: ",
-                    "fieldtype":"text",
+                    "fieldtype":"email",
                     "units":null
                 },
                 "field7":{
