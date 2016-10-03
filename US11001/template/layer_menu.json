@@ -274,7 +274,7 @@
             },
             "menuSection": "CityInfo1",
             "mouseoverName": "Campus Area Zones",
-            "order": 4,
+            "order": 2,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/CAM.png"
@@ -354,7 +354,7 @@
             },
             "menuSection": "CityInfo1",
             "mouseoverName": "Census Tracts",
-            "order": 5,
+            "order": 3,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/CEN.png"
@@ -574,7 +574,7 @@
             },
             "menuSection": "CityInfo1",
             "mouseoverName": "Commercial Submarkets",
-            "order": 2,
+            "order": 4,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/CS.png"
@@ -1680,7 +1680,7 @@
             },
             "menuSection": "CityInfo1",
             "mouseoverName": "Neighborhood Profiles (WDCEP)",
-            "order": 3,
+            "order": 5,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/WND.png"
@@ -3282,7 +3282,7 @@
             },
             "menuSection": "CityInfo1",
             "mouseoverName": "Advisory Neighborhood Commissions",
-            "order": 7,
+            "order": 1,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/ANC.png"
