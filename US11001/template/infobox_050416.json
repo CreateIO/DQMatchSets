@@ -1066,42 +1066,36 @@
                     "units":null
                 },
                 "field2":{
-                    "value":"SMD_ID",
-                    "display":"SMD ID: ",
+                    "value":"WEB_URL",
+                    "display":"URL: ",
                     "fieldtype":"text",
-                    "units": null
-                },
-                "field3":{
-                    "value":"ANCWEB_URL",
-                    "display":"ANC URL: ",
-                    "fieldtype":"hardAttr",
                     "units":null
                 },
-                "field4":{
+                "field3":{
                     "value":"REP_NAME",
                     "display":"Rep Name: ",
                     "fieldtype":"text",
                     "units":null
                 },
-                "field5":{
+                "field4":{
                     "value":"ADDRESS",
                     "display":"Address: ",
                     "fieldtype":"text",
                     "units": null
                 },
-                "field6":{
+                "field5":{
                     "value":"ZIP",
                     "display":"Zipcode: ",
                     "fieldtype":"text",
                     "units":null
                 },
-                "field7":{
+                "field6":{
                     "value":"EMAIL",
                     "display":"Email: ",
                     "fieldtype":"text",
                     "units":null
                 },
-                "field8":{
+                "field7":{
                     "value":"PHONE",
                     "display":"Phone: ",
                     "fieldtype":"text",

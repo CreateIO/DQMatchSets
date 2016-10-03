@@ -3263,7 +3263,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click SMD polygons for more details.<br><br>Advisory Neighborhood Commissions (ANCs) are collections of Single Member Districts (SMDs). ANCs allow input from an advisory board made up of the residents of the neighborhoods directly affected by government action.",
+                "description": "Click SMD map polygons for more details.<br><br>Advisory Neighborhood Commissions (ANCs) are collections of Single Member Districts (SMDs). ANCs allow input from an advisory board made up of the residents of the neighborhoods directly affected by government action.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Advisory Neighborhood Commisions (ANC)",
