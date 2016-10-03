@@ -1068,7 +1068,7 @@
                 "field2":{
                     "value":"WEB_URL",
                     "display":"URL: ",
-                    "fieldtype":"text",
+                    "fieldtype":"url",
                     "units":null
                 },
                 "field3":{
@@ -1092,7 +1092,7 @@
                 "field6":{
                     "value":"EMAIL",
                     "display":"Email: ",
-                    "fieldtype":"text",
+                    "fieldtype":"email",
                     "units":null
                 },
                 "field7":{
