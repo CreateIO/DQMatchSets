@@ -1067,9 +1067,9 @@
                 },
                 "field2":{
                     "value":"WEB_URL",
-                    "display":"URL: ",
-                    "fieldtype":"text",
-                    "units":null
+                    "display":"Web URL: ",
+                    "fieldtype":"url",
+                    "units": "Click here"
                 },
                 "field3":{
                     "value":"REP_NAME",
