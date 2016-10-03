@@ -995,9 +995,9 @@
                 },
                 "field9":{
                     "value":"SQUARE_FOO",
-                    "display":"Square footage: ",
-                    "fieldtype":"text",
-                    "units":null
+                    "display":"Area: ",
+                    "fieldtype":"number",
+                    "units": " Sq Ft"
                 },
                 "field10":{
                     "value":"TOTAL_STUD",
