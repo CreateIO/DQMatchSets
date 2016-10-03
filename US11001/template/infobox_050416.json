@@ -1092,8 +1092,8 @@
                 "field6":{
                     "value":"EMAIL",
                     "display":"Rep Email: ",
-                    "fieldtype":"url",
-                    "units": "Click to Email"
+                    "fieldtype":"text",
+                    "units": null
                 },
                 "field7":{
                     "value":"PHONE",
