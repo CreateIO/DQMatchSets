@@ -1092,6 +1092,82 @@
                 "exists": false
             }
         },
+        "dc_PublicSchools": {
+            "name": "dc_PublicSchools",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_PublicSchools",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_PublicSchools@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.13,
+                    "yMin": 38.82,
+                    "xMax": -76.89,
+                    "yMax": 38.0097
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "dc_CharterSchools": {
+            "name": "dc_CharterSchools",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_CharterSchools",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_CharterSchools@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.09,
+                    "yMin": 38.82,
+                    "xMax": -76.87,
+                    "yMax": 38.97
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
         "campuses": {
             "name": "campuses",
             "removeName": "campusLabels.geojson",
