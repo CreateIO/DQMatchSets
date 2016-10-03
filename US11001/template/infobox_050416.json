@@ -1057,7 +1057,7 @@
             },
             "viewDetailsBox":false,
             "wdcepDetailsBox":false,
-            "header":"Advisory Neighborhood Commission",
+            "header":"NAME",
             "boxValues":{
                 "field1":{
                     "value": "ANC_ID",
@@ -1074,7 +1074,7 @@
                 "field3":{
                     "value":"ANC_WEBURL",
                     "display":"ANC URL: ",
-                    "fieldtype":"text",
+                    "fieldtype":"hardAttr",
                     "units":null
                 },
                 "field4":{
