@@ -1085,7 +1085,7 @@
                 },
                 "field5":{
                     "value":"ZIP",
-                    "display":"Zipcode: ",
+                    "display":"Zip Code: ",
                     "fieldtype":"text",
                     "units":null
                 },
