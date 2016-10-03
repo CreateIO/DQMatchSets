@@ -933,7 +933,7 @@
             "offset":157,
             "fieldtype":"business",
             "photos":{
-                "active":true,
+                "active":false,
                 "value":null
             },
             "pdfs":{
@@ -942,11 +942,12 @@
             },
             "viewDetailsBox":false,
             "wdcepDetailsBox":false,
-            "header":"FACUSE",
+            "streetView": true,
+            "header":"NAME",
             "boxValues":{
                 "field1":{
-                    "value":"NAME",
-                    "display":"Name: ",
+                    "value":"FACUSE",
+                    "display":"Grades/Use: ",
                     "fieldtype":"text",
                     "units":null
                 },
@@ -1021,11 +1022,12 @@
             },
             "viewDetailsBox":false,
             "wdcepDetailsBox":false,
-            "header":"GRADES",
+            "streetView": true,
+            "header":"NAME",
             "boxValues":{
                 "field1":{
-                    "value":"NAME",
-                    "display":"Name: ",
+                    "value":"GRADES",
+                    "display":"Grades: ",
                     "fieldtype":"text",
                     "units":null
                 },
