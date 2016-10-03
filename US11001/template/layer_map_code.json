@@ -1313,8 +1313,6 @@
                 "exists": false
             }
         },
-
-
         "ANCnSMD": {
             "name": "ANCnSMD",
             "removeName": null,
@@ -1353,9 +1351,6 @@
                 "exists": false
             }
         },
-
-
-
         "SMD": {
             "name": "SMD",
             "removeName": "SMD-ANC.geojson",

@@ -3226,8 +3226,6 @@
             "urlLegend": "../../legends/layerRetailPip.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/RetP.png"
         },
- 
-
         "AND & SMD Neighborhood Districts": {
             "category": "6",
             "denyList": {
@@ -3269,12 +3267,12 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Advisory Neighborhood Commisions (ANC)",
-                        "boxStyle": "background:#ffffff; border-radius: 15px; border: 1px solid #790035",
+                        "boxStyle": "background:#ffffff; border: 1px solid #790035",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "Single Member Districts (SMD)",
-                        "boxStyle": "background:#6bbed0; border-radius: 15px; border: 1px solid #6bbed0",
+                        "boxStyle": "background:#6bbed0; border: 1px solid #ffffff",
                         "imageUrl": null
                     }
                 },
@@ -3283,15 +3281,12 @@
                 "type": "singleColumn"
             },
             "menuSection": "CityInfo1",
-            "mouseoverName": "AND & SMD",
-            "order": 1,
-            "subCategory": "3",
+            "mouseoverName": "Advisory Neighborhood Commissions",
+            "order": 7,
+            "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/ANC.png"
         },
-
-
-
         "Single Member Districts": {
             "category": "2",
             "colors": {
@@ -3361,7 +3356,7 @@
                 "sourceURL": "http://www.anc2f.org/smd/",
                 "type": "singleColumn"
             },
-            "menuSection": "CityInfo1",
+            "menuSection": "",
             "mouseoverName": "Single Member Districts",
             "order": 7,
             "subCategory": "1",
