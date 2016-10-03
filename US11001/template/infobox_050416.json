@@ -972,8 +972,8 @@
                 "field5":{
                     "value":"WEB_URL",
                     "display":"Web URL: ",
-                    "fieldtype":"text",
-                    "units":null
+                    "fieldtype":"url",
+                    "units": "Click here"
                 },
                 "field6":{
                     "value":"BLDG_NUM",
