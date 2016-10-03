@@ -959,7 +959,7 @@
                 },
                 "field3":{
                     "value":"ZIP_CODE",
-                    "display":"Zipcode: ",
+                    "display":"Zip Code: ",
                     "fieldtype":"text",
                     "units":null
                 },
