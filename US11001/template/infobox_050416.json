@@ -1092,7 +1092,7 @@
                 "field6":{
                     "value":"EMAIL",
                     "display":"Rep Email: ",
-                    "fieldtype":"email",
+                    "fieldtype":"url",
                     "units": "Click to Email"
                 },
                 "field7":{
