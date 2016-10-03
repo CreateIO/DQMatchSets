@@ -1057,7 +1057,7 @@
             },
             "viewDetailsBox":false,
             "wdcepDetailsBox":false,
-            "header":"HEADER",
+            "header":"NAME",
             "boxValues":{
                 "field1":{
                     "value":"ANC_ID",
