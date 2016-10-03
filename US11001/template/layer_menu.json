@@ -208,7 +208,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click school map points for more details.<br><br>DC Public schools including elementary, middle, high school, special education & youth engagement.",
+                "description": "Click map points for more details.<br><br>Public schools in the District of Columbia.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "DC Public Schools",
@@ -264,7 +264,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click school map points for more details.<br><br>DC Charter Schools.",
+                "description": "Click map points for more details.<br><br>Charter schools in the District of Columbia.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Charter Schools",
