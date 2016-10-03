@@ -1,7 +1,7 @@
 {
   "ui:field": "container",
   "ui:options": {
-    "key": "arraydata"
+    "key": "arrayData"
   },
   "arrayData": {
     "ui:field": "cardList",
