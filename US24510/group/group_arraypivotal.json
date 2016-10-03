@@ -17,7 +17,7 @@
           }
         }
     ] },
-    "start_layers": { "Property Types": "off", "Main Hospitals": "on", "Other Baci Hospitals": "on" },
+    "start_layers": { "Property Types": "off", "Facilites - Hopitals": "on" },
     "start_menus": { "Layer_Menu": "open", "Layer_Pivotal": "open" },
     "hide_dp_section": {
       "hide": true,
