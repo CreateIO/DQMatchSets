@@ -1054,12 +1054,6 @@
                     "display":"Director: ",
                     "fieldtype":"text",
                     "units":null
-                },
-                "field6":{
-                    "value":"GRADES",
-                    "display":"Grades: ",
-                    "fieldtype":"text",
-                    "units":null
                 }
             }
         },
