@@ -1,0 +1,74 @@
+{
+    "dc_zoning": [
+        {
+            "objective": "The objectives of the Capitol Security Sub-Area are to protect public safety and the security of those using the properties within the U.S. Capitol complex and associated office buildings and libraries.",
+            "subarea": "Capitol Security",
+            "moreinformation": "Subtitle I \u00a7 605"
+        },
+        {
+            "objective": "The objectives of the Downtown Retail Core Sub-Area are to create the highest concentrations of retail, arts, and street-activating uses within the D zones, to achieve continuous provision of these uses, employ design standards that ensure buildings reinforce and activate pedestrian areas through continuous street frontages, generous display windows, frequent pedestrian entrances, and designated street-facing entrances for parking and loading only when necessary.",
+            "subarea": "Downtown Retail Core ",
+            "moreinformation": "Subtitle I \u00a7 606"
+        },
+        {
+            "objective": "The objectives of the Downtown Arts Sub-Area are to create strong arts and entertainment corridors including a spine of theaters, movie theaters, restaurants, nightclubs, and arts-related retail uses along E Street from 6th to 14th Street, N.W.; and a pedestrian-oriented concentration of museums, art galleries, other performing or visual arts uses, and festive retail-entertainment uses along 7 th Street from Pennsylvania Avenue to north of G Street.",
+            "subarea": "Downtown Arts ",
+            "moreinformation": "Subtitle I \u00a7 607"
+        },
+        {
+            "objective": "The objectives of the Pennsylvania Avenue Sub-Area are to maintain Pennsylvania Avenue as a mixed-use monumental but lively street with additional height on its north side and active ground floor uses to bridge the downtown with the National Mall and the monumental core.",
+            "subarea": "Pennsylvania Avenue ",
+            "moreinformation": "Subtitle I \u00a7 608"
+        },
+        {
+            "objective": "The objectives of the Chinatown Sub-Area are to protect and enhance downtown's only ethnic cultural area by maintaining and expanding the existing concentration of retail uses emphasizing Chinese or Asian cultural and community facilities, as well as merchandise and related wholesale operations serving residents, visitors, tourists, and business travelers.",
+            "subarea": "Chinatown",
+            "moreinformation": "Subtitle I \u00a7 609"
+        },
+        {
+            "objective": "The objectives of the Massachusetts Avenue Corridor and Mt. Vernon Square Sub-Area are to encourage a boulevard and park-like openness for the Massachusetts Avenue corridor, linking the Capitol to the embassy district through upper story setbacks that increase the amount of light available to pedestrians and to public space plantings.",
+            "subarea": "Massachusetts Avenue Corridor and Mt. Vernon Square ",
+            "moreinformation": "Subtitle I \u00a7 610"
+        },
+        {
+            "objective": "The objective of the Mount Vernon Triangle Sub-Area is to promote the development of ground floor level retail, service, food and beverage and entertainment uses that serve the immediate and nearby neighborhoods, as well as the Convention Center and downtown, in street frontages that will be active, pedestrian-friendly places, particularly along K and 5th Streets, N.W.",
+            "subarea": "Mount Vernon Triangle (MVT) ",
+            "moreinformation": "Subtitle I \u00a7 611"
+        },
+        {
+            "objective": "The objective of the Mount Vernon Triangle Principal Intersection Sub-Area is to require uses and building design that provide a focal point for food and beverage, entertainment, and accessory uses in the Mount Vernon Triangle.",
+            "subarea": "Mount Vernon Triangle Principal Intersection Area (MVT/PIA) ",
+            "moreinformation": "Subtitle I \u00a7 612"
+        },
+        {
+            "objective": "The objective of the Blagden Alley Residential Transition Sub-Area is to ensure a height transition between the medium density, primarily commercial, public and lodging uses south of M Street and the more residential uses on the north of M Street.",
+            "subarea": "Blagden Alley Residential Transition Area ",
+            "moreinformation": "Subtitle I \u00a7 613"
+        },
+        {
+            "objective": "The objective of the Lower Connecticut Avenue Corridor Sub-Area is to support the continued concentration of active, high-quality ground floor retail uses along the Connecticut Avenue corridor between K Street, N.W. and Dupont Circle.",
+            "subarea": "Lower Connecticut Avenue Corridor ",
+            "moreinformation": "Subtitle I \u00a7 614"
+        },
+        {
+            "objective": "The objective of the North of Massachusetts Avenue (NoMA) Sub-Area is to further the transition of the former light industrial area into a high-density commercial and residential neighborhood with a concentration of ground floor level retail, service, food and beverage, and entertainment uses on 1st Street, N.E.",
+            "subarea": "North of Massachusetts Avenue (NoMA) Corridor",
+            "moreinformation": "Subtitle I \u00a7 615"
+        },
+        {
+            "objective": "The objectives of the M and South Capitol Streets Sub-Area are to ensure the preservation of the historically important axial view of the Capitol Dome and further the development of a high-density mixed-use corridor north of the Capitol Gateway neighborhood.",
+            "subarea": "South Capitol and M Streets",
+            "moreinformation": "Subtitle I \u00a7 616"
+        },
+        {
+            "objective": "The objective of the North Capitol Street Corridor Sub-Area is to ensure the preservation of the historically important axial view of the Capitol Dome.",
+            "subarea": "North Capitol Street ",
+            "moreinformation": "Subtitle I \u00a7 617"
+        },
+        {
+            "objective": "The objective of the Independence Avenue Sub-Area is to protect the viewshed of the National Mall.",
+            "subarea": "Independence Avenue, S.W. ",
+            "moreinformation": "Subtitle I \u00a7 618"
+        }
+    ]
+}
