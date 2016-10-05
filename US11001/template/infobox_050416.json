@@ -1172,6 +1172,67 @@
                 }
             }
         },
+        "ANCnSMD":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"UNIQUEID",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"NAME",
+            "boxValues":{
+                "field1":{
+                    "value": "ANC_ID",
+                    "display":"ANC ID: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"WEB_URL",
+                    "display":"Web URL: ",
+                    "fieldtype":"url",
+                    "units": "Click here"
+                },
+                "field3":{
+                    "value":"REP_NAME",
+                    "display":"Rep Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"ADDRESS",
+                    "display":"Address: ",
+                    "fieldtype":"text",
+                    "units": null
+                },
+                "field5":{
+                    "value":"ZIP",
+                    "display":"Zip Code: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field6":{
+                    "value":"EMAIL",
+                    "display":"Rep Email: ",
+                    "fieldtype":"text",
+                    "units": null
+                },
+                "field7":{
+                    "value":"PHONE",
+                    "display":"Phone: ",
+                    "fieldtype":"text",
+                    "units": null
+                }
+            }
+        },
         "dc_DOT_VisionZeroSafetyData":{
             "referenceid":"UNIQUEID",
             "propertyid":"UNIQUEID",

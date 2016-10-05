@@ -386,7 +386,7 @@
             },
             "menuSection": "CityInfo1",
             "mouseoverName": "Campus Area Zones",
-            "order": 4,
+            "order": 2,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/CAM.png"
@@ -466,7 +466,7 @@
             },
             "menuSection": "CityInfo1",
             "mouseoverName": "Census Tracts",
-            "order": 5,
+            "order": 3,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/CEN.png"
@@ -686,7 +686,7 @@
             },
             "menuSection": "CityInfo1",
             "mouseoverName": "Commercial Submarkets",
-            "order": 2,
+            "order": 4,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/CS.png"
@@ -887,7 +887,7 @@
                     "item1": {
                         "boxDescription": "Grocery Store Locations.",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/GS.png"
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/images/icon-circle-grocery.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -899,7 +899,7 @@
             "order": 3,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/GS.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/images/icon-circle-grocery.png"
         },
         "HUBs": {
             "category": "4",
@@ -1424,7 +1424,7 @@
                     "item1": {
                         "boxDescription": "Metro Bus Stops.",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-bus-green.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-bus-green.png"
                     }
                 },
                 "sourceDescription": "WMATA",
@@ -1459,14 +1459,21 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_MetroRailLines"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "metroRailAndStations"
+                            "param2": "metroStations"
                         },
                         "service": "mapOverlayService"
                     },
-                    "func2": {
+                    "func3": {
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
@@ -1482,14 +1489,21 @@
                 },
                 "removeFunctions": {
                     "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                        "param1": "dc_MetroRailLines"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "metroRailAndStations"
+                            "param2": "metroStations"
                         },
                         "service": "mapOverlayService"
                     },
-                    "func2": {
+                    "func3": {
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
@@ -1504,49 +1518,49 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "(click for more info)<br><br>DC METRO rail lines & stations.",
+                "description": "(Click icons for more info.)<br><br>DC METRO rail lines, stations & station entrances.",
                 "listItemsLeft": {
                     "item1": {
                         "boxDescription": "Red Line",
-                        "boxStyle": "background:#DE3B38;",
+                        "boxStyle": "background:#D41542;",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "Yellow Line",
-                        "boxStyle": "background:#FFDF01;",
+                        "boxStyle": "background:#F8d515;",
                         "imageUrl": null
                     },
                     "item3": {
                         "boxDescription": "Green Line",
-                        "boxStyle": "background:#2C5E51;",
+                        "boxStyle": "background:#00b041;",
                         "imageUrl": null
                     },
                     "item4": {
                         "boxDescription": "Blue Line",
-                        "boxStyle": "background:#273B74;",
+                        "boxStyle": "background:#0a92d2;",
                         "imageUrl": null
                     }
                 },
                 "listItemsRight": {
                     "item1": {
                         "boxDescription": "Orange Line",
-                        "boxStyle": "background:#ED7D42;",
+                        "boxStyle": "background:#ec930e;",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "Silver Line",
-                        "boxStyle": "background:#D0CFD4;",
+                        "boxStyle": "background:#9fa5a3;",
                         "imageUrl": null
                     },
                     "item3": {
                         "boxDescription": "Station Entrances",
                         "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metroEntrance.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-metroEntrance.png"
                     },
                     "item4": {
                         "boxDescription": "Stations",
                         "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metroStation.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-metroStation.png"
                     }
                 },
                 "sourceDescription": "DCGIS",
@@ -1616,7 +1630,7 @@
                     "item1": {
                         "boxDescription": "Movie Theatre Locations.",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/MOV.png"
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/images/icon-circle-theaters.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -1628,7 +1642,7 @@
             "order": 5,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/MOV.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/images/icon-circle-theaters.png"
         },
         "NCI": {
             "category": "4",
@@ -1745,7 +1759,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Data: WDCEP: neighborhoods'"
+                        "param1": "'Data: WDCEP: Neighborhoods'"
                     }
                 },
                 "removeFunctions": {
@@ -1769,7 +1783,7 @@
                     "item1": {
                         "boxDescription": "WDCEP Neighborhoods.",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-wdcep.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/menu-wdcep-neighborhood.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -1778,7 +1792,7 @@
             },
             "menuSection": "CityInfo1",
             "mouseoverName": "Neighborhood Profiles (WDCEP)",
-            "order": 3,
+            "order": 5,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/WND.png"
@@ -2254,7 +2268,7 @@
                     "item1": {
                         "boxDescription": "Pharmacy Locations.",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PH.png"
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/images/icon-circle-pharmacy.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -2266,7 +2280,7 @@
             "order": 4,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PH.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/images/icon-circle-pharmacy.png"
         },
         "Planned Unit Development": {
             "category": "1",
@@ -3324,6 +3338,67 @@
             "urlLegend": "../../legends/layerRetailPip.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/RetP.png"
         },
+        "AND & SMD Neighborhood Districts": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Crash Reports by Accident Type",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ANCnSMD"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'DC Data: Advisory Neighborhood Commissions (ANC) & Single Member Districts (SMD)'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ANCnSMD"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click SMD map polygons for more details.<br><br>Advisory Neighborhood Commissions (ANCs) are collections of Single Member Districts (SMDs). ANCs allow input from an advisory board made up of the residents of the neighborhoods directly affected by government action.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Advisory Neighborhood Commisions (ANC)",
+                        "boxStyle": "background:#ffffff; border: 1px solid #790035",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Single Member Districts (SMD)",
+                        "boxStyle": "background:#6bbed0; border: 1px solid #ffffff",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "DC Open Data",
+                "sourceURL": "http://opendata.dc.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "CityInfo1",
+            "mouseoverName": "Advisory Neighborhood Commissions",
+            "order": 1,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/ANC.png"
+        },
         "Single Member Districts": {
             "category": "2",
             "colors": {
@@ -3386,14 +3461,14 @@
                     "item3": {
                         "boxDescription": "Click for more info on SMD & ANC.",
                         "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-smd.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-smd.png"
                     }
                 },
                 "sourceDescription": "ANC DC",
                 "sourceURL": "http://www.anc2f.org/smd/",
                 "type": "singleColumn"
             },
-            "menuSection": "CityInfo1",
+            "menuSection": "",
             "mouseoverName": "Single Member Districts",
             "order": 7,
             "subCategory": "1",
@@ -3552,58 +3627,6 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/TDR.png"
         },
-        "Trepp Data": {
-            "category": "3",
-            "colors": {
-                "hex": {
-                    "hex1": "#EDAE39"
-                },
-                "type": "single"
-            },
-            "denyList": {
-                "denyList1": null
-            },
-            "permissions": "trepp",
-            "denyToggle": false,
-            "displayName": "Trepp",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "treppData"
-                        },
-                        "service": "mapOverlayService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Data: Trepp Data'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "treppData"
-                        },
-                        "service": "mapOverlayService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 25,
-            "isActive": false,
-            "layerUsed": true,
-            "menuSection": "Development1",
-            "mouseoverName": "Trepp Data",
-            "order": 2,
-            "subCategory": "1",
-            "urlLegend": "../../legends/layerLegendTrepp.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/WDCEP/icons/trepp.png"
-        },
         "WDCEP - 711": {
             "category": "5",
             "colors": {
@@ -3660,7 +3683,7 @@
                     "item1": {
                         "boxDescription": "7-Eleven Locations.",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/711.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/711-square.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -3672,7 +3695,7 @@
             "order": 2,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/711.png"
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/711-square.png"
         },
         "WDCEP - Chipotle/Shophouse": {
             "category": "5",
@@ -3730,12 +3753,12 @@
                     "item1": {
                         "boxDescription": "Chipotle Locations",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-chipotle.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/chipotle.png"
                     },
                     "item2": {
                         "boxDescription": "Chophouse Locations",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-shophouse.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/shophouse.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -3805,7 +3828,7 @@
                     "item1": {
                         "boxDescription": "PotBelly Locations.",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PB.png"
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/potbelly-square.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -3817,7 +3840,7 @@
             "order": 4,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/PB.png"
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/potbelly-square.png"
         },
         "WDCEP - Subways": {
             "category": "5",
@@ -3874,8 +3897,8 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Subway Locations.",
-                        "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/wdcep/S.png"
+                        "boxStyle": "display: inline-block; width: 30px; height: 9px; margin-right: .4em; vertical-align: middle;",
+                        "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/subway.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -3887,7 +3910,7 @@
             "order": 5,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/S.png"
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/subway-square.png"
         },
         "WDCEP Bookmarks": {
             "category": "5",
@@ -3945,7 +3968,7 @@
                     "item1": {
                         "boxDescription": "WDCEP Bookmarks",
                         "boxStyle": "",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/WDCEP/icons/circle-wdcep.png"
+                        "imageUrl": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/menu-wdcep-bookmark.png"
                     }
                 },
                 "sourceDescription": "WDCEP",
@@ -3957,7 +3980,7 @@
             "order": 1,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/BMK.png"
+            "urlPicture": "http://s3.amazonaws.com/create-common/layerFiles/layerPNGs/menu-wdcep-bookmark.png"
         },
         "WDCEP Development Site Plans": {
             "category": "3",
