@@ -37,6 +37,7 @@
             "billboards": {
                 "exists": false
             },
+        },
             "ny_Zoning": {
                 "name": "ny_Zoning",
                 "removeName": null,
@@ -74,7 +75,7 @@
                 "billboards": {
                     "exists": false
                 }
-            }
         }
     }
 }
+

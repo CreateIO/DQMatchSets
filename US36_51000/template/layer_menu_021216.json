@@ -1,236 +1,236 @@
 {
-    "allTheLayers": {
-        "Property Types": {
-            "category": "1",
-            "colors": {
-                "hex": {},
-                "type": "?"
+  "allTheLayers": {
+    "Property Types": {
+      "category": "1",
+      "colors": {
+        "hex": {},
+        "type": "?"
+      },
+      "denyList": {
+        "denyList1": null
+      },
+      "denyToggle": false,
+      "displayName": "Property Types",
+      "functions": {
+        "addFunctions": {
+          "func1": {
+            "functionName": "addDynamicTMSLayer",
+            "parameters": {
+              "param1": "parcelFills"
             },
-            "denyList": {
-                "denyList1": null
-            },
-            "denyToggle": false,
-            "displayName": "Property Types",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "parcelFills"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Data: Parcel Use Layer'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "RemoveDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "parcelFills"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 48,
-            "isActive": false,
-            "layerUsed": true,
-            "menuSection": "LandUse1",
-            "mouseoverName": "Property Types",
-            "order": 1,
-            "subCategory": "1",
-            "urlLegend": "../../legends/layerPropertyType.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png"
+            "service": "tileMapServiceService"
+          }
         },
-        "Zoning": {
-            "category": "6",
-            "denyList": {
-                "denyList1": null
+        "piwikTrack": {
+          "parameters": {
+            "param1": "'Data: Parcel Use Layer'"
+          }
+        },
+        "removeFunctions": {
+          "func1": {
+            "functionName": "RemoveDynamicTMSLayer",
+            "parameters": {
+              "param1": "parcelFills"
             },
-            "denyToggle": false,
-            "displayName": "",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_Zoning"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'NY Data: NYC Zoning Data'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_Zoning"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 6,
-            "isActive": false,
-            "layerUsed": true,
-            "legendContents": {
-                "description": "Click map for more details.<br><br>New York Zoning Districts.",
-                "listItems": {
-                    "item1": {
-                        "boxDescription": "Battery Park City",
-                        "boxStyle": "background:#ee4731",
-                        "imageUrl": null
-                    },
-                    "item2": {
-                        "boxDescription": "Commercial",
-                        "boxStyle": "background:#e0c64e",
-                        "imageUrl": null
-                    },
-                    "item3": {
-                        "boxDescription": "Mixed Use",
-                        "boxStyle": "background:#f68c9d",
-                        "imageUrl": null
-                    },
-                    "item4": {
-                        "boxDescription": "Park",
-                        "boxStyle": "background:#93d08d",
-                        "imageUrl": null
-                    },
-                    "item5": {
-                        "boxDescription": "Residential",
-                        "boxStyle": "background: #6f94d7",
-                        "imageUrl": null
-                    }
-                },
-                "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
-                "type": "singleColumn"
-            },
-            "menuSection": "LandUse1",
-            "mouseoverName": "Zoning",
-            "order": 1,
-            "subCategory": "3",
-            "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/Z.png"
+            "service": "tileMapServiceService"
+          }
         }
+      },
+      "hasLegend": true,
+      "id": 48,
+      "isActive": false,
+      "layerUsed": true,
+      "menuSection": "LandUse1",
+      "mouseoverName": "Property Types",
+      "order": 1,
+      "subCategory": "1",
+      "urlLegend": "../../legends/layerPropertyType.jade",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png"
     },
-    "allTheSections": {
-        "CityInfo1": {
-            "order": 0,
-            "parentTab": "CityInfo",
-            "permissions": null,
-            "redact": false,
-            "title": "Geography"
+    "Zoning Districts": {
+      "category": "6",
+      "denyList": {
+        "denyList1": null
+      },
+      "denyToggle": false,
+      "displayName": "",
+      "functions": {
+        "addFunctions": {
+          "func1": {
+            "functionName": "addDynamicTMSLayer",
+            "parameters": {
+              "param1": "ny_Zoning"
+            },
+            "service": "tileMapServiceService"
+          }
         },
-        "CityInfo2": {
-            "order": 0,
-            "parentTab": "CityInfo",
-            "permissions": null,
-            "redact": false,
-            "title": "Amenities"
+        "piwikTrack": {
+          "parameters": {
+            "param1": "'NY Data: NYC Zoning Data'"
+          }
         },
-        "Development1": {
-            "order": 0,
-            "parentTab": "Development",
-            "permissions": null,
-            "redact": false,
-            "title": "Leasing"
-        },
-        "Development2": {
-            "order": 0,
-            "parentTab": "Development",
-            "permissions": null,
-            "redact": false,
-            "title": "Development"
-        },
-        "Development3": {
-            "order": 0,
-            "parentTab": "Development",
-            "permissions": null,
-            "redact": false,
-            "title": "Demographics"
-        },
-        "Incentives1": {
-            "order": 0,
-            "parentTab": "Incentives",
-            "permissions": null,
-            "redact": false,
-            "title": "Incentives"
-        },
-        "LandUse1": {
-            "order": 0,
-            "parentTab": "LandUse",
-            "permissions": null,
-            "redact": false,
-            "title": "Land Use & Entitlement"
-        },
-        "LandUse2": {
-            "order": -1,
-            "parentTab": "LandUse",
-            "permissions": null,
-            "redact": false,
-            "title": "Overlay Zones"
-        },
-        "LandUse3": {
-            "order": 2,
-            "parentTab": "LandUse",
-            "permissions": null,
-            "redact": false,
-            "title": "Historic Districts"
-        },
-        "LandUse4": {
-            "order": 0,
-            "parentTab": "LandUse",
-            "permissions": null,
-            "redact": false,
-            "title": "Heatmaps"
-        },
-        "LandUse5": {
-            "order": 0,
-            "parentTab": "LandUse",
-            "permissions": null,
-            "redact": false,
-            "title": "Natural Hazards"
+        "removeFunctions": {
+          "func1": {
+            "functionName": "removeDynamicTMSLayer",
+            "parameters": {
+              "param1": "ny_Zoning"
+            },
+            "service": "tileMapServiceService"
+          }
         }
-    },
-    "allTheTabs": {
-        "CityInfo": {
-            "isActive": false,
-            "order": 2,
-            "permissions": null,
-            "redact": false,
-            "title": "City Info"
+      },
+      "hasLegend": true,
+      "id": 6,
+      "isActive": false,
+      "layerUsed": true,
+      "legendContents": {
+        "description": "Click map for more details.<br><br>New York Zoning Districts.",
+        "listItems": {
+          "item1": {
+            "boxDescription": "Battery Park City",
+            "boxStyle": "background:#ee4731",
+            "imageUrl": null
+          },
+          "item2": {
+            "boxDescription": "Commercial",
+            "boxStyle": "background:#e0c64e",
+            "imageUrl": null
+          },
+          "item3": {
+            "boxDescription": "Mixed Use",
+            "boxStyle": "background:#f68c9d",
+            "imageUrl": null
+          },
+          "item4": {
+            "boxDescription": "Park",
+            "boxStyle": "background:#93d08d",
+            "imageUrl": null
+          },
+          "item5": {
+            "boxDescription": "Residential",
+            "boxStyle": "background: #6f94d7",
+            "imageUrl": null
+          }
         },
-        "Development": {
-            "isActive": false,
-            "order": 1,
-            "permissions": null,
-            "redact": false,
-            "title": "Development"
-        },
-        "Incentives": {
-            "isActive": false,
-            "order": 3,
-            "permissions": null,
-            "redact": false,
-            "title": "Incentives"
-        },
-        "LandUse": {
-            "isActive": true,
-            "order": 0,
-            "permissions": null,
-            "redact": false,
-            "title": "Land Use"
-        }
+        "sourceDescription": "NYC Department of City Planning",
+        "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+        "type": "singleColumn"
+      },
+      "menuSection": "LandUse1",
+      "mouseoverName": "Zoning Districts",
+      "order": 1,
+      "subCategory": "3",
+      "urlLegend": "../../legends/template-legend.jade",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/ZON.png"
     }
+  },
+  "allTheSections": {
+    "CityInfo1": {
+      "order": 0,
+      "parentTab": "CityInfo",
+      "permissions": null,
+      "redact": false,
+      "title": "Geography"
+    },
+    "CityInfo2": {
+      "order": 0,
+      "parentTab": "CityInfo",
+      "permissions": null,
+      "redact": false,
+      "title": "Amenities"
+    },
+    "Development1": {
+      "order": 0,
+      "parentTab": "Development",
+      "permissions": null,
+      "redact": false,
+      "title": "Leasing"
+    },
+    "Development2": {
+      "order": 0,
+      "parentTab": "Development",
+      "permissions": null,
+      "redact": false,
+      "title": "Development"
+    },
+    "Development3": {
+      "order": 0,
+      "parentTab": "Development",
+      "permissions": null,
+      "redact": false,
+      "title": "Demographics"
+    },
+    "Incentives1": {
+      "order": 0,
+      "parentTab": "Incentives",
+      "permissions": null,
+      "redact": false,
+      "title": "Incentives"
+    },
+    "LandUse1": {
+      "order": 0,
+      "parentTab": "LandUse",
+      "permissions": null,
+      "redact": false,
+      "title": "Land Use & Entitlement"
+    },
+    "LandUse2": {
+      "order": -1,
+      "parentTab": "LandUse",
+      "permissions": null,
+      "redact": false,
+      "title": "Overlay Zones"
+    },
+    "LandUse3": {
+      "order": 2,
+      "parentTab": "LandUse",
+      "permissions": null,
+      "redact": false,
+      "title": "Historic Districts"
+    },
+    "LandUse4": {
+      "order": 0,
+      "parentTab": "LandUse",
+      "permissions": null,
+      "redact": false,
+      "title": "Heatmaps"
+    },
+    "LandUse5": {
+      "order": 0,
+      "parentTab": "LandUse",
+      "permissions": null,
+      "redact": false,
+      "title": "Natural Hazards"
+    }
+  },
+  "allTheTabs": {
+    "CityInfo": {
+      "isActive": false,
+      "order": 2,
+      "permissions": null,
+      "redact": false,
+      "title": "City Info"
+    },
+    "Development": {
+      "isActive": false,
+      "order": 1,
+      "permissions": null,
+      "redact": false,
+      "title": "Development"
+    },
+    "Incentives": {
+      "isActive": false,
+      "order": 3,
+      "permissions": null,
+      "redact": false,
+      "title": "Incentives"
+    },
+    "LandUse": {
+      "isActive": true,
+      "order": 0,
+      "permissions": null,
+      "redact": false,
+      "title": "Land Use"
+    }
+  }
 }
