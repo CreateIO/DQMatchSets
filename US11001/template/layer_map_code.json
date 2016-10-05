@@ -4018,9 +4018,9 @@
                     "label1": {
                         "name": "labelTaxAbatement",
                         "position": {
-                            "x": "entity._properties.LON",
-                            "y": "entity._properties.LAT",
-                            "z": 200
+                            "x": "entity._properties.X",
+                            "y": "entity._properties.Y",
+                            "z": 50
                         },
                         "text": "entity.properties.NAME",
                         "font": "18px sans-serif",
@@ -4033,8 +4033,8 @@
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.TOP",
                         "translucencyByDistance": {
-                            "minElevation": 9000,
-                            "maxElevation": 20001,
+                            "minElevation": 20000,
+                            "maxElevation": 21000,
                             "minScale": 1,
                             "maxScale": 0
                         },
@@ -4175,9 +4175,9 @@
                     "label1": {
                         "name": "labelNCI",
                         "position": {
-                            "x": "entity._properties.LON",
-                            "y": "entity._properties.LAT",
-                            "z": 200
+                            "x": "entity._properties.X",
+                            "y": "entity._properties.Y",
+                            "z": 50
                         },
                         "text": "entity.properties.NAME",
                         "font": "18px sans-serif",
@@ -4190,8 +4190,8 @@
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.TOP",
                         "translucencyByDistance": {
-                            "minElevation": 9000,
-                            "maxElevation": 20000,
+                            "minElevation": 20000,
+                            "maxElevation": 21000,
                             "minScale": 1,
                             "maxScale": 0
                         },
