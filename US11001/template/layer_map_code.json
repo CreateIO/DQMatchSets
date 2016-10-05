@@ -3450,10 +3450,10 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 40
+                            "z": 50
                         },
                         "text": "entity.properties.neighborhooddist",
-                        "font": "16px sans-serif",
+                        "font": "12px sans-serif",
                         "fillColor": "Cesium.Color.WHITE",
                         "outlineColor": "Cesium.Color.BLACK",
                         "outlineWidth": 1,
@@ -3463,8 +3463,8 @@
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
                         "translucencyByDistance": {
-                            "minElevation": 7000,
-                            "maxElevation": 9000,
+                            "minElevation": 13000,
+                            "maxElevation": 17000,
                             "minScale": 1,
                             "maxScale": 0
                         },

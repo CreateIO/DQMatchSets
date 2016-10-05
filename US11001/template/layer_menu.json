@@ -3743,7 +3743,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "WDCEP1",
-            "mouseoverName": "WDCEP - Chipotle/Shophouse Locations",
+            "mouseoverName": "WDCEP - Chipotle/Shophouse",
             "order": 3,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
