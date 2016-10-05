@@ -927,6 +927,136 @@
                 }
             }
         },
+        "dc_PublicSchools":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"UNIQUEID",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "streetView": true,
+            "header":"NAME",
+            "boxValues":{
+                "field1":{
+                    "value":"FACUSE",
+                    "display":"Grades/Use: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"ADDRESS",
+                    "display":"Address: ",
+                    "fieldtype":"text",
+                    "units": null
+                },
+                "field3":{
+                    "value":"ZIP_CODE",
+                    "display":"Zip Code: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"PHONE",
+                    "display":"Phone: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field5":{
+                    "value":"WEB_URL",
+                    "display":"Web URL: ",
+                    "fieldtype":"url",
+                    "units": "Click here"
+                },
+                "field6":{
+                    "value":"BLDG_NUM",
+                    "display":"Building #: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field7":{
+                    "value":"YEAR_BUILT",
+                    "display":"Year built: ",
+                    "fieldtype":"text",
+                    "units": null
+                },
+                "field8":{
+                    "value":"CAPACITY",
+                    "display":"Capacity: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field9":{
+                    "value":"SQUARE_FOO",
+                    "display":"Area: ",
+                    "fieldtype":"number",
+                    "units": " Sq Ft"
+                },
+                "field10":{
+                    "value":"TOTAL_STUD",
+                    "display":"# of students: ",
+                    "fieldtype":"text",
+                    "units":null
+                }
+            }
+        },
+        "dc_CharterSchools":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"UNIQUEID",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":true,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "streetView": true,
+            "header":"NAME",
+            "boxValues":{
+                "field1":{
+                    "value":"GRADES",
+                    "display":"Grades: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"ADDRESS",
+                    "display":"Address: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"PHONE",
+                    "display":"Phone: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"WEB_URL",
+                    "display":"Web URL: ",
+                    "fieldtype":"url",
+                    "units": "Click here"
+                },
+                "field5":{
+                    "value":"DIRECTOR",
+                    "display":"Director: ",
+                    "fieldtype":"text",
+                    "units":null
+                }
+            }
+        },
         "gsaDataFields":{
             "referenceid":"UNIQUEID",
             "propertyid":null,
