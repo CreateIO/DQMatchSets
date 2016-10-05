@@ -1003,7 +1003,7 @@
                     "billboard1": {
                         "type": "custom",
                         "name": "stationbillboards",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/maki/icon-metroEntrance.png",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/maki/metroEntrance.png",
                         "position": {
                             "x": "entity._properties.X",
                             "y": "entity._properties.Y",
@@ -4312,7 +4312,7 @@
               "billboard1": {
                 "type": "custom",
                 "name": "2013-2015-accidents",
-                "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-accident-car.png",
+                "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/accident-car.png",
                 "position": {
                   "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                   "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
