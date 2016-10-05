@@ -9,6 +9,10 @@
         ".*": {
           "type": "object",
           "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["tile", "single"]
+            },
             "title": { "type": "string" },
             "tmsProvider": { "type": "string" },
             "tmsLayer": { "type": "string" },
@@ -35,7 +39,9 @@
             "minimumLevel": { "type": "number" },
             "maximumLevel": { "type": "number" },
             "alpha": { "type": "number" },
-            "flag": { "type": "boolean" }
+            "flag": { "type": "boolean" },
+            "flag1": { "type": "boolean" },
+            "flag2": { "type": "boolean" }
           },
           "additionalProperties": false
         }
