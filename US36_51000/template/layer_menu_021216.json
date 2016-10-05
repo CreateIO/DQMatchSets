@@ -10,7 +10,7 @@
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "Property Types",
+            "displayName": "Property Use Types",
             "functions": {
                 "addFunctions": {
                     "func1": {
@@ -28,7 +28,7 @@
                 },
                 "removeFunctions": {
                     "func1": {
-                        "functionName": "RemoveDynamicTMSLayer",
+                        "functionName": "removeDynamicTMSLayer",
                         "parameters": {
                             "param1": "parcelFills"
                         },
@@ -41,8 +41,8 @@
             "isActive": false,
             "layerUsed": true,
             "menuSection": "LandUse1",
-            "mouseoverName": "Property Types",
-            "order": 1,
+            "mouseoverName": "Property Use Types",
+            "order": 4,
             "subCategory": "1",
             "urlLegend": "../../legends/layerPropertyType.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png"
