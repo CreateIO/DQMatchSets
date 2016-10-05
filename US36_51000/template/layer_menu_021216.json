@@ -53,7 +53,7 @@
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "Zoning",
+            "displayName": "",
             "functions": {
                 "addFunctions": {
                     "func1": {
@@ -66,7 +66,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'NY Data: Zoning Districts'"
+                        "param1": "'NY Data: NYC Zoning Data'"
                     }
                 },
                 "removeFunctions": {
@@ -84,7 +84,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map for more details.<br><br>The polygons represent New York City zoning districts.",
+                "description": "Click map for more details.<br><br>New York Zoning Districts.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Battery Park City",
@@ -93,13 +93,13 @@
                     },
                     "item2": {
                         "boxDescription": "Commercial",
-                        "boxStyle": "background:#fadd57",
+                        "boxStyle": "background:#e0c64e",
                         "imageUrl": null
                     },
                     "item3": {
                         "boxDescription": "Mixed Use",
                         "boxStyle": "background:#f68c9d",
-                      "imageUrl": null
+                        "imageUrl": null
                     },
                     "item4": {
                         "boxDescription": "Park",
@@ -108,7 +108,7 @@
                     },
                     "item5": {
                         "boxDescription": "Residential",
-                        "boxStyle": "background:#6f94d7",
+                        "boxStyle": "background: #6f94d7",
                         "imageUrl": null
                     }
                 },
@@ -121,7 +121,7 @@
             "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/CR.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/dot/Z.png"
         }
     },
     "allTheSections": {
