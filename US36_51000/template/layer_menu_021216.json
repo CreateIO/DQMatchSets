@@ -46,6 +46,62 @@
             "subCategory": "1",
             "urlLegend": "../../legends/layerPropertyType.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png"
+        },
+        "Special Purpose Districts": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Special Purpose Districts",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SpecialPurposeDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Special Purpose Districts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SpecialPurposeDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "The map polygon features represent the New York City Zoning Special Purpose Districts. ",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "DC Public Schools",
+                        "boxStyle": "background:#34bcdf; border-radius: 15px; border: 1px solid #34bcdf",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "New York City Department of City Planning",
+                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse1",
+            "mouseoverName": "Special Purpose Districts",
+            "order": 1,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         }
     },
     "allTheSections": {
