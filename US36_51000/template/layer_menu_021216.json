@@ -158,6 +158,82 @@
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Zoning Districts": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Zoning",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_Zoning"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Zoning Districts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_Zoning"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "The map polygon features represent the New York City Zoning Districts. ",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Battery Park City District",
+                        "boxStyle": "background:#ee4731",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Commercial Districts",
+                        "boxStyle": "background:#fadd57",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Mixed Use Districts",
+                        "boxStyle": "background:#f68c9d",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "Parks",
+                        "boxStyle": "background:#93d08d",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "Residential Districts",
+                        "boxStyle": "background:#6f94f7",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse1",
+            "mouseoverName": "Zoning Districts",
+            "order": 1,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         }
     },
     "allTheSections": {
