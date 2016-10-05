@@ -87,8 +87,8 @@
                 "description": "The map polygon features represent the New York City Zoning Special Purpose Districts. ",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "DC Public Schools",
-                        "boxStyle": "background:#34bcdf; border-radius: 15px; border: 1px solid #34bcdf",
+                        "boxDescription": "Special Purpose Zoning Districts",
+                        "boxStyle": "background:#ee4731",
                         "imageUrl": null
                     }
                 },
