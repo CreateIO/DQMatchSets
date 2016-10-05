@@ -57,9 +57,9 @@
                 "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SpecialPurposeDistricts@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
-                    "xMin": -74.31,
+                    "xMin": -74.34,
                     "yMin": 40.48,
-                    "xMax": -73.65,
+                    "xMax": -73.69,
                     "yMax": 40.93
                 },
                 "tileWidth": 256,
