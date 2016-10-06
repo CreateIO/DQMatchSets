@@ -1557,7 +1557,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.WHITE",
-                        "outlineWidth": 1
+                        "outlineWidth": 0
                     }
                 }
             },
@@ -1624,7 +1624,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.WHITE",
-                        "outlineWidth": 1
+                        "outlineWidth": 0
                     }
                 }
             },
@@ -1691,7 +1691,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.WHITE",
-                        "outlineWidth": 1
+                        "outlineWidth": 0
                     }
                 }
             },
@@ -1758,7 +1758,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.BLUE",
-                        "outlineWidth": 5
+                        "outlineWidth": 0
                     }
                 }
             },
@@ -1829,7 +1829,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.WHITE",
-                        "outlineWidth": 1
+                        "outlineWidth": 0
                     }
                 }
             },
@@ -1896,7 +1896,7 @@
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.WHITE",
-                        "outlineWidth": 1
+                        "outlineWidth": 0
                     }
                 }
             },
