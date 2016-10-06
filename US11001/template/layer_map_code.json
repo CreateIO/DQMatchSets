@@ -1497,69 +1497,36 @@
                 "exists": false
             }
         },
-        "overlay-arts": {
-            "name": "overlay-arts",
-            "removeName": "arts.geojson",
-            "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/overlays/arts.geojson",
+        "dc_OverlayArts": {
+            "name": "dc_OverlayArts",
+            "removeName": null,
+            "url": null,
             "cartographic": false,
             "id": {
                 "exists": false
             },
             "labels": {
-                "exists": true,
-                "labelLayers": {
-                    "label1": {
-                        "name": "labeloverlayarts",
-                        "position": {
-                            "x": "entity._properties.X",
-                            "y": "entity._properties.Y",
-                            "z": 50
-                        },
-                        "text": "entity.properties.DESCRIPTION",
-                        "font": "12px sans-serif",
-                        "fillColor": "Cesium.Color.WHITE",
-                        "outlineColor": "Cesium.Color.BLACK",
-                        "outlineWidth": 1,
-                        "style": "Cesium.LabelStyle.FILL",
-                        "pixelOffset": "Cesium.Cartesian2.ZERO",
-                        "eyeOffset": "Cesium.Cartesian3.ZERO",
-                        "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-                        "verticalOrigin": "Cesium.VerticalOrigin.TOP",
-                        "translucencyByDistance": {
-                            "minElevation": 13000,
-                            "maxElevation": 17000,
-                            "minScale": 1,
-                            "maxScale": 0
-                        },
-                        "scale": 1
-                    }
-                }
+                "exists": false
             },
             "polygons": {
-                "exists": true,
-                "polygonLayers": {
-                    "polygon1": {
-                        "type": "colorHash",
-                        "name": "entity.properties.NAME",
-                        "color": {
-                            "type": "random",
-                            "alpha": 0.5,
-                            "assignments": {
-                                "color1": {
-                                    "field": "ARTS",
-                                    "hexValue": "#fdb774"
-                                },
-                                "color2": {
-                                    "field": "DD-ARTS",
-                                    "hexValue": "#Fd8144"
-                                }
-                            }
-                        },
-                        "material": "new Cesium.ColorMaterialProperty(color)",
-                        "outlineColor": "Cesium.Color.WHITE",
-                        "outlineWidth": 0
-                    }
-                }
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_OverlayArts",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_OverlayArts@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.043,
+                    "yMin": 38.892,
+                    "xMax": -77.012,
+                    "yMax": 38.921
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
             },
             "rasters": {
                 "exists": false
@@ -1568,69 +1535,36 @@
                 "exists": false
             }
         },
-        "overlay-hotel": {
-            "name": "overlay-hotel",
-            "removeName": "hotelResIncentive.geojson",
-            "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/overlays/hotelResIncentive.geojson",
+        "dc_OverlayHotelResIncentive": {
+            "name": "dc_OverlayHotelResIncentive",
+            "removeName": null,
+            "url": null,
             "cartographic": false,
             "id": {
                 "exists": false
             },
             "labels": {
-                "exists": true,
-                "labelLayers": {
-                    "label1": {
-                        "name": "labeloverlayhotel",
-                        "position": {
-                            "x": "entity._properties.X",
-                            "y": "entity._properties.Y",
-                            "z": 50
-                        },
-                        "text": "entity.properties.DESCRIPTION",
-                        "font": "12px sans-serif",
-                        "fillColor": "Cesium.Color.WHITE",
-                        "outlineColor": "Cesium.Color.BLACK",
-                        "outlineWidth": 1,
-                        "style": "Cesium.LabelStyle.FILL",
-                        "pixelOffset": "Cesium.Cartesian2.ZERO",
-                        "eyeOffset": "Cesium.Cartesian3.ZERO",
-                        "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-                        "verticalOrigin": "Cesium.VerticalOrigin.TOP",
-                        "translucencyByDistance": {
-                            "minElevation": 13000,
-                            "maxElevation": 17000,
-                            "minScale": 1,
-                            "maxScale": 0
-                        },
-                        "scale": 1
-                    }
-                }
+                "exists": false
             },
             "polygons": {
-                "exists": true,
-                "polygonLayers": {
-                    "polygon1": {
-                        "type": "colorHash",
-                        "name": "entity.properties.NAME",
-                        "color": {
-                            "type": "random",
-                            "alpha": 0.3,
-                            "assignments": {
-                                "color1": {
-                                    "field": "Housing Priority Areas",
-                                    "hexValue": "#8a69ae"
-                                },
-                                    "color1": {
-                                    "field": "Hotel & Residential Incentive Areas",
-                                    "hexValue": "#FFAAD4"
-                                }
-                            }
-                        },
-                        "material": "new Cesium.ColorMaterialProperty(color)",
-                        "outlineColor": "Cesium.Color.ANTIQUEWHITE",
-                        "outlineWidth": 0.1
-                    }
-                }
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_OverlayHotelResIncentive",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_OverlayHotelResIncentive@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.035,
+                    "yMin": 38.890,
+                    "xMax": -77.008,
+                    "yMax": 38.909
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
             },
             "rasters": {
                 "exists": false
@@ -1639,65 +1573,36 @@
                 "exists": false
             }
         },
-        "overlay-mixed-used": {
-            "name": "overlay-mixed-used",
-            "removeName": "dtMixedUseDev.geojson",
-            "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/overlays/dtMixedUseDev.geojson",
+        "dc_OverlayMixedUse": {
+            "name": "dc_OverlayMixedUse",
+            "removeName": null,
+            "url": null,
             "cartographic": false,
             "id": {
                 "exists": false
             },
             "labels": {
-                "exists": true,
-                "labelLayers": {
-                    "label1": {
-                        "name": "labeloverlaymixeduse",
-                        "position": {
-                            "x": "entity._properties.X",
-                            "y": "entity._properties.Y",
-                            "z": 50
-                        },
-                        "text": "entity.properties.DESCRIPTION",
-                        "font": "12px sans-serif",
-                        "fillColor": "Cesium.Color.WHITE",
-                        "outlineColor": "Cesium.Color.BLACK",
-                        "outlineWidth": 1,
-                        "style": "Cesium.LabelStyle.FILL",
-                        "pixelOffset": "Cesium.Cartesian2.ZERO",
-                        "eyeOffset": "Cesium.Cartesian3.ZERO",
-                        "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-                        "verticalOrigin": "Cesium.VerticalOrigin.TOP",
-                        "translucencyByDistance": {
-                            "minElevation": 9000,
-                            "maxElevation": 10000,
-                            "minScale": 1,
-                            "maxScale": 0
-                        },
-                        "scale": 1
-                    }
-                }
+                "exists": false
             },
             "polygons": {
-                "exists": true,
-                "polygonLayers": {
-                    "polygon1": {
-                        "type": "singleColor",
-                        "name": "entity.properties.NAME",
-                        "color": {
-                            "alpha": 0.3,
-                            "type": "rgb",
-                            "rgb": {
-                                "r": 109,
-                                "g": 163,
-                                "b": 210,
-                                "a": 100
-                            }
-                        },
-                        "material": "new Cesium.ColorMaterialProperty(color)",
-                        "outlineColor": "Cesium.Color.ANTIQUEWHITE",
-                        "outlineWidth": 0.1
-                    }
-                }
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_OverlayMixedUse",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_OverlayMixedUse@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.048,
+                    "yMin": 38.862,
+                    "xMax": -76.984,
+                    "yMax": 38.907
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
             },
             "rasters": {
                 "exists": false
@@ -1706,65 +1611,36 @@
                 "exists": false
             }
         },
-        "overlay-neigh-commercial": {
-            "name": "overlay-neigh-commercial",
-            "removeName": "neighborhoodComm.geojson",
-            "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/overlays/neighborhoodComm.geojson",
+        "dc_OverlayNeighborhoodCommercial": {
+            "name": "dc_OverlayNeighborhoodCommercial",
+            "removeName": null,
+            "url": null,
             "cartographic": false,
             "id": {
                 "exists": false
             },
             "labels": {
-                "exists": true,
-                "labelLayers": {
-                    "label1": {
-                        "name": "labeloverlayneighcomm",
-                        "position": {
-                            "x": "entity._properties.X",
-                            "y": "entity._properties.Y",
-                            "z": 50
-                        },
-                        "text": "entity.properties.DESCRIPTION",
-                        "font": "14px sans-serif",
-                        "fillColor": "Cesium.Color.WHITE",
-                        "outlineColor": "Cesium.Color.BLACK",
-                        "outlineWidth": 1,
-                        "style": "Cesium.LabelStyle.FILL",
-                        "pixelOffset": "Cesium.Cartesian2.ZERO",
-                        "eyeOffset": "Cesium.Cartesian3.ZERO",
-                        "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-                        "verticalOrigin": "Cesium.VerticalOrigin.TOP",
-                        "translucencyByDistance": {
-                            "minElevation": 9000,
-                            "maxElevation": 10000,
-                            "minScale": 1,
-                            "maxScale": 0
-                        },
-                        "scale": 1
-                    }
-                }
+                "exists": false
             },
             "polygons": {
-                "exists": true,
-                "polygonLayers": {
-                    "polygon1": {
-                        "type": "singleColor",
-                        "name": "entity.properties.NAME",
-                        "color": {
-                            "alpha": 0.5,
-                            "type": "rgb",
-                            "rgb": {
-                                "r": 120,
-                                "g": 201,
-                                "b": 241,
-                                "a": 100
-                            }
-                        },
-                        "material": "new Cesium.ColorMaterialProperty(color)",
-                        "outlineColor": "Cesium.Color.BLUE",
-                        "outlineWidth": 0
-                    }
-                }
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_OverlayNeighborhoodCommercial",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_OverlayNeighborhoodCommercial@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.10,
+                    "yMin": 38.87,
+                    "xMax": -76.95,
+                    "yMax": 38.98
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
             },
             "rasters": {
                 "exists": false
@@ -1773,69 +1649,36 @@
                 "exists": false
             }
         },
-        "overlay-open-space": {
-            "name": "overlay-open-space",
-            "removeName": "neighOpenSpacePres.geojson",
-            "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/overlays/neighOpenSpacePres.geojson",
+        "dc_OverlayOpenSpace": {
+            "name": "dc_OverlayOpenSpace",
+            "removeName": null,
+            "url": null,
             "cartographic": false,
             "id": {
                 "exists": false
             },
             "labels": {
-                "exists": true,
-                "labelLayers": {
-                    "label1": {
-                        "name": "labeloverlayopenspace",
-                        "position": {
-                            "x": "entity._properties.X",
-                            "y": "entity._properties.Y",
-                            "z": 50
-                        },
-                        "text": "entity.properties.DESCRIPTION",
-                        "font": "12px sans-serif",
-                        "fillColor": "Cesium.Color.WHITE",
-                        "outlineColor": "Cesium.Color.BLACK",
-                        "outlineWidth": 1,
-                        "style": "Cesium.LabelStyle.FILL",
-                        "pixelOffset": "Cesium.Cartesian2.ZERO",
-                        "eyeOffset": "Cesium.Cartesian3.ZERO",
-                        "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-                        "verticalOrigin": "Cesium.VerticalOrigin.TOP",
-                        "translucencyByDistance": {
-                            "minElevation": 13000,
-                            "maxElevation": 17000,
-                            "minScale": 1,
-                            "maxScale": 0
-                        },
-                        "scale": 1
-                    }
-                }
+                "exists": false
             },
             "polygons": {
-                "exists": true,
-                "polygonLayers": {
-                    "polygon1": {
-                        "type": "colorHash",
-                        "name": "entity.properties.CATEGORY",
-                        "color": {
-                            "type": "random",
-                            "alpha": 0.3,
-                            "assignments": {
-                                "color1": {
-                                    "field": "Preservation - Nature",
-                                    "hexValue": "#9bb37a"
-                                },
-                                "color2": {
-                                    "field": "Residential Neighborhood Preservation",
-                                    "hexValue": "#c1d995"
-                                }
-                            }
-                        },
-                        "material": "new Cesium.ColorMaterialProperty(color)",
-                        "outlineColor": "Cesium.Color.WHITE",
-                        "outlineWidth": 0
-                    }
-                }
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_OverlayOpenSpace",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_OverlayOpenSpace@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.105,
+                    "yMin": 38.883,
+                    "xMax": -76.966,
+                    "yMax": 38.979
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
             },
             "rasters": {
                 "exists": false
@@ -1844,65 +1687,36 @@
                 "exists": false
             }
         },
-        "overlay-govt-diplo": {
-            "name": "overlay-govt-diplo",
-            "removeName": "govDiplomatic.geojson",
-            "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/overlays/govDiplomatic.geojson",
+        "dc_OverlayGovDiplomatic": {
+            "name": "dc_OverlayGovDiplomatic",
+            "removeName": null,
+            "url": null,
             "cartographic": false,
             "id": {
                 "exists": false
             },
             "labels": {
-                "exists": true,
-                "labelLayers": {
-                    "label1": {
-                        "name": "labeloverlaygovdip",
-                        "position": {
-                            "x": "entity._properties.X",
-                            "y": "entity._properties.Y",
-                            "z": 50
-                        },
-                        "text": "entity.properties.DESCRIPTIO",
-                        "font": "12px sans-serif",
-                        "fillColor": "Cesium.Color.WHITE",
-                        "outlineColor": "Cesium.Color.BLACK",
-                        "outlineWidth": 1,
-                        "style": "Cesium.LabelStyle.FILL",
-                        "pixelOffset": "Cesium.Cartesian2.ZERO",
-                        "eyeOffset": "Cesium.Cartesian3.ZERO",
-                        "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-                        "verticalOrigin": "Cesium.VerticalOrigin.TOP",
-                        "translucencyByDistance": {
-                            "minElevation": 13000,
-                            "maxElevation": 17000,
-                            "minScale": 1,
-                            "maxScale": 0
-                        },
-                        "scale": 1
-                    }
-                }
+                "exists": false
             },
             "polygons": {
-                "exists": true,
-                "polygonLayers": {
-                    "polygon1": {
-                        "type": "singleColor",
-                        "name": "entity.properties.NAME",
-                        "color": {
-                            "alpha": 0.3,
-                            "type": "rgb",
-                            "rgb": {
-                                "r": 147,
-                                "g": 38,
-                                "b": 77,
-                                "a": 100
-                            }
-                        },
-                        "material": "new Cesium.ColorMaterialProperty(color)",
-                        "outlineColor": "Cesium.Color.WHITE",
-                        "outlineWidth": 0
-                    }
-                }
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_OverlayGovDiplomatic",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_OverlayGovDiplomatic@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.10,
+                    "yMin": 38.86,
+                    "xMax": -76.92,
+                    "yMax": 38.98
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
             },
             "rasters": {
                 "exists": false
@@ -1910,7 +1724,7 @@
             "billboards": {
                 "exists": false
             }
-        },
+        },        
         "WDCEP - grocery": {
             "name": "WDCEP - grocery",
             "removeName": "wdcep_grocery_geo.geojson",
