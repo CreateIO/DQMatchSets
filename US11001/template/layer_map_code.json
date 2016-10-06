@@ -1689,7 +1689,9 @@
                                 "a": 100
                             }
                         },
-                        "material": "new Cesium.ColorMaterialProperty(color)"
+                        "material": "new Cesium.ColorMaterialProperty(color)",
+                        "outlineColor": "Cesium.Color.ANTIQUEWHITE",
+                        "outlineWidth": 0.1
                     }
                 }
             },
