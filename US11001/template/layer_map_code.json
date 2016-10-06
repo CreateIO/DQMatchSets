@@ -244,7 +244,7 @@
                             "z": 50
                         },
                         "text": "entity.properties.NAME",
-                        "font": "16px sans-serif",
+                        "font": "12px sans-serif",
                         "fillColor": "Cesium.Color.WHITE",
                         "outlineColor": "Cesium.Color.BLACK",
                         "outlineWidth": 1,
@@ -254,8 +254,8 @@
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
                         "translucencyByDistance": {
-                            "minElevation": 1000,
-                            "maxElevation": 20000,
+                            "minElevation": 13000,
+                            "maxElevation": 17000,
                             "minScale": 1,
                             "maxScale": 0
                         },
@@ -1516,7 +1516,7 @@
                             "z": 50
                         },
                         "text": "entity.properties.DESCRIPTION",
-                        "font": "14px sans-serif",
+                        "font": "12px sans-serif",
                         "fillColor": "Cesium.Color.WHITE",
                         "outlineColor": "Cesium.Color.BLACK",
                         "outlineWidth": 1,
@@ -1526,8 +1526,8 @@
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.TOP",
                         "translucencyByDistance": {
-                            "minElevation": 9000,
-                            "maxElevation": 10000,
+                            "minElevation": 13000,
+                            "maxElevation": 17000,
                             "minScale": 1,
                             "maxScale": 0
                         },
@@ -1547,17 +1547,17 @@
                             "assignments": {
                                 "color1": {
                                     "field": "ARTS",
-                                    "hexValue": "#FFFD37"
+                                    "hexValue": "#fdb774"
                                 },
                                 "color2": {
                                     "field": "DD-ARTS",
-                                    "hexValue": "#FFFD37"
+                                    "hexValue": "#Fd8144"
                                 }
                             }
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
-                        "outlineColor": "Cesium.Color.YELLOW",
-                        "outlineWidth": 4
+                        "outlineColor": "Cesium.Color.WHITE",
+                        "outlineWidth": 1
                     }
                 }
             },
@@ -1587,7 +1587,7 @@
                             "z": 50
                         },
                         "text": "entity.properties.DESCRIPTION",
-                        "font": "14px sans-serif",
+                        "font": "12px sans-serif",
                         "fillColor": "Cesium.Color.WHITE",
                         "outlineColor": "Cesium.Color.BLACK",
                         "outlineWidth": 1,
@@ -1597,8 +1597,8 @@
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.TOP",
                         "translucencyByDistance": {
-                            "minElevation": 9000,
-                            "maxElevation": 10000,
+                            "minElevation": 13000,
+                            "maxElevation": 17000,
                             "minScale": 1,
                             "maxScale": 0
                         },
@@ -1614,29 +1614,17 @@
                         "name": "entity.properties.NAME",
                         "color": {
                             "type": "random",
-                            "alpha": 0.5,
+                            "alpha": 0.3,
                             "assignments": {
                                 "color1": {
-                                    "field": "HR",
-                                    "hexValue": "#FFAAD4"
-                                },
-                                "color2": {
-                                    "field": "DD-HPA",
-                                    "hexValue": "#A55D61"
-                                },
-                                "color3": {
-                                    "field": "DD-HPB",
-                                    "hexValue": "#A55D61"
-                                },
-                                "color4": {
-                                    "field": "DD-HPC",
-                                    "hexValue": "#A55D61"
+                                    "field": "Final",
+                                    "hexValue": "#8a69ae"
                                 }
                             }
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
                         "outlineColor": "Cesium.Color.WHITE",
-                        "outlineWidth": 7
+                        "outlineWidth": 1
                     }
                 }
             },
@@ -1666,7 +1654,7 @@
                             "z": 50
                         },
                         "text": "entity.properties.DESCRIPTION",
-                        "font": "14px sans-serif",
+                        "font": "12px sans-serif",
                         "fillColor": "Cesium.Color.WHITE",
                         "outlineColor": "Cesium.Color.BLACK",
                         "outlineWidth": 1,
@@ -1692,18 +1680,18 @@
                         "type": "singleColor",
                         "name": "entity.properties.NAME",
                         "color": {
-                            "alpha": 0.5,
+                            "alpha": 0.3,
                             "type": "rgb",
                             "rgb": {
-                                "r": 197,
-                                "g": 172,
-                                "b": 82,
+                                "r": 109,
+                                "g": 163,
+                                "b": 210,
                                 "a": 100
                             }
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
-                        "outlineColor": "Cesium.Color.ANTIQUEWHITE",
-                        "outlineWidth": 4
+                        "outlineColor": "Cesium.Color.WHITE",
+                        "outlineWidth": 1
                     }
                 }
             },
@@ -1800,7 +1788,7 @@
                             "z": 50
                         },
                         "text": "entity.properties.DESCRIPTION",
-                        "font": "14px sans-serif",
+                        "font": "12px sans-serif",
                         "fillColor": "Cesium.Color.WHITE",
                         "outlineColor": "Cesium.Color.BLACK",
                         "outlineWidth": 1,
@@ -1810,8 +1798,8 @@
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.TOP",
                         "translucencyByDistance": {
-                            "minElevation": 9000,
-                            "maxElevation": 10000,
+                            "minElevation": 13000,
+                            "maxElevation": 17000,
                             "minScale": 1,
                             "maxScale": 0
                         },
@@ -1827,21 +1815,21 @@
                         "name": "entity.properties.CATEGORY",
                         "color": {
                             "type": "random",
-                            "alpha": 0.5,
+                            "alpha": 0.3,
                             "assignments": {
                                 "color1": {
                                     "field": "Preservation - Nature",
-                                    "hexValue": "#1D9C5A"
+                                    "hexValue": "#9bb37a"
                                 },
                                 "color2": {
                                     "field": "Residential Neighborhood Preservation",
-                                    "hexValue": "#8F5183"
+                                    "hexValue": "#c1d995"
                                 }
                             }
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
-                        "outlineColor": "Cesium.Color.VIOLET",
-                        "outlineWidth": 4
+                        "outlineColor": "Cesium.Color.WHITE",
+                        "outlineWidth": 1
                     }
                 }
             },
@@ -1870,8 +1858,8 @@
                             "y": "entity._properties.Y",
                             "z": 50
                         },
-                        "text": "entity.properties.DESCRIPTION",
-                        "font": "14px sans-serif",
+                        "text": "entity.properties.DESCRIPTIO",
+                        "font": "12px sans-serif",
                         "fillColor": "Cesium.Color.WHITE",
                         "outlineColor": "Cesium.Color.BLACK",
                         "outlineWidth": 1,
@@ -1881,8 +1869,8 @@
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.TOP",
                         "translucencyByDistance": {
-                            "minElevation": 9000,
-                            "maxElevation": 10000,
+                            "minElevation": 13000,
+                            "maxElevation": 17000,
                             "minScale": 1,
                             "maxScale": 0
                         },
@@ -1897,18 +1885,18 @@
                         "type": "singleColor",
                         "name": "entity.properties.NAME",
                         "color": {
-                            "alpha": 0.5,
+                            "alpha": 0.3,
                             "type": "rgb",
                             "rgb": {
-                                "r": 232,
-                                "g": 88,
-                                "b": 98,
+                                "r": 147,
+                                "g": 38,
+                                "b": 77,
                                 "a": 100
                             }
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
-                        "outlineColor": "Cesium.Color.TOMATO",
-                        "outlineWidth": 5
+                        "outlineColor": "Cesium.Color.WHITE",
+                        "outlineWidth": 1
                     }
                 }
             },
@@ -3519,7 +3507,7 @@
                             "z": 50
                         },
                         "text": "entity.properties.NAME",
-                        "font": "18px sans-serif",
+                        "font": "12px sans-serif",
                         "fillColor": "Cesium.Color.WHITE",
                         "outlineColor": "Cesium.Color.BLACK",
                         "outlineWidth": 1,
@@ -3529,8 +3517,8 @@
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.TOP",
                         "translucencyByDistance": {
-                            "minElevation": 20000,
-                            "maxElevation": 21000,
+                            "minElevation": 13000,
+                            "maxElevation": 17000,
                             "minScale": 1,
                             "maxScale": 0
                         },
@@ -4018,12 +4006,12 @@
                     "label1": {
                         "name": "labelTaxAbatement",
                         "position": {
-                            "x": "entity._properties.X",
-                            "y": "entity._properties.Y",
+                            "x": "entity._properties.LON",
+                            "y": "entity._properties.LAT",
                             "z": 50
                         },
                         "text": "entity.properties.NAME",
-                        "font": "18px sans-serif",
+                        "font": "12px sans-serif",
                         "fillColor": "Cesium.Color.WHITE",
                         "outlineColor": "Cesium.Color.BLACK",
                         "outlineWidth": 1,
@@ -4031,10 +4019,10 @@
                         "pixelOffset": "Cesium.Cartesian2.ZERO",
                         "eyeOffset": "Cesium.Cartesian3.ZERO",
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-                        "verticalOrigin": "Cesium.VerticalOrigin.TOP",
+                        "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
                         "translucencyByDistance": {
-                            "minElevation": 20000,
-                            "maxElevation": 21000,
+                            "minElevation": 13000,
+                            "maxElevation": 17000,
                             "minScale": 1,
                             "maxScale": 0
                         },
@@ -4175,8 +4163,8 @@
                     "label1": {
                         "name": "labelNCI",
                         "position": {
-                            "x": "entity._properties.X",
-                            "y": "entity._properties.Y",
+                            "x": "entity._properties.LON",
+                            "y": "entity._properties.LAT",
                             "z": 50
                         },
                         "text": "entity.properties.NAME",

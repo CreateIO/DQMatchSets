@@ -1870,7 +1870,7 @@
             "category": "1",
             "colors": {
                 "hex": {
-                    "hex1": "#E85862"
+                    "hex1": "#93264d"
                 },
                 "type": "single"
             },
@@ -1915,7 +1915,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Government",
-                        "boxStyle": "background:#E85862",
+                        "boxStyle": "background:#93264d",
                         "imageUrl": null
                     }
                 },
@@ -1934,8 +1934,7 @@
             "category": "1",
             "colors": {
                 "hex": {
-                    "hex1": "#A55D61",
-                    "hex2": "#FFAAD4"
+                    "hex1": "#8a69ae"
                 },
                 "type": "multi"
             },
@@ -1980,7 +1979,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Housing Priority Areas",
-                        "boxStyle": "background:#A55D61",
+                        "boxStyle": "background:#8a69ae",
                         "imageUrl": null
                     },
                     "item2": {
@@ -2049,7 +2048,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Downtown Mixed Use Development",
-                        "boxStyle": "background:#D2B953",
+                        "boxStyle": "background:#6da3d2",
                         "imageUrl": null
                     }
                 },
@@ -2132,8 +2131,8 @@
             "category": "1",
             "colors": {
                 "hex": {
-                    "hex1": "#398D54",
-                    "hex2": "#8F5183"
+                    "hex1": "#c1d995",
+                    "hex2": "#9bb37a"
                 },
                 "type": "multi"
             },
@@ -2178,12 +2177,12 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Preservation - Nature",
-                        "boxStyle": "background:#398D54",
+                        "boxStyle": "background:#9bb37a",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "Residential Neighborhood",
-                        "boxStyle": "background:#8F5183",
+                        "boxStyle": "background:#c1d995",
                         "imageUrl": null
                     }
                 },
