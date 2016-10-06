@@ -1617,14 +1617,18 @@
                             "alpha": 0.3,
                             "assignments": {
                                 "color1": {
-                                    "field": "Final",
+                                    "field": "Housing Priority Areas",
                                     "hexValue": "#8a69ae"
+                                },
+                                    "color1": {
+                                    "field": "Hotel & Residential Incentive Areas",
+                                    "hexValue": "#FFAAD4"
                                 }
                             }
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
-                        "outlineColor": "Cesium.Color.WHITE",
-                        "outlineWidth": 0
+                        "outlineColor": "Cesium.Color.ANTIQUEWHITE",
+                        "outlineWidth": 0.1
                     }
                 }
             },
@@ -4168,7 +4172,7 @@
                             "z": 50
                         },
                         "text": "entity.properties.NAME",
-                        "font": "18px sans-serif",
+                        "font": "12px sans-serif",
                         "fillColor": "Cesium.Color.WHITE",
                         "outlineColor": "Cesium.Color.BLACK",
                         "outlineWidth": 1,
@@ -4178,8 +4182,8 @@
                         "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
                         "verticalOrigin": "Cesium.VerticalOrigin.TOP",
                         "translucencyByDistance": {
-                            "minElevation": 20000,
-                            "maxElevation": 21000,
+                            "minElevation": 13000,
+                            "maxElevation": 17000,
                             "minScale": 1,
                             "maxScale": 0
                         },
@@ -4216,8 +4220,8 @@
                             }
                         },
                         "material": "new Cesium.ColorMaterialProperty(color)",
-                        "outlineColor": "Cesium.Color.WHITE",
-                        "outlineWidth": 2
+                        "outlineColor": "Cesium.Color.ANTIQUEWHITE",
+                        "outlineWidth": 0.1
                     }
                 }
             },
