@@ -1915,7 +1915,7 @@
                 "sourceURL": "http://opendata.dc.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse2",
+            "menuSection": "",
             "mouseoverName": "Overlays - Arts",
             "order": 1,
             "subCategory": "3",
@@ -1976,7 +1976,7 @@
             "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PS.png"
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/G+D.png"
         },
         "Overlays - Hotels": {
             "category": "6",
@@ -2037,7 +2037,7 @@
             "order": 3,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PS.png"
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/HTL.png"
         },
         "Overlays - Mixed Use": {
             "category": "6",
@@ -2093,7 +2093,7 @@
             "order": 4,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PS.png"
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/DT.png"
         },
         "Overlays - Neighborhood Commercial": {
             "category": "6",
@@ -2149,7 +2149,7 @@
             "order": 5,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PS.png"
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/NC.png"
         },
         "Overlays - Open Space": {
             "category": "6",
@@ -2210,7 +2210,7 @@
             "order": 6,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/PS.png"
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/NOS.png"
         },
         "Pharmacies (WDCEP)": {
             "category": "2",
