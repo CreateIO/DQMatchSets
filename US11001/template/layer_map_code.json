@@ -1563,7 +1563,7 @@
                 "tileHeight": 256,
                 "minimumLevel": 1,
                 "maximumLevel": 20,
-                "alpha": 0.5,
+                "alpha": 1,
                 "tmsStyle": "GWC"
             },
             "rasters": {
@@ -1639,7 +1639,7 @@
                 "tileHeight": 256,
                 "minimumLevel": 1,
                 "maximumLevel": 20,
-                "alpha": 0.5,
+                "alpha": 1,
                 "tmsStyle": "GWC"
             },
             "rasters": {
