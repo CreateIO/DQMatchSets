@@ -2093,7 +2093,7 @@
             "order": 4,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/create-common/models-dc/tiles/landUse/DT.png"
+            "urlPicture": "https://s3.amazonaws.com/create-common/models-dc/tiles/landUse/MU.png"
         },
         "Overlays - Neighborhood Commercial": {
             "category": "6",
