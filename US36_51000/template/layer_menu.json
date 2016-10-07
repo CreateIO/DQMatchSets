@@ -343,7 +343,7 @@
             "title": "Land Use & Entitlement"
         },
         "LandUse2": {
-            "order": -1,
+            "order": 1,
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
