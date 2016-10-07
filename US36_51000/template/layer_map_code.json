@@ -114,6 +114,44 @@
                 "exists": false
             }
         },
+        "ny_InclushionaryHousing": {
+            "name": "ny_InclushionaryHousing",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_InclushionaryHousing",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_InclushionaryHousing@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.13,
+                    "yMin": 40.56,
+                    "xMax": -73.67,
+                    "yMax": 40.88
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
         "ny_Zoning": {
             "name": "ny_Zoning",
             "removeName": null,
