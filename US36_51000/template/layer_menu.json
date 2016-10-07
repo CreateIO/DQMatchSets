@@ -96,8 +96,64 @@
                 "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse1",
+            "menuSection": "LandUse2",
             "mouseoverName": "Special Purpose Districts",
+            "order": 3,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Inclusionary Housing": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Inclusionary Housing",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_InclushionaryHousing"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Inclusionary Housing'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_InclushionaryHousing"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "A specified area in which the Inclusionary Housing Program is applicable. The program modifies the floor area ratio (FAR) and offers a bonus for developments that provide affordable housing. ",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Inclusionary Housing Districts",
+                        "boxStyle": "background:#ee4731",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse2",
+            "mouseoverName": "Inclusionary Housing",
             "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
@@ -152,9 +208,9 @@
                 "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse1",
+            "menuSection": "LandUse2",
             "mouseoverName": "Limited Height Zoning Districts",
-            "order": 1,
+            "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
