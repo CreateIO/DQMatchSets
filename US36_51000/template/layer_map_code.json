@@ -152,6 +152,120 @@
                 "exists": false
             }
         },
+        "ny_SPD_wSubDistricts": {
+            "name": "ny_SPD_wSubDistricts",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_SPD_wSubDistricts",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SPD_wSubDistricts@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.16,
+                    "yMin": 40.56,
+                    "xMax": -73.69,
+                    "yMax": 40.89
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_LowerDensityGrowthManagementAreas": {
+            "name": "ny_LowerDensityGrowthManagementAreas",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_LowerDensityGrowthManagementAreas",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_LowerDensityGrowthManagementAreas@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.31,
+                    "yMin": 40.48,
+                    "xMax": -73.71,
+                    "yMax": 40.89
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_ZoningMapAmendments": {
+            "name": "ny_ZoningMapAmendments",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_ZoningMapAmendments",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_ZoningMapAmendments@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.30,
+                    "yMin": 40.48,
+                    "xMax": -73.66,
+                    "yMax": 40.92
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
         "ny_Zoning": {
             "name": "ny_Zoning",
             "removeName": null,
