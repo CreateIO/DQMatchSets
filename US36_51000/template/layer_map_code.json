@@ -266,6 +266,198 @@
                 "exists": false
             }
         },
+
+
+        "ny_NY_MapPLUTO": {
+            "name": "ny_NY_MapPLUTO",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_NY_MapPLUTO",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_NY_MapPLUTO@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.13,
+                    "yMin": 40.68,
+                    "xMax": -73.83,
+                    "yMax": 40.88
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_SI_MapPLUTO": {
+            "name": "ny_SI_MapPLUTO",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_SI_MapPLUTO",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SI_MapPLUTO@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.27,
+                    "yMin": 40.49,
+                    "xMax": -74.04,
+                    "yMax": 40.65
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_BX_MapPLUTO": {
+            "name": "ny_BX_MapPLUTO",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_BX_MapPLUTO",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_BX_MapPLUTO@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -73.95,
+                    "yMin": 40.78,
+                    "xMax": -73.75,
+                    "yMax": 40.92
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_BK_MapPLUTO": {
+            "name": "ny_BK_MapPLUTO",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_BK_MapPLUTO",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_BK_MapPLUTO@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.07,
+                    "yMin": 40.57,
+                    "xMax": -73.81,
+                    "yMax": 40.74
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_QN_MapPLUTO": {
+            "name": "ny_QN_MapPLUTO",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_QN_MapPLUTO",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_QN_MapPLUTO@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.09,
+                    "yMin": 40.53,
+                    "xMax": -73.58,
+                    "yMax": 40.88
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
         "ny_Zoning": {
             "name": "ny_Zoning",
             "removeName": null,
