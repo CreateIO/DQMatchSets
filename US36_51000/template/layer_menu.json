@@ -1,52 +1,5 @@
 {
     "allTheLayers": {
-        "Property Types": {
-            "category": "1",
-            "colors": {
-                "hex": {},
-                "type": "?"
-            },
-            "denyList": {
-                "denyList1": null
-            },
-            "denyToggle": false,
-            "displayName": "Property Use Types",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "parcelFills"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'NY Data: Parcel Use Layer'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "parcelFills"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 48,
-            "isActive": false,
-            "layerUsed": true,
-            "menuSection": "LandUse1",
-            "mouseoverName": "Property Use Types",
-            "order": 4,
-            "subCategory": "1",
-            "urlLegend": "../../legends/layerPropertyType.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png"
-        },
         "Special Purpose Districts": {
             "category": "6",
             "denyList": {
@@ -383,6 +336,187 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
+        "Property Use Types": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Proerty Use Types",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_NY_MapPLUTO"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                "addFunctions": {
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SI_MapPLUTO"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                "addFunctions": {
+                    "func3": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BK_MapPLUTO"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                "addFunctions": {
+                    "func4": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BX_MapPLUTO"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                "addFunctions": {
+                    "func5": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_QN_MapPLUTO"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Property Use Types"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_NY_MapPLUTO"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                   "func2": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SI_MapPLUTO"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                   "func3": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BK_MapPLUTO"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                   "func4": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BX_MapPLUTO"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                   "func5": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_QN_MapPLUTO"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "The map polygon features represent the New York City Limited Height Zoning Districts. ",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxDescription": "Property Use Types",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item1": {
+                        "boxDescription": "Property Use Types",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Property Use Types",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Property Use Types",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "Property Use Types",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "Property Use Types",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item6": {
+                        "boxDescription": "Property Use Types",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item7": {
+                        "boxDescription": "Property Use Types",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item8": {
+                        "boxDescription": "Property Use Types",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item9": {
+                        "boxDescription": "Property Use Types",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item10": {
+                        "boxDescription": "Property Use Types",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item11": {
+                        "boxDescription": "Property Use Types",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "Land Use",
+                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "type": "doubleColumn"
+            },
+            "menuSection": "LandUse1",
+            "mouseoverName": "Property Use Types",
+            "order": 2,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png"
+        },
+
+
+
+
+
+
+
+
         "Zoning Districts": {
             "category": "6",
             "denyList": {
