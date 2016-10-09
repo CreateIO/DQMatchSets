@@ -114,8 +114,8 @@
                 "exists": false
             }
         },
-        "ny_InclushionaryHousing": {
-            "name": "ny_InclushionaryHousing",
+        "ny_InclusionaryHousing": {
+            "name": "ny_InclusionaryHousing",
             "removeName": null,
             "url": null,
             "cartographic": false,
@@ -129,8 +129,8 @@
                 "exists": false
             },
             "tms": {
-                "tmsLayerName": "ny_InclushionaryHousing",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_InclushionaryHousing@EPSG:900913@png",
+                "tmsLayerName": "ny_InclusionaryHousing",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_InclusionaryHousing@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.13,
