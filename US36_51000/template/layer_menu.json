@@ -352,7 +352,6 @@
                         },
                         "service": "tileMapServiceService"
                     },
-                "addFunctions": {
                     "func2": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
@@ -360,7 +359,6 @@
                         },
                         "service": "tileMapServiceService"
                     },
-                "addFunctions": {
                     "func3": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
@@ -368,7 +366,6 @@
                         },
                         "service": "tileMapServiceService"
                     },
-                "addFunctions": {
                     "func4": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
@@ -376,7 +373,6 @@
                         },
                         "service": "tileMapServiceService"
                     },
-                "addFunctions": {
                     "func5": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
