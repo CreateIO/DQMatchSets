@@ -348,35 +348,7 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_NY_MapPLUTO"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func2": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_SI_MapPLUTO"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func3": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_BK_MapPLUTO"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func4": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_BX_MapPLUTO"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func5": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_QN_MapPLUTO"
+                            "param1": "mappluto"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -390,35 +362,7 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_NY_MapPLUTO"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                   "func2": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_SI_MapPLUTO"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                   "func3": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_BK_MapPLUTO"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                   "func4": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_BX_MapPLUTO"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                   "func5": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_QN_MapPLUTO"
+                            "param1": "mappluto"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -432,64 +376,59 @@
                 "description": "The map polygon features represent the New York City Limited Height Zoning Districts. ",
                 "listItemsLeft": {
                     "item1": {
-                        "boxDescription": "Property Use Types",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    },
-                    "item1": {
-                        "boxDescription": "Property Use Types",
+                        "boxDescription": "One & Two Family",
                         "boxStyle": "background:#1bf198",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "Property Use Types",
+                        "boxDescription": "Multi-Family Walk-up",
                         "boxStyle": "background:#1bf198",
                         "imageUrl": null
                     },
                     "item3": {
-                        "boxDescription": "Property Use Types",
+                        "boxDescription": "Multi-family Elevator",
                         "boxStyle": "background:#1bf198",
                         "imageUrl": null
                     },
                     "item4": {
-                        "boxDescription": "Property Use Types",
+                        "boxDescription": "Mixed Residential & Commercial",
                         "boxStyle": "background:#1bf198",
                         "imageUrl": null
                     },
                     "item5": {
-                        "boxDescription": "Property Use Types",
+                        "boxDescription": "Commercial & Office",
                         "boxStyle": "background:#1bf198",
                         "imageUrl": null
                     },
                     "item6": {
-                        "boxDescription": "Property Use Types",
+                        "boxDescription": "Industrial & Manufacturing",
                         "boxStyle": "background:#1bf198",
                         "imageUrl": null
                     }
                 },
                 "listItemsRight": {
                     "item7": {
-                        "boxDescription": "Property Use Types",
+                        "boxDescription": "Transportation & Utility",
                         "boxStyle": "background:#1bf198",
                         "imageUrl": null
                     },
                     "item8": {
-                        "boxDescription": "Property Use Types",
+                        "boxDescription": "Public Facilities & Institutions",
                         "boxStyle": "background:#1bf198",
                         "imageUrl": null
                     },
                     "item9": {
-                        "boxDescription": "Property Use Types",
+                        "boxDescription": "Open Space & Outdoor Recreation",
                         "boxStyle": "background:#1bf198",
                         "imageUrl": null
                     },
                     "item10": {
-                        "boxDescription": "Property Use Types",
+                        "boxDescription": "Parking Facilities",
                         "boxStyle": "background:#1bf198",
                         "imageUrl": null
                     },
                     "item11": {
-                        "boxDescription": "Property Use Types",
+                        "boxDescription": "Vacant Land",
                         "boxStyle": "background:#1bf198",
                         "imageUrl": null
                     }
@@ -505,14 +444,6 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png"
         },
-
-
-
-
-
-
-
-
         "Zoning Districts": {
             "category": "6",
             "denyList": {
