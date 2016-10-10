@@ -153,7 +153,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Lower Density Growth Management Areas",
-                        "boxStyle": "background:#ee4731",
+                        "boxStyle": "background:#329ca6",
                         "imageUrl": null
                     }
                 },
@@ -261,11 +261,16 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "A specified area in which the Inclusionary Housing Program is applicable. The program modifies the floor area ratio (FAR) and offers a bonus for developments that provide affordable housing. ",
+                "description": "The Inclusionary Housing Designated Areas Program was created in 2005 to encourage the creation and preservation of affordable housing in medium and high-density neighborhoods being rezoned to create new housing opportunities. The program modifies the base floor area ratio (FAR) available for developments and offers a floor area bonus for developments that provide affordable housing either on-site or within the surrounding community.",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Inclusionary Housing Districts",
-                        "boxStyle": "background:#ee4731",
+                        "boxDescription": "Inclusionary Housing Districts - Adopted",
+                        "boxStyle": "background:#1f356c",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Inclusionary Housing Districts - Pipeline",
+                        "boxStyle": "background:#73cfcb",
                         "imageUrl": null
                     }
                 },
