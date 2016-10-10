@@ -428,7 +428,8 @@
                         "boxDescription": "Zone 6",
                         "boxStyle": "background:#00a78d",
                         "imageUrl": null
-                    },
+                    }
+                },
                 "listItemsRight": {
                     "item7": {
                         "boxDescription": "Hurricane Shelters",
@@ -439,7 +440,7 @@
                         "boxDescription": "HC Accessible Shelters",
                         "boxStyle": "background:#0e5198; border-radius: 15px; border: 1px solid #3281da",
                         "imageUrl": null
-                    },
+                    }
                 },
                 "sourceDescription": "NYC Open Data",
                 "sourceURL": "https://data.cityofnewyork.us/",
