@@ -398,51 +398,52 @@
             "layerUsed": true,
             "legendContents": {
                 "description": "Hurricane Evacuation Zones are determined by New York City Emergency Management and represent varying threat levels of coastal flooding resulting from storm surge. The points represent the evacuation shelters.",
-                "listItems": {
+                "listItemsLeft": {
                     "item1": {
-                        "boxDescription": "Hurricane Shelters",
-                        "boxStyle": "background:#6693c2; border-radius: 15px; border: 1px solid #a2d0ce",
-                        "imageUrl": null
-                    },
-                    "item2": {
-                        "boxDescription": "HC Accessible Shelters",
-                        "boxStyle": "background:#0e5198; border-radius: 15px; border: 1px solid #3281da",
-                        "imageUrl": null
-                    },
-                    "item3": {
                         "boxDescription": "Zone 1",
                         "boxStyle": "background:#ed3724",
                         "imageUrl": null
                     },
-                    "item4": {
+                    "item2": {
                         "boxDescription": "Zone 2",
                         "boxStyle": "background:#f48120",
                         "imageUrl": null
                     },
-                    "item5": {
+                    "item3": {
                         "boxDescription": "Zone 3",
                         "boxStyle": "background:#ffde17",
                         "imageUrl": null
                     },
-                    "item6": {
+                    "item4": {
                         "boxDescription": "Zone 4",
                         "boxStyle": "background:#bed630",
                         "imageUrl": null
                     },
-                    "item7": {
+                    "item5": {
                         "boxDescription": "Zone 5",
                         "boxStyle": "background:#72be44",
                         "imageUrl": null
                     },
-                    "item8": {
+                    "item6": {
                         "boxDescription": "Zone 6",
                         "boxStyle": "background:#00a78d",
                         "imageUrl": null
-                    }
+                    },
+                "listItemsRight": {
+                    "item7": {
+                        "boxDescription": "Hurricane Shelters",
+                        "boxStyle": "background:#6693c2; border-radius: 15px; border: 1px solid #a2d0ce",
+                        "imageUrl": null
+                    },
+                    "item9": {
+                        "boxDescription": "HC Accessible Shelters",
+                        "boxStyle": "background:#0e5198; border-radius: 15px; border: 1px solid #3281da",
+                        "imageUrl": null
+                    },
                 },
                 "sourceDescription": "NYC Open Data",
                 "sourceURL": "https://data.cityofnewyork.us/",
-                "type": "singleColumn"
+                "type": "doubleColumn"
             },
             "menuSection": "LandUse5",
             "mouseoverName": "Hurricane Innundation Zones",
