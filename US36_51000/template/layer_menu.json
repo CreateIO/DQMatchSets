@@ -383,7 +383,7 @@
                         },
                         "service": "tileMapServiceService"
                     },
-                    "func1": {
+                    "func2": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
                             "param1": "ny_Hurricane_Shelters"
