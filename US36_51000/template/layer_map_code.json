@@ -304,6 +304,82 @@
                 "exists": false
             }
         },
+        "ny_Hurricane_Shelters": {
+            "name": "ny_Hurricane_Shelters",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_Hurricane_Shelters",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_Hurricane_Shelters@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.23,
+                    "yMin": 40.54,
+                    "xMax": -73.70,
+                    "yMax": 40.90
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_HurricaneInnundationZones": {
+            "name": "ny_HurricaneInnundationZones",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_HurricaneInnundationZones",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_HurricaneInnundationZones@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.31,
+                    "yMin": 40.48,
+                    "xMax": -73.65,
+                    "yMax": 40.93
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
         "ny_Zoning": {
             "name": "ny_Zoning",
             "removeName": null,

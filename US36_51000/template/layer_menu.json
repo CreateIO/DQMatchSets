@@ -209,7 +209,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Adopted",
-                        "boxStyle": "background:#dcaa59",
+                        "boxStyle": "background:#fdae61",
                         "imageUrl": null
                     },
                     "item2": {
@@ -341,6 +341,104 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Limited Height Zoning Districts",
+            "order": 2,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Hurricane Innundation Zones": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Hurricane Innundation Zones",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "nny_HurricaneInnundationZones"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_Hurricane_Shelters"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Limited Height Districts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_LimitedHeightDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Hurricane Evacuation Zones are determined by New York City Emergency Management and represent varying threat levels of coastal flooding resulting from storm surge. The points represent the evacuation shelters.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Hurricane Shelters",
+                        "boxStyle": "background:#6693c2; border-radius: 15px; border: 1px solid #a2d0ce",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "HC Accessible Shelters",
+                        "boxStyle": "background:#0e5198; border-radius: 15px; border: 1px solid #3281da",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Zone 1",
+                        "boxStyle": "background:#ed3724",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "Zone 2",
+                        "boxStyle": "background:#f48120",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "Zone 3",
+                        "boxStyle": "background:#ffde17",
+                        "imageUrl": null
+                    },
+                    "item6": {
+                        "boxDescription": "Zone 4",
+                        "boxStyle": "background:#bed630",
+                        "imageUrl": null
+                    },
+                    "item7": {
+                        "boxDescription": "Zone 5",
+                        "boxStyle": "background:#72be44",
+                        "imageUrl": null
+                    },
+                    "item8": {
+                        "boxDescription": "Zone 6",
+                        "boxStyle": "background:#00a78d",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse5",
+            "mouseoverName": "Hurricane Innundation Zones",
             "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
