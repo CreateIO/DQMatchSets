@@ -358,7 +358,7 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "nny_HurricaneInnundationZones"
+                            "param1": "ny_HurricaneInnundationZones"
                         },
                         "service": "tileMapServiceService"
                     },
@@ -379,7 +379,14 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_LimitedHeightDistricts"
+                            "param1": "ny_HurricaneInnundationZones"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_Hurricane_Shelters"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -433,8 +440,8 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "sourceDescription": "NYC Open Data",
+                "sourceURL": "https://data.cityofnewyork.us/",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse5",
@@ -694,14 +701,14 @@
             "title": "Historic Districts"
         },
         "LandUse4": {
-            "order": 0,
+            "order": 3,
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
             "title": "Heatmaps"
         },
         "LandUse5": {
-            "order": 0,
+            "order": 4,
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
