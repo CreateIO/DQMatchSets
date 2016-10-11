@@ -1,5 +1,47 @@
 {
     "infoboxContent":{
-
+        "ny_SPD_wSubDistricts":{
+            "referenceid":"UNIQUEID",
+            "propertyid":null,
+            "offset":null,
+            "fieldtype":"retail",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"SPNAME",
+            "boxValues":{
+                "field2":{
+                    "value":"SUBDIST",
+                    "display":"Sub-District Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"SUBSUB",
+                    "display":"Note 1: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"SD2",
+                    "display":"Note 2: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field5":{
+                    "value":"SUB2",
+                    "display":"Note 3: ",
+                    "fieldtype":"text",
+                    "units":null
+                }
+            }
+        }
     }
 }
