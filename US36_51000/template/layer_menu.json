@@ -1,12 +1,12 @@
 {
     "allTheLayers": {
-        "Special Purpose Districts & Sub-Districts": {
+        "Special Purpose Districts": {
             "category": "6",
             "denyList": {
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "Special Purpose Districts & Sub-Districts",
+            "displayName": "Special Purpose Districts",
             "functions": {
                 "addFunctions": {
                     "func1": {
@@ -55,7 +55,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Sub-Districts",
-                        "boxStyle": "background:#ffffff; border: 1px solid #905c86",
+                        "boxStyle": "background:#aa8fa5; border: 1px solid #905c86",
                         "imageUrl": null
                     },
                     "item2": {
