@@ -20,7 +20,7 @@
             "boxValues":{
                 "field1":{
                     "value":"address",
-                    "display":"Street Address: ",
+                    "display":"Address: ",
                     "fieldtype":"text",
                     "units":null
                 },
@@ -33,6 +33,12 @@
                 "field3":{
                     "value":"ZipCode",
                     "display":"Zip Code: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"accessible",
+                    "display":"HC Accessible: ",
                     "fieldtype":"text",
                     "units":null
                 }
