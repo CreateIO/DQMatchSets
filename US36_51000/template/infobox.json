@@ -17,6 +17,12 @@
             "wdcepDetailsBox":false,
             "header":"SPNAME",
             "boxValues":{
+                "field1":{
+                    "value":"SPNAME",
+                    "display":"SPD Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },                
                 "field2":{
                     "value":"SUBDIST",
                     "display":"Sub-District Name: ",
