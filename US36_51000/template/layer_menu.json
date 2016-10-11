@@ -12,14 +12,14 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_SPD_wSubDistricts"
+                            "param1": "ny_SpecialPurposeDistricts"
                         },
                         "service": "tileMapServiceService"
                     },
                     "func2": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_SpecialPurposeDistricts"
+                            "param1": "ny_SPD_wSubDistricts"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -33,14 +33,14 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_SPD_wSubDistricts"
+                            "param1": "ny_SpecialPurposeDistricts"
                         },
                         "service": "tileMapServiceService"
                     },
                     "func2": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_SpecialPurposeDistricts"
+                            "param1": "ny_SPD_wSubDistricts"
                         },
                         "service": "tileMapServiceService"
                     }
