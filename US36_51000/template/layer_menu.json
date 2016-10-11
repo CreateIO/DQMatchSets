@@ -12,6 +12,13 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
+                            "param1": "ny_SPD_wSubDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
                             "param1": "ny_SpecialPurposeDistricts"
                         },
                         "service": "tileMapServiceService"
@@ -19,11 +26,18 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'NY Data: Special Purpose Districts'"
+                        "param1": "'NY Data: Special Purpose Districts & Sub-Districts'"
                     }
                 },
                 "removeFunctions": {
                     "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SPD_wSubDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
                             "param1": "ny_SpecialPurposeDistricts"
@@ -40,7 +54,12 @@
                 "description": "The map polygon features represent the New York City Special Purpose Zoning Districts. ",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Special Purpose Zoning Districts",
+                        "boxDescription": "Sub-Districts",
+                        "boxStyle": "background:#ffffff; border: 1px solid #905c86",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Special Purpose Districts",
                         "boxStyle": "background:#ee4731",
                         "imageUrl": null
                     }
@@ -51,62 +70,6 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Special Purpose Districts",
-            "order": 3,
-            "subCategory": "3",
-            "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
-        },
-        "Special Purpose Districts with Sub-Districts": {
-            "category": "6",
-            "denyList": {
-                "denyList1": null
-            },
-            "denyToggle": false,
-            "displayName": "Special Purpose Districts with Sub-Districts",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_SPD_wSubDistricts"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'NY Data: Special Purpose Districts with Sub-Districts'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_SPD_wSubDistricts"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 6,
-            "isActive": false,
-            "layerUsed": true,
-            "legendContents": {
-                "description": "Click map polygons for more info.<br><br>This feature class contains only the internal subdistricts of any special purpose districts that are so subdivided. The main special purpose district name is indicated by the SPNAME attribute, the SUBDIST attribute contains the subdistrict name. Any further subdistrict divisions are named in the SUBSUB attribute.",
-                "listItems": {
-                    "item1": {
-                        "boxDescription": "Special Purpose Districts with Sub-Districts",
-                        "boxStyle": "background:#ee4731",
-                        "imageUrl": null
-                    }
-                },
-                "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
-                "type": "singleColumn"
-            },
-            "menuSection": "LandUse2",
-            "mouseoverName": "Special Purpose Districts with Sub-Districts",
             "order": 3,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
