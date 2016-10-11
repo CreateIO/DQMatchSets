@@ -15,11 +15,17 @@
             },
             "viewDetailsBox":false,
             "wdcepDetailsBox":false,
-            "header":"SPAME",
+            "header":"SPLBL",
             "boxValues":{               
+                "field1":{
+                    "value":"SPNAME",
+                    "display":"District: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
                 "field2":{
                     "value":"SUBDIST",
-                    "display":"Sub-District Name: ",
+                    "display":"Sub-District: ",
                     "fieldtype":"text",
                     "units":null
                 },
