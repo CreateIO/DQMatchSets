@@ -15,7 +15,7 @@
             },
             "viewDetailsBox":false,
             "wdcepDetailsBox":false,
-            "header":"SPNAME",
+            "header":"",
             "boxValues":{
                 "field1":{
                     "value":"SPNAME",
