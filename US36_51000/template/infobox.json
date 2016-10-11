@@ -1,48 +1,5 @@
 {
     "infoboxContent":{
-    	 "ny_Hurricane_Shelters":{
-            "referenceid":"UNIQUEID",
-            "propertyid":"UNIQUEID",
-            "offset":157,
-            "fieldtype":"business",
-            "photos":{
-                "active":false,
-                "value":null
-            },
-            "pdfs":{
-                "active":false,
-                "value":null
-            },
-            "viewDetailsBox":false,
-            "wdcepDetailsBox":false,
-            "streetView": true,
-            "header":"ec_name",
-            "boxValues":{
-                "field1":{
-                    "value":"address",
-                    "display":"Address: ",
-                    "fieldtype":"text",
-                    "units":null
-                },
-                "field2":{
-                    "value":"city",
-                    "display":"City: ",
-                    "fieldtype":"text",
-                    "units": null
-                },
-                "field3":{
-                    "value":"ZipCode",
-                    "display":"Zip Code: ",
-                    "fieldtype":"text",
-                    "units":null
-                },
-                "field4":{
-                    "value":"accessible",
-                    "display":"HC Accessible: ",
-                    "fieldtype":"text",
-                    "units":null
-                }
-            }
-        }
+
     }
 }
