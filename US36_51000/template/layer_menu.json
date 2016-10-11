@@ -1,12 +1,12 @@
 {
     "allTheLayers": {
-        "Special Purpose Districts": {
+        "Special Purpose Districts & Sub-Districts": {
             "category": "6",
             "denyList": {
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "Special Purpose Districts",
+            "displayName": "Special Purpose Districts & Sub-Districts",
             "functions": {
                 "addFunctions": {
                     "func1": {
@@ -51,7 +51,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "The map polygon features represent the New York City Special Purpose Zoning Districts. ",
+                "description": "The map polygon features represent the New York City Special Purpose Zoning Districts & Sub-Districts. <br><br>Click Sub-District areas for more info.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Sub-Districts",
@@ -69,7 +69,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
-            "mouseoverName": "Special Purpose Districts",
+            "mouseoverName": "Special Purpose Districts & Sub-Districts",
             "order": 3,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
