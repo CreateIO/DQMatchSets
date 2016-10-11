@@ -331,7 +331,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Limited Height Zoning Districts",
-                        "boxStyle": "background:#1bf198",
+                        "boxStyle": "background:#ab9ee7",
                         "imageUrl": null
                     }
                 },
@@ -490,7 +490,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "The map polygon features represent the New York City Limited Height Zoning Districts. ",
+                "description": "Property use types",
                 "listItemsLeft": {
                     "item1": {
                         "boxDescription": "One & Two Family",
