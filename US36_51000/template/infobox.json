@@ -15,14 +15,8 @@
             },
             "viewDetailsBox":false,
             "wdcepDetailsBox":false,
-            "header":"",
-            "boxValues":{
-                "field1":{
-                    "value":"SPNAME",
-                    "display":"SPD Name: ",
-                    "fieldtype":"text",
-                    "units":null
-                },                
+            "header":"SPAME",
+            "boxValues":{               
                 "field2":{
                     "value":"SUBDIST",
                     "display":"Sub-District Name: ",
