@@ -69,12 +69,12 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Sub-Districts",
-                        "boxStyle": "background:#aa8fa5; border: 1px solid #905c86",
+                        "boxStyle": "background:#db402f",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "Special Purpose Districts",
-                        "boxStyle": "background:#ee4731",
+                        "boxStyle": "background:#c06d61",
                         "imageUrl": null
                     }
                 },
