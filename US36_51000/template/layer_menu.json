@@ -51,7 +51,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "The map polygon features represent the New York City Special Purpose Zoning Districts & Sub-Districts. <br><br>Click Sub-District areas for more info.",
+                "description": "Special Purpose Districts have distinctive qualities where regulations are tailored to the neighborhood. Zoning districts are shown on the zoning maps.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Sub-Districts",
@@ -112,7 +112,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "A Lower Density Growth Management Area is an area designated in the Zoning Resolution where new developments must provide more off-street parking, larger yards and more open space than would otherwise be required in the applicable zoning districts In Staten Island and Bronx Community District 10.",
+                "description": "Lower Density Growth Management Areaa are areas designated in the Zoning Resolution where new developments must provide more off-street parking, larger yards and more open space than would otherwise be required in the applicable zoning districts In Staten Island and Bronx Community District 10.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Lower Density Growth Management Areas",
@@ -168,7 +168,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Boundaries for all adopted & current proposed rezonings adopted since January 1, 2002. Selected city-initiated text amendments to the Zoning Resolution since 2002 that have discrete geographical boundaries may be included.",
+                "description": "Zoning Map Amendments include adopted & proposed changes in the zoning district of a property which allow different land uses (residential, commercial, industrial, etc.) and density (number of dwelling units or size of buildings) requirements on that property.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Adopted Amendments",
@@ -351,7 +351,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Polygon features represent the within-tax-block limits for commercial overlay districts, as shown on the DCP zoning maps.",
+                "description": "Commercial District Overlays are C1 or C2 district mapped within residential districts to serve local retail needs such as grocery stores, dry cleaners or restaurants.",
                 "listItemsLeft": {
                     "item0": {
                         "boxDescription": "C1-1",
@@ -454,7 +454,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "The map polygon features represent the New York City Limited Height Zoning Districts. ",
+                "description": "Limited Height Districts are areas of the city that have height limitations. A limited height district may be superimposed on an area designated as an historic district by the Landmarks Preservation Commission.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Limited Height Zoning Districts",
@@ -725,7 +725,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "The map polygon features represent the New York City Zoning Districts. ",
+                "description": "Zoning District are residential, commercial or manufac­turing areas of the city within which zoning regulations govern land use and building bulk.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Battery Park City District",
