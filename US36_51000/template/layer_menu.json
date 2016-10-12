@@ -412,7 +412,7 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Commercial Districts Overlay",
-            "order": 3,
+            "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
