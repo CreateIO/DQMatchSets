@@ -353,54 +353,54 @@
             "legendContents": {
                 "description": "Polygon features represent the within-tax-block limits for commercial overlay districts, as shown on the DCP zoning maps.",
                 "listItemsLeft": {
-                    "item1": {
+                    "item0": {
                         "boxDescription": "C1-1",
                         "boxStyle": "background:#fecc03",
                         "imageUrl": null
                     },
-                    "item2": {
+                    "item1": {
                         "boxDescription": "C1-2",
                         "boxStyle": "background:#f47c20",
                         "imageUrl": null
                     },
-                    "item3": {
+                    "item2": {
                         "boxDescription": "C1-3",
                         "boxStyle": "background:#dc1921",
                         "imageUrl": null
                     },
-                    "item4": {
+                    "item3": {
                         "boxDescription": "C1-4",
                         "boxStyle": "background:#e95ca1",
                         "imageUrl": null
                     },
-                    "item5": {
+                    "item4": {
                         "boxDescription": "C1-5",
                         "boxStyle": "background:#9574b3",
                         "imageUrl": null
                     }
                 },
                 "listItemsRight": {
-                    "item6": {
+                    "item5": {
                         "boxDescription": "C2-1",
                         "boxStyle": "background:#006db7",
                         "imageUrl": null
                     },
-                    "item7": {
+                    "item6": {
                         "boxDescription": "C2-2",
                         "boxStyle": "background:#00a3d9",
                         "imageUrl": null
                     },
-                    "item8": {
+                    "item7": {
                         "boxDescription": "C2-3",
                         "boxStyle": "background:#00bdd2",
                         "imageUrl": null
                     },
-                    "item9": {
+                    "item8": {
                         "boxDescription": "C2-4",
                         "boxStyle": "background:#99c93b",
                         "imageUrl": null
                     },
-                    "item10": {
+                    "item9": {
                         "boxDescription": "C2-5",
                         "boxStyle": "background:#00af4d",
                         "imageUrl": null
