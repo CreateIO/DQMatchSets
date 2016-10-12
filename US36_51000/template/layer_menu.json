@@ -70,7 +70,7 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Special Purpose Districts & Sub-Districts",
-            "order": 3,
+            "order": 6,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -126,7 +126,7 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Lower Density Growth Management Areas",
-            "order": 4,
+            "order": 5,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -248,7 +248,7 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Inclusionary Housing",
-            "order": 5,
+            "order": 3,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
