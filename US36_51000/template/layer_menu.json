@@ -253,6 +253,67 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
+        "City Owned & Leased Properties": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "City Owned & Leased Properties",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_CityOwnedLeasedProperties"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: City Owned & Leased Properties'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_CityOwnedLeasedProperties"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "NYC City Owned and Leased Properties (COLP)",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "City Owned",
+                        "boxStyle": "background:#80d862",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Leased-In",
+                        "boxStyle": "background:#fdae61",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse2",
+            "mouseoverName": "COLP",
+            "order": 1,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
         "Limited Height Districts": {
             "category": "6",
             "denyList": {
