@@ -487,13 +487,13 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
-        "Hurricane Innundation Zones": {
+        "Hurricane Evacuation Zones": {
             "category": "6",
             "denyList": {
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "Hurricane Innundation Zones",
+            "displayName": "Hurricane Evacuation Zones",
             "functions": {
                 "addFunctions": {
                     "func1": {
@@ -513,7 +513,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'NY Data: Limited Height Districts'"
+                        "param1": "'NY Data: Hurricane Evacuation Sones & Shelters'"
                     }
                 },
                 "removeFunctions": {
@@ -588,7 +588,7 @@
                 "type": "doubleColumn"
             },
             "menuSection": "LandUse3",
-            "mouseoverName": "Hurricane Innundation Zones",
+            "mouseoverName": "Hurricane Evacuation Zones",
             "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
