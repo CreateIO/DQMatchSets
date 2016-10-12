@@ -352,8 +352,7 @@
             "layerUsed": true,
             "legendContents": {
                 "description": "Polygon features represent the within-tax-block limits for commercial overlay districts, as shown on the DCP zoning maps.",
-                "listItems": {
-               "listItemsLeft": {
+                "listItemsLeft": {
                     "item1": {
                         "boxDescription": "C1-1",
                         "boxStyle": "background:#fecc03",
