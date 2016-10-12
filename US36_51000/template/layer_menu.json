@@ -126,7 +126,7 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Lower Density Growth Management Areas",
-            "order": 3,
+            "order": 4,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -248,7 +248,7 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Inclusionary Housing",
-            "order": 1,
+            "order": 5,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -309,7 +309,7 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "City Owned & Leased Properties",
-            "order": 1,
+            "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -412,7 +412,7 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Commercial Districts Overlay",
-            "order": 2,
+            "order": 3,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -468,7 +468,7 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Limited Height Zoning Districts",
-            "order": 2,
+            "order": 4,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
