@@ -308,7 +308,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
-            "mouseoverName": "COLP",
+            "mouseoverName": "City Owned & Leased Properties",
             "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
