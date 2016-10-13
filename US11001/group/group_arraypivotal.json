@@ -19,7 +19,7 @@
         }
     ] },
     "start_layers": { "Property Types": "off", "Facilities - Hospitals": "on" },
-    "start_menus": { "Layer_Menu": "off", "Layer_Pivotal": "on" }
+    "start_menus": { "Layer_Menu": "on", "Layer_Pivotal": "on" }
   },
   "layers": {
     "allTheLayers": {

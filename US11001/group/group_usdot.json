@@ -109,7 +109,7 @@
         "order": 0,
         "subCategory": "1",
         "urlLegend": "../../legends/template-legend.jade",
-        "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/AccidentMenu.png"
+        "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-accident-car.png"
         },
         "Crash Fatalities Heatmap": {
             "category": "1",
