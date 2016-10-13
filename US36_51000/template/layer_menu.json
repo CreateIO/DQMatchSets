@@ -307,23 +307,23 @@
                 "description": "This feature class is a spatial representation of the Sidewalk Cafe regulations in the New York City Zoning Resolution, Chapter 1, Article 4.",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Not Permitted",
-                        "boxStyle": "background:#f81d4f; border: 1px solid #f81d4f",
+                        "boxDescription": "Not Permitted (for locations where the zoning would normally permit, but some other regulation prohibits.)",
+                        "boxStyle": "background:#f81d4f",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "Small Only",
-                        "boxStyle": "background:#1fef6; border: 1px solid #1fef6",
+                        "boxStyle": "background:#1fef6f",
                         "imageUrl": null
                     },
                     "item3": {
-                        "boxDescription": "Undesclosed Only",
-                        "boxStyle": "background:#1fe8ef; border: 1px solid #1fe8ef",
+                        "boxDescription": "Undesclosed Only (includes Small)",
+                        "boxStyle": "background:#1fe8ef",
                         "imageUrl": null
                     },
                     "item4": {
-                        "boxDescription": "All Cafes",
-                        "boxStyle": "background:#0877e5; border: 1px solid #0877e5",
+                        "boxDescription": "All Cafes Permitted (includes Enclosed, Unenclosed & Small",
+                        "boxStyle": "background:#0877e5",
                         "imageUrl": null
                     }
                 },
