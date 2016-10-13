@@ -691,7 +691,7 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "WAP"
+                            "param1": "ny_WAP"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -717,6 +717,81 @@
             "menuSection": "LandUse2",
             "mouseoverName": "Waterfront Access Plan",
             "order": 8,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Waterfront Areas": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Waterfront Ares",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_WP"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_PAWS"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Waterfront Areas'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_WP"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_PAWS"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "The Publicly Accessible Waterfront data contains information about waterfront areas accessible to the public that are either publicly owned or on private property. ",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Waterfront Parks (WP)",
+                        "boxStyle": "background:#b097ff",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Publicly Accessible Waterfront Spaces (PAWS)",
+                        "boxStyle": "background:#fd5ece",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning",
+                "type": "singleColumn"
+            },
+            "menuSection": "CityInfo1",
+            "mouseoverName": "Waterfront Areas",
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
