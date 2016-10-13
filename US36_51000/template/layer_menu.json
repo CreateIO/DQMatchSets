@@ -84,7 +84,7 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Special Purpose Districts & Sub-Districts",
-            "order": 6,
+            "order": 7,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -140,7 +140,7 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Lower Density Growth Management Areas",
-            "order": 5,
+            "order": 6,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -262,7 +262,7 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Inclusionary Housing",
-            "order": 3,
+            "order": 4,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -323,7 +323,7 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "City Owned & Leased Properties",
-            "order": 2,
+            "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -482,7 +482,7 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Limited Height Zoning Districts",
-            "order": 4,
+            "order": 5,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -762,8 +762,8 @@
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
-            "mouseoverName": "City Owned & Leased Properties",
-            "order": 2,
+            "mouseoverName": "Fresh Food Stores Zoning",
+            "order": 3,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
