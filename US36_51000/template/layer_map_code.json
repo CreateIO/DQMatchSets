@@ -494,7 +494,6 @@
                 "exists": false
             }
         },
-
         "ny_WP": {
             "name": "ny_WP",
             "removeName": null,
@@ -609,13 +608,6 @@
                 "exists": false
             }
         },
-
-
-
-
-
-
-
         "ny_SidewalkCafes": {
             "name": "ny_SidewalkCafes",
             "removeName": null,
