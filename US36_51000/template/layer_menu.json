@@ -665,30 +665,16 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
-        "Waterfront Areas": {
+        "Waterfront Access Plan": {
             "category": "6",
             "denyList": {
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "Waterfront Areas",
+            "displayName": "Waterfront Access Plan",
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_PAWS"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func2": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_WP"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func3": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
                             "param1": "ny_WAP"
@@ -698,25 +684,11 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'NY Data: Waterfront Areas'"
+                        "param1": "'NY Data: Waterfront Access Plan Zoning Overlay'"
                     }
                 },
                 "removeFunctions": {
                     "func1": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_PAWS"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func2": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_WP"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func3": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
                             "param1": "WAP"
@@ -730,21 +702,11 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Waterfront Areas are ...<br><br>Zoom in to see labels. Click on WP & PAWS areas for more info.",
+                "description": "A Waterfront Access Plan is a detailed framework set forth in the Zoning Resolution, that tailors waterfront bulk regulations and public access requirements to the specific conditions of a particular waterfront. Development of individual waterfront parcels governed by the plan triggers a requirement to build and maintain public access areas in accordance with the WAP.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Waterfront Access Plan (WAP)",
                         "boxStyle": "background:#ffffff; border: 2px solid #fd5e63",
-                        "imageUrl": null
-                    },
-                    "item2": {
-                        "boxDescription": "Waterfront Parks (WP)",
-                        "boxStyle": "background:#b097ff",
-                        "imageUrl": null
-                    },
-                    "item3": {
-                        "boxDescription": "Publicly Accessible Waterfront Spaces (PAWS)",
-                        "boxStyle": "background:#fd5ece",
                         "imageUrl": null
                     }
                 },
@@ -753,7 +715,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
-            "mouseoverName": "Waterfront Areas",
+            "mouseoverName": "Waterfront Access Plan",
             "order": 8,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
