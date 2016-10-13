@@ -702,6 +702,72 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png"
         },
+        "Fresh Food Stores Zoning": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Fresh Food Stores Zoning",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_FreshFoodStoresZoning"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Fresh Food Stores Zoning'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_FreshFoodStoresZoning"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "FRESH boundaries where zoning and discretionary tax incentives are available for the development, expansion and renovation of full line grocery stores and supermarkets.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Descretionary tax incentives",
+                        "boxStyle": "background:#fbc709",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Zoning and disretionary tax incentives",
+                        "boxStyle": "background:#fb9709",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Zoning incentives",
+                        "boxStyle": "background:#fb5a09",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "Fresh Food Stores Zoning",
+                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "Incentives",
+            "mouseoverName": "City Owned & Leased Properties",
+            "order": 2,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
         "Zoning Districts": {
             "category": "6",
             "denyList": {
