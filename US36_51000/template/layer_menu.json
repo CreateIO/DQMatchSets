@@ -665,6 +665,100 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
+        "Waterfront Areas": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Waterfront Areas",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_PAWS"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_WP"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func3": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_WAP"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Waterfront Areas'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_PAWS"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_WP"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func3": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "WAP"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Waterfront Areas are ...<br><br>Zoom in to see labels. Click on WP & PAWS areas for more info.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Waterfront Access Plan (WAP)",
+                        "boxStyle": "background:#ffffff; border: 2px solid #fd5e63",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Waterfront Parks (WP)",
+                        "boxStyle": "background:#b097ff",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Publicly Accessible Waterfront Spaces (PAWS)",
+                        "boxStyle": "background:#fd5ece",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse2",
+            "mouseoverName": "Waterfront Areas",
+            "order": 8,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
         "Property Use Types": {
             "category": "6",
             "denyList": {
@@ -1000,6 +1094,13 @@
             "permissions": null,
             "redact": false,
             "title": "Natural Hazards"
+        },
+        "Pivitol1": {
+            "order": 4,
+            "parentTab": "Pivitol",
+            "permissions": "Pivitol",
+            "redact": false,
+            "title": "Pivitol"
         }
     },
     "allTheTabs": {
@@ -1030,6 +1131,13 @@
             "permissions": null,
             "redact": false,
             "title": "Land Use"
+        },
+        "Pivitol": {
+            "isActive": false,
+            "order": 0,
+            "permissions": null,
+            "redact": false,
+            "title": "Pivitol"
         }
     }
 }
