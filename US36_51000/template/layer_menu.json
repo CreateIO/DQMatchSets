@@ -702,7 +702,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "A Waterfront Access Plan is a detailed framework set forth in the Zoning Resolution, that tailors waterfront bulk regulations and public access requirements to the specific conditions of a particular waterfront. Development of individual waterfront parcels governed by the plan triggers a requirement to build and maintain public access areas in accordance with the WAP.",
+                "description": "A waterfront access plan is a detailed framework set forth in the Zoning Resolution, that tailors waterfront bulk regulations and public access requirements to the specific conditions of a particular waterfront. Development of individual waterfront parcels governed by the plan trig­gers a requirement to build and maintain public access areas in accordance with the WAP.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Waterfront Access Plan (WAP)",
@@ -772,7 +772,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "The Publicly Accessible Waterfront data contains information about waterfront areas accessible to the public that are either publicly owned or on private property. ",
+                "description": "A waterfront area is the geographical area adjacent to a body of water at least 100 feet wide, comprising all blocks between the pierhead line and a parallel line 800 feet landward from the shoreline. Blocks within the waterfront area are subject to waterfront zoning regulations.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Waterfront Parks (WP)",
@@ -941,7 +941,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "FRESH boundaries where zoning and discretionary tax incentives are available for the development, expansion and renovation of full line grocery stores and supermarkets.",
+                "description": "A FRESH food store is a full-line grocery store, established in underserved neighborhoods through zoning incentives, that promotes the sale of fresh food products.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Descretionary tax incentives",
