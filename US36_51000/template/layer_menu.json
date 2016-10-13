@@ -706,7 +706,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Waterfront Access Plan (WAP)",
-                        "boxStyle": "background:#ffffff; border: 2px solid #fd5e63",
+                        "boxStyle": "background:#fd5e63",
                         "imageUrl": null
                     }
                 },
