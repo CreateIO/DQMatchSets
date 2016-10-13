@@ -494,6 +494,128 @@
                 "exists": false
             }
         },
+
+        "ny_WP": {
+            "name": "ny_WP",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_WP",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_WP@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.31,
+                    "yMin": 40.48,
+                    "xMax": -73.65,
+                    "yMax": 40.93
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_WAP": {
+            "name": "ny_WAP",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_WAP",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_WAP@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.31,
+                    "yMin": 40.48,
+                    "xMax": -73.65,
+                    "yMax": 40.93
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_PAWS": {
+            "name": "ny_PAWS",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_PAWS",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_PAWS@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.31,
+                    "yMin": 40.48,
+                    "xMax": -73.65,
+                    "yMax": 40.93
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+
+
+
+
+
+
+
         "ny_SidewalkCafes": {
             "name": "ny_SidewalkCafes",
             "removeName": null,
