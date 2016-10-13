@@ -514,10 +514,10 @@
                 "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_WP@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
-                    "xMin": -74.31,
-                    "yMin": 40.48,
-                    "xMax": -73.65,
-                    "yMax": 40.93
+                    "xMin": -74.30,
+                    "yMin": 40.49,
+                    "xMax": -73.70,
+                    "yMax": 40.91
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
@@ -552,10 +552,10 @@
                 "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_WAP@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
-                    "xMin": -74.31,
-                    "yMin": 40.48,
-                    "xMax": -73.65,
-                    "yMax": 40.93
+                    "xMin": -73.97,
+                    "yMin": 40.72,
+                    "xMax": -73.83,
+                    "yMax": 40.82
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
@@ -590,10 +590,10 @@
                 "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_PAWS@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
-                    "xMin": -74.31,
-                    "yMin": 40.48,
-                    "xMax": -73.65,
-                    "yMax": 40.93
+                    "xMin": -74.28,
+                    "yMin": 40.50,
+                    "xMax": -73.74,
+                    "yMax": 40.88
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
