@@ -267,6 +267,77 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
+        "Sidewalk Cafes": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Sidewalk Cafes",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SidewalkCafes"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Sidwwalk Cafes'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SidewalkCafes"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "This feature class is a spatial representation of the Sidewalk Cafe regulations in the New York City Zoning Resolution, Chapter 1, Article 4.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Not Permitted",
+                        "boxStyle": "background:#f81d4f; border: 1px solid #f81d4f",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Small Only",
+                        "boxStyle": "background:#1fef6; border: 1px solid #1fef6",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Undesclosed Only",
+                        "boxStyle": "background:#1fe8ef; border: 1px solid #1fe8ef",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "All Cafes",
+                        "boxStyle": "background:#0877e5; border: 1px solid #0877e5",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse2",
+            "mouseoverName": "Sidewalk Cafes",
+            "order": 8,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
         "City Owned & Leased Properties": {
             "category": "6",
             "denyList": {
