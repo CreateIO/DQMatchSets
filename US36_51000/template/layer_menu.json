@@ -789,7 +789,7 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning",
                 "type": "singleColumn"
             },
-            "menuSection": "",
+            "menuSection": "CityInfo1",
             "mouseoverName": "Waterfront Areas",
             "order": 1,
             "subCategory": "3",
