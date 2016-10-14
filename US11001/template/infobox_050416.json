@@ -1371,7 +1371,7 @@
             },
             "viewDetailsBox":false,
             "wdcepDetailsBox":false,
-            "header":"ZONING_LAB",
+            "header":"ZONING_LAB + 'test this' + ZONE_DISTR",
             "streetView": false,
             "boxValues":{
                 "field1":{
