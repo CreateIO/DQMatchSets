@@ -114,6 +114,44 @@
                 "exists": false
             }
         },
+        "ny_PublicUseMicrodataAreas": {
+            "name": "ny_PublicUseMicrodataAreas",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_PublicUseMicrodataAreas",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_PublicUseMicrodataAreas@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.27,
+                    "yMin": 40.47,
+                    "xMax": -73.69,
+                    "yMax": 40.94
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
         "ny_SpecialPurposeDistricts_base": {
             "name": "ny_SpecialPurposeDistricts_base",
             "removeName": null,
