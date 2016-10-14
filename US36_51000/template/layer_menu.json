@@ -721,6 +721,62 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
+        "Public Use Microdata Areas": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Public Use Microdata Areas",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_PublicUseMicrodataAreas"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Public Use Microdata Areas'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_PublicUseMicrodataAreas"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "The 2010 NYC Public Use Microdata Areas (PUMAs) are statistical geographic areas defined for the dissemination of Public Use Microdata Sample (PUMS) data.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Public Use Microdata Areas",
+                        "boxStyle": "background:#346eca",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning",
+                "type": "singleColumn"
+            },
+            "menuSection": "CityInfo1",
+            "mouseoverName": "Public Use Microdata Areas",
+            "order": 8,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
         "Waterfront Access Plan": {
             "category": "6",
             "denyList": {
