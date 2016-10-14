@@ -1355,6 +1355,32 @@
                     "units":null
                 }
             }
+        },
+        "dc_zoning":{
+            "referenceid":"OBJECTID",
+            "propertyid":"OBJECTID",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"ZONING_LAB + 'test this' + ZONE_DISTR",
+            "streetView": false,
+            "boxValues":{
+                "field1":{
+                    "value":"ZONE_DESCR",
+                    "display":"Description: ",
+                    "fieldtype":"text",
+                    "units":null
+                }
+            }
         }
     }
 }

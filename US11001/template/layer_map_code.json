@@ -205,7 +205,7 @@
                 "minimumLevel": 1,
                 "maximumLevel": 20,
                 "alpha": 1,
-                "tmsStyle": "OGC"
+                "tmsStyle": "GWC"
             },
             "rasters": {
                 "exists": false
