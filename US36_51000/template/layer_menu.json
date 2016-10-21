@@ -1149,66 +1149,66 @@
             "legendContents": {
                 "description": "New York City Subway lines, stations & entrances.",
                 "listItemsLeft": {
-                    "item1": {
+                    "item00": {
                         "boxDescription": "Lines 1, 2 & 3",
-                        "boxStyle": "background:#ffffff; border: 2px dash #ff0000",
+                        "boxStyle": "background:#ffffff; border: 3px solid #ff0000",
                         "imageUrl": null
                     },
-                    "item2": {
+                    "item01": {
                         "boxDescription": "Lines B, D, F & M",
-                        "boxStyle": "background:#ffffff; border: 2px dash #fdae61",
+                        "boxStyle": "background:#ffffff; border: 3px dash #fdae61",
                         "imageUrl": null
                     },
-                    "item3": {
+                    "item02": {
                         "boxDescription": "Lines 4, 5 & 6",
-                        "boxStyle": "background:#ffffff; border: 2px dash #19aa83",
+                        "boxStyle": "background:#ffffff; border: 3px dash #19aa83",
                         "imageUrl": null
                     },
-                    "item4": {
+                    "item03": {
                         "boxDescription": "Lines G, GS & H",
-                        "boxStyle": "background:#ffffff; border: 2px dash #6cbe45",
+                        "boxStyle": "background:#ffffff; border: 3px dash #6cbe45",
                         "imageUrl": null
                     },
-                    "item5": {
+                    "item04": {
                         "boxDescription": "Lines A, C & E",
-                        "boxStyle": "background:#ffffff; border: 2px dash #2850ad",
+                        "boxStyle": "background:#ffffff; border: 3px dash #2850ad",
                         "imageUrl": null
                     },
-                    "item6": {
+                    "item05": {
                         "boxDescription": "Line 7",
-                        "boxStyle": "background:#ffffff; border: 2px dash #b933ad",
+                        "boxStyle": "background:#ffffff; border: 3px dash #b933ad",
                         "imageUrl": null
                     }
                 },
                 "listItemsRight": {
-                    "item1": {
+                    "item06": {
                         "boxDescription": "Lines J & Z",
-                        "boxStyle": "background:#ffffff; border: 2px dash #896d46",
+                        "boxStyle": "background:#ffffff; border: 3px dash #896d46",
                         "imageUrl": null
                     },
-                    "item2": {
+                    "item07": {
                         "boxDescription": "Line L",
-                        "boxStyle": "background:#ffffff; border: 2px dash #a7a9ac",
+                        "boxStyle": "background:#ffffff; border: 3px dash #a7a9ac",
                         "imageUrl": null
                     },
-                    "item3": {
+                    "item08": {
                         "boxDescription": "Lines N, Q & R",
-                        "boxStyle": "background:#ffffff; border: 2px dash #f8e701",
+                        "boxStyle": "background:#ffffff; border: 3px dash #f8e701",
                         "imageUrl": null
                     },
-                    "item4": {
+                    "item09": {
                         "boxDescription": "Line SI",
-                        "boxStyle": "background:#ffffff; border: 2px dash #808183",
+                        "boxStyle": "background:#ffffff; border: 3px dash #808183",
                         "imageUrl": null
                     },
-                    "item5": {
+                    "item010": {
                         "boxDescription": "Subway Stations",
                         "boxStyle": "background:#000000; border-radius: 15px; border: 1px solid #ffffff",
                         "imageUrl": null
                     },
-                    "item6": {
+                    "item011": {
                         "boxDescription": "Subway Entrances",
-                        "boxStyle": "background:#dbdee1; border: 1px solid #a7a9ac",
+                        "boxStyle": "background:#ffffff; border: 1px solid #000000",
                         "imageUrl": null
                     }
                 },
