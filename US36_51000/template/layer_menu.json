@@ -1151,64 +1151,64 @@
                 "listItemsLeft": {
                     "item00": {
                         "boxDescription": "Routes 1, 2 & 3",
-                        "boxStyle": "background:#ffffff; border: 1px dashed #ff0000",
+                        "boxStyle": "background:#ff0000",
                         "imageUrl": null
                     },
                     "item01": {
                         "boxDescription": "Routes B, D, F & M",
-                        "boxStyle": "background:#ffffff; border: 1px dashed #fdae61",
+                        "boxStyle": "background:#fdae61",
                         "imageUrl": null
                     },
                     "item02": {
                         "boxDescription": "Routes 4, 5 & 6",
-                        "boxStyle": "background:#ffffff; border: 1px dashed #19aa83",
+                        "boxStyle": "background:#19aa83",
                         "imageUrl": null
                     },
                     "item03": {
                         "boxDescription": "Routes G, GS & H",
-                        "boxStyle": "background:#ffffff; border: 1px dashed #6cbe45",
+                        "boxStyle": "background:#6cbe45",
                         "imageUrl": null
                     },
                     "item04": {
                         "boxDescription": "Routes A, C & E",
-                        "boxStyle": "background:#ffffff; border: 1px dashed #2850ad",
+                        "boxStyle": "background:#2850ad",
                         "imageUrl": null
                     },
                     "item05": {
                         "boxDescription": "Route 7",
-                        "boxStyle": "background:#ffffff; border: 1px dashed #b933ad",
+                        "boxStyle": "background:#b933ad",
                         "imageUrl": null
                     }
                 },
                 "listItemsRight": {
                     "item06": {
                         "boxDescription": "Routes J & Z",
-                        "boxStyle": "background:#ffffff; border: 1px dashed #896d46",
+                        "boxStyle": "background:#896d46",
                         "imageUrl": null
                     },
                     "item07": {
                         "boxDescription": "Route L",
-                        "boxStyle": "background:#ffffff; border: 1px dashed #a7a9ac",
+                        "boxStyle": "background:#a7a9ac",
                         "imageUrl": null
                     },
                     "item08": {
                         "boxDescription": "Routes N, Q & R",
-                        "boxStyle": "background:#ffffff; border: 1px dashed #f8e701",
+                        "boxStyle": "background:#f8e701",
                         "imageUrl": null
                     },
                     "item09": {
                         "boxDescription": "Route SI",
-                        "boxStyle": "background:#ffffff; border: 1px dashed #808183",
+                        "boxStyle": "background:#808183",
                         "imageUrl": null
                     },
                     "item091": {
                         "boxDescription": "Subway Stations",
-                        "boxStyle": "background:#000000; border-radius: 15px; border: 1px solid #ffffff",
+                        "boxStyle": "background:#dbdee1; border-radius: 15px; border: 1px solid #ffffff",
                         "imageUrl": null
                     },
                     "item092": {
                         "boxDescription": "Subway Entrances",
-                        "boxStyle": "background:#ffffff; border: 1px solid #000000",
+                        "boxStyle": "background:#ffffff; border: 1px solid #555555",
                         "imageUrl": null
                     }
                 },
