@@ -1156,57 +1156,57 @@
                     },
                     "item01": {
                         "boxDescription": "Lines B, D, F & M",
-                        "boxStyle": "background:#ffffff; border: 3px dash #fdae61",
+                        "boxStyle": "background:#ffffff; border: 3px solid #fdae61",
                         "imageUrl": null
                     },
                     "item02": {
                         "boxDescription": "Lines 4, 5 & 6",
-                        "boxStyle": "background:#ffffff; border: 3px dash #19aa83",
+                        "boxStyle": "background:#ffffff; border: 3px solid #19aa83",
                         "imageUrl": null
                     },
                     "item03": {
                         "boxDescription": "Lines G, GS & H",
-                        "boxStyle": "background:#ffffff; border: 3px dash #6cbe45",
+                        "boxStyle": "background:#ffffff; border: 3px solid #6cbe45",
                         "imageUrl": null
                     },
                     "item04": {
                         "boxDescription": "Lines A, C & E",
-                        "boxStyle": "background:#ffffff; border: 3px dash #2850ad",
+                        "boxStyle": "background:#ffffff; border: 3px solid #2850ad",
                         "imageUrl": null
                     },
                     "item05": {
                         "boxDescription": "Line 7",
-                        "boxStyle": "background:#ffffff; border: 3px dash #b933ad",
+                        "boxStyle": "background:#ffffff; border: 3px solid #b933ad",
                         "imageUrl": null
                     }
                 },
                 "listItemsRight": {
                     "item06": {
                         "boxDescription": "Lines J & Z",
-                        "boxStyle": "background:#ffffff; border: 3px dash #896d46",
+                        "boxStyle": "background:#ffffff; border: 3px solid #896d46",
                         "imageUrl": null
                     },
                     "item07": {
                         "boxDescription": "Line L",
-                        "boxStyle": "background:#ffffff; border: 3px dash #a7a9ac",
+                        "boxStyle": "background:#ffffff; border: 3px solid #a7a9ac",
                         "imageUrl": null
                     },
                     "item08": {
                         "boxDescription": "Lines N, Q & R",
-                        "boxStyle": "background:#ffffff; border: 3px dash #f8e701",
+                        "boxStyle": "background:#ffffff; border: 3px solid #f8e701",
                         "imageUrl": null
                     },
                     "item09": {
                         "boxDescription": "Line SI",
-                        "boxStyle": "background:#ffffff; border: 3px dash #808183",
+                        "boxStyle": "background:#ffffff; border: 3px solid #808183",
                         "imageUrl": null
                     },
-                    "item010": {
+                    "item091": {
                         "boxDescription": "Subway Stations",
                         "boxStyle": "background:#000000; border-radius: 15px; border: 1px solid #ffffff",
                         "imageUrl": null
                     },
-                    "item011": {
+                    "item092": {
                         "boxDescription": "Subway Entrances",
                         "boxStyle": "background:#ffffff; border: 1px solid #000000",
                         "imageUrl": null
