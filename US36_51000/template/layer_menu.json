@@ -1151,62 +1151,62 @@
                 "listItemsLeft": {
                     "item1": {
                         "boxDescription": "Lines 1, 2 & 3",
-                        "boxStyle": "background:#ffffff; border: 1px solid #ff0000",
+                        "boxStyle": "background:#ffffff; border: 2px dash #ff0000",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "Lines B, D, F & M",
-                        "boxStyle": "background:#ffffff; border: 1px solid #fdae61",
+                        "boxStyle": "background:#ffffff; border: 2px dash #fdae61",
                         "imageUrl": null
                     },
                     "item3": {
                         "boxDescription": "Lines 4, 5 & 6",
-                        "boxStyle": "background:#ffffff; border: 1px solid #19aa83",
+                        "boxStyle": "background:#ffffff; border: 2px dash #19aa83",
                         "imageUrl": null
                     },
                     "item4": {
                         "boxDescription": "Lines G, GS & H",
-                        "boxStyle": "background:#ffffff; border: 1px solid #6cbe45",
+                        "boxStyle": "background:#ffffff; border: 2px dash #6cbe45",
                         "imageUrl": null
                     },
                     "item5": {
                         "boxDescription": "Lines A, C & E",
-                        "boxStyle": "background:#ffffff; border: 1px solid #2850ad",
+                        "boxStyle": "background:#ffffff; border: 2px dash #2850ad",
                         "imageUrl": null
                     },
                     "item6": {
                         "boxDescription": "Line 7",
-                        "boxStyle": "background:#ffffff; border: 1px solid #b933ad",
+                        "boxStyle": "background:#ffffff; border: 2px dash #b933ad",
                         "imageUrl": null
                     }
                 },
                 "listItemsRight": {
-                    "item7": {
+                    "item1": {
                         "boxDescription": "Lines J & Z",
-                        "boxStyle": "background:#ffffff; border: 1px solid #896d46",
+                        "boxStyle": "background:#ffffff; border: 2px dash #896d46",
                         "imageUrl": null
                     },
-                    "item8": {
+                    "item2": {
                         "boxDescription": "Line L",
-                        "boxStyle": "background:#ffffff; border: 1px solid #a7a9ac",
+                        "boxStyle": "background:#ffffff; border: 2px dash #a7a9ac",
                         "imageUrl": null
                     },
-                    "item9": {
+                    "item3": {
                         "boxDescription": "Lines N, Q & R",
-                        "boxStyle": "background:#ffffff; border: 1px solid #f8e701",
+                        "boxStyle": "background:#ffffff; border: 2px dash #f8e701",
                         "imageUrl": null
                     },
-                    "item10": {
+                    "item4": {
                         "boxDescription": "Line SI",
-                        "boxStyle": "background:#ffffff; border: 1px solid #808183",
+                        "boxStyle": "background:#ffffff; border: 2px dash #808183",
                         "imageUrl": null
                     },
-                    "item11": {
+                    "item5": {
                         "boxDescription": "Subway Stations",
                         "boxStyle": "background:#000000; border-radius: 15px; border: 1px solid #ffffff",
                         "imageUrl": null
                     },
-                    "item12": {
+                    "item6": {
                         "boxDescription": "Subway Entrances",
                         "boxStyle": "background:#dbdee1; border: 1px solid #a7a9ac",
                         "imageUrl": null
@@ -1217,7 +1217,7 @@
                 "type": "doubleColumn"
             },
             "menuSection": "CityInfo2",
-            "mouseoverName": "Subway System",
+            "mouseoverName": "NYC Subway System",
             "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
