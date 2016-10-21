@@ -628,7 +628,7 @@
                 "extension": "png",
                 "coords": {
                     "xMin": -73.97,
-                    "yMin": 40.72,
+                    "yMin": 40.71,
                     "xMax": -73.83,
                     "yMax": 40.82
                 },
@@ -745,6 +745,120 @@
                     "yMin": 40.55,
                     "xMax": -73.70,
                     "yMax": 40.92
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_SubwayRoutes": {
+            "name": "ny_SubwayRoutes",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_SubwayRoutes",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SubwayRoutes@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.31,
+                    "yMin": 40.50,
+                    "xMax": -73.70,
+                    "yMax": 40.91
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_SubwayStations": {
+            "name": "ny_SubwayStations",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_SubwayStations",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SubwayStations@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.15,
+                    "yMin": 40.57,
+                    "xMax": -73.64,
+                    "yMax": 40.91
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_SubwayEntrances": {
+            "name": "ny_SubwayEntrances",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_SubwayEntrances",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SubwayEntrances@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.31,
+                    "yMin": 40.50,
+                    "xMax": -73.70,
+                    "yMax": 40.91
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,

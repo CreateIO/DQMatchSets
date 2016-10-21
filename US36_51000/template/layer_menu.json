@@ -1082,6 +1082,147 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
+        "NYC Subway System": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "NYC Subway System",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SubwayRoutes"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SubwayEntrances"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func3": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SubwayStations"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: NYC Subway System'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SubwayRoutes"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SubwayEntrances"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func3": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SubwayStations"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "New York City Subway lines, stations & entrances.",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxDescription": "Lines 1, 2 & 3",
+                        "boxStyle": "background:#ffffff; border: 1px solid #ff0000",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Lines B, D, F & M",
+                        "boxStyle": "background:#ffffff; border: 1px solid #fdae61",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Lines 4, 5 & 6",
+                        "boxStyle": "background:#ffffff; border: 1px solid #19aa83",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "Lines G, GS & H",
+                        "boxStyle": "background:#ffffff; border: 1px solid #6cbe45",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "Lines A, C & E",
+                        "boxStyle": "background:#ffffff; border: 1px solid #2850ad",
+                        "imageUrl": null
+                    },
+                    "item6": {
+                        "boxDescription": "Line 7",
+                        "boxStyle": "background:#ffffff; border: 1px solid #b933ad",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item7": {
+                        "boxDescription": "Lines J & Z",
+                        "boxStyle": "background:#ffffff; border: 1px solid #896d46",
+                        "imageUrl": null
+                    },
+                    "item8": {
+                        "boxDescription": "Line L",
+                        "boxStyle": "background:#ffffff; border: 1px solid #a7a9ac",
+                        "imageUrl": null
+                    },
+                    "item9": {
+                        "boxDescription": "Lines N, Q & R",
+                        "boxStyle": "background:#ffffff; border: 1px solid #f8e701",
+                        "imageUrl": null
+                    },
+                    "item10": {
+                        "boxDescription": "Line SI",
+                        "boxStyle": "background:#ffffff; border: 1px solid #808183",
+                        "imageUrl": null
+                    },
+                    "item11": {
+                        "boxDescription": "Subway Stations",
+                        "boxStyle": "background:#000000; border-radius: 15px; border: 1px solid #ffffff",
+                        "imageUrl": null
+                    },
+                    "item12": {
+                        "boxDescription": "Subway Entrances",
+                        "boxStyle": "background:#dbdee1; border: 1px solid #a7a9ac",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Open Data",
+                "sourceURL": "https://data.cityofnewyork.us/",
+                "type": "doubleColumn"
+            },
+            "menuSection": "CityInfo2",
+            "mouseoverName": "Subway System",
+            "order": 2,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
         "Zoning Districts": {
             "category": "6",
             "denyList": {
