@@ -1150,55 +1150,55 @@
                 "description": "New York City Subway lines, stations & entrances.",
                 "listItemsLeft": {
                     "item00": {
-                        "boxDescription": "Lines 1, 2 & 3",
-                        "boxStyle": "background:#ffffff; border: 3px solid #ff0000",
+                        "boxDescription": "Routes 1, 2 & 3",
+                        "boxStyle": "background:#ffffff; border: 3px dashed #ff0000",
                         "imageUrl": null
                     },
                     "item01": {
-                        "boxDescription": "Lines B, D, F & M",
-                        "boxStyle": "background:#ffffff; border: 3px solid #fdae61",
+                        "boxDescription": "Routes B, D, F & M",
+                        "boxStyle": "background:#ffffff; border: 3px dashed #fdae61",
                         "imageUrl": null
                     },
                     "item02": {
-                        "boxDescription": "Lines 4, 5 & 6",
-                        "boxStyle": "background:#ffffff; border: 3px solid #19aa83",
+                        "boxDescription": "Routes 4, 5 & 6",
+                        "boxStyle": "background:#ffffff; border: 3px dashed #19aa83",
                         "imageUrl": null
                     },
                     "item03": {
-                        "boxDescription": "Lines G, GS & H",
-                        "boxStyle": "background:#ffffff; border: 3px solid #6cbe45",
+                        "boxDescription": "Routes G, GS & H",
+                        "boxStyle": "background:#ffffff; border: 3px dashed #6cbe45",
                         "imageUrl": null
                     },
                     "item04": {
-                        "boxDescription": "Lines A, C & E",
-                        "boxStyle": "background:#ffffff; border: 3px solid #2850ad",
+                        "boxDescription": "Routes A, C & E",
+                        "boxStyle": "background:#ffffff; border: 3px dashed #2850ad",
                         "imageUrl": null
                     },
                     "item05": {
-                        "boxDescription": "Line 7",
-                        "boxStyle": "background:#ffffff; border: 3px solid #b933ad",
+                        "boxDescription": "Route 7",
+                        "boxStyle": "background:#ffffff; border: 3px dashed #b933ad",
                         "imageUrl": null
                     }
                 },
                 "listItemsRight": {
                     "item06": {
-                        "boxDescription": "Lines J & Z",
-                        "boxStyle": "background:#ffffff; border: 3px solid #896d46",
+                        "boxDescription": "Routes J & Z",
+                        "boxStyle": "background:#ffffff; border: 3px dashed #896d46",
                         "imageUrl": null
                     },
                     "item07": {
-                        "boxDescription": "Line L",
-                        "boxStyle": "background:#ffffff; border: 3px solid #a7a9ac",
+                        "boxDescription": "Route L",
+                        "boxStyle": "background:#ffffff; border: 3px dashed #a7a9ac",
                         "imageUrl": null
                     },
                     "item08": {
-                        "boxDescription": "Lines N, Q & R",
-                        "boxStyle": "background:#ffffff; border: 3px solid #f8e701",
+                        "boxDescription": "Routes N, Q & R",
+                        "boxStyle": "background:#ffffff; border: 3px dashed #f8e701",
                         "imageUrl": null
                     },
                     "item09": {
-                        "boxDescription": "Line SI",
-                        "boxStyle": "background:#ffffff; border: 3px solid #808183",
+                        "boxDescription": "Route SI",
+                        "boxStyle": "background:#ffffff; border: 3px dashed #808183",
                         "imageUrl": null
                     },
                     "item091": {
