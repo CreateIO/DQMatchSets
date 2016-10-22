@@ -1,1047 +1,1360 @@
 {
-  "$template": "infobox",
-  "infoboxContent": {
-    "ArrayCompetitorLocations_4": {
-      "referenceid": "UNIQUEID",
-      "propertyid": "UNIQUEID",
-      "offset": null,
-      "fieldtype": "business",
-      "resourceType": "array",
-      "photos": {
-        "active": true,
-        "value": null
-      },
-      "pdfs": {
-        "active": false,
-        "value": null
-      },
-      "viewDetailsBoxArray": true,
-      "wdcepDetailsBox": false,
-      "header": "HOSP_NAME",
-      "boxValues": {
-        "field2": {
-          "value": "FULL_ADDRE",
-          "display": "Address: ",
-          "fieldtype": "text",
-          "units": null
+    "infoboxContent":{
+      "ArrayCompetitorLocations_4":{
+        "referenceid":"UNIQUEID",
+        "propertyid":"UNIQUEID",
+        "offset":null,
+        "fieldtype":"business",
+        "resourceType":"array",
+        "photos":{
+          "active":true,
+          "value":null
         },
-        "field3": {
-          "value": "PHONE",
-          "display": "Phone: ",
-          "fieldtype": "text",
-          "units": null
+        "pdfs":{
+          "active":false,
+          "value":null
         },
-        "field4": {
-          "value": "URL",
-          "display": "URL: ",
-          "fieldtype": "text",
-          "units": null
+        "viewDetailsBoxArray":true,
+        "wdcepDetailsBox":false,
+        "header":"HOSP_NAME",
+        "boxValues":{
+          "field2":{
+            "value":"FULL_ADDRE",
+            "display":"Address: ",
+            "fieldtype":"text",
+            "units":null
+          },
+          "field3":{
+            "value":"PHONE",
+            "display":"Phone: ",
+            "fieldtype":"text",
+            "units":null
+          },
+          "field4":{
+            "value":"URL",
+            "display":"URL: ",
+            "fieldtype":"text",
+            "units":null
+          }
         }
-      }
-    },
-    "wdcep_resi_com_data": {
-      "referenceid": "UNIQUEID",
-      "propertyid": null,
-      "offset": null,
-      "fieldtype": "residential",
-      "photos": {
-        "active": false,
-        "value": null
       },
-      "pdfs": {
-        "active": false,
-        "value": null
-      },
-      "viewDetailsBox": false,
-      "wdcepDetailsBox": false,
-      "header": "project",
-      "boxValues": {
-        "field2": {
-          "value": "majoruse",
-          "display": "Use: ",
-          "fieldtype": "text",
-          "units": null
+        "wdcep_resi_com_data":{
+            "referenceid":"UNIQUEID",
+            "propertyid":null,
+            "offset":null,
+            "fieldtype":"residential",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"project",
+            "boxValues":{
+                "field2":{
+                    "value":"majoruse",
+                    "display":"Use: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"status",
+                    "display":"Status: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"delivery",
+                    "display":"Delivery: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field5":{
+                    "value":"totalsf",
+                    "display":"Total SF: ",
+                    "fieldtype":"number",
+                    "units":" SF"
+                },
+                "field6":{
+                    "value":"resunits",
+                    "display":"Total Units: ",
+                    "fieldtype":"number",
+                    "units":"units"
+                },
+                "field7":{
+                    "value":"developers",
+                    "display":"Developers: ",
+                    "fieldtype":"longText",
+                    "units":null
+                },
+                "field8":{
+                    "value":"http://www.wdcep.com/",
+                    "display":"Source: ",
+                    "fieldtype":"hardAttr",
+                    "units":"WDCEP"
+                }
+            }
         },
-        "field3": {
-          "value": "status",
-          "display": "Status: ",
-          "fieldtype": "text",
-          "units": null
+        "wdcep_resi_pipeline_data":{
+            "referenceid":"UNIQUEID",
+            "propertyid":null,
+            "offset":null,
+            "fieldtype":"residential",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"project",
+            "boxValues":{
+                "field2":{
+                    "value":"majoruse",
+                    "display":"Use: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"status",
+                    "display":"Status: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"delivery",
+                    "display":"Delivery: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field5":{
+                    "value":"totalsf",
+                    "display":"Total SF: ",
+                    "fieldtype":"number",
+                    "units":" SF"
+                },
+                "field6":{
+                    "value":"resunits",
+                    "display":"Total Units: ",
+                    "fieldtype":"number",
+                    "units":"units"
+                },
+                "field7":{
+                    "value":"developers",
+                    "display":"Developers: ",
+                    "fieldtype":"longText",
+                    "units":null
+                },
+                "field8":{
+                    "value":"http://www.wdcep.com/",
+                    "display":"Source: ",
+                    "fieldtype":"hardAttr",
+                    "units":"WDCEP"
+                }
+            }
         },
-        "field4": {
-          "value": "delivery",
-          "display": "Delivery: ",
-          "fieldtype": "text",
-          "units": null
+        "wdcep_retail_com_data":{
+            "referenceid":"UNIQUEID",
+            "propertyid":null,
+            "offset":null,
+            "fieldtype":"retail",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"project",
+            "boxValues":{
+                "field2":{
+                    "value":"majoruse",
+                    "display":"Use: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"status",
+                    "display":"Status: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"delivery",
+                    "display":"Delivery: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field5":{
+                    "value":"totalsf",
+                    "display":"Total SF: ",
+                    "fieldtype":"number",
+                    "units":" SF"
+                },
+                "field6":{
+                    "value":"retailsf",
+                    "display":"Retail SF: ",
+                    "fieldtype":"number",
+                    "units":" SF"
+                },
+                "field7":{
+                    "value":"developers",
+                    "display":"Developers: ",
+                    "fieldtype":"longText",
+                    "units":null
+                },
+                "field8":{
+                    "value":"http://www.wdcep.com/",
+                    "display":"Source: ",
+                    "fieldtype":"hardAttr",
+                    "units":"WDCEP"
+                }
+            }
         },
-        "field5": {
-          "value": "totalsf",
-          "display": "Total SF: ",
-          "fieldtype": "number",
-          "units": " SF"
+        "wdcep_retail_pipeline_data":{
+            "referenceid":"UNIQUEID",
+            "propertyid":null,
+            "offset":null,
+            "fieldtype":"retail",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"project",
+            "boxValues":{
+                "field2":{
+                    "value":"majoruse",
+                    "display":"Use: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"status",
+                    "display":"Status: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"delivery",
+                    "display":"Delivery: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field5":{
+                    "value":"totalsf",
+                    "display":"Total SF: ",
+                    "fieldtype":"number",
+                    "units":" SF"
+                },
+                "field6":{
+                    "value":"retailsf",
+                    "display":"Retail SF: ",
+                    "fieldtype":"number",
+                    "units":" SF"
+                },
+                "field7":{
+                    "value":"developers",
+                    "display":"Developers: ",
+                    "fieldtype":"longText",
+                    "units":null
+                },
+                "field8":{
+                    "value":"http://www.wdcep.com/",
+                    "display":"Source: ",
+                    "fieldtype":"hardAttr",
+                    "units":"WDCEP"
+                }
+            }
         },
-        "field6": {
-          "value": "resunits",
-          "display": "Total Units: ",
-          "fieldtype": "number",
-          "units": "units"
+        "wdcep_pharm_data":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"property_id",
+            "offset":197,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"location",
+            "boxValues":{
+                "field1":{
+                    "value":"label",
+                    "display":"Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"project",
+                    "display":"Project: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"status",
+                    "display":"Status: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":" SF",
+                    "display":"Total SF: ",
+                    "fieldtype":"number",
+                    "units":" SF"
+                },
+                "field5":{
+                    "value":null,
+                    "display":"Project Type: ",
+                    "fieldtype":"meta",
+                    "units":"Pharmacy"
+                },
+                "field6":{
+                    "value":"http://www.wdcep.com/",
+                    "display":"Source: ",
+                    "fieldtype":"hardAttr",
+                    "units":"WDCEP"
+                }
+            }
         },
-        "field7": {
-          "value": "developers",
-          "display": "Developers: ",
-          "fieldtype": "longText",
-          "units": null
+        "wdcep_711_data":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"property_id",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"location",
+            "boxValues":{
+                "field1":{
+                    "value":"label",
+                    "display":"Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"status",
+                    "display":"Status: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"http://www.wdcep.com/",
+                    "display":"Source: ",
+                    "fieldtype":"hardAttr",
+                    "units":"WDCEP"
+                }
+            }
         },
-        "field8": {
-          "value": "http://www.wdcep.com/",
-          "display": "Source: ",
-          "fieldtype": "hardAttr",
-          "units": "WDCEP"
+        "wdcep_bookmarks_geo":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"property_id",
+            "offset":null,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"name",
+            "boxValues":{
+                "field1":{
+                    "value":"http://www.wdcep.com/",
+                    "display":"Source: ",
+                    "fieldtype":"hardAttr",
+                    "units":"WDCEP"
+                }
+            }
+        },
+        "wdcep_chipotle_data":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"property_id",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"location",
+            "boxValues":{
+                "field1":{
+                    "value":"label",
+                    "display":"Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"status",
+                    "display":"Status: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"http://www.wdcep.com/",
+                    "display":"Source: ",
+                    "fieldtype":"hardAttr",
+                    "units":"WDCEP"
+                }
+            }
+        },
+        "wdcep_movies_data":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"property_id",
+            "offset":232,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"location",
+            "boxValues":{
+                "field1":{
+                    "value":"label",
+                    "display":"Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"project",
+                    "display":"Project: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"status",
+                    "display":"Status: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":" SF",
+                    "display":"Total SF: ",
+                    "fieldtype":"number",
+                    "units":" SF"
+                },
+                "field5":{
+                    "value":null,
+                    "display":"Project Type: ",
+                    "fieldtype":"meta",
+                    "units":"Movie Theatre"
+                },
+                "field6":{
+                    "value":"http://www.wdcep.com/",
+                    "display":"Source: ",
+                    "fieldtype":"hardAttr",
+                    "units":"WDCEP"
+                }
+            }
+        },
+        "wdcep_potbelly_data":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"property_id",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"location",
+            "boxValues":{
+                "field1":{
+                    "value":"label",
+                    "display":"Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"status",
+                    "display":"Status: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"http://www.wdcep.com/",
+                    "display":"Source: ",
+                    "fieldtype":"hardAttr",
+                    "units":"WDCEP"
+                }
+            }
+        },
+        "wdcep_subway_data":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"property_id",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"location",
+            "boxValues":{
+                "field1":{
+                    "value":"label",
+                    "display":"Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"status",
+                    "display":"Status: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"http://www.wdcep.com/",
+                    "display":"Source: ",
+                    "fieldtype":"hardAttr",
+                    "units":"WDCEP"
+                }
+            }
+        },
+        "wdcep_grocery_data":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"property_id",
+            "offset":232,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"Location",
+            "boxValues":{
+                "field1":{
+                    "value":"Label",
+                    "display":"Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"Project",
+                    "display":"Project: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"Status",
+                    "display":"Status: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":" SF",
+                    "display":"Total SF: ",
+                    "fieldtype":"number",
+                    "units":" SF"
+                },
+                "field5":{
+                    "value":null,
+                    "display":"Project Type: ",
+                    "fieldtype":"meta",
+                    "units":"Grocery Store"
+                },
+                "field6":{
+                    "value":"http://www.wdcep.com/",
+                    "display":"Source: ",
+                    "fieldtype":"hardAttr",
+                    "units":"WDCEP"
+                }
+            }
+        },
+        "wdcep_neighborhoods_data":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"property_id",
+            "offset":157,
+            "fieldtype":"neighborhoods",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":true,
+                "value":"neighborhoodfile"
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":true,
+            "header":"neighborhooddist",
+            "boxValues":{
+                "field1":{
+                    "value":"http://www.wdcep.com/",
+                    "display":"Source: ",
+                    "fieldtype":"hardAttr",
+                    "units":"WDCEP"
+                }
+            }
+        },
+        "retail_marketable_data":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"property_i",
+            "offset":260,
+            "fieldtype":"retailsites",
+            "photos":{
+                "active":true,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":true,
+            "wdcepDetailsBox":true,
+            "header":"location",
+            "boxValues":{
+                "field2":{
+                    "value":"sitename",
+                    "display":"Site Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"availables",
+                    "display":"Avail. SF: ",
+                    "fieldtype":"number",
+                    "units":" SF"
+                },
+                "field4":{
+                    "value":"availabili",
+                    "display":"Availability: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field5":{
+                    "value":"http://www.wdcep.com/",
+                    "display":"Source: ",
+                    "fieldtype":"hardAttr",
+                    "units":"WDCEP"
+                }
+            }
+        },
+        "retail_full":{
+            "referenceid":"property_i",
+            "propertyid":"property_i",
+            "offset":210,
+            "fieldtype":"retailsites",
+            "photos":{
+                "active":true,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":true,
+            "wdcepDetailsBox":true,
+            "header":"location",
+            "boxValues":{
+                "field2":{
+                    "value":"sitename",
+                    "display":"Site Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"availables",
+                    "display":"Avail. SF: ",
+                    "fieldtype":"number",
+                    "units":null
+                },
+                "field4":{
+                    "value":"availabili",
+                    "display":"Availability: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field5":{
+                    "value":"http://www.wdcep.com/",
+                    "display":"Source: ",
+                    "fieldtype":"hardAttr",
+                    "units":"WDCEP"
+                }
+            }
+        },
+        "wardinfo":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"UNIQUEID",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"NAME",
+            "boxValues":{
+                "field2":{
+                    "value":"REP_NAME",
+                    "display":"Status: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"URL",
+                    "display":"Site: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"REP_PHONE",
+                    "display":"Phone: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field5":{
+                    "value":"REP_EMAIL",
+                    "display":"Email: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field6":{
+                    "value":"REP_OFFICE",
+                    "display":"Office: ",
+                    "fieldtype":"text",
+                    "units":null
+                }
+            }
+        },
+        "pudinfo":{
+            "referenceid":"OBJECTID",
+            "propertyid":"OBJECTID",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"PUD_NAME",
+            "boxValues":{
+                "field1":{
+                    "value":"PUD_ZONING",
+                    "display":"PUD Zoning: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"PUD_STATUS",
+                    "display":"Status: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"PUD_CASE_N",
+                    "display":"Site: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"PUD_CHANGE",
+                    "display":"PUD Change: ",
+                    "fieldtype":"text",
+                    "units":null
+                }
+            }
+        },
+        "metroStationsDistrict":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"UNIQUEID",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"NAME",
+            "boxValues":{
+                "field1":{
+                    "value":"ADDRESS",
+                    "display":"Address: ",
+                    "fieldtype":"formatText",
+                    "units":null
+                },
+                "field2":{
+                    "value":"LINE",
+                    "display":"Line(s): ",
+                    "fieldtype":"formatText",
+                    "units":null
+                },
+                "field4":{
+                    "value":"WEB_URL",
+                    "display":"URL: ",
+                    "fieldtype":"url",
+                    "units": "Click for station site"
+                }
+            }
+        },
+        "SMD-ANC":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"UNIQUEID",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"NAME",
+            "boxValues":{
+                "field2":{
+                    "value":"ANC_ID",
+                    "display":"ANC ID: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"WEB_URL",
+                    "display":"ANC url: ",
+                    "fieldtype":"url",
+                    "units": "Click here"
+                },
+                "field4":{
+                    "value":"CHAIR",
+                    "display":"Chair: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field5":{
+                    "value":"REP_NAME",
+                    "display":"Rep. Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field6":{
+                    "value":"ADDRESS",
+                    "display":"Rep. Address: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field7":{
+                    "value":"ZIP",
+                    "display":"Rep. Zip: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field8":{
+                    "value":"EMAIL",
+                    "display":"Rep. Email: ",
+                    "fieldtype":"email",
+                    "units": "Click to Email"
+                },
+                "field9":{
+                    "value":"PHONE",
+                    "display":"Rep. Phone: ",
+                    "fieldtype":"text",
+                    "units":null
+                }
+            }
+        },
+        "dc_PublicSchools":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"UNIQUEID",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "streetView": true,
+            "header":"NAME",
+            "boxValues":{
+                "field1":{
+                    "value":"FACUSE",
+                    "display":"Grades/Use: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"ADDRESS",
+                    "display":"Address: ",
+                    "fieldtype":"text",
+                    "units": null
+                },
+                "field3":{
+                    "value":"ZIP_CODE",
+                    "display":"Zip Code: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"PHONE",
+                    "display":"Phone: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field5":{
+                    "value":"WEB_URL",
+                    "display":"Web URL: ",
+                    "fieldtype":"url",
+                    "units": "Click here"
+                },
+                "field6":{
+                    "value":"BLDG_NUM",
+                    "display":"Building #: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field7":{
+                    "value":"YEAR_BUILT",
+                    "display":"Year built: ",
+                    "fieldtype":"text",
+                    "units": null
+                },
+                "field8":{
+                    "value":"CAPACITY",
+                    "display":"Capacity: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field9":{
+                    "value":"SQUARE_FOO",
+                    "display":"Area: ",
+                    "fieldtype":"number",
+                    "units": " Sq Ft"
+                },
+                "field10":{
+                    "value":"TOTAL_STUD",
+                    "display":"# of students: ",
+                    "fieldtype":"text",
+                    "units":null
+                }
+            }
+        },
+        "dc_CharterSchools":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"UNIQUEID",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":true,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "streetView": true,
+            "header":"NAME",
+            "boxValues":{
+                "field1":{
+                    "value":"GRADES",
+                    "display":"Grades: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"ADDRESS",
+                    "display":"Address: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"PHONE",
+                    "display":"Phone: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"WEB_URL",
+                    "display":"Web URL: ",
+                    "fieldtype":"url",
+                    "units": "Click here"
+                },
+                "field5":{
+                    "value":"DIRECTOR",
+                    "display":"Director: ",
+                    "fieldtype":"text",
+                    "units":null
+                }
+            }
+        },
+        "gsaDataFields":{
+            "referenceid":"UNIQUEID",
+            "propertyid":null,
+            "offset":null,
+            "fieldtype":"residential",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"addressful",
+            "boxValues":{
+                "field2":{
+                    "value":"fieldoffic",
+                    "display":"Field Office Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"lessorname",
+                    "display":"Lessor Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"leaseagree",
+                    "display":"Lease Agreement RSF: ",
+                    "fieldtype":"number",
+                    "units":" SF"
+                },
+                "field5":{
+                    "value":"percentoff",
+                    "display":"Percent Office: ",
+                    "fieldtype":"number",
+                    "units":""
+                },
+                "field6":{
+                    "value":"percentocc",
+                    "display":"Percent Occupied: ",
+                    "fieldtype":"number",
+                    "units":"%"
+                },
+                "field7":{
+                    "value":"currentann",
+                    "display":"Current Annual Rent: ",
+                    "fieldtype":"number-no-cents",
+                    "units":"$"
+                },
+                "field8":{
+                    "value":"annualrent",
+                    "display":"Current Annual Rent/SF: ",
+                    "fieldtype":"number-with-cents",
+                    "units":"$"
+                },
+                "field9":{
+                    "value":"fullyservi",
+                    "display":"Fully Serviced: ",
+                    "fieldtype":"text",
+                    "units": null
+                },
+                "field10":{
+                    "value":"leaseeffec",
+                    "display":"Lease Effective: ",
+                    "fieldtype":"text",
+                    "units": null
+                },
+                "field11":{
+                    "value":"leaseexpir",
+                    "display":"Lease Expiration: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field12":{
+                    "value":"terminatio",
+                    "display":"Termination Right Date: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field13":{
+                    "value":"renewalopt",
+                    "display":"Renewal Option Term: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field14":{
+                    "value":"renewalo_1",
+                    "display":"Renewal Options Left: ",
+                    "fieldtype":"text",
+                    "units": null
+                },
+                "field15":{
+                    "value":"latestacti",
+                    "display":"Latest Action Affecting Term: ",
+                    "fieldtype":"text",
+                    "units": null
+                },
+                "field16":{
+                    "value":"leasestruc",
+                    "display":"Lease Structure Parking: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field17":{
+                    "value":"leasesurfa",
+                    "display":"Lease Surface Parking: ",
+                    "fieldtype":"text",
+                    "units":null
+                }
+            }
+        },
+        "ANCnSMD":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"UNIQUEID",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"NAME",
+            "boxValues":{
+                "field1":{
+                    "value": "ANC_ID",
+                    "display":"ANC ID: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"WEB_URL",
+                    "display":"Web URL: ",
+                    "fieldtype":"url",
+                    "units": "Click here"
+                },
+                "field3":{
+                    "value":"REP_NAME",
+                    "display":"Rep Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"ADDRESS",
+                    "display":"Address: ",
+                    "fieldtype":"text",
+                    "units": null
+                },
+                "field5":{
+                    "value":"ZIP",
+                    "display":"Zip Code: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field6":{
+                    "value":"EMAIL",
+                    "display":"Rep Email: ",
+                    "fieldtype":"text",
+                    "units": null
+                },
+                "field7":{
+                    "value":"PHONE",
+                    "display":"Phone: ",
+                    "fieldtype":"text",
+                    "units": null
+                }
+            }
+        },
+        "dc_DOT_VisionZeroSafetyData":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"UNIQUEID",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"HEADER",
+            "boxValues":{
+                "field1":{
+                    "value":"REQUESTTYP",
+                    "display":"Category: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"COMMENTS",
+                    "display":"Comment: ",
+                    "fieldtype":"text",
+                    "units": null
+                },
+                "field3":{
+                    "value":"USERTYPE",
+                    "display":"Entered by: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"DATETEXT",
+                    "display":"Entered on: ",
+                    "fieldtype":"text",
+                    "units":null
+                }
+            }
+        },
+        "dc_DOT_2015Crash_byAccidentType":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"UNIQUEID",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"accidentda",
+            "streetView": true,
+            "boxValues":{
+                "field1":{
+                    "value":"accidentty",
+                    "display":"Accident Type: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"numinvolve",
+                    "display":"# Involved: ",
+                    "fieldtype":"number",
+                    "units": null
+                },
+                "field3":{
+                    "value":"numinjured",
+                    "display":"# Injured: ",
+                    "fieldtype":"number",
+                    "units":null
+                },
+                "field4":{
+                    "value":"numfatalit",
+                    "display":"# Fatalities: ",
+                    "fieldtype":"number",
+                    "units":null
+                },
+                "field5":{
+                    "value":"collisiont",
+                    "display":"Collision Type: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field6":{
+                    "value":"roadsurfac",
+                    "display":"Road Surface: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field7":{
+                    "value":"roadtype",
+                    "display":"Road Type: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field8":{
+                    "value":"roadcondit",
+                    "display":"Road Condition: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field9":{
+                    "value":"lightcondi",
+                    "display":"Light Condition: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field10":{
+                    "value":"weather",
+                    "display":"Weather: ",
+                    "fieldtype":"text",
+                    "units":null
+                }
+            }
         }
-      }
-    },
-    "wdcep_resi_pipeline_data": {
-      "referenceid": "UNIQUEID",
-      "propertyid": null,
-      "offset": null,
-      "fieldtype": "residential",
-      "photos": {
-        "active": false,
-        "value": null
-      },
-      "pdfs": {
-        "active": false,
-        "value": null
-      },
-      "viewDetailsBox": false,
-      "wdcepDetailsBox": false,
-      "header": "project",
-      "boxValues": {
-        "field2": {
-          "value": "majoruse",
-          "display": "Use: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field3": {
-          "value": "status",
-          "display": "Status: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field4": {
-          "value": "delivery",
-          "display": "Delivery: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field5": {
-          "value": "totalsf",
-          "display": "Total SF: ",
-          "fieldtype": "number",
-          "units": " SF"
-        },
-        "field6": {
-          "value": "resunits",
-          "display": "Total Units: ",
-          "fieldtype": "number",
-          "units": "units"
-        },
-        "field7": {
-          "value": "developers",
-          "display": "Developers: ",
-          "fieldtype": "longText",
-          "units": null
-        },
-        "field8": {
-          "value": "http://www.wdcep.com/",
-          "display": "Source: ",
-          "fieldtype": "hardAttr",
-          "units": "WDCEP"
-        }
-      }
-    },
-    "wdcep_retail_com_data": {
-      "referenceid": "UNIQUEID",
-      "propertyid": null,
-      "offset": null,
-      "fieldtype": "retail",
-      "photos": {
-        "active": false,
-        "value": null
-      },
-      "pdfs": {
-        "active": false,
-        "value": null
-      },
-      "viewDetailsBox": false,
-      "wdcepDetailsBox": false,
-      "header": "project",
-      "boxValues": {
-        "field2": {
-          "value": "majoruse",
-          "display": "Use: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field3": {
-          "value": "status",
-          "display": "Status: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field4": {
-          "value": "delivery",
-          "display": "Delivery: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field5": {
-          "value": "totalsf",
-          "display": "Total SF: ",
-          "fieldtype": "number",
-          "units": " SF"
-        },
-        "field6": {
-          "value": "retailsf",
-          "display": "Retail SF: ",
-          "fieldtype": "number",
-          "units": " SF"
-        },
-        "field7": {
-          "value": "developers",
-          "display": "Developers: ",
-          "fieldtype": "longText",
-          "units": null
-        },
-        "field8": {
-          "value": "http://www.wdcep.com/",
-          "display": "Source: ",
-          "fieldtype": "hardAttr",
-          "units": "WDCEP"
-        }
-      }
-    },
-    "wdcep_retail_pipeline_data": {
-      "referenceid": "UNIQUEID",
-      "propertyid": null,
-      "offset": null,
-      "fieldtype": "retail",
-      "photos": {
-        "active": false,
-        "value": null
-      },
-      "pdfs": {
-        "active": false,
-        "value": null
-      },
-      "viewDetailsBox": false,
-      "wdcepDetailsBox": false,
-      "header": "project",
-      "boxValues": {
-        "field2": {
-          "value": "majoruse",
-          "display": "Use: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field3": {
-          "value": "status",
-          "display": "Status: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field4": {
-          "value": "delivery",
-          "display": "Delivery: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field5": {
-          "value": "totalsf",
-          "display": "Total SF: ",
-          "fieldtype": "number",
-          "units": " SF"
-        },
-        "field6": {
-          "value": "retailsf",
-          "display": "Retail SF: ",
-          "fieldtype": "number",
-          "units": " SF"
-        },
-        "field7": {
-          "value": "developers",
-          "display": "Developers: ",
-          "fieldtype": "longText",
-          "units": null
-        },
-        "field8": {
-          "value": "http://www.wdcep.com/",
-          "display": "Source: ",
-          "fieldtype": "hardAttr",
-          "units": "WDCEP"
-        }
-      }
-    },
-    "wdcep_pharm_data": {
-      "referenceid": "UNIQUEID",
-      "propertyid": "property_id",
-      "offset": 197,
-      "fieldtype": "business",
-      "photos": {
-        "active": false,
-        "value": null
-      },
-      "pdfs": {
-        "active": false,
-        "value": null
-      },
-      "viewDetailsBox": false,
-      "wdcepDetailsBox": false,
-      "header": "location",
-      "boxValues": {
-        "field1": {
-          "value": "label",
-          "display": "Name: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field2": {
-          "value": "project",
-          "display": "Project: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field3": {
-          "value": "status",
-          "display": "Status: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field4": {
-          "value": " SF",
-          "display": "Total SF: ",
-          "fieldtype": "number",
-          "units": " SF"
-        },
-        "field5": {
-          "value": null,
-          "display": "Project Type: ",
-          "fieldtype": "meta",
-          "units": "Pharmacy"
-        },
-        "field6": {
-          "value": "http://www.wdcep.com/",
-          "display": "Source: ",
-          "fieldtype": "hardAttr",
-          "units": "WDCEP"
-        }
-      }
-    },
-    "wdcep_711_data": {
-      "referenceid": "UNIQUEID",
-      "propertyid": "property_id",
-      "offset": 157,
-      "fieldtype": "business",
-      "photos": {
-        "active": false,
-        "value": null
-      },
-      "pdfs": {
-        "active": false,
-        "value": null
-      },
-      "viewDetailsBox": false,
-      "wdcepDetailsBox": false,
-      "header": "location",
-      "boxValues": {
-        "field1": {
-          "value": "label",
-          "display": "Name: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field2": {
-          "value": "status",
-          "display": "Status: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field3": {
-          "value": "http://www.wdcep.com/",
-          "display": "Source: ",
-          "fieldtype": "hardAttr",
-          "units": "WDCEP"
-        }
-      }
-    },
-    "wdcep_bookmarks_geo": {
-      "referenceid": "UNIQUEID",
-      "propertyid": "property_id",
-      "offset": null,
-      "fieldtype": "business",
-      "photos": {
-        "active": false,
-        "value": null
-      },
-      "pdfs": {
-        "active": false,
-        "value": null
-      },
-      "viewDetailsBox": false,
-      "wdcepDetailsBox": false,
-      "header": "name",
-      "boxValues": {
-        "field1": {
-          "value": "http://www.wdcep.com/",
-          "display": "Source: ",
-          "fieldtype": "hardAttr",
-          "units": "WDCEP"
-        }
-      }
-    },
-    "wdcep_chipotle_data": {
-      "referenceid": "UNIQUEID",
-      "propertyid": "property_id",
-      "offset": 157,
-      "fieldtype": "business",
-      "photos": {
-        "active": false,
-        "value": null
-      },
-      "pdfs": {
-        "active": false,
-        "value": null
-      },
-      "viewDetailsBox": false,
-      "wdcepDetailsBox": false,
-      "header": "location",
-      "boxValues": {
-        "field1": {
-          "value": "label",
-          "display": "Name: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field2": {
-          "value": "status",
-          "display": "Status: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field3": {
-          "value": "http://www.wdcep.com/",
-          "display": "Source: ",
-          "fieldtype": "hardAttr",
-          "units": "WDCEP"
-        }
-      }
-    },
-    "wdcep_movies_data": {
-      "referenceid": "UNIQUEID",
-      "propertyid": "property_id",
-      "offset": 232,
-      "fieldtype": "business",
-      "photos": {
-        "active": false,
-        "value": null
-      },
-      "pdfs": {
-        "active": false,
-        "value": null
-      },
-      "viewDetailsBox": false,
-      "wdcepDetailsBox": false,
-      "header": "location",
-      "boxValues": {
-        "field1": {
-          "value": "label",
-          "display": "Name: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field2": {
-          "value": "project",
-          "display": "Project: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field3": {
-          "value": "status",
-          "display": "Status: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field4": {
-          "value": " SF",
-          "display": "Total SF: ",
-          "fieldtype": "number",
-          "units": " SF"
-        },
-        "field5": {
-          "value": null,
-          "display": "Project Type: ",
-          "fieldtype": "meta",
-          "units": "Movie Theatre"
-        },
-        "field6": {
-          "value": "http://www.wdcep.com/",
-          "display": "Source: ",
-          "fieldtype": "hardAttr",
-          "units": "WDCEP"
-        }
-      }
-    },
-    "wdcep_potbelly_data": {
-      "referenceid": "UNIQUEID",
-      "propertyid": "property_id",
-      "offset": 157,
-      "fieldtype": "business",
-      "photos": {
-        "active": false,
-        "value": null
-      },
-      "pdfs": {
-        "active": false,
-        "value": null
-      },
-      "viewDetailsBox": false,
-      "wdcepDetailsBox": false,
-      "header": "location",
-      "boxValues": {
-        "field1": {
-          "value": "label",
-          "display": "Name: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field2": {
-          "value": "status",
-          "display": "Status: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field3": {
-          "value": "http://www.wdcep.com/",
-          "display": "Source: ",
-          "fieldtype": "hardAttr",
-          "units": "WDCEP"
-        }
-      }
-    },
-    "wdcep_subway_data": {
-      "referenceid": "UNIQUEID",
-      "propertyid": "property_id",
-      "offset": 157,
-      "fieldtype": "business",
-      "photos": {
-        "active": false,
-        "value": null
-      },
-      "pdfs": {
-        "active": false,
-        "value": null
-      },
-      "viewDetailsBox": false,
-      "wdcepDetailsBox": false,
-      "header": "location",
-      "boxValues": {
-        "field1": {
-          "value": "label",
-          "display": "Name: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field2": {
-          "value": "status",
-          "display": "Status: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field3": {
-          "value": "http://www.wdcep.com/",
-          "display": "Source: ",
-          "fieldtype": "hardAttr",
-          "units": "WDCEP"
-        }
-      }
-    },
-    "wdcep_grocery_data": {
-      "referenceid": "UNIQUEID",
-      "propertyid": "property_id",
-      "offset": 232,
-      "fieldtype": "business",
-      "photos": {
-        "active": false,
-        "value": null
-      },
-      "pdfs": {
-        "active": false,
-        "value": null
-      },
-      "viewDetailsBox": false,
-      "wdcepDetailsBox": false,
-      "header": "Location",
-      "boxValues": {
-        "field1": {
-          "value": "Label",
-          "display": "Name: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field2": {
-          "value": "Project",
-          "display": "Project: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field3": {
-          "value": "Status",
-          "display": "Status: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field4": {
-          "value": " SF",
-          "display": "Total SF: ",
-          "fieldtype": "number",
-          "units": " SF"
-        },
-        "field5": {
-          "value": null,
-          "display": "Project Type: ",
-          "fieldtype": "meta",
-          "units": "Grocery Store"
-        },
-        "field6": {
-          "value": "http://www.wdcep.com/",
-          "display": "Source: ",
-          "fieldtype": "hardAttr",
-          "units": "WDCEP"
-        }
-      }
-    },
-    "wdcep_neighborhoods_data": {
-      "referenceid": "UNIQUEID",
-      "propertyid": "property_id",
-      "offset": 157,
-      "fieldtype": "neighborhoods",
-      "photos": {
-        "active": false,
-        "value": null
-      },
-      "pdfs": {
-        "active": true,
-        "value": "neighborhoodfile"
-      },
-      "viewDetailsBox": false,
-      "wdcepDetailsBox": true,
-      "header": "neighborhooddist",
-      "boxValues": {
-        "field1": {
-          "value": "http://www.wdcep.com/",
-          "display": "Source: ",
-          "fieldtype": "hardAttr",
-          "units": "WDCEP"
-        }
-      }
-    },
-    "retail_marketable_data": {
-      "referenceid": "UNIQUEID",
-      "propertyid": "property_i",
-      "offset": 260,
-      "fieldtype": "retailsites",
-      "photos": {
-        "active": true,
-        "value": null
-      },
-      "pdfs": {
-        "active": false,
-        "value": null
-      },
-      "viewDetailsBox": true,
-      "wdcepDetailsBox": true,
-      "header": "location",
-      "boxValues": {
-        "field2": {
-          "value": "sitename",
-          "display": "Site Name: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field3": {
-          "value": "availables",
-          "display": "Avail. SF: ",
-          "fieldtype": "number",
-          "units": " SF"
-        },
-        "field4": {
-          "value": "availabili",
-          "display": "Availability: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field5": {
-          "value": "http://www.wdcep.com/",
-          "display": "Source: ",
-          "fieldtype": "hardAttr",
-          "units": "WDCEP"
-        }
-      }
-    },
-    "retail_full": {
-      "referenceid": "property_i",
-      "propertyid": "property_i",
-      "offset": 210,
-      "fieldtype": "retailsites",
-      "photos": {
-        "active": true,
-        "value": null
-      },
-      "pdfs": {
-        "active": false,
-        "value": null
-      },
-      "viewDetailsBox": true,
-      "wdcepDetailsBox": true,
-      "header": "location",
-      "boxValues": {
-        "field2": {
-          "value": "sitename",
-          "display": "Site Name: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field3": {
-          "value": "availables",
-          "display": "Avail. SF: ",
-          "fieldtype": "number",
-          "units": null
-        },
-        "field4": {
-          "value": "availabili",
-          "display": "Availability: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field5": {
-          "value": "http://www.wdcep.com/",
-          "display": "Source: ",
-          "fieldtype": "hardAttr",
-          "units": "WDCEP"
-        }
-      }
-    },
-    "wardinfo": {
-      "referenceid": "UNIQUEID",
-      "propertyid": "UNIQUEID",
-      "offset": 157,
-      "fieldtype": "business",
-      "photos": {
-        "active": false,
-        "value": null
-      },
-      "pdfs": {
-        "active": false,
-        "value": null
-      },
-      "viewDetailsBox": false,
-      "wdcepDetailsBox": false,
-      "header": "NAME",
-      "boxValues": {
-        "field2": {
-          "value": "REP_NAME",
-          "display": "Status: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field3": {
-          "value": "URL",
-          "display": "Site: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field4": {
-          "value": "REP_PHONE",
-          "display": "Phone: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field5": {
-          "value": "REP_EMAIL",
-          "display": "Email: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field6": {
-          "value": "REP_OFFICE",
-          "display": "Office: ",
-          "fieldtype": "text",
-          "units": null
-        }
-      }
-    },
-    "pudinfo": {
-      "referenceid": "OBJECTID",
-      "propertyid": "OBJECTID",
-      "offset": 157,
-      "fieldtype": "business",
-      "photos": {
-        "active": false,
-        "value": null
-      },
-      "pdfs": {
-        "active": false,
-        "value": null
-      },
-      "viewDetailsBox": false,
-      "wdcepDetailsBox": false,
-      "header": "PUD_NAME",
-      "boxValues": {
-        "field1": {
-          "value": "PUD_ZONING",
-          "display": "PUD Zoning: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field2": {
-          "value": "PUD_STATUS",
-          "display": "Status: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field3": {
-          "value": "PUD_CASE_N",
-          "display": "Site: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field4": {
-          "value": "PUD_CHANGE",
-          "display": "PUD Change: ",
-          "fieldtype": "text",
-          "units": null
-        }
-      }
-    },
-    "metroStationsDistrict": {
-      "referenceid": "UNIQUEID",
-      "propertyid": "UNIQUEID",
-      "offset": 157,
-      "fieldtype": "business",
-      "photos": {
-        "active": false,
-        "value": null
-      },
-      "pdfs": {
-        "active": false,
-        "value": null
-      },
-      "viewDetailsBox": false,
-      "wdcepDetailsBox": false,
-      "header": "NAME",
-      "boxValues": {
-        "field1": {
-          "value": "ADDRESS",
-          "display": "Address: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field2": {
-          "value": "LINE",
-          "display": "Line(s): ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field4": {
-          "value": "WEB_URL",
-          "display": "URL: ",
-          "fieldtype": "url",
-          "units": "Click for station site"
-        }
-      }
-    },
-    "SMD-ANC": {
-      "referenceid": "UNIQUEID",
-      "propertyid": "UNIQUEID",
-      "offset": 157,
-      "fieldtype": "business",
-      "photos": {
-        "active": false,
-        "value": null
-      },
-      "pdfs": {
-        "active": false,
-        "value": null
-      },
-      "viewDetailsBox": false,
-      "wdcepDetailsBox": false,
-      "header": "NAME",
-      "boxValues": {
-        "field2": {
-          "value": "ANC_ID",
-          "display": "ANC ID: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field3": {
-          "value": "WEB_URL",
-          "display": "ANC url: ",
-          "fieldtype": "url",
-          "units": "Click here"
-        },
-        "field4": {
-          "value": "CHAIR",
-          "display": "Chair: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field5": {
-          "value": "REP_NAME",
-          "display": "Rep. Name: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field6": {
-          "value": "ADDRESS",
-          "display": "Rep. Address: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field7": {
-          "value": "ZIP",
-          "display": "Rep. Zip: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field8": {
-          "value": "EMAIL",
-          "display": "Rep. Email: ",
-          "fieldtype": "email",
-          "units": "Click to Email"
-        },
-        "field9": {
-          "value": "PHONE",
-          "display": "Rep. Phone: ",
-          "fieldtype": "text",
-          "units": null
-        }
-      }
-    },
-    "gsaDataFields": {
-      "referenceid": "UNIQUEID",
-      "propertyid": null,
-      "offset": null,
-      "fieldtype": "residential",
-      "photos": {
-        "active": false,
-        "value": null
-      },
-      "pdfs": {
-        "active": false,
-        "value": null
-      },
-      "viewDetailsBox": false,
-      "wdcepDetailsBox": false,
-      "header": "addressful",
-      "boxValues": {
-        "field2": {
-          "value": "fieldoffic",
-          "display": "Field Office Name: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field3": {
-          "value": "lessorname",
-          "display": "Lessor Name: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field4": {
-          "value": "leaseagree",
-          "display": "Lease Agreement RSF: ",
-          "fieldtype": "number",
-          "units": " SF"
-        },
-        "field5": {
-          "value": "percentoff",
-          "display": "Percent Office: ",
-          "fieldtype": "number",
-          "units": ""
-        },
-        "field6": {
-          "value": "percentocc",
-          "display": "Percent Occupied: ",
-          "fieldtype": "number",
-          "units": "%"
-        },
-        "field7": {
-          "value": "currentann",
-          "display": "Current Annual Rent: ",
-          "fieldtype": "number-no-cents",
-          "units": "$"
-        },
-        "field8": {
-          "value": "annualrent",
-          "display": "Current Annual Rent/SF: ",
-          "fieldtype": "number-with-cents",
-          "units": "$"
-        },
-        "field9": {
-          "value": "fullyservi",
-          "display": "Fully Serviced: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field10": {
-          "value": "leaseeffec",
-          "display": "Lease Effective: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field11": {
-          "value": "leaseexpir",
-          "display": "Lease Expiration: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field12": {
-          "value": "terminatio",
-          "display": "Termination Right Date: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field13": {
-          "value": "renewalopt",
-          "display": "Renewal Option Term: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field14": {
-          "value": "renewalo_1",
-          "display": "Renewal Options Left: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field15": {
-          "value": "latestacti",
-          "display": "Latest Action Affecting Term: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field16": {
-          "value": "leasestruc",
-          "display": "Lease Structure Parking: ",
-          "fieldtype": "text",
-          "units": null
-        },
-        "field17": {
-          "value": "leasesurfa",
-          "display": "Lease Surface Parking: ",
-          "fieldtype": "text",
-          "units": null
-        }
-      }
     }
-  }
 }
