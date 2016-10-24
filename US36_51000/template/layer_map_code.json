@@ -893,10 +893,10 @@
                 "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_MetroNorthRoutes@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
-                    "xMin": -74,
-                    "yMin": 41,
-                    "xMax": -73,
-                    "yMax": 42
+                    "xMin": -73.984528,
+                    "yMin": 40.75299799999,
+                    "xMax": -72.921747,
+                    "yMax": 41.814721999999854
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
@@ -931,10 +931,10 @@
                 "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_MetroNorthStops@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
-                    "xMin": -74,
-                    "yMin": 41,
-                    "xMax": -73,
-                    "yMax": 42
+                    "xMin": -73.98452800000001,
+                    "yMin": 40.75299799999982,
+                    "xMax": -72.92174700000002,
+                    "yMax": 41.814721999999854
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
