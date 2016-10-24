@@ -874,6 +874,158 @@
                 "exists": false
             }
         },
+        "ny_MetroNorthRoutes": {
+            "name": "ny_MetroNorthRoutes",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_MetroNorthRoutes",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_MetroNorthRoutes@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74,
+                    "yMin": 41,
+                    "xMax": -73,
+                    "yMax": 42
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_MetroNorthStops": {
+            "name": "ny_MetroNorthStops",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_MetroNorthStops",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_MetroNorthStops@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74,
+                    "yMin": 41,
+                    "xMax": -73,
+                    "yMax": 42
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_LongIslandRR_Routes": {
+            "name": "ny_LongIslandRR_Routes",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_LongIslandRR_Routes",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_LongIslandRR_Routes@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74,
+                    "yMin": 40,
+                    "xMax": -72,
+                    "yMax": 42
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_LongIslandRR_Stops": {
+            "name": "ny_LongIslandRR_Stops",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_LongIslandRR_Stops",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_LongIslandRR_Stops@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74,
+                    "yMin": 40,
+                    "xMax": -72,
+                    "yMax": 42
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
         "ny_Zoning": {
             "name": "ny_Zoning",
             "removeName": null,
