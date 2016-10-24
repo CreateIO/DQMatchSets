@@ -969,10 +969,10 @@
                 "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_LongIslandRR_Routes@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
-                    "xMin": -74,
-                    "yMin": 41,
-                    "xMax": -73,
-                    "yMax": 42
+                    "xMin": -73.99308741050001,
+                    "yMin": 40.59018166349982,
+                    "xMax": -71.9541238589,
+                    "yMax": 41.09965216909983
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
@@ -1007,10 +1007,10 @@
                 "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_LongIslandRR_Stops@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
-                    "xMin": -74,
-                    "yMin": 40,
-                    "xMax": -72,
-                    "yMax": 42
+                    "xMin": 73.99358000000001,
+                    "yMin": 40.590169999999844,
+                    "xMax": -71.95388000000001,
+                    "yMax": 41.099699999999835
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
