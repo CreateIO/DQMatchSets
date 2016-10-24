@@ -970,8 +970,8 @@
                 "extension": "png",
                 "coords": {
                     "xMin": -74,
-                    "yMin": 40,
-                    "xMax": -72,
+                    "yMin": 41,
+                    "xMax": -73,
                     "yMax": 42
                 },
                 "tileWidth": 256,
