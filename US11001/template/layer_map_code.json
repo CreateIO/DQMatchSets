@@ -176,46 +176,36 @@
                 "exists": false
             }
         },
-        "zoning": {
-            "name": "zoning",
-            "removeName": "zoningLabels.geojson",
-            "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/zoningLabels.geojson",
+        "dc_zoning": {
+            "name": "dc_zoning",
+            "removeName": null,
+            "url": null,
             "cartographic": false,
             "id": {
                 "exists": false
             },
             "labels": {
-                "exists": true,
-                "labelLayers": {
-                    "label1": {
-                        "name": "zoningLabels",
-                        "position": {
-                            "x": "entity._properties.X",
-                            "y": "entity._properties.Y",
-                            "z": 20
-                        },
-                        "text": "entity.properties.ZONING",
-                        "font": "13px sans-serif",
-                        "fillColor": "Cesium.Color.WHITE",
-                        "outlineColor": "Cesium.Color.BLACK",
-                        "outlineWidth": 1,
-                        "style": "Cesium.LabelStyle.FILL",
-                        "pixelOffset": "Cesium.Cartesian2.ZERO",
-                        "eyeOffset": "Cesium.Cartesian3.ZERO",
-                        "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-                        "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
-                        "translucencyByDistance": {
-                            "minElevation": 5000,
-                            "maxElevation": 6000,
-                            "minScale": 1,
-                            "maxScale": 0
-                        },
-                        "scale": 1
-                    }
-                }
+                "exists": false
             },
             "polygons": {
                 "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_zoning",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_zoning@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.16,
+                    "yMin": 38.79,
+                    "xMax": -76.86,
+                    "yMax": 39.00
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
             },
             "rasters": {
                 "exists": false
