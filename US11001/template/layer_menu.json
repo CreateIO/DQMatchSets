@@ -4253,17 +4253,9 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "functionName": "addLayer",
+                        "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "zoning"
-                        },
-                        "service": "mapOverlayService"
-                    },
-                    "func2": {
-                        "functionName": "addSingleTMSLayer",
-                        "parameters": {
-                            "param1": "zoningLayer"
+                            "param1": "dc_zoning"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -4283,17 +4275,9 @@
                 },
                 "removeFunctions": {
                     "func1": {
-                        "functionName": "removeLayer",
+                        "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "zoning"
-                        },
-                        "service": "mapOverlayService"
-                    },
-                    "func2": {
-                        "functionName": "removeSingleTMSLayer",
-                        "parameters": {
-                            "param1": "zoningLayer"
+                            "param1": "dc_zoning"
                         },
                         "service": "tileMapServiceService"
                     }
