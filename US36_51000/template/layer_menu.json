@@ -53,59 +53,59 @@
                 "listItemsLeft": {
                     "item1": {
                         "boxDescription": "One & Two Family",
-                        "boxStyle": "background:#1bf198",
+                        "boxStyle": "background:#acd8ec",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "Multi-Family Walk-up",
-                        "boxStyle": "background:#1bf198",
+                        "boxStyle": "background:#6f94d7",
                         "imageUrl": null
                     },
                     "item3": {
                         "boxDescription": "Multi-family Elevator",
-                        "boxStyle": "background:#1bf198",
+                        "boxStyle": "background:#1f356c",
                         "imageUrl": null
                     },
                     "item4": {
                         "boxDescription": "Mixed Residential & Commercial",
-                        "boxStyle": "background:#1bf198",
+                        "boxStyle": "background:#eb8232",
                         "imageUrl": null
                     },
                     "item5": {
                         "boxDescription": "Commercial & Office",
-                        "boxStyle": "background:#1bf198",
+                        "boxStyle": "background:#fadd57",
                         "imageUrl": null
                     },
                     "item6": {
                         "boxDescription": "Industrial & Manufacturing",
-                        "boxStyle": "background:#1bf198",
+                        "boxStyle": "background:#96335e",
                         "imageUrl": null
                     }
                 },
                 "listItemsRight": {
                     "item7": {
                         "boxDescription": "Transportation & Utility",
-                        "boxStyle": "background:#1bf198",
+                        "boxStyle": "background:#cac5ea",
                         "imageUrl": null
                     },
                     "item8": {
                         "boxDescription": "Public Facilities & Institutions",
-                        "boxStyle": "background:#1bf198",
+                        "boxStyle": "background:#a394bf",
                         "imageUrl": null
                     },
                     "item9": {
                         "boxDescription": "Open Space & Outdoor Recreation",
-                        "boxStyle": "background:#1bf198",
+                        "boxStyle": "background:#93d08d",
                         "imageUrl": null
                     },
                     "item10": {
                         "boxDescription": "Parking Facilities",
-                        "boxStyle": "background:#1bf198",
+                        "boxStyle": "background:#b3abd4",
                         "imageUrl": null
                     },
                     "item11": {
                         "boxDescription": "Vacant Land",
-                        "boxStyle": "background:#1bf198",
+                        "boxStyle": "background:#cdcdcd",
                         "imageUrl": null
                     }
                 },
