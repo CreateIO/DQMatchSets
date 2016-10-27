@@ -20,14 +20,14 @@
         "extension": "png",
         "coords": {
           "xMin": -74.28,
-          "yMin": 40.49,
+          "yMin": 40.48,
           "xMax": -73.69,
-          "yMax": 40.92
+          "yMax": 40.94
         },
         "tileWidth": 256,
         "tileHeight": 256,
-        "minimumLevel": 0,
-        "maximumLevel": 20,
+        "minimumLevel": 8,
+        "maximumLevel": 16,
         "alpha": 1,
         "tmsStyle": "OSM"
       },
