@@ -1129,7 +1129,7 @@
                 "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
                 "type": "doubleColumn"
             },
-            "menuSection": "LandUse2",
+            "menuSection": "",
             "mouseoverName": "Property Use Types",
             "order": 2,
             "subCategory": "3",
