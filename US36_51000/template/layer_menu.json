@@ -1028,7 +1028,7 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
-        "Property Use Types2": {
+        "Property Use Types (GS)": {
             "category": "6",
             "denyList": {
                 "denyList1": null
@@ -1129,7 +1129,7 @@
                 "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
                 "type": "doubleColumn"
             },
-            "menuSection": "",
+            "menuSection": "LandUse2",
             "mouseoverName": "Property Use Types",
             "order": 2,
             "subCategory": "3",
