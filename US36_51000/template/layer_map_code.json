@@ -27,8 +27,8 @@
         "tileWidth": 256,
         "tileHeight": 256,
         "minimumLevel": 0,
-        "maximumLevel": 10,
-        "alpha": 0.5,
+        "maximumLevel": 20,
+        "alpha": 1,
         "tmsStyle": "OSM"
       },
       "rasters": {
