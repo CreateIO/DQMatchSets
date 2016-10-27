@@ -1,5 +1,125 @@
 {
     "allTheLayers": {
+        "Property Use Types": {
+            "category": "7",
+            "colors": {
+                "hex": {},
+                "type": "?"
+            },
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Property Use Types",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "PLUTO"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "emits": {
+                    "emit1": {
+                        "parameters": {
+                            "param1": "tileZoom"
+                        },
+                        "type": "add"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'New York Data: Property Use Types'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "PLUTO"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 42,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxDescription": "One & Two Family",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Multi-Family Walk-up",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Multi-family Elevator",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "Mixed Residential & Commercial",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "Commercial & Office",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item6": {
+                        "boxDescription": "Industrial & Manufacturing",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item7": {
+                        "boxDescription": "Transportation & Utility",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item8": {
+                        "boxDescription": "Public Facilities & Institutions",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item9": {
+                        "boxDescription": "Open Space & Outdoor Recreation",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item10": {
+                        "boxDescription": "Parking Facilities",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item11": {
+                        "boxDescription": "Vacant Land",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "Land Use",
+                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "type": "doubleColumn"
+            },
+            "menuSection": "LandUse1",
+            "mouseoverName": "Property Use Types",
+            "order": 8,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
         "Special Purpose Districts": {
             "category": "6",
             "denyList": {
@@ -317,7 +437,7 @@
                         "imageUrl": null
                     },
                     "item3": {
-                        "boxDescription": "Unenclosed Only (includes Small)",
+                        "boxDescription": "UnenHere closed Only (includes Small)",
                         "boxStyle": "background:#1fe8ef",
                         "imageUrl": null
                     },
@@ -908,7 +1028,7 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
-        "Property Use Types": {
+        "Property Use Types2": {
             "category": "6",
             "denyList": {
                 "denyList1": null
