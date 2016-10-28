@@ -205,6 +205,44 @@
                 "minimumLevel": 1,
                 "maximumLevel": 20,
                 "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "dc_ZoningLabelPoints": {
+            "name": "dc_ZoningLabelPoints",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_zoning",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_ZoningLabelPoints@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.14,
+                    "yMin": 38.80,
+                    "xMax": -76.89,
+                    "yMax": 38.99
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
                 "tmsStyle": "GWC"
             },
             "rasters": {
