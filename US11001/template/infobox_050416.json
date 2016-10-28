@@ -1356,7 +1356,7 @@
                 }
             }
         },
-        "dc_zoning":{
+        "dc_ZoningLabelPoints":{
             "referenceid":"OBJECTID",
             "propertyid":"OBJECTID",
             "offset":157,
