@@ -19,13 +19,6 @@
                             "param1": "PLUTO"
                         },
                         "service": "tileMapServiceService"
-                    },
-                    "func2": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "mappluto"
-                        },
-                        "service": "tileMapServiceService"
                     }
                 },
                 "emits": {
@@ -46,13 +39,6 @@
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
                             "param1": "PLUTO"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func2": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "mappluto"
                         },
                         "service": "tileMapServiceService"
                     }
