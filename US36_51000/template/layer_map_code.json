@@ -1,6 +1,6 @@
 {
     "layerjson": {
-        "PLUTO": {
+    "PLUTO": {
       "name": "PLUTO",
       "removeName": null,
       "url": null,
@@ -520,7 +520,7 @@
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
-                "minimumLevel": 1,
+                "minimumLevel": 18,
                 "maximumLevel": 20,
                 "alpha": 1,
                 "tmsStyle": "GWC"
