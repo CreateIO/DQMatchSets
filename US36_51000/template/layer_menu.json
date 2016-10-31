@@ -19,6 +19,13 @@
                             "param1": "PLUTO"
                         },
                         "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "mappluto"
+                        },
+                        "service": "tileMapServiceService"
                     }
                 },
                 "emits": {
@@ -39,6 +46,13 @@
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
                             "param1": "PLUTO"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "mappluto"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -1555,7 +1569,6 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
-
         "Zoning Districts": {
             "category": "6",
             "denyList": {
