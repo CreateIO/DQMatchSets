@@ -27,7 +27,7 @@
         "tileWidth": 256,
         "tileHeight": 256,
         "minimumLevel": 8,
-        "maximumLevel": 16,
+        "maximumLevel": 17,
         "alpha": 1,
         "tmsStyle": "OSM"
       },
