@@ -4255,17 +4255,18 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "dc_ZoningLabelPoints"
+                            "param1": "dc_zoning"
                         },
                         "service": "tileMapServiceService"
                     },
                     "func2": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "dc_zoning"
+                            "param1": "dc_ZoningLabelPoints"
                         },
                         "service": "tileMapServiceService"
                     }
+
 
                 },
                 "emits": {
@@ -4285,15 +4286,14 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "dc_ZoningLabelPoints"
+                            "param1": "dc_zoning"
                         },
                         "service": "tileMapServiceService"
                     },
-
                     "func2": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "dc_zoning"
+                            "param1": "dc_ZoningLabelPoints"
                         },
                         "service": "tileMapServiceService"
                     }
