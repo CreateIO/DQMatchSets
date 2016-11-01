@@ -9755,6 +9755,10 @@
             "stories": 5.0,
             "ccminlotarea": "",
             "maximumpermittedfar": 3.25
+        },
+        {
+            "zoning": "UNZONED",
+            "zoningdistricts": "UNZONED"
         }
     ]
 }
