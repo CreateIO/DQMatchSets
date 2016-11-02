@@ -283,7 +283,7 @@
          "minvalue": 0,
          "maxvalue": 1500,
          "minsuggest": 5,
-         "maxsuggest": 100,
+         "maxsuggest": 150,
          "step": 1,
          "mapvalue":"",
          "listorder":5,
