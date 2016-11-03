@@ -230,7 +230,7 @@
             },
             "tms": {
                 "tmsLayerName": "dc_ZoningLabelPoints",
-                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod_db:dc_ZoningLabelPoints@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_ZoningLabelPoints@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -77.14,
