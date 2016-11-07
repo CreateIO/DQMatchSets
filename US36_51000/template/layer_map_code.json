@@ -323,10 +323,10 @@
                 "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_CommercialDistrictsOverlay@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
-                    "xMin": -74.29,
-                    "yMin": 40.50,
-                    "xMax": -73.66,
-                    "yMax": 40.92
+                    "xMin": -74.2039184570312,
+                    "yMin": 40.5111427307129,
+                    "xMax": -73.6989974975586,
+                    "yMax": 40.9136123657227
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
