@@ -760,6 +760,44 @@
                 "exists": false
             }
         },
+        "ny_EmpowermentZones": {
+            "name": "ny_EmpowermentZones",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_EmpowermentZones",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_EmpowermentZones@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -73.9636953088846,
+                    "yMin": 40.7880169462688,
+                    "xMax": -73.8660664599588,
+                    "yMax": 40.8791878748926
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
         "ny_FreshFoodStoresZoning": {
             "name": "ny_FreshFoodStoresZoning",
             "removeName": null,
@@ -783,6 +821,44 @@
                     "yMin": 40.5627324159395,
                     "xMax": -73.7189440549245,
                     "yMax": 40.9114170605699
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_CommunityParksInitiative": {
+            "name": "ny_CommunityParksInitiative",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "nny_CommunityParksInitiative",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_CommunityParksInitiative@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.1978530883789,
+                    "yMin": 40.5680618286133,
+                    "xMax": -73.7353439331055,
+                    "yMax": 40.8642234802246
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
