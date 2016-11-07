@@ -1218,7 +1218,7 @@
                 },
                 "sourceDescription": "NYC Open Data",
                 "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
-                "type": "doubleColumn"
+                "type": "singleColumn"
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Empowerment Zones",
