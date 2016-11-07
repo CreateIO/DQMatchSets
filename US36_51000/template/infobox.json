@@ -49,37 +49,6 @@
                 }
             }
         },
-        "ny_SpecialPurposeDistricts":{
-            "referenceid":"UNIQUEID",
-            "propertyid":null,
-            "offset":null,
-            "fieldtype":"retail",
-            "photos":{
-                "active":false,
-                "value":null
-            },
-            "pdfs":{
-                "active":false,
-                "value":null
-            },
-            "viewDetailsBox":false,
-            "wdcepDetailsBox":false,
-            "header":"Special Purpose Districts",
-            "boxValues":{               
-                "field1":{
-                    "value":"SPNAME",
-                    "display":"District: ",
-                    "fieldtype":"text",
-                    "units":null
-                },
-                "field2":{
-                    "value":"SDLBL",
-                    "display":"District Code: ",
-                    "fieldtype":"text",
-                    "units":null
-                }
-            }
-        },
         "ny_WP":{
             "referenceid":"UNIQUEID",
             "propertyid":null,
