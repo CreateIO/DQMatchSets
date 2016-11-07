@@ -27,7 +27,7 @@
         "tileWidth": 256,
         "tileHeight": 256,
         "minimumLevel": 8,
-        "maximumLevel": 17,
+        "maximumLevel": 20,
         "alpha": 1,
         "tmsStyle": "OSM"
       },
@@ -92,7 +92,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_SpecialPurposeDistricts",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SpecialPurposeDistricts@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SpecialPurposeDistricts@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.34,
@@ -130,7 +130,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_NeighborhoodTabulationAreas",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_NeighborhoodTabulationAreas@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_NeighborhoodTabulationAreas@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.27,
@@ -168,7 +168,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_PublicUseMicrodataAreas",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_PublicUseMicrodataAreas@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_PublicUseMicrodataAreas@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.27,
@@ -206,7 +206,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_SpecialPurposeDistricts_base",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SpecialPurposeDistricts_base@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SpecialPurposeDistricts_base@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.34,
@@ -244,7 +244,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_LimitedHeightDistricts",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_LimitedHeightDistricts@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_LimitedHeightDistricts@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.04,
@@ -320,7 +320,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_CommercialDistrictsOverlay",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_CommercialDistrictsOverlay@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_CommercialDistrictsOverlay@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.29,
@@ -358,7 +358,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_CityOwnedLeasedProperties",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_CityOwnedLeasedProperties@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_CityOwnedLeasedProperties@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.31,
@@ -396,7 +396,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_SPD_wSubDistricts",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SPD_wSubDistricts@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SPD_wSubDistricts@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.16,
@@ -472,7 +472,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_ZoningMapAmendments",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_ZoningMapAmendments@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_ZoningMapAmendments@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.30,
@@ -548,7 +548,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_Hurricane_Shelters",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_Hurricane_Shelters@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_Hurricane_Shelters@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.23,
@@ -586,7 +586,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_HurricaneInnundationZones",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_HurricaneInnundationZones@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_HurricaneInnundationZones@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.31,
@@ -624,7 +624,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_WP",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_WP@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_WP@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.30,
@@ -662,7 +662,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_WAP",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_WAP@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_WAP@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -73.97,
@@ -738,7 +738,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_SidewalkCafes",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SidewalkCafes@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SidewalkCafes@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.27,
@@ -776,7 +776,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_FreshFoodStoresZoning",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_FreshFoodStoresZoning@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_FreshFoodStoresZoning@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.21,
@@ -814,7 +814,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_SubwayRoutes",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SubwayRoutes@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SubwayRoutes@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.31,
@@ -852,7 +852,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_SubwayStations",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SubwayStations@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SubwayStations@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.15,
@@ -890,7 +890,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_SubwayEntrances",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SubwayEntrances@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SubwayEntrances@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.31,
@@ -1080,7 +1080,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_Zoning",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_Zoning@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_Zoning@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.31,
