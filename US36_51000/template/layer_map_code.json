@@ -1083,10 +1083,10 @@
                 "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_Zoning@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
-                    "xMin": -74.31,
-                    "yMin": 40.48,
-                    "xMax": -73.65,
-                    "yMax": 40.93
+                    "xMin": -74.259033203125,
+                    "yMin": 40.4889831542969,
+                    "xMax": -73.6973724365234,
+                    "yMax": 40.918643951416
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
