@@ -1174,7 +1174,7 @@
             "layerUsed": true,
             "legendContents": {
                 "description": "Businesses that qualify and operate in one of two New York City Empowerment Zones (South Bronx or Upper Manhattan) may be eligible for an employer wage credit for increased depreciation tax deductions.",
-                "listItems": {
+               "listItemsLeft": {
                     "item1": {
                         "boxDescription": "South Bronx 1",
                         "boxStyle": "background:#eb9889",
@@ -1194,7 +1194,9 @@
                         "boxDescription": "South Bronx 5",
                         "boxStyle": "background:#7765d1",
                         "imageUrl": null
-                    },
+                    }
+                },
+                "listItemsRight": {
                     "item5": {
                         "boxDescription": "Upper Manhattan 9",
                         "boxStyle": "background:#8ddea8",
@@ -1218,7 +1220,7 @@
                 },
                 "sourceDescription": "NYC Open Data",
                 "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
-                "type": "singleColumn"
+                "type": "doubleColumn"
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Empowerment Zones",
