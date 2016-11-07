@@ -95,10 +95,10 @@
                 "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SpecialPurposeDistricts@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
-                    "xMin": -74.34,
-                    "yMin": 40.48,
-                    "xMax": -73.69,
-                    "yMax": 40.93
+                    "xMin": -74.2589263916016,
+                    "yMin": 40.4910697937012,
+                    "xMax": -73.7683029174805,
+                    "yMax": 40.9180908203125
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
@@ -209,10 +209,10 @@
                 "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SpecialPurposeDistricts_base@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
-                    "xMin": -74.34,
-                    "yMin": 40.48,
-                    "xMax": -73.69,
-                    "yMax": 40.93
+                    "xMin": -74.2589263916016,
+                    "yMin": 40.4910697937012,
+                    "xMax": -73.7683029174805,
+                    "yMax": 40.9180908203125
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
@@ -399,10 +399,10 @@
                 "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SPD_wSubDistricts@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
-                    "xMin": -74.16,
-                    "yMin": 40.56,
-                    "xMax": -73.69,
-                    "yMax": 40.89
+                    "xMin": -74.0818328857422,
+                    "yMin": 40.5707092285156,
+                    "xMax": -73.7691802978516,
+                    "yMax": 40.8798942565918
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
