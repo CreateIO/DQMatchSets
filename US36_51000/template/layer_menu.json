@@ -1463,7 +1463,7 @@
                 "sourceURL": "https://data.cityofnewyork.us/",
                 "type": "doubleColumn"
             },
-            "menuSection": "CityInfo2",
+            "menuSection": "",
             "mouseoverName": "Long Island Railroad",
             "order": 2,
             "subCategory": "3",
@@ -1548,7 +1548,7 @@
                 "sourceURL": "https://data.cityofnewyork.us/",
                 "type": "singleColumn"
             },
-            "menuSection": "CityInfo2",
+            "menuSection": "",
             "mouseoverName": "Metro-North Railroad",
             "order": 2,
             "subCategory": "3",
