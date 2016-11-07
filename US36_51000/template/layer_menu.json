@@ -1136,6 +1136,97 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png"
         },
+        "Empowerment Zones": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Empowerment Zones",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_EmpowermentZones"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Empowerment Zones'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_EmpowermentZones"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Businesses that qualify and operate in one of two New York City Empowerment Zones (South Bronx or Upper Manhattan) may be eligible for an employer wage credit for increased depreciation tax deductions.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "South Bronx 1",
+                        "boxStyle": "background:#eb9889",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "South Bronx 2",
+                        "boxStyle": "background:#b3ca4c",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "South Bronx 4",
+                        "boxStyle": "background:#895372",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "South Bronx 5",
+                        "boxStyle": "background:#7765d1",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "Upper Manhattan 9",
+                        "boxStyle": "background:#8ddea8",
+                        "imageUrl": null
+                    },
+                    "item6": {
+                        "boxDescription": "Upper Manhattan 10",
+                        "boxStyle": "background:#4cc5b1",
+                        "imageUrl": null
+                    },
+                    "item7": {
+                        "boxDescription": "Upper Manhattan 11",
+                        "boxStyle": "background:#9fbf7f",
+                        "imageUrl": null
+                    },
+                    "item8": {
+                        "boxDescription": "Upper Manhattan 12",
+                        "boxStyle": "background:#d53e4f",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Open Data",
+                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "type": "doubleColumn"
+            },
+            "menuSection": "Incentives1",
+            "mouseoverName": "Empowerment Zones",
+            "order": 2,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
         "Fresh Food Stores Zoning": {
             "category": "6",
             "denyList": {
@@ -1191,13 +1282,69 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "Fresh Food Stores Zoning",
+                "sourceDescription": "NYC Open Data",
                 "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Fresh Food Stores Zoning",
             "order": 3,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Community Parks Initiative Zones": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Community Parks Initiative Zones",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_CommunityParksInitiative"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Community Parks Initiative Zones'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_CommunityParksInitiative"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "CPI Zones are neighborhoods where NYC Parks will pursue a combination of capital investment and/or targeted physical improvements, enhanced programming, and public outreach efforts through the Community Parks Initiative launched in 2014.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Community Parks Initiative Zones",
+                        "boxStyle": "background:#400f80",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Open Data",
+                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "Incentives1",
+            "mouseoverName": "Community Parks Initiative Zones",
+            "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
