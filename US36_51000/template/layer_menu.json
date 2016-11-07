@@ -470,7 +470,7 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_CityOwnedLeasedProperties"
+                            "param1": "ny_COLP"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -484,7 +484,7 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_CityOwnedLeasedProperties"
+                            "param1": "ny_COLP"
                         },
                         "service": "tileMapServiceService"
                     }
