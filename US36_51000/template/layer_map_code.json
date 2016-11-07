@@ -114,8 +114,8 @@
                 "exists": false
             }
         },
-        "ny_NeighborhoodTabulationAreas": {
-            "name": "ny_NeighborhoodTabulationAreas",
+        "ny_NTAs": {
+            "name": "ny_NTAs",
             "removeName": null,
             "url": null,
             "cartographic": false,
@@ -129,8 +129,8 @@
                 "exists": false
             },
             "tms": {
-                "tmsLayerName": "ny_NeighborhoodTabulationAreas",
-                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_NeighborhoodTabulationAreas@EPSG:900913@png",
+                "tmsLayerName": "ny_NTAs",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_NTAs@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.27,
