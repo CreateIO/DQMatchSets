@@ -986,7 +986,7 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_PW"
+                            "param1": "ny_WP"
                         },
                         "service": "tileMapServiceService"
                     },
