@@ -342,8 +342,8 @@
                 "exists": false
             }
         },
-        "ny_CityOwnedLeasedProperties": {
-            "name": "ny_CityOwnedLeasedProperties",
+        "ny_COLP": {
+            "name": "ny_COLP",
             "removeName": null,
             "url": null,
             "cartographic": false,
@@ -357,14 +357,14 @@
                 "exists": false
             },
             "tms": {
-                "tmsLayerName": "ny_CityOwnedLeasedProperties",
-                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_CityOwnedLeasedProperties@EPSG:900913@png",
+                "tmsLayerName": "ny_COLP",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_COLP@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
-                    "xMin": -74.31,
-                    "yMin": 40.48,
-                    "xMax": -73.65,
-                    "yMax": 40.93
+                    "xMin": -74.2586898803711,
+                    "yMin": 40.4923820495605,
+                    "xMax": -73.6991348266602,
+                    "yMax": 40.9184265136719
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
