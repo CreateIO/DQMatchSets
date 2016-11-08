@@ -1,4 +1,5 @@
-{ "baselayer": {
+{
+    "baselayer": {
         "Emerald": {
             "inUse": true,
             "type": "osm",
@@ -6,7 +7,6 @@
             "url": "//a.tiles.mapbox.com/v3/zooombear.nc05cb2j",
             "fileExtension": "jpg",
             "maximumLevel": 18,
-            //22
             "credit": {
                 "imageUrl": "",
                 "link": "http://www.openstreetmap.org/copyright",
@@ -20,7 +20,6 @@
             "url": "//a.tiles.mapbox.com/v3/zooombear.libl3g28",
             "fileExtension": "jpg",
             "maximumLevel": 18,
-            //19
             "credit": {
                 "imageUrl": "",
                 "link": "http://www.openstreetmap.org/copyright",
@@ -34,7 +33,6 @@
             "url": "//a.tiles.mapbox.com/v3/zooombear.libjp8ng",
             "fileExtension": "jpg",
             "maximumLevel": 18,
-            //22
             "credit": {
                 "imageUrl": "",
                 "link": "http://www.openstreetmap.org/copyright",
@@ -48,7 +46,6 @@
             "url": "//a.tiles.mapbox.com/v3/zooombear.ld5cm6bl",
             "fileExtension": "jpg",
             "maximumLevel": 18,
-            //22
             "credit": {
                 "imageUrl": "",
                 "link": "",
@@ -73,10 +70,8 @@
             "type": "osm",
             "name": "toner",
             "url": "//stamen-tiles.a.ssl.fastly.net/toner-lite/",
-            // //stamen-tiles.a.ssl.fastly.net/watercolor/
             "fileExtension": "png",
             "maximumLevel": 18,
-            //20
             "credit": {
                 "imageUrl": "",
                 "link": "http://stamen.com/",
