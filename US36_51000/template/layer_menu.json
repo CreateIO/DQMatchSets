@@ -729,7 +729,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Hurricane evacuation zones are areas of the city that may be inundated by storm surge or isolated by storm surge waters. There are six zones, ranked by the risk of storm surge impact, with Zone 1 being the most likely to flood. In the event of a hurricane or tropical storm, residents in these zones may be ordered to evacuate.",
+                "description": "Hurricane evacuation zones are areas of the city that may be inundated by storm surge or isolated by storm surge waters. The six zones are ranked by the risk of storm surge impact, with Zone 1 being the most likely to flood.",
                 "listItemsLeft": {
                     "item1": {
                         "boxDescription": "Zone 1",
