@@ -948,7 +948,7 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Waterfront Access Plan",
-            "order": 8,
+            "order": 9,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -1269,17 +1269,17 @@
                 "description": "A FRESH food store is a full-line grocery store, established in underserved neighborhoods through zoning incentives, that promotes the sale of fresh food products.",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Descretionary tax incentives",
+                        "boxDescription": "Descretionary Tax Incentives",
                         "boxStyle": "background:#fbc709",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "Zoning and disretionary tax incentives",
+                        "boxDescription": "Zoning & Disretionary Tax Incentives",
                         "boxStyle": "background:#fb9709",
                         "imageUrl": null
                     },
                     "item3": {
-                        "boxDescription": "Zoning incentives",
+                        "boxDescription": "Zoning Incentives",
                         "boxStyle": "background:#fb5a09",
                         "imageUrl": null
                     }
@@ -1291,6 +1291,62 @@
             "menuSection": "Incentives1",
             "mouseoverName": "Fresh Food Stores Zoning",
             "order": 3,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Transit Zones": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Transit Zones",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_TransitZones"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Transit Zones'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_TransitZones"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Transit Zones are areas where special parking provisions apply. The boundaries are mapped to encompass neighborhoods that are dense, proximate to public transportation options, and where car ownership rates are lowest.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Transit Zomes",
+                        "boxStyle": "background:#d5cd5c",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse2",
+            "mouseoverName": "Transit Zones",
+            "order": 8,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
