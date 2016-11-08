@@ -367,12 +367,12 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Adopted Projects",
-                        "boxStyle": "background:#1f356c",
+                        "boxStyle": "background:#9a9fad",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "Pipeline Projects",
-                        "boxStyle": "background:#73cfcb",
+                        "boxStyle": "background:#bee2dd",
                         "imageUrl": null
                     }
                 },
