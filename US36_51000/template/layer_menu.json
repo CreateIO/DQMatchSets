@@ -659,7 +659,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Limited Height Districts are areas of the city that have height limitations. A limited height district may be superimposed on an area designated as an historic district by the Landmarks Preservation Commission.",
+                "description": "Limited Height Districts are zoning areas with building height restrictions of 50 - 100 ft that may be superimposed on areas designated as historic districts by the Landmarks Preservation Commission.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Limited Height Zoning Districts",
@@ -729,7 +729,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Hurricane evacuation zones are areas of the city that may be inundated by storm surge or isolated by storm surge waters. The six zones are ranked by the risk of storm surge impact, with Zone 1 being the most likely to flood.",
+                "description": "Hurricane Evacuation Zones are areas of the city that may be inundated by storm surge or isolated by storm surge waters. The six zones are ranked by the risk of storm surge impact, with Zone 1 being the most likely to flood.",
                 "listItemsLeft": {
                     "item1": {
                         "boxDescription": "Zone 1",
