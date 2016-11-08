@@ -424,25 +424,25 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "A Sidewalk Cafe is a portion of an eating or drinking estab­lishment that is located on a public sidewalk. Sidewalk cafe regulations are administered by the Department of Consumer Affairs.",
+                "description": "A Sidewalk Cafe is a portion of an eating or drinking estab­lishment that is located on a public sidewalk including enclosed (within structure) & unenclosed (with removable tables etc.). Sidewalk cafe regulations are administered by the Department of Consumer Affairs.",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "No cafes permitted--this applys to locations where the zoning would normally permit, but some other regulation prohibits.",
+                        "boxDescription": "No sidewalk cafes permitted. (this applys to locations where the zoning would normally permit, but some other regulation prohibits.)",
                         "boxStyle": "background:#1fe8ef",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "Small unenclosed sidewalk cafes permitted inclusing cafes with no more than a single row of tables and chairs in a space no greater than 4½ feet from the street line, with no barrier between the café and the sidewalk.",
+                        "boxDescription": "Small unenclosed sidewalk cafes permitted.",
                         "boxStyle": "background:#f81d4f",
                         "imageUrl": null
                     },
                     "item3": {
-                        "boxDescription": "Unenclosed sidewalk cafes permitted including cafes with remov­able tables, chairs or railings, with no overhead coverage other than umbrellas or a retractable awning.",
+                        "boxDescription": "All unenclosed sidewalk cafes permitted.",
                         "boxStyle": "background:#0877e5",
                         "imageUrl": null
                     },
                     "item4": {
-                        "boxDescription": "All Sidewalk Cafes permitted including enclosed cafes that are contained within a structure.",
+                        "boxDescription": "All sidewalk cafes permitted including enclosed, unenclosed & small.",
                         "boxStyle": "background:#1fef6f",
                         "imageUrl": null
                     }
