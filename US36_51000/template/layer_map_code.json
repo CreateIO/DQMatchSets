@@ -282,7 +282,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_InclusionaryHousing",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_InclusionaryHousing@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_InclusionaryHousing@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.0225448608398,
