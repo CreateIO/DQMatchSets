@@ -285,10 +285,10 @@
                 "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_InclusionaryHousing@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
-                    "xMin": -74.13,
-                    "yMin": 40.56,
-                    "xMax": -73.67,
-                    "yMax": 40.88
+                    "xMin": -74.0225448608398,
+                    "yMin": 40.5706176757812,
+                    "xMax": -73.7804183959961,
+                    "yMax": 40.8752784729004
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
