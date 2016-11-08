@@ -780,7 +780,7 @@
             },
             "menuSection": "LandUse3",
             "mouseoverName": "Hurricane Evacuation Zones",
-            "order": 2,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -834,9 +834,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning",
                 "type": "singleColumn"
             },
-            "menuSection": "CityInfo1",
+            "menuSection": "LandUse3",
             "mouseoverName": "Neighborhood Tabulation Areas",
-            "order": 8,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -890,9 +890,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning",
                 "type": "singleColumn"
             },
-            "menuSection": "CityInfo1",
+            "menuSection": "LandUse3",
             "mouseoverName": "Public Use Microdata Areas",
-            "order": 8,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
