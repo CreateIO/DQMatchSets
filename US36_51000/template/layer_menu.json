@@ -189,12 +189,12 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Sub-Districts",
-                        "boxStyle": "background:#db402f",
+                        "boxStyle": "background:#e04c3d",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "Special Purpose Districts",
-                        "boxStyle": "background:#c06d61",
+                        "boxStyle": "background:#ad654d",
                         "imageUrl": null
                     }
                 },
@@ -366,12 +366,12 @@
                 "description": "The Inclusionary Housing Designated Areas Program was created in 2005 to encourage the creation and preservation of affordable housing in medium and high-density neighborhoods being rezoned to create new housing opportunities. The program modifies the base floor area ratio (FAR) available for developments and offers a floor area bonus for developments that provide affordable housing either on-site or within the surrounding community.",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Adopted",
+                        "boxDescription": "Adopted Projects",
                         "boxStyle": "background:#1f356c",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "Pipeline",
+                        "boxDescription": "Pipeline Projects",
                         "boxStyle": "background:#73cfcb",
                         "imageUrl": null
                     }
