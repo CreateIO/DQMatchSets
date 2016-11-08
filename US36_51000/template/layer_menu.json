@@ -427,7 +427,7 @@
                 "description": "A Sidewalk Cafe is a portion of an eating or drinking estab­lishment that is located on a public sidewalk including enclosed (within structure) & unenclosed (with removable tables etc.). Sidewalk cafe regulations are administered by the Department of Consumer Affairs.",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "No sidewalk cafes permitted. (this applys to locations where the zoning would normally permit, but some other regulation prohibits.)",
+                        "boxDescription": "No sidewalk cafes permitted.",
                         "boxStyle": "background:#1fe8ef",
                         "imageUrl": null
                     },
@@ -442,7 +442,7 @@
                         "imageUrl": null
                     },
                     "item4": {
-                        "boxDescription": "All sidewalk cafes permitted including enclosed, unenclosed & small.",
+                        "boxDescription": "All sidewalk cafes permitted.",
                         "boxStyle": "background:#1fef6f",
                         "imageUrl": null
                     }
