@@ -1,5 +1,4 @@
-{
-    "baselayer": {
+{ "baselayer": {
         "Emerald": {
             "inUse": true,
             "type": "osm",
@@ -112,3 +111,4 @@
         }
     }
 }
+
