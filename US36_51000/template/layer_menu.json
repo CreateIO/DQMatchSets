@@ -729,7 +729,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Hurricane Evacuation Zones are determined by New York City Emergency Management and represent varying threat levels of coastal flooding resulting from storm surge. The points represent the evacuation shelters.",
+                "description": "Hurricane evacuation zones are areas of the city that may be inundated by storm surge or isolated by storm surge waters. There are six zones, ranked by the risk of storm surge impact, with Zone 1 being the most likely to flood. In the event of a hurricane or tropical storm, residents in these zones may be ordered to evacuate.",
                 "listItemsLeft": {
                     "item1": {
                         "boxDescription": "Zone 1",
