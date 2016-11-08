@@ -109,8 +109,8 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "Land Use",
-                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
                 "type": "doubleColumn"
             },
             "menuSection": "LandUse1",
@@ -199,7 +199,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
@@ -255,7 +255,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
@@ -316,7 +316,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse1",
@@ -377,7 +377,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
@@ -448,7 +448,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
@@ -509,7 +509,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
@@ -612,7 +612,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
                 "type": "doubleColumn"
             },
             "menuSection": "LandUse2",
@@ -668,7 +668,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
@@ -831,7 +831,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "https://www1.nyc.gov/site/planning",
+                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse3",
@@ -887,7 +887,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "https://www1.nyc.gov/site/planning",
+                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse3",
@@ -943,7 +943,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "https://www1.nyc.gov/site/planning",
+                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
@@ -1018,7 +1018,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "https://www1.nyc.gov/site/planning",
+                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
                 "type": "singleColumn"
             },
             "menuSection": "CityInfo1",
@@ -1125,8 +1125,8 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "Land Use",
-                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
                 "type": "doubleColumn"
             },
             "menuSection": "",
@@ -1284,8 +1284,8 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "NYC Open Data",
-                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
@@ -1332,7 +1332,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "CPI Zones are neighborhoods where NYC Parks will pursue a combination of capital investment and/or targeted physical improvements, enhanced programming, and public outreach efforts through the Community Parks Initiative launched in 2014.",
+                "description": "Community Parks Initiative Zones are neighborhoods where NYC Parks will pursue a combination of capital investment and/or targeted physical improvements, enhanced programming, and public outreach efforts through the Community Parks Initiative launched in 2014.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Community Parks Initiative Zones",
@@ -1341,7 +1341,7 @@
                     }
                 },
                 "sourceDescription": "NYC Open Data",
-                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "sourceURL": "https://data.cityofnewyork.us/",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
@@ -1481,224 +1481,12 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "NYC Open Data",
-                "sourceURL": "https://data.cityofnewyork.us/",
+                "sourceDescription": "The Newman Library",
+                "sourceURL": "https://www.baruch.cuny.edu/confluence/display/geoportal/NYC+Mass+Transit+Spatial+Layers",
                 "type": "doubleColumn"
             },
             "menuSection": "CityInfo2",
             "mouseoverName": "NYC Subway System",
-            "order": 2,
-            "subCategory": "3",
-            "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
-        },
-        "Long Island Railroad": {
-            "category": "6",
-            "denyList": {
-                "denyList1": null
-            },
-            "denyToggle": false,
-            "displayName": "Long Island Railroad",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_LongIslandRR_Routes"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func2": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_LongIslandRR_Stops"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'NY Data: Long Island Railroad'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_LongIslandRR_Routes"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func2": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_LongIslandRR_Stops"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 6,
-            "isActive": false,
-            "layerUsed": true,
-            "legendContents": {
-                "description": "MTA Long Island raid lines & stops.",
-                "listItemsLeft": {
-                    "item00": {
-                        "boxDescription": "Route 1 ",
-                        "boxStyle": "background:#ff0000",
-                        "imageUrl": null
-                    },
-                    "item01": {
-                        "boxDescription": "Routes B, D, F & M",
-                        "boxStyle": "background:#fdae61",
-                        "imageUrl": null
-                    },
-                    "item02": {
-                        "boxDescription": "Routes 4, 5 & 6",
-                        "boxStyle": "background:#19aa83",
-                        "imageUrl": null
-                    },
-                    "item03": {
-                        "boxDescription": "Route GS",
-                        "boxStyle": "background:#6cbe45",
-                        "imageUrl": null
-                    },
-                    "item04": {
-                        "boxDescription": "Routes A, C & E",
-                        "boxStyle": "background:#2850ad",
-                        "imageUrl": null
-                    },
-                    "item05": {
-                        "boxDescription": "Route 7",
-                        "boxStyle": "background:#b933ad",
-                        "imageUrl": null
-                    }
-                },
-                "listItemsRight": {
-                    "item06": {
-                        "boxDescription": "Routes J & Z",
-                        "boxStyle": "background:#896d46",
-                        "imageUrl": null
-                    },
-                    "item07": {
-                        "boxDescription": "Route L",
-                        "boxStyle": "background:#a7a9ac",
-                        "imageUrl": null
-                    },
-                    "item08": {
-                        "boxDescription": "Routes N, Q & R",
-                        "boxStyle": "background:#f8e701",
-                        "imageUrl": null
-                    },
-                    "item09": {
-                        "boxDescription": "Route SI",
-                        "boxStyle": "background:#808183",
-                        "imageUrl": null
-                    },
-                    "item091": {
-                        "boxDescription": "Subway Stations",
-                        "boxStyle": "background:#000000; border-radius: 15px; border: 1px solid #ffffff",
-                        "imageUrl": null
-                    },
-                    "item092": {
-                        "boxDescription": "Subway Entrances",
-                        "boxStyle": "background:#dbdee1; border: 1px solid #555555",
-                        "imageUrl": null
-                    }
-                },
-                "sourceDescription": "NYC Open Data",
-                "sourceURL": "https://data.cityofnewyork.us/",
-                "type": "doubleColumn"
-            },
-            "menuSection": "",
-            "mouseoverName": "Long Island Railroad",
-            "order": 2,
-            "subCategory": "3",
-            "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
-        },
-        "Metro-North Railroad": {
-            "category": "6",
-            "denyList": {
-                "denyList1": null
-            },
-            "denyToggle": false,
-            "displayName": "Metro-North Railroad",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_MetroNorthRoutes"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func2": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_MetroNorthStops"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'NY Data: Metro-North Railroad'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_MetroNorthRoutes"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func2": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_MetroNorthStops"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 6,
-            "isActive": false,
-            "layerUsed": true,
-            "legendContents": {
-                "description": "MTA Metro-North Railroad lines & stops.",
-                "listItems": {
-                    "item00": {
-                        "boxDescription": "Route 1 - Hudzen Green",
-                        "boxStyle": "background:#00933c",
-                        "imageUrl": null
-                    },
-                    "item01": {
-                        "boxDescription": "Route 2 - Harlem",
-                        "boxStyle": "background:#2850ad",
-                        "imageUrl": null
-                    },
-                    "item02": {
-                        "boxDescription": "Routes 3, 4, 5 & 6",
-                        "boxStyle": "background:#ee352e",
-                        "imageUrl": null
-                    },
-                    "item091": {
-                        "boxDescription": "Subway Stations",
-                        "boxStyle": "background:#000000; border-radius: 15px; border: 1px solid #ffffff",
-                        "imageUrl": null
-                    }
-                },
-                "sourceDescription": "NYC Open Data",
-                "sourceURL": "https://data.cityofnewyork.us/",
-                "type": "singleColumn"
-            },
-            "menuSection": "",
-            "mouseoverName": "Metro-North Railroad",
             "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
@@ -1770,7 +1558,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse1",
