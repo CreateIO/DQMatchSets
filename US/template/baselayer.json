@@ -1,5 +1,5 @@
 {
-    "baseLayer": {
+    "baselayer": {
         "Emerald": {
             "inUse": true,
             "type": "osm",
