@@ -435,7 +435,7 @@
       },
       "long": {
         "title": "Long",
-        "description": "Make chart long",
+        "description": "Make chart long.",
         "type": "string",
         "enum": ["true", "false"],
         "default": "false"
