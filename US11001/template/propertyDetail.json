@@ -313,6 +313,11 @@
               "key": "Owner"
             },
             {
+              "title": "Unlock Owner Data",
+              "restrict": "inhouseDemog",
+              "type": "teaser"
+            },
+            {
               "value": "Data Source: DC Government",
               "type": "text"
             }
@@ -1496,7 +1501,7 @@
         {
           "title": "Tenants",
           "collapsible": true,
-          "restrict": "tenants",
+          "restrict": "",
           "type": "subsection",
           "children": [
             {
@@ -1519,6 +1524,7 @@
               },
               "name": "Tenants",
               "itemId": "ig_name",
+              "restrict": "tenants",
               "placeholder": "No tenant data to show.",
               "children": [
                 {
@@ -1620,6 +1626,15 @@
                 }
               ],
               "type": "collection"
+            },
+            {
+              "title": "Unlock Tenant Data",
+              "features": [
+                "Occupancy, expense, and contact details",
+                "Business headcount and sales performance"
+              ],
+              "restrict": "inhouseDemog",
+              "type": "teaser"
             }
           ]
         },
@@ -1724,6 +1739,22 @@
                 "value": "#/zdata/uses"
               },
               "type": "table"
+            }
+          ]
+        },
+        {
+          "title": "Lot Coverage",
+          "collapsible": false,
+          "restrict": "inhouseDemog",
+          "type": "subsection",
+          "children": [
+            {
+              "title": "Unlock Zoning Data",
+              "features": [
+                "Development potential and land use conditions",
+                "Setbacks, occupancy, and parking requirements"
+              ],
+              "type": "teaser"
             }
           ]
         },
@@ -4266,6 +4297,22 @@
           ]
         },
         {
+          "title": "Economy",
+          "collapsible": false,
+          "restrict": "inhouseDemog",
+          "type": "subsection",
+          "children": [
+            {
+              "title": "Unlock Market Data",
+              "features": [
+                "Social economic insights on people and households",
+                "Housing stock context and market conditions"
+              ],
+              "type": "teaser"
+            }
+          ]
+        },
+        {
           "value": "Data Source: FRED Economic Data",
           "type": "text"
         }
@@ -5139,6 +5186,22 @@
             {
               "value": "Data source: <a href=\"http://www.cushmanwakefield.com/~/media/reports/corporate/Global%20Reports/CW_Capital_Markets_Update.pdf\">Cushman and Wakefield Report</a>",
               "type": "text"
+            }
+          ]
+        },
+        {
+          "title": "Financial Proforma",
+          "collapsible": false,
+          "restrict": "inhouseDemog",
+          "type": "subsection",
+          "children": [
+            {
+              "title": "Unlock Financial Data",
+              "features": [
+                "Pro formas and loan details for CMBS properties",
+                "Debt financing and economic conditions"
+              ],
+              "type": "teaser"
             }
           ]
         }
