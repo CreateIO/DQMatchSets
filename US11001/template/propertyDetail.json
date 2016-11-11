@@ -4124,6 +4124,7 @@
         {
           "title": "Economy",
           "collapsible": true,
+          "restrict": "lhs.economy",
           "type": "subsection",
           "children": [
             {
@@ -4202,6 +4203,7 @@
         {
           "title": "National Economy",
           "collapsible": true,
+          "restrict": "lhs.economy",
           "type": "subsection",
           "children": [
             {
