@@ -2451,7 +2451,7 @@
         {
           "title": "Demographics",
           "collapsible": true,
-          "restrict": "esriDemog",
+          "restrict": "",
           "type": "subsection",
           "children": [
             {
