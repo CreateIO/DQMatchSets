@@ -874,6 +874,44 @@
                 "exists": false
             }
         },
+        "ny_NYCHA": {
+            "name": "nny_NYCHA",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_NYCHA",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_NYCHA@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.2060173822357,
+                    "yMin": 40.54815578032,
+                    "xMax": -73.7000090638734,
+                    "yMax": 40.9155327760001
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
         "ny_CommunityParksInitiative": {
             "name": "ny_CommunityParksInitiative",
             "removeName": null,

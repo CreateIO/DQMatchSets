@@ -1295,6 +1295,62 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
+        "NYCHA Community Engagement & Partnership Zones": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "NYCHA Community Engagement & Partnership Zones",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_NYCHA"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: NYCHA Community Engagement & Partnership Zones'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_NYCHA"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "A FRESH food store is a full-line grocery store, established in underserved neighborhoods through zoning incentives, that promotes the sale of fresh food products.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "NYCHA Zones",
+                        "boxStyle": "background:#ec5c64",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
+                "type": "singleColumn"
+            },
+            "menuSection": "Incentives1",
+            "mouseoverName": "NYCHA Community Engagement & Partnership Zones",
+            "order": 3,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
         "Transit Zones": {
             "category": "6",
             "denyList": {
