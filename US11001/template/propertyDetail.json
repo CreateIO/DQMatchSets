@@ -2459,7 +2459,6 @@
               "children": [
                 {
                   "title": "Census Tract",
-                  "restrict": "inhouseDemog",
                   "type": "tab",
                   "children": [
                     {
