@@ -526,7 +526,9 @@
               "title": "Data",
               "description": "Object path to series data.",
               "type": "array",
-              "items": "string"
+              "items": {
+                "type": "string"
+              }
             },
             "chartKey": {
               "title": "Chart Key",
