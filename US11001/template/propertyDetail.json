@@ -4326,12 +4326,14 @@
         {
           "title": "Residential Debt: Mortgage Rates",
           "collapsible": true,
+          "restrict": "lhs.financing",
           "type": "subsection",
           "children": []
         },
         {
           "title": "Benchmark Rates",
           "collapsible": true,
+          "restrict": "lhs.financing",
           "type": "subsection",
           "children": [
             {
@@ -4940,6 +4942,7 @@
         {
           "title": "JV Equity: Multifamily",
           "collapsible": true,
+          "restrict": "lhs.equity",
           "type": "subsection",
           "children": [
             {
@@ -4991,6 +4994,7 @@
         {
           "title": "JV Equity: Multifamily (Light Value Add)",
           "collapsible": true,
+          "restrict": "lhs.equity",
           "type": "subsection",
           "children": [
             {
@@ -5086,6 +5090,7 @@
         {
           "title": "JV Equity: Multifamily (Value Add)",
           "collapsible": true,
+          "restrict": "lhs.equity",
           "type": "subsection",
           "children": [
             {
@@ -5137,6 +5142,7 @@
         {
           "title": "JV Equity: Office (Suburban)",
           "collapsible": true,
+          "restrict": "lhs.equity",
           "type": "subsection",
           "children": [
             {
