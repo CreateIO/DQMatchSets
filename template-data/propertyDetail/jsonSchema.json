@@ -610,5 +610,25 @@
     "required": ["source", "itemId"],
     "dynamic": ["source"],
     "nestable": true
+  },
+  "teaser": {
+    "name": "Teaser",
+    "description": "Teaser for premium features.",
+    "properties": {
+      "title": {
+        "title": "Title",
+        "description": "Teaser title.",
+        "type": "string"
+      },
+      "features": {
+        "title": "Features",
+        "description": "Items in bulleted list below title.",
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": ["title"]
   }
 }
