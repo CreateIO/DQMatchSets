@@ -630,5 +630,17 @@
       }
     },
     "required": ["title"]
+  },
+  "html": {
+    "name": "HTML",
+    "description": "Raw HTML.",
+    "properties": {
+      "contents": {
+        "title": "Contents",
+        "description": "HTML contents.",
+        "type": "string"
+      }
+    },
+    "required": ["contents"]
   }
 }
