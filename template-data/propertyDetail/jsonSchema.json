@@ -1,0 +1,612 @@
+{
+  "$tree": true,
+  "section": {
+    "name": "Section",
+    "description": "First-level container for content.",
+    "properties": {
+      "title": {
+        "title": "Title",
+        "description": "Section title.",
+        "type": "string"
+      },
+      "icon": {
+        "title": "Icon",
+        "description": "CSS class to use for icon in navigation (example: \"navProperty\").",
+        "type": "string"
+      }
+    },
+    "required": ["title"],
+    "preview": "title",
+    "nestable": true
+  },
+  "subsection": {
+    "name": "Sub-section",
+    "description": "Second-level collapsible container for content.",
+    "properties": {
+      "title": {
+        "title": "Title",
+        "description": "Sub-section title.",
+        "type": "string"
+      },
+      "collapsible": {
+        "title": "Collapsible",
+        "description": "Allow sub-section to be collapsed by clicking on the title.",
+        "type": "boolean",
+        "default": false
+      },
+      "flags": {
+        "title": "Flags",
+        "description": "Special rules for displaying this sub-section. (Example: add \"array\" to mark ArrayPivotal sections.)",
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": ["title"],
+    "preview": "title",
+    "nestable": true
+  },
+  "streetview": {
+    "name": "StreetView",
+    "description": "Embedded Google StreetView pointed at a specific address."
+  },
+  "keyvalue": {
+    "name": "Key-value Pair",
+    "description": "Key with dynamic value pulled from data.",
+    "properties": {
+      "key": {
+        "title": "Key",
+        "description": "Metric to display.",
+        "type": "string"
+      },
+      "value": {
+        "title": "Value",
+        "description": "Location of data point to display.",
+        "type": "object"
+      },
+      "layer": {
+        "title": "Layer",
+        "description": "Layer(s) to activate when the layer icon is clicked.",
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "icon": {
+        "title": "Icon",
+        "description": "Image to place before the key text.",
+        "type": "string"
+      },
+      "size": {
+        "title": "Size",
+        "description": "Width of the key-value pair within a row of items.",
+        "type": "string",
+        "enum": ["auto", "quarter", "half", "full"],
+        "default": "auto"
+      },
+      "style": {
+        "title": "Text Style",
+        "description": "Size of the value text.",
+        "type": "string",
+        "enum": ["default", "large"],
+        "default": "default"
+      },
+      "source": {
+        "title": "Source",
+        "type": "object",
+        "properties": {
+          "link": {
+            "title": "Source Link URL",
+            "description": "URL for source link.",
+            "type": "string"
+          },
+          "text": {
+            "title": "Source Link Text",
+            "description": "Text for source link.",
+            "type": "string"
+          },
+          "lastUpdate": {
+            "title": "Last Update",
+            "description": "Time source was last updated.",
+            "type": "number"
+          }
+        }
+      },
+      "link": {
+        "type": "object",
+        "properties": {
+          "link": {
+            "title": "Link URL",
+            "description": "URL of link to add after value text.",
+            "type": "string"
+          },
+          "text": {
+            "title": "Link Text",
+            "description": "Text of link to add after value text.",
+            "type": "string"
+          }
+        }
+      },
+      "tooltip": {
+        "title": "Tooltip",
+        "description": "Text to display on hover.",
+        "type": "string"
+      }
+    },
+    "required": ["key", "value"],
+    "preview": "key",
+    "dynamic": ["value"]
+  },
+  "keyvalue-complex": {
+    "name": "Key-value Pair (Complex)",
+    "description": "Key with multiple dynamic values applied to a template.",
+    "properties": {
+      "key": {
+        "title": "Key",
+        "description": "Metric to display.",
+        "type": "string"
+      },
+      "values": {
+        "title": "Values",
+        "description": "Locations of data points to display.",
+        "type": "array",
+        "items": {
+          "type": "object"
+        },
+        "minItems": 1
+      },
+      "format": {
+        "title": "Format",
+        "description": "String template to insert data points into. The strings \"{0}\", \"{1}\", \"{2}\", etc. will be replaced with the data points.",
+        "type": "string"
+      },
+      "layer": {
+        "title": "Layer",
+        "description": "Layer(s) to activate when the layer icon is clicked.",
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "icon": {
+        "title": "Icon",
+        "description": "Image to place before the key text.",
+        "type": "string"
+      },
+      "size": {
+        "title": "Size",
+        "description": "Width of the key-value pair within a row of items.",
+        "type": "string",
+        "enum": ["auto", "quarter", "half", "full"],
+        "default": "auto"
+      },
+      "style": {
+        "title": "Text Style",
+        "description": "Size of the value text.",
+        "type": "string",
+        "enum": ["default", "large"],
+        "default": "default"
+      },
+      "source": {
+        "title": "Source",
+        "type": "object",
+        "properties": {
+          "link": {
+            "title": "Source Link URL",
+            "description": "URL for source link.",
+            "type": "string"
+          },
+          "text": {
+            "title": "Source Link Text",
+            "description": "Text for source link.",
+            "type": "string"
+          },
+          "lastUpdate": {
+            "title": "Last Update",
+            "description": "Time source was last updated.",
+            "type": "number"
+          }
+        }
+      },
+      "link": {
+        "type": "object",
+        "properties": {
+          "link": {
+            "title": "Link URL",
+            "description": "URL of link to add after value text.",
+            "type": "string"
+          },
+          "text": {
+            "title": "Link Text",
+            "description": "Text of link to add after value text.",
+            "type": "string"
+          }
+        }
+      },
+      "tooltip": {
+        "title": "Tooltip",
+        "description": "Text to display on hover.",
+        "type": "string"
+      }
+    },
+    "required": ["key", "values", "format"],
+    "preview": "key",
+    "dynamic": ["values.items"]
+  },
+  "table": {
+    "name": "Table",
+    "description": "Table which populates its rows with an array-based data source.",
+    "properties": {
+      "source": {
+        "title": "Data Source",
+        "description": "Location of table row data. Should be an array of objects.",
+        "type": "object"
+      },
+      "columns": {
+        "title": "Columns",
+        "description": "Columns to use in table header.",
+        "type": "array",
+        "items": {
+          "title": "Column",
+          "description": "Column info.",
+          "type": "object",
+          "properties": {
+            "title": {
+              "title": "Title",
+              "description": "Column name. Can be left blank.",
+              "type": "string"
+            },
+            "key": {
+              "title": "Key",
+              "description": "Property value within object to use.",
+              "type": "string"
+            }
+          },
+          "required": ["key"]
+        },
+        "minItems": 1
+      },
+      "footnotes": {
+        "title": "Footnotes",
+        "description": "Table footnotes.",
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": ["columns", "source"],
+    "dynamic": ["source"]
+  },
+  "table-complex": {
+    "name": "Table (Complex)",
+    "description": "Table which pulls data for individual cells from different sources.",
+    "properties": {
+      "columns": {
+        "title": "Columns",
+        "description": "Columns in table header.",
+        "type": "array",
+        "items": {
+          "title": "Column",
+          "description": "Column name. Can be left blank.",
+          "type": "string"
+        },
+        "minItems": 1
+      },
+      "rows": {
+        "title": "Rows",
+        "description": "Rows within the table.",
+        "type": "array",
+        "items": {
+          "title": "Row",
+          "description": "Cells within this row.",
+          "type": "array",
+          "items": {
+            "title": "Cell",
+            "description": "Cell properties.",
+            "type": "object",
+            "properties": {
+              "type": {
+                "title": "Cell Type",
+                "description": "Type of cell.",
+                "type": "string",
+                "enum": ["dynamic", "static", "header"],
+                "default": "dynamic"
+              },
+              "text": {
+                "title": "Cell Text",
+                "description": "Static text to place in cell. Use this OR \"Cell Data Source\" below.",
+                "type": "string"
+              },
+              "source": {
+                "title": "Cell Data Source",
+                "description": "Location of data point to use in this cell. Use this OR \"Cell Text\" above.",
+                "type": "object"
+              },
+              "width": {
+                "title": "Cell Width",
+                "description": "Column span of cell.",
+                "type": "number",
+                "default": 1
+              },
+              "citations": {
+                "title": "Citations",
+                "descriptions": "Footnotes to reference in this cell.",
+                "type": "array",
+                "items": {
+                  "type": "number"
+                }
+              }
+            },
+            "required": ["type", "width"]
+          }
+        },
+        "minItems": 1
+      },
+      "footnotes": {
+        "title": "Footnotes",
+        "description": "Table footnotes.",
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": ["columns", "rows"],
+    "dynamic": ["rows.items.items.source"]
+  },
+  "walkscore": {
+    "name": "Walk Score",
+    "description": "Embedded Walk Score ratings."
+  },
+  "text": {
+    "name": "Text",
+    "description": "Paragraph of text.",
+    "properties": {
+      "value": {
+        "title": "Value",
+        "description": "Value of text.",
+        "type": "string"
+      }
+    },
+    "preview": "value",
+    "required": ["value"]
+  },
+  "text-dynamic": {
+    "name": "Text (Dynamic)",
+    "description": "Paragraph of text pulled from a data source.",
+    "properties": {
+      "value": {
+        "title": "Value",
+        "description": "Location of text to use.",
+        "type": "object"
+      }
+    },
+    "required": ["value"],
+    "dynamic": ["value"]
+  },
+  "chart": {
+    "name": "Chart",
+    "description": "D3 chart.",
+    "properties": {
+      "source": {
+        "title": "Source",
+        "description": "Base data source for chart fields. (Most likely #/property or #/esriData.)",
+        "type": "object"
+      },
+      "title": {
+        "title": "Title",
+        "description": "Chart title.",
+        "type": "string"
+      },
+      "chartType": {
+        "title": "Chart Type",
+        "description": "Type of chart.",
+        "type": "string",
+        "enum": ["PieChart", "HorizontalBar", "VerticalBar"]
+      },
+      "hAxis": {
+        "title": "Horizontal Axis Title",
+        "description": "Text to display on the horizontal axis.",
+        "type": "string"
+      },
+      "vAxis": {
+        "title": "Vertical Axis Title",
+        "description": "Text to display on the vertical axis.",
+        "type": "string"
+      },
+      "hAxisTooltipLabel": {
+        "title": "Horizontal Axis Tooltip Label",
+        "description": "Label for horizontal axis when the user hovers over a bar.",
+        "type": "string"
+      },
+      "vAxisTooltipLabel": {
+        "title": "Vertical Axis Tooltip Label",
+        "description": "Label for vertical axis when the user hovers over a bar.",
+        "type": "string"
+      },
+      "wide": {
+        "title": "Wide",
+        "description": "Make chart wide.",
+        "type": "string",
+        "enum": ["true", "false"],
+        "default": "false"
+      },
+      "long": {
+        "title": "Long",
+        "description": "Make chart long",
+        "type": "string",
+        "enum": ["true", "false"],
+        "default": "false"
+      },
+      "multiSeries": {
+        "title": "Multi-series",
+        "description": "Make chart multi-series.",
+        "type": "string",
+        "enum": ["true", "false"]
+      },
+      "twoDimensional": {
+        "title": "Two-dimensional",
+        "description": "Make chart two-dimensional.",
+        "type": "string",
+        "enum": ["true", "false"]
+      },
+      "radiobutton": {
+        "title": "Radio Button",
+        "description": "Enable radio button.",
+        "type": "string",
+        "enum": ["true", "false"]
+      },
+      "panelVariables": {
+        "title": "Panel Variables",
+        "description": "Panel variables.",
+        "type": "boolean",
+        "default": false
+      },
+      "extraVariables": {
+        "title": "Extra Variables",
+        "description": "Enable extra variables.",
+        "type": "string",
+        "enum": ["true", "false"]
+      },
+      "topFive": {
+        "title": "Top Five",
+        "description": "Only show top five metrics.",
+        "type": "string",
+        "enum": ["true", "false"]
+      },
+      "fields": {
+        "title": "Fields",
+        "description": "Chart fields.",
+        "type": "array",
+        "items": {
+          "title": "Field",
+          "type": "object",
+          "properties": {
+            "label": {
+              "title": "Label",
+              "description": "Field label.",
+              "type": "string"
+            },
+            "value": {
+              "title": "Value",
+              "description": "Object path to value.",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "sum": {
+              "title": "Sum Values",
+              "description": "Values to combine into a sum.",
+              "type": "array",
+              "items": {
+                "title": "Value",
+                "description": "Object path to value.",
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "required": ["label"]
+        }
+      },
+      "series": {
+        "title": "Series",
+        "description": "Chart series.",
+        "type": "array",
+        "items": {
+          "title": "Series",
+          "type": "object",
+          "properties": {
+            "data": {
+              "title": "Data",
+              "description": "Object path to series data.",
+              "type": "array",
+              "items": "string"
+            },
+            "chartKey": {
+              "title": "Chart Key",
+              "description": "Series key to display.",
+              "type": "string"
+            },
+            "topFive": {
+              "title": "Top Five",
+              "description": "Only show top five metrics.",
+              "type": "string",
+              "enum": ["true", "false"]
+            },
+            "meta": {
+              "title": "Meta",
+              "description": "Meta information.",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "required": ["title", "chartType", "source"],
+    "dynamic": ["source"]
+  },
+  "tab-group": {
+    "name": "Tab Group",
+    "description": "Container for tabs.",
+    "nestable": true,
+    "restrict": ["tab"]
+  },
+  "tab": {
+    "name": "Tab",
+    "description": "Tab within a Tab Group.",
+    "properties": {
+      "title": {
+        "title": "Title",
+        "description": "Title of tab.",
+        "type": "string"
+      },
+      "icon": {
+        "title": "Icon",
+        "description": "Icon to display next to tab title.",
+        "type": "string"
+      }
+    },
+    "preview": "title",
+    "required": ["title"],
+    "nestable": true
+  },
+  "collection": {
+    "name": "Collection",
+    "description": "A series of sections rendered from an array-based data source.",
+    "properties": {
+      "source": {
+        "title": "Source",
+        "description": "Data source. Should be an array of objects.",
+        "type": "object"
+      },
+      "name": {
+        "title": "Item Names",
+        "description": "Names of items in this collections. Write it in plural form, like \"Tenants\".",
+        "type": "string"
+      },
+      "itemId": {
+        "title": "Item ID",
+        "description": "Object key of items in the collection to use as the item's name.",
+        "type": "string"
+      },
+      "fallback": {
+        "title": "Fallback Text",
+        "description": "Text to display if the collection has no items.",
+        "type": "string"
+      }
+    },
+    "preview": "name",
+    "required": ["source", "itemId"],
+    "dynamic": ["source"],
+    "nestable": true
+  }
+}

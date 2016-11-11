@@ -1,0 +1,9 @@
+{
+  "ui:field": "container",
+  "ui:options": {
+    "key": "propertyDetail"
+  },
+  "propertyDetail": {
+    "ui:field": "tree"
+  }
+}
