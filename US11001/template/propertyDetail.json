@@ -708,7 +708,9 @@
           "title": "Structure",
           "collapsible": true,
           "type": "subsection",
-          "flags": ["array"],
+          "flags": [
+            "array"
+          ],
           "children": [
             {
               "size": "auto",
@@ -732,7 +734,9 @@
           "title": "Medical Facility Info",
           "collapsible": true,
           "type": "subsection",
-          "flags": ["array"],
+          "flags": [
+            "array"
+          ],
           "children": [
             {
               "size": "full",
@@ -822,7 +826,9 @@
           "title": "CBSA Population Growth",
           "collapsible": true,
           "type": "subsection",
-          "flags": ["array"],
+          "flags": [
+            "array"
+          ],
           "children": [
             {
               "size": "half",
@@ -869,7 +875,9 @@
           "title": "Revenues",
           "collapsible": true,
           "type": "subsection",
-          "flags": ["array"],
+          "flags": [
+            "array"
+          ],
           "children": [
             {
               "size": "full",
@@ -1041,7 +1049,9 @@
           "title": "Case Mix Index",
           "collapsible": true,
           "type": "subsection",
-          "flags": ["array"],
+          "flags": [
+            "array"
+          ],
           "children": [
             {
               "size": "quarter",
@@ -1125,7 +1135,9 @@
           "title": "Ratings",
           "collapsible": true,
           "type": "subsection",
-          "flags": ["array"],
+          "flags": [
+            "array"
+          ],
           "children": [
             {
               "size": "half",
@@ -1304,7 +1316,9 @@
           "title": "HCAHP Scores",
           "collapsible": true,
           "type": "subsection",
-          "flags": ["array"],
+          "flags": [
+            "array"
+          ],
           "children": [
             {
               "size": "half",
@@ -2204,7 +2218,6 @@
             },
             {
               "size": "half",
-              "icon": "train",
               "values": [
                 {
                   "value": "#/property/firstProp/distances/metroName"
@@ -2233,6 +2246,7 @@
               ],
               "style": "default",
               "format": "{0}<br>{1} mi",
+              "icon": "train",
               "type": "keyvalue-complex",
               "link": {},
               "source": {},
@@ -2240,7 +2254,6 @@
             },
             {
               "size": "half",
-              "icon": "train",
               "values": [
                 {
                   "value": "#/property/firstProp/distances/metrobusRoutes"
@@ -2269,6 +2282,7 @@
               ],
               "style": "default",
               "format": "{0}<br>{1} mi",
+              "icon": "train",
               "type": "keyvalue-complex",
               "link": {},
               "source": {},
@@ -2276,7 +2290,6 @@
             },
             {
               "size": "half",
-              "icon": "car",
               "values": [
                 {
                   "value": "#/property/firstProp/distances/zipcarLoc",
@@ -2310,6 +2323,7 @@
               ],
               "style": "default",
               "format": "{0}<br>{1} mi",
+              "icon": "car",
               "type": "keyvalue-complex",
               "link": {},
               "source": {},
@@ -2317,7 +2331,6 @@
             },
             {
               "size": "half",
-              "icon": "bike",
               "values": [
                 {
                   "value": "#/property/firstProp/distances/bikeshareLoc"
@@ -2343,6 +2356,7 @@
               ],
               "style": "default",
               "format": "{0}<br>{1} mi",
+              "icon": "bike",
               "type": "keyvalue-complex",
               "link": {},
               "source": {},
@@ -2445,6 +2459,7 @@
               "children": [
                 {
                   "title": "Census Tract",
+                  "restrict": "inhouseDemog",
                   "type": "tab",
                   "children": [
                     {
@@ -2774,9 +2789,14 @@
                         {
                           "twoDimensional": "false",
                           "mutiSeries2D": "false",
+                          "topFive": "true",
+                          "extraVariables": "true",
                           "vAxisTooltipLabel": "Income Level",
                           "hAxis": "Percent of Households",
+                          "radiobutton": "true",
+                          "multiSeries": "true",
                           "wide": "false",
+                          "panelVariables": false,
                           "vAxis": "Income",
                           "chartType": "HorizontalBar",
                           "title": "Household Income",
@@ -2853,13 +2873,17 @@
                           "source": {
                             "value": "#/property"
                           },
-                          "long": "true"
+                          "long": "true",
+                          "restrict": "esriDemog"
                         },
                         {
                           "twoDimensional": "false",
                           "topFive": "true",
+                          "extraVariables": "true",
+                          "radiobutton": "true",
                           "multiSeries": "false",
                           "wide": "true",
+                          "panelVariables": false,
                           "chartType": "PieChart",
                           "title": "Employment",
                           "fields": [
@@ -2959,18 +2983,20 @@
                           "source": {
                             "value": "#/property"
                           },
-                          "long": "false"
+                          "long": "false",
+                          "restrict": "esriDemog"
                         },
                         {
-                          "type": "chart",
-                          "title": "Educational Attainment (25+)",
-                          "chartType": "PieChart",
-                          "multiSeries": "false",
                           "twoDimensional": "false",
+                          "topFive": "true",
+                          "extraVariables": "true",
                           "hAxis": "Percentage of Population",
-                          "source": {
-                            "value": "#/property"
-                          },
+                          "radiobutton": "true",
+                          "multiSeries": "false",
+                          "wide": "false",
+                          "panelVariables": false,
+                          "chartType": "PieChart",
+                          "title": "Educational Attainment (25+)",
                           "fields": [
                             {
                               "label": "Graduate",
@@ -3021,7 +3047,13 @@
                                 "eduNoHighSchoolPct"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart",
+                          "source": {
+                            "value": "#/property"
+                          },
+                          "long": "false",
+                          "restrict": "esriDemog"
                         }
                       ]
                     },
@@ -3252,22 +3284,16 @@
                 },
                 {
                   "title": "Radius",
+                  "restrict": "esriDemog",
                   "type": "tab",
                   "children": [
                     {
-                      "type": "chart",
-                      "source": {
-                        "value": "#/esriData"
-                      },
-                      "title": "Total Population",
-                      "chartType": "VerticalBar",
-                      "hAxis": "Year",
-                      "vAxis": "Population",
-                      "vAxisTooltipLabel": "Population",
-                      "hAxisTooltipLabel": "Year",
                       "twoDimensional": "false",
-                      "multiSeries": "true",
+                      "vAxisTooltipLabel": "Population",
+                      "hAxis": "Year",
                       "radiobutton": "false",
+                      "multiSeries": "true",
+                      "vAxis": "Population",
                       "series": [
                         {
                           "chartKey": "1/4 Mile Radius",
@@ -3297,51 +3323,22 @@
                           ],
                           "meta": []
                         }
-                      ]
-                    },
-                    {
+                      ],
+                      "chartType": "VerticalBar",
+                      "title": "Total Population",
                       "type": "chart",
+                      "hAxisTooltipLabel": "Year",
                       "source": {
                         "value": "#/esriData"
-                      },
-                      "multiSeries": "true",
+                      }
+                    },
+                    {
                       "twoDimensional": "true",
-                      "chartType": "HorizontalBar",
-                      "title": "Population By Age and Gender",
-                      "percentY": "true",
-                      "hAxis": "Percentage",
-                      "vAxis": "Age",
                       "extraVariables": "true",
-                      "fields": [
-                        {
-                          "label": "Population",
-                          "value": [
-                            "TOTPOP_CY",
-                            "buffer0"
-                          ]
-                        },
-                        {
-                          "label": "Population",
-                          "value": [
-                            "TOTPOP_CY",
-                            "buffer1"
-                          ]
-                        },
-                        {
-                          "label": "Population",
-                          "value": [
-                            "TOTPOP_CY",
-                            "buffer2"
-                          ]
-                        },
-                        {
-                          "label": "Population",
-                          "value": [
-                            "TOTPOP_CY",
-                            "buffer3"
-                          ]
-                        }
-                      ],
+                      "hAxis": "Percentage",
+                      "multiSeries": "true",
+                      "percentY": "true",
+                      "vAxis": "Age",
                       "series": [
                         {
                           "chartKey": "1/4 Mile Radius",
@@ -3375,22 +3372,51 @@
                           ],
                           "meta": []
                         }
-                      ]
-                    },
-                    {
+                      ],
+                      "chartType": "HorizontalBar",
+                      "title": "Population By Age and Gender",
+                      "fields": [
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer3"
+                          ]
+                        }
+                      ],
                       "type": "chart",
                       "source": {
                         "value": "#/esriData"
-                      },
-                      "title": "Total Households",
-                      "chartType": "VerticalBar",
+                      }
+                    },
+                    {
+                      "twoDimensional": "false",
+                      "vAxisTooltipLabel": "Households",
+                      "hAxis": "Year",
+                      "radiobutton": "false",
                       "multiSeries": "true",
                       "vAxis": "Number of Households",
-                      "hAxis": "Year",
-                      "vAxisTooltipLabel": "Households",
-                      "hAxisTooltipLabel": "Year",
-                      "radiobutton": "false",
-                      "twoDimensional": "false",
                       "series": [
                         {
                           "chartKey": "1/4 Mile Radius",
@@ -3420,83 +3446,25 @@
                           ],
                           "meta": []
                         }
-                      ]
-                    },
-                    {
+                      ],
+                      "chartType": "VerticalBar",
+                      "title": "Total Households",
                       "type": "chart",
+                      "hAxisTooltipLabel": "Year",
                       "source": {
                         "value": "#/esriData"
-                      },
-                      "title": "Median Household Income",
+                      }
+                    },
+                    {
                       "twoDimensional": "false",
-                      "multiSeries": "true",
-                      "chartType": "HorizontalBar",
-                      "hAxis": "Percentage of Households",
-                      "hAxisTooltipLabel": "Percent of Households",
-                      "vAxisTooltipLabel": "Income Level",
-                      "vAxis": "Income",
-                      "vAxisDistance": 50,
-                      "containerHeight": 335,
-                      "panelVariables": true,
                       "extraVariables": "true",
-                      "fields": [
-                        {
-                          "label": "2015 Med. Household Income",
-                          "value": [
-                            "MEDHINC_CY",
-                            "buffer0"
-                          ]
-                        },
-                        {
-                          "label": "2015 Med. Household Income",
-                          "value": [
-                            "MEDHINC_CY",
-                            "buffer1"
-                          ]
-                        },
-                        {
-                          "label": "2015 Med. Household Income",
-                          "value": [
-                            "MEDHINC_CY",
-                            "buffer2"
-                          ]
-                        },
-                        {
-                          "label": "2015 Med. Household Income",
-                          "value": [
-                            "MEDHINC_CY",
-                            "buffer3"
-                          ]
-                        },
-                        {
-                          "label": "2020 Med. Household Income",
-                          "value": [
-                            "MEDHINC_FY",
-                            "buffer0"
-                          ]
-                        },
-                        {
-                          "label": "2020 Med. Household Income",
-                          "value": [
-                            "MEDHINC_FY",
-                            "buffer1"
-                          ]
-                        },
-                        {
-                          "label": "2020 Med. Household Income",
-                          "value": [
-                            "MEDHINC_FY",
-                            "buffer2"
-                          ]
-                        },
-                        {
-                          "label": "2020 Med. Household Income",
-                          "value": [
-                            "MEDHINC_FY",
-                            "buffer3"
-                          ]
-                        }
-                      ],
+                      "containerHeight": 335,
+                      "vAxisTooltipLabel": "Income Level",
+                      "hAxis": "Percentage of Households",
+                      "vAxisDistance": 50,
+                      "multiSeries": "true",
+                      "panelVariables": true,
+                      "vAxis": "Income",
                       "series": [
                         {
                           "data": [
@@ -3526,51 +3494,79 @@
                           "chartKey": "3 Mile Radius",
                           "meta": []
                         }
-                      ]
-                    },
-                    {
-                      "type": "chart",
-                      "source": {
-                        "value": "#/esriData"
-                      },
-                      "multiSeries": "true",
-                      "twoDimensional": "true",
-                      "title": "Employment Occupation by Industry",
-                      "chartType": "PieChart",
-                      "wide": "true",
-                      "long": "false",
-                      "panelVariables": false,
-                      "extraVariables": "true",
+                      ],
+                      "chartType": "HorizontalBar",
+                      "title": "Median Household Income",
                       "fields": [
                         {
-                          "label": "Population",
+                          "label": "2015 Med. Household Income",
                           "value": [
-                            "TOTPOP_CY",
+                            "MEDHINC_CY",
                             "buffer0"
                           ]
                         },
                         {
-                          "label": "Population",
+                          "label": "2015 Med. Household Income",
                           "value": [
-                            "TOTPOP_CY",
+                            "MEDHINC_CY",
                             "buffer1"
                           ]
                         },
                         {
-                          "label": "Population",
+                          "label": "2015 Med. Household Income",
                           "value": [
-                            "TOTPOP_CY",
+                            "MEDHINC_CY",
                             "buffer2"
                           ]
                         },
                         {
-                          "label": "Population",
+                          "label": "2015 Med. Household Income",
                           "value": [
-                            "TOTPOP_CY",
+                            "MEDHINC_CY",
+                            "buffer3"
+                          ]
+                        },
+                        {
+                          "label": "2020 Med. Household Income",
+                          "value": [
+                            "MEDHINC_FY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "2020 Med. Household Income",
+                          "value": [
+                            "MEDHINC_FY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "2020 Med. Household Income",
+                          "value": [
+                            "MEDHINC_FY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "2020 Med. Household Income",
+                          "value": [
+                            "MEDHINC_FY",
                             "buffer3"
                           ]
                         }
                       ],
+                      "type": "chart",
+                      "hAxisTooltipLabel": "Percent of Households",
+                      "source": {
+                        "value": "#/esriData"
+                      }
+                    },
+                    {
+                      "twoDimensional": "true",
+                      "extraVariables": "true",
+                      "multiSeries": "true",
+                      "wide": "true",
+                      "panelVariables": false,
                       "series": [
                         {
                           "data": [
@@ -3604,20 +3600,9 @@
                           "topFive": "true",
                           "meta": []
                         }
-                      ]
-                    },
-                    {
-                      "type": "chart",
-                      "source": {
-                        "value": "#/esriData"
-                      },
-                      "title": "Educational Attainment (Age 25+)",
+                      ],
                       "chartType": "PieChart",
-                      "multiSeries": "true",
-                      "twoDimensional": "true",
-                      "hAxis": "Percentage of Population",
-                      "extraVariables": "true",
-                      "panelVariables": false,
+                      "title": "Employment Occupation by Industry",
                       "fields": [
                         {
                           "label": "Population",
@@ -3648,6 +3633,18 @@
                           ]
                         }
                       ],
+                      "type": "chart",
+                      "source": {
+                        "value": "#/esriData"
+                      },
+                      "long": "false"
+                    },
+                    {
+                      "twoDimensional": "true",
+                      "extraVariables": "true",
+                      "hAxis": "Percentage of Population",
+                      "multiSeries": "true",
+                      "panelVariables": false,
                       "series": [
                         {
                           "data": [
@@ -3677,22 +3674,51 @@
                           "chartKey": "3 Mile Radius",
                           "meta": []
                         }
-                      ]
-                    },
-                    {
+                      ],
+                      "chartType": "PieChart",
+                      "title": "Educational Attainment (Age 25+)",
+                      "fields": [
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer3"
+                          ]
+                        }
+                      ],
                       "type": "chart",
                       "source": {
                         "value": "#/esriData"
-                      },
-                      "multiSeries": "true",
-                      "title": "Total Housing Units",
-                      "chartType": "VerticalBar",
-                      "hAxis": "Year",
-                      "vAxis": "Housing Units",
-                      "hAxisTooltipLabel": "Year",
-                      "vAxisTooltipLabel": "Housing Units",
-                      "radiobutton": "false",
+                      }
+                    },
+                    {
                       "twoDimensional": "false",
+                      "vAxisTooltipLabel": "Housing Units",
+                      "hAxis": "Year",
+                      "radiobutton": "false",
+                      "multiSeries": "true",
+                      "vAxis": "Housing Units",
                       "series": [
                         {
                           "data": [
@@ -3722,135 +3748,21 @@
                           "chartKey": "3 Mile Radius",
                           "meta": []
                         }
-                      ]
-                    },
-                    {
+                      ],
+                      "chartType": "VerticalBar",
+                      "title": "Total Housing Units",
                       "type": "chart",
+                      "hAxisTooltipLabel": "Year",
                       "source": {
                         "value": "#/esriData"
-                      },
-                      "multiSeries": "true",
+                      }
+                    },
+                    {
                       "twoDimensional": "true",
-                      "title": "Home Value",
-                      "chartType": "PieChart",
-                      "wide": "true",
-                      "long": "false",
                       "extraVariables": "true",
+                      "multiSeries": "true",
+                      "wide": "true",
                       "panelVariables": true,
-                      "fields": [
-                        {
-                          "label": "Housing Units",
-                          "value": [
-                            "TOTHU_CY",
-                            "buffer0"
-                          ]
-                        },
-                        {
-                          "label": "Housing Units",
-                          "value": [
-                            "TOTHU_CY",
-                            "buffer1"
-                          ]
-                        },
-                        {
-                          "label": "Housing Units",
-                          "value": [
-                            "TOTHU_CY",
-                            "buffer2"
-                          ]
-                        },
-                        {
-                          "label": "Housing Units",
-                          "value": [
-                            "TOTHU_CY",
-                            "buffer3"
-                          ]
-                        },
-                        {
-                          "label": "2015 Median Home Value",
-                          "value": [
-                            "MEDVAL_CY",
-                            "buffer0"
-                          ]
-                        },
-                        {
-                          "label": "2015 Median Home Value",
-                          "value": [
-                            "MEDVAL_CY",
-                            "buffer1"
-                          ]
-                        },
-                        {
-                          "label": "2015 Median Home Value",
-                          "value": [
-                            "MEDVAL_CY",
-                            "buffer2"
-                          ]
-                        },
-                        {
-                          "label": "2015 Median Home Value",
-                          "value": [
-                            "MEDVAL_CY",
-                            "buffer3"
-                          ]
-                        },
-                        {
-                          "label": "2015 Average Home Value",
-                          "value": [
-                            "AVGVAL_CY",
-                            "buffer0"
-                          ]
-                        },
-                        {
-                          "label": "2015 Average Home Value",
-                          "value": [
-                            "AVGVAL_CY",
-                            "buffer1"
-                          ]
-                        },
-                        {
-                          "label": "2015 Average Home Value",
-                          "value": [
-                            "AVGVAL_CY",
-                            "buffer2"
-                          ]
-                        },
-                        {
-                          "label": "2015 Average Home Value",
-                          "value": [
-                            "AVGVAL_CY",
-                            "buffer3"
-                          ]
-                        },
-                        {
-                          "label": "2020 Median Home Value",
-                          "value": [
-                            "MEDVAL_FY",
-                            "buffer0"
-                          ]
-                        },
-                        {
-                          "label": "2020 Median Home Value",
-                          "value": [
-                            "MEDVAL_FY",
-                            "buffer1"
-                          ]
-                        },
-                        {
-                          "label": "2020 Median Home Value",
-                          "value": [
-                            "MEDVAL_FY",
-                            "buffer2"
-                          ]
-                        },
-                        {
-                          "label": "2020 Median Home Value",
-                          "value": [
-                            "MEDVAL_FY",
-                            "buffer3"
-                          ]
-                        }
-                      ],
                       "series": [
                         {
                           "data": [
@@ -3880,21 +3792,167 @@
                           "chartKey": "3 Mile Radius",
                           "meta": []
                         }
-                      ]
-                    },
-                    {
+                      ],
+                      "chartType": "PieChart",
+                      "title": "Home Value",
+                      "fields": [
+                        {
+                          "label": "Housing Units",
+                          "value": [
+                            "TOTHU_CY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "Housing Units",
+                          "value": [
+                            "TOTHU_CY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "Housing Units",
+                          "value": [
+                            "TOTHU_CY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "Housing Units",
+                          "value": [
+                            "TOTHU_CY",
+                            "buffer3"
+                          ]
+                        },
+                        {
+                          "label": "2015 Median Home Value",
+                          "value": [
+                            "MEDVAL_CY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "2015 Median Home Value",
+                          "value": [
+                            "MEDVAL_CY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "2015 Median Home Value",
+                          "value": [
+                            "MEDVAL_CY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "2015 Median Home Value",
+                          "value": [
+                            "MEDVAL_CY",
+                            "buffer3"
+                          ]
+                        },
+                        {
+                          "label": "2015 Average Home Value",
+                          "value": [
+                            "AVGVAL_CY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "2015 Average Home Value",
+                          "value": [
+                            "AVGVAL_CY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "2015 Average Home Value",
+                          "value": [
+                            "AVGVAL_CY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "2015 Average Home Value",
+                          "value": [
+                            "AVGVAL_CY",
+                            "buffer3"
+                          ]
+                        },
+                        {
+                          "label": "2020 Median Home Value",
+                          "value": [
+                            "MEDVAL_FY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "2020 Median Home Value",
+                          "value": [
+                            "MEDVAL_FY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "2020 Median Home Value",
+                          "value": [
+                            "MEDVAL_FY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "2020 Median Home Value",
+                          "value": [
+                            "MEDVAL_FY",
+                            "buffer3"
+                          ]
+                        }
+                      ],
                       "type": "chart",
                       "source": {
                         "value": "#/esriData"
                       },
-                      "multiSeries": "true",
+                      "long": "false"
+                    },
+                    {
                       "twoDimensional": "true",
-                      "title": "Household By Rent",
-                      "chartType": "PieChart",
-                      "wide": "false",
-                      "long": "false",
                       "extraVariables": "true",
+                      "multiSeries": "true",
+                      "wide": "false",
                       "panelVariables": false,
+                      "series": [
+                        {
+                          "data": [
+                            "household-by-rent-esri0"
+                          ],
+                          "chartKey": "1/4 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "household-by-rent-esri1"
+                          ],
+                          "chartKey": "1/2 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "household-by-rent-esri2"
+                          ],
+                          "chartKey": "1 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "household-by-rent-esri3"
+                          ],
+                          "chartKey": "3 Mile Radius",
+                          "meta": []
+                        }
+                      ],
+                      "chartType": "PieChart",
+                      "title": "Household By Rent",
                       "fields": [
                         {
                           "label": "Households",
@@ -3925,50 +3983,18 @@
                           ]
                         }
                       ],
-                      "series": [
-                        {
-                          "data": [
-                            "household-by-rent-esri0"
-                          ],
-                          "chartKey": "1/4 Mile Radius",
-                          "meta": []
-                        },
-                        {
-                          "data": [
-                            "household-by-rent-esri1"
-                          ],
-                          "chartKey": "1/2 Mile Radius",
-                          "meta": []
-                        },
-                        {
-                          "data": [
-                            "household-by-rent-esri2"
-                          ],
-                          "chartKey": "1 Mile Radius",
-                          "meta": []
-                        },
-                        {
-                          "data": [
-                            "household-by-rent-esri3"
-                          ],
-                          "chartKey": "3 Mile Radius",
-                          "meta": []
-                        }
-                      ]
-                    },
-                    {
                       "type": "chart",
                       "source": {
                         "value": "#/esriData"
                       },
-                      "title": "Housing Occupants",
-                      "multiSeries": "true",
-                      "chartType": "VerticalBar",
+                      "long": "false"
+                    },
+                    {
                       "twoDimensional": "true",
-                      "vAxis": "Number of Occupants",
-                      "hAxis": "Year",
                       "vAxisTooltipLabel": "Number of Occupants",
-                      "hAxisTooltipLabel": "Year",
+                      "hAxis": "Year",
+                      "multiSeries": "true",
+                      "vAxis": "Number of Occupants",
                       "series": [
                         {
                           "chartKey": "1/4 Mile Radius",
@@ -4006,21 +4032,53 @@
                           ],
                           "meta": []
                         }
-                      ]
-                    },
-                    {
+                      ],
+                      "chartType": "VerticalBar",
+                      "title": "Housing Occupants",
                       "type": "chart",
+                      "hAxisTooltipLabel": "Year",
                       "source": {
                         "value": "#/esriData"
-                      },
-                      "title": "Housing by Units in Structure",
-                      "chartType": "PieChart",
-                      "wide": "true",
-                      "long": "false",
-                      "multiSeries": "true",
+                      }
+                    },
+                    {
                       "twoDimensional": "true",
                       "extraVariables": "true",
+                      "multiSeries": "true",
+                      "wide": "true",
                       "panelVariables": false,
+                      "series": [
+                        {
+                          "data": [
+                            "housing-by-units-in-structure-esri0"
+                          ],
+                          "chartKey": "1/4 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "housing-by-units-in-structure-esri1"
+                          ],
+                          "chartKey": "1/2 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "housing-by-units-in-structure-esri2"
+                          ],
+                          "chartKey": "1 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "housing-by-units-in-structure-esri3"
+                          ],
+                          "chartKey": "3 Mile Radius",
+                          "meta": []
+                        }
+                      ],
+                      "chartType": "PieChart",
+                      "title": "Housing by Units in Structure",
                       "fields": [
                         {
                           "label": "Housing Units",
@@ -4051,36 +4109,11 @@
                           ]
                         }
                       ],
-                      "series": [
-                        {
-                          "data": [
-                            "housing-by-units-in-structure-esri0"
-                          ],
-                          "chartKey": "1/4 Mile Radius",
-                          "meta": []
-                        },
-                        {
-                          "data": [
-                            "housing-by-units-in-structure-esri1"
-                          ],
-                          "chartKey": "1/2 Mile Radius",
-                          "meta": []
-                        },
-                        {
-                          "data": [
-                            "housing-by-units-in-structure-esri2"
-                          ],
-                          "chartKey": "1 Mile Radius",
-                          "meta": []
-                        },
-                        {
-                          "data": [
-                            "housing-by-units-in-structure-esri3"
-                          ],
-                          "chartKey": "3 Mile Radius",
-                          "meta": []
-                        }
-                      ]
+                      "type": "chart",
+                      "source": {
+                        "value": "#/esriData"
+                      },
+                      "long": "false"
                     }
                   ]
                 }
