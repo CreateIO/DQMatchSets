@@ -3052,12 +3052,11 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "functionName": "addLayer",
+                        "functionName": "addSingleTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "dc_wdcep_resi_pipeline_geo"
+                            "param1": "dc_wdcep_resi_pipeline_geo"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     },
                      "func2": {
                         "functionName": "addLayer",
@@ -3082,13 +3081,12 @@
                     }
                 },
                 "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeLayer",
+                  "func1": {
+                        "functionName": "removeSingleTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "dc_wdcep_resi_pipeline_geo"
+                            "param1": "dc_wdcep_resi_pipeline_geo"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     },
                     "func2": {
                         "functionName": "removeLayer",
