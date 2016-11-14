@@ -1233,7 +1233,7 @@
             "tms": {
                 "tmsLayerName": "ny_Zoning",
                 "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_Zoning@EPSG:900913@png",
-                "extension": "mapbox-vector",
+                "extension": "png",
                 "coords": {
                     "xMin": -74.259033203125,
                     "yMin": 40.4889831542969,
@@ -1245,7 +1245,7 @@
                 "minimumLevel": 1,
                 "maximumLevel": 20,
                 "alpha": 1,
-                "tmsStyle": "GWC"
+                "tmsStyle": "mapbox-vector"
             },
             "rasters": {
                 "exists": false
