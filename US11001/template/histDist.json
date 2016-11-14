@@ -14,7 +14,7 @@
       "layerGroup": "Corridor",
       "name": "Massachusetts Avenue Historic District",
       "description": "Massachusetts Avenue Historic District includes approximately 150 buildings. Boulevard of grand mansioms, row houses, and embassies, known as Embassy Row.",
-      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Massachusetts_Ave_Brochure.pdf",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Massachusetts_Ave_Brochure_0.pdf",
       "label": "Massachusetts Ave HD",
       "address": "Massachusetts Ave from 17th St, NW to Observatory Cir, NW"
     },
@@ -209,7 +209,7 @@
       "layerGroup": "Neighborhood",
       "name": "Sheridan-Kalorama Historic District",
       "description": "Sheridan-Kalorama Historic District is comprised of a network of cohesive town-and suburbs-like residential streetscapes.",
-      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Sheridan_Kalorama_Brochure.pdf",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Sheridan_Kalorama_Brochure_0.pdf",
       "label": "Sheridan-Kalorama HD",
       "address": "The Sheridan-Kalorama Historic District is located at the top of the Washington escarpment bound by Massachusetts Avenue on the southwest,  Connecticut Avenue on the east, and Rock Creek Park on the north"
     },
@@ -218,7 +218,7 @@
       "layerGroup": "Neighborhood",
       "name": "Shaw Historic District",
       "description": "Social organizations, shops, industrial enterprizes, schools, and churches have called Shaw home. Because of its unique developmental history and its architectural quality and diversity, Shaw was formally recognized by the city in 1999 with designation as a historic district.",
-      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Shaw_Brochure.pdf",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Shaw_Brochure_0.pdf",
       "label": "Shaw HD",
       "address": ""
     },
@@ -227,7 +227,7 @@
       "layerGroup": "Neighborhood",
       "name": "Mount Pleasant Historic District",
       "description": "Mount Pleasant Historic District includes approximately 1100 buildings. It is a residential district illustrating the growth and development of Washington D.C.'s first suburbs in its transition from rural to urban context.",
-      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Mount_Pleasant_Brochure.pdf",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Mount_Pleasant_Brochure_0.pdf",
       "label": "Mt. Pleasant HD",
       "address": ""
     },
@@ -236,7 +236,7 @@
       "layerGroup": "Neighborhood",
       "name": "Kalorama Triangle Historic District",
       "description": "The Kalorama Triangle Historic District includes 353 historic buildings. Almost exclusively residential incharacter, its curvilinear streets are filled with fine examples of late 19th and early 20th century urban dwellings and apartment buildings.",
-      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Kalorama_Triangle_Brochure.pdf",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Kalorama_Triangle_Brochure_0.pdf",
       "label": "Kalorama Triangle HD",
       "address": ""
     },
@@ -247,14 +247,14 @@
       "description": "",
 
       "label": "Blagden Alley/Naylor Court HD",
-      "address": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Armed%20Forces%20Retirement%20Home%20Historic%20District%20Map.pdf"
+      "address": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Blagden_Naylor_Historic_%2520District_%2520Map.pdf"
     },
     {
       "objectID": 19,
       "layerGroup": "Neighborhood",
       "name": "Foggy Bottom Historic District",
       "description": "Historically, Foggy Bottom was divided into two sections, with 23rd Street, N.W. forming the boundary between an upper income neighborhood to the east and the working class/ industrial area to the west.",
-      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Foggy_Bottom_Brochure.pdf",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Foggy_Bottom_Brochure_0.pdf",
       "label": "Foggy Bottom HD",
       "address": ""
     },
@@ -263,7 +263,7 @@
       "layerGroup": "Neighborhood",
       "name": "Downtown Historic District",
       "description": "Downtown Washington is a guide for exploring the diverse collection of historic buildings located in Washington's commercial downtown. Within this larger downtown area are several recognized historic districts and sites: the Downtown Historic District, the Fifteen's Street Historic District and Pennsylvania Avenue National Historic District.",
-      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Downtown_Washingoton_brochure.pdf",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Downtown_Washingoton_brochure_0.pdf",
       "label": "Downtown HD",
       "address": ""
     },
@@ -272,7 +272,7 @@
       "layerGroup": "Neighborhood",
       "name": "Cleveland Park Historic District",
       "description": "Served by a metro stop, the neighborhood contains a cohesive collection of single-family residences, apartment buildings, a vibrant commercial corridor with stores and restaurants, schools,a library, fire station and other amenities.",
-      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Cleveland_%20Park_Brochure.pdf",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Cleveland_Park_Brochure.pdf",
       "label": "Cleveland Park HD",
       "address": "Woodley Rd, Wisconsin Ave, Tilden St, and Connecticut Ave, NW"
     },
@@ -281,16 +281,16 @@
       "layerGroup": "Neighborhood",
       "name": "Anacostia Historic District",
       "description": "East of the Anacostia River, in sight of the U.S. Capitol, lies an area of unusual natural beauty and rich heritage.",
-      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Anacostia%20Historic%20District%20Map.pdf",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Anacostia%2520Historic%2520District%2520Map.pdf",
       "label": "Anacostia HD",
-      "address": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Anacostia_Historic_Brochure.pdf"
+      "address": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Anacostia_Historic_Brochure_0.pdf"
     },
     {
       "objectID": 24,
       "layerGroup": "Neighborhood",
       "name": "Woodley Park Historic District",
       "description": "This residential district with commercial corridor maintains a strong connection to its past and conveys a sense of history through its carefully planned streets, historic architecture, and open space.",
-      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Woodley_Park_Brochure.pdf",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Woodley_Park_Brochure_0.pdf",
       "label": "Woodley Park HD",
       "address": "Rock Creek Park, Calvert St, Woodley Rd, and Cathedral Ave, NW"
     },
@@ -299,7 +299,7 @@
       "layerGroup": "Neighborhood",
       "name": "Takoma Park Historic District",
       "description": "Takoma Park Historic District includes approximately 160 religious, educational, and commercial insitutions. ",
-      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Takoma_Park_Brochure.pdf",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Takoma_Park_Brochure_0.pdf",
       "label": "Takoma Park HD",
       "address": ""
     },
@@ -308,7 +308,7 @@
       "layerGroup": "Neighborhood",
       "name": "Mount Vernon Triangle Historic District",
       "description": "Although there are other buildings in the Triangle, the historic district provides the most cohesive collection of buildings that together tell the story of the larger area.",
-      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Mount_Vernon_Triangle_%20Brochure.pdf",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Mount_Vernon_Triangle_Brochure.pdf",
       "label": "Mount Vernon Triangle HD",
       "address": ""
     },
@@ -317,7 +317,7 @@
       "layerGroup": "Neighborhood",
       "name": "Washington Heights Historic District",
       "description": "Located in the heart of the Adam Morgan neighborhood, the Washington Heights HD contains one of the finest collections of architecture in DC from19th century rowhouses and early 20th century luxury apartments to flourishing commercial corridor, the development of Washington Heights is a thriving urban center.",
-      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Washington%20Heights%20FINAL%202.pdf",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Washington%20Heights%20Brochure.pdf",
       "label": "Washington Heights HD",
       "address": "Bounded by Florida Ave. Washington Hilton, Columbia Rd., and rear of 18th St, NW"
     },
@@ -326,7 +326,7 @@
       "layerGroup": "Neighborhood",
       "name": "Strivers' Section Historic District",
       "description": "Strivers' Section Historic District is a compact residential enclave of rowhouses and small apartment buildings.",
-      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Strivers_Section_Brochure.pdf",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Strivers_Section_Brochure_0.pdf",
       "label": "Strivers' Section HD",
       "address": "Swann St, Florida Ave, Sixteenth St Historic District"
     },
@@ -335,7 +335,7 @@
       "layerGroup": "Neighborhood",
       "name": "Dupont Circle Historic District",
       "description": "One of the city's most elegant historic residential neighborhoods. Notable for superior examples of Victorian rowhouse architecture in Queen Anne and Richardsonian styles, as well as some of the city's fines turn-of-the-century mansions in Beaux Arts, Chateauesque, Renaissance, and Georgian Revival styles.",
-      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Dupont_Circle_Brochure.pdf",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Dupont_Circle_Brochure_0.pdf",
       "label": "Dupont Circle HD",
       "address": ""
     },
@@ -344,7 +344,7 @@
       "layerGroup": "Neighborhood",
       "name": "Foxhall Historic District",
       "description": "Modelled after an old English Village, Foxhall is a Tudor Revival-style rowhouse neighborhood located in Northwest DC. Foxhall Village is one of the city's only large-scale residential development to have been realized in such a manner. ",
-      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Foxhall%20%20Village%20FINAL%202%20.pdf",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Foxhall%20Village%20Brochure.pdf",
       "label": "Foxhall HD",
       "address": "Reservoir Road, Glover-Archibald Park, P Street NW, Foxhall Road"
     },
@@ -353,7 +353,7 @@
       "layerGroup": "Neighborhood",
       "name": "Mount Vernon Square Historic District",
       "description": "Mount Vernon Square Historic District is a commercial and residenial neighborhood located within the historic boundaries of the District of Columbia's Federal City. The historic district covers the area that includes twelve city blocks in North West DC. Area includes approximately 420 properties.",
-      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Mount_Vernon_Square_Brochure.pdf",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Mount_Vernon_Square_Brochure_0.pdf",
       "label": "Mt. Vernon Square HD",
       "address": "1st Street, New York Avenue, 7th Street, and M and N Streets, NW"
     },
@@ -362,7 +362,7 @@
       "layerGroup": "Neighborhood",
       "name": "Capitol Hill Historic District",
       "description": "The Capitol Hill Historic District is one of the oldest residential neighborhoods of Washington D.C. The district, which includes 200 city squares and approximately 8,000 buildings, is one of the largest historic districts in the country.",
-      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Capitol_Hill_Brochure.pdf",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Capitol_Hill_Brochure_0.pdf",
       "label": "Capitol Hill HD",
       "address": ""
     },
@@ -371,7 +371,7 @@
       "layerGroup": "Neighborhood",
       "name": "Georgetown Historic District",
       "description": "Designated a National Historic Landmark in 1967, the Georgetown Historic District is included in the D.C. Inventory of historic places and listed in the national register of historic places.",
-      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Georgetown_Brochure.pdf",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Georgetown_Brochure_0.pdf",
       "label": "Georgetown HD",
       "address": ""
     },
@@ -380,7 +380,7 @@
       "layerGroup": "Neighborhood",
       "name": "LeDroit Park Historic District",
       "description": "LeDroit Park Historic District is a 42.6 acre site that includes approximately 100 buildings. The historic District is an early example of a planned, architecturally unified suburban subdivision.",
-      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/LeDroit_Park_Brochure.pdf",
+      "mapLink": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/LeDroit_Park_Brochure_0.pdf",
       "label": "LeDroit Park HD",
       "address": ""
     },
