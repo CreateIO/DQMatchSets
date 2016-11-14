@@ -1,5 +1,159 @@
 {
     "layerjson": {
+        "dc_wdcep_resi_pipeline_geo": {
+            "name": "dc_wdcep_resi_pipeline_geo",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_wdcep_resi_pipeline_geo",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_wdcep_resi_pipeline_geo@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.0883255004883,
+                    "yMin": 38.8303298950195,
+                    "xMax": -76.9124603271484,
+                    "yMax": 38.9852104187012
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "dc_wdcep_resi_com_geo": {
+            "name": "dc_wdcep_resi_com_geo",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_wdcep_resi_com_geo",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_wdcep_resi_com_geo@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.0897064208984,
+                    "yMin": 38.8284301757812,
+                    "xMax": -76.9151382446289,
+                    "yMax": 38.9837455749512
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "dc_wdcep_retail_com_geo": {
+            "name": "dc_wdcep_retail_com_geo",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_wdcep_retail_com_geo",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_wdcep_retail_com_geo@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.0814971923828,
+                    "yMin": 38.857063293457,
+                    "xMax": -76.9471969604492,
+                    "yMax": 38.9757423400879
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "dc_wdcep_retail_pipeline_geo": {
+            "name": "dc_wdcep_retail_pipeline_geo",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_wdcep_retail_pipeline_geo",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_wdcep_retail_pipeline_geo@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.0876159667969,
+                    "yMin": 38.8303756713867,
+                    "xMax": -76.9281387329102,
+                    "yMax": 38.975715637207
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+
+
         "zillow-label": {
             "name": "zillow-label",
             "removeName": "zillowLabel.geojson",
