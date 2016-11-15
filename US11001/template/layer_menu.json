@@ -3020,12 +3020,12 @@
             "functions": {
                 "addFunctions": {
                      "func1": {
+                        "service": "mapOverlayService",
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
                             "param2": "dc_wdcep_resi_pipe_projects"
-                        },
-                        "service": "mapOverlayService"
+                        }
                     },
                      "func2": {
                         "functionName": "addLayer",
@@ -3051,12 +3051,12 @@
                 },
                 "removeFunctions": {
                     "func1": {
+                    "service": "mapOverlayService",
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
                             "param2": "dc_wdcep_resi_pipe_projects"
-                        },
-                        "service": "mapOverlayService"
+                        }
                     },
                     "func2": {
                         "functionName": "removeLayer",
@@ -3093,7 +3093,7 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "functionName": "addLayer",
+                        "functionName": "addImage",
                         "parameters": {
                             "param1": "$scope",
                             "param2": "dc_wdcep_retail_com_projects"
@@ -3124,7 +3124,7 @@
                 },
                 "removeFunctions": {
                     "func1": {
-                        "functionName": "removeLayer",
+                        "functionName": "removeImage",
                         "parameters": {
                             "param1": "$scope",
                             "param2": "dc_wdcep_retail_com_projects"
