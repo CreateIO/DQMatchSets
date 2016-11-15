@@ -1,43 +1,5 @@
 {
     "layerjson": {
-        "dc_wdcep_resi_pipeline_geo": {
-            "name": "dc_wdcep_resi_pipeline_geo",
-            "removeName": null,
-            "url": null,
-            "cartographic": false,
-            "id": {
-                "exists": false
-            },
-            "labels": {
-                "exists": false
-            },
-            "polygons": {
-                "exists": false
-            },
-            "tms": {
-                "tmsLayerName": "dc_wdcep_resi_pipeline_geo",
-                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_wdcep_resi_pipeline_geo@EPSG:900913@png",
-                "extension": "png",
-                "coords": {
-                    "xMin": -77.0883255004883,
-                    "yMin": 38.8303298950195,
-                    "xMax": -76.9124603271484,
-                    "yMax": 38.9852104187012
-                },
-                "tileWidth": 256,
-                "tileHeight": 256,
-                "minimumLevel": 1,
-                "maximumLevel": 20,
-                "alpha": 1,
-                "tmsStyle": "GWC"
-            },
-            "rasters": {
-                "exists": false
-            },
-            "billboards": {
-                "exists": false
-            }
-        },
         "dc_wdcep_resi_com_geo": {
             "name": "dc_wdcep_resi_com_geo",
             "removeName": null,
