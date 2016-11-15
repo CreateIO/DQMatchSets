@@ -3019,13 +3019,13 @@
             "displayName": "Residential Pipeline Projects (WDCEP)",
             "functions": {
                 "addFunctions": {
-                     "func1": {
-                        "service": "mapOverlayService",
+                    "func1": {
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
                             "param2": "dc_wdcep_resi_pipe_projects"
-                        }
+                        },
+                        "service": "mapOverlayService"
                     },
                      "func2": {
                         "functionName": "addLayer",
@@ -3050,13 +3050,12 @@
                     }
                 },
                 "removeFunctions": {
-                    "func1": {
-                    "service": "mapOverlayService",
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
                             "param2": "dc_wdcep_resi_pipe_projects"
-                        }
+                        },
+                        "service": "mapOverlayService"
                     },
                     "func2": {
                         "functionName": "removeLayer",
