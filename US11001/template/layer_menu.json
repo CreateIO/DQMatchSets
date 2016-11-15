@@ -3050,6 +3050,7 @@
                     }
                 },
                 "removeFunctions": {
+                    "func1": {
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
