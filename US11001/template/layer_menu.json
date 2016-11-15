@@ -3305,7 +3305,7 @@
                 },
                 "removeFunctions": {
                     "func1": {
-                        "functionName": "rmoveDynamicTMSLayer",
+                        "functionName": "removeDynamicTMSLayer",
                         "parameters": {
                             "param1": "dc_wdcep_retail_pipeline_geo"
                         },
