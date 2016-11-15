@@ -152,74 +152,6 @@
                 "exists": false
             }
         },
-        "dc_wdcep_resi_pipe_projects": {
-            "name": "dc_wdcep_resi_pipe_projects",
-            "removeName": null,
-            "url": null,
-            "cartographic": false,
-            "id": {
-                "exists": false
-            },
-            "labels": {
-                "exists": false
-            },
-            "polygons": {
-                "exists": false
-            },
-            "rasters": {
-                "exists": true,
-                "rasterLayers": {
-                    "raster1": {
-                        "name": "dc_wdcep_resi_pipe_projects",
-                        "url": "https://s3.amazonaws.com/models-dc/img_tilesets/dc_wdcep_resi_pipe_projects.png",
-                        "xMin": -77.15,
-                        "yMin": 38.83,
-                        "xMax": -76.85,
-                        "yMax": 38.99,
-                        "alpha": 1,
-                        "show": true,
-                        "hasDropdown": false
-                    }
-                }
-            },
-            "billboards": {
-                "exists": false
-            }
-        },
-        "dc_wdcep_retail_com_projects": {
-            "name": "dc_wdcep_retail_com_projects",
-            "removeName": null,
-            "url": null,
-            "cartographic": false,
-            "id": {
-                "exists": false
-            },
-            "labels": {
-                "exists": false
-            },
-            "polygons": {
-                "exists": false
-            },
-            "rasters": {
-                "exists": true,
-                "rasterLayers": {
-                    "raster1": {
-                        "name": "dc_wdcep_retail_com_projects",
-                        "url": "https://s3.amazonaws.com/models-dc/img_tilesets/dc_wdcep_retail_com_projects.png",
-                        "xMin": -77.15,
-                        "yMin": 38.82,
-                        "xMax": -76.84,
-                        "yMax": 38.99,
-                        "alpha": 0,
-                        "show": true,
-                        "hasDropdown": false
-                    }
-                }
-            },
-            "billboards": {
-                "exists": false
-            }
-        },
         "zillow-label": {
             "name": "zillow-label",
             "removeName": "zillowLabel.geojson",
@@ -1292,12 +1224,6 @@
                 }
             }
         },
-
-
-
-
-
-
         "metroBus": {
             "name": "metroBus",
             "removeName": "busStopBasic.geojson",
