@@ -9,7 +9,7 @@
     "medium": {
       "title": "Medium",
       "description": "Formats on which to display this item.",
-      "type": "enum",
+      "type": "string",
       "enum": ["all", "screen", "print"],
       "default": "all"
     }
