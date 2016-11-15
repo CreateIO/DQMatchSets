@@ -1,5 +1,19 @@
 {
   "$tree": true,
+  "$global": {
+    "restrict": {
+      "title": "Restrictions",
+      "description": "Feature group that can view this item. Leave blank to allow all accounts to see it.",
+      "type": "string"
+    },
+    "medium": {
+      "title": "Medium",
+      "description": "Formats on which to display this item.",
+      "type": "enum",
+      "enum": ["all", "screen", "print"],
+      "default": "all"
+    }
+  },
   "section": {
     "name": "Section",
     "description": "First-level container for content.",
