@@ -152,6 +152,40 @@
                 "exists": false
             }
         },
+        "dc_wdcep_resi_pipe_projects": {
+            "name": "dc_wdcep_resi_pipe_projects",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "dc_wdcep_resi_pipe_projects",
+                        "url": "https://s3.amazonaws.com/models-dc/img_tilesets/dc_wdcep_resi_pipe_projects.png",
+                        "xMin": -77.15,
+                        "yMin": 38.83,
+                        "xMax": -76.85,
+                        "yMax": 38.99,
+                        "alpha": 0,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
 
 
         "zillow-label": {
@@ -1173,6 +1207,12 @@
                 }
             }
         },
+
+
+
+
+
+
         "metroBus": {
             "name": "metroBus",
             "removeName": "busStopBasic.geojson",
