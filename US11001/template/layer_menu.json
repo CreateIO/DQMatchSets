@@ -2895,6 +2895,14 @@
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
+                            "param2": "dc_wdcep_resi_pipe_projects"
+                        },
+                        "service": "mapOverlayService"
+                    },
+                    "func2": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
                             "param2": "WDCEP-res-com-bubble"
                         },
                         "service": "mapOverlayService"
@@ -2908,26 +2916,6 @@
                         "type": "remove"
                     }
                 },
-                "infoboxAdd": {
-                    "functionName": "getCircles",
-                    "parameters": {
-                        "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_resi_com_geo.geojson",
-                        "param2": "status",
-                        "param3": "resunits",
-                        "param4": 100,
-                        "param5": 400,
-                        "param6": 1000,
-                        "param7": 3500
-                    },
-                    "service": "infoBoxService"
-                },
-                "infoboxRemove": {
-                    "functionName": "clearBufferRings",
-                    "parameters": {
-                        "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_resi_com_geo.geojson"
-                    },
-                    "service": "infoBoxService"
-                },
                 "piwikTrack": {
                     "parameters": {
                         "param1": "'Data: WDCEP: Residential Completed Projects'"
@@ -2935,6 +2923,14 @@
                 },
                 "removeFunctions": {
                     "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "dc_wdcep_resi_pipe_projects"
+                        },
+                        "service": "mapOverlayService"
+                    },
+                    "func2": {
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
