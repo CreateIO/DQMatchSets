@@ -2864,12 +2864,11 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "functionName": "addLayer",
+                        "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "dc_wdcep_resi_pipe_projects"
+                            "param1": "dc_wdcep_resi_com_geo"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     },
                     "func2": {
                         "functionName": "addLayer",
@@ -2895,12 +2894,11 @@
                 },
                 "removeFunctions": {
                     "func1": {
-                        "functionName": "removeLayer",
+                        "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "dc_wdcep_resi_pipe_projects"
+                            "param1": "dc_wdcep_resi_com_geo"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     },
                     "func2": {
                         "functionName": "removeLayer",
@@ -3091,12 +3089,11 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "functionName": "addLayer",
+                        "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "dc_wdcep_retail_com_projects"
+                            "param1": "dc_wdcep_retail_com_geo"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     },
                     "func2": {
                         "functionName": "addLayer",
@@ -3122,12 +3119,11 @@
                 },
                 "removeFunctions": {
                     "func1": {
-                        "functionName": "removeLayer",
+                        "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "dc_wdcep_retail_com_projects"
+                            "param1": "dc_wdcep_retail_com_geo"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     },
                     "func2": {
                         "functionName": "removeLayer",
