@@ -9,7 +9,7 @@
         {
             "common_order": 1,
             "common_toggle": false,
-            "common_question": "What's the difference between Filters and Layers?",
+            "common_question": "What are Filters and Layers?",
             "common_answer": "<ul><li>Filters allow you to search for specific criteria (parcel size, use -commercial, residential, mixed use, home value growth percentages, retail space availability, HUB zones to name a few). You’ll get a list of properties that match your criteria.</li><li>Layers allow you to see an overlay of results on the visible map. Criteria include historic districts, zoning, projected housing units growth, public schools and BIDs.</li></ul>"
         },
         {
