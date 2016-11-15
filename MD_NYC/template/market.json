@@ -8,6 +8,7 @@
       "layerMenuTemplate": "layer_menu_021216",
       "layerMapCodeTemplate": "layer_map_code_021216",
       "infoboxTemplate": "infobox_021216",
+      "detailPane": "details-scroll-nyc",
       "camera": [
         {
           "name": "Lower Manhattan",
