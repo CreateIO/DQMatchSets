@@ -3096,6 +3096,14 @@
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
+                            "param2": "dc_wdcep_retail_com_projects"
+                        },
+                        "service": "mapOverlayService"
+                    },
+                    "func2": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
                             "param2": "WDCEP-retail-com-bubble"
                         },
                         "service": "mapOverlayService"
@@ -3109,26 +3117,6 @@
                         "type": "remove"
                     }
                 },
-                "infoboxAdd": {
-                    "functionName": "getCircles",
-                    "parameters": {
-                        "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_retail_com_geo.geojson",
-                        "param2": "status",
-                        "param3": "retailsf",
-                        "param4": 10000,
-                        "param5": 100000,
-                        "param6": 450000,
-                        "param7": null
-                    },
-                    "service": "infoBoxService"
-                },
-                "infoboxRemove": {
-                    "functionName": "clearBufferRings",
-                    "parameters": {
-                        "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_retail_com_geo.geojson"
-                    },
-                    "service": "infoBoxService"
-                },
                 "piwikTrack": {
                     "parameters": {
                         "param1": "'Data: WDCEP: Retail Completed Projects'"
@@ -3136,6 +3124,14 @@
                 },
                 "removeFunctions": {
                     "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "dc_wdcep_retail_com_projects"
+                        },
+                        "service": "mapOverlayService"
+                    },
+                    "func2": {
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
