@@ -3247,6 +3247,13 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_wdcep_retail_pipeline_geo"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
@@ -3263,26 +3270,6 @@
                         "type": "remove"
                     }
                 },
-                "infoboxAdd": {
-                    "functionName": "getCircles",
-                    "parameters": {
-                        "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_retail_pipeline_geo.geojson",
-                        "param2": null,
-                        "param3": "retailsf",
-                        "param4": 10000,
-                        "param5": 100000,
-                        "param6": 450000,
-                        "param7": null
-                    },
-                    "service": "infoBoxService"
-                },
-                "infoboxRemove": {
-                    "functionName": "clearBufferRings",
-                    "parameters": {
-                        "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_retail_pipeline_geo.geojson"
-                    },
-                    "service": "infoBoxService"
-                },
                 "piwikTrack": {
                     "parameters": {
                         "param1": "'Data: WDCEP: Retail Pipeline Projects'"
@@ -3290,6 +3277,13 @@
                 },
                 "removeFunctions": {
                     "func1": {
+                        "functionName": "rmoveDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_wdcep_retail_pipeline_geo"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
