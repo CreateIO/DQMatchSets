@@ -2914,11 +2914,24 @@
             "id": 9,
             "isActive": false,
             "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "",
+                        "boxStyle": "width: 173px; height: 113px; display: block; margin-left: 2px; margin-top: 2px;",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/images/ResiComLegend.png"
+                    }
+                },
+                "sourceDescription": "WDCEP",
+                "sourceURL": "http://wdcep.com/",
+                "type": "singleColumn"
+            },
             "menuSection": "Development2",
             "mouseoverName": "Residential Completed Projects (WDCEP)",
             "order": 3,
             "subCategory": "2",
-            "urlLegend": "../../legends/layerResidentialDev.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/ResC.png"
         },
         "Residential Density Heatmap": {
@@ -3068,11 +3081,25 @@
             "id": 8,
             "isActive": false,
             "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "",
+                        "boxStyle": "width: 173px; height: 113px; display: block; margin-left: 2px; margin-top: 2px;",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/images/ResiPipeLegend.png"
+                    }
+                },
+                "sourceDescription": "WDCEP",
+                "sourceURL": "http://wdcep.com/",
+                "type": "singleColumn"
+            },
+
             "menuSection": "Development2",
             "mouseoverName": "Residential Pipeline Projects (WDCEP)",
             "order": 2,
             "subCategory": "2",
-            "urlLegend": "../../legends/layerResidentialPip.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/ResP.png"
         },
         "Retail Completed Projects (WDCEP)": {
@@ -3139,11 +3166,24 @@
             "id": 7,
             "isActive": false,
             "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "",
+                        "boxStyle": "width: 173px; height: 94px; display: block; margin-left: 2px; margin-top: 2px;",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/images/RetComLegend.png"
+                    }
+                },
+                "sourceDescription": "WDCEP",
+                "sourceURL": "http://wdcep.com/",
+                "type": "singleColumn"
+            },
             "menuSection": "Development2",
             "mouseoverName": "Retail Completed Projects (WDCEP)",
             "order": 5,
             "subCategory": "2",
-            "urlLegend": "../../legends/layerRetailDev.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/RetC.png"
         },
         "Retail Density Heatmap": {
@@ -3292,12 +3332,24 @@
             "hasLegend": true,
             "id": 6,
             "isActive": false,
-            "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "",
+                        "boxStyle": "width: 173px; height: 94px; display: block; margin-left: 2px; margin-top: 2px;",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/images/RetPipeLegend.png"
+                    }
+                },
+                "sourceDescription": "WDCEP",
+                "sourceURL": "http://wdcep.com/",
+                "type": "singleColumn"
+            },
             "menuSection": "Development2",
             "mouseoverName": "Retail Pipeline Projects (WDCEP)",
             "order": 4,
             "subCategory": "2",
-            "urlLegend": "../../legends/layerRetailPip.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/RetP.png"
         },
         "Single Member Districts": {
