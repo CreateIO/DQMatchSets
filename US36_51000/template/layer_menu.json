@@ -622,6 +622,64 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
+        "Business Improvement Districts": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Business Improvement Districts",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BID"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Business Improvement Districts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BID"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "A Business Improvement District (BID) is a public/private partnership in which property and business owners elect to make a collective contribution to the maintenance, development, and promotion of their commercial district.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Business Improvement Districts",
+                        "boxStyle": "background:#3396cf",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse2",
+            "mouseoverName": "Limited Height Zoning Districts",
+            "order": 5,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+
+
         "Limited Height Districts": {
             "category": "6",
             "denyList": {
@@ -663,7 +721,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Limited Height Zoning Districts",
-                        "boxStyle": "background:#ab9ee7",
+                        "boxStyle": "background:#ef4e37",
                         "imageUrl": null
                     }
                 },

@@ -49,6 +49,67 @@
                 }
             }
         },
+        "ny_BID":{
+            "referenceid":"UNIQUEID",
+            "propertyid":null,
+            "offset":null,
+            "fieldtype":"retail",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"bid_id",
+            "boxValues":{               
+                "field1":{
+                    "value":"bid_id",
+                    "display":"BID ID: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"organizati",
+                    "display":"Organization: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"borough_1",
+                    "display":"Borough: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"cont_name",
+                    "display":"Contact: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field5":{
+                    "value":"cont_title",
+                    "display":"Titlel: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field6": {
+                    "value":"cont_email",
+                    "display":"Email: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field7":{
+                    "value":"cont_phone",
+                    "display":"Phone: ",
+                    "fieldtype":"text",
+                    "units":null
+                }
+            }
+        },
         "ny_WP":{
             "referenceid":"UNIQUEID",
             "propertyid":null,
