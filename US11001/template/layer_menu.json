@@ -3171,7 +3171,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "",
-                        "boxStyle": "width: 224px; height: 132px; display: block; margin-left: 0px; margin-top: 0px;",
+                        "boxStyle": "width: 224px; height: 132px;",
                         "imageUrl": "https://s3.amazonaws.com/models-dc/images/RetComLegend.png"
                     }
                 },
