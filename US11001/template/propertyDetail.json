@@ -738,10 +738,11 @@
         {
           "title": "Medical Facility Info",
           "collapsible": true,
-          "type": "subsection",
           "flags": [
             "array"
           ],
+          "medium": "screen",
+          "type": "subsection",
           "children": [
             {
               "size": "full",
@@ -830,10 +831,11 @@
         {
           "title": "CBSA Population Growth",
           "collapsible": true,
-          "type": "subsection",
           "flags": [
             "array"
           ],
+          "medium": "screen",
+          "type": "subsection",
           "children": [
             {
               "size": "half",
@@ -879,10 +881,11 @@
         {
           "title": "Revenues",
           "collapsible": true,
-          "type": "subsection",
           "flags": [
             "array"
           ],
+          "medium": "screen",
+          "type": "subsection",
           "children": [
             {
               "size": "full",
@@ -1053,10 +1056,11 @@
         {
           "title": "Case Mix Index",
           "collapsible": true,
-          "type": "subsection",
           "flags": [
             "array"
           ],
+          "medium": "screen",
+          "type": "subsection",
           "children": [
             {
               "size": "quarter",
@@ -1139,10 +1143,11 @@
         {
           "title": "Ratings",
           "collapsible": true,
-          "type": "subsection",
           "flags": [
             "array"
           ],
+          "medium": "screen",
+          "type": "subsection",
           "children": [
             {
               "size": "half",
@@ -1320,10 +1325,11 @@
         {
           "title": "HCAHP Scores",
           "collapsible": true,
-          "type": "subsection",
           "flags": [
             "array"
           ],
+          "medium": "screen",
+          "type": "subsection",
           "children": [
             {
               "size": "half",
@@ -1502,6 +1508,7 @@
           "title": "Tenants",
           "collapsible": true,
           "restrict": "",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -3315,6 +3322,7 @@
                 {
                   "title": "Radius",
                   "restrict": "esriDemog",
+                  "medium": "screen",
                   "type": "tab",
                   "children": [
                     {
@@ -4327,6 +4335,7 @@
           "title": "Residential Debt: Mortgage Rates",
           "collapsible": true,
           "restrict": "lhs.financing",
+          "medium": "screen",
           "type": "subsection",
           "children": [
             {
@@ -5204,6 +5213,7 @@
           "title": "Financial Proforma",
           "collapsible": false,
           "restrict": "inhouseDemog",
+          "medium": "screen",
           "type": "subsection",
           "children": [
             {
