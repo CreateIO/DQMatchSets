@@ -2947,7 +2947,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "",
-                        "boxStyle": "width: 300px; height: 208px; display: block; margin-left: 0px; margin-top: 0px;",
+                        "boxStyle": "width: 217px; height: 150px; display: block; margin-left: 0px; margin-top: 0px;",
                         "imageUrl": "https://s3.amazonaws.com/models-dc/images/ResiComLegend.png"
                     }
                 },
@@ -3114,7 +3114,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "",
-                        "boxStyle": "width: 300px; height: 208px; display: block; margin-left: 0px; margin-top: 0px;",
+                        "boxStyle": "width: 217px; height: 150px; display: block; margin-left: 0px; margin-top: 0px;",
                         "imageUrl": "https://s3.amazonaws.com/models-dc/images/ResiPipeLegend.png"
                     }
                 },
@@ -3199,7 +3199,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "",
-                        "boxStyle": "width: 300px; height: 177px; display: block; margin-left: 0px; margin-top: 0px;",
+                        "boxStyle": "width: 217px; height: 128px; display: block; margin-left: 0px; margin-top: 0px;",
                         "imageUrl": "https://s3.amazonaws.com/models-dc/images/RetComLegend.png"
                     }
                 },
@@ -3365,7 +3365,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "",
-                        "boxStyle": "width: 300px; height: 160px; display: block; margin-left: 0px; margin-top: 0px;",
+                        "boxStyle": "width: 217px; height: 150px; display: block; margin-left: 0px; margin-top: 0px;",
                         "imageUrl": "https://s3.amazonaws.com/models-dc/images/RetPipeLegend.png"
                     }
                 },
