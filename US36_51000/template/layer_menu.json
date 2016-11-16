@@ -671,15 +671,13 @@
                 "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse2",
+            "menuSection": "Incentives1",
             "mouseoverName": "Limited Height Zoning Districts",
-            "order": 5,
+            "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
-
-
         "Limited Height Districts": {
             "category": "6",
             "denyList": {
@@ -1282,7 +1280,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Empowerment Zones",
-            "order": 2,
+            "order": 3,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -1348,7 +1346,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Fresh Food Stores Zoning",
-            "order": 3,
+            "order": 4,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -1404,7 +1402,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "NYCHA Community Engagement & Partnership Zones",
-            "order": 3,
+            "order": 5,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -1516,7 +1514,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Community Parks Initiative Zones",
-            "order": 1,
+            "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
