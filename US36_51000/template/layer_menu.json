@@ -672,7 +672,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
-            "mouseoverName": "Limited Height Zoning Districts",
+            "mouseoverName": "Business Improvement Districts",
             "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
