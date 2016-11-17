@@ -55,6 +55,13 @@
         "items": {
           "type": "string"
         }
+      },
+      "printWidth": {
+        "title": "Print Width",
+        "description": "Width of section when displayed in PDF mode.",
+        "type": "string",
+        "enum": ["full", "half", "quarter"],
+        "default": "full"
       }
     },
     "required": ["title"],
