@@ -1,0 +1,145 @@
+{
+    "infoboxContent":{
+        "ny_SPD_wSubDistricts":{
+            "referenceid":"UNIQUEID",
+            "propertyid":null,
+            "offset":null,
+            "fieldtype":"retail",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"SPLBL",
+            "boxValues":{               
+                "field1":{
+                    "value":"SPNAME",
+                    "display":"District: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"SUBDIST",
+                    "display":"Sub-District: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"SUBSUB",
+                    "display":"Note 1: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"SD2",
+                    "display":"Note 2: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field5":{
+                    "value":"SUB2",
+                    "display":"Note 3: ",
+                    "fieldtype":"text",
+                    "units":null
+                }
+            }
+        },
+        "ny_WP":{
+            "referenceid":"UNIQUEID",
+            "propertyid":null,
+            "offset":null,
+            "fieldtype":"retail",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"Reach_Name",
+            "boxValues":{               
+                "field1":{
+                    "value":"Park_Name",
+                    "display":"Park Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"WF_Park_ID",
+                    "display":"Park ID: ",
+                    "fieldtype":"number",
+                    "units":null
+                },
+                "field3":{
+                    "value":"Status",
+                    "display":"Status: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"Agency",
+                    "display":"Agency: ",
+                    "fieldtype":"text",
+                    "units":null
+                }
+            }
+        },
+        "ny_PAWS":{
+            "referenceid":"UNIQUEID",
+            "propertyid":null,
+            "offset":null,
+            "fieldtype":"retail",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"Water_Body",
+            "boxValues":{               
+                "field1":{
+                    "value":"PAWS_Name",
+                    "display":"PAWS Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"Status",
+                    "display":"Status: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"Ownership",
+                    "display":"Ownership: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"Buro_Name",
+                    "display":"Burrough: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field5":{
+                    "value":"Address",
+                    "display":"Address: ",
+                    "fieldtype":"text",
+                    "units":null
+                }
+            }
+        }
+    }
+}
