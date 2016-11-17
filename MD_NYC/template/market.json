@@ -8,7 +8,6 @@
       "layerMenuTemplate": "layer_menu",
       "layerMapCodeTemplate": "layer_map_code",
       "infoboxTemplate": "infobox",
-      "detailPane": "details-scroll-nyc",
       "camera": [
         {
           "name": "Brooklyn Bridge",
