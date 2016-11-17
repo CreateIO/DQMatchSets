@@ -3145,7 +3145,7 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 20
+                            "z": 10
                         },
                         "NearFarScalar": {
                             "minElevation": 1000,

@@ -110,7 +110,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "doubleColumn"
             },
             "menuSection": "LandUse1",
@@ -199,7 +199,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
@@ -255,7 +255,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
@@ -316,7 +316,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse1",
@@ -377,7 +377,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
@@ -448,7 +448,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
@@ -509,7 +509,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
@@ -612,12 +612,124 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "doubleColumn"
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Commercial Districts Overlay",
             "order": 2,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Parks": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Parks",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_Parks"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Parks'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_Parks"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "City parks and public green spaces.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Parks",
+                        "boxStyle": "background:#005a50",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "CityInfo1",
+            "mouseoverName": "Parks",
+            "order": 1,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Business Improvement Districts": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Business Improvement Districts",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BID"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Business Improvement Districts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BID"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "A Business Improvement District (BID) is a public/private partnership in which property and business owners elect to make a collective contribution to the maintenance, development, and promotion of their commercial district.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Business Improvement Districts",
+                        "boxStyle": "background:#3396cf",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "Incentives1",
+            "mouseoverName": "Business Improvement Districts",
+            "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -663,12 +775,12 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Limited Height Zoning Districts",
-                        "boxStyle": "background:#ab9ee7",
+                        "boxStyle": "background:#ef4e37",
                         "imageUrl": null
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
@@ -831,7 +943,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse3",
@@ -887,7 +999,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse3",
@@ -943,7 +1055,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
@@ -1018,12 +1130,12 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
             "menuSection": "CityInfo1",
             "mouseoverName": "Waterfront Areas",
-            "order": 1,
+            "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -1126,7 +1238,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "doubleColumn"
             },
             "menuSection": "",
@@ -1224,7 +1336,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Empowerment Zones",
-            "order": 2,
+            "order": 3,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -1285,12 +1397,12 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Fresh Food Stores Zoning",
-            "order": 3,
+            "order": 4,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -1341,12 +1453,12 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
             "mouseoverName": "NYCHA Community Engagement & Partnership Zones",
-            "order": 3,
+            "order": 5,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -1448,7 +1560,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Community Parks Initiative Zones",
-                        "boxStyle": "background:#400f80",
+                        "boxStyle": "background:#99c93b",
                         "imageUrl": null
                     }
                 },
@@ -1458,7 +1570,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Community Parks Initiative Zones",
-            "order": 1,
+            "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -1670,7 +1782,7 @@
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse1",
