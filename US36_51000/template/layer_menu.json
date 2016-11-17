@@ -1575,6 +1575,138 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
+        "NJT Commuter Rail": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "NJT Commuter Rail",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "nj_NJT_Rail"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "nj_NJT_Stations"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: NJT Commuter Rail'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "nj_NJT_Rail"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "nj_NJT_Stations"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "New Jersey Transit commuter rail lines & stations.",
+                "listItemsLeft": {
+                    "item00": {
+                        "boxDescription": "Pascack Valley Line (PVL)",
+                        "boxStyle": "background:#9e278c",
+                        "imageUrl": null
+                    },
+                    "item01": {
+                        "boxDescription": "Bergen County Line (BCL)",
+                        "boxStyle": "background:#bccbe1",
+                        "imageUrl": null
+                    },
+                    "item02": {
+                        "boxDescription": "Main Line & Port Jervis",
+                        "boxStyle": "background:#fecd31",
+                        "imageUrl": null
+                    },
+                    "item03": {
+                        "boxDescription": "Montclair-Boonton Line",
+                        "boxStyle": "background:#e46c60",
+                        "imageUrl": null
+                    },
+                    "item04": {
+                        "boxDescription": "Morristown Line",
+                        "boxStyle": "background:#1aa757",
+                        "imageUrl": null
+                    },
+                    "item05": {
+                        "boxDescription": "Gladstone Line",
+                        "boxStyle": "background:#a3d3b5",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item06": {
+                        "boxDescription": "Raritan Valley Line (RVL)",
+                        "boxStyle": "background:#f8a444",
+                        "imageUrl": null
+                    },
+                    "item07": {
+                        "boxDescription": "Northeast Corridor (NEC)",
+                        "boxStyle": "background:#ea3b48",
+                        "imageUrl": null
+                    },
+                    "item08": {
+                        "boxDescription": "North Jesey Coast Line (NJCL)",
+                        "boxStyle": "background:#1ba6e5",
+                        "imageUrl": null
+                    },
+                    "item09": {
+                        "boxDescription": "Hudson-Bergen Light Rail (HBLR)",
+                        "boxStyle": "background:#000000",
+                        "imageUrl": null
+                    },
+                    "item091": {
+                        "boxDescription": "Newark Light Rail (NLR)",
+                        "boxStyle": "background:#000000;",
+                        "imageUrl": null
+                    },
+                    "item092": {
+                        "boxDescription": "River Line (RL)",
+                        "boxStyle": "background:#000000;",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "New Jersey Office of GIS Open Data",
+                "sourceURL": "http://njogis.newjersey.opendata.arcgis.com/",
+                "type": "doubleColumn"
+            },
+            "menuSection": "CityInfo2",
+            "mouseoverName": "NJT System",
+            "order": 2,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+
+
+
+
+
         "NYC Subway System": {
             "category": "6",
             "denyList": {
