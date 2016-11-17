@@ -1,0 +1,1926 @@
+{
+    "allTheLayers": {
+        "Property Use Types": {
+            "category": "7",
+            "colors": {
+                "hex": {},
+                "type": "?"
+            },
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Property Use Types",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "PLUTO"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "emits": {
+                    "emit1": {
+                        "parameters": {
+                            "param1": "tileZoom"
+                        },
+                        "type": "add"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'New York Data: Property Use Types'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "PLUTO"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 42,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxDescription": "One & Two Family",
+                        "boxStyle": "background:#acd8ec",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Multi-Family Walk-up",
+                        "boxStyle": "background:#6f94d7",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Multi-family Elevator",
+                        "boxStyle": "background:#1f356c",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "Mixed Residential & Commercial",
+                        "boxStyle": "background:#eb8232",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "Commercial & Office",
+                        "boxStyle": "background:#fadd57",
+                        "imageUrl": null
+                    },
+                    "item6": {
+                        "boxDescription": "Industrial & Manufacturing",
+                        "boxStyle": "background:#96335e",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item7": {
+                        "boxDescription": "Transportation & Utility",
+                        "boxStyle": "background:#cac5ea",
+                        "imageUrl": null
+                    },
+                    "item8": {
+                        "boxDescription": "Public Facilities & Institutions",
+                        "boxStyle": "background:#a394bf",
+                        "imageUrl": null
+                    },
+                    "item9": {
+                        "boxDescription": "Open Space & Outdoor Recreation",
+                        "boxStyle": "background:#93d08d",
+                        "imageUrl": null
+                    },
+                    "item10": {
+                        "boxDescription": "Parking Facilities",
+                        "boxStyle": "background:#b3abd4",
+                        "imageUrl": null
+                    },
+                    "item11": {
+                        "boxDescription": "Vacant Land",
+                        "boxStyle": "background:#cdcdcd",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "doubleColumn"
+            },
+            "menuSection": "LandUse1",
+            "mouseoverName": "Property Use Types",
+            "order": 8,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Special Purpose Districts": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Special Purpose Districts",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SpecialPurposeDistricts_base"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SPD_wSubDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func3": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SpecialPurposeDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Special Purpose Districts & Sub-Districts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SpecialPurposeDistricts_base"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SPD_wSubDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func3": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SpecialPurposeDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Special Purpose Districts have distinctive zoning regulations tailored to the neighborhood. Some districts are also divided into sub-districts.  Click on the sub-district areas to see more info.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Sub-Districts",
+                        "boxStyle": "background:#e04c3d",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Special Purpose Districts",
+                        "boxStyle": "background:#ad654d",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse2",
+            "mouseoverName": "Special Purpose Districts & Sub-Districts",
+            "order": 7,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Lower Density Growth Management Areas": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Lower Density Growth Management Areas",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_LowerDensityGrowthManagementAreas"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Lower Density Growth Management Areas'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_LowerDensityGrowthManagementAreas"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Lower Density Growth Management Areas are areas designated in the Zoning Resolution where new developments must provide more off-street parking, larger yards and more open space than would otherwise be required in the applicable zoning districts In Staten Island and Bronx Community District 10.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Lower Density Growth Management Areas",
+                        "boxStyle": "background:#329ca6",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse2",
+            "mouseoverName": "Lower Density Growth Management Areas",
+            "order": 6,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Zoning Map Amendments": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Zoning Map Amendments",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_ZoningMapAmendments"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Zoning Map Amendments'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_ZoningMapAmendments"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Zoning Map Amendments include adopted & proposed changes in the zoning district of a property which allow different land uses (residential, commercial, industrial, etc.) and density (number of dwelling units or size of buildings) requirements on that property.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Adopted Amendments",
+                        "boxStyle": "background:#fdae61",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Certified / Proposed Amendments",
+                        "boxStyle": "background:#d53e4f",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse1",
+            "mouseoverName": "Zoning Map Amendments",
+            "order": 3,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Inclusionary Housing": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Inclusionary Housing",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_InclusionaryHousing"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Inclusionary Housing'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_InclusionaryHousing"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "The Inclusionary Housing Designated Areas Program was created in 2005 to encourage the creation and preservation of affordable housing in medium and high-density neighborhoods being rezoned to create new housing opportunities. The program modifies the base floor area ratio (FAR) available for developments and offers a floor area bonus for developments that provide affordable housing either on-site or within the surrounding community.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Adopted Projects",
+                        "boxStyle": "background:#9a9fad",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Pipeline Projects",
+                        "boxStyle": "background:#bee2dd",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse2",
+            "mouseoverName": "Inclusionary Housing",
+            "order": 4,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Sidewalk Cafes": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Sidewalk Cafes",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SidewalkCafes"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Sidwwalk Cafes'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SidewalkCafes"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "A Sidewalk Cafe is a portion of an eating or drinking estab­lishment that is located on a public sidewalk including enclosed areas (within a structure) & unenclosed area (with removable tables etc.). Sidewalk cafe regulations are administered by the Department of Consumer Affairs.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "No sidewalk cafes permitted.",
+                        "boxStyle": "background:#1fe8ef",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Small unenclosed sidewalk cafes permitted.",
+                        "boxStyle": "background:#f81d4f",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "All unenclosed sidewalk cafes permitted.",
+                        "boxStyle": "background:#0877e5",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "All sidewalk cafes permitted.",
+                        "boxStyle": "background:#1fef6f",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse2",
+            "mouseoverName": "Sidewalk Cafes",
+            "order": 8,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "City Owned & Leased Properties": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "City Owned & Leased Properties",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_COLP"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: City Owned & Leased Properties'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_COLP"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "NYC City Owned and Leased Properties (COLP)",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "City Owned",
+                        "boxStyle": "background:#80d862",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Leased-In",
+                        "boxStyle": "background:#fdae61",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse2",
+            "mouseoverName": "City Owned & Leased Properties",
+            "order": 1,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Commercial Districts Overlay": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Commercial Districts Overlay",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_CommercialDistrictsOverlay"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Commercial Districts Overlay'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_CommercialDistrictsOverlay"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Commercial District Overlays are C1 or C2 district mapped within residential districts to serve local retail needs such as grocery stores, dry cleaners or restaurants.",
+                "listItemsLeft": {
+                    "item0": {
+                        "boxDescription": "C1-1",
+                        "boxStyle": "background:#fecc03",
+                        "imageUrl": null
+                    },
+                    "item1": {
+                        "boxDescription": "C1-2",
+                        "boxStyle": "background:#f47c20",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "C1-3",
+                        "boxStyle": "background:#dc1921",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "C1-4",
+                        "boxStyle": "background:#e95ca1",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "C1-5",
+                        "boxStyle": "background:#9574b3",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item5": {
+                        "boxDescription": "C2-1",
+                        "boxStyle": "background:#006db7",
+                        "imageUrl": null
+                    },
+                    "item6": {
+                        "boxDescription": "C2-2",
+                        "boxStyle": "background:#00a3d9",
+                        "imageUrl": null
+                    },
+                    "item7": {
+                        "boxDescription": "C2-3",
+                        "boxStyle": "background:#00bdd2",
+                        "imageUrl": null
+                    },
+                    "item8": {
+                        "boxDescription": "C2-4",
+                        "boxStyle": "background:#99c93b",
+                        "imageUrl": null
+                    },
+                    "item9": {
+                        "boxDescription": "C2-5",
+                        "boxStyle": "background:#00af4d",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "doubleColumn"
+            },
+            "menuSection": "LandUse2",
+            "mouseoverName": "Commercial Districts Overlay",
+            "order": 2,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Parks": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Parks",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_Parks"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Parks'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_Parks"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "City parks and public green spaces.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Parks",
+                        "boxStyle": "background:#005a50",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "CityInfo1",
+            "mouseoverName": "Parks",
+            "order": 1,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Business Improvement Districts": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Business Improvement Districts",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BID"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Business Improvement Districts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BID"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "A Business Improvement District (BID) is a public/private partnership in which property and business owners elect to make a collective contribution to the maintenance, development, and promotion of their commercial district.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Business Improvement Districts",
+                        "boxStyle": "background:#3396cf",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "Incentives1",
+            "mouseoverName": "Business Improvement Districts",
+            "order": 1,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Limited Height Districts": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Limited Height Districts",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_LimitedHeightDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Limited Height Districts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_LimitedHeightDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Limited Height Districts are zoning areas with building height restrictions of 50 - 100 ft that may be superimposed on areas designated as historic districts by the Landmarks Preservation Commission.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Limited Height Zoning Districts",
+                        "boxStyle": "background:#ef4e37",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse2",
+            "mouseoverName": "Limited Height Zoning Districts",
+            "order": 5,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Hurricane Evacuation Zones": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Hurricane Evacuation Zones",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HurricaneInnundationZones"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_Hurricane_Shelters"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Hurricane Evacuation Sones & Shelters'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HurricaneInnundationZones"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_Hurricane_Shelters"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Hurricane Evacuation Zones are areas of the city that may be inundated by storm surge or isolated by storm surge waters. The six zones are ranked by the risk of storm surge impact, with Zone 1 being the most likely to flood.",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxDescription": "Zone 1",
+                        "boxStyle": "background:#ed3724",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Zone 2",
+                        "boxStyle": "background:#f48120",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Zone 3",
+                        "boxStyle": "background:#ffde17",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "Zone 4",
+                        "boxStyle": "background:#bed630",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "Zone 5",
+                        "boxStyle": "background:#72be44",
+                        "imageUrl": null
+                    },
+                    "item6": {
+                        "boxDescription": "Zone 6",
+                        "boxStyle": "background:#00a78d",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item7": {
+                        "boxDescription": "Hurricane Shelters",
+                        "boxStyle": "background:#6693c2; border-radius: 15px; border: 1px solid #a2d0ce",
+                        "imageUrl": null
+                    },
+                    "item8": {
+                        "boxDescription": "HC Accessible Shelters",
+                        "boxStyle": "background:#0e5198; border-radius: 15px; border: 1px solid #a2d0ce",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Open Data",
+                "sourceURL": "https://data.cityofnewyork.us/",
+                "type": "doubleColumn"
+            },
+            "menuSection": "LandUse3",
+            "mouseoverName": "Hurricane Evacuation Zones",
+            "order": 0,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Neighborhood Tabulation Areas": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Neighborhood Tabulation Areas",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_NTAs"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Neighborhood Tabulation Areas'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_NTAs"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": " Neighborhood Tabulation Areas (NTAs) were created to project populations at a small area level, from 2000 to 2030 for PlaNYC, the long-term sustainability plan for New York City. ",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Neighborhood Tabulation Areas",
+                        "boxStyle": "background:#1dbfcd",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse3",
+            "mouseoverName": "Neighborhood Tabulation Areas",
+            "order": 0,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Public Use Microdata Areas": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Public Use Microdata Areas",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_PublicUseMicrodataAreas"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Public Use Microdata Areas'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_PublicUseMicrodataAreas"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "The 2010 NYC Public Use Microdata Areas (PUMAs) are statistical geographic areas defined for the dissemination of Public Use Microdata Sample (PUMS) data.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Public Use Microdata Areas",
+                        "boxStyle": "background:#346eca",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse3",
+            "mouseoverName": "Public Use Microdata Areas",
+            "order": 0,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Waterfront Access Plan": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Waterfront Access Plan",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_WAP"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Waterfront Access Plan Zoning Overlay'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_WAP"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "A waterfront access plan is a detailed framework set forth in the Zoning Resolution, that tailors waterfront bulk regulations and public access requirements to the specific conditions of a particular waterfront. Development of individual waterfront parcels governed by the plan trig­gers a requirement to build and maintain public access areas in accordance with the WAP.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Waterfront Access Plan (WAP)",
+                        "boxStyle": "background:#00cfb9",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse2",
+            "mouseoverName": "Waterfront Access Plan",
+            "order": 9,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Waterfront Areas": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Waterfront Ares",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_WP"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_PAWS"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Waterfront Areas'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_WP"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_PAWS"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "A waterfront area is the geographical area adjacent to a body of water at least 100 feet wide, comprising all blocks between the pierhead line and a parallel line 800 feet landward from the shoreline. Blocks within the waterfront area are subject to waterfront zoning regulations.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Waterfront Parks (WP)",
+                        "boxStyle": "background:#b097ff",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Publicly Accessible Waterfront Spaces (PAWS)",
+                        "boxStyle": "background:#fd5ece",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "CityInfo1",
+            "mouseoverName": "Waterfront Areas",
+            "order": 2,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Property Use Types (GS)": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Proerty Use Types",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "mappluto"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Property Use Types"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "mappluto"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Property use types",
+                "listItemsLeft": {
+                    "item1": {
+                        "boxDescription": "One & Two Family",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Multi-Family Walk-up",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Multi-family Elevator",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "Mixed Residential & Commercial",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "Commercial & Office",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item6": {
+                        "boxDescription": "Industrial & Manufacturing",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item7": {
+                        "boxDescription": "Transportation & Utility",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item8": {
+                        "boxDescription": "Public Facilities & Institutions",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item9": {
+                        "boxDescription": "Open Space & Outdoor Recreation",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item10": {
+                        "boxDescription": "Parking Facilities",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    },
+                    "item11": {
+                        "boxDescription": "Vacant Land",
+                        "boxStyle": "background:#1bf198",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "doubleColumn"
+            },
+            "menuSection": "",
+            "mouseoverName": "Property Use Types",
+            "order": 2,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png"
+        },
+        "Empowerment Zones": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Empowerment Zones",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_EmpowermentZones"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Empowerment Zones'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_EmpowermentZones"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Businesses that qualify and operate in one of two New York City Empowerment Zones (South Bronx or Upper Manhattan) may be eligible for an employer wage credit for increased depreciation tax deductions.",
+               "listItemsLeft": {
+                    "item1": {
+                        "boxDescription": "South Bronx 1",
+                        "boxStyle": "background:#eb9889",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "South Bronx 2",
+                        "boxStyle": "background:#b3ca4c",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "South Bronx 4",
+                        "boxStyle": "background:#895372",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "South Bronx 5",
+                        "boxStyle": "background:#7765d1",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item5": {
+                        "boxDescription": "Upper Manhattan 9",
+                        "boxStyle": "background:#8ddea8",
+                        "imageUrl": null
+                    },
+                    "item6": {
+                        "boxDescription": "Upper Manhattan 10",
+                        "boxStyle": "background:#4cc5b1",
+                        "imageUrl": null
+                    },
+                    "item7": {
+                        "boxDescription": "Upper Manhattan 11",
+                        "boxStyle": "background:#9fbf7f",
+                        "imageUrl": null
+                    },
+                    "item8": {
+                        "boxDescription": "Upper Manhattan 12",
+                        "boxStyle": "background:#d53e4f",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Open Data",
+                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "type": "doubleColumn"
+            },
+            "menuSection": "Incentives1",
+            "mouseoverName": "Empowerment Zones",
+            "order": 3,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Fresh Food Stores Zoning": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Fresh Food Stores Zoning",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_FreshFoodStoresZoning"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Fresh Food Stores Zoning'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_FreshFoodStoresZoning"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "A FRESH food store is a full-line grocery store, established in underserved neighborhoods through zoning incentives, that promotes the sale of fresh food products.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Descretionary Tax Incentives",
+                        "boxStyle": "background:#fbc709",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Zoning & Disretionary Tax Incentives",
+                        "boxStyle": "background:#fb9709",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Zoning Incentives",
+                        "boxStyle": "background:#fb5a09",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "Incentives1",
+            "mouseoverName": "Fresh Food Stores Zoning",
+            "order": 4,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "NYCHA Community Engagement & Partnership Zones": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "NYCHA Community Engagement & Partnership Zones",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_NYCHA"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: NYCHA Community Engagement & Partnership Zones'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_NYCHA"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "A FRESH food store is a full-line grocery store, established in underserved neighborhoods through zoning incentives, that promotes the sale of fresh food products.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "NYCHA Zones",
+                        "boxStyle": "background:#ec5c64",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "Incentives1",
+            "mouseoverName": "NYCHA Community Engagement & Partnership Zones",
+            "order": 5,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Transit Zones": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Transit Zones",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_TransitZones"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Transit Zones'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_TransitZones"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Transit Zones are areas where special parking provisions apply. The boundaries are mapped to encompass neighborhoods that are dense, proximate to public transportation options, and where car ownership rates are lowest.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Transit Zomes",
+                        "boxStyle": "background:#d5cd5c",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse2",
+            "mouseoverName": "Transit Zones",
+            "order": 8,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Community Parks Initiative Zones": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Community Parks Initiative Zones",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_CommunityParksInitiative"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Community Parks Initiative Zones'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_CommunityParksInitiative"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Community Parks Initiative Zones are neighborhoods where NYC Parks will pursue a combination of capital investment and/or targeted physical improvements, enhanced programming, and public outreach efforts through the Community Parks Initiative launched in 2014.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Community Parks Initiative Zones",
+                        "boxStyle": "background:#99c93b",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Open Data",
+                "sourceURL": "https://data.cityofnewyork.us/",
+                "type": "singleColumn"
+            },
+            "menuSection": "Incentives1",
+            "mouseoverName": "Community Parks Initiative Zones",
+            "order": 2,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "NYC Subway System": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "NYC Subway System",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SubwayRoutes"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SubwayEntrances"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func3": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SubwayStations"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: NYC Subway System'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SubwayRoutes"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SubwayEntrances"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func3": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SubwayStations"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "New York City Subway lines, stations & entrances.",
+                "listItemsLeft": {
+                    "item00": {
+                        "boxDescription": "Routes 1, 2 & 3",
+                        "boxStyle": "background:#ff0000",
+                        "imageUrl": null
+                    },
+                    "item01": {
+                        "boxDescription": "Routes B, D, F & M",
+                        "boxStyle": "background:#fdae61",
+                        "imageUrl": null
+                    },
+                    "item02": {
+                        "boxDescription": "Routes 4, 5 & 6",
+                        "boxStyle": "background:#19aa83",
+                        "imageUrl": null
+                    },
+                    "item03": {
+                        "boxDescription": "Route GS",
+                        "boxStyle": "background:#6cbe45",
+                        "imageUrl": null
+                    },
+                    "item04": {
+                        "boxDescription": "Routes A, C & E",
+                        "boxStyle": "background:#2850ad",
+                        "imageUrl": null
+                    },
+                    "item05": {
+                        "boxDescription": "Route 7",
+                        "boxStyle": "background:#b933ad",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item06": {
+                        "boxDescription": "Routes J & Z",
+                        "boxStyle": "background:#896d46",
+                        "imageUrl": null
+                    },
+                    "item07": {
+                        "boxDescription": "Route L",
+                        "boxStyle": "background:#a7a9ac",
+                        "imageUrl": null
+                    },
+                    "item08": {
+                        "boxDescription": "Routes N, Q & R",
+                        "boxStyle": "background:#f8e701",
+                        "imageUrl": null
+                    },
+                    "item09": {
+                        "boxDescription": "Route SI",
+                        "boxStyle": "background:#808183",
+                        "imageUrl": null
+                    },
+                    "item091": {
+                        "boxDescription": "Subway Stations",
+                        "boxStyle": "background:#000000; border-radius: 15px; border: 1px solid #ffffff",
+                        "imageUrl": null
+                    },
+                    "item092": {
+                        "boxDescription": "Subway Entrances",
+                        "boxStyle": "background:#dbdee1; border: 1px solid #555555",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "The Newman Library",
+                "sourceURL": "https://www.baruch.cuny.edu/confluence/display/geoportal/NYC+Mass+Transit+Spatial+Layers",
+                "type": "doubleColumn"
+            },
+            "menuSection": "CityInfo2",
+            "mouseoverName": "NYC Subway System",
+            "order": 2,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Zoning Districts": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Zoning",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_Zoning"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Zoning Districts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_Zoning"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Zoning District are residential, commercial or manufac­turing areas of the city within which zoning regulations govern land use and building bulk.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Battery Park City District",
+                        "boxStyle": "background:#ee4731",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Commercial Districts",
+                        "boxStyle": "background:#fadd57",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Mixed Use Districts",
+                        "boxStyle": "background:#f68c9d",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "Parks",
+                        "boxStyle": "background:#93d08d",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "Residential Districts",
+                        "boxStyle": "background:#6f94f7",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse1",
+            "mouseoverName": "Zoning Districts",
+            "order": 1,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        }
+    },
+    "allTheSections": {
+        "CityInfo1": {
+            "order": 0,
+            "parentTab": "CityInfo",
+            "permissions": null,
+            "redact": false,
+            "title": "Geography"
+        },
+        "CityInfo2": {
+            "order": 0,
+            "parentTab": "CityInfo",
+            "permissions": null,
+            "redact": false,
+            "title": "Amenities"
+        },
+        "Development1": {
+            "order": 0,
+            "parentTab": "Development",
+            "permissions": null,
+            "redact": false,
+            "title": "Leasing"
+        },
+        "Development2": {
+            "order": 0,
+            "parentTab": "Development",
+            "permissions": null,
+            "redact": false,
+            "title": "Development"
+        },
+        "Development3": {
+            "order": 0,
+            "parentTab": "Development",
+            "permissions": null,
+            "redact": false,
+            "title": "Demographics"
+        },
+        "Incentives1": {
+            "order": 0,
+            "parentTab": "Incentives",
+            "permissions": null,
+            "redact": false,
+            "title": "Incentives"
+        },
+        "LandUse1": {
+            "order": 0,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Land Use & Entitlement"
+        },
+        "LandUse2": {
+            "order": 1,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Overlay Zones"
+        },
+        "LandUse3": {
+            "order": 2,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Planning"
+        },
+        "LandUse4": {
+            "order": 3,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Historic Districts"
+        },
+        "LandUse5": {
+            "order": 4,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Heatmaps"
+        },
+        "LandUse6": {
+            "order": 4,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Natural Hazards"
+        },
+        "Pivitol1": {
+            "order": 4,
+            "parentTab": "Pivitol",
+            "permissions": "Pivitol",
+            "redact": false,
+            "title": "Pivitol"
+        }
+    },
+    "allTheTabs": {
+        "CityInfo": {
+            "isActive": false,
+            "order": 2,
+            "permissions": null,
+            "redact": false,
+            "title": "City Info"
+        },
+        "Development": {
+            "isActive": false,
+            "order": 1,
+            "permissions": null,
+            "redact": false,
+            "title": "Development"
+        },
+        "Incentives": {
+            "isActive": false,
+            "order": 3,
+            "permissions": null,
+            "redact": false,
+            "title": "Incentives"
+        },
+        "LandUse": {
+            "isActive": true,
+            "order": 0,
+            "permissions": null,
+            "redact": false,
+            "title": "Land Use"
+        },
+        "Pivitol": {
+            "isActive": false,
+            "order": 0,
+            "permissions": null,
+            "redact": false,
+            "title": "Pivitol"
+        }
+    }
+}
