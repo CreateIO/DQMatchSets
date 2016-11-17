@@ -4,7 +4,7 @@
     {
       "name": "New York City",
       "regionTag": "US36_51000",
-      "filterTemplate": "filters_021216",
+      "filterTemplate": "filters",
       "layerMenuTemplate": "layer_menu_021216",
       "layerMapCodeTemplate": "layer_map_code_021216",
       "infoboxTemplate": "infobox_021216",
