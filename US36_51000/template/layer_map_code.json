@@ -266,6 +266,44 @@
                 "exists": false
             }
         },
+        "ny_Parks": {
+            "name": "ny_Parks",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_Parks",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_Parks@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.0192642211914,
+                    "yMin": 40.5594863891602,
+                    "xMax": -73.7002410888672,
+                    "yMax": 40.8073120117188
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
         "ny_BID": {
             "name": "ny_BID",
             "removeName": null,
