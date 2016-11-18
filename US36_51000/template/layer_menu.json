@@ -1960,8 +1960,6 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
-
-
         "DOT Bike Data": {
             "category": "6",
             "denyList": {
@@ -2064,6 +2062,10 @@
                         "imageUrl": null
                     }
                 },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
             "menuSection": "CityInfo2",
             "mouseoverName": "DOT Bike Data",
             "order": 3,
@@ -2071,9 +2073,6 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
-
-
-
         "Zoning Districts": {
             "category": "6",
             "denyList": {
