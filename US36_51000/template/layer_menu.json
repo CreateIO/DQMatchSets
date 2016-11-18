@@ -1960,6 +1960,130 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
+
+
+        "DOT Bike Data": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "DOT Bike Data",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BikeStations"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BikeStations"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func3": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BikeShelters"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func4": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BikeRacks"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: DOT Bike Data'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BikeStations"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BikeStations"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func3": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BikeShelters"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func4": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BikeRacks"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "DOT Bike data.",
+                "listItems": {
+                    "item00": {
+                        "boxDescription": "Bike Racks",
+                        "boxStyle": "background:#ff0000",
+                        "imageUrl": null
+                    },
+                    "item01": {
+                        "boxDescription": "Bike Stations",
+                        "boxStyle": "background:#fdae61",
+                        "imageUrl": null
+                    },
+                    "item02": {
+                        "boxDescription": "Bike Shelters",
+                        "boxStyle": "background:#19aa83",
+                        "imageUrl": null
+                    },
+                    "item03": {
+                        "boxDescription": "Bike Routes",
+                        "boxStyle": "background:#6cbe45",
+                        "imageUrl": null
+                    },
+                    "item04": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#2850ad",
+                        "imageUrl": null
+                    },
+                    "item05": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#b933ad",
+                        "imageUrl": null
+                    }
+                },
+            "menuSection": "CityInfo2",
+            "mouseoverName": "DOT Bike Data",
+            "order": 3,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+
+
+
         "Zoning Districts": {
             "category": "6",
             "denyList": {
