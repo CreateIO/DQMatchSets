@@ -1410,7 +1410,7 @@
             }
         },
       "ny_BikeRoutes": {
-            "name": "ny_BikeStations",
+            "name": "ny_BikeRoutes",
             "removeName": null,
             "url": null,
             "cartographic": false,
@@ -1424,8 +1424,8 @@
                 "exists": false
             },
             "tms": {
-                "tmsLayerName": "ny_BikeStations",
-                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_BikeStations@EPSG:900913@png",
+                "tmsLayerName": "ny_BikeRoutes",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_BikeRoutes@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.1826171875,
@@ -1447,7 +1447,6 @@
                 "exists": false
             }
         },
-
         "ny_Zoning": {
             "name": "ny_Zoning",
             "removeName": null,
