@@ -9,6 +9,8 @@
         {
           "title": "Street View",
           "collapsible": true,
+          "printWidth": "half",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -19,6 +21,8 @@
         {
           "title": "Details",
           "collapsible": true,
+          "printWidth": "half",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -326,6 +330,8 @@
         {
           "title": "Building",
           "collapsible": true,
+          "printWidth": "half",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -438,6 +444,8 @@
         {
           "title": "Assessments",
           "collapsible": true,
+          "printWidth": "half",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -505,6 +513,8 @@
         {
           "title": "Residential Details",
           "collapsible": true,
+          "printWidth": "half",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -4162,7 +4172,9 @@
         {
           "title": "Economy",
           "collapsible": true,
+          "printWidth": "half",
           "restrict": "lhs.economy",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -4241,7 +4253,9 @@
         {
           "title": "National Economy",
           "collapsible": true,
+          "printWidth": "half",
           "restrict": "lhs.economy",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -4307,7 +4321,9 @@
         {
           "title": "Economy",
           "collapsible": false,
+          "printWidth": "full",
           "restrict": "inhouseDemog",
+          "medium": "screen",
           "type": "subsection",
           "children": [
             {
@@ -4347,7 +4363,9 @@
         {
           "title": "Benchmark Rates",
           "collapsible": true,
+          "printWidth": "half",
           "restrict": "lhs.financing",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -4517,7 +4535,9 @@
         {
           "title": "Senior & Subordinate Lending Spreads",
           "collapsible": true,
+          "printWidth": "half",
           "restrict": "esriDemog",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -4717,7 +4737,9 @@
         {
           "title": "10-Year Fixed Rate Ranges by Asset Class",
           "collapsible": true,
+          "printWidth": "half",
           "restrict": "esriDemog",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -4956,7 +4978,9 @@
         {
           "title": "JV Equity: Multifamily",
           "collapsible": true,
+          "printWidth": "half",
           "restrict": "lhs.equity",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -5008,7 +5032,9 @@
         {
           "title": "JV Equity: Multifamily (Light Value Add)",
           "collapsible": true,
+          "printWidth": "half",
           "restrict": "lhs.equity",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -5104,7 +5130,9 @@
         {
           "title": "JV Equity: Multifamily (Value Add)",
           "collapsible": true,
+          "printWidth": "half",
           "restrict": "lhs.equity",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -5156,7 +5184,9 @@
         {
           "title": "JV Equity: Office (Suburban)",
           "collapsible": true,
+          "printWidth": "half",
           "restrict": "lhs.equity",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
