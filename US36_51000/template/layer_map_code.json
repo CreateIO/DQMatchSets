@@ -1102,14 +1102,82 @@
                 "exists": false
             }
         },
-
-
-
-
-
-
-
-        
+        "ny_NYS_Railline": {
+            "name": "ny_NYS_Railline",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_NYS_Railline",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_NYS_Railline@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.2034454345703,
+                    "yMin": 40.5854988098145,
+                    "xMax": -73.3320846557617,
+                    "yMax": 41.2045249938965
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_NYS_Stations": {
+            "name": "ny_NYS_Stations",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_NYS_Stations",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_NYS_Stations@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.1575546264648,
+                    "yMin": 40.586181640625,
+                    "xMax": -73.3557891845703,
+                    "yMax": 41.19287109375
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
         "ny_SubwayRoutes": {
             "name": "ny_SubwayRoutes",
             "removeName": null,

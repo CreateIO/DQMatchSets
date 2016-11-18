@@ -1639,7 +1639,7 @@
                         "imageUrl": null
                     },
                     "item02": {
-                        "boxDescription": "Main Line & Port Jervis",
+                        "boxDescription": "Main Line (ML) & Port Jervis",
                         "boxStyle": "background:#fecd31",
                         "imageUrl": null
                     },
@@ -1649,12 +1649,12 @@
                         "imageUrl": null
                     },
                     "item04": {
-                        "boxDescription": "Morristown Line",
+                        "boxDescription": "Morris & Essex via Gladstone Line (M&E)",
                         "boxStyle": "background:#1aa757",
                         "imageUrl": null
                     },
                     "item05": {
-                        "boxDescription": "Gladstone Line",
+                        "boxDescription": "Morris & Essex via Morristown Line (M&E)",
                         "boxStyle": "background:#a3d3b5",
                         "imageUrl": null
                     }
@@ -1676,18 +1676,13 @@
                         "imageUrl": null
                     },
                     "item09": {
-                        "boxDescription": "Hudson-Bergen Light Rail (HBLR)",
+                        "boxDescription": "Light Rail",
                         "boxStyle": "background:#000000",
                         "imageUrl": null
                     },
                     "item091": {
-                        "boxDescription": "Newark Light Rail (NLR)",
-                        "boxStyle": "background:#000000;",
-                        "imageUrl": null
-                    },
-                    "item092": {
-                        "boxDescription": "River Line (RL)",
-                        "boxStyle": "background:#000000;",
+                        "boxDescription": "Stations",
+                        "boxStyle": "background:#000000; border-radius: 15px; border: 1px solid #ffffff",
                         "imageUrl": null
                     }
                 },
@@ -1696,17 +1691,134 @@
                 "type": "doubleColumn"
             },
             "menuSection": "CityInfo2",
-            "mouseoverName": "NJT System",
+            "mouseoverName": "NJT Commuter Rail System",
             "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
-
-
-
-
-
+        "NYS Commuter Rail": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "NYS Commuter Rail",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_NYS_Railline"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_NYS_Stations"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: NYS Commuter Rail'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_NYS_Railline"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_NYS_Stations"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "New York System commuter rail lines & stations.",
+                "listItemsLeft": {
+                    "item00": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#9e278c",
+                        "imageUrl": null
+                    },
+                    "item01": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#bccbe1",
+                        "imageUrl": null
+                    },
+                    "item02": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#fecd31",
+                        "imageUrl": null
+                    },
+                    "item03": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#e46c60",
+                        "imageUrl": null
+                    },
+                    "item04": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#1aa757",
+                        "imageUrl": null
+                    },
+                    "item05": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#a3d3b5",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item06": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#f8a444",
+                        "imageUrl": null
+                    },
+                    "item07": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#ea3b48",
+                        "imageUrl": null
+                    },
+                    "item08": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#1ba6e5",
+                        "imageUrl": null
+                    },
+                    "item09": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#000000",
+                        "imageUrl": null
+                    },
+                    "item091": {
+                        "boxDescription": "Stations",
+                        "boxStyle": "background:#000000; border-radius: 15px; border: 1px solid #ffffff",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "New York State GIS",
+                "sourceURL": "http://gis.ny.gov/gisdata",
+                "type": "doubleColumn"
+            },
+            "menuSection": "CityInfo2",
+            "mouseoverName": "NYS Commuter Rail System",
+            "order": 2,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
         "NYC Subway System": {
             "category": "6",
             "denyList": {
@@ -1843,7 +1955,7 @@
             },
             "menuSection": "CityInfo2",
             "mouseoverName": "NYC Subway System",
-            "order": 2,
+            "order": 3,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
