@@ -1292,8 +1292,11 @@
                 "exists": false
             }
         },
-        "ny_MetroNorthRoutes": {
-            "name": "ny_MetroNorthRoutes",
+
+
+
+        "ny_BikeRacks": {
+            "name": "ny_BikeRacks",
             "removeName": null,
             "url": null,
             "cartographic": false,
@@ -1307,14 +1310,14 @@
                 "exists": false
             },
             "tms": {
-                "tmsLayerName": "ny_MetroNorthRoutes",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_MetroNorthRoutes@EPSG:900913@png",
+                "tmsLayerName": "ny_BikeRacks",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_BikeRacks@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
-                    "xMin": -73.984528,
-                    "yMin": 40.75299799999,
-                    "xMax": -72.921747,
-                    "yMax": 41.814721999999854
+                    "xMin": -74.1221618652344,
+                    "yMin": 40.5610198974609,
+                    "xMax": -73.8028259277344,
+                    "yMax": 40.9098167419434
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
@@ -1330,8 +1333,8 @@
                 "exists": false
             }
         },
-        "ny_MetroNorthStops": {
-            "name": "ny_MetroNorthStops",
+        "ny_BikeShelters": {
+            "name": "ny_BikeShelters",
             "removeName": null,
             "url": null,
             "cartographic": false,
@@ -1345,14 +1348,14 @@
                 "exists": false
             },
             "tms": {
-                "tmsLayerName": "ny_MetroNorthStops",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_MetroNorthStops@EPSG:900913@png",
+                "tmsLayerName": "ny_BikeShelters",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_BikeShelters@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
-                    "xMin": -73.98452800000001,
-                    "yMin": 40.75299799999982,
-                    "xMax": -72.92174700000002,
-                    "yMax": 41.814721999999854
+                    "xMin": -74.169891,
+                    "yMin": 40.560261,
+                    "xMax": -73.824081,
+                    "yMax": 40.865528
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
@@ -1368,8 +1371,8 @@
                 "exists": false
             }
         },
-        "ny_LongIslandRR_Routes": {
-            "name": "ny_LongIslandRR_Routes",
+       "ny_BikeStations": {
+            "name": "ny_BikeStations",
             "removeName": null,
             "url": null,
             "cartographic": false,
@@ -1383,14 +1386,14 @@
                 "exists": false
             },
             "tms": {
-                "tmsLayerName": "ny_LongIslandRR_Routes",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_LongIslandRR_Routes@EPSG:900913@png",
+                "tmsLayerName": "ny_BikeStations",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_BikeStations@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
-                    "xMin": -73.99308741050001,
-                    "yMin": 40.59018166349982,
-                    "xMax": -71.9541238589,
-                    "yMax": 41.09965216909983
+                    "xMin": -74.0719757080078,
+                    "yMin": 40.660343170166,
+                    "xMax": -73.9291763305664,
+                    "yMax": 40.804931640625
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
@@ -1406,8 +1409,8 @@
                 "exists": false
             }
         },
-        "ny_LongIslandRR_Stops": {
-            "name": "ny_LongIslandRR_Stops",
+      "ny_BikeRoutes": {
+            "name": "ny_BikeStations",
             "removeName": null,
             "url": null,
             "cartographic": false,
@@ -1421,14 +1424,14 @@
                 "exists": false
             },
             "tms": {
-                "tmsLayerName": "ny_LongIslandRR_Stops",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_LongIslandRR_Stops@EPSG:900913@png",
+                "tmsLayerName": "ny_BikeStations",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_BikeStations@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
-                    "xMin": 73.99358000000001,
-                    "yMin": 40.590169999999844,
-                    "xMax": -71.95388000000001,
-                    "yMax": 41.099699999999835
+                    "xMin": -74.1826171875,
+                    "yMin": 40.524169921875,
+                    "xMax": -73.7169876098633,
+                    "yMax": 40.9133529663086
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
@@ -1444,6 +1447,7 @@
                 "exists": false
             }
         },
+
         "ny_Zoning": {
             "name": "ny_Zoning",
             "removeName": null,
