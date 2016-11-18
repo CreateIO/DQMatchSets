@@ -1974,7 +1974,7 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_BikeStations"
+                            "param1": "ny_BikeRoutes"
                         },
                         "service": "tileMapServiceService"
                     },
@@ -2009,7 +2009,7 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_BikeStations"
+                            "param1": "ny_BikeRoutes"
                         },
                         "service": "tileMapServiceService"
                     },
@@ -2061,16 +2061,6 @@
                     "item03": {
                         "boxDescription": "Bike Routes",
                         "boxStyle": "background:#6cbe45",
-                        "imageUrl": null
-                    },
-                    "item04": {
-                        "boxDescription": "xxxx",
-                        "boxStyle": "background:#2850ad",
-                        "imageUrl": null
-                    },
-                    "item05": {
-                        "boxDescription": "xxxx",
-                        "boxStyle": "background:#b933ad",
                         "imageUrl": null
                     }
                 },
