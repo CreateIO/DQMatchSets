@@ -1359,7 +1359,7 @@
         "dc_ZoningLabelPoints":{
             "referenceid":"objectid",
             "propertyid":"objectid",
-            "offset":157,
+            "offset":25,
             "fieldtype":"business",
             "photos":{
                 "active":false,
