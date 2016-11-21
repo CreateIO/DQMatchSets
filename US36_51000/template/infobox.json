@@ -92,7 +92,7 @@
                 },
                 "field5":{
                     "value":"cont_title",
-                    "display":"Titlel: ",
+                    "display":"Title: ",
                     "fieldtype":"text",
                     "units":null
                 },
