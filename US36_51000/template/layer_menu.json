@@ -2043,22 +2043,22 @@
                 "listItems": {
                     "item00": {
                         "boxDescription": "Bike Racks",
-                        "boxStyle": "background:#ff0000",
+                        "boxStyle": "background:#e8d328",
                         "imageUrl": null
                     },
                     "item01": {
                         "boxDescription": "Bike Stations",
-                        "boxStyle": "background:#fdae61",
+                        "boxStyle": "background:#147cac",
                         "imageUrl": null
                     },
                     "item02": {
                         "boxDescription": "Bike Shelters",
-                        "boxStyle": "background:#19aa83",
+                        "boxStyle": "background:#f8a444",
                         "imageUrl": null
                     },
                     "item03": {
                         "boxDescription": "Bike Routes",
-                        "boxStyle": "background:#6cbe45",
+                        "boxStyle": "background:#e8d328",
                         "imageUrl": null
                     }
                 },
