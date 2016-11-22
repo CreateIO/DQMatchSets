@@ -1357,9 +1357,9 @@
             }
         },
         "dc_ZoningLabelPoints":{
-            "referenceid":"OBJECTID",
-            "propertyid":"OBJECTID",
-            "offset":157,
+            "referenceid":"objectid",
+            "propertyid":"objectid",
+            "offset":115,
             "fieldtype":"business",
             "photos":{
                 "active":false,
@@ -1371,11 +1371,11 @@
             },
             "viewDetailsBox":false,
             "wdcepDetailsBox":false,
-            "header":"ZONING_LAB + ZONE_DISTR",
+            "header":"zoning_lab + zone_distr",
             "streetView": false,
             "boxValues":{
                 "field1":{
-                    "value":"ZONE_DESCR",
+                    "value":"zone_descr",
                     "display":"Description: ",
                     "fieldtype":"text",
                     "units":null
