@@ -1972,25 +1972,18 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_BikeRoutes"
+                            "param1": "ny_BikeStations"
                         },
                         "service": "tileMapServiceService"
                     },
                     "func2": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_BikeStations"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func3": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
                             "param1": "ny_BikeShelters"
                         },
                         "service": "tileMapServiceService"
                     },
-                    "func4": {
+                    "func3": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
                             "param1": "ny_BikeRacks"
@@ -2007,25 +2000,18 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_BikeRoutes"
+                            "param1": "ny_BikeStations"
                         },
                         "service": "tileMapServiceService"
                     },
                     "func2": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_BikeStations"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func3": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
                             "param1": "ny_BikeShelters"
                         },
                         "service": "tileMapServiceService"
                     },
-                    "func4": {
+                    "func3": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
                             "param1": "ny_BikeRacks"
@@ -2054,11 +2040,6 @@
                     "item02": {
                         "boxDescription": "Bike Shelters",
                         "boxStyle": "background:#f8a444",
-                        "imageUrl": null
-                    },
-                    "item03": {
-                        "boxDescription": "Bike Routes",
-                        "boxStyle": "background:#e8d328",
                         "imageUrl": null
                     }
                 },
@@ -2113,18 +2094,18 @@
                 "description": "Zoning District are residential, commercial or manufac­turing areas of the city within which zoning regulations govern land use and building bulk.",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Battery Park City District",
+                        "boxDescription": "Battery Park City District (BPC)",
                         "boxStyle": "background:#ee4731",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "Commercial Districts",
+                        "boxDescription": "Commercial Districts (C)",
                         "boxStyle": "background:#fadd57",
                         "imageUrl": null
                     },
                     "item3": {
-                        "boxDescription": "Mixed Use Districts",
-                        "boxStyle": "background:#f68c9d",
+                        "boxDescription": "Mixed Use Districts (M)",
+                        "boxStyle": "background:#f2a56c",
                         "imageUrl": null
                     },
                     "item4": {
@@ -2133,7 +2114,7 @@
                         "imageUrl": null
                     },
                     "item5": {
-                        "boxDescription": "Residential Districts",
+                        "boxDescription": "Residential Districts (R)",
                         "boxStyle": "background:#6f94f7",
                         "imageUrl": null
                     }
