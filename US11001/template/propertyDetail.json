@@ -37,7 +37,7 @@
             {
               "size": "quarter",
               "value": {
-                "value": "#/esriData"
+                "value": "#/property/ssl"
               },
               "style": "default",
               "type": "keyvalue",
