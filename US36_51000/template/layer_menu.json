@@ -1972,21 +1972,21 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_BikeStations"
+                            "param1": "ny_BikeRacks"
                         },
                         "service": "tileMapServiceService"
                     },
                     "func2": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_BikeShelters"
+                            "param1": "ny_BikeStations"
                         },
                         "service": "tileMapServiceService"
                     },
                     "func3": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_BikeRacks"
+                            "param1": "ny_BikeShelters"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -2000,21 +2000,21 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_BikeStations"
+                            "param1": "ny_BikeRacks"
                         },
                         "service": "tileMapServiceService"
                     },
                     "func2": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_BikeShelters"
+                            "param1": "ny_BikeStations"
                         },
                         "service": "tileMapServiceService"
                     },
                     "func3": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_BikeRacks"
+                            "param1": "ny_BikeShelters"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -2025,21 +2025,21 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "DOT Bike data.",
+                "description": "Bike Parking Data",
                 "listItems": {
                     "item00": {
-                        "boxDescription": "Bike Racks",
-                        "boxStyle": "background:#e8d328",
+                        "boxDescription": "Bike Shelters (with covered parking for 8 bikes)",
+                        "boxStyle": "background:#f8a444",
                         "imageUrl": null
                     },
                     "item01": {
-                        "boxDescription": "Bike Stations",
+                        "boxDescription": "CityBike Stations",
                         "boxStyle": "background:#147cac",
                         "imageUrl": null
                     },
                     "item02": {
-                        "boxDescription": "Bike Shelters",
-                        "boxStyle": "background:#f8a444",
+                        "boxDescription": "DOT Bike Racks",
+                        "boxStyle": "background:#1aa757",
                         "imageUrl": null
                     }
                 },
