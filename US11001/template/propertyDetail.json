@@ -28,7 +28,7 @@
             {
               "size": "full",
               "value": {
-                "value": "#/property/bestAddress"
+                "value": "#/esriData"
               },
               "type": "keyvalue",
               "invisible": true,
