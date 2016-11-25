@@ -1972,14 +1972,14 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_BikeRacks"
+                            "param1": ""
                         },
                         "service": "tileMapServiceService"
                     },
                     "func2": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_BikeStations"
+                            "param1": ""
                         },
                         "service": "tileMapServiceService"
                     },
@@ -2000,14 +2000,14 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_BikeRacks"
+                            "param1": ""
                         },
                         "service": "tileMapServiceService"
                     },
                     "func2": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_BikeStations"
+                            "param1": ""
                         },
                         "service": "tileMapServiceService"
                     },
@@ -2029,17 +2029,17 @@
                 "listItems": {
                     "item00": {
                         "boxDescription": "Bike Shelters (with covered parking for 8 bikes)",
-                        "boxStyle": "background:#f8a444",
+                        "boxStyle": "background:#f8a444, border: 1px solid #bd7d36",
                         "imageUrl": null
                     },
                     "item01": {
                         "boxDescription": "CityBike Stations",
-                        "boxStyle": "background:#147cac",
+                        "boxStyle": "background:#1bbfe8, border: 1px solid #0e677d",
                         "imageUrl": null
                     },
                     "item02": {
                         "boxDescription": "DOT Bike Racks",
-                        "boxStyle": "background:#1aa757",
+                        "boxStyle": "background:#22d06d, border: 1px solid #106233",
                         "imageUrl": null
                     }
                 },
