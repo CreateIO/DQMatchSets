@@ -2000,14 +2000,14 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_BikeStations"
+                            "param1": ""
                         },
                         "service": "tileMapServiceService"
                     },
                     "func2": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": ""
+                            "param1": "ny_BikeStations"
                         },
                         "service": "tileMapServiceService"
                     },
