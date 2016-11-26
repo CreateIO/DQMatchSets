@@ -1972,7 +1972,7 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": ""
+                            "param1": "ny_BikeRacks"
                         },
                         "service": "tileMapServiceService"
                     },
@@ -1986,7 +1986,7 @@
                     "func3": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": ""
+                            "param1": "ny_BikeShelters"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -2000,7 +2000,7 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": ""
+                            "param1": "ny_BikeRacks"
                         },
                         "service": "tileMapServiceService"
                     },
@@ -2014,7 +2014,7 @@
                     "func3": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": ""
+                            "param1": "ny_BikeShelters"
                         },
                         "service": "tileMapServiceService"
                     }
