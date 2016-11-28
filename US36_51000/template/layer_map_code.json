@@ -646,8 +646,8 @@
                 "exists": false
             }
         },
-        "ny_HurricaneInnundationZones": {
-            "name": "ny_HurricaneInnundationZones",
+        "ny_HurricaneInundationZones": {
+            "name": "ny_HurricaneInundationZones",
             "removeName": null,
             "url": null,
             "cartographic": false,
@@ -661,8 +661,8 @@
                 "exists": false
             },
             "tms": {
-                "tmsLayerName": "ny_HurricaneInnundationZones",
-                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_HurricaneInnundationZones@EPSG:900913@png",
+                "tmsLayerName": "ny_HurricaneInundationZones",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_HurricaneInundationZones@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.2587475062895,
@@ -726,7 +726,7 @@
         },
 
 
-        
+
         "ny_WP": {
             "name": "ny_WP",
             "removeName": null,
