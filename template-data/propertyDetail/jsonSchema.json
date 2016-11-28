@@ -575,7 +575,8 @@
       }
     },
     "required": ["title", "chartType", "source"],
-    "dynamic": ["source"]
+    "dynamic": ["source"],
+    "nestable": true
   },
   "tab-group": {
     "name": "Tab Group",
