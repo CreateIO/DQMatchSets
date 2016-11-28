@@ -953,9 +953,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse2",
+            "menuSection": "LandUse6",
             "mouseoverName": "Hurricane Innundation Zones - Worst Case",
-            "order": 7,
+            "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
