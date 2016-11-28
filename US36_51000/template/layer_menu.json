@@ -2028,7 +2028,7 @@
                 "description": "Bike Parking Data",
                 "listItems": {
                     "item00": {
-                        "boxDescription": "Bike Shelters (with covered parking for 8 bikes)",
+                        "boxDescription": "Bike Shelters",
                         "boxStyle": "background:#f8a444, border: 1px solid #bd7d36",
                         "imageUrl": null
                     },
