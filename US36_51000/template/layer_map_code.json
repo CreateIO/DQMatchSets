@@ -1321,7 +1321,7 @@
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
-                "minimumLevel": 12,
+                "minimumLevel": 10,
                 "maximumLevel": 20,
                 "alpha": 1,
                 "tmsStyle": "OGC"
