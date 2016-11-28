@@ -3378,7 +3378,145 @@
                       "hAxisTooltipLabel": "Year",
                       "source": {
                         "value": "#/esriData"
-                      }
+                      },
+                      "children": [
+                        {
+                          "seriesName": "total-population-esri0",
+                          "chartKey": "1/4 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "2000",
+                              "value": [
+                                "TOTPOP00",
+                                "buffer0"
+                              ]
+                            },
+                            {
+                              "label": "2010",
+                              "value": [
+                                "TOTPOP10",
+                                "buffer0"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "TOTPOP_CY",
+                                "buffer0"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "TOTPOP_FY",
+                                "buffer0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "seriesName": "total-population-esri1",
+                          "chartKey": "1/2 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "2000",
+                              "value": [
+                                "TOTPOP00",
+                                "buffer1"
+                              ]
+                            },
+                            {
+                              "label": "2010",
+                              "value": [
+                                "TOTPOP10",
+                                "buffer1"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "TOTPOP_CY",
+                                "buffer1"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "TOTPOP_FY",
+                                "buffer1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "seriesName": "total-population-esri2",
+                          "chartKey": "1 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "2000",
+                              "value": [
+                                "TOTPOP00",
+                                "buffer2"
+                              ]
+                            },
+                            {
+                              "label": "2010",
+                              "value": [
+                                "TOTPOP10",
+                                "buffer2"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "TOTPOP_CY",
+                                "buffer2"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "TOTPOP_FY",
+                                "buffer2"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "seriesName": "total-population-esri3",
+                          "chartKey": "3 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "2000",
+                              "value": [
+                                "TOTPOP00",
+                                "buffer3"
+                              ]
+                            },
+                            {
+                              "label": "2010",
+                              "value": [
+                                "TOTPOP10",
+                                "buffer3"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "TOTPOP_CY",
+                                "buffer3"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "TOTPOP_FY",
+                                "buffer3"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
                     },
                     {
                       "twoDimensional": "true",
