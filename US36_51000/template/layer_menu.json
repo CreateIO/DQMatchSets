@@ -897,6 +897,72 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
+
+
+       "Hurricane Innundation Zones - Worst Case": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Hurricane Innundation Zones - Worst Case",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HurricaneWorstCase"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Hurricane Innundation Zones - Worst Case'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HurricaneWorstCase"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Worst case storm surge inundation areas. These are the SLOSH MOM zones.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Sub-Districts",
+                        "boxStyle": "background:#e04c3d",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Special Purpose Districts",
+                        "boxStyle": "background:#ad654d",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse2",
+            "mouseoverName": "Hurricane Innundation Zones - Worst Case",
+            "order": 7,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+
+
+
         "Neighborhood Tabulation Areas": {
             "category": "6",
             "denyList": {
