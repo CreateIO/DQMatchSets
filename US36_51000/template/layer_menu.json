@@ -2026,20 +2026,20 @@
             "layerUsed": true,
             "legendContents": {
                 "description": "New York City Bike Data including city owned racks & shelters & CityBike stations. Zoom in to see storage capacity.",
-                "listLeft": {
+                "listItems": {
                     "item1": {
                         "boxDescription": "Bike Shelters",
-                        "boxStyle": "background:#f8a444; border: 1px solid #bd7d36",
+                        "boxStyle": "background:#f8a444, border: 1px solid #bd7d36",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "Bike Stations",
-                        "boxStyle": "background:#1bbfe8; border: 1px solid #0e677d",
+                        "boxStyle": "background:#1bbfe8, border: 1px solid #0e677d",
                         "imageUrl": null
                     },
                     "item3": {
                         "boxDescription": "Bike Racks",
-                        "boxStyle": "background:#22d06d; border: 1px solid #106233",
+                        "boxStyle": "background:#22d06d, border: 1px solid #106233",
                         "imageUrl": null
                     }
                 },
