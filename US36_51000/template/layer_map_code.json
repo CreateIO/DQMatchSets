@@ -634,7 +634,7 @@
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
-                "minimumLevel": 1,
+                "minimumLevel": 10,
                 "maximumLevel": 20,
                 "alpha": 1,
                 "tmsStyle": "GWC"
@@ -672,7 +672,7 @@
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
-                "minimumLevel": 1,
+                "minimumLevel": 10,
                 "maximumLevel": 20,
                 "alpha": 1,
                 "tmsStyle": "GWC"
