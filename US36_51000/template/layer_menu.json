@@ -897,9 +897,7 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
-
-
-       "Hurricane Inundation Zones": {
+        "Hurricane Inundation Zones": {
             "category": "6",
             "denyList": {
                 "denyList1": null
