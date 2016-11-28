@@ -802,7 +802,7 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_HurricaneInnundationZones"
+                            "param1": "ny_HurricaneInundationZones"
                         },
                         "service": "tileMapServiceService"
                     },
@@ -823,7 +823,7 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_HurricaneInnundationZones"
+                            "param1": "ny_HurricaneInundationZones"
                         },
                         "service": "tileMapServiceService"
                     },
@@ -899,13 +899,13 @@
         },
 
 
-       "Hurricane Innundation Zones": {
+       "Hurricane Inundation Zones": {
             "category": "6",
             "denyList": {
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "Hurricane Innundation Zones",
+            "displayName": "Hurricane Inundation Zones",
             "functions": {
                 "addFunctions": {
                     "func1": {
@@ -918,7 +918,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'NY Data: Hurricane Innundation Zones'"
+                        "param1": "'NY Data: Hurricane Inundation Zones'"
                     }
                 },
                 "removeFunctions": {
@@ -969,7 +969,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "LandUse6",
-            "mouseoverName": "Hurricane Innundation Zones",
+            "mouseoverName": "Hurricane Inundation Zones",
             "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
