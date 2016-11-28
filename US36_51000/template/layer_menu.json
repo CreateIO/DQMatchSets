@@ -2029,17 +2029,17 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Bike Shelters",
-                        "boxStyle": "background:#f8a444, border: 1px solid #bd7d36",
+                        "boxStyle": "background: #f8a444, border: 1px, border-color: #bd7d36",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "CityBike Stations",
-                        "boxStyle": "background:#1bbfe8, border: 1px solid #0e677d",
+                        "boxStyle": "background: #1bbfe8, border: 1px, border-color: #0e677d",
                         "imageUrl": null
                     },
                     "item3": {
                         "boxDescription": "DOT Bike Racks",
-                        "boxStyle": "background:#22d06d, border: 1px solid #106233",
+                        "boxStyle": "background: #22d06d, border: 1px, border-color: #106233",
                         "imageUrl": null
                     }
                 },
