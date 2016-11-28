@@ -899,13 +899,13 @@
         },
 
 
-       "Hurricane Innundation Zones - Worst Case": {
+       "Hurricane Innundation Zones": {
             "category": "6",
             "denyList": {
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "Hurricane Innundation Zones - Worst Case",
+            "displayName": "Hurricane Innundation Zones",
             "functions": {
                 "addFunctions": {
                     "func1": {
@@ -918,7 +918,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'NY Data: Hurricane Innundation Zones - Worst Case'"
+                        "param1": "'NY Data: Hurricane Innundation Zones'"
                     }
                 },
                 "removeFunctions": {
@@ -936,17 +936,32 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Worst case storm surge inundation areas. These are the SLOSH MOM zones.",
+                "description": "Worst case storm surge inundation areas. Hurricane surge inundation is calculated from NOAAs NY3 Sea, Lake and Overland Surges from Hurricanes (SLOSH) basin Maximum of Maximum (MOM) surge height values, representing maximum surge at any given location from category 1 - 4 storms at high tide.",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Sub-Districts",
-                        "boxStyle": "background:#e04c3d",
+                        "boxDescription": "Hurricane Sandy Storm Surge",
+                        "boxStyle": "background:#ffffff; border: 1px solid #fb102c",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "Special Purpose Districts",
-                        "boxStyle": "background:#ad654d",
+                        "boxDescription": "Category 4 Storm",
+                        "boxStyle": "background:#bae4bc",
                         "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Category 3 Storm",
+                        "boxStyle": "background:#7bccc4",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "Category 2 Storm",
+                        "boxStyle": "background:#43a2ca",
+                        "imageUrl": null 
+                    },
+                    "item5": {
+                        "boxDescription": "Category 1 Storm",
+                        "boxStyle": "background:#0868ac",
+                        "imageUrl": null   
                     }
                 },
                 "sourceDescription": "NYC Department of City Planning",
@@ -954,7 +969,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "LandUse6",
-            "mouseoverName": "Hurricane Innundation Zones - Worst Case",
+            "mouseoverName": "Hurricane Innundation Zones",
             "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
