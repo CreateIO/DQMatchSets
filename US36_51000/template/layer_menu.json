@@ -1028,7 +1028,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Zones VE - High Risk: Flooding & Waves",
-                        "boxStyle": "background:#72c4cd",
+                        "boxStyle": "background:#178081",
                         "imageUrl": null
                     },
                     "item2": {
@@ -1038,7 +1038,7 @@
                     },
                     "item3": {
                         "boxDescription": "Zones AO - Moderate Risk of Shallow Flooding",
-                        "boxStyle": "background:#178081",
+                        "boxStyle": "background:#72c4cd",
                         "imageUrl": null  
                     }
                 },
