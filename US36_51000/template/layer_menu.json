@@ -1028,12 +1028,12 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Zones VE - High Risk: Flooding & Waves",
-                        "boxStyle": "background:#3bb3ba",
+                        "boxStyle": "background:#72c4cd",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "Zones AE - High Risk Flooding",
-                        "boxStyle": "background:#72c4cd",
+                        "boxStyle": "background:#3bb3ba",
                         "imageUrl": null
                     },
                     "item3": {
