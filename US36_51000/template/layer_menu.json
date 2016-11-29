@@ -1028,12 +1028,12 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "AE",
-                        "boxStyle": "background:#fcc318",
+                        "boxStyle": "background:#e5cce2",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "AO",
-                        "boxStyle": "background:#fcc318",
+                        "boxStyle": "background:#925599",
                         "imageUrl": null
                     },
                     "item3": {
@@ -1048,6 +1048,72 @@
             },
             "menuSection": "LandUse6",
             "mouseoverName": "100-Year Floodplain (2020)",
+            "order": 1,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "500-Year Floodplain (2020)": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "500-Year Floodplain (2020)",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_2020Floodplain500yr"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: 500-Year Floodplain (2020)'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_2020Floodplain500yr"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "The 500-Year Floodplain for the 2020s is based on FEMA's Preliminary Work Map data and the New York Panel on Climate Change's 90th Percentile Projects for Sea-Level Rise (11 inches).",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "AE",
+                        "boxStyle": "background:#72c4cd",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "AO",
+                        "boxStyle": "background:#178081",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "VE",
+                        "boxStyle": "background:#3bb3ba",
+                        "imageUrl": null  
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse6",
+            "mouseoverName": "500-Year Floodplain (2020)",
             "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
