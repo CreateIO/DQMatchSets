@@ -722,7 +722,44 @@
                 "exists": false
             }
         },
-
+        "ny_SandyInundationZones": {
+            "name": "ny_SandyInundationZones",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_SandyInundationZones",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SandyInundationZones@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.2582473754883,
+                    "yMin": 40.4940338134766,
+                    "xMax": -73.7223892211914,
+                    "yMax": 40.917552947998
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
 
 
         "ny_WP": {
