@@ -465,19 +465,22 @@
         "title": "Multi-series",
         "description": "Make chart multi-series.",
         "type": "string",
-        "enum": ["true", "false"]
+        "enum": ["true", "false"],
+        "default": "false"
       },
       "twoDimensional": {
         "title": "Two-dimensional",
         "description": "Make chart two-dimensional.",
         "type": "string",
-        "enum": ["true", "false"]
+        "enum": ["true", "false"],
+        "default": "true"
       },
       "radiobutton": {
         "title": "Radio Button",
         "description": "Enable radio button.",
         "type": "string",
-        "enum": ["true", "false"]
+        "enum": ["true", "false"],
+        "default": "false"
       },
       "panelVariables": {
         "title": "Panel Variables",
@@ -489,13 +492,15 @@
         "title": "Extra Variables",
         "description": "Enable extra variables.",
         "type": "string",
-        "enum": ["true", "false"]
+        "enum": ["true", "false"],
+        "default": "false"
       },
       "topFive": {
         "title": "Top Five",
         "description": "Only show top five metrics.",
         "type": "string",
-        "enum": ["true", "false"]
+        "enum": ["true", "false"],
+        "default": "false"
       },
       "fields": {
         "title": "Fields",
