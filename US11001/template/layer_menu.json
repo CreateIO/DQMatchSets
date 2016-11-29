@@ -54,7 +54,7 @@
             "mouseoverName": "Available Retail Sites (WDCEP)",
             "order": 1,
             "subCategory": "1",
-            "urlLegend": "",
+            "urlLegend": "../../legends/layerLegendRetailSitePoints.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/RSL.png"
         },
         "Business Improvement Districts": {
