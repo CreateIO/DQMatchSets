@@ -9,6 +9,8 @@
         {
           "title": "Street View",
           "collapsible": true,
+          "printWidth": "half",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -19,6 +21,8 @@
         {
           "title": "Details",
           "collapsible": true,
+          "printWidth": "half",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -313,6 +317,11 @@
               "key": "Owner"
             },
             {
+              "title": "Unlock Owner Data",
+              "restrict": "inhouseDemog",
+              "type": "teaser"
+            },
+            {
               "value": "Data Source: DC Government",
               "type": "text"
             }
@@ -321,6 +330,8 @@
         {
           "title": "Building",
           "collapsible": true,
+          "printWidth": "half",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -433,6 +444,8 @@
         {
           "title": "Assessments",
           "collapsible": true,
+          "printWidth": "half",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -500,6 +513,8 @@
         {
           "title": "Residential Details",
           "collapsible": true,
+          "printWidth": "half",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -708,7 +723,9 @@
           "title": "Structure",
           "collapsible": true,
           "type": "subsection",
-          "flags": ["array"],
+          "flags": [
+            "array"
+          ],
           "children": [
             {
               "size": "auto",
@@ -731,8 +748,11 @@
         {
           "title": "Medical Facility Info",
           "collapsible": true,
+          "flags": [
+            "array"
+          ],
+          "medium": "screen",
           "type": "subsection",
-          "flags": ["array"],
           "children": [
             {
               "size": "full",
@@ -821,8 +841,11 @@
         {
           "title": "CBSA Population Growth",
           "collapsible": true,
+          "flags": [
+            "array"
+          ],
+          "medium": "screen",
           "type": "subsection",
-          "flags": ["array"],
           "children": [
             {
               "size": "half",
@@ -868,8 +891,11 @@
         {
           "title": "Revenues",
           "collapsible": true,
+          "flags": [
+            "array"
+          ],
+          "medium": "screen",
           "type": "subsection",
-          "flags": ["array"],
           "children": [
             {
               "size": "full",
@@ -1040,8 +1066,11 @@
         {
           "title": "Case Mix Index",
           "collapsible": true,
+          "flags": [
+            "array"
+          ],
+          "medium": "screen",
           "type": "subsection",
-          "flags": ["array"],
           "children": [
             {
               "size": "quarter",
@@ -1124,8 +1153,11 @@
         {
           "title": "Ratings",
           "collapsible": true,
+          "flags": [
+            "array"
+          ],
+          "medium": "screen",
           "type": "subsection",
-          "flags": ["array"],
           "children": [
             {
               "size": "half",
@@ -1303,8 +1335,11 @@
         {
           "title": "HCAHP Scores",
           "collapsible": true,
+          "flags": [
+            "array"
+          ],
+          "medium": "screen",
           "type": "subsection",
-          "flags": ["array"],
           "children": [
             {
               "size": "half",
@@ -1482,7 +1517,8 @@
         {
           "title": "Tenants",
           "collapsible": true,
-          "restrict": "tenants",
+          "restrict": "",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -1505,6 +1541,7 @@
               },
               "name": "Tenants",
               "itemId": "ig_name",
+              "restrict": "tenants",
               "placeholder": "No tenant data to show.",
               "children": [
                 {
@@ -1606,6 +1643,15 @@
                 }
               ],
               "type": "collection"
+            },
+            {
+              "title": "Unlock Tenant Data",
+              "features": [
+                "Occupancy, expense, and contact details",
+                "Business headcount and sales performance"
+              ],
+              "restrict": "inhouseDemog",
+              "type": "teaser"
             }
           ]
         },
@@ -1710,6 +1756,22 @@
                 "value": "#/zdata/uses"
               },
               "type": "table"
+            }
+          ]
+        },
+        {
+          "title": "Lot Coverage",
+          "collapsible": false,
+          "restrict": "inhouseDemog",
+          "type": "subsection",
+          "children": [
+            {
+              "title": "Unlock Zoning Data",
+              "features": [
+                "Development potential and land use conditions",
+                "Setbacks, occupancy, and parking requirements"
+              ],
+              "type": "teaser"
             }
           ]
         },
@@ -2204,7 +2266,6 @@
             },
             {
               "size": "half",
-              "icon": "train",
               "values": [
                 {
                   "value": "#/property/firstProp/distances/metroName"
@@ -2233,6 +2294,7 @@
               ],
               "style": "default",
               "format": "{0}<br>{1} mi",
+              "icon": "train",
               "type": "keyvalue-complex",
               "link": {},
               "source": {},
@@ -2240,7 +2302,6 @@
             },
             {
               "size": "half",
-              "icon": "train",
               "values": [
                 {
                   "value": "#/property/firstProp/distances/metrobusRoutes"
@@ -2269,6 +2330,7 @@
               ],
               "style": "default",
               "format": "{0}<br>{1} mi",
+              "icon": "train",
               "type": "keyvalue-complex",
               "link": {},
               "source": {},
@@ -2276,7 +2338,6 @@
             },
             {
               "size": "half",
-              "icon": "car",
               "values": [
                 {
                   "value": "#/property/firstProp/distances/zipcarLoc",
@@ -2310,6 +2371,7 @@
               ],
               "style": "default",
               "format": "{0}<br>{1} mi",
+              "icon": "car",
               "type": "keyvalue-complex",
               "link": {},
               "source": {},
@@ -2317,7 +2379,6 @@
             },
             {
               "size": "half",
-              "icon": "bike",
               "values": [
                 {
                   "value": "#/property/firstProp/distances/bikeshareLoc"
@@ -2343,6 +2404,7 @@
               ],
               "style": "default",
               "format": "{0}<br>{1} mi",
+              "icon": "bike",
               "type": "keyvalue-complex",
               "link": {},
               "source": {},
@@ -2437,7 +2499,7 @@
         {
           "title": "Demographics",
           "collapsible": true,
-          "restrict": "esriDemog",
+          "restrict": "",
           "type": "subsection",
           "children": [
             {
@@ -2774,9 +2836,14 @@
                         {
                           "twoDimensional": "false",
                           "mutiSeries2D": "false",
+                          "topFive": "true",
+                          "extraVariables": "true",
                           "vAxisTooltipLabel": "Income Level",
                           "hAxis": "Percent of Households",
+                          "radiobutton": "true",
+                          "multiSeries": "true",
                           "wide": "false",
+                          "panelVariables": false,
                           "vAxis": "Income",
                           "chartType": "HorizontalBar",
                           "title": "Household Income",
@@ -2853,13 +2920,17 @@
                           "source": {
                             "value": "#/property"
                           },
-                          "long": "true"
+                          "long": "true",
+                          "restrict": "esriDemog"
                         },
                         {
                           "twoDimensional": "false",
                           "topFive": "true",
+                          "extraVariables": "true",
+                          "radiobutton": "true",
                           "multiSeries": "false",
                           "wide": "true",
+                          "panelVariables": false,
                           "chartType": "PieChart",
                           "title": "Employment",
                           "fields": [
@@ -2959,18 +3030,20 @@
                           "source": {
                             "value": "#/property"
                           },
-                          "long": "false"
+                          "long": "false",
+                          "restrict": "esriDemog"
                         },
                         {
-                          "type": "chart",
-                          "title": "Educational Attainment (25+)",
-                          "chartType": "PieChart",
-                          "multiSeries": "false",
                           "twoDimensional": "false",
+                          "topFive": "true",
+                          "extraVariables": "true",
                           "hAxis": "Percentage of Population",
-                          "source": {
-                            "value": "#/property"
-                          },
+                          "radiobutton": "true",
+                          "multiSeries": "false",
+                          "wide": "false",
+                          "panelVariables": false,
+                          "chartType": "PieChart",
+                          "title": "Educational Attainment (25+)",
                           "fields": [
                             {
                               "label": "Graduate",
@@ -3021,7 +3094,13 @@
                                 "eduNoHighSchoolPct"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart",
+                          "source": {
+                            "value": "#/property"
+                          },
+                          "long": "false",
+                          "restrict": "esriDemog"
                         }
                       ]
                     },
@@ -3252,22 +3331,17 @@
                 },
                 {
                   "title": "Radius",
+                  "restrict": "esriDemog",
+                  "medium": "screen",
                   "type": "tab",
                   "children": [
                     {
-                      "type": "chart",
-                      "source": {
-                        "value": "#/esriData"
-                      },
-                      "title": "Total Population",
-                      "chartType": "VerticalBar",
-                      "hAxis": "Year",
-                      "vAxis": "Population",
-                      "vAxisTooltipLabel": "Population",
-                      "hAxisTooltipLabel": "Year",
                       "twoDimensional": "false",
-                      "multiSeries": "true",
+                      "vAxisTooltipLabel": "Population",
+                      "hAxis": "Year",
                       "radiobutton": "false",
+                      "multiSeries": "true",
+                      "vAxis": "Population",
                       "series": [
                         {
                           "chartKey": "1/4 Mile Radius",
@@ -3297,51 +3371,160 @@
                           ],
                           "meta": []
                         }
-                      ]
-                    },
-                    {
+                      ],
+                      "chartType": "VerticalBar",
+                      "title": "Total Population",
                       "type": "chart",
+                      "hAxisTooltipLabel": "Year",
                       "source": {
                         "value": "#/esriData"
                       },
-                      "multiSeries": "true",
-                      "twoDimensional": "true",
-                      "chartType": "HorizontalBar",
-                      "title": "Population By Age and Gender",
-                      "percentY": "true",
-                      "hAxis": "Percentage",
-                      "vAxis": "Age",
-                      "extraVariables": "true",
-                      "fields": [
+                      "children": [
                         {
-                          "label": "Population",
-                          "value": [
-                            "TOTPOP_CY",
-                            "buffer0"
+                          "seriesName": "total-population-esri0",
+                          "chartKey": "1/4 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "2000",
+                              "value": [
+                                "TOTPOP00",
+                                "buffer0"
+                              ]
+                            },
+                            {
+                              "label": "2010",
+                              "value": [
+                                "TOTPOP10",
+                                "buffer0"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "TOTPOP_CY",
+                                "buffer0"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "TOTPOP_FY",
+                                "buffer0"
+                              ]
+                            }
                           ]
                         },
                         {
-                          "label": "Population",
-                          "value": [
-                            "TOTPOP_CY",
-                            "buffer1"
+                          "seriesName": "total-population-esri1",
+                          "chartKey": "1/2 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "2000",
+                              "value": [
+                                "TOTPOP00",
+                                "buffer1"
+                              ]
+                            },
+                            {
+                              "label": "2010",
+                              "value": [
+                                "TOTPOP10",
+                                "buffer1"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "TOTPOP_CY",
+                                "buffer1"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "TOTPOP_FY",
+                                "buffer1"
+                              ]
+                            }
                           ]
                         },
                         {
-                          "label": "Population",
-                          "value": [
-                            "TOTPOP_CY",
-                            "buffer2"
+                          "seriesName": "total-population-esri2",
+                          "chartKey": "1 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "2000",
+                              "value": [
+                                "TOTPOP00",
+                                "buffer2"
+                              ]
+                            },
+                            {
+                              "label": "2010",
+                              "value": [
+                                "TOTPOP10",
+                                "buffer2"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "TOTPOP_CY",
+                                "buffer2"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "TOTPOP_FY",
+                                "buffer2"
+                              ]
+                            }
                           ]
                         },
                         {
-                          "label": "Population",
-                          "value": [
-                            "TOTPOP_CY",
-                            "buffer3"
+                          "seriesName": "total-population-esri3",
+                          "chartKey": "3 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "2000",
+                              "value": [
+                                "TOTPOP00",
+                                "buffer3"
+                              ]
+                            },
+                            {
+                              "label": "2010",
+                              "value": [
+                                "TOTPOP10",
+                                "buffer3"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "TOTPOP_CY",
+                                "buffer3"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "TOTPOP_FY",
+                                "buffer3"
+                              ]
+                            }
                           ]
                         }
-                      ],
+                      ]
+                    },
+                    {
+                      "twoDimensional": "true",
+                      "extraVariables": "true",
+                      "hAxis": "Percentage",
+                      "multiSeries": "true",
+                      "percentY": "true",
+                      "vAxis": "Age",
                       "series": [
                         {
                           "chartKey": "1/4 Mile Radius",
@@ -3375,22 +3558,1128 @@
                           ],
                           "meta": []
                         }
-                      ]
-                    },
-                    {
+                      ],
+                      "chartType": "HorizontalBar",
+                      "title": "Population By Age and Gender",
+                      "fields": [
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer3"
+                          ]
+                        }
+                      ],
                       "type": "chart",
                       "source": {
                         "value": "#/esriData"
                       },
-                      "title": "Total Households",
-                      "chartType": "VerticalBar",
+                      "children": [
+                        {
+                          "chartName": "population-age-gender-esri0",
+                          "chartKey": "Male",
+                          "title": "Male Population By Age",
+                          "chartType": "OfficeBarChart",
+                          "negateForHorizontalBar": "true",
+                          "fields": [
+                            {
+                              "label": "85+",
+                              "value": [
+                                "MALE85_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "80 - 84",
+                              "value": [
+                                "MALE80_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "75 - 79",
+                              "value": [
+                                "MALE75_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "70 - 74",
+                              "value": [
+                                "MALE70_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "65 - 70",
+                              "value": [
+                                "MALE65_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "60 - 64",
+                              "value": [
+                                "MALE60_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "55 - 59",
+                              "value": [
+                                "MALE55_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "50 - 54",
+                              "value": [
+                                "MALE50_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "45 - 49",
+                              "value": [
+                                "MALE45_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "40 - 44",
+                              "value": [
+                                "MALE40_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "35 - 39",
+                              "value": [
+                                "MALE35_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "30 - 34",
+                              "value": [
+                                "MALE30_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "25 - 29",
+                              "value": [
+                                "MALE25_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "20 - 24",
+                              "value": [
+                                "MALE20_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "15 - 19",
+                              "value": [
+                                "MALE15_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "10 - 14",
+                              "value": [
+                                "MALE10_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "5 - 9",
+                              "value": [
+                                "MALE5_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "0 - 4",
+                              "value": [
+                                "MALE0_CY",
+                                "calcBuffer0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "seriesName": "population-age-male-esri1",
+                          "chartKey": "Male",
+                          "title": "Male Population By Age",
+                          "chartType": "OfficeBarChart",
+                          "negateForHorizontalBar": "true",
+                          "fields": [
+                            {
+                              "label": "85+",
+                              "value": [
+                                "MALE85_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "80 - 84",
+                              "value": [
+                                "MALE80_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "75 - 79",
+                              "value": [
+                                "MALE75_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "70 - 74",
+                              "value": [
+                                "MALE70_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "65 - 70",
+                              "value": [
+                                "MALE65_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "60 - 64",
+                              "value": [
+                                "MALE60_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "55 - 59",
+                              "value": [
+                                "MALE55_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "50 - 54",
+                              "value": [
+                                "MALE50_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "45 - 49",
+                              "value": [
+                                "MALE45_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "40 - 44",
+                              "value": [
+                                "MALE40_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "35 - 39",
+                              "value": [
+                                "MALE35_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "30 - 34",
+                              "value": [
+                                "MALE30_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "25 - 29",
+                              "value": [
+                                "MALE25_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "20 - 24",
+                              "value": [
+                                "MALE20_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "15 - 19",
+                              "value": [
+                                "MALE15_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "10 - 14",
+                              "value": [
+                                "MALE10_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "5 - 9",
+                              "value": [
+                                "MALE5_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "0 - 4",
+                              "value": [
+                                "MALE0_CY",
+                                "calcBuffer1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "chartName": "population-age-male-esri2",
+                          "chartKey": "Male",
+                          "title": "Male Population By Age",
+                          "chartType": "OfficeBarChart",
+                          "negateForHorizontalBar": "true",
+                          "fields": [
+                            {
+                              "label": "85+",
+                              "value": [
+                                "MALE85_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "80 - 84",
+                              "value": [
+                                "MALE80_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "75 - 79",
+                              "value": [
+                                "MALE75_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "70 - 74",
+                              "value": [
+                                "MALE70_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "65 - 70",
+                              "value": [
+                                "MALE65_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "60 - 64",
+                              "value": [
+                                "MALE60_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "55 - 59",
+                              "value": [
+                                "MALE55_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "50 - 54",
+                              "value": [
+                                "MALE50_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "45 - 49",
+                              "value": [
+                                "MALE45_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "40 - 44",
+                              "value": [
+                                "MALE40_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "35 - 39",
+                              "value": [
+                                "MALE35_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "30 - 34",
+                              "value": [
+                                "MALE30_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "25 - 29",
+                              "value": [
+                                "MALE25_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "20 - 24",
+                              "value": [
+                                "MALE20_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "15 - 19",
+                              "value": [
+                                "MALE15_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "10 - 14",
+                              "value": [
+                                "MALE10_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "5 - 9",
+                              "value": [
+                                "MALE5_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "0 - 4",
+                              "value": [
+                                "MALE0_CY",
+                                "calcBuffer2"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "chartName": "population-age-male-esri3",
+                          "chartKey": "Male",
+                          "title": "Male Population By Age",
+                          "chartType": "OfficeBarChart",
+                          "negateForHorizontalBar": "true",
+                          "fields": [
+                            {
+                              "label": "85+",
+                              "value": [
+                                "MALE85_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "80 - 84",
+                              "value": [
+                                "MALE80_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "75 - 79",
+                              "value": [
+                                "MALE75_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "70 - 74",
+                              "value": [
+                                "MALE70_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "65 - 70",
+                              "value": [
+                                "MALE65_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "60 - 64",
+                              "value": [
+                                "MALE60_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "55 - 59",
+                              "value": [
+                                "MALE55_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "50 - 54",
+                              "value": [
+                                "MALE50_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "45 - 49",
+                              "value": [
+                                "MALE45_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "40 - 44",
+                              "value": [
+                                "MALE40_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "35 - 39",
+                              "value": [
+                                "MALE35_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "30 - 34",
+                              "value": [
+                                "MALE30_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "25 - 29",
+                              "value": [
+                                "MALE25_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "20 - 24",
+                              "value": [
+                                "MALE20_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "15 - 19",
+                              "value": [
+                                "MALE15_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "10 - 14",
+                              "value": [
+                                "MALE10_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "5 - 9",
+                              "value": [
+                                "MALE5_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "0 - 4",
+                              "value": [
+                                "MALE0_CY",
+                                "calcBuffer3"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "chartKey": "Female",
+                          "title": "Female Population By Age",
+                          "chartType": "OfficeBarChart",
+                          "fields": [
+                            {
+                              "label": "85+",
+                              "value": [
+                                "FEM85_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "80 - 84",
+                              "value": [
+                                "FEM80_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "75 - 79",
+                              "value": [
+                                "FEM75_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "70 - 74",
+                              "value": [
+                                "FEM70_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "65 - 70",
+                              "value": [
+                                "FEM65_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "60 - 64",
+                              "value": [
+                                "FEM60_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "55 - 59",
+                              "value": [
+                                "FEM55_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "50 - 54",
+                              "value": [
+                                "FEM50_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "45 - 49",
+                              "value": [
+                                "FEM45_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "40 - 44",
+                              "value": [
+                                "FEM40_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "35 - 39",
+                              "value": [
+                                "FEM35_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "30 - 34",
+                              "value": [
+                                "FEM30_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "25 - 29",
+                              "value": [
+                                "FEM25_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "20 - 24",
+                              "value": [
+                                "FEM20_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "15 - 19",
+                              "value": [
+                                "FEM15_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "10 - 14",
+                              "value": [
+                                "FEM10_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "5 - 9",
+                              "value": [
+                                "FEM5_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "0 - 4",
+                              "value": [
+                                "FEM0_CY",
+                                "calcBuffer0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "chartName": "population-age-gender-esri1",
+                          "chartKey": "Female",
+                          "title": "Female Population By Age",
+                          "chartType": "OfficeBarChart",
+                          "fields": [
+                            {
+                              "label": "85+",
+                              "value": [
+                                "FEM85_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "80 - 84",
+                              "value": [
+                                "FEM80_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "75 - 79",
+                              "value": [
+                                "FEM75_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "70 - 74",
+                              "value": [
+                                "FEM70_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "65 - 70",
+                              "value": [
+                                "FEM65_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "60 - 64",
+                              "value": [
+                                "FEM60_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "55 - 59",
+                              "value": [
+                                "FEM55_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "50 - 54",
+                              "value": [
+                                "FEM50_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "45 - 49",
+                              "value": [
+                                "FEM45_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "40 - 44",
+                              "value": [
+                                "FEM40_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "35 - 39",
+                              "value": [
+                                "FEM35_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "30 - 34",
+                              "value": [
+                                "FEM30_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "25 - 29",
+                              "value": [
+                                "FEM25_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "20 - 24",
+                              "value": [
+                                "FEM20_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "15 - 19",
+                              "value": [
+                                "FEM15_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "10 - 14",
+                              "value": [
+                                "FEM10_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "5 - 9",
+                              "value": [
+                                "FEM5_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "0 - 4",
+                              "value": [
+                                "FEM0_CY",
+                                "calcBuffer1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "chartName": "population-age-gender-esri2",
+                          "chartKey": "Female",
+                          "title": "Female Population By Age",
+                          "chartType": "OfficeBarChart",
+                          "fields": [
+                            {
+                              "label": "85+",
+                              "value": [
+                                "FEM85_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "80 - 84",
+                              "value": [
+                                "FEM80_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "75 - 79",
+                              "value": [
+                                "FEM75_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "70 - 74",
+                              "value": [
+                                "FEM70_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "65 - 70",
+                              "value": [
+                                "FEM65_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "60 - 64",
+                              "value": [
+                                "FEM60_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "55 - 59",
+                              "value": [
+                                "FEM55_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "50 - 54",
+                              "value": [
+                                "FEM50_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "45 - 49",
+                              "value": [
+                                "FEM45_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "40 - 44",
+                              "value": [
+                                "FEM40_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "35 - 39",
+                              "value": [
+                                "FEM35_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "30 - 34",
+                              "value": [
+                                "FEM30_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "25 - 29",
+                              "value": [
+                                "FEM25_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "20 - 24",
+                              "value": [
+                                "FEM20_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "15 - 19",
+                              "value": [
+                                "FEM15_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "10 - 14",
+                              "value": [
+                                "FEM10_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "5 - 9",
+                              "value": [
+                                "FEM5_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "0 - 4",
+                              "value": [
+                                "FEM0_CY",
+                                "calcBuffer2"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "chartName": "population-age-gender-esri3",
+                          "chartKey": "Female",
+                          "title": "Female Population By Age",
+                          "chartType": "OfficeBarChart",
+                          "fields": [
+                            {
+                              "label": "85+",
+                              "value": [
+                                "FEM85_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "80 - 84",
+                              "value": [
+                                "FEM80_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "75 - 79",
+                              "value": [
+                                "FEM75_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "70 - 74",
+                              "value": [
+                                "FEM70_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "65 - 70",
+                              "value": [
+                                "FEM65_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "60 - 64",
+                              "value": [
+                                "FEM60_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "55 - 59",
+                              "value": [
+                                "FEM55_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "50 - 54",
+                              "value": [
+                                "FEM50_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "45 - 49",
+                              "value": [
+                                "FEM45_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "40 - 44",
+                              "value": [
+                                "FEM40_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "35 - 39",
+                              "value": [
+                                "FEM35_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "30 - 34",
+                              "value": [
+                                "FEM30_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "25 - 29",
+                              "value": [
+                                "FEM25_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "20 - 24",
+                              "value": [
+                                "FEM20_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "15 - 19",
+                              "value": [
+                                "FEM15_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "10 - 14",
+                              "value": [
+                                "FEM10_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "5 - 9",
+                              "value": [
+                                "FEM5_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "0 - 4",
+                              "value": [
+                                "FEM0_CY",
+                                "calcBuffer3"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "twoDimensional": "false",
+                      "vAxisTooltipLabel": "Households",
+                      "hAxis": "Year",
+                      "radiobutton": "false",
                       "multiSeries": "true",
                       "vAxis": "Number of Households",
-                      "hAxis": "Year",
-                      "vAxisTooltipLabel": "Households",
-                      "hAxisTooltipLabel": "Year",
-                      "radiobutton": "false",
-                      "twoDimensional": "false",
                       "series": [
                         {
                           "chartKey": "1/4 Mile Radius",
@@ -3420,83 +4709,167 @@
                           ],
                           "meta": []
                         }
-                      ]
-                    },
-                    {
+                      ],
+                      "chartType": "VerticalBar",
+                      "title": "Total Households",
                       "type": "chart",
+                      "hAxisTooltipLabel": "Year",
                       "source": {
                         "value": "#/esriData"
                       },
-                      "title": "Median Household Income",
-                      "twoDimensional": "false",
-                      "multiSeries": "true",
-                      "chartType": "HorizontalBar",
-                      "hAxis": "Percentage of Households",
-                      "hAxisTooltipLabel": "Percent of Households",
-                      "vAxisTooltipLabel": "Income Level",
-                      "vAxis": "Income",
-                      "vAxisDistance": 50,
-                      "containerHeight": 335,
-                      "panelVariables": true,
-                      "extraVariables": "true",
-                      "fields": [
+                      "children": [
                         {
-                          "label": "2015 Med. Household Income",
-                          "value": [
-                            "MEDHINC_CY",
-                            "buffer0"
+                          "title": "Total Households",
+                          "chartKey": "1/4 Mile Radius",
+                          "seriesName": "total-households-esri0",
+                          "fields": [
+                            {
+                              "label": "2000",
+                              "value": [
+                                "TOTHH00",
+                                "buffer0"
+                              ]
+                            },
+                            {
+                              "label": "2010",
+                              "value": [
+                                "TOTHH10",
+                                "buffer0"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "TOTHH_CY",
+                                "buffer0"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "TOTHH_FY",
+                                "buffer0"
+                              ]
+                            }
                           ]
                         },
                         {
-                          "label": "2015 Med. Household Income",
-                          "value": [
-                            "MEDHINC_CY",
-                            "buffer1"
+                          "title": "Total Households",
+                          "chartKey": "1/2 Mile Radius",
+                          "seriesName": "total-households-esri1",
+                          "fields": [
+                            {
+                              "label": "2000",
+                              "value": [
+                                "TOTHH00",
+                                "buffer1"
+                              ]
+                            },
+                            {
+                              "label": "2010",
+                              "value": [
+                                "TOTHH10",
+                                "buffer1"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "TOTHH_CY",
+                                "buffer1"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "TOTHH_FY",
+                                "buffer1"
+                              ]
+                            }
                           ]
                         },
                         {
-                          "label": "2015 Med. Household Income",
-                          "value": [
-                            "MEDHINC_CY",
-                            "buffer2"
+                          "title": "Total Households",
+                          "chartKey": "1 Mile Radius",
+                          "seriesName": "total-households-esri2",
+                          "fields": [
+                            {
+                              "label": "2000",
+                              "value": [
+                                "TOTHH00",
+                                "buffer2"
+                              ]
+                            },
+                            {
+                              "label": "2010",
+                              "value": [
+                                "TOTHH10",
+                                "buffer2"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "TOTHH_CY",
+                                "buffer2"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "TOTHH_FY",
+                                "buffer2"
+                              ]
+                            }
                           ]
                         },
                         {
-                          "label": "2015 Med. Household Income",
-                          "value": [
-                            "MEDHINC_CY",
-                            "buffer3"
-                          ]
-                        },
-                        {
-                          "label": "2020 Med. Household Income",
-                          "value": [
-                            "MEDHINC_FY",
-                            "buffer0"
-                          ]
-                        },
-                        {
-                          "label": "2020 Med. Household Income",
-                          "value": [
-                            "MEDHINC_FY",
-                            "buffer1"
-                          ]
-                        },
-                        {
-                          "label": "2020 Med. Household Income",
-                          "value": [
-                            "MEDHINC_FY",
-                            "buffer2"
-                          ]
-                        },
-                        {
-                          "label": "2020 Med. Household Income",
-                          "value": [
-                            "MEDHINC_FY",
-                            "buffer3"
+                          "title": "Total Households",
+                          "chartKey": "3 Mile Radius",
+                          "seriesName": "total-households-esri3",
+                          "fields": [
+                            {
+                              "label": "2000",
+                              "value": [
+                                "TOTHH00",
+                                "buffer3"
+                              ]
+                            },
+                            {
+                              "label": "2010",
+                              "value": [
+                                "TOTHH10",
+                                "buffer3"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "TOTHH_CY",
+                                "buffer3"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "TOTHH_FY",
+                                "buffer3"
+                              ]
+                            }
                           ]
                         }
-                      ],
+                      ]
+                    },
+                    {
+                      "twoDimensional": "false",
+                      "extraVariables": "true",
+                      "containerHeight": 335,
+                      "vAxisTooltipLabel": "Income Level",
+                      "hAxis": "Percentage of Households",
+                      "vAxisDistance": 50,
+                      "multiSeries": "true",
+                      "panelVariables": true,
+                      "vAxis": "Income",
                       "series": [
                         {
                           "data": [
@@ -3526,51 +4899,341 @@
                           "chartKey": "3 Mile Radius",
                           "meta": []
                         }
-                      ]
-                    },
-                    {
-                      "type": "chart",
-                      "source": {
-                        "value": "#/esriData"
-                      },
-                      "multiSeries": "true",
-                      "twoDimensional": "true",
-                      "title": "Employment Occupation by Industry",
-                      "chartType": "PieChart",
-                      "wide": "true",
-                      "long": "false",
-                      "panelVariables": false,
-                      "extraVariables": "true",
+                      ],
+                      "chartType": "HorizontalBar",
+                      "title": "Median Household Income",
                       "fields": [
                         {
-                          "label": "Population",
+                          "label": "2015 Med. Household Income",
                           "value": [
-                            "TOTPOP_CY",
+                            "MEDHINC_CY",
                             "buffer0"
                           ]
                         },
                         {
-                          "label": "Population",
+                          "label": "2015 Med. Household Income",
                           "value": [
-                            "TOTPOP_CY",
+                            "MEDHINC_CY",
                             "buffer1"
                           ]
                         },
                         {
-                          "label": "Population",
+                          "label": "2015 Med. Household Income",
                           "value": [
-                            "TOTPOP_CY",
+                            "MEDHINC_CY",
                             "buffer2"
                           ]
                         },
                         {
-                          "label": "Population",
+                          "label": "2015 Med. Household Income",
                           "value": [
-                            "TOTPOP_CY",
+                            "MEDHINC_CY",
+                            "buffer3"
+                          ]
+                        },
+                        {
+                          "label": "2020 Med. Household Income",
+                          "value": [
+                            "MEDHINC_FY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "2020 Med. Household Income",
+                          "value": [
+                            "MEDHINC_FY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "2020 Med. Household Income",
+                          "value": [
+                            "MEDHINC_FY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "2020 Med. Household Income",
+                          "value": [
+                            "MEDHINC_FY",
                             "buffer3"
                           ]
                         }
                       ],
+                      "type": "chart",
+                      "hAxisTooltipLabel": "Percent of Households",
+                      "source": {
+                        "value": "#/esriData"
+                      },
+                      "children": [
+                        {
+                          "title": "Median Household Income",
+                          "seriesName": "household-income-esri0",
+                          "chartKey": "1/4 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "$200k+",
+                              "value": [
+                                "HINC200_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "$150k to <$200k",
+                              "value": [
+                                "HINC150_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "$100k to <$150k",
+                              "value": [
+                                "HINC100_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "$75k to <$100k",
+                              "value": [
+                                "HINC75_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "$50k to <$75k",
+                              "value": [
+                                "HINC50_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "$35k to <$50k",
+                              "value": [
+                                "HINC35_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "$25k to <$35k",
+                              "value": [
+                                "HINC25_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "<$25k",
+                              "sum": [
+                                [
+                                  "HINC0_CY",
+                                  "calcBuffer0"
+                                ]
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Median Household Income",
+                          "seriesName": "household-income-esri1",
+                          "chartKey": "1/2 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "$200k+",
+                              "value": [
+                                "HINC200_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "$150k to <$200k",
+                              "value": [
+                                "HINC150_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "$100k to <$150k",
+                              "value": [
+                                "HINC100_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "$75k to <$100k",
+                              "value": [
+                                "HINC75_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "$50k to <$75k",
+                              "value": [
+                                "HINC50_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "$35k to <$50k",
+                              "value": [
+                                "HINC35_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "$25k to <$35k",
+                              "value": [
+                                "HINC25_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "<$25k",
+                              "sum": [
+                                [
+                                  "HINC0_CY",
+                                  "calcBuffer1"
+                                ]
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Median Household Income",
+                          "seriesName": "household-income-esri2",
+                          "chartKey": "1 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "$200k+",
+                              "value": [
+                                "HINC200_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "$150k to <$200k",
+                              "value": [
+                                "HINC150_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "$100k to <$150k",
+                              "value": [
+                                "HINC100_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "$75k to <$100k",
+                              "value": [
+                                "HINC75_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "$50k to <$75k",
+                              "value": [
+                                "HINC50_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "$35k to <$50k",
+                              "value": [
+                                "HINC35_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "$25k to <$35k",
+                              "value": [
+                                "HINC25_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "<$25k",
+                              "sum": [
+                                [
+                                  "HINC0_CY",
+                                  "calcBuffer2"
+                                ]
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Median Household Income",
+                          "seriesName": "household-income-esri3",
+                          "chartKey": "3 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "$200k+",
+                              "value": [
+                                "HINC200_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "$150k to <$200k",
+                              "value": [
+                                "HINC150_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "$100k to <$150k",
+                              "value": [
+                                "HINC100_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "$75k to <$100k",
+                              "value": [
+                                "HINC75_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "$50k to <$75k",
+                              "value": [
+                                "HINC50_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "$35k to <$50k",
+                              "value": [
+                                "HINC35_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "$25k to <$35k",
+                              "value": [
+                                "HINC25_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "<$25k",
+                              "sum": [
+                                [
+                                  "HINC0_CY",
+                                  "calcBuffer3"
+                                ]
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "twoDimensional": "true",
+                      "extraVariables": "true",
+                      "multiSeries": "true",
+                      "wide": "true",
+                      "panelVariables": false,
                       "series": [
                         {
                           "data": [
@@ -3604,20 +5267,9 @@
                           "topFive": "true",
                           "meta": []
                         }
-                      ]
-                    },
-                    {
-                      "type": "chart",
-                      "source": {
-                        "value": "#/esriData"
-                      },
-                      "title": "Educational Attainment (Age 25+)",
+                      ],
                       "chartType": "PieChart",
-                      "multiSeries": "true",
-                      "twoDimensional": "true",
-                      "hAxis": "Percentage of Population",
-                      "extraVariables": "true",
-                      "panelVariables": false,
+                      "title": "Employment Occupation by Industry",
                       "fields": [
                         {
                           "label": "Population",
@@ -3648,6 +5300,412 @@
                           ]
                         }
                       ],
+                      "type": "chart",
+                      "source": {
+                        "value": "#/esriData"
+                      },
+                      "long": "false",
+                      "children": [
+                        {
+                          "seriesName": "employment-occupation-chart-esri0",
+                          "chartKey": "1/4 Mile Radius",
+                          "topFive": "true",
+                          "fields": [
+                            {
+                              "label": "Agriculture",
+                              "value": [
+                                "INDAGRI_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "Construction",
+                              "value": [
+                                "INDCONS_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "Manufacturing",
+                              "value": [
+                                "INDMANU_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "Wholesale Trade",
+                              "value": [
+                                "INDWHTR_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "Retail Trade",
+                              "value": [
+                                "INDRTTR_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "Transport., Utilities",
+                              "value": [
+                                "INDTRAN_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "Information",
+                              "value": [
+                                "INDINFO_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "Finance, Real Estate, Insur.",
+                              "value": [
+                                "INDFIN_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "Professional, Mgmt.",
+                              "value": [
+                                "INDTECH_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "Edu., Health, Social Assist.",
+                              "value": [
+                                "INDEDUC_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "Arts, Entertain., Food Serv.",
+                              "value": [
+                                "INDARTS_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "Other Services",
+                              "value": [
+                                "INDOTSV_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "Public Administration",
+                              "value": [
+                                "INDPUBL_CY",
+                                "calcBuffer0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "seriesName": "employment-occupation-chart-esri1",
+                          "chartKey": "1/2 Mile Radius",
+                          "topFive": "true",
+                          "fields": [
+                            {
+                              "label": "Agriculture",
+                              "value": [
+                                "INDAGRI_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "Construction",
+                              "value": [
+                                "INDCONS_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "Manufacturing",
+                              "value": [
+                                "INDMANU_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "Wholesale Trade",
+                              "value": [
+                                "INDWHTR_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "Retail Trade",
+                              "value": [
+                                "INDRTTR_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "Transport., Utilities",
+                              "value": [
+                                "INDTRAN_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "Information",
+                              "value": [
+                                "INDINFO_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "Finance, Real Estate, Insur.",
+                              "value": [
+                                "INDFIN_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "Professional, Mgmt.",
+                              "value": [
+                                "INDTECH_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "Edu., Health, Social Assist.",
+                              "value": [
+                                "INDEDUC_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "Arts, Entertain., Food Serv.",
+                              "value": [
+                                "INDARTS_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "Other Services",
+                              "value": [
+                                "INDOTSV_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "Public Administration",
+                              "value": [
+                                "INDPUBL_CY",
+                                "calcBuffer1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "seriesName": "employment-occupation-chart-esri2",
+                          "chartKey": "1 Mile Radius",
+                          "topFive": "true",
+                          "fields": [
+                            {
+                              "label": "Agriculture",
+                              "value": [
+                                "INDAGRI_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "Construction",
+                              "value": [
+                                "INDCONS_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "Manufacturing",
+                              "value": [
+                                "INDMANU_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "Wholesale Trade",
+                              "value": [
+                                "INDWHTR_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "Retail Trade",
+                              "value": [
+                                "INDRTTR_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "Transport., Utilities",
+                              "value": [
+                                "INDTRAN_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "Information",
+                              "value": [
+                                "INDINFO_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "Finance, Real Estate, Insur.",
+                              "value": [
+                                "INDFIN_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "Professional, Mgmt.",
+                              "value": [
+                                "INDTECH_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "Edu., Health, Social Assist.",
+                              "value": [
+                                "INDEDUC_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "Arts, Entertain., Food Serv.",
+                              "value": [
+                                "INDARTS_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "Other Services",
+                              "value": [
+                                "INDOTSV_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "Public Administration",
+                              "value": [
+                                "INDPUBL_CY",
+                                "calcBuffer2"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "seriesName": "employment-occupation-chart-esri3",
+                          "chartKey": "3 Mile Radius",
+                          "topFive": "true",
+                          "fields": [
+                            {
+                              "label": "Agriculture",
+                              "value": [
+                                "INDAGRI_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "Construction",
+                              "value": [
+                                "INDCONS_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "Manufacturing",
+                              "value": [
+                                "INDMANU_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "Wholesale Trade",
+                              "value": [
+                                "INDWHTR_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "Retail Trade",
+                              "value": [
+                                "INDRTTR_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "Transport., Utilities",
+                              "value": [
+                                "INDTRAN_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "Information",
+                              "value": [
+                                "INDINFO_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "Finance, Real Estate, Insur.",
+                              "value": [
+                                "INDFIN_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "Professional, Mgmt.",
+                              "value": [
+                                "INDTECH_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "Edu., Health, Social Assist.",
+                              "value": [
+                                "INDEDUC_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "Arts, Entertain., Food Serv.",
+                              "value": [
+                                "INDARTS_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "Other Services",
+                              "value": [
+                                "INDOTSV_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "Public Administration",
+                              "value": [
+                                "INDPUBL_CY",
+                                "calcBuffer3"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "twoDimensional": "true",
+                      "extraVariables": "true",
+                      "hAxis": "Percentage of Population",
+                      "multiSeries": "true",
+                      "panelVariables": false,
                       "series": [
                         {
                           "data": [
@@ -3677,22 +5735,249 @@
                           "chartKey": "3 Mile Radius",
                           "meta": []
                         }
-                      ]
-                    },
-                    {
+                      ],
+                      "chartType": "PieChart",
+                      "title": "Educational Attainment (Age 25+)",
+                      "fields": [
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer3"
+                          ]
+                        }
+                      ],
                       "type": "chart",
                       "source": {
                         "value": "#/esriData"
                       },
-                      "multiSeries": "true",
-                      "title": "Total Housing Units",
-                      "chartType": "VerticalBar",
-                      "hAxis": "Year",
-                      "vAxis": "Housing Units",
-                      "hAxisTooltipLabel": "Year",
-                      "vAxisTooltipLabel": "Housing Units",
-                      "radiobutton": "false",
+                      "children": [
+                        {
+                          "title": "Education",
+                          "seriesName": "education-chart-esri0",
+                          "chartKey": "1/4 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "Graduate",
+                              "value": [
+                                "GRADDEG_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "Bachelors",
+                              "value": [
+                                "BACHDEG_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "Some College",
+                              "value": [
+                                "SMCOLL_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "HS Diploma",
+                              "value": [
+                                "HSGRAD_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "9th to 12th Grade",
+                              "value": [
+                                "SOMEHS_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "<9th Grade",
+                              "value": [
+                                "NOHS_CY",
+                                "calcBuffer0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Education",
+                          "seriesName": "education-chart-esri1",
+                          "chartKey": "1/2 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "Graduate",
+                              "value": [
+                                "GRADDEG_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "Bachelors",
+                              "value": [
+                                "BACHDEG_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "Some College",
+                              "value": [
+                                "SMCOLL_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "HS Diploma",
+                              "value": [
+                                "HSGRAD_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "9th to 12th Grade",
+                              "value": [
+                                "SOMEHS_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "<9th Grade",
+                              "value": [
+                                "NOHS_CY",
+                                "calcBuffer1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Education",
+                          "seriesName": "education-chart-esri2",
+                          "chartKey": "1 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "Graduate",
+                              "value": [
+                                "GRADDEG_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "Bachelors",
+                              "value": [
+                                "BACHDEG_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "Some College",
+                              "value": [
+                                "SMCOLL_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "HS Diploma",
+                              "value": [
+                                "HSGRAD_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "9th to 12th Grade",
+                              "value": [
+                                "SOMEHS_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "<9th Grade",
+                              "value": [
+                                "NOHS_CY",
+                                "calcBuffer2"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Education",
+                          "seriesName": "education-chart-esri3",
+                          "chartKey": "3 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "Graduate",
+                              "value": [
+                                "GRADDEG_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "Bachelors",
+                              "value": [
+                                "BACHDEG_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "Some College",
+                              "value": [
+                                "SMCOLL_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "HS Diploma",
+                              "value": [
+                                "HSGRAD_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "9th to 12th Grade",
+                              "value": [
+                                "SOMEHS_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "<9th Grade",
+                              "value": [
+                                "NOHS_CY",
+                                "calcBuffer3"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
                       "twoDimensional": "false",
+                      "vAxisTooltipLabel": "Housing Units",
+                      "hAxis": "Year",
+                      "radiobutton": "false",
+                      "multiSeries": "true",
+                      "vAxis": "Housing Units",
                       "series": [
                         {
                           "data": [
@@ -3722,135 +6007,165 @@
                           "chartKey": "3 Mile Radius",
                           "meta": []
                         }
-                      ]
-                    },
-                    {
+                      ],
+                      "chartType": "VerticalBar",
+                      "title": "Total Housing Units",
                       "type": "chart",
+                      "hAxisTooltipLabel": "Year",
                       "source": {
                         "value": "#/esriData"
                       },
-                      "multiSeries": "true",
-                      "twoDimensional": "true",
-                      "title": "Home Value",
-                      "chartType": "PieChart",
-                      "wide": "true",
-                      "long": "false",
-                      "extraVariables": "true",
-                      "panelVariables": true,
-                      "fields": [
+                      "children": [
                         {
-                          "label": "Housing Units",
-                          "value": [
-                            "TOTHU_CY",
-                            "buffer0"
+                          "title": "Total Housing Units",
+                          "seriesName": "total-housing-units-esri0",
+                          "chartKey": "1/4 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "2000",
+                              "value": [
+                                "TOTHU00",
+                                "buffer0"
+                              ]
+                            },
+                            {
+                              "label": "2010",
+                              "value": [
+                                "TOTHU10",
+                                "buffer0"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "TOTHU_CY",
+                                "buffer0"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "TOTHU_FY",
+                                "buffer0"
+                              ]
+                            }
                           ]
                         },
                         {
-                          "label": "Housing Units",
-                          "value": [
-                            "TOTHU_CY",
-                            "buffer1"
+                          "title": "Total Housing Units",
+                          "seriesName": "total-housing-units-esri0",
+                          "chartKey": "1/2 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "2000",
+                              "value": [
+                                "TOTHU00",
+                                "buffer1"
+                              ]
+                            },
+                            {
+                              "label": "2010",
+                              "value": [
+                                "TOTHU10",
+                                "buffer1"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "TOTHU_CY",
+                                "buffer1"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "TOTHU_FY",
+                                "buffer1"
+                              ]
+                            }
                           ]
                         },
                         {
-                          "label": "Housing Units",
-                          "value": [
-                            "TOTHU_CY",
-                            "buffer2"
+                          "title": "Total Housing Units",
+                          "seriesName": "total_housing_units-esri2",
+                          "chartKey": "1 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "2000",
+                              "value": [
+                                "TOTHU00",
+                                "buffer2"
+                              ]
+                            },
+                            {
+                              "label": "2010",
+                              "value": [
+                                "TOTHU10",
+                                "buffer2"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "TOTHU_CY",
+                                "buffer2"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "TOTHU_FY",
+                                "buffer2"
+                              ]
+                            }
                           ]
                         },
                         {
-                          "label": "Housing Units",
-                          "value": [
-                            "TOTHU_CY",
-                            "buffer3"
-                          ]
-                        },
-                        {
-                          "label": "2015 Median Home Value",
-                          "value": [
-                            "MEDVAL_CY",
-                            "buffer0"
-                          ]
-                        },
-                        {
-                          "label": "2015 Median Home Value",
-                          "value": [
-                            "MEDVAL_CY",
-                            "buffer1"
-                          ]
-                        },
-                        {
-                          "label": "2015 Median Home Value",
-                          "value": [
-                            "MEDVAL_CY",
-                            "buffer2"
-                          ]
-                        },
-                        {
-                          "label": "2015 Median Home Value",
-                          "value": [
-                            "MEDVAL_CY",
-                            "buffer3"
-                          ]
-                        },
-                        {
-                          "label": "2015 Average Home Value",
-                          "value": [
-                            "AVGVAL_CY",
-                            "buffer0"
-                          ]
-                        },
-                        {
-                          "label": "2015 Average Home Value",
-                          "value": [
-                            "AVGVAL_CY",
-                            "buffer1"
-                          ]
-                        },
-                        {
-                          "label": "2015 Average Home Value",
-                          "value": [
-                            "AVGVAL_CY",
-                            "buffer2"
-                          ]
-                        },
-                        {
-                          "label": "2015 Average Home Value",
-                          "value": [
-                            "AVGVAL_CY",
-                            "buffer3"
-                          ]
-                        },
-                        {
-                          "label": "2020 Median Home Value",
-                          "value": [
-                            "MEDVAL_FY",
-                            "buffer0"
-                          ]
-                        },
-                        {
-                          "label": "2020 Median Home Value",
-                          "value": [
-                            "MEDVAL_FY",
-                            "buffer1"
-                          ]
-                        },
-                        {
-                          "label": "2020 Median Home Value",
-                          "value": [
-                            "MEDVAL_FY",
-                            "buffer2"
-                          ]
-                        },
-                        {
-                          "label": "2020 Median Home Value",
-                          "value": [
-                            "MEDVAL_FY",
-                            "buffer3"
+                          "title": "Total Housing Units",
+                          "seriesName": "total_housing_units-esri3",
+                          "chartKey": "3 Mile Radius",
+                          "hAxis": "Year",
+                          "vAxis": "Units",
+                          "fields": [
+                            {
+                              "label": "2000",
+                              "value": [
+                                "TOTHU00",
+                                "buffer3"
+                              ]
+                            },
+                            {
+                              "label": "2010",
+                              "value": [
+                                "TOTHU10",
+                                "buffer3"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "TOTHU_CY",
+                                "buffer3"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "TOTHU_FY",
+                                "buffer3"
+                              ]
+                            }
                           ]
                         }
-                      ],
+                      ]
+                    },
+                    {
+                      "twoDimensional": "true",
+                      "extraVariables": "true",
+                      "multiSeries": "true",
+                      "wide": "true",
+                      "panelVariables": true,
                       "series": [
                         {
                           "data": [
@@ -3880,21 +6195,389 @@
                           "chartKey": "3 Mile Radius",
                           "meta": []
                         }
-                      ]
-                    },
-                    {
+                      ],
+                      "chartType": "PieChart",
+                      "title": "Home Value",
+                      "fields": [
+                        {
+                          "label": "Housing Units",
+                          "value": [
+                            "TOTHU_CY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "Housing Units",
+                          "value": [
+                            "TOTHU_CY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "Housing Units",
+                          "value": [
+                            "TOTHU_CY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "Housing Units",
+                          "value": [
+                            "TOTHU_CY",
+                            "buffer3"
+                          ]
+                        },
+                        {
+                          "label": "2015 Median Home Value",
+                          "value": [
+                            "MEDVAL_CY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "2015 Median Home Value",
+                          "value": [
+                            "MEDVAL_CY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "2015 Median Home Value",
+                          "value": [
+                            "MEDVAL_CY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "2015 Median Home Value",
+                          "value": [
+                            "MEDVAL_CY",
+                            "buffer3"
+                          ]
+                        },
+                        {
+                          "label": "2015 Average Home Value",
+                          "value": [
+                            "AVGVAL_CY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "2015 Average Home Value",
+                          "value": [
+                            "AVGVAL_CY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "2015 Average Home Value",
+                          "value": [
+                            "AVGVAL_CY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "2015 Average Home Value",
+                          "value": [
+                            "AVGVAL_CY",
+                            "buffer3"
+                          ]
+                        },
+                        {
+                          "label": "2020 Median Home Value",
+                          "value": [
+                            "MEDVAL_FY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "2020 Median Home Value",
+                          "value": [
+                            "MEDVAL_FY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "2020 Median Home Value",
+                          "value": [
+                            "MEDVAL_FY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "2020 Median Home Value",
+                          "value": [
+                            "MEDVAL_FY",
+                            "buffer3"
+                          ]
+                        }
+                      ],
                       "type": "chart",
                       "source": {
                         "value": "#/esriData"
                       },
-                      "multiSeries": "true",
-                      "twoDimensional": "true",
-                      "title": "Household By Rent",
-                      "chartType": "PieChart",
-                      "wide": "false",
                       "long": "false",
+                      "children": [
+                        {
+                          "seriesName": "home-value-2015-esri0",
+                          "chartKey": "1/4 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "$1000k+",
+                              "value": [
+                                "VAL1M_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "$750k to <$1000k",
+                              "value": [
+                                "VAL750K_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "$500k to <$750k",
+                              "value": [
+                                "VAL500K_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "$400k to <$500k",
+                              "value": [
+                                "VAL400K_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "$300k to <$400k",
+                              "value": [
+                                "VAL300K_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "$200k to <$300k",
+                              "value": [
+                                "VAL250K_CY",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "<$200k",
+                              "value": [
+                                "VAL100K_CY",
+                                "buffer0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "seriesName": "home-value-2015-esri1",
+                          "chartKey": "1/2 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "$1000k+",
+                              "value": [
+                                "VAL1M_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "$750k to <$1000k",
+                              "value": [
+                                "VAL750K_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "$500k to <$750k",
+                              "value": [
+                                "VAL500K_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "$400k to <$500k",
+                              "value": [
+                                "VAL400K_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "$300k to <$400k",
+                              "value": [
+                                "VAL300K_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "$200k to <$300k",
+                              "value": [
+                                "VAL250K_CY",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "<$200k",
+                              "value": [
+                                "VAL100K_CY",
+                                "buffer1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "seriesName": "home-value-2015-esri2",
+                          "chartKey": "1 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "$1000k+",
+                              "value": [
+                                "VAL1M_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "$750k to <$1000k",
+                              "value": [
+                                "VAL750K_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "$500k to <$750k",
+                              "value": [
+                                "VAL500K_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "$400k to <$500k",
+                              "value": [
+                                "VAL400K_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "$300k to <$400k",
+                              "value": [
+                                "VAL300K_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "$200k to <$300k",
+                              "value": [
+                                "VAL250K_CY",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "<$200k",
+                              "value": [
+                                "VAL100K_CY",
+                                "buffer2"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "seriesName": "home-value-2015-esri3",
+                          "chartKey": "3 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "$1000k+",
+                              "value": [
+                                "VAL1M_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "$750k to <$1000k",
+                              "value": [
+                                "VAL750K_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "$500k to <$750k",
+                              "value": [
+                                "VAL500K_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "$400k to <$500k",
+                              "value": [
+                                "VAL400K_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "$300k to <$400k",
+                              "value": [
+                                "VAL300K_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "$200k to <$300k",
+                              "value": [
+                                "VAL250K_CY",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "<$200k",
+                              "value": [
+                                "VAL100K_CY",
+                                "buffer3"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "twoDimensional": "true",
                       "extraVariables": "true",
+                      "multiSeries": "true",
+                      "wide": "false",
                       "panelVariables": false,
+                      "series": [
+                        {
+                          "data": [
+                            "household-by-rent-esri0"
+                          ],
+                          "chartKey": "1/4 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "household-by-rent-esri1"
+                          ],
+                          "chartKey": "1/2 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "household-by-rent-esri2"
+                          ],
+                          "chartKey": "1 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "household-by-rent-esri3"
+                          ],
+                          "chartKey": "3 Mile Radius",
+                          "meta": []
+                        }
+                      ],
+                      "chartType": "PieChart",
+                      "title": "Household By Rent",
                       "fields": [
                         {
                           "label": "Households",
@@ -3925,50 +6608,212 @@
                           ]
                         }
                       ],
-                      "series": [
-                        {
-                          "data": [
-                            "household-by-rent-esri0"
-                          ],
-                          "chartKey": "1/4 Mile Radius",
-                          "meta": []
-                        },
-                        {
-                          "data": [
-                            "household-by-rent-esri1"
-                          ],
-                          "chartKey": "1/2 Mile Radius",
-                          "meta": []
-                        },
-                        {
-                          "data": [
-                            "household-by-rent-esri2"
-                          ],
-                          "chartKey": "1 Mile Radius",
-                          "meta": []
-                        },
-                        {
-                          "data": [
-                            "household-by-rent-esri3"
-                          ],
-                          "chartKey": "3 Mile Radius",
-                          "meta": []
-                        }
-                      ]
-                    },
-                    {
                       "type": "chart",
                       "source": {
                         "value": "#/esriData"
                       },
-                      "title": "Housing Occupants",
-                      "multiSeries": "true",
-                      "chartType": "VerticalBar",
+                      "long": "false",
+                      "children": [
+                        {
+                          "seriesName": "household-by-rent-esri0",
+                          "chartKey": "1/4 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "$2000+",
+                              "value": [
+                                "ACSRNT2000",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "$1000 to <$2000",
+                              "value": [
+                                "ACSRNT1500",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "$1250 to <$1500",
+                              "value": [
+                                "ACSRNT1250",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "$1000 to <$1250",
+                              "value": [
+                                "ACSRNT1000",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "$750 to <$1000",
+                              "value": [
+                                "ACSRNT750",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "$500 to <$750",
+                              "value": [
+                                "ACSRNT500",
+                                "calcBuffer0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "seriesName": "household-by-rent-esri1",
+                          "chartKey": "1/2 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "$2000+",
+                              "value": [
+                                "ACSRNT2000",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "$1000 to <$2000",
+                              "value": [
+                                "ACSRNT1500",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "$1250 to <$1500",
+                              "value": [
+                                "ACSRNT1250",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "$1000 to <$1250",
+                              "value": [
+                                "ACSRNT1000",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "$750 to <$1000",
+                              "value": [
+                                "ACSRNT750",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "$500 to <$750",
+                              "value": [
+                                "ACSRNT500",
+                                "calcBuffer1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "seriesName": "household-by-rent-esri2",
+                          "chartKey": "1 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "$2000+",
+                              "value": [
+                                "ACSRNT2000",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "$1000 to <$2000",
+                              "value": [
+                                "ACSRNT1500",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "$1250 to <$1500",
+                              "value": [
+                                "ACSRNT1250",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "$1000 to <$1250",
+                              "value": [
+                                "ACSRNT1000",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "$750 to <$1000",
+                              "value": [
+                                "ACSRNT750",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "$500 to <$750",
+                              "value": [
+                                "ACSRNT500",
+                                "calcBuffer2"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "seriesName": "household-by-rent-esri3",
+                          "chartKey": "3 Mile Radius",
+                          "fields": [
+                            {
+                              "label": "$2000+",
+                              "value": [
+                                "ACSRNT2000",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "$1000 to <$2000",
+                              "value": [
+                                "ACSRNT1500",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "$1250 to <$1500",
+                              "value": [
+                                "ACSRNT1250",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "$1000 to <$1250",
+                              "value": [
+                                "ACSRNT1000",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "$750 to <$1000",
+                              "value": [
+                                "ACSRNT750",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "$500 to <$750",
+                              "value": [
+                                "ACSRNT500",
+                                "calcBuffer3"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
                       "twoDimensional": "true",
-                      "vAxis": "Number of Occupants",
-                      "hAxis": "Year",
                       "vAxisTooltipLabel": "Number of Occupants",
-                      "hAxisTooltipLabel": "Year",
+                      "hAxis": "Year",
+                      "multiSeries": "true",
+                      "vAxis": "Number of Occupants",
                       "series": [
                         {
                           "chartKey": "1/4 Mile Radius",
@@ -4006,21 +6851,391 @@
                           ],
                           "meta": []
                         }
-                      ]
-                    },
-                    {
+                      ],
+                      "chartType": "VerticalBar",
+                      "title": "Housing Occupants",
                       "type": "chart",
+                      "hAxisTooltipLabel": "Year",
                       "source": {
                         "value": "#/esriData"
                       },
-                      "title": "Housing by Units in Structure",
-                      "chartType": "PieChart",
-                      "wide": "true",
-                      "long": "false",
-                      "multiSeries": "true",
+                      "children": [
+                        {
+                          "title": "Owner Housing",
+                          "chartKey": "Owner",
+                          "chartType": "VerticalBarChart",
+                          "fields": [
+                            {
+                              "label": "2010",
+                              "value": [
+                                "OWNER10",
+                                "buffer0"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "OWNER_CY",
+                                "buffer0"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "OWNER_FY",
+                                "buffer0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Owner Housing",
+                          "chartKey": "Owner",
+                          "chartType": "VerticalBarChart",
+                          "fields": [
+                            {
+                              "label": "2010",
+                              "value": [
+                                "OWNER10",
+                                "buffer1"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "OWNER_CY",
+                                "buffer1"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "OWNER_FY",
+                                "buffer1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Owner Housing",
+                          "chartKey": "Owner",
+                          "chartType": "VerticalBarChart",
+                          "fields": [
+                            {
+                              "label": "2010",
+                              "value": [
+                                "OWNER10",
+                                "buffer2"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "OWNER_CY",
+                                "buffer2"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "OWNER_FY",
+                                "buffer2"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Owner Housing",
+                          "chartKey": "Owner",
+                          "chartType": "VerticalBarChart",
+                          "fields": [
+                            {
+                              "label": "2010",
+                              "value": [
+                                "OWNER10",
+                                "buffer3"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "OWNER_CY",
+                                "buffer3"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "OWNER_FY",
+                                "buffer3"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Renter Housing",
+                          "chartKey": "Renter",
+                          "chartType": "VerticalBarChart",
+                          "fields": [
+                            {
+                              "label": "2010",
+                              "value": [
+                                "RENTER10",
+                                "buffer0"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "RENTER_CY",
+                                "buffer0"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "RENTER_FY",
+                                "buffer0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Renter Housing",
+                          "chartKey": "Renter",
+                          "chartType": "VerticalBarChart",
+                          "fields": [
+                            {
+                              "label": "2010",
+                              "value": [
+                                "RENTER10",
+                                "buffer1"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "RENTER_CY",
+                                "buffer1"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "RENTER_FY",
+                                "buffer1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Renter Housing",
+                          "chartKey": "Renter",
+                          "chartType": "VerticalBarChart",
+                          "fields": [
+                            {
+                              "label": "2010",
+                              "value": [
+                                "RENTER10",
+                                "buffer2"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "RENTER_CY",
+                                "buffer2"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "RENTER_FY",
+                                "buffer2"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Renter Housing",
+                          "chartKey": "Renter",
+                          "chartType": "VerticalBarChart",
+                          "fields": [
+                            {
+                              "label": "2010",
+                              "value": [
+                                "RENTER10",
+                                "buffer3"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "RENTER_CY",
+                                "buffer3"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "RENTER_FY",
+                                "buffer3"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Vacant Housing",
+                          "chartKey": "Vacant",
+                          "chartType": "VerticalBarChart",
+                          "fields": [
+                            {
+                              "label": "2010",
+                              "value": [
+                                "VACANT10",
+                                "buffer0"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "VACANT_CY",
+                                "buffer0"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "VACANT_FY",
+                                "buffer0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Vacant Housing",
+                          "chartType": "VerticalBarChart",
+                          "chartKey": "Vacant",
+                          "fields": [
+                            {
+                              "label": "2010",
+                              "value": [
+                                "VACANT10",
+                                "buffer1"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "VACANT_CY",
+                                "buffer1"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "VACANT_FY",
+                                "buffer1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Vacant Housing",
+                          "chartType": "VerticalBarChart",
+                          "chartKey": "Vacant",
+                          "fields": [
+                            {
+                              "label": "2010",
+                              "value": [
+                                "VACANT10",
+                                "buffer2"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "VACANT_CY",
+                                "buffer2"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "VACANT_FY",
+                                "buffer2"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "title": "Vacant Housing",
+                          "chartType": "VerticalBarChart",
+                          "chartKey": "Vacant",
+                          "fields": [
+                            {
+                              "label": "2010",
+                              "value": [
+                                "VACANT10",
+                                "buffer3"
+                              ]
+                            },
+                            {
+                              "label": "2015",
+                              "value": [
+                                "VACANT_CY",
+                                "buffer3"
+                              ]
+                            },
+                            {
+                              "label": "2020",
+                              "value": [
+                                "VACANT_FY",
+                                "buffer3"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
                       "twoDimensional": "true",
                       "extraVariables": "true",
+                      "multiSeries": "true",
+                      "wide": "true",
                       "panelVariables": false,
+                      "series": [
+                        {
+                          "data": [
+                            "housing-by-units-in-structure-esri0"
+                          ],
+                          "chartKey": "1/4 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "housing-by-units-in-structure-esri1"
+                          ],
+                          "chartKey": "1/2 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "housing-by-units-in-structure-esri2"
+                          ],
+                          "chartKey": "1 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "housing-by-units-in-structure-esri3"
+                          ],
+                          "chartKey": "3 Mile Radius",
+                          "meta": []
+                        }
+                      ],
+                      "chartType": "PieChart",
+                      "title": "Housing by Units in Structure",
                       "fields": [
                         {
                           "label": "Housing Units",
@@ -4051,34 +7266,259 @@
                           ]
                         }
                       ],
-                      "series": [
+                      "type": "chart",
+                      "source": {
+                        "value": "#/esriData"
+                      },
+                      "long": "false",
+                      "children": [
                         {
-                          "data": [
-                            "housing-by-units-in-structure-esri0"
-                          ],
+                          "seriesName": "housing-by-units-in-structure-esri0",
                           "chartKey": "1/4 Mile Radius",
-                          "meta": []
+                          "fields": [
+                            {
+                              "label": "1 - Detached",
+                              "value": [
+                                "ACSUNT1DET",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "1 - Attached",
+                              "value": [
+                                "ACSUNT1ATT",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "2 Units",
+                              "value": [
+                                "ACSUNT2",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "3 to 4 Units",
+                              "value": [
+                                "ACSUNT3",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "5 to 9 Units",
+                              "value": [
+                                "ACSUNT5",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "10 to 19 Units",
+                              "value": [
+                                "ACSUNT10",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "20 to 49 Units",
+                              "value": [
+                                "ACSUNT20",
+                                "calcBuffer0"
+                              ]
+                            },
+                            {
+                              "label": "50+ Units",
+                              "value": [
+                                "ACSUNT50UP",
+                                "calcBuffer0"
+                              ]
+                            }
+                          ]
                         },
                         {
-                          "data": [
-                            "housing-by-units-in-structure-esri1"
-                          ],
+                          "seriesName": "housing-by-units-in-structure-esri1",
                           "chartKey": "1/2 Mile Radius",
-                          "meta": []
+                          "fields": [
+                            {
+                              "label": "1 - Detached",
+                              "value": [
+                                "ACSUNT1DET",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "1 - Attached",
+                              "value": [
+                                "ACSUNT1ATT",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "2 Units",
+                              "value": [
+                                "ACSUNT2",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "3 to 4 Units",
+                              "value": [
+                                "ACSUNT3",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "5 to 9 Units",
+                              "value": [
+                                "ACSUNT5",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "10 to 19 Units",
+                              "value": [
+                                "ACSUNT10",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "20 to 49 Units",
+                              "value": [
+                                "ACSUNT20",
+                                "calcBuffer1"
+                              ]
+                            },
+                            {
+                              "label": "50+ Units",
+                              "value": [
+                                "ACSUNT50UP",
+                                "calcBuffer1"
+                              ]
+                            }
+                          ]
                         },
                         {
-                          "data": [
-                            "housing-by-units-in-structure-esri2"
-                          ],
+                          "seriesName": "housing-by-units-in-structure-esri2",
                           "chartKey": "1 Mile Radius",
-                          "meta": []
+                          "fields": [
+                            {
+                              "label": "1 - Detached",
+                              "value": [
+                                "ACSUNT1DET",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "1 - Attached",
+                              "value": [
+                                "ACSUNT1ATT",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "2 Units",
+                              "value": [
+                                "ACSUNT2",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "3 to 4 Units",
+                              "value": [
+                                "ACSUNT3",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "5 to 9 Units",
+                              "value": [
+                                "ACSUNT5",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "10 to 19 Units",
+                              "value": [
+                                "ACSUNT10",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "20 to 49 Units",
+                              "value": [
+                                "ACSUNT20",
+                                "calcBuffer2"
+                              ]
+                            },
+                            {
+                              "label": "50+ Units",
+                              "value": [
+                                "ACSUNT50UP",
+                                "calcBuffer2"
+                              ]
+                            }
+                          ]
                         },
                         {
-                          "data": [
-                            "housing-by-units-in-structure-esri3"
-                          ],
+                          "seriesName": "housing-by-units-in-structure-esri3",
                           "chartKey": "3 Mile Radius",
-                          "meta": []
+                          "fields": [
+                            {
+                              "label": "1 - Detached",
+                              "value": [
+                                "ACSUNT1DET",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "1 - Attached",
+                              "value": [
+                                "ACSUNT1ATT",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "2 Units",
+                              "value": [
+                                "ACSUNT2",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "3 to 4 Units",
+                              "value": [
+                                "ACSUNT3",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "5 to 9 Units",
+                              "value": [
+                                "ACSUNT5",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "10 to 19 Units",
+                              "value": [
+                                "ACSUNT10",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "20 to 49 Units",
+                              "value": [
+                                "ACSUNT20",
+                                "calcBuffer3"
+                              ]
+                            },
+                            {
+                              "label": "50+ Units",
+                              "value": [
+                                "ACSUNT50UP",
+                                "calcBuffer3"
+                              ]
+                            }
+                          ]
                         }
                       ]
                     }
@@ -4091,6 +7531,9 @@
         {
           "title": "Economy",
           "collapsible": true,
+          "printWidth": "half",
+          "restrict": "lhs.economy",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -4169,6 +7612,9 @@
         {
           "title": "National Economy",
           "collapsible": true,
+          "printWidth": "half",
+          "restrict": "lhs.economy",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -4232,6 +7678,24 @@
           ]
         },
         {
+          "title": "Economy",
+          "collapsible": false,
+          "printWidth": "full",
+          "restrict": "inhouseDemog",
+          "medium": "screen",
+          "type": "subsection",
+          "children": [
+            {
+              "title": "Unlock Market Data",
+              "features": [
+                "Social economic insights on people and households",
+                "Housing stock context and market conditions"
+              ],
+              "type": "teaser"
+            }
+          ]
+        },
+        {
           "value": "Data Source: FRED Economic Data",
           "type": "text"
         }
@@ -4245,12 +7709,22 @@
         {
           "title": "Residential Debt: Mortgage Rates",
           "collapsible": true,
+          "restrict": "lhs.financing",
+          "medium": "screen",
           "type": "subsection",
-          "children": []
+          "children": [
+            {
+              "contents": "<div id=\"rate-table-with-graph-iframe-widget-container\">   <iframe delay-src=\"https://www.zillow.com/webtools/widgets/RateTableAndGraphDistributionWidget.htm?mp=RD-FLNVMXZ&\" width=\"330\" style=\"display: block; font-family: arial, sans-serif;\" height=\"325\" frameborder=\"0\" scrolling=\"no\"></iframe> </div>",
+              "type": "html"
+            }
+          ]
         },
         {
           "title": "Benchmark Rates",
           "collapsible": true,
+          "printWidth": "half",
+          "restrict": "lhs.financing",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -4420,7 +7894,9 @@
         {
           "title": "Senior & Subordinate Lending Spreads",
           "collapsible": true,
+          "printWidth": "half",
           "restrict": "esriDemog",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -4620,7 +8096,9 @@
         {
           "title": "10-Year Fixed Rate Ranges by Asset Class",
           "collapsible": true,
+          "printWidth": "half",
           "restrict": "esriDemog",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -4859,6 +8337,9 @@
         {
           "title": "JV Equity: Multifamily",
           "collapsible": true,
+          "printWidth": "half",
+          "restrict": "lhs.equity",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -4910,6 +8391,9 @@
         {
           "title": "JV Equity: Multifamily (Light Value Add)",
           "collapsible": true,
+          "printWidth": "half",
+          "restrict": "lhs.equity",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -5005,6 +8489,9 @@
         {
           "title": "JV Equity: Multifamily (Value Add)",
           "collapsible": true,
+          "printWidth": "half",
+          "restrict": "lhs.equity",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -5056,6 +8543,9 @@
         {
           "title": "JV Equity: Office (Suburban)",
           "collapsible": true,
+          "printWidth": "half",
+          "restrict": "lhs.equity",
+          "medium": "all",
           "type": "subsection",
           "children": [
             {
@@ -5105,6 +8595,23 @@
             {
               "value": "Data source: <a href=\"http://www.cushmanwakefield.com/~/media/reports/corporate/Global%20Reports/CW_Capital_Markets_Update.pdf\">Cushman and Wakefield Report</a>",
               "type": "text"
+            }
+          ]
+        },
+        {
+          "title": "Financial Proforma",
+          "collapsible": false,
+          "restrict": "inhouseDemog",
+          "medium": "screen",
+          "type": "subsection",
+          "children": [
+            {
+              "title": "Unlock Financial Data",
+              "features": [
+                "Pro formas and loan details for CMBS properties",
+                "Debt financing and economic conditions"
+              ],
+              "type": "teaser"
             }
           ]
         }
