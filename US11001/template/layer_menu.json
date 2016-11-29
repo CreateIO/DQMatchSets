@@ -208,7 +208,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map points for more details.<br><br>Public schools in the District of Columbia.",
+                "description": "Public schools in the District of Columbia.<span class='click-map'>Click map points for more details.</span>",
                 "listItems": {
                     "item1": {
                         "boxDescription": "DC Public Schools",
@@ -264,7 +264,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map points for more details.<br><br>Charter schools in the District of Columbia.",
+                "description": "Charter schools in the District of Columbia.<span class='click-map'>Click map points for more details.</span>",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Charter Schools",
@@ -882,7 +882,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click on icons for details.",
+                "description": "<span class='click-map'>Click icons for more details.</span>",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Grocery Store Locations.",
@@ -1518,7 +1518,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "(Click icons for more info.)<br><br>DC METRO rail lines, stations & station entrances.",
+                "description": "DC METRO rail lines, stations & station entrances.<span class='click-map'>Click icons for more details.</span>",
                 "listItemsLeft": {
                     "item1": {
                         "boxDescription": "Red Line",
@@ -1625,7 +1625,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click on icons for details.",
+                "description": "<span class='click-map'>Click icons for more details.</span>",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Movie Theatre Locations.",
@@ -1778,7 +1778,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click on icons for details.",
+                "description": "<span class='click-map'>Click icons for more details.</span>",
                 "listItems": {
                     "item1": {
                         "boxDescription": "WDCEP Neighborhoods.",
@@ -1973,7 +1973,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more details.<br><br>Government and diplomatic overlay zones have special requirements related to historic preservation, density, and use restrictions.",
+                "description": "Government and diplomatic overlay zones have special requirements related to historic preservation, density, and use restrictions.<span class='click-map'>Click ap polygons for more details.</span>",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Government",
@@ -2029,7 +2029,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more details.<br><br>Hotel incentive and housing priority overlay zones encourage downtown lodging and residential development.",
+                "description": "Hotel incentive and housing priority overlay zones encourage downtown lodging and residential development.<span class='click-map'>Click map polygons for more details.</span>",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Hotel & Residential Incentive Areas",
@@ -2090,7 +2090,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more details.<br><br>Downtown mixed-use development overlay zones encourage high-density mixed-use development for downtown commercial districts.",
+                "description": "Downtown mixed-use development overlay zones encourage high-density mixed-use development for downtown commercial districts.<span class='click-map'>Click map polygons for more details.</span>",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Downtown and mixed use development.",
@@ -2146,7 +2146,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more details.<br><br>Neighborhood commercial overlay zones establish pedestrian and mixed use development goals specific to each neighborhood.",
+                "description": "Neighborhood commercial overlay zones establish pedestrian and mixed use development goals specific to each neighborhood.<span class='click-map'>Click map polygons for more details.</span>",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Neighborhood Commercial",
@@ -2202,7 +2202,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more details.<br><br>Neighborhood and open space preservation overlay zones aim to preserve and enhance low-rise residential neighborhoods and natural areas.",
+                "description": "Neighborhood and open space preservation overlay zones aim to preserve and enhance low-rise residential neighborhoods and natural areas.<span class='click-map'>Click map polygons for more details.</span>",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Preservation - Nature",
@@ -2277,7 +2277,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click on icons for details.",
+                "description": "<span class='click-map'>Click icons for more details.</span>",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Pharmacy Locations.",
@@ -2357,7 +2357,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more information",
+                "description": "<span class='click-map'>Click map polygons for more details.</span>",
                 "listItems": {
                     "item1": {
                         "boxDescription": "PUD - Active",
@@ -3389,7 +3389,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click SMD map polygons for more details.<br><br>Advisory Neighborhood Commissions (ANCs) are collections of Single Member Districts (SMDs). ANCs allow input from an advisory board made up of the residents of the neighborhoods directly affected by government action.",
+                "description": "Advisory Neighborhood Commissions (ANCs) are collections of Single Member Districts (SMDs). ANCs allow input from an advisory board made up of the residents of the neighborhoods directly affected by government action.<span class='click-map'>Click SMD map polygons for more details.</span>",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Advisory Neighborhood Commisions (ANC)",
@@ -3473,7 +3473,7 @@
                         "imageUrl": null
                     },
                     "item3": {
-                        "boxDescription": "Click for more info on SMD & ANC.",
+                        "boxDescription": "<span class='click-map'>Click on SMD & ANC for more details.</span>",
                         "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
                         "imageUrl": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/icon-smd.png"
                     }
@@ -3692,7 +3692,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click on icons for details.",
+                "description": "<span class='click-map'>Click icons for more details.</span>",
                 "listItems": {
                     "item1": {
                         "boxDescription": "7-Eleven Locations.",
@@ -3762,7 +3762,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click on icons for details.",
+                "description": "<span class='click-map'>Click icons for more details.</span>",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Chipotle Locations",
@@ -3837,7 +3837,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click on icons for details.",
+                "description": "<span class='click-map'>Click icons for more details.</span>",
                 "listItems": {
                     "item1": {
                         "boxDescription": "PotBelly Locations.",
@@ -3907,7 +3907,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click on icons for details.",
+                "description": "<span class='click-map'>Click icons for more details.</span>",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Subway Locations.",
@@ -3977,7 +3977,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click on icons for details.",
+                "description": "<span class='click-map'>Click icons for more details.</span>",
                 "listItems": {
                     "item1": {
                         "boxDescription": "WDCEP Bookmarks",
@@ -4119,7 +4119,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more information",
+                "description": "<span class='click-map'>Click map polygons for more details.</span>",
                 "listItemsLeft": {
                     "item1": {
                         "boxDescription": "Ward 1",
