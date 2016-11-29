@@ -912,11 +912,18 @@
                             "param1": "ny_HurricaneWorstCase"
                         },
                         "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SandyInundationZones"
+                        },
+                        "service": "tileMapServiceService"
                     }
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'NY Data: Hurricane Inundation Zones'"
+                        "param1": "'NY Data: Hurricane Inundation Zones including worst case & Sandy Zones'"
                     }
                 },
                 "removeFunctions": {
@@ -924,6 +931,13 @@
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
                             "param1": "ny_HurricaneWorstCase"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                                        "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SandyInundationZones"
                         },
                         "service": "tileMapServiceService"
                     }
