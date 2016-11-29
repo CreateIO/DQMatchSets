@@ -934,7 +934,7 @@
                         },
                         "service": "tileMapServiceService"
                     },
-                                        "func1": {
+                    "func2": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
                             "param1": "ny_SandyInundationZones"
@@ -1027,18 +1027,18 @@
                 "description": "The 100-Year Floodplain for the 2020s is based on FEMA's Preliminary Work Map data and the New York Panel on Climate Change's 90th Percentile Projects for Sea-Level Rise (11 inches).",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "AE",
-                        "boxStyle": "background:#e5cce2",
+                        "boxDescription": "Zones VE - High Risk: Flooding & Waves",
+                        "boxStyle": "background:#3bb3ba",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "AO",
-                        "boxStyle": "background:#925599",
+                        "boxDescription": "Zones AE - High Risk Flooding",
+                        "boxStyle": "background:#72c4cd",
                         "imageUrl": null
                     },
                     "item3": {
-                        "boxDescription": "VE",
-                        "boxStyle": "background:#c395c0",
+                        "boxDescription": "Zones AO - Moderate Risk of Shallow Flooding",
+                        "boxStyle": "background:#178081",
                         "imageUrl": null  
                     }
                 },
