@@ -2451,6 +2451,8 @@
               "vAxis": "Cars per Household",
               "chartType": "HorizontalBar",
               "title": "Cars per Household",
+              "classes": "tab-section",
+              "innerClasses": "details-charts min370 interactive-charts detailsPane",
               "fields": [
                 {
                   "label": "0",
@@ -2847,6 +2849,8 @@
                           "vAxis": "Income",
                           "chartType": "HorizontalBar",
                           "title": "Household Income",
+                          "classes": "tab-section",
+                          "innerClasses": "details-charts interactive-charts chart-350",
                           "fields": [
                             {
                               "label": "$200k+",
@@ -2933,6 +2937,8 @@
                           "panelVariables": false,
                           "chartType": "PieChart",
                           "title": "Employment",
+                          "classes": "tab-section tab-section-pie-chart",
+                          "innerClasses": "details-charts pie-charts fullSize",
                           "fields": [
                             {
                               "label": "Agriculture",
@@ -3044,6 +3050,8 @@
                           "panelVariables": false,
                           "chartType": "PieChart",
                           "title": "Educational Attainment (25+)",
+                          "classes": "tab-section tab-section-pie-chart",
+                          "innerClasses": "details-charts pie-charts fullSize",
                           "fields": [
                             {
                               "label": "Graduate",
@@ -3379,6 +3387,8 @@
                       "source": {
                         "value": "#/esriData"
                       },
+                      "classes": "tab-section",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "children": [
                         {
                           "seriesName": "total-population-esri0",
@@ -3561,6 +3571,8 @@
                       ],
                       "chartType": "HorizontalBar",
                       "title": "Population By Age and Gender",
+                      "classes": "tab-section-tall",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "fields": [
                         {
                           "label": "Population",
@@ -4680,6 +4692,8 @@
                       "radiobutton": "false",
                       "multiSeries": "true",
                       "vAxis": "Number of Households",
+                      "classes": "tab-section",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "series": [
                         {
                           "chartKey": "1/4 Mile Radius",
@@ -4870,6 +4884,8 @@
                       "multiSeries": "true",
                       "panelVariables": true,
                       "vAxis": "Income",
+                      "classes": "tab-section-tall",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "series": [
                         {
                           "data": [
@@ -5234,6 +5250,8 @@
                       "multiSeries": "true",
                       "wide": "true",
                       "panelVariables": false,
+                      "classes": "tab-section tab-section-pie-chart",
+                      "innerClasses": "details-charts interactive-charts detailsPane",
                       "series": [
                         {
                           "data": [
@@ -5706,6 +5724,8 @@
                       "hAxis": "Percentage of Population",
                       "multiSeries": "true",
                       "panelVariables": false,
+                      "classes": "tab-section tab-section-pie-chart ng-scope",
+                      "innerClasses": "details-charts interactive-charts detailsPane",
                       "series": [
                         {
                           "data": [
@@ -5978,6 +5998,8 @@
                       "radiobutton": "false",
                       "multiSeries": "true",
                       "vAxis": "Housing Units",
+                      "classes": "tab-section",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "series": [
                         {
                           "data": [
@@ -6166,6 +6188,8 @@
                       "multiSeries": "true",
                       "wide": "true",
                       "panelVariables": true,
+                      "classes": "tab-section",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "series": [
                         {
                           "data": [
@@ -6546,6 +6570,8 @@
                       "multiSeries": "true",
                       "wide": "false",
                       "panelVariables": false,
+                      "classes": "tab-section tab-section-pie-chart",
+                      "innerClasses": "details-charts interactive-charts fullSize",
                       "series": [
                         {
                           "data": [
@@ -6814,6 +6840,8 @@
                       "hAxis": "Year",
                       "multiSeries": "true",
                       "vAxis": "Number of Occupants",
+                      "classes": "tab-section",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "series": [
                         {
                           "chartKey": "1/4 Mile Radius",
@@ -7204,6 +7232,8 @@
                       "multiSeries": "true",
                       "wide": "true",
                       "panelVariables": false,
+                      "classes": "tab-section",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "series": [
                         {
                           "data": [
