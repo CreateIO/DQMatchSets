@@ -612,6 +612,16 @@
         "title": "Icon",
         "description": "Icon to display next to tab title.",
         "type": "string"
+      },
+      "onEnter": {
+        "title": "On Enter",
+        "description": "Scope event to emit when this tab is clicked on.",
+        "type": "string"
+      },
+      "onLeave": {
+        "title": "On Leave",
+        "description": "Scope event to emit when this tab is clicked away from.",
+        "type": "string"
       }
     },
     "preview": "title",

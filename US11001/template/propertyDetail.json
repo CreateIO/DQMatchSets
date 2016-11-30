@@ -3341,6 +3341,8 @@
                   "title": "Radius",
                   "restrict": "esriDemog",
                   "medium": "screen",
+                  "onEnter": "radiusTabEnter",
+                  "onLeave": "radiusTabLeave",
                   "type": "tab",
                   "children": [
                     {
