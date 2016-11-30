@@ -577,6 +577,16 @@
             }
           }
         }
+      },
+      "classes": {
+        "title": "Classes",
+        "description": "CSS classes for the outer container.",
+        "type": "string"
+      },
+      "innerClasses": {
+        "title": "Inner Classes",
+        "description": "CSS classes for the inner container.",
+        "type": "string"
       }
     },
     "required": ["title", "chartType", "source"],
