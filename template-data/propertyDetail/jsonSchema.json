@@ -1,5 +1,19 @@
 {
   "$tree": true,
+  "$global": {
+    "restrict": {
+      "title": "Restrictions",
+      "description": "Feature group that can view this item. Leave blank to allow all accounts to see it.",
+      "type": "string"
+    },
+    "medium": {
+      "title": "Medium",
+      "description": "Formats on which to display this item.",
+      "type": "string",
+      "enum": ["all", "screen", "print"],
+      "default": "all"
+    }
+  },
   "section": {
     "name": "Section",
     "description": "First-level container for content.",
@@ -41,6 +55,13 @@
         "items": {
           "type": "string"
         }
+      },
+      "printWidth": {
+        "title": "Print Width",
+        "description": "Width of section when displayed in PDF mode.",
+        "type": "string",
+        "enum": ["full", "half", "quarter"],
+        "default": "full"
       }
     },
     "required": ["title"],
@@ -444,19 +465,22 @@
         "title": "Multi-series",
         "description": "Make chart multi-series.",
         "type": "string",
-        "enum": ["true", "false"]
+        "enum": ["true", "false"],
+        "default": "false"
       },
       "twoDimensional": {
         "title": "Two-dimensional",
         "description": "Make chart two-dimensional.",
         "type": "string",
-        "enum": ["true", "false"]
+        "enum": ["true", "false"],
+        "default": "true"
       },
       "radiobutton": {
         "title": "Radio Button",
         "description": "Enable radio button.",
         "type": "string",
-        "enum": ["true", "false"]
+        "enum": ["true", "false"],
+        "default": "false"
       },
       "panelVariables": {
         "title": "Panel Variables",
@@ -468,13 +492,15 @@
         "title": "Extra Variables",
         "description": "Enable extra variables.",
         "type": "string",
-        "enum": ["true", "false"]
+        "enum": ["true", "false"],
+        "default": "false"
       },
       "topFive": {
         "title": "Top Five",
         "description": "Only show top five metrics.",
         "type": "string",
-        "enum": ["true", "false"]
+        "enum": ["true", "false"],
+        "default": "false"
       },
       "fields": {
         "title": "Fields",
@@ -554,7 +580,8 @@
       }
     },
     "required": ["title", "chartType", "source"],
-    "dynamic": ["source"]
+    "dynamic": ["source"],
+    "nestable": true
   },
   "tab-group": {
     "name": "Tab Group",
