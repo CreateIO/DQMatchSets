@@ -1,0 +1,695 @@
+{
+  "$template": "propertyDetail",
+  "items": [
+    {
+      "title": "Property",
+      "type": "section",
+      "icon": "navProperty",
+      "children": [
+        {
+          "title": "Street View",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "type": "streetview"
+            }
+          ]
+        },
+        {
+          "title": "Details",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "size": "full",
+              "value": {
+                "value": "#/property/bestAddress"
+              },
+              "type": "keyvalue",
+              "invisible": true,
+              "key": "Address"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/ssl"
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://octo.dc.gov/",
+                "text": "OCTO"
+              },
+              "key": "Property ID (BBLE)"
+            },
+            {
+              "size": "quarter",
+              "layer": [
+                "Zoning"
+              ],
+              "value": {
+                "value": "#/property/zones/allzoningDistrict",
+                "filters": [
+                  {
+                    "name": "cleanList",
+                    "args": []
+                  }
+                ]
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://opendata.dc.gov/",
+                "text": "OZ"
+              },
+              "key": "Zoning District(s)"
+            },
+            {
+              "size": "quarter",
+              "values": [
+                {
+                  "value": "#/property/lotSize",
+                  "filters": [
+                    {
+                      "name": "fallback",
+                      "args": [
+                        "#/property/firstProp/cama/lotSize"
+                      ]
+                    },
+                    {
+                      "name": "number",
+                      "args": []
+                    }
+                  ]
+                },
+                {
+                  "value": "#/property/lotSize",
+                  "filters": [
+                    {
+                      "name": "fallback",
+                      "args": [
+                        "#/property/firstProp/cama/lotSize"
+                      ]
+                    },
+                    {
+                      "name": "math",
+                      "args": [
+                        "/",
+                        "42560"
+                      ]
+                    },
+                    {
+                      "name": "number",
+                      "args": [
+                        "2"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "style": "default",
+              "format": "{0} SF / {1} Acres",
+              "type": "keyvalue-complex",
+              "link": {},
+              "source": {
+                "link": "http://otr.cfo.dc.gov/",
+                "text": "OTR"
+              },
+              "key": "Land Area"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/zones/jurisdiction"
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Jurisdiction"
+            },
+            {
+              "size": "auto",
+              "value": {
+                "value": "#/property/zones/taxMap"
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Tax Map"
+            },
+            {
+              "size": "auto",
+              "value": {
+                "value": "#/property/zones/lot"
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Lot"
+            },
+            {
+              "size": "auto",
+              "value": {
+                "value": "#/property/zones/ownerName",
+                "filters": [
+                  {
+                    "name": "capitalize",
+                    "args": [
+                      "nottwo"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Owner"
+            },
+            {
+              "value": "Data Source: NYC Government",
+              "medium": "all",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "title": "Building",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "size": "half",
+              "layer": [],
+              "value": {
+                "value": "#/property/currentUse",
+                "filters": [
+                  {
+                    "name": "fallback",
+                    "args": [
+                      "#/property/firstProp/currentUse"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://otr.cfo.dc.gov/",
+                "text": "OTR"
+              },
+              "key": "Property Use"
+            },
+            {
+              "size": "auto",
+              "value": {
+                "value": "#/property/cama/stories",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": []
+                  }
+                ]
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Floors"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/cama/grossBldgArea",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": [
+                      ""
+                    ]
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      " SF"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://otr.cfo.dc.gov/",
+                "text": "OTR"
+              },
+              "key": "Gross Building Area"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/cama/garageArea",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": []
+                  }
+                ]
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Garage Area"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/yrBuilt"
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Year Built"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/yrRemodeled",
+                "filters": [
+                  {
+                    "name": "cleanList",
+                    "args": [
+                      "0"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Year Remodeled"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/cama/numBldgs"
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "No. of Buildings"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/cama/numUnits"
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "No. of Units"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/cama/numUnitRes"
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Residential Units"
+            }
+          ]
+        },
+        {
+          "title": "Assessments",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "size": "half",
+              "value": {
+                "value": "#/property/newTotalValue",
+                "filters": [
+                  {
+                    "name": "nfcurrency",
+                    "args": []
+                  }
+                ]
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://otr.cfo.dc.gov/",
+                "text": "OTR"
+              },
+              "key": "Total Assessment"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/newLandValue",
+                "filters": [
+                  {
+                    "name": "nfcurrency",
+                    "args": []
+                  }
+                ]
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://otr.cfo.dc.gov/",
+                "text": "OTR"
+              },
+              "key": "Land Assessment"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/newImprValue",
+                "filters": [
+                  {
+                    "name": "nfcurrency",
+                    "args": []
+                  }
+                ]
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://otr.cfo.dc.gov/",
+                "text": "OTR"
+              },
+              "key": "Improvement Assessment"
+            }
+          ]
+        },
+        {
+          "title": "Zoning",
+          "collapsible": false,
+          "printWidth": "half",
+          "medium": "all",
+          "type": "subsection",
+          "children": [
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/zoning/zoningDistricts",
+                "filters": [
+                  {
+                    "name": "cleanList",
+                    "args": []
+                  },
+                  {
+                    "name": "fallback",
+                    "args": [
+                      "None"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Zoning District(s)"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/zoning/residentialMaxFar"
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Residential FAR"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/zoning/commercialMaxFar"
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Commercial FAR"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/zoning/facilityMaxFar"
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Facility FAR"
+            }
+          ]
+        },
+        {
+          "title": "Uses",
+          "collapsible": false,
+          "printWidth": "half",
+          "medium": "all",
+          "type": "subsection",
+          "children": [
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/zones/grossBldgArea",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": []
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      " SF"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Gross Building Area"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/zones/residentialArea",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": []
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      " SF"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Residential Area"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/zones/commercialArea",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": []
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      " SF"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Commercial Area"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/zones/officeArea",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": []
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      " SF"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Office Area"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/zones/retailArea",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": []
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      " SF"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Retail Area"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/zones/healthArea",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": []
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      " SF"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Health Area"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/zones/factoryArea",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": []
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      " SF"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Factory Area"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/zones/otherArea",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": []
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      " SF"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Other Area"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
