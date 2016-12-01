@@ -98,6 +98,7 @@
             "url": "//a.tiles.mapbox.com/v3/zooombear.k0k5jei3",
             "fileExtension": "jpg",
             "maximumLevel": 17,
+            "hide": ["US36_51000"],
             "credit": {
                 "imageUrl": "",
                 "link": "",
