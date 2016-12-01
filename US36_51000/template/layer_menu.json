@@ -823,14 +823,14 @@
                     "func4": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_SMIA"
+                            "param1": "ny_PMAZ"
                         },
                         "service": "tileMapServiceService"
                     },
                     "func5": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_PMAZ"
+                            "param1": "ny_SMIA"
                         },
                         "service": "tileMapServiceService"
                     },
@@ -872,14 +872,14 @@
                     "func4": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_SMIA"
+                            "param1": "ny_PMAZ"
                         },
                         "service": "tileMapServiceService"
                     },
                     "func5": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_PMAZ"
+                            "param1": "ny_SMIA"
                         },
                         "service": "tileMapServiceService"
                     },
