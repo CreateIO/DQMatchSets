@@ -321,6 +321,27 @@
     "required": ["columns", "rows"],
     "dynamic": ["rows.items.items.source"]
   },
+  "table-variable": {
+    "name": "Table (Variable)",
+    "description": "Table with dynamic columns and rows.",
+    "properties": {
+      "source": {
+        "title": "Source",
+        "description": "Source of table data. Should be an array of arrays, where the first array is the table header, and all subsequent arrays are rows.",
+        "type": "object"
+      },
+      "footnotes": {
+        "title": "Footnotes",
+        "description": "Table footnotes.",
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": ["source"],
+    "dynamic": ["source"]
+  },
   "walkscore": {
     "name": "Walk Score",
     "description": "Embedded Walk Score ratings."
