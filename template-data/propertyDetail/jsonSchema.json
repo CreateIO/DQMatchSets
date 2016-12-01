@@ -106,34 +106,6 @@
         "enum": ["auto", "quarter", "half", "full"],
         "default": "auto"
       },
-      "style": {
-        "title": "Text Style",
-        "description": "Size of the value text.",
-        "type": "string",
-        "enum": ["default", "large"],
-        "default": "default"
-      },
-      "source": {
-        "title": "Source",
-        "type": "object",
-        "properties": {
-          "link": {
-            "title": "Source Link URL",
-            "description": "URL for source link.",
-            "type": "string"
-          },
-          "text": {
-            "title": "Source Link Text",
-            "description": "Text for source link.",
-            "type": "string"
-          },
-          "lastUpdate": {
-            "title": "Last Update",
-            "description": "Time source was last updated.",
-            "type": "number"
-          }
-        }
-      },
       "link": {
         "type": "object",
         "properties": {
@@ -201,34 +173,6 @@
         "type": "string",
         "enum": ["auto", "quarter", "half", "full"],
         "default": "auto"
-      },
-      "style": {
-        "title": "Text Style",
-        "description": "Size of the value text.",
-        "type": "string",
-        "enum": ["default", "large"],
-        "default": "default"
-      },
-      "source": {
-        "title": "Source",
-        "type": "object",
-        "properties": {
-          "link": {
-            "title": "Source Link URL",
-            "description": "URL for source link.",
-            "type": "string"
-          },
-          "text": {
-            "title": "Source Link Text",
-            "description": "Text for source link.",
-            "type": "string"
-          },
-          "lastUpdate": {
-            "title": "Last Update",
-            "description": "Time source was last updated.",
-            "type": "number"
-          }
-        }
       },
       "link": {
         "type": "object",
