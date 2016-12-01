@@ -7746,7 +7746,7 @@
           "type": "subsection",
           "children": [
             {
-              "contents": "<div id=\"rate-table-with-graph-iframe-widget-container\">   <iframe delay-src=\"https://www.zillow.com/webtools/widgets/RateTableAndGraphDistributionWidget.htm?mp=RD-FLNVMXZ&\" width=\"330\" style=\"display: block; font-family: arial, sans-serif;\" height=\"325\" frameborder=\"0\" scrolling=\"no\"></iframe> </div>",
+              "contents": "<div id=\"rate-table-with-graph-iframe-widget-container\">   <iframe src=\"https://www.zillow.com/webtools/widgets/RateTableAndGraphDistributionWidget.htm?mp=RD-FLNVMXZ&\" width=\"330\" style=\"display: block; font-family: arial, sans-serif;\" height=\"325\" frameborder=\"0\" scrolling=\"no\"></iframe> </div>",
               "type": "html"
             }
           ]
