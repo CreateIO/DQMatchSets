@@ -790,6 +790,157 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
+        "Waterfront Revitalization Program": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Waterfront Revitalization Program",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_CZB"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SNWA"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func3": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_ESMIA"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func4": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SMIA"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func5": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_PMAZ"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func6": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_REC"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Waterfront Revitalization Program (WRP)'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_CZB"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SNWA"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func3": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_ESMIA"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func4": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SMIA"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func5": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_PMAZ"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func6": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_REC"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "The New York City Waterfront Revitalization Program (WRP) is the city's principal coastal zone management tool. It establishes the City's policies for development and use of the waterfront. Most City, State and Federal discretionary actions in the Coastal Zone must be reviewed for consistency with these policies.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Recognized Ecological Complexes (REC)",
+                        "boxStyle": "background:#ffffff; border: 1px solid #24598f",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Priority Marine Activity Zones (PMAZ)",
+                        "boxStyle": "background:#8275b4; border-radius: 15px; border: 1px solid #534b74",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Significant Maritime & Industrial Areas (SMIA)",
+                        "boxStyle": "background:#a4d51c; border: 1px solid #709213",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "Environmental Significant Maritime & !ndustrial Areas (ESMIA)",
+                        "boxStyle": "background:#a7cff8; border: 1px solid #3288bd",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "Special Natural Waterfront Areas (SNWA)",
+                        "boxStyle": "background:#57afaa; border: 1px solid #3b7773",
+                        "imageUrl": null
+                    },
+                    "item6": {
+                        "boxDescription": "Coastal Zone Boundary (CZB)",
+                        "boxStyle": "background:#6bbed0; border: 1px solid #29739d",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Open Data",
+                "sourceURL": "https://data.cityofnewyork.us/",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse3",
+            "mouseoverName": "Waterfront Revitalization Program",
+            "order": 0,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
         "Hurricane Evacuation Zones": {
             "category": "6",
             "denyList": {
