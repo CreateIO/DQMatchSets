@@ -54,7 +54,7 @@
             "mouseoverName": "Available Retail Sites (WDCEP)",
             "order": 1,
             "subCategory": "1",
-            "urlLegend": "",
+            "urlLegend": "../../legends/layerLegendRetailSitePoints.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/RSL.png"
         },
         "Business Improvement Districts": {
@@ -1880,335 +1880,349 @@
             "urlLegend": "../../legends/template-color-ramp.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ODH.png"
         },
-        "Overlays - Government & Diplomatic": {
-            "category": "1",
-            "colors": {
-                "hex": {
-                    "hex1": "#E85862"
-                },
-                "type": "single"
-            },
+        "Overlays - Arts": {
+            "category": "6",
             "denyList": {
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "Gov't & Diplomatic",
+            "displayName": "Overlays - Arts",
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "functionName": "addLayer",
+                        "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "overlay-govt-diplo"
+                            "param1": "dc_OverlayArts"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     }
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Data: Overlays - Government & Diplomatic'"
+                        "param1": "'DC Data: Overlay Arts'"
                     }
                 },
                 "removeFunctions": {
                     "func1": {
-                        "functionName": "removeLayer",
+                        "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "overlay-govt-diplo"
+                            "param1": "dc_OverlayArts"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     }
                 }
             },
             "hasLegend": true,
-            "id": 19,
+            "id": 6,
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Government and diplomatic overlay zones have special requirements related to historic preservation, density, and use restrictions.",
+                "description": "Arts overlay zonies.",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Government",
-                        "boxStyle": "background:#E85862",
+                        "boxDescription": "Overlay - Arts",
+                        "boxStyle": "background:#8a69ae",
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "DCOZ",
-                "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
+                "sourceDescription": "DC Open Data",
+                "sourceURL": "http://opendata.dc.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "",
+            "mouseoverName": "Overlays - Arts",
+            "order": 1,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/ART.png"
+        },
+        "Overlays - Government & Diplomatic": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Overlays - Government & Diplomatic",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_OverlayGovDiplomatic"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'DC Data: Public Schools'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_OverlayGovDiplomatic"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Click map polygons for more details.<br><br>Government and diplomatic overlay zones have special requirements related to historic preservation, density, and use restrictions.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Government",
+                        "boxStyle": "background:#2977c0",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "DC Open Data",
+                "sourceURL": "http://opendata.dc.gov/",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
-            "mouseoverName": "Overlays - Government & Diplomatic",
+            "mouseoverName": "Overlays - Government Diplomatic",
             "order": 2,
-            "subCategory": "2",
+            "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/GD.png"
         },
         "Overlays - Hotels": {
-            "category": "1",
-            "colors": {
-                "hex": {
-                    "hex1": "#A55D61",
-                    "hex2": "#FFAAD4"
-                },
-                "type": "multi"
-            },
+            "category": "6",
             "denyList": {
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "Hotels",
+            "displayName": "Overlays - Hotels",
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "functionName": "addLayer",
+                        "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "overlay-hotel"
+                            "param1": "dc_OverlayHotelResIncentive"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     }
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Data: Overlays - Hotels'"
+                        "param1": "'DC Data: Overlay Hotels'"
                     }
                 },
                 "removeFunctions": {
                     "func1": {
-                        "functionName": "removeLayer",
+                        "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "overlay-hotel"
+                            "param1": "dc_OverlayHotelResIncentive"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     }
                 }
             },
             "hasLegend": true,
-            "id": 23,
+            "id": 6,
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Hotel incentive and housing priority overlay zones encourage downtown lodging and residential development.",
+                "description": "Click map polygons for more details.<br><br>Hotel incentive and housing priority overlay zones encourage downtown lodging and residential development.",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Housing Priority Areas",
-                        "boxStyle": "background:#A55D61",
+                        "boxDescription": "Hotel & Residential Incentive Areas",
+                        "boxStyle": "background:#f28408",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "Hotel & Residential Incentive Areas",
-                        "boxStyle": "background:#FFAAD4",
+                        "boxDescription": "Housing Priority Areas",
+                        "boxStyle": "background:#f4b984",
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "DCOZ",
-                "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
+                "sourceDescription": "DC Open Data",
+                "sourceURL": "http://opendata.dc.gov/",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Overlays - Hotels",
             "order": 3,
-            "subCategory": "2",
+            "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/HTL.png"
         },
         "Overlays - Mixed Use": {
-            "category": "1",
-            "colors": {
-                "hex": {
-                    "hex1": "#D2B953"
-                },
-                "type": "single"
-            },
+            "category": "6",
             "denyList": {
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "Mixed Use",
+            "displayName": "Overlays - Mixed Use",
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "functionName": "addLayer",
+                        "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "overlay-mixed-used"
+                            "param1": "dc_OverlayMixedUse"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     }
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Data: Overlays - Mixed Use'"
+                        "param1": "'DC Data: Overlays - Mixed Use'"
                     }
                 },
                 "removeFunctions": {
                     "func1": {
-                        "functionName": "removeLayer",
+                        "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "overlay-mixed-used"
+                            "param1": "dc_OverlayMixedUse"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     }
                 }
             },
             "hasLegend": true,
-            "id": 22,
+            "id": 6,
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Downtown mixed-use development overlay zones encourage high-density mixed-use development goals for downtown commercial districts.",
+                "description": "Click map polygons for more details.<br><br>Downtown mixed-use development overlay zones encourage high-density mixed-use development for downtown commercial districts.",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Downtown Mixed Use Development",
-                        "boxStyle": "background:#D2B953",
+                        "boxDescription": "Downtown and mixed use development.",
+                        "boxStyle": "background:#f7ea65",
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "DCOZ",
-                "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
+                "sourceDescription": "DC Open Data",
+                "sourceURL": "http://opendata.dc.gov/",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Overlays - Mixed Use",
             "order": 4,
-            "subCategory": "2",
+            "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/DT.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/MU.png"
         },
         "Overlays - Neighborhood Commercial": {
-            "category": "1",
-            "colors": {
-                "hex": {
-                    "hex1": "#86C3D9"
-                },
-                "type": "single"
-            },
+            "category": "6",
             "denyList": {
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "Neighborhood Commercial",
+            "displayName": "Overlays - Neighborhood Commercial",
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "functionName": "addLayer",
+                        "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "overlay-neigh-commercial"
+                            "param1": "dc_OverlayNeighborhoodCommercial"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     }
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Data: Overlays - Neighborhood Commercial'"
+                        "param1": "'DC Data: Overlays - Neighborhood/Commercial'"
                     }
                 },
                 "removeFunctions": {
                     "func1": {
-                        "functionName": "removeLayer",
+                        "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "overlay-neigh-commercial"
+                            "param1": "dc_OverlayNeighborhoodCommercial"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     }
                 }
             },
             "hasLegend": true,
-            "id": 21,
+            "id": 6,
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Neighborhood commercial overlay zones establish pedestrian and mixed use development goals specific to each neighborhood.",
+                "description": "Click map polygons for more details.<br><br>Neighborhood commercial overlay zones establish pedestrian and mixed use development goals specific to each neighborhood.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Neighborhood Commercial",
-                        "boxStyle": "background:#86C3D9",
+                        "boxStyle": "background:#34bcdf",
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "DCOZ",
-                "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
+                "sourceDescription": "DC Open Data",
+                "sourceURL": "http://opendata.dc.gov/",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Overlays - Neighborhood Commercial",
             "order": 5,
-            "subCategory": "2",
+            "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/NC.png"
         },
         "Overlays - Open Space": {
-            "category": "1",
-            "colors": {
-                "hex": {
-                    "hex1": "#398D54",
-                    "hex2": "#8F5183"
-                },
-                "type": "multi"
-            },
+            "category": "6",
             "denyList": {
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "Open Space",
+            "displayName": "Overlays - Open Space",
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "functionName": "addLayer",
+                        "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "overlay-open-space"
+                            "param1": "dc_OverlayOpenSpace"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     }
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Data: Overlays - Open Space'"
+                        "param1": "'DC Data: Overlays - Open Space'"
                     }
                 },
                 "removeFunctions": {
                     "func1": {
-                        "functionName": "removeLayer",
+                        "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "overlay-open-space"
+                            "param1": "dc_OverlayOpenSpace"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     }
                 }
             },
             "hasLegend": true,
-            "id": 20,
+            "id": 6,
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Neighborhood and open space preservation overlays zones aim to preserve and enhance low-rise residential neighborhoods and natural areas.",
+                "description": "Click map polygons for more details.<br><br>Neighborhood and open space preservation overlay zones aim to preserve and enhance low-rise residential neighborhoods and natural areas.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Preservation - Nature",
-                        "boxStyle": "background:#398D54",
+                        "boxStyle": "background:#a0d5a2",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "Residential Neighborhood",
-                        "boxStyle": "background:#8F5183",
+                        "boxDescription": "Residential Neighborhood Preservation",
+                        "boxStyle": "background:#b4e569",
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "DCOZ",
-                "sourceURL": "http://dcoz.dc.gov/info/overlay.shtm",
+                "sourceDescription": "DC Open Data",
+                "sourceURL": "http://opendata.dc.gov/",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Overlays - Open Space",
             "order": 6,
-            "subCategory": "2",
+            "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/NOS.png"
         },
@@ -3766,7 +3780,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "WDCEP1",
-            "mouseoverName": "WDCEP - Chipotle/Shophouse Locations",
+            "mouseoverName": "WDCEP - Chipotle/Shophouse",
             "order": 3,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
@@ -4239,20 +4253,21 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "functionName": "addLayer",
+                        "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "zoning"
+                            "param1": "dc_zoning"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     },
                     "func2": {
-                        "functionName": "addSingleTMSLayer",
+                        "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "zoningLayer"
+                            "param1": "dc_ZoningLabelPoints"
                         },
                         "service": "tileMapServiceService"
                     }
+
+
                 },
                 "emits": {
                     "emit1": {
@@ -4269,17 +4284,16 @@
                 },
                 "removeFunctions": {
                     "func1": {
-                        "functionName": "removeLayer",
+                        "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "zoning"
+                            "param1": "dc_zoning"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     },
                     "func2": {
-                        "functionName": "removeSingleTMSLayer",
+                        "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "zoningLayer"
+                            "param1": "dc_ZoningLabelPoints"
                         },
                         "service": "tileMapServiceService"
                     }

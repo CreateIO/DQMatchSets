@@ -1,0 +1,5114 @@
+{
+  "$template": "propertyDetail",
+  "items": [
+    {
+      "title": "Property",
+      "type": "section",
+      "icon": "navProperty",
+      "children": [
+        {
+          "title": "Street View",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "type": "streetview"
+            }
+          ]
+        },
+        {
+          "title": "Details",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "size": "full",
+              "value": {
+                "value": "#/property/bestAddress"
+              },
+              "type": "keyvalue",
+              "invisible": true,
+              "key": "Address"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/ssl"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://octo.dc.gov/",
+                "text": "OCTO"
+              },
+              "key": "Square Suffix Lot"
+            },
+            {
+              "size": "quarter",
+              "layer": [
+                "Zoning"
+              ],
+              "value": {
+                "value": "#/property/zoningDistrict"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://opendata.dc.gov/",
+                "text": "OZ"
+              },
+              "key": "Zoning District"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/firstProp/core/resNbhdName"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://dcra.dc.gov/",
+                "text": "DCRA"
+              },
+              "key": "Neighborhood"
+            },
+            {
+              "size": "quarter",
+              "values": [
+                {
+                  "value": "#/property/latitude",
+                  "filters": [
+                    {
+                      "name": "number",
+                      "args": [
+                        "3"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "value": "#/property/longitude",
+                  "filters": [
+                    {
+                      "name": "number",
+                      "args": [
+                        "3"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "style": "default",
+              "format": "{0}/{1}",
+              "type": "keyvalue-complex",
+              "link": {},
+              "source": {},
+              "key": "Lat/Long"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/property/firstProp/cityInfo/submarketCommercialNbhd"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://planning.dc.gov/",
+                "text": "OP"
+              },
+              "key": "Commercial District"
+            },
+            {
+              "size": "quarter",
+              "values": [
+                {
+                  "value": "#/property/lotSize",
+                  "filters": [
+                    {
+                      "name": "fallback",
+                      "args": [
+                        "#/property/firstProp/cama/lotSize"
+                      ]
+                    },
+                    {
+                      "name": "number",
+                      "args": []
+                    }
+                  ]
+                },
+                {
+                  "value": "#/property/lotSize",
+                  "filters": [
+                    {
+                      "name": "fallback",
+                      "args": [
+                        "#/property/firstProp/cama/lotSize"
+                      ]
+                    },
+                    {
+                      "name": "math",
+                      "args": [
+                        "/",
+                        "42560"
+                      ]
+                    },
+                    {
+                      "name": "number",
+                      "args": [
+                        "2"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "style": "default",
+              "format": "{0} SF / {1} Acres",
+              "type": "keyvalue-complex",
+              "link": {},
+              "source": {
+                "link": "http://otr.cfo.dc.gov/",
+                "text": "OTR"
+              },
+              "key": "Land Area"
+            },
+            {
+              "size": "quarter",
+              "values": [
+                {
+                  "value": "#/property/ward",
+                  "filters": [
+                    {
+                      "name": "fallback",
+                      "args": [
+                        "#/property/firstProp/ward"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "value": "#/property/anc",
+                  "filters": [
+                    {
+                      "name": "fallback",
+                      "args": [
+                        "#/property/firstProp/anc"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "value": "#/property/smd",
+                  "filters": [
+                    {
+                      "name": "fallback",
+                      "args": [
+                        "#/property/firstProp/smd"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "layer": [
+                "SMD/ANC"
+              ],
+              "style": "default",
+              "format": "WARD {0} ANC {1} SMD {2}",
+              "type": "keyvalue-complex",
+              "link": {},
+              "source": {
+                "link": "http://planning.dc.gov/",
+                "text": "OP"
+              },
+              "key": "Jurisdiction"
+            },
+            {
+              "size": "half",
+              "values": [
+                {
+                  "value": "#/property/bookNumber"
+                },
+                {
+                  "value": "#/property/pageNumber"
+                }
+              ],
+              "style": "default",
+              "format": "{0}, {1}",
+              "type": "keyvalue-complex",
+              "link": {},
+              "source": {
+                "link": "http://dcra.dc.gov/",
+                "text": "DCRA"
+              },
+              "key": "Book No., Page No."
+            },
+            {
+              "size": "half",
+              "layer": [
+                "Property Use Types"
+              ],
+              "value": {
+                "value": "#/property/currentUse"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://otr.cfo.dc.gov/",
+                "text": "OTR"
+              },
+              "key": "Property Use"
+            },
+            {
+              "size": "full",
+              "values": [
+                {
+                  "value": "#/property/ownerName",
+                  "filters": [
+                    {
+                      "name": "capitalize",
+                      "args": [
+                        "nottwo"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "value": "#/property/ownerAddress",
+                  "filters": [
+                    {
+                      "name": "capitalize",
+                      "args": [
+                        "nottwo"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "value": "#/property/ownerCityStZip",
+                  "filters": [
+                    {
+                      "name": "capitalize",
+                      "args": [
+                        "nottwo"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "style": "default",
+              "format": "{0}<br>{1}<br>{2}",
+              "type": "keyvalue-complex",
+              "link": {
+                "link": ""
+              },
+              "source": {
+                "link": "http://otr.cfo.dc.gov/",
+                "text": "OTR"
+              },
+              "restrict": "lhs.owner",
+              "key": "Owner"
+            },
+            {
+              "value": "Data Source: DC Government",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "title": "Building",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "size": "half",
+              "layer": [
+                "Property Types"
+              ],
+              "value": {
+                "value": "#/property/currentUse",
+                "filters": [
+                  {
+                    "name": "fallback",
+                    "args": [
+                      "#/property/firstProp/currentUse"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://otr.cfo.dc.gov/",
+                "text": "OTR"
+              },
+              "key": "Building Use"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/property/currentSize",
+                "filters": [
+                  {
+                    "name": "append",
+                    "args": [
+                      " SF"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://otr.cfo.dc.gov/",
+                "text": "OTR"
+              },
+              "key": "Gross Building Area"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/firstProp/yearBuilt"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Year Built"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/firstProp/yearRemodeled"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Year Remodeled"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/firstProp/price",
+                "filters": [
+                  {
+                    "name": "nfcurrency",
+                    "args": []
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Last Sale Price"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/firstProp/cama/saledate",
+                "filters": [
+                  {
+                    "name": "date",
+                    "args": [
+                      "MM/dd/yyyy"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Last Sale Date"
+            }
+          ]
+        },
+        {
+          "title": "Assessments",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "size": "full",
+              "value": {
+                "value": "#/property/newImprValue",
+                "filters": [
+                  {
+                    "name": "nfcurrency",
+                    "args": []
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://otr.cfo.dc.gov/",
+                "text": "OTR"
+              },
+              "key": "Improvement"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/property/newLandValue",
+                "filters": [
+                  {
+                    "name": "nfcurrency",
+                    "args": []
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://otr.cfo.dc.gov/",
+                "text": "OTR"
+              },
+              "key": "Land"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/property/newTotalValue",
+                "filters": [
+                  {
+                    "name": "nfcurrency",
+                    "args": []
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://otr.cfo.dc.gov/",
+                "text": "OTR"
+              },
+              "key": "Total"
+            }
+          ]
+        },
+        {
+          "title": "Residential Details",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "size": "full",
+              "value": {
+                "value": "#/property/numUnits"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://otr.cfo.dc.gov/",
+                "text": "OTR"
+              },
+              "key": "Units in Structure"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/numRooms"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://otr.cfo.dc.gov/",
+                "text": "OTR"
+              },
+              "key": "Rooms"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/numBedrooms"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://otr.cfo.dc.gov/",
+                "text": "OTR"
+              },
+              "key": "Bedrooms"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/firstProp/cama/numBathrooms"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "",
+                "text": ""
+              },
+              "key": "Bathrooms"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/property/cama/numHfBathrooms"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://dcra.dc.gov/page/permits-codes-zoning",
+                "text": "DCRA"
+              },
+              "key": "Half Bathrooms"
+            }
+          ]
+        },
+        {
+          "title": "Recent Permits",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "source": {
+                "value": "#/property/permits"
+              },
+              "name": "Permits",
+              "itemId": "permit_type_name",
+              "fallback": "No recent permits to show.",
+              "children": [
+                {
+                  "type": "keyvalue",
+                  "key": "Issue Date",
+                  "value": {
+                    "value": "issue_date",
+                    "filters": [
+                      {
+                        "name": "date",
+                        "args": [
+                          "yyyy-MM-dd"
+                        ]
+                      }
+                    ]
+                  },
+                  "size": "quarter"
+                },
+                {
+                  "type": "keyvalue",
+                  "key": "Permit Type",
+                  "value": {
+                    "value": "permit_type_name",
+                    "filters": [
+                      {
+                        "name": "capitalize",
+                        "args": [
+                          "nottwo"
+                        ]
+                      }
+                    ]
+                  },
+                  "size": "quarter"
+                },
+                {
+                  "type": "keyvalue",
+                  "key": "Zoning",
+                  "value": {
+                    "value": "#/property/zoningDistrict"
+                  },
+                  "size": "half"
+                },
+                {
+                  "type": "keyvalue",
+                  "key": "Permit Category",
+                  "value": {
+                    "value": "permit_category_name",
+                    "filters": [
+                      {
+                        "name": "capitalize",
+                        "args": [
+                          "nottwo"
+                        ]
+                      }
+                    ]
+                  },
+                  "size": "half"
+                },
+                {
+                  "type": "keyvalue",
+                  "key": "Permit Subtype",
+                  "value": {
+                    "value": "permit_subtype_name",
+                    "filters": [
+                      {
+                        "name": "capitalize",
+                        "args": [
+                          "nottwo"
+                        ]
+                      }
+                    ]
+                  },
+                  "size": "half"
+                },
+                {
+                  "type": "keyvalue",
+                  "key": "Full Address",
+                  "value": {
+                    "value": "full_address",
+                    "filters": [
+                      {
+                        "name": "capitalize",
+                        "args": [
+                          "nottwo"
+                        ]
+                      }
+                    ]
+                  },
+                  "size": "half"
+                },
+                {
+                  "type": "keyvalue",
+                  "key": "Permit Applicant",
+                  "value": {
+                    "value": "permit_applicant",
+                    "filters": [
+                      {
+                        "name": "capitalize",
+                        "args": [
+                          "nottwo"
+                        ]
+                      }
+                    ]
+                  },
+                  "size": "half"
+                },
+                {
+                  "type": "keyvalue",
+                  "key": "Description of Work",
+                  "value": {
+                    "value": "desc_of_work"
+                  },
+                  "size": "full"
+                }
+              ],
+              "type": "collection"
+            }
+          ]
+        },
+        {
+          "title": "Structure",
+          "collapsible": true,
+          "type": "subsection",
+          "flags": ["array"],
+          "children": [
+            {
+              "size": "auto",
+              "value": {
+                "value": "#/property/firstProp/styleDesc"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Style"
+            },
+            {
+              "key": "",
+              "value": {},
+              "type": "keyvalue"
+            }
+          ]
+        },
+        {
+          "title": "Medical Facility Info",
+          "collapsible": true,
+          "type": "subsection",
+          "flags": ["array"],
+          "children": [
+            {
+              "size": "full",
+              "value": {
+                "value": "#/arrayData/name"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Facility Name"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/property/bestAddress"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Address"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/arrayData/hq_phone"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Phone"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/arrayData/website"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Website"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/arrayData/number_employees",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": [
+                      "0"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Number of Employees"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/arrayData/number_affiliated_physicians",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": [
+                      "0"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Number of Affiliated Positions"
+            }
+          ]
+        },
+        {
+          "title": "CBSA Population Growth",
+          "collapsible": true,
+          "type": "subsection",
+          "flags": ["array"],
+          "children": [
+            {
+              "size": "half",
+              "value": {
+                "value": "#/arrayData/cbsa_population_est_most_recent",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": [
+                      "0"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "CBSA Population Most Recent"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/arrayData/cbsa_population_growth_most_recent",
+                "filters": [
+                  {
+                    "name": "stripChars",
+                    "args": [
+                      "(",
+                      ")"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "CBSA Population Growth"
+            }
+          ]
+        },
+        {
+          "title": "Revenues",
+          "collapsible": true,
+          "type": "subsection",
+          "flags": ["array"],
+          "children": [
+            {
+              "size": "full",
+              "value": {
+                "value": "#/arrayData/tot_patient_revenue",
+                "filters": [
+                  {
+                    "name": "nfcurrency",
+                    "args": []
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Total Patient Revenue"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/arrayData/net_patient_revenue",
+                "filters": [
+                  {
+                    "name": "nfcurrency",
+                    "args": []
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Net Patient Revenue"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/arrayData/net_medicare_revenue",
+                "filters": [
+                  {
+                    "name": "nfcurrency",
+                    "args": []
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Net Patient Revenue Medicare"
+            },
+            {
+              "size": "auto",
+              "value": {
+                "value": "#/arrayData/net_medicaid_revenue",
+                "filters": [
+                  {
+                    "name": "nfcurrency",
+                    "args": []
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Net Patient Revenue Medicaid"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/arrayData/pct_revenues_medicare",
+                "filters": [
+                  {
+                    "name": "math",
+                    "args": [
+                      "*",
+                      "100"
+                    ]
+                  },
+                  {
+                    "name": "number",
+                    "args": [
+                      "2"
+                    ]
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      "%"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Revenues Private %"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/arrayData/pct_revenues_medicaid",
+                "filters": [
+                  {
+                    "name": "math",
+                    "args": [
+                      "*",
+                      "100"
+                    ]
+                  },
+                  {
+                    "name": "number",
+                    "args": [
+                      "2"
+                    ]
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      "%"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Revenues Medicare %"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/arrayData/pct_revenues_private",
+                "filters": [
+                  {
+                    "name": "math",
+                    "args": [
+                      "*",
+                      "100"
+                    ]
+                  },
+                  {
+                    "name": "number",
+                    "args": [
+                      "2"
+                    ]
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      "%"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Revenues Medicaid %"
+            }
+          ]
+        },
+        {
+          "title": "Case Mix Index",
+          "collapsible": true,
+          "type": "subsection",
+          "flags": ["array"],
+          "children": [
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/arrayData/cmi",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": [
+                      "2"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "CMI"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/arrayData/cmi_med",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": [
+                      "2"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "CMI Medical"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/arrayData/cmi_surg",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": [
+                      "2"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "CMI Surgical"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/arrayData/number_discharges",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": [
+                      "0"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Number of Discharges"
+            }
+          ]
+        },
+        {
+          "title": "Ratings",
+          "collapsible": true,
+          "type": "subsection",
+          "flags": ["array"],
+          "children": [
+            {
+              "size": "half",
+              "value": {
+                "value": "#/arrayData/patients_rate_9_10",
+                "filters": [
+                  {
+                    "name": "math",
+                    "args": [
+                      "*",
+                      "100"
+                    ]
+                  },
+                  {
+                    "name": "number",
+                    "args": [
+                      "1"
+                    ]
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      "%"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Patients Rating"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/arrayData/patients_rate_9_10_previous",
+                "filters": [
+                  {
+                    "name": "math",
+                    "args": [
+                      "*",
+                      "100"
+                    ]
+                  },
+                  {
+                    "name": "number",
+                    "args": [
+                      "1"
+                    ]
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      "%"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Previous Patient Rating"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/arrayData/patients_rate_9_10_change",
+                "filters": [
+                  {
+                    "name": "math",
+                    "args": [
+                      "*",
+                      "100"
+                    ]
+                  },
+                  {
+                    "name": "number",
+                    "args": [
+                      "1"
+                    ]
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      "%"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Patients Rating Change"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/arrayData/patients_rate_9_10_state_ave",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": [
+                      "1"
+                    ]
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      "%"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Patients Rating State Average"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/arrayData/patients_rate_9_10_nat_ave",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": [
+                      "1"
+                    ]
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      "%"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Patients Rating National Average"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/arrayData/patients_rate_9_10_percentile",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": [
+                      "1"
+                    ]
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      "%"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Patients Rating Percentile"
+            }
+          ]
+        },
+        {
+          "title": "HCAHP Scores",
+          "collapsible": true,
+          "type": "subsection",
+          "flags": ["array"],
+          "children": [
+            {
+              "size": "half",
+              "value": {
+                "value": "#/arrayData/patients_recommend_hospital",
+                "filters": [
+                  {
+                    "name": "math",
+                    "args": [
+                      "*",
+                      "100"
+                    ]
+                  },
+                  {
+                    "name": "number",
+                    "args": [
+                      "1"
+                    ]
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      "%"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Patients Recommended Hospital"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/arrayData/patients_recommend_hospital_previous",
+                "filters": [
+                  {
+                    "name": "math",
+                    "args": [
+                      "*",
+                      "100"
+                    ]
+                  },
+                  {
+                    "name": "number",
+                    "args": [
+                      "1"
+                    ]
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      "%"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Patients Recommend Hospital - Previous Period"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/arrayData/patients_recommend_hospital_change",
+                "filters": [
+                  {
+                    "name": "math",
+                    "args": [
+                      "*",
+                      "100"
+                    ]
+                  },
+                  {
+                    "name": "number",
+                    "args": [
+                      "1"
+                    ]
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      "%"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Patients Recommend Hospital - Change"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/arrayData/patients_recommend_hospital_percentile",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": [
+                      "1"
+                    ]
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      "%"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Patients Recommend Hospital - State Average"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/arrayData/patients_recommend_hospital_state_ave",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": [
+                      "1"
+                    ]
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      "%"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Patients Recommend Hospital - National Average"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "#/arrayData/patients_recommend_hospital_nat_ave",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": [
+                      "1"
+                    ]
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      "%"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Patients Recommend Hospital - Percentile"
+            }
+          ]
+        },
+        {
+          "title": "Tenants",
+          "collapsible": true,
+          "restrict": "tenants",
+          "type": "subsection",
+          "children": [
+            {
+              "source": {
+                "value": "#/property/spaces",
+                "filters": [
+                  {
+                    "name": "unique",
+                    "args": [
+                      "ig_name"
+                    ]
+                  },
+                  {
+                    "name": "withkey",
+                    "args": [
+                      "infogroup_id"
+                    ]
+                  }
+                ]
+              },
+              "name": "Tenants",
+              "itemId": "ig_name",
+              "placeholder": "No tenant data to show.",
+              "children": [
+                {
+                  "type": "keyvalue",
+                  "key": "Suite #",
+                  "value": {
+                    "value": "ig_suite"
+                  },
+                  "size": "quarter"
+                },
+                {
+                  "type": "keyvalue",
+                  "key": "Occupy SF",
+                  "value": {
+                    "value": "ig_square_footage_label"
+                  },
+                  "size": "half"
+                },
+                {
+                  "type": "keyvalue",
+                  "key": "Industry (NAICS)",
+                  "value": {
+                    "value": "ig_primary_naics_code_label"
+                  },
+                  "size": "half"
+                },
+                {
+                  "type": "keyvalue",
+                  "key": "# of Employees",
+                  "value": {
+                    "value": "ig_location_employee_size"
+                  },
+                  "size": "half"
+                },
+                {
+                  "type": "keyvalue",
+                  "key": "Cuisine",
+                  "value": {
+                    "value": "ig_cuisine_label"
+                  },
+                  "size": "quarter"
+                },
+                {
+                  "type": "keyvalue",
+                  "key": "Sales Volume",
+                  "value": {
+                    "value": "ig_number_of_school_students_label",
+                    "filters": [
+                      {
+                        "name": "currency",
+                        "args": [
+                          "$",
+                          "0"
+                        ]
+                      }
+                    ]
+                  },
+                  "size": "quarter"
+                },
+                {
+                  "type": "keyvalue",
+                  "key": "Expenses for Lease/Rent",
+                  "value": {
+                    "value": "ig_expense_rent_leasing_label"
+                  },
+                  "size": "half"
+                },
+                {
+                  "type": "keyvalue",
+                  "key": "Expenses for Utilities",
+                  "value": {
+                    "value": "ig_expense_utilities_label"
+                  },
+                  "size": "half"
+                },
+                {
+                  "type": "keyvalue",
+                  "key": "Contact",
+                  "value": {
+                    "value": "ig_first_name"
+                  },
+                  "size": "half"
+                },
+                {
+                  "type": "keyvalue",
+                  "key": "Phone #",
+                  "value": {
+                    "value": "ig_phone"
+                  },
+                  "size": "half"
+                },
+                {
+                  "type": "keyvalue",
+                  "key": "Website",
+                  "value": {
+                    "value": "ig_website"
+                  },
+                  "size": "half"
+                }
+              ],
+              "type": "collection"
+            }
+          ]
+        },
+        {
+          "title": "Zoning",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "size": "full",
+              "layer": [
+                "Zoning"
+              ],
+              "value": {
+                "value": "#/zdata/zoning"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Zoning Districts"
+            },
+            {
+              "size": "full",
+              "value": {
+                "value": "#/zdata/description"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Description"
+            }
+          ]
+        },
+        {
+          "title": "Height & Setbacks",
+          "collapsible": true,
+          "restrict": "lhs.z-heightset",
+          "type": "subsection",
+          "children": [
+            {
+              "columns": [
+                {
+                  "key": "parameters",
+                  "title": " "
+                },
+                {
+                  "key": "stories",
+                  "title": "Stories"
+                },
+                {
+                  "key": "maxheight",
+                  "title": "Max Height (ft)"
+                },
+                {
+                  "key": "sidesetback",
+                  "title": "Side Yard (ft)"
+                },
+                {
+                  "key": "rearsetback",
+                  "title": "Rear Yard (ft)"
+                }
+              ],
+              "source": {
+                "value": "#/zdata/uses"
+              },
+              "type": "table"
+            }
+          ]
+        },
+        {
+          "title": "Density & Lot Occupancy",
+          "collapsible": true,
+          "restrict": "lhs.z-density",
+          "type": "subsection",
+          "children": [
+            {
+              "columns": [
+                {
+                  "key": "parameters",
+                  "title": " "
+                },
+                {
+                  "key": "residentialfar",
+                  "title": "Residential FAR"
+                },
+                {
+                  "key": "nonresidentialfar",
+                  "title": "Non-residential FAR"
+                },
+                {
+                  "key": "maximumpermittedfar",
+                  "title": "Maximum Permitted FAR"
+                },
+                {
+                  "key": "maxlotoccupancy",
+                  "title": "Maximum Lot Occupancy (%)"
+                }
+              ],
+              "source": {
+                "value": "#/zdata/uses"
+              },
+              "type": "table"
+            }
+          ]
+        },
+        {
+          "title": "Historic Districts",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "source": {
+                "value": "#/nextLevel/histDist"
+              },
+              "name": "Historic Districts",
+              "itemId": "name",
+              "properties": [],
+              "fallback": "No Historic Districts apply.",
+              "type": "collection",
+              "children": [
+                {
+                  "size": "full",
+                  "layer": [
+                    "HD - Corridors",
+                    "HD - Institutions",
+                    "HD - Neighborhoods",
+                    "HD - Parks"
+                  ],
+                  "value": {
+                    "value": "description"
+                  },
+                  "style": "default",
+                  "type": "keyvalue",
+                  "link": {},
+                  "source": {
+                    "link": "http://planning.dc.gov/",
+                    "text": "OP"
+                  },
+                  "key": "Description"
+                },
+                {
+                  "size": "full",
+                  "values": [
+                    {
+                      "value": "mapLink"
+                    }
+                  ],
+                  "style": "default",
+                  "format": "<a href=\"{0}\">Historic District PDF</a>",
+                  "type": "keyvalue-complex",
+                  "link": {},
+                  "source": {},
+                  "key": "More Info"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Planning",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "size": "half",
+              "values": [
+                {
+                  "value": "#/property/currentUseCategory",
+                  "filters": [
+                    {
+                      "name": "fallback",
+                      "args": [
+                        "Unknown"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "value": "#/property/currentExpUse",
+                  "filters": [
+                    {
+                      "name": "fallback",
+                      "args": [
+                        "Unknown"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "layer": [
+                "Property Types"
+              ],
+              "style": "default",
+              "format": "{0} - {1}",
+              "type": "keyvalue-complex",
+              "link": {},
+              "source": {
+                "link": "http://otr.cfo.dc.gov/",
+                "text": "OTR"
+              },
+              "key": "Current Use"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/property/currentUseCode",
+                "filters": [
+                  {
+                    "name": "conformingUse"
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://otr.cfo.dc.gov/",
+                "text": "OTR"
+              },
+              "key": "Conforming Use"
+            },
+            {
+              "size": "half",
+              "layer": [
+                "Zoning"
+              ],
+              "value": {
+                "value": "#/property/zoningDistrict"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://opendata.dc.gov/",
+                "text": "OZ"
+              },
+              "key": "Zoning District"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/property/firstProp/compPlan",
+                "filters": [
+                  {
+                    "name": "capitalize",
+                    "args": []
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://planning.dc.gov/",
+                "text": "OP"
+              },
+              "key": "Comprehensive Plan"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/property/firstProp/downtownCompPlan"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://planning.dc.gov/",
+                "text": "OP"
+              },
+              "key": "Downtown Comprehensive Plan"
+            },
+            {
+              "size": "half",
+              "layer": [
+                "TDR"
+              ],
+              "value": {
+                "value": "#/property/firstProp/transferDevRights"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://dcoz.dc.gov/",
+                "text": "OZ"
+              },
+              "key": "Transfer of Development Rights"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/property/firstProp/revitalizationArea"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "District Revitalization Area"
+            },
+            {
+              "size": "half",
+              "layer": [
+                "PUD"
+              ],
+              "value": {
+                "value": "#/property/firstProp/pudName"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Planned Unit Developments (PUD)"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/property/firstProp/pudZoning"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "PUD Zoning"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/property/firstProp/pudStatus"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "PUD Status"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/property/firstProp/pudCaseN"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "PUD Case Number/Data"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/property/firstProp/cityInfo/greatStreets"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Great Streets Corridor"
+            }
+          ]
+        },
+        {
+          "title": "Incentive Eligibility",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "size": "half",
+              "layer": [
+                "BIDs"
+              ],
+              "value": {
+                "value": "#/property/firstProp/businessImproveDist"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://mayor.dc.gov/",
+                "text": "EOM"
+              },
+              "key": "Business Improvement District"
+            },
+            {
+              "size": "half",
+              "layer": [
+                "CEA"
+              ],
+              "value": {
+                "value": "#/property/firstProp/centralEmp",
+                "filters": [
+                  {
+                    "name": "yesno"
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://octo.dc.gov/",
+                "text": "OCTO"
+              },
+              "key": "Central Employment Area (Federal)"
+            },
+            {
+              "size": "half",
+              "layer": [
+                "WIC"
+              ],
+              "value": {
+                "value": "Yes"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://octo.dc.gov/",
+                "text": "OCTO"
+              },
+              "key": "DC Workforce Investment Council (WIC)"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/property/firstProp/taxIncrement",
+                "filters": [
+                  {
+                    "name": "yesno"
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://mayor.dc.gov/",
+                "text": "EOM"
+              },
+              "key": "Tax Increment Financing Zone"
+            },
+            {
+              "size": "half",
+              "layer": [
+                "Great Streets"
+              ],
+              "value": {
+                "value": "#/property/firstProp/greatStreets",
+                "filters": [
+                  {
+                    "name": "fallback",
+                    "args": [
+                      "No"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://octo.dc.gov/",
+                "text": "OCTO"
+              },
+              "key": "Great Streets"
+            },
+            {
+              "size": "half",
+              "layer": [
+                "HUBs"
+              ],
+              "value": {
+                "value": "#/property/firstProp/hub",
+                "filters": [
+                  {
+                    "name": "yesno"
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://planning.dc.gov/",
+                "text": "OP"
+              },
+              "key": "HUB Zone"
+            },
+            {
+              "size": "half",
+              "layer": [
+                "IRB"
+              ],
+              "value": {
+                "value": "Yes"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://octo.dc.gov/",
+                "text": "OCTO"
+              },
+              "key": "IRB-Tax Exempt Bond Financing"
+            },
+            {
+              "size": "auto",
+              "layer": [
+                "taxAbatement"
+              ],
+              "value": {
+                "value": "#/property/firstProp/nonprofitTaxAbate"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://octo.dc.gov/",
+                "text": "OCTO"
+              },
+              "key": "Nonprofit Tax Abatement"
+            },
+            {
+              "size": "half",
+              "layer": [
+                "HTDZ"
+              ],
+              "value": {
+                "value": "#/property/firstProp/techDevZone",
+                "filters": [
+                  {
+                    "name": "yesno"
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://mayor.dc.gov/",
+                "text": "EOM"
+              },
+              "key": "High Technology Development"
+            },
+            {
+              "size": "half",
+              "layer": [
+                "SMTCZ"
+              ],
+              "value": {
+                "value": "#/property/firstProp/supermarketTaxCredit",
+                "filters": [
+                  {
+                    "name": "yesno"
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://mayor.dc.gov/",
+                "text": "EOM"
+              },
+              "key": "Supermarket Tax Credit Zone"
+            },
+            {
+              "size": "half",
+              "value": {
+                "value": "#/property/firstProp/retailPriority",
+                "filters": [
+                  {
+                    "name": "yesno"
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {
+                "link": "http://octo.dc.gov/",
+                "text": "OCTO"
+              },
+              "key": "H Street NE Retail Priority Area"
+            }
+          ]
+        },
+        {
+          "title": "Transit",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "type": "walkscore"
+            },
+            {
+              "size": "half",
+              "icon": "train",
+              "values": [
+                {
+                  "value": "#/property/firstProp/distances/metroName"
+                },
+                {
+                  "value": "#/property/firstProp/distances/metroDist",
+                  "filters": [
+                    {
+                      "name": "math",
+                      "args": [
+                        "*",
+                        "0.000621371"
+                      ]
+                    },
+                    {
+                      "name": "number",
+                      "args": [
+                        "2"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "layer": [
+                "Metrorail"
+              ],
+              "style": "default",
+              "format": "{0}<br>{1} mi",
+              "type": "keyvalue-complex",
+              "link": {},
+              "source": {},
+              "key": "Nearest Metro Stop"
+            },
+            {
+              "size": "half",
+              "icon": "train",
+              "values": [
+                {
+                  "value": "#/property/firstProp/distances/metrobusRoutes"
+                },
+                {
+                  "value": "#/property/firstProp/distances/metrobusDist",
+                  "filters": [
+                    {
+                      "name": "math",
+                      "args": [
+                        "*",
+                        "0.000621371"
+                      ]
+                    },
+                    {
+                      "name": "number",
+                      "args": [
+                        "2"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "layer": [
+                "Metro Bus"
+              ],
+              "style": "default",
+              "format": "{0}<br>{1} mi",
+              "type": "keyvalue-complex",
+              "link": {},
+              "source": {},
+              "key": "Nearest Bus Route"
+            },
+            {
+              "size": "half",
+              "icon": "car",
+              "values": [
+                {
+                  "value": "#/property/firstProp/distances/zipcarLoc",
+                  "filters": [
+                    {
+                      "name": "capitalize",
+                      "args": [
+                        "nottwo"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "value": "#/property/firstProp/distances/zipcarDist",
+                  "filters": [
+                    {
+                      "name": "math",
+                      "args": [
+                        "*",
+                        "0.000621371"
+                      ]
+                    },
+                    {
+                      "name": "number",
+                      "args": [
+                        "2"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "style": "default",
+              "format": "{0}<br>{1} mi",
+              "type": "keyvalue-complex",
+              "link": {},
+              "source": {},
+              "key": "Nearest Zipcar Location"
+            },
+            {
+              "size": "half",
+              "icon": "bike",
+              "values": [
+                {
+                  "value": "#/property/firstProp/distances/bikeshareLoc"
+                },
+                {
+                  "value": "#/property/firstProp/distances/bikeshareDist",
+                  "filters": [
+                    {
+                      "name": "math",
+                      "args": [
+                        "*",
+                        "0.000621371"
+                      ]
+                    },
+                    {
+                      "name": "number",
+                      "args": [
+                        "2"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "style": "default",
+              "format": "{0}<br>{1} mi",
+              "type": "keyvalue-complex",
+              "link": {},
+              "source": {},
+              "key": "Nearest Bike Share Location"
+            }
+          ]
+        },
+        {
+          "title": "Commuting",
+          "collapsible": true,
+          "restrict": "lhs.commute",
+          "type": "subsection",
+          "children": [
+            {
+              "size": "full",
+              "value": {
+                "value": "#/property/census/commuteTimeMean",
+                "filters": [
+                  {
+                    "name": "number",
+                    "args": [
+                      "0"
+                    ]
+                  },
+                  {
+                    "name": "append",
+                    "args": [
+                      " minutes"
+                    ]
+                  }
+                ]
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Average Commute Time"
+            },
+            {
+              "twoDimensional": "false",
+              "vAxisTooltipLabel": "Number of Cars in Household",
+              "hAxis": "Percentage of Households",
+              "multiSeries": "false",
+              "vAxis": "Cars per Household",
+              "chartType": "HorizontalBar",
+              "title": "Cars per Household",
+              "fields": [
+                {
+                  "label": "0",
+                  "value": [
+                    "census",
+                    "vehicles0Pct"
+                  ]
+                },
+                {
+                  "label": "1",
+                  "value": [
+                    "census",
+                    "vehicles1Pct"
+                  ]
+                },
+                {
+                  "label": "2",
+                  "value": [
+                    "census",
+                    "vehicles2Pct"
+                  ]
+                },
+                {
+                  "label": "3+",
+                  "value": [
+                    "census",
+                    "vehicles3plusPct"
+                  ]
+                }
+              ],
+              "type": "chart",
+              "hAxisTooltipLabel": "Percent of Households",
+              "source": {
+                "value": "#/property"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Market",
+      "type": "section",
+      "icon": "navMarket",
+      "children": [
+        {
+          "title": "Demographics",
+          "collapsible": true,
+          "restrict": "esriDemog",
+          "type": "subsection",
+          "children": [
+            {
+              "type": "tab-group",
+              "children": [
+                {
+                  "title": "Census Tract",
+                  "type": "tab",
+                  "children": [
+                    {
+                      "columns": [
+                        "Census Tract: xxxx",
+                        "Tract",
+                        "Washington, DC"
+                      ],
+                      "rows": [
+                        [
+                          {
+                            "type": "static",
+                            "text": "Total Population",
+                            "source": {},
+                            "width": 1
+                          },
+                          {
+                            "type": "dynamic",
+                            "source": {
+                              "value": "#/property/census/population",
+                              "filters": [
+                                {
+                                  "name": "number",
+                                  "args": [
+                                    "0"
+                                  ]
+                                }
+                              ]
+                            },
+                            "width": 1
+                          },
+                          {
+                            "type": "static",
+                            "text": "619,371",
+                            "source": {},
+                            "width": 1
+                          }
+                        ],
+                        [
+                          {
+                            "type": "static",
+                            "text": "Median Age",
+                            "source": {},
+                            "width": 1
+                          },
+                          {
+                            "type": "dynamic",
+                            "source": {
+                              "value": "#/property/census/ageMedian",
+                              "filters": [
+                                {
+                                  "name": "number",
+                                  "args": [
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            "width": 1
+                          },
+                          {
+                            "type": "static",
+                            "text": "33.8",
+                            "source": {},
+                            "width": 1
+                          }
+                        ],
+                        [
+                          {
+                            "type": "static",
+                            "text": "Percent Male",
+                            "source": {},
+                            "width": 1
+                          },
+                          {
+                            "type": "dynamic",
+                            "source": {
+                              "value": "#/property/census/malePct",
+                              "filters": [
+                                {
+                                  "name": "number",
+                                  "args": [
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "name": "append",
+                                  "args": [
+                                    "%"
+                                  ]
+                                }
+                              ]
+                            },
+                            "width": 1
+                          },
+                          {
+                            "type": "static",
+                            "text": "47.3%",
+                            "source": {},
+                            "width": 1
+                          }
+                        ],
+                        [
+                          {
+                            "type": "static",
+                            "text": "Percent Female",
+                            "source": {},
+                            "width": 1
+                          },
+                          {
+                            "type": "dynamic",
+                            "source": {
+                              "value": "#/property/census/femalePct",
+                              "filters": [
+                                {
+                                  "name": "number",
+                                  "args": [
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "name": "append",
+                                  "args": [
+                                    "%"
+                                  ]
+                                }
+                              ]
+                            },
+                            "width": 1
+                          },
+                          {
+                            "type": "static",
+                            "text": "52.7%",
+                            "source": {},
+                            "width": 1
+                          }
+                        ],
+                        [
+                          {
+                            "type": "static",
+                            "text": "Total Households",
+                            "source": {},
+                            "width": 1
+                          },
+                          {
+                            "type": "dynamic",
+                            "source": {
+                              "value": "#/property/census/households",
+                              "filters": [
+                                {
+                                  "name": "number",
+                                  "args": [
+                                    "0"
+                                  ]
+                                }
+                              ]
+                            },
+                            "width": 1
+                          },
+                          {
+                            "type": "static",
+                            "text": "263,649",
+                            "source": {},
+                            "width": 1
+                          }
+                        ],
+                        [
+                          {
+                            "type": "static",
+                            "text": "Avg Household Size",
+                            "source": {},
+                            "width": 1
+                          },
+                          {
+                            "type": "dynamic",
+                            "source": {
+                              "value": "#/property/census/householdSize",
+                              "filters": [
+                                {
+                                  "name": "number",
+                                  "args": [
+                                    "2"
+                                  ]
+                                }
+                              ]
+                            },
+                            "width": 1
+                          },
+                          {
+                            "type": "static",
+                            "text": "2.20",
+                            "source": {},
+                            "width": 1
+                          }
+                        ]
+                      ],
+                      "type": "table-complex"
+                    },
+                    {
+                      "title": "Employment & Income",
+                      "collapsible": true,
+                      "type": "subsection",
+                      "children": [
+                        {
+                          "columns": [
+                            " ",
+                            "Tract",
+                            "Washington, DC"
+                          ],
+                          "rows": [
+                            [
+                              {
+                                "type": "static",
+                                "text": "Unemployment Rate",
+                                "source": {},
+                                "width": 1
+                              },
+                              {
+                                "type": "dynamic",
+                                "source": {
+                                  "value": "#/property/census/unemployedPercent",
+                                  "filters": [
+                                    {
+                                      "name": "number",
+                                      "args": [
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "name": "append",
+                                      "args": [
+                                        "%"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "width": 1
+                              },
+                              {
+                                "type": "static",
+                                "text": "7.7%",
+                                "source": {},
+                                "width": 1
+                              }
+                            ],
+                            [
+                              {
+                                "type": "static",
+                                "text": "Percentage of Population in Labor Force",
+                                "source": {
+                                  "value": ""
+                                },
+                                "width": 1
+                              },
+                              {
+                                "type": "dynamic",
+                                "source": {
+                                  "value": "#/property/census/empNotInLaborForcePct",
+                                  "filters": [
+                                    {
+                                      "name": "math",
+                                      "args": [
+                                        "-",
+                                        "100"
+                                      ]
+                                    },
+                                    {
+                                      "name": "math",
+                                      "args": [
+                                        "*",
+                                        "-1"
+                                      ]
+                                    },
+                                    {
+                                      "name": "number",
+                                      "args": [
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "name": "append",
+                                      "args": [
+                                        "%"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "width": 1
+                              },
+                              {
+                                "type": "static",
+                                "text": "68.1%",
+                                "source": {},
+                                "width": 1
+                              }
+                            ],
+                            [
+                              {
+                                "type": "static",
+                                "text": "Avg Household Income",
+                                "source": {},
+                                "width": 1
+                              },
+                              {
+                                "type": "dynamic",
+                                "source": {
+                                  "value": "#/property/census/incomeHouseholdMean",
+                                  "filters": [
+                                    {
+                                      "name": "nfcurrency",
+                                      "args": []
+                                    }
+                                  ]
+                                },
+                                "width": 1
+                              },
+                              {
+                                "type": "static",
+                                "text": "$65,830",
+                                "source": {},
+                                "width": 1
+                              }
+                            ]
+                          ],
+                          "type": "table-complex"
+                        },
+                        {
+                          "twoDimensional": "false",
+                          "mutiSeries2D": "false",
+                          "vAxisTooltipLabel": "Income Level",
+                          "hAxis": "Percent of Households",
+                          "wide": "false",
+                          "vAxis": "Income",
+                          "chartType": "HorizontalBar",
+                          "title": "Household Income",
+                          "fields": [
+                            {
+                              "label": "$200k+",
+                              "value": [
+                                "census",
+                                "incomeHousehold200kplusPct"
+                              ]
+                            },
+                            {
+                              "label": "$150k to <$200k",
+                              "value": [
+                                "census",
+                                "incomeHousehold150kto200kPct"
+                              ]
+                            },
+                            {
+                              "label": "$100k to <$150k",
+                              "value": [
+                                "census",
+                                "incomeHousehold100kto150kPct"
+                              ]
+                            },
+                            {
+                              "label": "$75k to <$100k",
+                              "value": [
+                                "census",
+                                "incomeHousehold75kto100kPct"
+                              ]
+                            },
+                            {
+                              "label": "$50k to <$75k",
+                              "value": [
+                                "census",
+                                "incomeHousehold50kto75kPct"
+                              ]
+                            },
+                            {
+                              "label": "$35k to <$50k",
+                              "value": [
+                                "census",
+                                "incomeHousehold35kto50kPct"
+                              ]
+                            },
+                            {
+                              "label": "$25k to <$35k",
+                              "value": [
+                                "census",
+                                "incomeHousehold25kto35kPct"
+                              ]
+                            },
+                            {
+                              "label": "<$25k",
+                              "sum": [
+                                [
+                                  "census",
+                                  "incomeHouseholdUnder10kPct"
+                                ],
+                                [
+                                  "census",
+                                  "incomeHousehold10kto15kPct"
+                                ],
+                                [
+                                  "census",
+                                  "incomeHousehold15kto25kPct"
+                                ]
+                              ]
+                            }
+                          ],
+                          "type": "chart",
+                          "hAxisTooltipLabel": "Percent of Households",
+                          "source": {
+                            "value": "#/property"
+                          },
+                          "long": "true"
+                        },
+                        {
+                          "twoDimensional": "false",
+                          "topFive": "true",
+                          "multiSeries": "false",
+                          "wide": "true",
+                          "chartType": "PieChart",
+                          "title": "Employment",
+                          "fields": [
+                            {
+                              "label": "Agriculture",
+                              "value": [
+                                "census",
+                                "empIndustryAgriculturePct"
+                              ]
+                            },
+                            {
+                              "label": "Construction",
+                              "value": [
+                                "census",
+                                "empIndustryConstructionPct"
+                              ]
+                            },
+                            {
+                              "label": "Manufacturing",
+                              "value": [
+                                "census",
+                                "empIndustryManufacturingPct"
+                              ]
+                            },
+                            {
+                              "label": "Wholesale Trade",
+                              "value": [
+                                "census",
+                                "empIndustryWholesalePct"
+                              ]
+                            },
+                            {
+                              "label": "Retail Trade",
+                              "value": [
+                                "census",
+                                "empIndustryRetailPct"
+                              ]
+                            },
+                            {
+                              "label": "Transport., Utilities",
+                              "value": [
+                                "census",
+                                "empIndustryTransportationPct"
+                              ]
+                            },
+                            {
+                              "label": "Information",
+                              "value": [
+                                "census",
+                                "empIndustryInformationPct"
+                              ]
+                            },
+                            {
+                              "label": "Finance, Real Estate, Insur. ",
+                              "value": [
+                                "census",
+                                "empIndustryFirePct"
+                              ]
+                            },
+                            {
+                              "label": "Professional, Mgmt.",
+                              "value": [
+                                "census",
+                                "empIndustryProfSciPct"
+                              ]
+                            },
+                            {
+                              "label": "Edu., Health & Social Assist.",
+                              "value": [
+                                "census",
+                                "empIndustryEducationPct"
+                              ]
+                            },
+                            {
+                              "label": "Arts, Entertain., Food Serv.",
+                              "value": [
+                                "census",
+                                "empIndustryArtsHospitalityPct"
+                              ]
+                            },
+                            {
+                              "label": "Other Services",
+                              "value": [
+                                "census",
+                                "empIndustryOtherPct"
+                              ]
+                            },
+                            {
+                              "label": "Public Administration",
+                              "value": [
+                                "census",
+                                "empIndustryPubAdminPct"
+                              ]
+                            }
+                          ],
+                          "type": "chart",
+                          "source": {
+                            "value": "#/property"
+                          },
+                          "long": "false"
+                        },
+                        {
+                          "type": "chart",
+                          "title": "Educational Attainment (25+)",
+                          "chartType": "PieChart",
+                          "multiSeries": "false",
+                          "twoDimensional": "false",
+                          "hAxis": "Percentage of Population",
+                          "source": {
+                            "value": "#/property"
+                          },
+                          "fields": [
+                            {
+                              "label": "Graduate",
+                              "value": [
+                                "census",
+                                "eduGradOrProfPct"
+                              ]
+                            },
+                            {
+                              "label": "Bachelors",
+                              "value": [
+                                "census",
+                                "eduBachelorsPct"
+                              ]
+                            },
+                            {
+                              "label": "Associates",
+                              "value": [
+                                "census",
+                                "eduAssociatesPct"
+                              ]
+                            },
+                            {
+                              "label": "Some College",
+                              "value": [
+                                "census",
+                                "eduSomeCollegePct"
+                              ]
+                            },
+                            {
+                              "label": "HS Diploma",
+                              "value": [
+                                "census",
+                                "eduHighSchoolPct"
+                              ]
+                            },
+                            {
+                              "label": "9th to 12th Grade",
+                              "value": [
+                                "census",
+                                "eduSomeHighSchoolPct"
+                              ]
+                            },
+                            {
+                              "label": "<9th Grade",
+                              "value": [
+                                "census",
+                                "eduNoHighSchoolPct"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Housing",
+                      "collapsible": true,
+                      "restrict": "demogHousing",
+                      "type": "subsection",
+                      "children": [
+                        {
+                          "columns": [
+                            " ",
+                            "Tract",
+                            "Washington, DC"
+                          ],
+                          "rows": [
+                            [
+                              {
+                                "text": "Total Housing Units",
+                                "source": {},
+                                "type": "static",
+                                "width": 1
+                              },
+                              {
+                                "source": {
+                                  "value": "#/property/census/housingUnits",
+                                  "filters": [
+                                    {
+                                      "name": "number",
+                                      "args": [
+                                        "0"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "type": "dynamic",
+                                "width": 1
+                              },
+                              {
+                                "text": "298,327",
+                                "source": {},
+                                "type": "static",
+                                "width": 1
+                              }
+                            ],
+                            [
+                              {
+                                "text": "Total Occupied Units",
+                                "source": {},
+                                "type": "static",
+                                "width": 1
+                              },
+                              {
+                                "text": "",
+                                "source": {
+                                  "value": "#/property/census/housingOccupiedPct",
+                                  "filters": [
+                                    {
+                                      "name": "math",
+                                      "args": [
+                                        "*",
+                                        "property.census.housingUnits"
+                                      ]
+                                    },
+                                    {
+                                      "name": "math",
+                                      "args": [
+                                        "/",
+                                        "100"
+                                      ]
+                                    },
+                                    {
+                                      "name": "number",
+                                      "args": [
+                                        "0"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "type": "dynamic",
+                                "width": 1
+                              },
+                              {
+                                "text": "263,649",
+                                "source": {},
+                                "type": "static",
+                                "width": 1
+                              }
+                            ],
+                            [
+                              {
+                                "text": "Homeowner/Renter Percentage",
+                                "source": {},
+                                "type": "static",
+                                "width": 1
+                              },
+                              {
+                                "source": {
+                                  "value": "#/property/census/ownerOccPct",
+                                  "filters": [
+                                    {
+                                      "name": "number",
+                                      "args": [
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "name": "append",
+                                      "args": [
+                                        "%"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "type": "dynamic",
+                                "width": 1
+                              },
+                              {
+                                "text": "42.10% / 57.90%",
+                                "source": {},
+                                "type": "static",
+                                "width": 1
+                              }
+                            ],
+                            [
+                              {
+                                "text": "Rental Vacancy Rate",
+                                "source": {},
+                                "type": "static",
+                                "width": 1
+                              },
+                              {
+                                "source": {
+                                  "value": "#/property/census/rentalVacancyPct",
+                                  "filters": [
+                                    {
+                                      "name": "number",
+                                      "args": [
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "name": "append",
+                                      "args": [
+                                        "%"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "type": "dynamic",
+                                "width": 1
+                              },
+                              {
+                                "text": "6.4%",
+                                "source": {},
+                                "type": "static",
+                                "width": 1
+                              }
+                            ],
+                            [
+                              {
+                                "text": "Homeowner Vacancy Rate",
+                                "source": {},
+                                "type": "static",
+                                "width": 1
+                              },
+                              {
+                                "source": {
+                                  "value": "#/property/census/ownerVacancyPct",
+                                  "filters": [
+                                    {
+                                      "name": "number",
+                                      "args": [
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "name": "append",
+                                      "args": [
+                                        "%"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                "type": "dynamic",
+                                "width": 1
+                              },
+                              {
+                                "text": "2.6%",
+                                "source": {},
+                                "type": "static",
+                                "width": 1
+                              }
+                            ],
+                            [
+                              {
+                                "text": "Median Monthly Homeowner Costs w/ Mortgage",
+                                "source": {},
+                                "type": "static",
+                                "width": 1
+                              },
+                              {
+                                "source": {
+                                  "value": "#/property/census/ownerCostMedian",
+                                  "filters": [
+                                    {
+                                      "name": "nfcurrency",
+                                      "args": []
+                                    }
+                                  ]
+                                },
+                                "type": "dynamic",
+                                "width": 1
+                              },
+                              {
+                                "text": "$2,344",
+                                "source": {},
+                                "type": "static",
+                                "width": 1
+                              }
+                            ]
+                          ],
+                          "type": "table-complex"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "Radius",
+                  "type": "tab",
+                  "children": [
+                    {
+                      "type": "chart",
+                      "source": {
+                        "value": "#/esriData"
+                      },
+                      "title": "Total Population",
+                      "chartType": "VerticalBar",
+                      "hAxis": "Year",
+                      "vAxis": "Population",
+                      "vAxisTooltipLabel": "Population",
+                      "hAxisTooltipLabel": "Year",
+                      "twoDimensional": "false",
+                      "multiSeries": "true",
+                      "radiobutton": "false",
+                      "series": [
+                        {
+                          "chartKey": "1/4 Mile Radius",
+                          "data": [
+                            "total-population-esri0"
+                          ],
+                          "meta": []
+                        },
+                        {
+                          "chartKey": "1/2 Mile Radius",
+                          "data": [
+                            "total-population-esri1"
+                          ],
+                          "meta": []
+                        },
+                        {
+                          "chartKey": "1 Mile Radius",
+                          "data": [
+                            "total-population-esri2"
+                          ],
+                          "meta": []
+                        },
+                        {
+                          "chartKey": "3 Mile Radius",
+                          "data": [
+                            "total-population-esri3"
+                          ],
+                          "meta": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "chart",
+                      "source": {
+                        "value": "#/esriData"
+                      },
+                      "multiSeries": "true",
+                      "twoDimensional": "true",
+                      "chartType": "HorizontalBar",
+                      "title": "Population By Age and Gender",
+                      "percentY": "true",
+                      "hAxis": "Percentage",
+                      "vAxis": "Age",
+                      "extraVariables": "true",
+                      "fields": [
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer3"
+                          ]
+                        }
+                      ],
+                      "series": [
+                        {
+                          "chartKey": "1/4 Mile Radius",
+                          "data": [
+                            "population-age-male-esri0",
+                            "population-age-female-esri0"
+                          ],
+                          "meta": []
+                        },
+                        {
+                          "chartKey": "1/2 Mile Radius",
+                          "data": [
+                            "population-age-male-esri1",
+                            "population-age-female-esri1"
+                          ],
+                          "meta": []
+                        },
+                        {
+                          "chartKey": "1 Mile Radius",
+                          "data": [
+                            "population-age-male-esri2",
+                            "population-age-female-esri2"
+                          ],
+                          "meta": []
+                        },
+                        {
+                          "chartKey": "3 Mile Radius",
+                          "data": [
+                            "population-age-male-esri3",
+                            "population-age-female-esri3"
+                          ],
+                          "meta": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "chart",
+                      "source": {
+                        "value": "#/esriData"
+                      },
+                      "title": "Total Households",
+                      "chartType": "VerticalBar",
+                      "multiSeries": "true",
+                      "vAxis": "Number of Households",
+                      "hAxis": "Year",
+                      "vAxisTooltipLabel": "Households",
+                      "hAxisTooltipLabel": "Year",
+                      "radiobutton": "false",
+                      "twoDimensional": "false",
+                      "series": [
+                        {
+                          "chartKey": "1/4 Mile Radius",
+                          "data": [
+                            "total-households-esri0"
+                          ],
+                          "meta": []
+                        },
+                        {
+                          "chartKey": "1/2 Mile Radius",
+                          "data": [
+                            "total-households-esri1"
+                          ],
+                          "meta": []
+                        },
+                        {
+                          "chartKey": "1 Mile Radius",
+                          "data": [
+                            "total-households-esri2"
+                          ],
+                          "meta": []
+                        },
+                        {
+                          "chartKey": "3 Mile Radius",
+                          "data": [
+                            "total-households-esri3"
+                          ],
+                          "meta": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "chart",
+                      "source": {
+                        "value": "#/esriData"
+                      },
+                      "title": "Median Household Income",
+                      "twoDimensional": "false",
+                      "multiSeries": "true",
+                      "chartType": "HorizontalBar",
+                      "hAxis": "Percentage of Households",
+                      "hAxisTooltipLabel": "Percent of Households",
+                      "vAxisTooltipLabel": "Income Level",
+                      "vAxis": "Income",
+                      "vAxisDistance": 50,
+                      "containerHeight": 335,
+                      "panelVariables": true,
+                      "extraVariables": "true",
+                      "fields": [
+                        {
+                          "label": "2015 Med. Household Income",
+                          "value": [
+                            "MEDHINC_CY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "2015 Med. Household Income",
+                          "value": [
+                            "MEDHINC_CY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "2015 Med. Household Income",
+                          "value": [
+                            "MEDHINC_CY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "2015 Med. Household Income",
+                          "value": [
+                            "MEDHINC_CY",
+                            "buffer3"
+                          ]
+                        },
+                        {
+                          "label": "2020 Med. Household Income",
+                          "value": [
+                            "MEDHINC_FY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "2020 Med. Household Income",
+                          "value": [
+                            "MEDHINC_FY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "2020 Med. Household Income",
+                          "value": [
+                            "MEDHINC_FY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "2020 Med. Household Income",
+                          "value": [
+                            "MEDHINC_FY",
+                            "buffer3"
+                          ]
+                        }
+                      ],
+                      "series": [
+                        {
+                          "data": [
+                            "household-income-esri0"
+                          ],
+                          "chartKey": "1/4 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "household-income-esri1"
+                          ],
+                          "chartKey": "1/2 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "household-income-esri2"
+                          ],
+                          "chartKey": "1 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "household-income-esri3"
+                          ],
+                          "chartKey": "3 Mile Radius",
+                          "meta": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "chart",
+                      "source": {
+                        "value": "#/esriData"
+                      },
+                      "multiSeries": "true",
+                      "twoDimensional": "true",
+                      "title": "Employment Occupation by Industry",
+                      "chartType": "PieChart",
+                      "wide": "true",
+                      "long": "false",
+                      "panelVariables": false,
+                      "extraVariables": "true",
+                      "fields": [
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer3"
+                          ]
+                        }
+                      ],
+                      "series": [
+                        {
+                          "data": [
+                            "employment-occupation-chart-esri0"
+                          ],
+                          "chartKey": "1/4 Mile Radius",
+                          "topFive": "true",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "employment-occupation-chart-esri1"
+                          ],
+                          "chartKey": "1/2 Mile Radius",
+                          "topFive": "true",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "employment-occupation-chart-esri2"
+                          ],
+                          "chartKey": "1 Mile Radius",
+                          "topFive": "true",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "employment-occupation-chart-esri3"
+                          ],
+                          "chartKey": "3 Mile Radius",
+                          "topFive": "true",
+                          "meta": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "chart",
+                      "source": {
+                        "value": "#/esriData"
+                      },
+                      "title": "Educational Attainment (Age 25+)",
+                      "chartType": "PieChart",
+                      "multiSeries": "true",
+                      "twoDimensional": "true",
+                      "hAxis": "Percentage of Population",
+                      "extraVariables": "true",
+                      "panelVariables": false,
+                      "fields": [
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "Population",
+                          "value": [
+                            "TOTPOP_CY",
+                            "buffer3"
+                          ]
+                        }
+                      ],
+                      "series": [
+                        {
+                          "data": [
+                            "education-chart-esri0"
+                          ],
+                          "chartKey": "1/4 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "education-chart-esri1"
+                          ],
+                          "chartKey": "1/2 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "education-chart-esri2"
+                          ],
+                          "chartKey": "1 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "education-chart-esri3"
+                          ],
+                          "chartKey": "3 Mile Radius",
+                          "meta": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "chart",
+                      "source": {
+                        "value": "#/esriData"
+                      },
+                      "multiSeries": "true",
+                      "title": "Total Housing Units",
+                      "chartType": "VerticalBar",
+                      "hAxis": "Year",
+                      "vAxis": "Housing Units",
+                      "hAxisTooltipLabel": "Year",
+                      "vAxisTooltipLabel": "Housing Units",
+                      "radiobutton": "false",
+                      "twoDimensional": "false",
+                      "series": [
+                        {
+                          "data": [
+                            "total-housing-units-esri0"
+                          ],
+                          "chartKey": "1/4 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "total-housing-units-esri1"
+                          ],
+                          "chartKey": "1/2 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "total-housing-units-esri2"
+                          ],
+                          "chartKey": "1 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "total-housing-units-esri3"
+                          ],
+                          "chartKey": "3 Mile Radius",
+                          "meta": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "chart",
+                      "source": {
+                        "value": "#/esriData"
+                      },
+                      "multiSeries": "true",
+                      "twoDimensional": "true",
+                      "title": "Home Value",
+                      "chartType": "PieChart",
+                      "wide": "true",
+                      "long": "false",
+                      "extraVariables": "true",
+                      "panelVariables": true,
+                      "fields": [
+                        {
+                          "label": "Housing Units",
+                          "value": [
+                            "TOTHU_CY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "Housing Units",
+                          "value": [
+                            "TOTHU_CY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "Housing Units",
+                          "value": [
+                            "TOTHU_CY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "Housing Units",
+                          "value": [
+                            "TOTHU_CY",
+                            "buffer3"
+                          ]
+                        },
+                        {
+                          "label": "2015 Median Home Value",
+                          "value": [
+                            "MEDVAL_CY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "2015 Median Home Value",
+                          "value": [
+                            "MEDVAL_CY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "2015 Median Home Value",
+                          "value": [
+                            "MEDVAL_CY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "2015 Median Home Value",
+                          "value": [
+                            "MEDVAL_CY",
+                            "buffer3"
+                          ]
+                        },
+                        {
+                          "label": "2015 Average Home Value",
+                          "value": [
+                            "AVGVAL_CY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "2015 Average Home Value",
+                          "value": [
+                            "AVGVAL_CY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "2015 Average Home Value",
+                          "value": [
+                            "AVGVAL_CY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "2015 Average Home Value",
+                          "value": [
+                            "AVGVAL_CY",
+                            "buffer3"
+                          ]
+                        },
+                        {
+                          "label": "2020 Median Home Value",
+                          "value": [
+                            "MEDVAL_FY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "2020 Median Home Value",
+                          "value": [
+                            "MEDVAL_FY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "2020 Median Home Value",
+                          "value": [
+                            "MEDVAL_FY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "2020 Median Home Value",
+                          "value": [
+                            "MEDVAL_FY",
+                            "buffer3"
+                          ]
+                        }
+                      ],
+                      "series": [
+                        {
+                          "data": [
+                            "home-value-2015-esri0"
+                          ],
+                          "chartKey": "1/4 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "home-value-2015-esri1"
+                          ],
+                          "chartKey": "1/2 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "home-value-2015-esri2"
+                          ],
+                          "chartKey": "1 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "home-value-2015-esri3"
+                          ],
+                          "chartKey": "3 Mile Radius",
+                          "meta": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "chart",
+                      "source": {
+                        "value": "#/esriData"
+                      },
+                      "multiSeries": "true",
+                      "twoDimensional": "true",
+                      "title": "Household By Rent",
+                      "chartType": "PieChart",
+                      "wide": "false",
+                      "long": "false",
+                      "extraVariables": "true",
+                      "panelVariables": false,
+                      "fields": [
+                        {
+                          "label": "Households",
+                          "value": [
+                            "TOTHH_CY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "Households",
+                          "value": [
+                            "TOTHH_CY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "Households",
+                          "value": [
+                            "TOTHH_CY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "Households",
+                          "value": [
+                            "TOTHH_CY",
+                            "buffer3"
+                          ]
+                        }
+                      ],
+                      "series": [
+                        {
+                          "data": [
+                            "household-by-rent-esri0"
+                          ],
+                          "chartKey": "1/4 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "household-by-rent-esri1"
+                          ],
+                          "chartKey": "1/2 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "household-by-rent-esri2"
+                          ],
+                          "chartKey": "1 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "household-by-rent-esri3"
+                          ],
+                          "chartKey": "3 Mile Radius",
+                          "meta": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "chart",
+                      "source": {
+                        "value": "#/esriData"
+                      },
+                      "title": "Housing Occupants",
+                      "multiSeries": "true",
+                      "chartType": "VerticalBar",
+                      "twoDimensional": "true",
+                      "vAxis": "Number of Occupants",
+                      "hAxis": "Year",
+                      "vAxisTooltipLabel": "Number of Occupants",
+                      "hAxisTooltipLabel": "Year",
+                      "series": [
+                        {
+                          "chartKey": "1/4 Mile Radius",
+                          "data": [
+                            "owner-occupied-housing-esri0",
+                            "renter-occupied-housing-esri0",
+                            "vacant-occupied-housing-esri0"
+                          ],
+                          "meta": []
+                        },
+                        {
+                          "chartKey": "1/2 Mile Radius",
+                          "data": [
+                            "owner-occupied-housing-esri1",
+                            "renter-occupied-housing-esri1",
+                            "vacant-occupied-housing-esri1"
+                          ],
+                          "meta": []
+                        },
+                        {
+                          "chartKey": "1 Mile Radius",
+                          "data": [
+                            "owner-occupied-housing-esri2",
+                            "renter-occupied-housing-esri2",
+                            "vacant-occupied-housing-esri2"
+                          ],
+                          "meta": []
+                        },
+                        {
+                          "chartKey": "3 Mile Radius",
+                          "data": [
+                            "owner-occupied-housing-esri3",
+                            "renter-occupied-housing-esri3",
+                            "vacant-occupied-housing-esri3"
+                          ],
+                          "meta": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "chart",
+                      "source": {
+                        "value": "#/esriData"
+                      },
+                      "title": "Housing by Units in Structure",
+                      "chartType": "PieChart",
+                      "wide": "true",
+                      "long": "false",
+                      "multiSeries": "true",
+                      "twoDimensional": "true",
+                      "extraVariables": "true",
+                      "panelVariables": false,
+                      "fields": [
+                        {
+                          "label": "Housing Units",
+                          "value": [
+                            "TOTHU_CY",
+                            "buffer0"
+                          ]
+                        },
+                        {
+                          "label": "Housing Units",
+                          "value": [
+                            "TOTHU_CY",
+                            "buffer1"
+                          ]
+                        },
+                        {
+                          "label": "Housing Units",
+                          "value": [
+                            "TOTHU_CY",
+                            "buffer2"
+                          ]
+                        },
+                        {
+                          "label": "Housing Units",
+                          "value": [
+                            "TOTHU_CY",
+                            "buffer3"
+                          ]
+                        }
+                      ],
+                      "series": [
+                        {
+                          "data": [
+                            "housing-by-units-in-structure-esri0"
+                          ],
+                          "chartKey": "1/4 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "housing-by-units-in-structure-esri1"
+                          ],
+                          "chartKey": "1/2 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "housing-by-units-in-structure-esri2"
+                          ],
+                          "chartKey": "1 Mile Radius",
+                          "meta": []
+                        },
+                        {
+                          "data": [
+                            "housing-by-units-in-structure-esri3"
+                          ],
+                          "chartKey": "3 Mile Radius",
+                          "meta": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Economy",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "size": "full",
+              "value": {
+                "value": "$76,532"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "2014 DC Per Capita Personal Income",
+              "tooltip": "Dollars, Annual, Not Seasonally Adjusted"
+            },
+            {
+              "size": "full",
+              "value": {
+                "value": "5.0%"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Unemployment Rate DC MSA",
+              "tooltip": "Percent, Monthly, Not Seasonally Adjusted"
+            },
+            {
+              "size": "full",
+              "value": {
+                "value": "7.80%"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Unemployment Rate DC",
+              "tooltip": "Percent, Monthly, Not Seasonally Adjusted"
+            },
+            {
+              "size": "full",
+              "value": {
+                "value": "+1.62% YOY"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "CPI for All Urban Consumers",
+              "tooltip": "All items in Washington-Baltimore CMSA"
+            },
+            {
+              "size": "full",
+              "value": {
+                "value": "+4.67% YOY"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "S&P/Case-Shiller Home Price Index"
+            },
+            {
+              "size": "full",
+              "value": {
+                "value": "11,469"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Privately Owned Housing Starts Authorized by Building Permits",
+              "tooltip": "1-Unit Structures for Washington DC MSA, Units, Yearly"
+            }
+          ]
+        },
+        {
+          "title": "National Economy",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "size": "full",
+              "value": {
+                "value": "+3.7% YOY"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Real GDP Growth"
+            },
+            {
+              "size": "full",
+              "value": {
+                "value": "$47,394"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Personal Income Per Capita",
+              "tooltip": "Dollars, Quarterly, Seasonally Adjusted Annual Rate"
+            },
+            {
+              "size": "full",
+              "value": {
+                "value": "5.10%"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "National Unemployment Rate"
+            },
+            {
+              "size": "full",
+              "value": {
+                "value": "+1.6% YOY"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "CPI for All Urban Consumers",
+              "tooltip": "All Items, Monthly, Seasonally Adjusted"
+            },
+            {
+              "size": "full",
+              "value": {
+                "value": "1,206,000"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "New Housing Starts",
+              "tooltip": "Seasonally Adjusted Annual Rate"
+            }
+          ]
+        },
+        {
+          "value": "Data Source: FRED Economic Data",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "title": "Financing",
+      "type": "section",
+      "icon": "navFinancing",
+      "children": [
+        {
+          "title": "Residential Debt: Mortgage Rates",
+          "collapsible": true,
+          "type": "subsection",
+          "children": []
+        },
+        {
+          "title": "Benchmark Rates",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "columns": [
+                "Type",
+                "11/12/2015",
+                "2 Weeks Ago",
+                "1 Year Ago"
+              ],
+              "rows": [
+                [
+                  {
+                    "type": "static",
+                    "text": "LIBOR 30-Day",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "0.196%",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "0.193%",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "0.154%",
+                    "source": {},
+                    "width": 1
+                  }
+                ],
+                [
+                  {
+                    "type": "header",
+                    "text": "US Treasury",
+                    "source": {},
+                    "width": 4
+                  }
+                ],
+                [
+                  {
+                    "type": "static",
+                    "text": "5 Year",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "1.72%",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "1.53%",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "1.63%",
+                    "source": {},
+                    "width": 1
+                  }
+                ],
+                [
+                  {
+                    "type": "static",
+                    "text": "10 Year",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "2.32%",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "2.19%",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "2.35%",
+                    "source": {},
+                    "width": 1
+                  }
+                ],
+                [
+                  {
+                    "type": "header",
+                    "text": "Swaps",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "header",
+                    "text": "Current Swap Spreads",
+                    "source": {},
+                    "width": 3
+                  }
+                ],
+                [
+                  {
+                    "type": "static",
+                    "text": "5 Year",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "1.67%",
+                    "source": {},
+                    "width": 1,
+                    "citations": []
+                  },
+                  {
+                    "type": "static",
+                    "text": "(0.05%)",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "source": {},
+                    "width": 1
+                  }
+                ],
+                [
+                  {
+                    "type": "static",
+                    "text": "10 Year",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "2.23%",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "(0.09%)",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "source": {},
+                    "width": 1
+                  }
+                ]
+              ],
+              "type": "table-complex"
+            }
+          ]
+        },
+        {
+          "title": "Senior & Subordinate Lending Spreads",
+          "collapsible": true,
+          "restrict": "esriDemog",
+          "type": "subsection",
+          "children": [
+            {
+              "columns": [
+                "Type",
+                "Max Loan to Value",
+                "DSCR",
+                "Spreads"
+              ],
+              "rows": [
+                [
+                  {
+                    "type": "static",
+                    "text": "Fixed Rate - 5 yr",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "65 - 75%",
+                    "source": {},
+                    "width": 1,
+                    "citations": [
+                      1
+                    ]
+                  },
+                  {
+                    "type": "static",
+                    "text": "1.30 - 1.50",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "T + 155-295",
+                    "source": {},
+                    "width": 1
+                  }
+                ],
+                [
+                  {
+                    "type": "static",
+                    "text": "Fixed Rate - 10 yr",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "65 - 75%",
+                    "source": {},
+                    "width": 1,
+                    "citations": [
+                      1
+                    ]
+                  },
+                  {
+                    "type": "static",
+                    "text": "1.30 - 1.50",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "T + 160-290",
+                    "source": {},
+                    "width": 1
+                  }
+                ],
+                [
+                  {
+                    "type": "header",
+                    "text": "Floating Rate - 5 yr",
+                    "source": {},
+                    "width": 4
+                  }
+                ],
+                [
+                  {
+                    "type": "static",
+                    "text": "Core Asset",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "<65%",
+                    "source": {},
+                    "width": 1,
+                    "citations": [
+                      2
+                    ]
+                  },
+                  {
+                    "type": "static",
+                    "text": "1.30 - 1.50",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "L + 140-230",
+                    "source": {},
+                    "width": 1
+                  }
+                ],
+                [
+                  {
+                    "type": "static",
+                    "text": "Value Add Asset",
+                    "source": {},
+                    "width": 1,
+                    "citations": []
+                  },
+                  {
+                    "type": "static",
+                    "text": "<65%",
+                    "source": {},
+                    "width": 1,
+                    "citations": [
+                      2
+                    ]
+                  },
+                  {
+                    "type": "static",
+                    "text": "1.25 - 1.40",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "L + 200-400",
+                    "source": {},
+                    "width": 1
+                  }
+                ],
+                [
+                  {
+                    "type": "static",
+                    "text": "Mezzanine Moderate Leverage",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "65 - 80%",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "1.05 - 1.15",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "L + 500-800",
+                    "source": {},
+                    "width": 1
+                  }
+                ],
+                [
+                  {
+                    "type": "static",
+                    "text": "Mezzanine High Leverage",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "75 - 90%",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "-",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "L + 700-1400",
+                    "source": {},
+                    "width": 1
+                  }
+                ]
+              ],
+              "footnotes": [
+                "70-75% for Multi-Family (non-agency)",
+                "LIBOR floors at 0.0%-0.50%"
+              ],
+              "type": "table-complex"
+            }
+          ]
+        },
+        {
+          "title": "10-Year Fixed Rate Ranges by Asset Class",
+          "collapsible": true,
+          "restrict": "esriDemog",
+          "type": "subsection",
+          "children": [
+            {
+              "columns": [
+                "Type",
+                "Max Loan to Value",
+                "Class A",
+                "Class B/C"
+              ],
+              "rows": [
+                [
+                  {
+                    "type": "static",
+                    "text": "Anchored Retail",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "70 - 75%",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "T + 225",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "T + 235",
+                    "source": {},
+                    "width": 1
+                  }
+                ],
+                [
+                  {
+                    "type": "static",
+                    "text": "Strip Center",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "65 - 75%",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "T + 225",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "T + 235",
+                    "source": {},
+                    "width": 1
+                  }
+                ],
+                [
+                  {
+                    "type": "static",
+                    "text": "Multi-Family (non-agency)",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "75 - 80%",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "T + 210",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "T + 220",
+                    "source": {},
+                    "width": 1
+                  }
+                ],
+                [
+                  {
+                    "type": "static",
+                    "text": "Multi-Family (agency)",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "75 - 80%",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "T + 225",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "T + 230",
+                    "source": {},
+                    "width": 1
+                  }
+                ],
+                [
+                  {
+                    "type": "static",
+                    "text": "Distribution/Warehouse",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "65 - 70%",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "T + 225",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "T + 235",
+                    "source": {},
+                    "width": 1
+                  }
+                ],
+                [
+                  {
+                    "type": "static",
+                    "text": "R&D/Flex/Industrial",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "65 - 70%",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "T + 230",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "T + 240",
+                    "source": {},
+                    "width": 1
+                  }
+                ],
+                [
+                  {
+                    "type": "static",
+                    "text": "Office",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "65 - 75%",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "T + 220",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "T + 230",
+                    "source": {},
+                    "width": 1
+                  }
+                ],
+                [
+                  {
+                    "type": "static",
+                    "text": "Full Service Hotel",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "60 - 70%",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "T + 270",
+                    "source": {},
+                    "width": 1
+                  },
+                  {
+                    "type": "static",
+                    "text": "T + 290",
+                    "source": {},
+                    "width": 1
+                  }
+                ]
+              ],
+              "type": "table-complex"
+            },
+            {
+              "value": "* DSCR assumed to be greater than 1.25x",
+              "type": "text"
+            },
+            {
+              "value": "T = Treasury, L = LIBOR",
+              "type": "text"
+            },
+            {
+              "value": "Data source: <a href=\"http://www.cushmanwakefield.com/~/media/reports/corporate/Global%20Reports/CW_Capital_Markets_Update.pdf\">Cushman and Wakefield Report</a>",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "title": "JV Equity: Multifamily",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "size": "quarter",
+              "value": {
+                "value": "Life Co."
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Investor"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "10%"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Target Return"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "49% / 51%"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Equity Contribution Levels"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "15%>8%, 20%>12%"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Promote"
+            }
+          ]
+        },
+        {
+          "title": "JV Equity: Multifamily (Light Value Add)",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "size": "quarter",
+              "value": {
+                "value": "Opportunity Fund"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Investor"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "16%"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Target Return"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "90% / 10%"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Equity Contribution Levels"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "20%>12%, 30%>18%"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Promote"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "Offshore Investor"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Investor"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "18%"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Target Return"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "85% / 15%"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Equity Contribution Levels"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "20%>10%, 25%>15%"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Promote"
+            }
+          ]
+        },
+        {
+          "title": "JV Equity: Multifamily (Value Add)",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "size": "quarter",
+              "value": {
+                "value": "Life Co."
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Investor"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "22%"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Target Return"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "90% / 10%"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Equity Contribution Levels"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "20%>10%, 25%>18%, 35%>25%"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Promote"
+            }
+          ]
+        },
+        {
+          "title": "JV Equity: Office (Suburban)",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "size": "quarter",
+              "value": {
+                "value": "Opportunity Fund"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Investor"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "20%"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Target Return"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "90% / 10%"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Equity Contribution Levels"
+            },
+            {
+              "size": "quarter",
+              "value": {
+                "value": "20%>12%, 30%>18%, 35%>22%"
+              },
+              "style": "default",
+              "type": "keyvalue",
+              "link": {},
+              "source": {},
+              "key": "Promote"
+            },
+            {
+              "value": "Data source: <a href=\"http://www.cushmanwakefield.com/~/media/reports/corporate/Global%20Reports/CW_Capital_Markets_Update.pdf\">Cushman and Wakefield Report</a>",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
