@@ -636,15 +636,37 @@
               },
               "name": "Permits",
               "title": {
-                "kind": "dynamic",
+                "kind": "multi",
                 "values": [
                   {
                     "source": "permit_type_name",
-                    "filters": []
+                    "filters": [
+                      {
+                        "name": "capitalize",
+                        "args": [
+                          "nottwo"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "source": "issue_date",
+                    "type": "string",
+                    "filters": [
+                      {
+                        "name": "date",
+                        "args": [
+                          "MM/dd/yyyy"
+                        ]
+                      }
+                    ],
+                    "expect": "number"
                   }
-                ]
+                ],
+                "template": "{0} | {1}"
               },
               "fallback": "No recent permits to show.",
+              "medium": "all",
               "children": [
                 {
                   "type": "keyvalue",
@@ -2827,14 +2849,14 @@
             },
             {
               "twoDimensional": "false",
+              "classes": "tab-section",
               "vAxisTooltipLabel": "Number of Cars in Household",
               "hAxis": "Percentage of Households",
+              "innerClasses": "details-charts min370 interactive-charts detailsPane",
               "multiSeries": "false",
               "vAxis": "Cars per Household",
               "chartType": "HorizontalBar",
               "title": "Cars per Household",
-              "classes": "tab-section",
-              "innerClasses": "details-charts min370 interactive-charts detailsPane",
               "fields": [
                 {
                   "label": "0",
@@ -3304,20 +3326,20 @@
                         },
                         {
                           "twoDimensional": "false",
+                          "classes": "tab-section",
                           "mutiSeries2D": "false",
                           "topFive": "true",
                           "extraVariables": "false",
                           "vAxisTooltipLabel": "Income Level",
                           "hAxis": "Percent of Households",
                           "radiobutton": "false",
+                          "innerClasses": "details-charts interactive-charts chart-350",
                           "multiSeries": "false",
                           "wide": "false",
                           "panelVariables": false,
                           "vAxis": "Income",
                           "chartType": "HorizontalBar",
                           "title": "Household Income",
-                          "classes": "tab-section",
-                          "innerClasses": "details-charts interactive-charts chart-350",
                           "fields": [
                             {
                               "label": "$200k+",
@@ -3402,16 +3424,16 @@
                         },
                         {
                           "twoDimensional": "false",
+                          "classes": "tab-section tab-section-pie-chart",
                           "topFive": "true",
                           "extraVariables": "true",
                           "radiobutton": "true",
+                          "innerClasses": "details-charts pie-charts fullSize",
                           "multiSeries": "false",
                           "wide": "true",
                           "panelVariables": false,
                           "chartType": "PieChart",
                           "title": "Employment",
-                          "classes": "tab-section tab-section-pie-chart",
-                          "innerClasses": "details-charts pie-charts fullSize",
                           "fields": [
                             {
                               "label": "Agriculture",
@@ -3520,17 +3542,17 @@
                         },
                         {
                           "twoDimensional": "false",
+                          "classes": "tab-section tab-section-pie-chart",
                           "topFive": "true",
                           "extraVariables": "true",
                           "hAxis": "Percentage of Population",
                           "radiobutton": "true",
+                          "innerClasses": "details-charts pie-charts fullSize",
                           "multiSeries": "false",
                           "wide": "false",
                           "panelVariables": false,
                           "chartType": "PieChart",
                           "title": "Educational Attainment (25+)",
-                          "classes": "tab-section tab-section-pie-chart",
-                          "innerClasses": "details-charts pie-charts fullSize",
                           "fields": [
                             {
                               "label": "Graduate",
@@ -3885,9 +3907,11 @@
                   "children": [
                     {
                       "twoDimensional": "false",
+                      "classes": "tab-section",
                       "vAxisTooltipLabel": "Population",
                       "hAxis": "Year",
                       "radiobutton": "false",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "multiSeries": "true",
                       "vAxis": "Population",
                       "series": [
@@ -3933,8 +3957,6 @@
                         ],
                         "kind": "dynamic"
                       },
-                      "classes": "tab-section",
-                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "children": [
                         {
                           "seriesName": "total-population-esri0",
@@ -4076,8 +4098,10 @@
                     },
                     {
                       "twoDimensional": "true",
+                      "classes": "tab-section-tall",
                       "extraVariables": "true",
                       "hAxis": "Percentage",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "multiSeries": "true",
                       "percentY": "true",
                       "vAxis": "Age",
@@ -4117,8 +4141,6 @@
                       ],
                       "chartType": "HorizontalBar",
                       "title": "Population By Age and Gender",
-                      "classes": "tab-section-tall",
-                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "fields": [
                         {
                           "label": "Population",
@@ -5239,13 +5261,13 @@
                     },
                     {
                       "twoDimensional": "false",
+                      "classes": "tab-section",
                       "vAxisTooltipLabel": "Households",
                       "hAxis": "Year",
                       "radiobutton": "false",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "multiSeries": "true",
                       "vAxis": "Number of Households",
-                      "classes": "tab-section",
-                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "series": [
                         {
                           "chartKey": "1/4 Mile Radius",
@@ -5434,16 +5456,16 @@
                     },
                     {
                       "twoDimensional": "false",
+                      "classes": "tab-section-tall",
                       "extraVariables": "true",
                       "containerHeight": 335,
                       "vAxisTooltipLabel": "Income Level",
                       "hAxis": "Percentage of Households",
                       "vAxisDistance": 50,
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "multiSeries": "true",
                       "panelVariables": true,
                       "vAxis": "Income",
-                      "classes": "tab-section-tall",
-                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "series": [
                         {
                           "data": [
@@ -5810,12 +5832,12 @@
                     },
                     {
                       "twoDimensional": "true",
+                      "classes": "tab-section tab-section-pie-chart",
                       "extraVariables": "true",
+                      "innerClasses": "details-charts interactive-charts detailsPane",
                       "multiSeries": "true",
                       "wide": "true",
                       "panelVariables": false,
-                      "classes": "tab-section tab-section-pie-chart",
-                      "innerClasses": "details-charts interactive-charts detailsPane",
                       "series": [
                         {
                           "data": [
@@ -6290,12 +6312,12 @@
                     },
                     {
                       "twoDimensional": "true",
+                      "classes": "tab-section tab-section-pie-chart ng-scope",
                       "extraVariables": "true",
                       "hAxis": "Percentage of Population",
+                      "innerClasses": "details-charts interactive-charts detailsPane",
                       "multiSeries": "true",
                       "panelVariables": false,
-                      "classes": "tab-section tab-section-pie-chart ng-scope",
-                      "innerClasses": "details-charts interactive-charts detailsPane",
                       "series": [
                         {
                           "data": [
@@ -6569,13 +6591,13 @@
                     },
                     {
                       "twoDimensional": "false",
+                      "classes": "tab-section",
                       "vAxisTooltipLabel": "Housing Units",
                       "hAxis": "Year",
                       "radiobutton": "false",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "multiSeries": "true",
                       "vAxis": "Housing Units",
-                      "classes": "tab-section",
-                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "series": [
                         {
                           "data": [
@@ -6766,12 +6788,12 @@
                     },
                     {
                       "twoDimensional": "true",
+                      "classes": "tab-section",
                       "extraVariables": "true",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "multiSeries": "true",
                       "wide": "true",
                       "panelVariables": true,
-                      "classes": "tab-section",
-                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "series": [
                         {
                           "data": [
@@ -7154,12 +7176,12 @@
                     },
                     {
                       "twoDimensional": "true",
+                      "classes": "tab-section tab-section-pie-chart",
                       "extraVariables": "true",
+                      "innerClasses": "details-charts interactive-charts fullSize",
                       "multiSeries": "true",
                       "wide": "false",
                       "panelVariables": false,
-                      "classes": "tab-section tab-section-pie-chart",
-                      "innerClasses": "details-charts interactive-charts fullSize",
                       "series": [
                         {
                           "data": [
@@ -7430,12 +7452,12 @@
                     },
                     {
                       "twoDimensional": "true",
+                      "classes": "tab-section",
                       "vAxisTooltipLabel": "Number of Occupants",
                       "hAxis": "Year",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "multiSeries": "true",
                       "vAxis": "Number of Occupants",
-                      "classes": "tab-section",
-                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "series": [
                         {
                           "chartKey": "1/4 Mile Radius",
@@ -7828,12 +7850,12 @@
                     },
                     {
                       "twoDimensional": "true",
+                      "classes": "tab-section",
                       "extraVariables": "true",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "multiSeries": "true",
                       "wide": "true",
                       "panelVariables": false,
-                      "classes": "tab-section",
-                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "series": [
                         {
                           "data": [
