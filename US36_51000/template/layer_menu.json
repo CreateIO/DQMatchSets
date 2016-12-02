@@ -659,11 +659,11 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "City parks and public green spaces.",
+                "description": "City parks, playgrounds & public green spaces.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Parks",
-                        "boxStyle": "background:#005a50",
+                        "boxStyle": "background:#a4d5c1; border: 1px solid #cad5aa",
                         "imageUrl": null
                     }
                 },
@@ -1099,7 +1099,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "TheSandy Inundation Zones show the areas of New York City that were flooded as a result of Hurricane Sandy. The Worst Case Storm Surge Inundation  Zones are calculated from NOAAs NY3 Sea, Lake and Overland Surges from Hurricanes (SLOSH) basin & Maximum of Maximum (MOM) surge height values.",
+                "description": "TheSandy Inundation Zones show the areas of New York City that were flooded as a result of Hurricane Sandy.<nl> The Worst Case Storm Surge Inundation Zones are calculated from NOAAs NY3 Sea, Lake and Overland Surges from Hurricanes (SLOSH) basin & Maximum of Maximum (MOM) surge height values.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Sandy Inundation Zones",
