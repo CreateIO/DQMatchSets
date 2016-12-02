@@ -601,9 +601,9 @@
         "description": "Names of items in this collections. Write it in plural form, like \"Tenants\".",
         "type": "string"
       },
-      "itemId": {
-        "title": "Item ID",
-        "description": "Object key of items in the collection to use as the item's name.",
+      "title": {
+        "title": "Title",
+        "description": "Text to display for each item in the collection.",
         "type": "string"
       },
       "fallback": {
@@ -613,8 +613,8 @@
       }
     },
     "preview": "name",
-    "required": ["source", "itemId"],
-    "dynamic": ["source"],
+    "required": ["source", "title"],
+    "dynamic": ["source", "title"],
     "nestable": true
   },
   "teaser": {
