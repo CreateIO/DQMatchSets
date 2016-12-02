@@ -635,7 +635,15 @@
                 "kind": "dynamic"
               },
               "name": "Permits",
-              "itemId": "permit_type_name",
+              "title": {
+                "kind": "dynamic",
+                "values": [
+                  {
+                    "source": "permit_type_name",
+                    "filters": []
+                  }
+                ]
+              },
               "fallback": "No recent permits to show.",
               "children": [
                 {
@@ -1758,7 +1766,15 @@
                 "kind": "dynamic"
               },
               "name": "Tenants",
-              "itemId": "ig_name",
+              "title": {
+                "kind": "dynamic",
+                "values": [
+                  {
+                    "source": "ig_name",
+                    "filters": []
+                  }
+                ]
+              },
               "restrict": "tenants",
               "placeholder": "No tenant data to show.",
               "children": [
@@ -2095,7 +2111,15 @@
                 "kind": "dynamic"
               },
               "name": "Historic Districts",
-              "itemId": "name",
+              "title": {
+                "kind": "dynamic",
+                "values": [
+                  {
+                    "source": "name",
+                    "filters": []
+                  }
+                ]
+              },
               "properties": [],
               "fallback": "No Historic Districts apply.",
               "type": "collection",
