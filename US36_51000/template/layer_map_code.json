@@ -1397,7 +1397,7 @@
                 },
                 "tileWidth": 256,
                 "tileHeight": 256,
-                "minimumLevel": 1,
+                "minimumLevel": 10,
                 "maximumLevel": 20,
                 "alpha": 1,
                 "tmsStyle": "GWC"
@@ -1523,8 +1523,8 @@
                 "exists": false
             }
         },
-        "ny_SubwayRoutes": {
-            "name": "ny_SubwayRoutes",
+        "ny_subwaytemp": {
+            "name": "ny_subwaytemp",
             "removeName": null,
             "url": null,
             "cartographic": false,
@@ -1538,8 +1538,8 @@
                 "exists": false
             },
             "tms": {
-                "tmsLayerName": "ny_SubwayRoutes",
-                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SubwayRoutes@EPSG:900913@png",
+                "tmsLayerName": "ny_subwaytemp",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_subwaytemp@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.2544479370117,

@@ -2138,7 +2138,7 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_SubwayRoutes"
+                            "param1": "ny_subwaytemp"
                         },
                         "service": "tileMapServiceService"
                     },
@@ -2166,7 +2166,7 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_SubwayRoutes"
+                            "param1": "ny_subwaytemp"
                         },
                         "service": "tileMapServiceService"
                     },
