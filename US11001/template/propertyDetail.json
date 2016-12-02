@@ -629,7 +629,8 @@
                 "values": [
                   {
                     "source": "#/property/permits",
-                    "type": "string"
+                    "type": "string",
+                    "expect": "array"
                   }
                 ],
                 "kind": "dynamic"
@@ -1764,6 +1765,19 @@
           "type": "subsection",
           "children": [
             {
+              "name": "Tenants",
+              "placeholder": "No tenant data to show.",
+              "medium": "all",
+              "title": {
+                "kind": "dynamic",
+                "values": [
+                  {
+                    "source": "ig_name",
+                    "filters": []
+                  }
+                ]
+              },
+              "type": "collection",
               "source": {
                 "values": [
                   {
@@ -1782,23 +1796,13 @@
                       }
                     ],
                     "source": "#/property/spaces",
-                    "type": "string"
+                    "type": "string",
+                    "expect": "array"
                   }
                 ],
                 "kind": "dynamic"
               },
-              "name": "Tenants",
-              "title": {
-                "kind": "dynamic",
-                "values": [
-                  {
-                    "source": "ig_name",
-                    "filters": []
-                  }
-                ]
-              },
               "restrict": "tenants",
-              "placeholder": "No tenant data to show.",
               "children": [
                 {
                   "type": "keyvalue",
@@ -1963,8 +1967,7 @@
                   },
                   "size": "half"
                 }
-              ],
-              "type": "collection"
+              ]
             },
             {
               "title": "Unlock Tenant Data",
@@ -2024,6 +2027,16 @@
           "type": "subsection",
           "children": [
             {
+              "source": {
+                "values": [
+                  {
+                    "source": "#/zdata/uses",
+                    "type": "string",
+                    "expect": "array"
+                  }
+                ],
+                "kind": "dynamic"
+              },
               "columns": [
                 {
                   "key": "parameters",
@@ -2046,15 +2059,7 @@
                   "title": "Rear Yard (ft)"
                 }
               ],
-              "source": {
-                "values": [
-                  {
-                    "source": "#/zdata/uses",
-                    "type": "string"
-                  }
-                ],
-                "kind": "dynamic"
-              },
+              "medium": "all",
               "type": "table"
             }
           ]
@@ -2066,6 +2071,16 @@
           "type": "subsection",
           "children": [
             {
+              "source": {
+                "values": [
+                  {
+                    "source": "#/zdata/uses",
+                    "type": "string",
+                    "expect": "array"
+                  }
+                ],
+                "kind": "dynamic"
+              },
               "columns": [
                 {
                   "key": "parameters",
@@ -2088,15 +2103,7 @@
                   "title": "Maximum Lot Occupancy (%)"
                 }
               ],
-              "source": {
-                "values": [
-                  {
-                    "source": "#/zdata/uses",
-                    "type": "string"
-                  }
-                ],
-                "kind": "dynamic"
-              },
+              "medium": "all",
               "type": "table"
             }
           ]
@@ -2123,16 +2130,10 @@
           "type": "subsection",
           "children": [
             {
-              "source": {
-                "values": [
-                  {
-                    "source": "#/nextLevel/histDist",
-                    "type": "string"
-                  }
-                ],
-                "kind": "dynamic"
-              },
+              "fallback": "No Historic Districts apply.",
               "name": "Historic Districts",
+              "properties": [],
+              "medium": "all",
               "title": {
                 "kind": "dynamic",
                 "values": [
@@ -2142,9 +2143,17 @@
                   }
                 ]
               },
-              "properties": [],
-              "fallback": "No Historic Districts apply.",
               "type": "collection",
+              "source": {
+                "values": [
+                  {
+                    "source": "#/nextLevel/histDist",
+                    "type": "string",
+                    "expect": "array"
+                  }
+                ],
+                "kind": "dynamic"
+              },
               "children": [
                 {
                   "size": "full",
