@@ -629,8 +629,7 @@
                 "values": [
                   {
                     "source": "#/property/permits",
-                    "type": "string",
-                    "expect": "array"
+                    "type": "array"
                   }
                 ],
                 "kind": "dynamic"
@@ -652,7 +651,7 @@
                   },
                   {
                     "source": "issue_date",
-                    "type": "string",
+                    "type": "number",
                     "filters": [
                       {
                         "name": "date",
@@ -660,8 +659,7 @@
                           "MM/dd/yyyy"
                         ]
                       }
-                    ],
-                    "expect": "number"
+                    ]
                   }
                 ],
                 "template": "{0} | {1}"
@@ -1796,8 +1794,7 @@
                       }
                     ],
                     "source": "#/property/spaces",
-                    "type": "string",
-                    "expect": "array"
+                    "type": "array"
                   }
                 ],
                 "kind": "dynamic"
@@ -2031,8 +2028,7 @@
                 "values": [
                   {
                     "source": "#/zdata/uses",
-                    "type": "string",
-                    "expect": "array"
+                    "type": "array"
                   }
                 ],
                 "kind": "dynamic"
@@ -2075,8 +2071,7 @@
                 "values": [
                   {
                     "source": "#/zdata/uses",
-                    "type": "string",
-                    "expect": "array"
+                    "type": "array"
                   }
                 ],
                 "kind": "dynamic"
@@ -2148,8 +2143,7 @@
                 "values": [
                   {
                     "source": "#/nextLevel/histDist",
-                    "type": "string",
-                    "expect": "array"
+                    "type": "array"
                   }
                 ],
                 "kind": "dynamic"
