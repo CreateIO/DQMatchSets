@@ -550,6 +550,7 @@
     },
     "required": ["title", "chartType", "source"],
     "dynamic": ["source"],
+    "preview": "title",
     "nestable": true
   },
   "tab-group": {
@@ -635,7 +636,8 @@
         }
       }
     },
-    "required": ["title"]
+    "required": ["title"],
+    "preview": "title"
   },
   "html": {
     "name": "HTML",
