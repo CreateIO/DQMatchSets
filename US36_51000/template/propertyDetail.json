@@ -1,795 +1,798 @@
-[
-  {
-    "title": "Property",
-    "type": "section",
-    "icon": "navProperty",
-    "children": [
-      {
-        "title": "Street View",
-        "collapsible": true,
-        "type": "subsection",
-        "children": [
-          {
-            "type": "streetview"
-          }
-        ]
-      },
-      {
-        "title": "Details",
-        "collapsible": true,
-        "type": "subsection",
-        "children": [
-          {
-            "size": "full",
-            "value": {
-              "values": [
-                {
-                  "source": "#/property/bestAddress",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
-            },
-            "type": "keyvalue",
-            "invisible": true,
-            "key": "Address"
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "source": "#/property/ssl",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
-            },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Property ID (BBLE)"
-          },
-          {
-            "size": "quarter",
-            "layer": [
-              "Zoning"
-            ],
-            "value": {
-              "values": [
-                {
-                  "filters": [
-                    {
-                      "name": "cleanList",
-                      "args": []
-                    }
-                  ],
-                  "source": "#/property/zones/allzoningDistrict",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
-            },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Zoning District(s)"
-          },
-          {
-            "size": "quarter",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Land Area",
-            "value": {
-              "values": [
-                {
-                  "filters": [
-                    {
-                      "name": "fallback",
-                      "args": [
-                        "#/property/firstProp/cama/lotSize"
-                      ]
-                    },
-                    {
-                      "name": "number",
-                      "args": []
-                    }
-                  ],
-                  "source": "#/property/lotSize"
-                },
-                {
-                  "filters": [
-                    {
-                      "name": "fallback",
-                      "args": [
-                        "#/property/firstProp/cama/lotSize"
-                      ]
-                    },
-                    {
-                      "name": "math",
-                      "args": [
-                        "/",
-                        "42560"
-                      ]
-                    },
-                    {
-                      "name": "number",
-                      "args": [
-                        "2"
-                      ]
-                    }
-                  ],
-                  "source": "#/property/lotSize"
-                }
-              ],
-              "template": "{0} SF / {1} Acres",
-              "kind": "multi"
+{
+  "$property": "propertyDetail",
+  "items": [
+    {
+      "title": "Property",
+      "type": "section",
+      "icon": "navProperty",
+      "children": [
+        {
+          "title": "Street View",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "type": "streetview"
             }
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "source": "#/property/zones/jurisdiction",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+          ]
+        },
+        {
+          "title": "Details",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "size": "full",
+              "value": {
+                "values": [
+                  {
+                    "source": "#/property/bestAddress",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "type": "keyvalue",
+              "invisible": true,
+              "key": "Address"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Jurisdiction"
-          },
-          {
-            "size": "auto",
-            "value": {
-              "values": [
-                {
-                  "source": "#/property/zones/taxMap",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "source": "#/property/ssl",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Property ID (BBLE)"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Tax Map"
-          },
-          {
-            "size": "auto",
-            "value": {
-              "values": [
-                {
-                  "source": "#/property/zones/lot",
-                  "type": "string"
-                }
+            {
+              "size": "quarter",
+              "layer": [
+                "Zoning"
               ],
-              "kind": "dynamic"
+              "value": {
+                "values": [
+                  {
+                    "filters": [
+                      {
+                        "name": "cleanList",
+                        "args": []
+                      }
+                    ],
+                    "source": "#/property/zones/allzoningDistrict",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Zoning District(s)"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Lot"
-          },
-          {
-            "size": "auto",
-            "value": {
-              "values": [
-                {
-                  "filters": [
-                    {
-                      "name": "capitalize",
-                      "args": [
-                        "nottwo"
-                      ]
-                    }
-                  ],
-                  "source": "#/property/zones/ownerName",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Land Area",
+              "value": {
+                "values": [
+                  {
+                    "filters": [
+                      {
+                        "name": "fallback",
+                        "args": [
+                          "#/property/firstProp/cama/lotSize"
+                        ]
+                      },
+                      {
+                        "name": "number",
+                        "args": []
+                      }
+                    ],
+                    "source": "#/property/lotSize"
+                  },
+                  {
+                    "filters": [
+                      {
+                        "name": "fallback",
+                        "args": [
+                          "#/property/firstProp/cama/lotSize"
+                        ]
+                      },
+                      {
+                        "name": "math",
+                        "args": [
+                          "/",
+                          "42560"
+                        ]
+                      },
+                      {
+                        "name": "number",
+                        "args": [
+                          "2"
+                        ]
+                      }
+                    ],
+                    "source": "#/property/lotSize"
+                  }
+                ],
+                "template": "{0} SF / {1} Acres",
+                "kind": "multi"
+              }
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Owner"
-          },
-          {
-            "value": "Data Source: NYC Government",
-            "medium": "all",
-            "type": "text"
-          }
-        ]
-      },
-      {
-        "title": "Building",
-        "collapsible": true,
-        "type": "subsection",
-        "children": [
-          {
-            "size": "half",
-            "layer": [],
-            "value": {
-              "values": [
-                {
-                  "filters": [
-                    {
-                      "name": "fallback",
-                      "args": [
-                        "#/property/firstProp/currentUse"
-                      ]
-                    }
-                  ],
-                  "source": "#/property/currentUse",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "source": "#/property/zones/jurisdiction",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Jurisdiction"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Property Use"
-          },
-          {
-            "size": "auto",
-            "value": {
-              "values": [
-                {
-                  "filters": [
-                    {
-                      "name": "number",
-                      "args": []
-                    }
-                  ],
-                  "source": "#/property/cama/stories",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "auto",
+              "value": {
+                "values": [
+                  {
+                    "source": "#/property/zones/taxMap",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Tax Map"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Floors"
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "filters": [
-                    {
-                      "name": "number",
-                      "args": [
-                        ""
-                      ]
-                    },
-                    {
-                      "name": "append",
-                      "args": [
-                        " SF"
-                      ]
-                    }
-                  ],
-                  "source": "#/property/cama/grossBldgArea",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "auto",
+              "value": {
+                "values": [
+                  {
+                    "source": "#/property/zones/lot",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Lot"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Gross Building Area"
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "filters": [
-                    {
-                      "name": "number",
-                      "args": []
-                    }
-                  ],
-                  "source": "#/property/cama/garageArea",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "auto",
+              "value": {
+                "values": [
+                  {
+                    "filters": [
+                      {
+                        "name": "capitalize",
+                        "args": [
+                          "nottwo"
+                        ]
+                      }
+                    ],
+                    "source": "#/property/zones/ownerName",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Owner"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Garage Area"
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "source": "#/property/yrBuilt",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "value": "Data Source: NYC Government",
+              "medium": "all",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "title": "Building",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "size": "half",
+              "layer": [],
+              "value": {
+                "values": [
+                  {
+                    "filters": [
+                      {
+                        "name": "fallback",
+                        "args": [
+                          "#/property/firstProp/currentUse"
+                        ]
+                      }
+                    ],
+                    "source": "#/property/currentUse",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Property Use"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Year Built"
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "filters": [
-                    {
-                      "name": "cleanList",
-                      "args": [
-                        "0"
-                      ]
-                    }
-                  ],
-                  "source": "#/property/yrRemodeled",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "auto",
+              "value": {
+                "values": [
+                  {
+                    "filters": [
+                      {
+                        "name": "number",
+                        "args": []
+                      }
+                    ],
+                    "source": "#/property/cama/stories",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Floors"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Year Remodeled"
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "source": "#/property/cama/numBldgs",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "filters": [
+                      {
+                        "name": "number",
+                        "args": [
+                          ""
+                        ]
+                      },
+                      {
+                        "name": "append",
+                        "args": [
+                          " SF"
+                        ]
+                      }
+                    ],
+                    "source": "#/property/cama/grossBldgArea",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Gross Building Area"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "No. of Buildings"
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "source": "#/property/cama/numUnits",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "filters": [
+                      {
+                        "name": "number",
+                        "args": []
+                      }
+                    ],
+                    "source": "#/property/cama/garageArea",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Garage Area"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "No. of Units"
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "source": "#/property/cama/numUnitRes",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "source": "#/property/yrBuilt",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Year Built"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Residential Units"
-          }
-        ]
-      },
-      {
-        "title": "Assessments",
-        "collapsible": true,
-        "type": "subsection",
-        "children": [
-          {
-            "size": "half",
-            "value": {
-              "values": [
-                {
-                  "filters": [
-                    {
-                      "name": "nfcurrency",
-                      "args": []
-                    }
-                  ],
-                  "source": "#/property/newTotalValue",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "filters": [
+                      {
+                        "name": "cleanList",
+                        "args": [
+                          "0"
+                        ]
+                      }
+                    ],
+                    "source": "#/property/yrRemodeled",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Year Remodeled"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Total Assessment"
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "filters": [
-                    {
-                      "name": "nfcurrency",
-                      "args": []
-                    }
-                  ],
-                  "source": "#/property/newLandValue",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "source": "#/property/cama/numBldgs",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "No. of Buildings"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Land Assessment"
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "filters": [
-                    {
-                      "name": "nfcurrency",
-                      "args": []
-                    }
-                  ],
-                  "source": "#/property/newImprValue",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "source": "#/property/cama/numUnits",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "No. of Units"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Improvement Assessment"
-          }
-        ]
-      },
-      {
-        "title": "Zoning",
-        "collapsible": false,
-        "printWidth": "half",
-        "medium": "all",
-        "type": "subsection",
-        "children": [
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "filters": [
-                    {
-                      "name": "cleanList",
-                      "args": []
-                    },
-                    {
-                      "name": "fallback",
-                      "args": [
-                        "None"
-                      ]
-                    }
-                  ],
-                  "source": "#/property/zoning/zoningDistricts",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "source": "#/property/cama/numUnitRes",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Residential Units"
+            }
+          ]
+        },
+        {
+          "title": "Assessments",
+          "collapsible": true,
+          "type": "subsection",
+          "children": [
+            {
+              "size": "half",
+              "value": {
+                "values": [
+                  {
+                    "filters": [
+                      {
+                        "name": "nfcurrency",
+                        "args": []
+                      }
+                    ],
+                    "source": "#/property/newTotalValue",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Total Assessment"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Zoning District(s)"
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "source": "#/property/zoning/residentialMaxFar",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "filters": [
+                      {
+                        "name": "nfcurrency",
+                        "args": []
+                      }
+                    ],
+                    "source": "#/property/newLandValue",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Land Assessment"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Residential FAR"
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "source": "#/property/zoning/commercialMaxFar",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "filters": [
+                      {
+                        "name": "nfcurrency",
+                        "args": []
+                      }
+                    ],
+                    "source": "#/property/newImprValue",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Improvement Assessment"
+            }
+          ]
+        },
+        {
+          "title": "Zoning",
+          "collapsible": false,
+          "printWidth": "half",
+          "medium": "all",
+          "type": "subsection",
+          "children": [
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "filters": [
+                      {
+                        "name": "cleanList",
+                        "args": []
+                      },
+                      {
+                        "name": "fallback",
+                        "args": [
+                          "None"
+                        ]
+                      }
+                    ],
+                    "source": "#/property/zoning/zoningDistricts",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Zoning District(s)"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Commercial FAR"
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "source": "#/property/zoning/facilityMaxFar",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "source": "#/property/zoning/residentialMaxFar",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Residential FAR"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Facility FAR"
-          }
-        ]
-      },
-      {
-        "title": "Uses",
-        "collapsible": false,
-        "printWidth": "half",
-        "medium": "all",
-        "type": "subsection",
-        "children": [
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "filters": [
-                    {
-                      "name": "number",
-                      "args": []
-                    },
-                    {
-                      "name": "append",
-                      "args": [
-                        " SF"
-                      ]
-                    }
-                  ],
-                  "source": "#/property/zones/grossBldgArea",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "source": "#/property/zoning/commercialMaxFar",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Commercial FAR"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Gross Building Area"
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "filters": [
-                    {
-                      "name": "number",
-                      "args": []
-                    },
-                    {
-                      "name": "append",
-                      "args": [
-                        " SF"
-                      ]
-                    }
-                  ],
-                  "source": "#/property/zones/residentialArea",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "source": "#/property/zoning/facilityMaxFar",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Facility FAR"
+            }
+          ]
+        },
+        {
+          "title": "Uses",
+          "collapsible": false,
+          "printWidth": "half",
+          "medium": "all",
+          "type": "subsection",
+          "children": [
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "filters": [
+                      {
+                        "name": "number",
+                        "args": []
+                      },
+                      {
+                        "name": "append",
+                        "args": [
+                          " SF"
+                        ]
+                      }
+                    ],
+                    "source": "#/property/zones/grossBldgArea",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Gross Building Area"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Residential Area"
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "filters": [
-                    {
-                      "name": "number",
-                      "args": []
-                    },
-                    {
-                      "name": "append",
-                      "args": [
-                        " SF"
-                      ]
-                    }
-                  ],
-                  "source": "#/property/zones/commercialArea",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "filters": [
+                      {
+                        "name": "number",
+                        "args": []
+                      },
+                      {
+                        "name": "append",
+                        "args": [
+                          " SF"
+                        ]
+                      }
+                    ],
+                    "source": "#/property/zones/residentialArea",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Residential Area"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Commercial Area"
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "filters": [
-                    {
-                      "name": "number",
-                      "args": []
-                    },
-                    {
-                      "name": "append",
-                      "args": [
-                        " SF"
-                      ]
-                    }
-                  ],
-                  "source": "#/property/zones/officeArea",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "filters": [
+                      {
+                        "name": "number",
+                        "args": []
+                      },
+                      {
+                        "name": "append",
+                        "args": [
+                          " SF"
+                        ]
+                      }
+                    ],
+                    "source": "#/property/zones/commercialArea",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Commercial Area"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Office Area"
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "filters": [
-                    {
-                      "name": "number",
-                      "args": []
-                    },
-                    {
-                      "name": "append",
-                      "args": [
-                        " SF"
-                      ]
-                    }
-                  ],
-                  "source": "#/property/zones/retailArea",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "filters": [
+                      {
+                        "name": "number",
+                        "args": []
+                      },
+                      {
+                        "name": "append",
+                        "args": [
+                          " SF"
+                        ]
+                      }
+                    ],
+                    "source": "#/property/zones/officeArea",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Office Area"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Retail Area"
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "filters": [
-                    {
-                      "name": "number",
-                      "args": []
-                    },
-                    {
-                      "name": "append",
-                      "args": [
-                        " SF"
-                      ]
-                    }
-                  ],
-                  "source": "#/property/zones/healthArea",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "filters": [
+                      {
+                        "name": "number",
+                        "args": []
+                      },
+                      {
+                        "name": "append",
+                        "args": [
+                          " SF"
+                        ]
+                      }
+                    ],
+                    "source": "#/property/zones/retailArea",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Retail Area"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Health Area"
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "filters": [
-                    {
-                      "name": "number",
-                      "args": []
-                    },
-                    {
-                      "name": "append",
-                      "args": [
-                        " SF"
-                      ]
-                    }
-                  ],
-                  "source": "#/property/zones/factoryArea",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "filters": [
+                      {
+                        "name": "number",
+                        "args": []
+                      },
+                      {
+                        "name": "append",
+                        "args": [
+                          " SF"
+                        ]
+                      }
+                    ],
+                    "source": "#/property/zones/healthArea",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Health Area"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Factory Area"
-          },
-          {
-            "size": "quarter",
-            "value": {
-              "values": [
-                {
-                  "filters": [
-                    {
-                      "name": "number",
-                      "args": []
-                    },
-                    {
-                      "name": "append",
-                      "args": [
-                        " SF"
-                      ]
-                    }
-                  ],
-                  "source": "#/property/zones/otherArea",
-                  "type": "string"
-                }
-              ],
-              "kind": "dynamic"
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "filters": [
+                      {
+                        "name": "number",
+                        "args": []
+                      },
+                      {
+                        "name": "append",
+                        "args": [
+                          " SF"
+                        ]
+                      }
+                    ],
+                    "source": "#/property/zones/factoryArea",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Factory Area"
             },
-            "medium": "all",
-            "type": "keyvalue",
-            "link": {},
-            "key": "Other Area"
-          }
-        ]
-      }
-    ]
-  }
-]
+            {
+              "size": "quarter",
+              "value": {
+                "values": [
+                  {
+                    "filters": [
+                      {
+                        "name": "number",
+                        "args": []
+                      },
+                      {
+                        "name": "append",
+                        "args": [
+                          " SF"
+                        ]
+                      }
+                    ],
+                    "source": "#/property/zones/otherArea",
+                    "type": "string"
+                  }
+                ],
+                "kind": "dynamic"
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Other Area"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
