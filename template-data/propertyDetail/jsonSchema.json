@@ -272,22 +272,16 @@
             "description": "Cell properties.",
             "type": "object",
             "properties": {
-              "type": {
-                "title": "Cell Type",
-                "description": "Type of cell.",
-                "type": "string",
-                "enum": ["dynamic", "static", "header"],
-                "default": "dynamic"
-              },
-              "text": {
-                "title": "Cell Text",
-                "description": "Static text to place in cell. Use this OR \"Cell Data Source\" below.",
-                "type": "string"
-              },
               "source": {
-                "title": "Cell Data Source",
-                "description": "Location of data point to use in this cell. Use this OR \"Cell Text\" above.",
+                "title": "Cell Contents",
+                "description": "Contents of cell.",
                 "type": "object"
+              },
+              "header": {
+                "title": "Header",
+                "description": "Style cell as a header.",
+                "type": "boolean",
+                "default": false
               },
               "width": {
                 "title": "Cell Width",
@@ -304,7 +298,7 @@
                 }
               }
             },
-            "required": ["type", "width"]
+            "required": ["source", "width"]
           }
         },
         "minItems": 1
