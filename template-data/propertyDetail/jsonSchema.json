@@ -346,25 +346,13 @@
     "properties": {
       "value": {
         "title": "Value",
-        "description": "Value of text.",
-        "type": "string"
-      }
-    },
-    "preview": "value",
-    "required": ["value"]
-  },
-  "text-dynamic": {
-    "name": "Text (Dynamic)",
-    "description": "Paragraph of text pulled from a data source.",
-    "properties": {
-      "value": {
-        "title": "Value",
-        "description": "Location of text to use.",
+        "description": "Value of text. (HTML is allowed.)",
         "type": "object"
       }
     },
+    "preview": "value",
     "required": ["value"],
-    "dynamic": ["value"]
+    "dynamic": "text"
   },
   "chart": {
     "name": "Chart",
