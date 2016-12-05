@@ -131,25 +131,30 @@
                         "boxDescription": "Captiol Riverfront BID",
                         "boxStyle": "background:#984ea3;",
                         "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "Downtown BID",
+                        "boxStyle": "background:#edaacc;",
+                        "imageUrl": null
                     }
                 },
                 "listItemsRight": {
-                    "item4": {                        
-                        "boxDescription": "Downtown BID",
+                    "item6": {                        
+                        "boxDescription": "Georgetown BID",
                         "boxStyle": "background:#a65628;",
                         "imageUrl": null
                     },
-                    "item5": {
+                    "item7": {
                         "boxDescription": "Golden Triangle BID",
                         "boxStyle": "background:#377eb8;",
                         "imageUrl": null
                     },
-                    "item6": {
+                    "item8": {
                         "boxDescription": "Mount Vernon Triangle BID",
                         "boxStyle": "background:#ffff33;",
                         "imageUrl": null
                     },
-                    "item7": {
+                    "item9": {
                         "boxDescription": "NoMa BID",
                         "boxStyle": "background:#999999;",
                         "imageUrl": null
