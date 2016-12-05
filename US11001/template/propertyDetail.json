@@ -6715,7 +6715,7 @@
                         },
                         {
                           "title": "Total Housing Units",
-                          "seriesName": "total-housing-units-esri0",
+                          "seriesName": "total-housing-units-esri1",
                           "chartKey": "1/2 Mile Radius",
                           "fields": [
                             {
