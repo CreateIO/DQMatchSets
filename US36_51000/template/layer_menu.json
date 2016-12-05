@@ -802,39 +802,32 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_CZB"
+                            "param1": "ny_SNWA"
                         },
                         "service": "tileMapServiceService"
                     },
                     "func2": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_SNWA"
+                            "param1": "ny_ESMIA"
                         },
                         "service": "tileMapServiceService"
                     },
                     "func3": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_ESMIA"
+                            "param1": "ny_PMAZ"
                         },
                         "service": "tileMapServiceService"
                     },
                     "func4": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_PMAZ"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func5": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
                             "param1": "ny_SMIA"
                         },
                         "service": "tileMapServiceService"
                     },
-                    "func6": {
+                    "func5": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
                             "param1": "ny_REC"
@@ -851,39 +844,32 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_CZB"
+                            "param1": "ny_SNWA"
                         },
                         "service": "tileMapServiceService"
                     },
                     "func2": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_SNWA"
+                            "param1": "ny_ESMIA"
                         },
                         "service": "tileMapServiceService"
                     },
                     "func3": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_ESMIA"
+                            "param1": "ny_PMAZ"
                         },
                         "service": "tileMapServiceService"
                     },
                     "func4": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_PMAZ"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func5": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
                             "param1": "ny_SMIA"
                         },
                         "service": "tileMapServiceService"
                     },
-                    "func6": {
+                    "func5": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
                             "param1": "ny_REC"
@@ -936,6 +922,62 @@
             },
             "menuSection": "LandUse3",
             "mouseoverName": "Waterfront Revitalization Program",
+            "order": 0,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+        "Coastal Zone Boundary": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Coastal Zone Boundary",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_CZB"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Coastal Zone Boundary'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_CZB"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "The Coastal Zone Boundary defines the geographic scope of New York City's Waterfront Revitalization Program (WRP). The boundary encompasses all land and water of direct and significant impact on coastal waters.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Coastal Zone Boundary (CZB)",
+                        "boxStyle": "background:#6bbed0; border: 1px solid #29739d",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Open Data",
+                "sourceURL": "https://data.cityofnewyork.us/",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse3",
+            "mouseoverName": "Coastal Zone Boundary",
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
