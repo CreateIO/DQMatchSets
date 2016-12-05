@@ -113,13 +113,13 @@
                 "description": "",
                 "listItemsLeft": {
                     "item1": {
-                        "boxDescription": "Anacostia BID",
-                        "boxStyle": "background:#4daf4a;",
+                        "boxDescription": "Adams Morgan BID",
+                        "boxStyle": "background:#ff7f00;",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "Adams Morgan BID",
-                        "boxStyle": "background:#ff7f00;",
+                        "boxDescription": "Anacostia BID",
+                        "boxStyle": "background:#4daf4a;",
                         "imageUrl": null
                     },
                     "item3": {
