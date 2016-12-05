@@ -3971,7 +3971,8 @@
                                 "buffer0"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "seriesName": "total-population-esri1",
@@ -4005,7 +4006,8 @@
                                 "buffer1"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "seriesName": "total-population-esri2",
@@ -4039,7 +4041,8 @@
                                 "buffer2"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "seriesName": "total-population-esri3",
@@ -4073,7 +4076,8 @@
                                 "buffer3"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         }
                       ]
                     },
@@ -4296,7 +4300,8 @@
                                 "calcBuffer0"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "seriesName": "population-age-male-esri1",
@@ -4431,7 +4436,8 @@
                                 "calcBuffer1"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "chartName": "population-age-male-esri2",
@@ -4566,7 +4572,8 @@
                                 "calcBuffer2"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "chartName": "population-age-male-esri3",
@@ -4701,7 +4708,8 @@
                                 "calcBuffer3"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "chartKey": "Female",
@@ -4834,7 +4842,8 @@
                                 "calcBuffer0"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "chartName": "population-age-gender-esri1",
@@ -4968,7 +4977,8 @@
                                 "calcBuffer1"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "chartName": "population-age-gender-esri2",
@@ -5102,7 +5112,8 @@
                                 "calcBuffer2"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "chartName": "population-age-gender-esri3",
@@ -5236,7 +5247,8 @@
                                 "calcBuffer3"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         }
                       ]
                     },
@@ -5326,7 +5338,8 @@
                                 "buffer0"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Total Households",
@@ -5361,7 +5374,8 @@
                                 "buffer1"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Total Households",
@@ -5396,7 +5410,8 @@
                                 "buffer2"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Total Households",
@@ -5431,7 +5446,8 @@
                                 "buffer3"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         }
                       ]
                     },
@@ -5612,7 +5628,8 @@
                                 ]
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Median Household Income",
@@ -5677,7 +5694,8 @@
                                 ]
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Median Household Income",
@@ -5742,7 +5760,8 @@
                                 ]
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Median Household Income",
@@ -5807,7 +5826,8 @@
                                 ]
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         }
                       ]
                     },
@@ -5993,7 +6013,8 @@
                                 "calcBuffer0"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "seriesName": "employment-occupation-chart-esri1",
@@ -6091,7 +6112,8 @@
                                 "calcBuffer1"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "seriesName": "employment-occupation-chart-esri2",
@@ -6189,7 +6211,8 @@
                                 "calcBuffer2"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "seriesName": "employment-occupation-chart-esri3",
@@ -6287,7 +6310,8 @@
                                 "calcBuffer3"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         }
                       ]
                     },
@@ -6419,7 +6443,8 @@
                                 "calcBuffer0"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Education",
@@ -6468,7 +6493,8 @@
                                 "calcBuffer1"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Education",
@@ -6517,7 +6543,8 @@
                                 "calcBuffer2"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Education",
@@ -6566,7 +6593,8 @@
                                 "calcBuffer3"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         }
                       ]
                     },
@@ -6656,7 +6684,8 @@
                                 "buffer0"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Total Housing Units",
@@ -6691,7 +6720,8 @@
                                 "buffer1"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Total Housing Units",
@@ -6726,7 +6756,8 @@
                                 "buffer2"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Total Housing Units",
@@ -6763,7 +6794,8 @@
                                 "buffer3"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         }
                       ]
                     },
@@ -6986,7 +7018,8 @@
                                 "buffer0"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "seriesName": "home-value-2015-esri1",
@@ -7041,7 +7074,8 @@
                                 "buffer1"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "seriesName": "home-value-2015-esri2",
@@ -7096,7 +7130,8 @@
                                 "buffer2"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "seriesName": "home-value-2015-esri3",
@@ -7151,7 +7186,8 @@
                                 "buffer3"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         }
                       ]
                     },
@@ -7283,7 +7319,8 @@
                                 "calcBuffer0"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "seriesName": "household-by-rent-esri1",
@@ -7331,7 +7368,8 @@
                                 "calcBuffer1"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "seriesName": "household-by-rent-esri2",
@@ -7379,7 +7417,8 @@
                                 "calcBuffer2"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "seriesName": "household-by-rent-esri3",
@@ -7427,7 +7466,8 @@
                                 "calcBuffer3"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         }
                       ]
                     },
@@ -7517,7 +7557,8 @@
                                 "buffer0"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Owner Housing",
@@ -7545,7 +7586,8 @@
                                 "buffer1"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Owner Housing",
@@ -7573,7 +7615,8 @@
                                 "buffer2"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Owner Housing",
@@ -7601,7 +7644,8 @@
                                 "buffer3"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Renter Housing",
@@ -7629,7 +7673,8 @@
                                 "buffer0"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Renter Housing",
@@ -7657,7 +7702,8 @@
                                 "buffer1"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Renter Housing",
@@ -7685,7 +7731,8 @@
                                 "buffer2"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Renter Housing",
@@ -7713,7 +7760,8 @@
                                 "buffer3"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Vacant Housing",
@@ -7741,7 +7789,8 @@
                                 "buffer0"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Vacant Housing",
@@ -7769,7 +7818,8 @@
                                 "buffer1"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Vacant Housing",
@@ -7797,7 +7847,8 @@
                                 "buffer2"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "title": "Vacant Housing",
@@ -7825,7 +7876,8 @@
                                 "buffer3"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         }
                       ]
                     },
@@ -7971,7 +8023,8 @@
                                 "calcBuffer0"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "seriesName": "housing-by-units-in-structure-esri1",
@@ -8033,7 +8086,8 @@
                                 "calcBuffer1"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "seriesName": "housing-by-units-in-structure-esri2",
@@ -8095,7 +8149,8 @@
                                 "calcBuffer2"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         },
                         {
                           "seriesName": "housing-by-units-in-structure-esri3",
@@ -8157,7 +8212,8 @@
                                 "calcBuffer3"
                               ]
                             }
-                          ]
+                          ],
+                          "type": "chart"
                         }
                       ]
                     }
