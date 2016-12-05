@@ -632,22 +632,43 @@
                 "values": [
                   {
                     "source": "#/property/permits",
-                    "type": "string"
+                    "type": "array"
                   }
                 ],
                 "kind": "dynamic"
               },
               "name": "Permits",
               "title": {
-                "kind": "dynamic",
+                "kind": "multi",
                 "values": [
                   {
                     "source": "permit_type_name",
-                    "filters": []
+                    "filters": [
+                      {
+                        "name": "capitalize",
+                        "args": [
+                          "nottwo"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "source": "issue_date",
+                    "type": "number",
+                    "filters": [
+                      {
+                        "name": "date",
+                        "args": [
+                          "MM/dd/yyyy"
+                        ]
+                      }
+                    ]
                   }
-                ]
+                ],
+                "template": "{0} | {1}"
               },
               "fallback": "No recent permits to show.",
+              "medium": "all",
               "children": [
                 {
                   "type": "keyvalue",
@@ -1745,6 +1766,19 @@
           "type": "subsection",
           "children": [
             {
+              "name": "Tenants",
+              "placeholder": "No tenant data to show.",
+              "medium": "all",
+              "title": {
+                "kind": "dynamic",
+                "values": [
+                  {
+                    "source": "ig_name",
+                    "filters": []
+                  }
+                ]
+              },
+              "type": "collection",
               "source": {
                 "values": [
                   {
@@ -1763,23 +1797,12 @@
                       }
                     ],
                     "source": "#/property/spaces",
-                    "type": "string"
+                    "type": "array"
                   }
                 ],
                 "kind": "dynamic"
               },
-              "name": "Tenants",
-              "title": {
-                "kind": "dynamic",
-                "values": [
-                  {
-                    "source": "ig_name",
-                    "filters": []
-                  }
-                ]
-              },
               "restrict": "tenants",
-              "placeholder": "No tenant data to show.",
               "children": [
                 {
                   "type": "keyvalue",
@@ -1944,8 +1967,7 @@
                   },
                   "size": "half"
                 }
-              ],
-              "type": "collection"
+              ]
             },
             {
               "title": "Unlock Tenant Data",
@@ -2005,6 +2027,15 @@
           "type": "subsection",
           "children": [
             {
+              "source": {
+                "values": [
+                  {
+                    "source": "#/zdata/uses",
+                    "type": "array"
+                  }
+                ],
+                "kind": "dynamic"
+              },
               "columns": [
                 {
                   "key": "parameters",
@@ -2027,15 +2058,7 @@
                   "title": "Rear Yard (ft)"
                 }
               ],
-              "source": {
-                "values": [
-                  {
-                    "source": "#/zdata/uses",
-                    "type": "string"
-                  }
-                ],
-                "kind": "dynamic"
-              },
+              "medium": "all",
               "type": "table"
             }
           ]
@@ -2047,6 +2070,15 @@
           "type": "subsection",
           "children": [
             {
+              "source": {
+                "values": [
+                  {
+                    "source": "#/zdata/uses",
+                    "type": "array"
+                  }
+                ],
+                "kind": "dynamic"
+              },
               "columns": [
                 {
                   "key": "parameters",
@@ -2069,15 +2101,7 @@
                   "title": "Maximum Lot Occupancy (%)"
                 }
               ],
-              "source": {
-                "values": [
-                  {
-                    "source": "#/zdata/uses",
-                    "type": "string"
-                  }
-                ],
-                "kind": "dynamic"
-              },
+              "medium": "all",
               "type": "table"
             }
           ]
@@ -2104,16 +2128,10 @@
           "type": "subsection",
           "children": [
             {
-              "source": {
-                "values": [
-                  {
-                    "source": "#/nextLevel/histDist",
-                    "type": "string"
-                  }
-                ],
-                "kind": "dynamic"
-              },
+              "fallback": "No Historic Districts apply.",
               "name": "Historic Districts",
+              "properties": [],
+              "medium": "all",
               "title": {
                 "kind": "dynamic",
                 "values": [
@@ -2123,9 +2141,16 @@
                   }
                 ]
               },
-              "properties": [],
-              "fallback": "No Historic Districts apply.",
               "type": "collection",
+              "source": {
+                "values": [
+                  {
+                    "source": "#/nextLevel/histDist",
+                    "type": "array"
+                  }
+                ],
+                "kind": "dynamic"
+              },
               "children": [
                 {
                   "size": "full",
@@ -2830,14 +2855,14 @@
             },
             {
               "twoDimensional": "false",
+              "classes": "tab-section",
               "vAxisTooltipLabel": "Number of Cars in Household",
               "hAxis": "Percentage of Households",
+              "innerClasses": "details-charts min370 interactive-charts detailsPane",
               "multiSeries": "false",
               "vAxis": "Cars per Household",
               "chartType": "HorizontalBar",
               "title": "Cars per Household",
-              "classes": "tab-section",
-              "innerClasses": "details-charts min370 interactive-charts detailsPane",
               "fields": [
                 {
                   "label": "0",
@@ -3307,20 +3332,20 @@
                         },
                         {
                           "twoDimensional": "false",
+                          "classes": "tab-section",
                           "mutiSeries2D": "false",
                           "topFive": "true",
                           "extraVariables": "false",
                           "vAxisTooltipLabel": "Income Level",
                           "hAxis": "Percent of Households",
                           "radiobutton": "false",
+                          "innerClasses": "details-charts interactive-charts chart-350",
                           "multiSeries": "false",
                           "wide": "false",
                           "panelVariables": false,
                           "vAxis": "Income",
                           "chartType": "HorizontalBar",
                           "title": "Household Income",
-                          "classes": "tab-section",
-                          "innerClasses": "details-charts interactive-charts chart-350",
                           "fields": [
                             {
                               "label": "$200k+",
@@ -3405,16 +3430,16 @@
                         },
                         {
                           "twoDimensional": "false",
+                          "classes": "tab-section tab-section-pie-chart",
                           "topFive": "true",
                           "extraVariables": "true",
                           "radiobutton": "true",
+                          "innerClasses": "details-charts pie-charts fullSize",
                           "multiSeries": "false",
                           "wide": "true",
                           "panelVariables": false,
                           "chartType": "PieChart",
                           "title": "Employment",
-                          "classes": "tab-section tab-section-pie-chart",
-                          "innerClasses": "details-charts pie-charts fullSize",
                           "fields": [
                             {
                               "label": "Agriculture",
@@ -3523,17 +3548,17 @@
                         },
                         {
                           "twoDimensional": "false",
+                          "classes": "tab-section tab-section-pie-chart",
                           "topFive": "true",
                           "extraVariables": "true",
                           "hAxis": "Percentage of Population",
                           "radiobutton": "true",
+                          "innerClasses": "details-charts pie-charts fullSize",
                           "multiSeries": "false",
                           "wide": "false",
                           "panelVariables": false,
                           "chartType": "PieChart",
                           "title": "Educational Attainment (25+)",
-                          "classes": "tab-section tab-section-pie-chart",
-                          "innerClasses": "details-charts pie-charts fullSize",
                           "fields": [
                             {
                               "label": "Graduate",
@@ -3888,9 +3913,11 @@
                   "children": [
                     {
                       "twoDimensional": "false",
+                      "classes": "tab-section",
                       "vAxisTooltipLabel": "Population",
                       "hAxis": "Year",
                       "radiobutton": "false",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "multiSeries": "true",
                       "vAxis": "Population",
                       "series": [
@@ -3936,8 +3963,6 @@
                         ],
                         "kind": "dynamic"
                       },
-                      "classes": "tab-section",
-                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "children": [
                         {
                           "seriesName": "total-population-esri0",
@@ -4083,8 +4108,10 @@
                     },
                     {
                       "twoDimensional": "true",
+                      "classes": "tab-section-tall",
                       "extraVariables": "true",
                       "hAxis": "Percentage",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "multiSeries": "true",
                       "percentY": "true",
                       "vAxis": "Age",
@@ -4124,8 +4151,6 @@
                       ],
                       "chartType": "HorizontalBar",
                       "title": "Population By Age and Gender",
-                      "classes": "tab-section-tall",
-                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "fields": [
                         {
                           "label": "Population",
@@ -4168,7 +4193,7 @@
                       },
                       "children": [
                         {
-                          "chartName": "population-age-gender-esri0",
+                          "seriesName": "population-age-male-esri0",
                           "chartKey": "Male",
                           "title": "Male Population By Age",
                           "chartType": "OfficeBarChart",
@@ -4440,7 +4465,7 @@
                           "type": "chart"
                         },
                         {
-                          "chartName": "population-age-male-esri2",
+                          "seriesName": "population-age-male-esri2",
                           "chartKey": "Male",
                           "title": "Male Population By Age",
                           "chartType": "OfficeBarChart",
@@ -4576,7 +4601,7 @@
                           "type": "chart"
                         },
                         {
-                          "chartName": "population-age-male-esri3",
+                          "seriesName": "population-age-male-esri3",
                           "chartKey": "Male",
                           "title": "Male Population By Age",
                           "chartType": "OfficeBarChart",
@@ -4714,6 +4739,7 @@
                         {
                           "chartKey": "Female",
                           "title": "Female Population By Age",
+                          "seriesName": "population-age-female-esri0",
                           "chartType": "OfficeBarChart",
                           "fields": [
                             {
@@ -4846,7 +4872,7 @@
                           "type": "chart"
                         },
                         {
-                          "chartName": "population-age-gender-esri1",
+                          "seriesName": "population-age-female-esri1",
                           "chartKey": "Female",
                           "title": "Female Population By Age",
                           "chartType": "OfficeBarChart",
@@ -4981,7 +5007,7 @@
                           "type": "chart"
                         },
                         {
-                          "chartName": "population-age-gender-esri2",
+                          "seriesName": "population-age-female-esri2",
                           "chartKey": "Female",
                           "title": "Female Population By Age",
                           "chartType": "OfficeBarChart",
@@ -5116,7 +5142,7 @@
                           "type": "chart"
                         },
                         {
-                          "chartName": "population-age-gender-esri3",
+                          "seriesName": "population-age-female-esri3",
                           "chartKey": "Female",
                           "title": "Female Population By Age",
                           "chartType": "OfficeBarChart",
@@ -5254,13 +5280,13 @@
                     },
                     {
                       "twoDimensional": "false",
+                      "classes": "tab-section",
                       "vAxisTooltipLabel": "Households",
                       "hAxis": "Year",
                       "radiobutton": "false",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "multiSeries": "true",
                       "vAxis": "Number of Households",
-                      "classes": "tab-section",
-                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "series": [
                         {
                           "chartKey": "1/4 Mile Radius",
@@ -5453,16 +5479,16 @@
                     },
                     {
                       "twoDimensional": "false",
+                      "classes": "tab-section-tall",
                       "extraVariables": "true",
                       "containerHeight": 335,
                       "vAxisTooltipLabel": "Income Level",
                       "hAxis": "Percentage of Households",
                       "vAxisDistance": 50,
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "multiSeries": "true",
                       "panelVariables": true,
                       "vAxis": "Income",
-                      "classes": "tab-section-tall",
-                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "series": [
                         {
                           "data": [
@@ -5833,12 +5859,12 @@
                     },
                     {
                       "twoDimensional": "true",
+                      "classes": "tab-section tab-section-pie-chart",
                       "extraVariables": "true",
+                      "innerClasses": "details-charts interactive-charts detailsPane",
                       "multiSeries": "true",
                       "wide": "true",
                       "panelVariables": false,
-                      "classes": "tab-section tab-section-pie-chart",
-                      "innerClasses": "details-charts interactive-charts detailsPane",
                       "series": [
                         {
                           "data": [
@@ -6317,12 +6343,12 @@
                     },
                     {
                       "twoDimensional": "true",
+                      "classes": "tab-section tab-section-pie-chart ng-scope",
                       "extraVariables": "true",
                       "hAxis": "Percentage of Population",
+                      "innerClasses": "details-charts interactive-charts detailsPane",
                       "multiSeries": "true",
                       "panelVariables": false,
-                      "classes": "tab-section tab-section-pie-chart ng-scope",
-                      "innerClasses": "details-charts interactive-charts detailsPane",
                       "series": [
                         {
                           "data": [
@@ -6600,13 +6626,13 @@
                     },
                     {
                       "twoDimensional": "false",
+                      "classes": "tab-section",
                       "vAxisTooltipLabel": "Housing Units",
                       "hAxis": "Year",
                       "radiobutton": "false",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "multiSeries": "true",
                       "vAxis": "Housing Units",
-                      "classes": "tab-section",
-                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "series": [
                         {
                           "data": [
@@ -6801,12 +6827,12 @@
                     },
                     {
                       "twoDimensional": "true",
+                      "classes": "tab-section",
                       "extraVariables": "true",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "multiSeries": "true",
                       "wide": "true",
                       "panelVariables": true,
-                      "classes": "tab-section",
-                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "series": [
                         {
                           "data": [
@@ -7193,12 +7219,12 @@
                     },
                     {
                       "twoDimensional": "true",
+                      "classes": "tab-section tab-section-pie-chart",
                       "extraVariables": "true",
+                      "innerClasses": "details-charts interactive-charts fullSize",
                       "multiSeries": "true",
                       "wide": "false",
                       "panelVariables": false,
-                      "classes": "tab-section tab-section-pie-chart",
-                      "innerClasses": "details-charts interactive-charts fullSize",
                       "series": [
                         {
                           "data": [
@@ -7473,12 +7499,12 @@
                     },
                     {
                       "twoDimensional": "true",
+                      "classes": "tab-section",
                       "vAxisTooltipLabel": "Number of Occupants",
                       "hAxis": "Year",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "multiSeries": "true",
                       "vAxis": "Number of Occupants",
-                      "classes": "tab-section",
-                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "series": [
                         {
                           "chartKey": "1/4 Mile Radius",
@@ -7535,6 +7561,7 @@
                           "title": "Owner Housing",
                           "chartKey": "Owner",
                           "chartType": "VerticalBarChart",
+                          "seriesName": "owner-occupied-housing-esri0",
                           "fields": [
                             {
                               "label": "2010",
@@ -7564,6 +7591,7 @@
                           "title": "Owner Housing",
                           "chartKey": "Owner",
                           "chartType": "VerticalBarChart",
+                          "seriesName": "owner-occupied-housing-esri1",
                           "fields": [
                             {
                               "label": "2010",
@@ -7593,6 +7621,7 @@
                           "title": "Owner Housing",
                           "chartKey": "Owner",
                           "chartType": "VerticalBarChart",
+                          "seriesName": "owner-occupied-housing-esri2",
                           "fields": [
                             {
                               "label": "2010",
@@ -7622,6 +7651,7 @@
                           "title": "Owner Housing",
                           "chartKey": "Owner",
                           "chartType": "VerticalBarChart",
+                          "seriesName": "owner-occupied-housing-esri3",
                           "fields": [
                             {
                               "label": "2010",
@@ -7651,6 +7681,7 @@
                           "title": "Renter Housing",
                           "chartKey": "Renter",
                           "chartType": "VerticalBarChart",
+                          "seriesName": "renter-occupied-housing-esri0",
                           "fields": [
                             {
                               "label": "2010",
@@ -7680,6 +7711,7 @@
                           "title": "Renter Housing",
                           "chartKey": "Renter",
                           "chartType": "VerticalBarChart",
+                          "seriesName": "renter-occupied-housing-esri1",
                           "fields": [
                             {
                               "label": "2010",
@@ -7709,6 +7741,7 @@
                           "title": "Renter Housing",
                           "chartKey": "Renter",
                           "chartType": "VerticalBarChart",
+                          "seriesName": "renter-occupied-housing-esri2",
                           "fields": [
                             {
                               "label": "2010",
@@ -7738,6 +7771,7 @@
                           "title": "Renter Housing",
                           "chartKey": "Renter",
                           "chartType": "VerticalBarChart",
+                          "seriesName": "renter-occupied-housing-esri3",
                           "fields": [
                             {
                               "label": "2010",
@@ -7767,6 +7801,7 @@
                           "title": "Vacant Housing",
                           "chartKey": "Vacant",
                           "chartType": "VerticalBarChart",
+                          "seriesName": "vacant-occupied-housing-esri0",
                           "fields": [
                             {
                               "label": "2010",
@@ -7796,6 +7831,7 @@
                           "title": "Vacant Housing",
                           "chartType": "VerticalBarChart",
                           "chartKey": "Vacant",
+                          "seriesName": "vacant-occupied-housing-esri1",
                           "fields": [
                             {
                               "label": "2010",
@@ -7825,6 +7861,7 @@
                           "title": "Vacant Housing",
                           "chartType": "VerticalBarChart",
                           "chartKey": "Vacant",
+                          "seriesName": "vacant-occupied-housing-esri2",
                           "fields": [
                             {
                               "label": "2010",
@@ -7854,6 +7891,7 @@
                           "title": "Vacant Housing",
                           "chartType": "VerticalBarChart",
                           "chartKey": "Vacant",
+                          "seriesName": "vacant-occupied-housing-esri3",
                           "fields": [
                             {
                               "label": "2010",
@@ -7883,12 +7921,12 @@
                     },
                     {
                       "twoDimensional": "true",
+                      "classes": "tab-section",
                       "extraVariables": "true",
+                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "multiSeries": "true",
                       "wide": "true",
                       "panelVariables": false,
-                      "classes": "tab-section",
-                      "innerClasses": "details-charts min370 interactive-charts detailsPane",
                       "series": [
                         {
                           "data": [

@@ -4193,7 +4193,7 @@
                       },
                       "children": [
                         {
-                          "chartName": "population-age-gender-esri0",
+                          "seriesName": "population-age-male-esri0",
                           "chartKey": "Male",
                           "title": "Male Population By Age",
                           "chartType": "OfficeBarChart",
@@ -4465,7 +4465,7 @@
                           "type": "chart"
                         },
                         {
-                          "chartName": "population-age-male-esri2",
+                          "seriesName": "population-age-male-esri2",
                           "chartKey": "Male",
                           "title": "Male Population By Age",
                           "chartType": "OfficeBarChart",
@@ -4601,7 +4601,7 @@
                           "type": "chart"
                         },
                         {
-                          "chartName": "population-age-male-esri3",
+                          "seriesName": "population-age-male-esri3",
                           "chartKey": "Male",
                           "title": "Male Population By Age",
                           "chartType": "OfficeBarChart",
@@ -4739,6 +4739,7 @@
                         {
                           "chartKey": "Female",
                           "title": "Female Population By Age",
+                          "seriesName": "population-age-female-esri0",
                           "chartType": "OfficeBarChart",
                           "fields": [
                             {
@@ -4871,7 +4872,7 @@
                           "type": "chart"
                         },
                         {
-                          "chartName": "population-age-gender-esri1",
+                          "seriesName": "population-age-female-esri1",
                           "chartKey": "Female",
                           "title": "Female Population By Age",
                           "chartType": "OfficeBarChart",
@@ -5006,7 +5007,7 @@
                           "type": "chart"
                         },
                         {
-                          "chartName": "population-age-gender-esri2",
+                          "seriesName": "population-age-female-esri2",
                           "chartKey": "Female",
                           "title": "Female Population By Age",
                           "chartType": "OfficeBarChart",
@@ -5141,7 +5142,7 @@
                           "type": "chart"
                         },
                         {
-                          "chartName": "population-age-gender-esri3",
+                          "seriesName": "population-age-female-esri3",
                           "chartKey": "Female",
                           "title": "Female Population By Age",
                           "chartType": "OfficeBarChart",
@@ -7560,6 +7561,7 @@
                           "title": "Owner Housing",
                           "chartKey": "Owner",
                           "chartType": "VerticalBarChart",
+                          "seriesName": "owner-occupied-housing-esri0",
                           "fields": [
                             {
                               "label": "2010",
@@ -7589,6 +7591,7 @@
                           "title": "Owner Housing",
                           "chartKey": "Owner",
                           "chartType": "VerticalBarChart",
+                          "seriesName": "owner-occupied-housing-esri1",
                           "fields": [
                             {
                               "label": "2010",
@@ -7618,6 +7621,7 @@
                           "title": "Owner Housing",
                           "chartKey": "Owner",
                           "chartType": "VerticalBarChart",
+                          "seriesName": "owner-occupied-housing-esri2",
                           "fields": [
                             {
                               "label": "2010",
@@ -7647,6 +7651,7 @@
                           "title": "Owner Housing",
                           "chartKey": "Owner",
                           "chartType": "VerticalBarChart",
+                          "seriesName": "owner-occupied-housing-esri3",
                           "fields": [
                             {
                               "label": "2010",
@@ -7676,6 +7681,7 @@
                           "title": "Renter Housing",
                           "chartKey": "Renter",
                           "chartType": "VerticalBarChart",
+                          "seriesName": "renter-occupied-housing-esri0",
                           "fields": [
                             {
                               "label": "2010",
@@ -7705,6 +7711,7 @@
                           "title": "Renter Housing",
                           "chartKey": "Renter",
                           "chartType": "VerticalBarChart",
+                          "seriesName": "renter-occupied-housing-esri1",
                           "fields": [
                             {
                               "label": "2010",
@@ -7734,6 +7741,7 @@
                           "title": "Renter Housing",
                           "chartKey": "Renter",
                           "chartType": "VerticalBarChart",
+                          "seriesName": "renter-occupied-housing-esri2",
                           "fields": [
                             {
                               "label": "2010",
@@ -7763,6 +7771,7 @@
                           "title": "Renter Housing",
                           "chartKey": "Renter",
                           "chartType": "VerticalBarChart",
+                          "seriesName": "renter-occupied-housing-esri3",
                           "fields": [
                             {
                               "label": "2010",
@@ -7792,6 +7801,7 @@
                           "title": "Vacant Housing",
                           "chartKey": "Vacant",
                           "chartType": "VerticalBarChart",
+                          "seriesName": "vacant-occupied-housing-esri0",
                           "fields": [
                             {
                               "label": "2010",
@@ -7821,6 +7831,7 @@
                           "title": "Vacant Housing",
                           "chartType": "VerticalBarChart",
                           "chartKey": "Vacant",
+                          "seriesName": "vacant-occupied-housing-esri1",
                           "fields": [
                             {
                               "label": "2010",
@@ -7850,6 +7861,7 @@
                           "title": "Vacant Housing",
                           "chartType": "VerticalBarChart",
                           "chartKey": "Vacant",
+                          "seriesName": "vacant-occupied-housing-esri2",
                           "fields": [
                             {
                               "label": "2010",
@@ -7879,6 +7891,7 @@
                           "title": "Vacant Housing",
                           "chartType": "VerticalBarChart",
                           "chartKey": "Vacant",
+                          "seriesName": "vacant-occupied-housing-esri3",
                           "fields": [
                             {
                               "label": "2010",
