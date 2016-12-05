@@ -326,7 +326,10 @@
               "type": "teaser"
             },
             {
-              "value": "Data Source: DC Government",
+              "value": {
+                "kind": "static",
+                "value": "Data Source: DC Government"
+              },
               "type": "text"
             }
           ]
@@ -8376,7 +8379,10 @@
           ]
         },
         {
-          "value": "Data Source: FRED Economic Data",
+          "value": {
+            "kind": "static",
+            "value": "Data Source: FRED Economic Data"
+          },
           "type": "text"
         }
       ]
@@ -9163,15 +9169,24 @@
               "type": "table-complex"
             },
             {
-              "value": "* DSCR assumed to be greater than 1.25x",
+              "value": {
+                "kind": "static",
+                "value": "* DSCR assumed to be greater than 1.25x"
+              },
               "type": "text"
             },
             {
-              "value": "T = Treasury, L = LIBOR",
+              "value": {
+                "kind": "static",
+                "value": "T = Treasury, L = LIBOR"
+              },
               "type": "text"
             },
             {
-              "value": "Data source: <a href=\"http://www.cushmanwakefield.com/~/media/reports/corporate/Global%20Reports/CW_Capital_Markets_Update.pdf\">Cushman and Wakefield Report</a>",
+              "value": {
+                "kind": "static",
+                "value": "Data source: <a href=\"http://www.cushmanwakefield.com/~/media/reports/corporate/Global%20Reports/CW_Capital_Markets_Update.pdf\">Cushman and Wakefield Report</a>"
+              },
               "type": "text"
             }
           ]
@@ -9515,7 +9530,10 @@
               "key": "Promote"
             },
             {
-              "value": "Data source: <a href=\"http://www.cushmanwakefield.com/~/media/reports/corporate/Global%20Reports/CW_Capital_Markets_Update.pdf\">Cushman and Wakefield Report</a>",
+              "value": {
+                "kind": "static",
+                "value": "Data source: <a href=\"http://www.cushmanwakefield.com/~/media/reports/corporate/Global%20Reports/CW_Capital_Markets_Update.pdf\">Cushman and Wakefield Report</a>"
+              },
               "type": "text"
             }
           ]

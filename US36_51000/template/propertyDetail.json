@@ -1,5 +1,5 @@
 {
-  "$property": "propertyDetail",
+  "$template": "propertyDetail",
   "items": [
     {
       "title": "Property",
@@ -201,7 +201,10 @@
               "key": "Owner"
             },
             {
-              "value": "Data Source: NYC Government",
+              "value": {
+                "kind": "static",
+                "value": "Data Source: NYC Government"
+              },
               "medium": "all",
               "type": "text"
             }
