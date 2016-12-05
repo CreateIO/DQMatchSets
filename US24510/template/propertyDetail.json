@@ -6751,7 +6751,7 @@
                         },
                         {
                           "title": "Total Housing Units",
-                          "seriesName": "total_housing_units-esri2",
+                          "seriesName": "total-housing-units-esri2",
                           "chartKey": "1 Mile Radius",
                           "fields": [
                             {
@@ -6787,7 +6787,7 @@
                         },
                         {
                           "title": "Total Housing Units",
-                          "seriesName": "total_housing_units-esri3",
+                          "seriesName": "total-housing-units-esri3",
                           "chartKey": "3 Mile Radius",
                           "hAxis": "Year",
                           "vAxis": "Units",
