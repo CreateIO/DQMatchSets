@@ -113,18 +113,18 @@
                 "description": "",
                 "listItemsLeft": {
                     "item1": {
-                        "boxDescription": "Capitol Hill BID",
-                        "boxStyle": "background:#e41a1c;",
+                        "boxDescription": "Adams Morgan BID",
+                        "boxStyle": "background:#ff7f00;",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "Golden Triangle BID",
-                        "boxStyle": "background:#377eb8;",
+                        "boxDescription": "Anacostia BID",
+                        "boxStyle": "background:#4daf4a;",
                         "imageUrl": null
                     },
                     "item3": {
-                        "boxDescription": "Anacostia BID",
-                        "boxStyle": "background:#4daf4a;",
+                        "boxDescription": "Capitol Hill BID",
+                        "boxStyle": "background:#e41a1c;",
                         "imageUrl": null
                     },
                     "item4": {
@@ -133,28 +133,28 @@
                         "imageUrl": null
                     },
                     "item5": {
-                        "boxDescription": "Adams Morgan BID",
-                        "boxStyle": "background:#ff7f00;",
+                        "boxDescription": "Downtown BID",
+                        "boxStyle": "background:#edaacc;",
                         "imageUrl": null
                     }
                 },
                 "listItemsRight": {
-                    "item1": {
-                        "boxDescription": "Adams Morgan BID",
-                        "boxStyle": "background:#ffff33;",
-                        "imageUrl": null
-                    },
-                    "item2": {
-                        "boxDescription": "Mount Vernon Triangle BID",
+                    "item6": {                        
+                        "boxDescription": "Georgetown BID",
                         "boxStyle": "background:#a65628;",
                         "imageUrl": null
                     },
-                    "item3": {
-                        "boxDescription": "Georgetown BID",
-                        "boxStyle": "background:#f781bf;",
+                    "item7": {
+                        "boxDescription": "Golden Triangle BID",
+                        "boxStyle": "background:#377eb8;",
                         "imageUrl": null
                     },
-                    "item4": {
+                    "item8": {
+                        "boxDescription": "Mount Vernon Triangle BID",
+                        "boxStyle": "background:#ffff33;",
+                        "imageUrl": null
+                    },
+                    "item9": {
                         "boxDescription": "NoMa BID",
                         "boxStyle": "background:#999999;",
                         "imageUrl": null
