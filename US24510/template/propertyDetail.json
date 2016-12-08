@@ -1993,7 +1993,7 @@
               "value": {
                 "values": [
                   {
-                    "source": "#/zdata/zoning",
+                    "source": "#/regionalData/zoning/zoning",
                     "type": "string"
                   }
                 ],
@@ -2008,7 +2008,7 @@
               "value": {
                 "values": [
                   {
-                    "source": "#/zdata/description",
+                    "source": "#/regionalData/zoning/description",
                     "type": "string"
                   }
                 ],
@@ -2030,7 +2030,7 @@
               "source": {
                 "values": [
                   {
-                    "source": "#/zdata/uses",
+                    "source": "#/regionalData/zoning/uses",
                     "type": "array"
                   }
                 ],
@@ -2073,7 +2073,7 @@
               "source": {
                 "values": [
                   {
-                    "source": "#/zdata/uses",
+                    "source": "#/regionalData/zoning/uses",
                     "type": "array"
                   }
                 ],
@@ -2145,7 +2145,7 @@
               "source": {
                 "values": [
                   {
-                    "source": "#/nextLevel/histDist",
+                    "source": "#/regionalData/historicDistricts",
                     "type": "array"
                   }
                 ],
