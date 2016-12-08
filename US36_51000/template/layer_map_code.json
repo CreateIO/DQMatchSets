@@ -114,8 +114,8 @@
                 "exists": false
             }
         },
-        "ny_HistLM": {
-            "name": "ny_HistLM",
+        "ny_HistoricLM": {
+            "name": "ny_HistoricLM",
             "removeName": null,
             "url": null,
             "cartographic": false,
@@ -129,8 +129,8 @@
                 "exists": false
             },
             "tms": {
-                "tmsLayerName": "ny_HistLM",
-                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_HistLM@EPSG:900913@png",
+                "tmsLayerName": "ny_HistoricLM",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_HistoricLM@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.1657485961914,

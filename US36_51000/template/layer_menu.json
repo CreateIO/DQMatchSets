@@ -1253,7 +1253,7 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_HistLM"
+                            "param1": "ny_HistoricLM"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -1267,7 +1267,7 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_HistLM"
+                            "param1": "ny_HistoricLM"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -1282,7 +1282,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Historic Landmarks",
-                        "boxStyle": "background:#22d06d; border: 1px solid #106233",
+                        "boxStyle": "background:#d24530; border: 1px solid #ef867a",
                         "imageUrl": null
                     }
                 },
