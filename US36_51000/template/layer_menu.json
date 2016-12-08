@@ -783,9 +783,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse2",
+            "menuSection": "LandUse4",
             "mouseoverName": "Limited Height Zoning Districts",
-            "order": 5,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
