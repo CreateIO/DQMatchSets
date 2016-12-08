@@ -128,13 +128,13 @@
             "header":"'Historic Landmarks'",
             "boxValues":{               
                 "field1":{
-                    "value":"blm_name",
+                    "value":"lm_name",
                     "display":"Name: ",
                     "fieldtype":"text",
                     "units":null
                 },
                 "field2":{
-                    "value":"hist_dist",
+                    "value":"hist_distr",
                     "display":"District: ",
                     "fieldtype":"text",
                     "units":null
