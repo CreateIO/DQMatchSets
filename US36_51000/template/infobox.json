@@ -114,9 +114,9 @@
             "referenceid":"UNIQUEID",
             "propertyid":null,
             "offset":null,
-            "fieldtype":"retail",
+            "fieldtype":"residential",
             "photos":{
-                "active":true,
+                "active":false,
                 "value":null
             },
             "pdfs":{
