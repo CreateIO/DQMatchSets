@@ -116,7 +116,7 @@
             "offset":null,
             "fieldtype":"residential",
             "photos":{
-                "active":false,
+                "active":true,
                 "value":null
             },
             "pdfs":{
