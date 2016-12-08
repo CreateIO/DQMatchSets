@@ -783,7 +783,7 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse4",
+            "menuSection": "LandUse2",
             "mouseoverName": "Limited Height Zoning Districts",
             "order": 0,
             "subCategory": "3",
@@ -1290,8 +1290,8 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse3",
-            "mouseoverName": "Neighborhood Tabulation Areas",
+            "menuSection": "LandUse4",
+            "mouseoverName": "Historic Landmarks",
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
