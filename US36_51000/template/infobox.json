@@ -116,9 +116,10 @@
             "offset":null,
             "fieldtype":"residential",
             "photos":{
-                "active":true,
+                "active":false,
                 "value":null
             },
+            "streetView": true,
             "pdfs":{
                 "active":false,
                 "value":null
