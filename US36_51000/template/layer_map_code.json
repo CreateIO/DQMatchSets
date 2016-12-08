@@ -114,6 +114,44 @@
                 "exists": false
             }
         },
+        "ny_HistLM": {
+            "name": "ny_HistLM",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_HistLM",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_HistLM@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.1657485961914,
+                    "yMin": 40.5300025939941,
+                    "xMax": -73.7643432617188,
+                    "yMax": 40.9156875610352
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
         "ny_NTAs": {
             "name": "ny_NTAs",
             "removeName": null,
