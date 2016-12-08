@@ -1282,7 +1282,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Historic Landmarks",
-                        "boxStyle": "background:#d24530; border: 1px solid #ef867a",
+                        "boxStyle": "background:#d24530; border-radius: 15px;border: 1px solid #f7ba7e",
                         "imageUrl": null
                     }
                 },
