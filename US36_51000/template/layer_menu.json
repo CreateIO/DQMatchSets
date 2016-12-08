@@ -909,11 +909,6 @@
                         "boxDescription": "Special Natural Waterfront Areas (SNWA)",
                         "boxStyle": "background:#57afaa; border: 1px solid #3b7773",
                         "imageUrl": null
-                    },
-                    "item6": {
-                        "boxDescription": "Coastal Zone Boundary (CZB)",
-                        "boxStyle": "background:#6bbed0; border: 1px solid #29739d",
-                        "imageUrl": null
                     }
                 },
                 "sourceDescription": "NYC Open Data",
@@ -1242,6 +1237,62 @@
             "menuSection": "LandUse6",
             "mouseoverName": "100-Year Floodplain (2020)",
             "order": 1,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
+       "Historic Landmarks": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Historic Landmarks",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HistLM"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Historic Landmarks'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HistLM"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "NYC Designated Historic Landmarks",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Historic Landmarks",
+                        "boxStyle": "background:#22d06d; border: 1px solid #106233",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse3",
+            "mouseoverName": "Neighborhood Tabulation Areas",
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
