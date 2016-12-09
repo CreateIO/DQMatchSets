@@ -325,23 +325,23 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Moderate",
-                        "boxStyle": "background:#52b1aa"
+                        "boxStyle": "background:#2b83ba"
                     },
                     "item2": {
                         "boxDescription": "",
-                        "boxStyle": "background:#9dd9a6"
+                        "boxStyle": "background:#abdda4"
                     },
                     "item3": {
                         "boxDescription": "",
-                        "boxStyle": "background:#e3f497"
+                        "boxStyle": "background:#ffffbf"
                     },
                     "item4": {
                         "boxDescription": "",
-                        "boxStyle": "background:#fffbba"
+                        "boxStyle": "background:#fdae61"
                     },
                     "item5": {
                         "boxDescription": "High",
-                        "boxStyle": "background:#fdc771"
+                        "boxStyle": "background:#d7191c"
                     }
                 },
                 "sourceDescription": "OpenBaltimore",
@@ -349,7 +349,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "LandUse4",
-            "mouseoverName": "Mixed Use / Industrial Density",
+            "mouseoverName": "Mixed Use / Industrial Density Heatmap",
             "order": 2,
             "subCategory": "4",
             "urlLegend": "../../legends/template-color-ramp.jade",
@@ -408,23 +408,23 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Moderate",
-                        "boxStyle": "background:#52b1aa"
+                        "boxStyle": "background:#2b83ba"
                     },
                     "item2": {
                         "boxDescription": "",
-                        "boxStyle": "background:#9dd9a6"
+                        "boxStyle": "background:#abdda4"
                     },
                     "item3": {
                         "boxDescription": "",
-                        "boxStyle": "background:#e3f497"
+                        "boxStyle": "background:#ffffbf"
                     },
                     "item4": {
                         "boxDescription": "",
-                        "boxStyle": "background:#fffbba"
+                        "boxStyle": "background:#fdae61"
                     },
                     "item5": {
                         "boxDescription": "High",
-                        "boxStyle": "background:#fdc771"
+                        "boxStyle": "background:#d7191c"
                     }
                 },
                 "sourceDescription": "OpenBaltimore",
@@ -491,23 +491,23 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Moderate",
-                        "boxStyle": "background:#52b1aa"
+                        "boxStyle": "background:#2b83ba"
                     },
                     "item2": {
                         "boxDescription": "",
-                        "boxStyle": "background:#9dd9a6"
+                        "boxStyle": "background:#abdda4"
                     },
                     "item3": {
                         "boxDescription": "",
-                        "boxStyle": "background:#e3f497"
+                        "boxStyle": "background:#ffffbf"
                     },
                     "item4": {
                         "boxDescription": "",
-                        "boxStyle": "background:#fffbba"
+                        "boxStyle": "background:#fdae61"
                     },
                     "item5": {
                         "boxDescription": "High",
-                        "boxStyle": "background:#fdc771"
+                        "boxStyle": "background:#d7191c"
                     }
                 },
                 "sourceDescription": "OpenBaltimore",
