@@ -292,6 +292,108 @@
         "exists": false
       }
     },
+    "Residential_Heat": {
+            "name": "Residential_Heat",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "Residential_Heat",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/Residential_Heat.png",
+                        "xMin": -76.72,
+                        "yMin": 39.22,
+                        "xMax": -76.52,
+                        "yMax": 39.38,
+                        "alpha": 1,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "MixedUseIndustrial_Heat": {
+            "name": "MixedUseIndustrial_Heat",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "MixedUseIndustrial_Heat",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/MixedUseIndustrial_Heat",
+                        "xMin": -76.72,
+                        "yMin": 39.22,
+                        "xMax": -76.52,
+                        "yMax": 39.38,
+                        "alpha": 1,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "BusinessRetail_Heat": {
+            "name": "BusinessRetail_Heat",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "BusinessRetail_Heat",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/BusinessRetail_Heat",
+                        "xMin": -76.72,
+                        "yMin": 39.22,
+                        "xMax": -76.52,
+                        "yMax": 39.38,
+                        "alpha": 1,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
     "parkHeights": {
       "name": "parkHeights",
       "removeName": "parkHeights.geojson",
