@@ -1706,7 +1706,7 @@
       },
       "tms": {
         "tmsLayerName": "baci_ZoningDistricts",
-        "url": "https://geodata.create.io/geoserverp/gwc/service/tms/1.0.0/baci_prod:baci_ZoningDistricts@EPSG:900913@png",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_ZoningDistricts@EPSG:900913@png",
         "extension": "png",
         "coords": {
           "xMin": -76.7122039794922,
