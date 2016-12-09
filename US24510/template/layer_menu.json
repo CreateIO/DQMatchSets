@@ -2720,28 +2720,35 @@
             "permissions": null,
             "redact": false,
             "title": "Historic Districts"
-        },
+        }, 
         "LandUse4": {
             "order": 4,
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
-            "title": "Heatmaps"
+            "title": "Vacant Properties"
         },
         "LandUse5": {
             "order": 5,
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
-            "title": "Natural Hazards"
-        }, 
+            "title": "Heatmaps"
+        },
         "LandUse6": {
             "order": 6,
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
+            "title": "Natural Hazards"
+        }, 
+        "LandUse7": {
+            "order": 7,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
             "title": "Planning"
-        },    
+        },     
         "CityInfo1": {
             "order": 0,
             "parentTab": "CityInfo",
