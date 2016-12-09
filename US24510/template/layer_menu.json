@@ -272,6 +272,243 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/DT3.png"
         },
+        "Mixed Use / Industrial Density Heatmap": {
+            "category": "1",
+            "colors": {
+                "hex": {
+                    "hex1": "#EEF7FD",
+                    "hex2": "#D7EAF8",
+                    "hex3": "#B7D3EF",
+                    "hex4": "#78C9F1",
+                    "hex5": "#55AADE"
+                },
+                "type": "multi"
+            },
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Mixed Use / Industrial Density",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "MixedUseIndustrial_Heat"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Mixed Use / Industrial Density Heatmap'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "MixedUseIndustrial_Heat"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 40,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Mixed Use / Industrial space: Where people live, work & work.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Moderate",
+                        "boxStyle": "background:#52b1aa"
+                    },
+                    "item2": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#bee49e"
+                    },
+                    "item3": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#f9ffb3"
+                    },
+                    "item4": {
+                        "boxDescription": "High",
+                        "boxStyle": "background:#fdc771"
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse4",
+            "mouseoverName": "Mixed Use / Industrial Density",
+            "order": 2,
+            "subCategory": "4",
+            "urlLegend": "../../legends/template-color-ramp.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ODH.png"
+        },
+        "Business / Retail Density Heatmap": {
+            "category": "1",
+            "colors": {
+                "hex": {
+                    "hex1": "#EEF7FD",
+                    "hex2": "#D7EAF8",
+                    "hex3": "#B7D3EF",
+                    "hex4": "#78C9F1",
+                    "hex5": "#55AADE"
+                },
+                "type": "multi"
+            },
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Business / Retail Density",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "BusinessRetail_Heat"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Business / Retail Density Heatmap'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "BusinessRetail_Heat"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 40,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Business / Retail space: Where people shop & work.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Moderate",
+                        "boxStyle": "background:#52b1aa"
+                    },
+                    "item2": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#bee49e"
+                    },
+                    "item3": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#f9ffb3"
+                    },
+                    "item4": {
+                        "boxDescription": "High",
+                        "boxStyle": "background:#fdc771"
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse4",
+            "mouseoverName": "Business / Retail Density Heatmap",
+            "order": 2,
+            "subCategory": "4",
+            "urlLegend": "../../legends/template-color-ramp.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ODH.png"
+        },
+        "Residential Density Heatmap": {
+            "category": "1",
+            "colors": {
+                "hex": {
+                    "hex1": "#EEF7FD",
+                    "hex2": "#D7EAF8",
+                    "hex3": "#B7D3EF",
+                    "hex4": "#78C9F1",
+                    "hex5": "#55AADE"
+                },
+                "type": "multi"
+            },
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Residential Density",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "Residential_Heat"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Residential Density Heatmap'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "Residential_Heat"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 40,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Residential space: Where people live.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Moderate",
+                        "boxStyle": "background:#52b1aa"
+                    },
+                    "item2": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#bee49e"
+                    },
+                    "item3": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#f9ffb3"
+                    },
+                    "item4": {
+                        "boxDescription": "High",
+                        "boxStyle": "background:#fdc771"
+                    }
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse4",
+            "mouseoverName": "Residential Density Heatmap",
+            "order": 2,
+            "subCategory": "4",
+            "urlLegend": "../../legends/template-color-ramp.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ODH.png"
+        },
         "Area Master Plans": {
             "category": "1",
             "denyList": {
