@@ -2493,7 +2493,7 @@
                 "sourceURL": "http://gisdata.baltimorecity.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "Vacant4",
+            "menuSection": "LandUse4",
             "mouseoverName": "Vacant Lots",
             "order": 9,
             "subCategory": "1",
