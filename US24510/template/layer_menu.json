@@ -2384,7 +2384,7 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/VL.png"
         },
-        "Planned Unit Development": {
+        "Planned Unit Developments": {
             "category": "4",
             "colors": {
                 "hex": {},
@@ -2508,85 +2508,6 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/WP.png"
         },
-
-        "Planned Unit Development": {
-            "category": "1",
-            "denyList": {
-                "denyList1": null
-            },
-            "denyToggle": false,
-            "displayName": "",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "baci_ZoningDistricts"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Data: Zoning Districts'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "baci_ZoningDistricts"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 6,
-            "isActive": false,
-            "layerUsed": true,
-            "legendContents": {
-                "description": "Click map polygons for more information",
-                "listItems": {
-                    "item1": {
-                        "boxDescription": "Business",
-                        "boxStyle": "background:#ee4731",
-                        "imageUrl": null
-                    },
-                    "item2": {
-                        "boxDescription": "Office - Residence",
-                        "boxStyle": "background:#e0c64e",
-                        "imageUrl": null
-                    },
-                    "item3": {
-                        "boxDescription": "Mixed-Use",
-                        "boxStyle": "background:#f2a56c",
-                        "imageUrl": null
-                    },
-                    "item4": {
-                        "boxDescription": "Open Space",
-                        "boxStyle": "background:#93d08d",
-                        "imageUrl": null
-                    },
-                    "item5": {
-                        "boxDescription": "Residence",
-                        "boxStyle": "background:#",
-                        "imageUrl": null
-                    }
-                },
-                "sourceDescription": "OpenBaltimore",
-                "sourceURL": "https://data.baltimorecity.gov/",
-                "type": "singleColumn"
-            },
-            "menuSection": "LandUse1",
-            "mouseoverName": "Zoning Districts",
-            "order": 3,
-            "subCategory": "1",
-            "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
-        },
-
-
         "Zoning Districts": {
             "category": "1",
             "denyList": {
