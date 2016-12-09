@@ -590,14 +590,14 @@
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "BaltimoreHurricaneInnundationZones"
+                            "param2": "baci_HurricaneInundationZones"
                         },
                         "service": "mapOverlayService"
                     }
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Baltimore Data: Hurricane Innundation Zones'"
+                        "param1": "'Baltimore Data: Hurricane Inundation Zones'"
                     }
                 },
                 "removeFunctions": {
@@ -605,7 +605,7 @@
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "BaltimoreHurricaneInnundationZones"
+                            "param2": "baci_HurricaneInundationZones"
                         },
                         "service": "mapOverlayService"
                     }
@@ -619,29 +619,29 @@
                 "description": "Click map polygons for more information",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Major Water Body",
-                        "boxStyle": "background:#810f7c",
+                        "boxDescription": "Maximum Surge from Category 5 Storm",
+                        "boxStyle": "background:#bae458",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "Category 1 Hurricane",
-                        "boxStyle": "background:#8856a7",
+                        "boxDescription": "Maximum Surge from Category 4 Storm",
+                        "boxStyle": "background:#bae4bc",
                         "imageUrl": null
                     },
                     "item3": {
-                        "boxDescription": "Category 2 Hurricane",
-                        "boxStyle": "background:#8c96c6",
+                        "boxDescription": "Maximum Surge from Category 3 Storm",
+                        "boxStyle": "background:#7bccc4",
                         "imageUrl": null
                     },
                     "item4": {
-                        "boxDescription": "Category 3 Hurricane",
-                        "boxStyle": "background:#b3cde3",
-                        "imageUrl": null
+                        "boxDescription": "Maximum Surge from Category 2 Storm",
+                        "boxStyle": "background:#43a2ca",
+                        "imageUrl": null 
                     },
                     "item5": {
-                        "boxDescription": "Category 4 Hurricane",
-                        "boxStyle": "background:#edf8fb",
-                        "imageUrl": null
+                        "boxDescription": "Maximum Surge from Category 1 Storm",
+                        "boxStyle": "background:#0868ac",
+                        "imageUrl": null  
                     }
                 },
                 "sourceDescription": "OpenBaltimore",

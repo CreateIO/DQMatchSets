@@ -962,40 +962,44 @@
         "exists": false
       }
     },
-    "BaltimoreHurricaneInnundationZones": {
-      "name": "BaltimoreHurricaneInnundationZones",
-      "removeName": null,
-      "url": null,
-      "cartographic": false,
-      "id": {
-        "exists": false
-      },
-      "labels": {
-        "exists": false
-      },
-      "polygons": {
-        "exists": false
-      },
-      "rasters": {
-        "exists": true,
-        "rasterLayers": {
-          "raster1": {
-            "name": "balt-hurricane-inundation",
-            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/balt-hurricane-inundation.png",
-            "xMin": -76.6564289,
-            "yMin": 39.1989232,
-            "xMax": -76.5293942,
-            "yMax": 39.297007,
-            "alpha": 0.75,
-            "show": true,
-            "hasDropdown": false
-          }
-        }
-      },
-      "billboards": {
-        "exists": false
-      }
-    },
+    "baci_HurricaneInundationZones": {
+            "name": "baci_HurricaneInundationZones",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "baci_HurricaneInundationZones",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_HurricaneInundationZones@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -76.6544494628906,
+                    "yMin": 39.1990432739258,
+                    "xMax": -76.529182434082,
+                    "yMax": 39.2970008850098
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
     "baci_EnterpriseZones": {
       "name": "baci_EnterpriseZones",
       "removeName": null,
