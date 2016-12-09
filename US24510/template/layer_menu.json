@@ -649,7 +649,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "LandUse6",
-            "mouseoverName": "Baltimore Hurricane Innundation Zones",
+            "mouseoverName": "Baltimore Hurricane Inundation Zones",
             "order": 1,
             "subCategory": "5",
             "urlLegend": "../../legends/template-legend.jade",
