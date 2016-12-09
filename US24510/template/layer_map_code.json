@@ -345,7 +345,7 @@
                 "rasterLayers": {
                     "raster1": {
                         "name": "MixedUseIndustrial_Heat",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/MixedUseIndustrial_Heat",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/MixedUseIndustrial_Heat.png",
                         "xMin": -76.72,
                         "yMin": 39.22,
                         "xMax": -76.52,
@@ -379,7 +379,7 @@
                 "rasterLayers": {
                     "raster1": {
                         "name": "BusinessRetail_Heat",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/BusinessRetail_Heat",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/BusinessRetail_Heat.png",
                         "xMin": -76.72,
                         "yMin": 39.22,
                         "xMax": -76.52,

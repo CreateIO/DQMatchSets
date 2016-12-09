@@ -329,13 +329,17 @@
                     },
                     "item2": {
                         "boxDescription": "",
-                        "boxStyle": "background:#bee49e"
+                        "boxStyle": "background:#9dd9a6"
                     },
                     "item3": {
                         "boxDescription": "",
-                        "boxStyle": "background:#f9ffb3"
+                        "boxStyle": "background:#e3f497"
                     },
                     "item4": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#fffbba"
+                    },
+                    "item5": {
                         "boxDescription": "High",
                         "boxStyle": "background:#fdc771"
                     }
@@ -408,13 +412,17 @@
                     },
                     "item2": {
                         "boxDescription": "",
-                        "boxStyle": "background:#bee49e"
+                        "boxStyle": "background:#9dd9a6"
                     },
                     "item3": {
                         "boxDescription": "",
-                        "boxStyle": "background:#f9ffb3"
+                        "boxStyle": "background:#e3f497"
                     },
                     "item4": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#fffbba"
+                    },
+                    "item5": {
                         "boxDescription": "High",
                         "boxStyle": "background:#fdc771"
                     }
@@ -487,13 +495,17 @@
                     },
                     "item2": {
                         "boxDescription": "",
-                        "boxStyle": "background:#bee49e"
+                        "boxStyle": "background:#9dd9a6"
                     },
                     "item3": {
                         "boxDescription": "",
-                        "boxStyle": "background:#f9ffb3"
+                        "boxStyle": "background:#e3f497"
                     },
                     "item4": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#fffbba"
+                    },
+                    "item5": {
                         "boxDescription": "High",
                         "boxStyle": "background:#fdc771"
                     }
