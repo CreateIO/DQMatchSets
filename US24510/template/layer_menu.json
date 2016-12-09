@@ -433,7 +433,7 @@
             },
             "menuSection": "LandUse4",
             "mouseoverName": "Business / Retail Density Heatmap",
-            "order": 2,
+            "order": 1,
             "subCategory": "4",
             "urlLegend": "../../legends/template-color-ramp.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ODH.png"
@@ -516,7 +516,7 @@
             },
             "menuSection": "LandUse4",
             "mouseoverName": "Residential Density Heatmap",
-            "order": 2,
+            "order": 3,
             "subCategory": "4",
             "urlLegend": "../../legends/template-color-ramp.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ODH.png"
