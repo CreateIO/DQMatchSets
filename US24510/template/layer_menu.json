@@ -577,7 +577,7 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/AMP.png"
         },
-        "Baltimore Hurricane Inundation Zones": {
+        "Hurricane innundation Zones": {
             "category": "1",
             "denyList": {
                 "denyList1": null
@@ -587,12 +587,11 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "functionName": "addLayer",
+                        "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "baci_HurricaneInundationZones"
+                            "param1": "baci_HurricaneInundationZones"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     }
                 },
                 "piwikTrack": {
@@ -602,12 +601,11 @@
                 },
                 "removeFunctions": {
                     "func1": {
-                        "functionName": "removeLayer",
+                        "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "baci_HurricaneInundationZones"
+                            "param1": "baci_HurricaneInundationZones"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     }
                 }
             },
@@ -616,10 +614,10 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more information",
+                "description": "",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Maximum Surge from Category 5 Storm",
+                       "boxDescription": "Maximum Surge from Category 5 Storm",
                         "boxStyle": "background:#bae458",
                         "imageUrl": null
                     },
@@ -641,19 +639,19 @@
                     "item5": {
                         "boxDescription": "Maximum Surge from Category 1 Storm",
                         "boxStyle": "background:#0868ac",
-                        "imageUrl": null  
+                        "imageUrl": null 
                     }
                 },
-                "sourceDescription": "OpenBaltimore",
-                "sourceURL": "https://data.baltimorecity.gov/",
+                "sourceDescription": "",
+                "sourceURL": "",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse6",
-            "mouseoverName": "Baltimore Hurricane Inundation Zones",
-            "order": 1,
-            "subCategory": "5",
+            "mouseoverName": "Hurricane Inundation Zones",
+            "order": 3,
+            "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/HIZ.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/HPA.png"
         },
         "CHAP Historic District Incentive Areas": {
             "category": "4",
