@@ -570,7 +570,7 @@
                 "sourceURL": "https://data.baltimorecity.gov/Geographic/Area-Master-Plans/es3e-9rfw",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse-Planning",
+            "menuSection": "LandUse6",
             "mouseoverName": "Area Master Plans",
             "order": 1,
             "subCategory": "6",
@@ -930,7 +930,7 @@
                 "sourceURL": "",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse5",
+            "menuSection": "LandUse6",
             "mouseoverName": "Neighborhoods",
             "order": 3,
             "subCategory": "1",
@@ -2701,42 +2701,42 @@
     },
     "allTheSections": {
        "LandUse1": {
-            "order": 0,
+            "order": 1,
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
             "title": "Land Use & Entitlement"
         },
         "LandUse2": {
-            "order": 1,
+            "order": 2,
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
             "title": "Overlay Zones"
         },
         "LandUse3": {
-            "order": 2,
+            "order": 3,
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
             "title": "Historic Districts"
         },
         "LandUse4": {
-            "order": 3,
+            "order": 4,
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
             "title": "Heatmaps"
         },
         "LandUse5": {
-            "order": 4,
+            "order": 5,
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
             "title": "Natural Hazards"
         }, 
-        "LandUse5": {
-            "order": 5,
+        "LandUse6": {
+            "order": 6,
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
