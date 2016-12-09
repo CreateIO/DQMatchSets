@@ -570,7 +570,7 @@
                 "sourceURL": "https://data.baltimorecity.gov/Geographic/Area-Master-Plans/es3e-9rfw",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse6",
+            "menuSection": "LandUse7",
             "mouseoverName": "Area Master Plans",
             "order": 1,
             "subCategory": "6",
@@ -648,7 +648,7 @@
                 "sourceURL": "https://data.baltimorecity.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse5",
+            "menuSection": "LandUse6",
             "mouseoverName": "Baltimore Hurricane Innundation Zones",
             "order": 1,
             "subCategory": "5",
@@ -930,7 +930,7 @@
                 "sourceURL": "",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse6",
+            "menuSection": "CtyInfo1",
             "mouseoverName": "Neighborhoods",
             "order": 3,
             "subCategory": "1",
@@ -2425,7 +2425,7 @@
                 "sourceURL": "http://gisdata.baltimorecity.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "Incentives1",
+            "menuSection": "LandUse4",
             "mouseoverName": "Vacant Buildings",
             "order": 8,
             "subCategory": "1",
@@ -2484,7 +2484,7 @@
                 "description": "City of Baltimore vacant lots.",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Vacant Lots",
+                        "boxDescription": "LandUse4",
                         "boxStyle": "border-radius: 20px; border: 8px solid #FF7F00",
                         "imageUrl": null
                     }
