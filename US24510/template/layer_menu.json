@@ -348,7 +348,7 @@
                 "sourceURL": "https://data.baltimorecity.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse4",
+            "menuSection": "LandUse5",
             "mouseoverName": "Mixed Use / Industrial Density Heatmap",
             "order": 2,
             "subCategory": "4",
@@ -431,7 +431,7 @@
                 "sourceURL": "https://data.baltimorecity.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse4",
+            "menuSection": "LandUse5",
             "mouseoverName": "Business / Retail Density Heatmap",
             "order": 1,
             "subCategory": "4",
@@ -514,7 +514,7 @@
                 "sourceURL": "https://data.baltimorecity.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse4",
+            "menuSection": "LandUse5",
             "mouseoverName": "Residential Density Heatmap",
             "order": 3,
             "subCategory": "4",
@@ -2493,7 +2493,7 @@
                 "sourceURL": "http://gisdata.baltimorecity.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "Incentives1",
+            "menuSection": "Vacant4",
             "mouseoverName": "Vacant Lots",
             "order": 9,
             "subCategory": "1",
