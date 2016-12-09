@@ -709,62 +709,6 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/CHAP.png"
         },
-        "City Boundary": {
-            "category": "2",
-            "denyList": {
-                "denyList1": null
-            },
-            "denyToggle": false,
-            "displayName": "",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "baci_City_of_Baltimore"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Data: City Boundary'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "baci_City_of_Baltimore"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 6,
-            "isActive": false,
-            "layerUsed": true,
-            "legendContents": {
-                "description": "Click map polygons for more information",
-                "listItems": {
-                    "item1": {
-                        "boxDescription": "City of Balimore boundary.",
-                        "boxStyle": "border: 2px dashed #e31a1c",
-                        "imageUrl": null
-                    }
-                },
-                "sourceDescription": "baltimore.gov",
-                "sourceURL": "",
-                "type": "singleColumn"
-            },
-            "menuSection": "CityInfo1",
-            "mouseoverName": "City Boundary",
-            "order": 1,
-            "subCategory": "1",
-            "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CB.png"
-        },
         "Cold Spring Center Redevelopment Plan": {
             "category": "7",
             "denyList": {
@@ -2595,27 +2539,27 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Business",
-                        "boxStyle": "background:#1A35E4",
+                        "boxStyle": "background:#ee4731",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "Industrial",
-                        "boxStyle": "background:#BDEF84",
+                        "boxDescription": "Office - Residence",
+                        "boxStyle": "background:#e0c64e",
                         "imageUrl": null
                     },
                     "item3": {
-                        "boxDescription": "Office-Residence",
-                        "boxStyle": "background:#ED20DC",
+                        "boxDescription": "Mixed-Use",
+                        "boxStyle": "background:#f2a56c",
                         "imageUrl": null
                     },
                     "item4": {
                         "boxDescription": "Open Space",
-                        "boxStyle": "background:#D87B56",
+                        "boxStyle": "background:#93d08d",
                         "imageUrl": null
                     },
                     "item5": {
                         "boxDescription": "Residence",
-                        "boxStyle": "background:#49E2AF",
+                        "boxStyle": "background:#6f94d7",
                         "imageUrl": null
                     }
                 },
