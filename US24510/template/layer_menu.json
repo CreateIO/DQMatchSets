@@ -344,7 +344,7 @@
                         "boxStyle": "background:#d7191c"
                     }
                 },
-                "sourceDescription": "OpenBaltimore",
+                "sourceDescription": "Open Baltimore",
                 "sourceURL": "https://data.baltimorecity.gov/",
                 "type": "singleColumn"
             },
@@ -427,7 +427,7 @@
                         "boxStyle": "background:#d7191c"
                     }
                 },
-                "sourceDescription": "OpenBaltimore",
+                "sourceDescription": "Open Baltimore",
                 "sourceURL": "https://data.baltimorecity.gov/",
                 "type": "singleColumn"
             },
@@ -510,7 +510,7 @@
                         "boxStyle": "background:#d7191c"
                     }
                 },
-                "sourceDescription": "OpenBaltimore",
+                "sourceDescription": "Open Baltimore",
                 "sourceURL": "https://data.baltimorecity.gov/",
                 "type": "singleColumn"
             },
@@ -881,7 +881,7 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
         },
-        "Create Neighborhoods": {
+        "Neighborhoods": {
             "category": "2",
             "denyList": {
                 "denyList1": null
@@ -921,7 +921,7 @@
                 "description": "Click map polygons for more information",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Create Neighborhoods",
+                        "boxDescription": "Neighborhoods",
                         "boxStyle": "border: 2px dashed #33a02c",
                         "imageUrl": null
                     }
@@ -930,8 +930,8 @@
                 "sourceURL": "",
                 "type": "singleColumn"
             },
-            "menuSection": "CityInfo1",
-            "mouseoverName": "Create Neighborhoods",
+            "menuSection": "LandUse5",
+            "mouseoverName": "Neighborhoods",
             "order": 3,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
@@ -1665,62 +1665,6 @@
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HD.png"
-        },
-        "One Maryland Tax Credit Jurisdiction": {
-            "category": "4",
-            "denyList": {
-                "denyList1": null
-            },
-            "denyToggle": false,
-            "displayName": "",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "baci_City_of_Baltimore"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'One Marlyand Tax Credit Jurisdiction'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "baci_City_of_Baltimore"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 6,
-            "isActive": false,
-            "layerUsed": true,
-            "legendContents": {
-                "description": "Click map polygons for more information",
-                "listItems": {
-                    "item1": {
-                        "boxDescription": "One Maryland Tax Credit qualified distressed county.",
-                        "boxStyle": "border: 2px dashed #e31a1c",
-                        "imageUrl": null
-                    }
-                },
-                "sourceDescription": "Maryland.gov",
-                "sourceURL": "http://commerce.maryland.gov/fund/programs-for-businesses/one-maryland-tax-credit",
-                "type": "singleColumn"
-            },
-            "menuSection": "Incentives1",
-            "mouseoverName": "One Maryland Tax Credit Jurisdiction",
-            "order": 6,
-            "subCategory": "1",
-            "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/OMTC.png"
         },
         "Park Heights Boundary": {
             "category": "7",
@@ -2764,7 +2708,7 @@
             "title": "Land Use & Entitlement"
         },
         "LandUse2": {
-            "order": -1,
+            "order": 1,
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
@@ -2778,21 +2722,21 @@
             "title": "Historic Districts"
         },
         "LandUse4": {
-            "order": 0,
+            "order": 3,
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
             "title": "Heatmaps"
         },
         "LandUse5": {
-            "order": 0,
+            "order": 4,
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
             "title": "Natural Hazards"
         }, 
-        "LandUse-Planning": {
-            "order": 0,
+        "LandUse5": {
+            "order": 5,
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
