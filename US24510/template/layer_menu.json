@@ -779,7 +779,7 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "baci_CouncilDistricts2011"
+                            "param1": "baci_CouncilDistricts"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -793,7 +793,7 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "baci_CouncilDistricts2011"
+                            "param1": "baci_CouncilDistricts"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -808,7 +808,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "2011 Council Districts",
-                        "boxStyle": "background:#aaddb2",
+                        "boxStyle": "background:#21b9bb",
                         "imageUrl": null
                     }
                 },
@@ -1364,7 +1364,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Legislative Districts",
-                        "boxStyle": "background:#78b9f9",
+                        "boxStyle": "background:#6c5f9a",
                         "imageUrl": null
                     }
                 },
@@ -2493,7 +2493,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Ward precinct boundaries prior to 2012",
-                        "boxStyle": "background:#6d9cc2",
+                        "boxStyle": "background:#3396cf",
                         "imageUrl": null
                     }
                 },
