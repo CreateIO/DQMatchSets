@@ -497,7 +497,7 @@
         "minimumLevel": 1,
         "maximumLevel": 20,
         "alpha": 0.75,
-        "tmsStyle": "OGC"
+        "tmsStyle": "GWC"
       },
       "rasters": {
         "exists": false
@@ -611,7 +611,7 @@
         "minimumLevel": 1,
         "maximumLevel": 20,
         "alpha": 1,
-        "tmsStyle": "OGC"
+        "tmsStyle": "GWC"
       },
       "rasters": {
         "exists": false
@@ -915,7 +915,7 @@
         "minimumLevel": 1,
         "maximumLevel": 20,
         "alpha": 1,
-        "tmsStyle": "OGC"
+        "tmsStyle": "GWC"
       },
       "rasters": {
         "exists": false
@@ -953,7 +953,7 @@
         "minimumLevel": 1,
         "maximumLevel": 20,
         "alpha": 1,
-        "tmsStyle": "OGC"
+        "tmsStyle": "GWC"
       },
       "rasters": {
         "exists": false
@@ -1067,7 +1067,7 @@
         "minimumLevel": 1,
         "maximumLevel": 20,
         "alpha": 1,
-        "tmsStyle": "OGC"
+        "tmsStyle": "GWC"
       },
       "rasters": {
         "exists": false

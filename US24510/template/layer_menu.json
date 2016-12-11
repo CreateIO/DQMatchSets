@@ -1277,7 +1277,7 @@
                     }
                 },
                 "sourceDescription": "Baltimore Development Corporation",
-                "sourceURL": "http://baltimoredevelopment.com/high-performance-tax-credit",
+                "sourceURL": "http://baltimoredevelopment.com/incentives/tax-credits/food-desert",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
@@ -1455,7 +1455,7 @@
                     }
                 },
                 "sourceDescription": "Baltimore Development Corporation",
-                "sourceURL": "http://baltimoredevelopment.com/high-performance-tax-credit",
+                "sourceURL": "http://baltimoredevelopment.com/incentives/hub/",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
@@ -2277,7 +2277,7 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/RT.png"
         },
-        "Tax Credit Areas": {
+        "High Performance Tax Credit Areas": {
             "category": "4",
             "denyList": {
                 "denyList1": null
@@ -2296,7 +2296,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Baltimore Data: Tax Credit Areas'"
+                        "param1": "'Baltimore Data: High Performance Tax Credit Areas'"
                     }
                 },
                 "removeFunctions": {
@@ -2317,7 +2317,7 @@
                 "description": "",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Tax Credit Areas",
+                        "boxDescription": "High Performance Tax Credit Areas",
                         "boxStyle": "background:#f7ab12",
                         "imageUrl": null
                     }
@@ -2327,7 +2327,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
-            "mouseoverName": "Tax Credit Areas",
+            "mouseoverName": "High Performance Tax Credit Areas",
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
