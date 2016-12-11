@@ -835,7 +835,7 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "baci_CouncilDistricts"
+                            "param1": "baci_CongressionalDistricts"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -849,7 +849,7 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "baci_CouncilDistricts"
+                            "param1": "baci_CongressionalDistricts"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -2322,8 +2322,8 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "OpenBaltimore",
-                "sourceURL": "https://data.baltimorecity.gov/",
+                "sourceDescription": "Baltimore Development Corporation",
+                "sourceURL": "http://baltimoredevelopment.com/high-performance-tax-credit",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
