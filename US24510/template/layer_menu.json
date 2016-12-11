@@ -879,6 +879,92 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
         },
+        "Colleges & Uiversities": {
+            "category": "2",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_CouncilDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Colleges & Uiversities'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_CouncilDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "College & University properties.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Coppin State University",
+                        "boxStyle": "background:#fac365",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Johns Hopkins University",
+                        "boxStyle": "background:#002d72",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Loyola College",
+                        "boxStyle": "background:#39795a",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "Maryland Institute",
+                        "boxStyle": "background:#85c475",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "Morgan State University",
+                        "boxStyle": "background:#335abd",
+                        "imageUrl": null
+                    },
+                    "item6": {
+                        "boxDescription": "University of Maryland",
+                        "boxStyle": "background:#c8102e",
+                        "imageUrl": null
+                    },
+                    "item7": {
+                        "boxDescription": "University of Notre Dame",
+                        "boxStyle": "background:#c99700",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "",
+                "sourceURL": "",
+                "type": "singleColumn"
+            },
+            "menuSection": "CityInfo2",
+            "mouseoverName": "Colleges & Uiversities",
+            "order": 0,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
+        },
         "Neighborhoods": {
             "category": "2",
             "denyList": {
