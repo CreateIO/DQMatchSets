@@ -1679,6 +1679,201 @@
         "exists": false
     }
   },
+
+
+    "baci_PopulationGrowth": {
+      "name": "baci_PopulationGrowth",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_PopulationGrowth",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_PopulationGrowth@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.7123184204102,
+          "yMin": 39.1963577270508,
+          "xMax": -76.5287628173828,
+          "yMax": 39.372875213623
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+    }
+  },
+  "baci_HouseholdGrowth": {
+      "name": "baci_PopulationGrowth",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_PopulationGrowth",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_PopulationGrowth@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.7123184204102,
+          "yMin": 39.1963577270508,
+          "xMax": -76.5287628173828,
+          "yMax": 39.372875213623
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+    }
+  },
+  "baci_MedHomeValue": {
+      "name": "baci_MedHomeValue",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_MedHomeValue",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_MedHomeValue@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.7123184204102,
+          "yMin": 39.1963577270508,
+          "xMax": -76.5287628173828,
+          "yMax": 39.372875213623
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+    }
+  },
+  "baci_MedHomeValue": {
+      "name": "baci_MedHomeValue",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_MedHomeValue",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_MedHomeValue@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.7123184204102,
+          "yMin": 39.1963577270508,
+          "xMax": -76.5287628173828,
+          "yMax": 39.372875213623
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+    }
+  },
+  "baci_MedianHouseholdIncomeGrowth": {
+      "name": "baci_MedianHouseholdIncomeGrowth",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_MedianHouseholdIncomeGrowth",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_MedianHouseholdIncomeGrowth@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.7123184204102,
+          "yMin": 39.1963577270508,
+          "xMax": -76.5287628173828,
+          "yMax": 39.372875213623
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+    }
+  },
+
+
+
   "parcelFills": {
             "name": "parcelFills",
             "removeName": null,
