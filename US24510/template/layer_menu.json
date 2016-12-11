@@ -879,7 +879,7 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
         },
-        "Colleges & Uiversities": {
+        "Colleges & Universities": {
             "category": "2",
             "denyList": {
                 "denyList1": null
@@ -898,7 +898,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Baltimore Data: Colleges & Uiversities'"
+                        "param1": "'Baltimore Data: Colleges & Universities'"
                     }
                 },
                 "removeFunctions": {
@@ -916,7 +916,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "College & University properties.",
+                "description": "College & University Campus properties.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Coppin State University",
@@ -959,7 +959,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "CityInfo2",
-            "mouseoverName": "Colleges & Uiversities",
+            "mouseoverName": "Colleges & Universities",
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
@@ -1328,7 +1328,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Foreign Trade Zones",
-                        "boxStyle": "background:#f3f617",
+                        "boxStyle": "background:#f4e704",
                         "imageUrl": null
                     }
                 },

@@ -572,7 +572,7 @@
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
+        "alpha": 1,
         "tmsStyle": "OGC"
       },
       "rasters": {
@@ -601,54 +601,16 @@
         "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_ForeignTradeZone@EPSG:900913@png",
         "extension": "png",
         "coords": {
-          "xMin": -76.659,
-          "yMin": 39.236,
-          "xMax": -76.473,
-          "yMax": 39.321
+          "xMin": -76.60147948067379,
+          "yMin": 39.238086169653954,
+          "xMax": -76.52979899827905,
+          "yMax": 39.31943009663018
         },
         "tileWidth": 256,
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
-        "tmsStyle": "OGC"
-      },
-      "rasters": {
-        "exists": false
-      },
-      "billboards": {
-        "exists": false
-      }
-    },
-    "baci_City_of_Baltimore": {
-      "name": "baci_City_of_Baltimore",
-      "removeName": null,
-      "url": null,
-      "cartographic": false,
-      "id": {
-        "exists": false
-      },
-      "labels": {
-        "exists": false
-      },
-      "polygons": {
-        "exists": false
-      },
-      "tms": {
-        "tmsLayerName": "baci_City_of_Baltimore",
-        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_City_of_Baltimore@EPSG:900913@png",
-        "extension": "png",
-        "coords": {
-          "xMin": -76.82,
-          "yMin": 39.19,
-          "xMax": -76.42,
-          "yMax": 39.38
-        },
-        "tileWidth": 256,
-        "tileHeight": 256,
-        "minimumLevel": 1,
-        "maximumLevel": 20,
-        "alpha": 0.75,
+        "alpha": 1,
         "tmsStyle": "OGC"
       },
       "rasters": {
@@ -952,7 +914,7 @@
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
+        "alpha": 1,
         "tmsStyle": "OGC"
       },
       "rasters": {
@@ -990,7 +952,7 @@
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
+        "alpha": 1,
         "tmsStyle": "OGC"
       },
       "rasters": {
@@ -1028,7 +990,7 @@
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
+        "alpha": 1,
         "tmsStyle": "OGC"
       },
       "rasters": {
@@ -1104,7 +1066,7 @@
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
+        "alpha": 1,
         "tmsStyle": "OGC"
       },
       "rasters": {
@@ -1364,85 +1326,6 @@
         "exists": false
       }
     },
-    "Rail Transit": {
-      "name": "Light_Rail_Stations",
-      "removeName": "Light_Rail_Stations.geojson",
-      "url": "https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/Light_Rail_Stations.geojson",
-      "cartographic": true,
-      "id": {
-        "exists": false
-      },
-      "labels": {
-        "exists": true,
-        "labelLayers": {
-          "label1": {
-            "name": "transitlabels",
-            "position": {
-              "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
-              "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-              "z": 20
-            },
-            "text": "entity.properties.NAME",
-            "font": "12px sans-serif",
-            "fillColor": "Cesium.Color.WHITE",
-            "outlineColor": "Cesium.Color.BLACK",
-            "outlineWidth": 1,
-            "style": "Cesium.LabelStyle.FILL",
-            "pixelOffset": "Cesium.Cartesian2.ZERO",
-            "eyeOffset": "Cesium.Cartesian3.ZERO",
-            "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-            "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
-            "translucencyByDistance": {
-              "minElevation": 1000,
-              "maxElevation": 3000,
-              "minScale": 1.0,
-              "maxScale": 0.0
-            },
-            "scale": 1.0
-          }
-        }
-      },
-      "polygons": {
-        "exists": false
-      },
-      "rasters": {
-        "exists": true,
-        "rasterLayers": {
-          "raster1": {
-            "name": "metrorail",
-            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/balt_transit_lines.png",
-            "xMin": -76.7903,
-            "yMin": 39.1657,
-            "xMax": -76.5905,
-            "yMax": 39.5009,
-            "alpha": 0.7,
-            "show": true,
-            "hasDropdown": false
-          }
-        }
-      },
-      "billboards": {
-        "exists": true,
-        "billboardLayers": {
-          "billboard1": {
-            "type": "custom",
-            "name": "baltstationbillboards",
-            "url": "../../geoJSON/layerIcons/icon-metro.png",
-            "position": {
-              "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
-              "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-              "z": 20
-            },
-            "NearFarScalar": {
-              "minElevation": 3000,
-              "maxElevation": 4000,
-              "minScale": 1.0,
-              "maxScale": 0.0
-            }
-          }
-        }
-      }
-    },
     "baci_PUD": {
       "name": "baci_PUD",
       "removeName": null,
@@ -1509,7 +1392,7 @@
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
+        "alpha": 1,
         "tmsStyle": "OGC"
       },
       "rasters": {
@@ -1648,7 +1531,7 @@
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
+        "alpha": 1,
         "tmsStyle": "OGC"
       },
       "rasters": {
@@ -1796,7 +1679,7 @@
         "exists": false
     }
   },
-        "parcelFills": {
+  "parcelFills": {
             "name": "parcelFills",
             "removeName": null,
             "url": null,
