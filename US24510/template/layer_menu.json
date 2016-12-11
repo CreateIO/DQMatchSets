@@ -965,6 +965,163 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
         },
+
+
+        "Median Household Income Growth": {
+            "category": "2",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_MedianHouseholdIncomeGrowth"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Median Household Income Growth'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_MedianHouseholdIncomeGrowth"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "<= -10%",
+                        "boxStyle": "background:#5597bd",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "-10% - -5%",
+                        "boxStyle": "background:#97b89d",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "-5% - 5%",
+                        "boxStyle": "background:#d9d97d",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "5% - 10%",
+                        "boxStyle": "background:#e3bd68",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "> 10%",
+                        "boxStyle": "background:#eda153",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "US Census Bureau",
+                "sourceURL": "www.census.gov",
+                "type": "singleColumn"
+            },
+            "menuSection": "Development3",
+            "mouseoverName": "Median Household Income Growth",
+            "order": 0,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
+        },
+        "Median Home Value": {
+            "category": "2",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_MedHomeValue"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Median Home Value'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_MedHomeValue"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "< 0%",
+                        "boxStyle": "background:#6bbed0",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "0% - 5%",
+                        "boxStyle": "background:#60a2b5",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "5% - 15%",
+                        "boxStyle": "background:#55879b",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "15% - 25%",
+                        "boxStyle": "background:#4a6b81",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "25% >",
+                        "boxStyle": "background:#405067",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "US Census Bureau",
+                "sourceURL": "www.census.gov",
+                "type": "singleColumn"
+            },
+            "menuSection": "Development3",
+            "mouseoverName": "Median Home Value",
+            "order": 0,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
+        },
+
+
+
         "Neighborhoods": {
             "category": "2",
             "denyList": {
