@@ -123,12 +123,13 @@
                 "value":null
             },
             "pdfs":{
-                "active":true,
-                "value":"Legislativ",
+                "active":false,
+                "value":null
             },
             "viewDetailsBox":false,
             "wdcepDetailsBox":false,
-            "header":"NAME",
+            "streetView": false,
+            "header":"'Tax Credit Areas'",
             "boxValues":{
                 "field1":{
                     "value":"AreaName",
@@ -142,9 +143,9 @@
                     "fieldtype":"text",
                     "units":null
                 },
-                "field4":{
+                "field5":{
                     "value":"Legislativ",
-                    "display":"Info: ",
+                    "display":"PDF: ",
                     "fieldtype":"url",
                     "units": "Click to view PDF"
                 }
