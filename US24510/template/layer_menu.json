@@ -891,7 +891,7 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "baci_CouncilDistricts"
+                            "param1": "baci_CollegesAndUniversities"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -905,7 +905,7 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "baci_CouncilDistricts"
+                            "param1": "baci_CollegesAndUniversities"
                         },
                         "service": "tileMapServiceService"
                     }
