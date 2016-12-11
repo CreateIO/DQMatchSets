@@ -826,19 +826,19 @@
       },
       "tms": {
         "tmsLayerName": "baci_Wards",
-        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_Wards@EPSG:900913@png",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_Wards@EPSG:900913@png",
         "extension": "png",
         "coords": {
-          "xMin": -76.72,
-          "yMin": 39.19,
-          "xMax": -76.52,
-          "yMax": 39.38
+          "xMin": -76.71140532036993,
+          "yMin": 39.19723345054751,
+          "xMax": -76.52967423486248,
+          "yMax": 39.371999915708365
         },
         "tileWidth": 256,
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
+        "alpha": 1,
         "tmsStyle": "OGC"
       },
       "rasters": {
@@ -1367,9 +1367,6 @@
         }
       }
     },
-
-
-
     "baci_PUD": {
       "name": "baci_PUD",
       "removeName": null,
@@ -1408,9 +1405,6 @@
         "exists": false
       }
     },
-
-
-
     "baci_AreaMasterPlans": {
       "name": "baci_AreaMasterPlans",
       "removeName": null,
