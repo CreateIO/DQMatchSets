@@ -113,6 +113,48 @@
                 }
             }
         },
+
+
+        "baci_TaxCreditAreas":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"UNIQUEID",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":true,
+                "value":"Legislativ",
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"''Tax Credit Areas''",
+            "boxValues":{
+                "field1":{
+                    "value":"AreaName",
+                    "display":"Area Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"CCB",
+                    "display":"CCB#: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"Legislativ",
+                    "display":"Doc: ",
+                    "fieldtype":"link",
+                    "units":null
+                }
+            }
+        },
+
+
+
         "baltimore_hist_dist_chap":{
             "referenceid":"UNIQUEID",
             "propertyid":"UNIQUEID",
