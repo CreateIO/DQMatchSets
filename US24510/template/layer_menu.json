@@ -860,7 +860,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more information",
+                "description": "",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Neighborhoods",
@@ -1360,7 +1360,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more information",
+                "description": "",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Legislative Districts",
@@ -1819,7 +1819,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more information",
+                "description": "",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Central",
@@ -2172,7 +2172,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more information",
+                "description": "",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Tax Credit Areas",
@@ -2489,7 +2489,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more information",
+                "description": "",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Ward precinct boundaries prior to 2012",
