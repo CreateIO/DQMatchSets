@@ -823,6 +823,62 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
         },
+        "Congressional Districts": {
+            "category": "2",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_CouncilDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Congressional Districts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_CouncilDistricts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Congressional Districts",
+                        "boxStyle": "background:#96b851",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "",
+                "sourceURL": "",
+                "type": "singleColumn"
+            },
+            "menuSection": "CityInfo1",
+            "mouseoverName": "Congressional Districts",
+            "order": 0,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
+        },
         "Neighborhoods": {
             "category": "2",
             "denyList": {
