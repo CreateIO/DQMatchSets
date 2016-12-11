@@ -674,19 +674,19 @@
       },
       "tms": {
         "tmsLayerName": "baci_LegislativeDistricts",
-        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_LegislativeDistricts@EPSG:900913@png",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_LegislativeDistricts@EPSG:900913@png",
         "extension": "png",
         "coords": {
-          "xMin": -76.77,
-          "yMin": 39.19,
-          "xMax": -76.47,
-          "yMax": 39.38
+          "xMin": -76.7115212224123,
+          "yMin": 39.1972148638792,
+          "xMax": -76.5294551646828,
+          "yMax": 39.3722138990865
         },
         "tileWidth": 256,
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
+        "alpha": 1,
         "tmsStyle": "OGC"
       },
       "rasters": {
@@ -734,8 +734,8 @@
         "exists": false
       }
     },
-    "baci_CouncilDistricts2011": {
-      "name": " baci_CouncilDistricts2011",
+    "baci_CouncilDistricts": {
+      "name": "baci_CouncilDistricts",
       "removeName": null,
       "url": null,
       "cartographic": false,
@@ -749,20 +749,20 @@
         "exists": false
       },
       "tms": {
-        "tmsLayerName": "baci_CouncilDistricts2011",
-        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_CouncilDistricts2011@EPSG:900913@png",
+        "tmsLayerName": "baci_CouncilDistricts",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_CouncilDistricts@EPSG:900913@png",
         "extension": "png",
         "coords": {
-          "xMin": -76.77,
-          "yMin": 39.19,
-          "xMax": -76.47,
-          "yMax": 39.38
+          "xMin": -76.7114053203405,
+          "yMin": 39.1972334506251,
+          "xMax": -76.5296742351015,
+          "yMax": 39.3719999156841
         },
         "tileWidth": 256,
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
+        "alpha": 1,
         "tmsStyle": "OGC"
       },
       "rasters": {
