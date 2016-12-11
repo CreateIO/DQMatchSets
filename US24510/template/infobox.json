@@ -129,7 +129,7 @@
             "viewDetailsBox":false,
             "wdcepDetailsBox":false,
             "streetView": false,
-            "header":"'Tax Credit Areas'",
+            "header":"'High Performance Tax Credit Areas'",
             "boxValues":{
                 "field1":{
                     "value":"AreaName",
@@ -144,10 +144,10 @@
                     "units":null
                 },
                 "field5":{
-                    "value":"Legislativ",
-                    "display":"PDF: ",
-                    "fieldtype":"url",
-                    "units": "Click to view PDF"
+                    "value":"http://baltimoredevelopment.com/high-performance-tax-credit",
+                    "display":"URL: ",
+                    "fieldtype":"hardAttr",
+                    "units": "Click to view more info"
                 }
             }
         },
