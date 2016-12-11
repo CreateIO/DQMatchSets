@@ -1409,7 +1409,7 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/HPA.png"
         },
-        "Hub Zones": {
+        "HUB Zones": {
             "category": "4",
             "denyList": {
                 "denyList1": null
@@ -1428,7 +1428,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Baltimore Data: Hub Zones'"
+                        "param1": "'Baltimore Data: HUB Zones'"
                     }
                 },
                 "removeFunctions": {
@@ -1449,7 +1449,7 @@
                 "description": "The HUBZone (Historically Underutilized Business Zone) Empowerment Contracting Program provides federal contracting preferences to businesses in certain urban and rural areas.",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Hub Zones",
+                        "boxDescription": "HUB Zones",
                         "boxStyle": "background:#20f378",
                         "imageUrl": null
                     }
@@ -1459,7 +1459,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
-            "mouseoverName": "Hub Zones",
+            "mouseoverName": "HUB Zones",
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
@@ -2314,7 +2314,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "",
+                "description": "The High Performance Market-Rate Rental Housing Tax Credit (15-year) is aimed at encouraging development of new or converted market-rate apartments in the City. The tax credit is based on the increase in the value of real property due to improvements that were made.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "High Performance Tax Credit Areas",
