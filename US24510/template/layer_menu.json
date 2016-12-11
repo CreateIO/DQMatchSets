@@ -69,7 +69,7 @@
             },
             "menuSection": "Pivotal-Facilities",
             "mouseoverName": "Facilities - Hospitals",
-            "order": 3,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/H.png"
@@ -135,7 +135,7 @@
             },
             "menuSection": "Pivotal-DriveTimes",
             "mouseoverName": "Johns Hopkins Hospital Drive-Time",
-            "order": 1,
+            "order": 0,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/DT1.png"
@@ -201,7 +201,7 @@
             },
             "menuSection": "Pivotal-DriveTimes",
             "mouseoverName": "Sinai Hospital of Baltimore Drive-Time",
-            "order": 2,
+            "order": 0,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/DT2.png"
@@ -267,7 +267,7 @@
             },
             "menuSection": "Pivotal-DriveTimes",
             "mouseoverName": "University of Maryland Medical Center Drive-Time",
-            "order": 3,
+            "order": 0,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/DT3.png"
@@ -321,7 +321,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Mixed Use / Industrial space: Where people live, work & work.",
+                "description": "Where people live, work & work.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Moderate",
@@ -350,7 +350,7 @@
             },
             "menuSection": "LandUse5",
             "mouseoverName": "Mixed Use / Industrial Density Heatmap",
-            "order": 2,
+            "order": 0,
             "subCategory": "4",
             "urlLegend": "../../legends/template-color-ramp.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ODH.png"
@@ -404,7 +404,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Business / Retail space: Where people shop & work.",
+                "description": "Where people Live, Work and Play.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Moderate",
@@ -433,7 +433,7 @@
             },
             "menuSection": "LandUse5",
             "mouseoverName": "Business / Retail Density Heatmap",
-            "order": 1,
+            "order": 0,
             "subCategory": "4",
             "urlLegend": "../../legends/template-color-ramp.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ODH.png"
@@ -487,7 +487,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Residential space: Where people live.",
+                "description": "Where people live.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Moderate",
@@ -516,7 +516,7 @@
             },
             "menuSection": "LandUse5",
             "mouseoverName": "Residential Density Heatmap",
-            "order": 3,
+            "order": 0,
             "subCategory": "4",
             "urlLegend": "../../legends/template-color-ramp.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ODH.png"
@@ -558,7 +558,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Boundaries of the Area Master Plans that have been approved by the Mayor & City Council of Baltimore. Click on polygons for details.",
+                "description": "Plans take a comprehensive look at the planning area and includes recommendations for such things as, but not exclusively, land use (including open space and commercial), issues.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Area Master Plans",
@@ -566,18 +566,18 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "OpenBaltimore",
-                "sourceURL": "https://data.baltimorecity.gov/Geographic/Area-Master-Plans/es3e-9rfw",
+                "sourceDescription": "City of Baltimore Planning Department",
+                "sourceURL": "http://archive.baltimorecity.gov/Government/AgenciesDepartments/Planning/MasterPlansMapsPublications/Maps.aspx",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse7",
             "mouseoverName": "Area Master Plans",
-            "order": 1,
+            "order": 0,
             "subCategory": "6",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/AMP.png"
         },
-        "Hurricane innundation Zones": {
+        "Hurricane Innundation Zones": {
             "category": "1",
             "denyList": {
                 "denyList1": null
@@ -614,7 +614,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "",
+                "description": "Hurricane inundation maps show areas that may experience flooding during a tropical storm or hurricane.",
                 "listItems": {
                     "item1": {
                        "boxDescription": "Maximum Surge from Category 5 Storm",
@@ -642,13 +642,13 @@
                         "imageUrl": null 
                     }
                 },
-                "sourceDescription": "",
-                "sourceURL": "",
+                "sourceDescription": "Cit of Baltimore Open Data",
+                "sourceURL": "https://data.baltimorecity.gov/",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse6",
             "mouseoverName": "Hurricane Inundation Zones",
-            "order": 3,
+            "order": 0,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/HPA.png"
@@ -690,7 +690,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more information",
+                "description": "Historical and Architectural Preservation Credit (CHAP) is a property tax for homeowners and businesses making substantive rehabilitation on projects in historic neighborhoods. It is stackable with other credits and transferable.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "CHAP Historic District Incentive Areas",
@@ -698,13 +698,13 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "OpenBaltimore",
-                "sourceURL": "https://data.baltimorecity.gov/",
+                "sourceDescription": "Baltimore Development Corporation",
+                "sourceURL": "http://baltimoredevelopment.com/high-performance-tax-credit",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
             "mouseoverName": "CHAP Historic District Incentive Areas",
-            "order": 1,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/CHAP.png"
@@ -762,7 +762,7 @@
             },
             "menuSection": "ParkHeights1",
             "mouseoverName": "Cold Spring Center Redevelopment Plan",
-            "order": 1,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/CSCR.png"
@@ -804,7 +804,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more information",
+                "description": "The City Council is the City's legislative body, with the power to enact all ordinances and resolutions.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "2011 Council Districts",
@@ -812,13 +812,13 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "OpenBaltimore",
-                "sourceURL": "https://data.baltimorecity.gov/",
+                "sourceDescription": "City Council",
+                "sourceURL": "http://cityservices.baltimorecity.gov/citycouncil/",
                 "type": "singleColumn"
             },
             "menuSection": "CityInfo1",
             "mouseoverName": "Council Districts",
-            "order": 2,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
@@ -874,7 +874,7 @@
             },
             "menuSection": "CtyInfo1",
             "mouseoverName": "Neighborhoods",
-            "order": 3,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CN.png"
@@ -916,7 +916,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more information",
+                "description": "The Critical Area Overlay District is designed to foster more sensitive, consistent, and uniform development and redevelopment activity along the City’s shoreline areas of the Chesapeake Bay and its tributaries, so as to minimize damage to water quality and natural or established habitats for the benefit of current and future generations.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Resource Conservation Areas - 100ft Buffer",
@@ -944,13 +944,13 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "OpenBaltimore",
-                "sourceURL": "https://data.baltimorecity.gov/",
+                "sourceDescription": "City of Baltimore Zoning Department",
+                "sourceURL": "http://archive.baltimorecity.gov/Government/AgenciesDepartments/Planning/MasterPlansMapsPublications/Maps.aspx",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Critical Area Overlay",
-            "order": 2,
+            "order": 0,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png"
@@ -992,7 +992,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more information",
+                "description": "EZ Focus Area tax credits are available to businesses, which expand or locate within specific boundaries of an Enterprise Zone.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Enterprise Zone",
@@ -1005,13 +1005,13 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "OpenBaltimore",
-                "sourceURL": "https://data.baltimorecity.gov/",
+                "sourceDescription": "Baltimore Development Corporation",
+                "sourceURL": "http://baltimoredevelopment.com/high-performance-tax-credit",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Enterprise Zones & EZ Focus Areas",
-            "order": 2,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/EZ.png"
@@ -1055,7 +1055,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Polygon feature representing flood risk as defined by the FEMA Digital Flood Insurance Rate Map database. Last Updated 2014.",
+                "description": "The Floodplain Overlay District regulates the placement and use of structures and the use of land in the floodplain, with a design towards protecting human life and health.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "VE (Extreme Risk)",
@@ -1078,13 +1078,13 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "OpenBaltimore",
-                "sourceURL": "https://data.baltimorecity.gov/Geographic/Floodplain-Shape/pqt8-n8r7",
+                "sourceDescription": "City of Baltimore Zoning Department",
+                "sourceURL": "http://archive.baltimorecity.gov/Government/AgenciesDepartments/Planning/MasterPlansMapsPublications/Maps.aspx",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Floodplain Overlay Districts",
-            "order": 2,
+            "order": 0,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/FZ.png"
@@ -1126,7 +1126,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more information",
+                "description": "Baltimore City offers a personal property tax credit for supermarkets locating or renovating in food desert incentive areas in the City.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Food Desert Incentive Areas",
@@ -1134,13 +1134,13 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "OpenBaltimore",
-                "sourceURL": "https://data.baltimorecity.gov/",
+                "sourceDescription": "Baltimore Development Corporation",
+                "sourceURL": "http://baltimoredevelopment.com/high-performance-tax-credit",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Food Desert Incentive Areas",
-            "order": 3,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png"
@@ -1182,7 +1182,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more information",
+                "description": "The City of Baltimore's Foreign-Trade Zone, FTZ #74 was established in 1982 and has been continually expanded and modified due to various requests for additional space. Zone space, originally 60,000 square feet, currently contains more than 1,200 acres at multiple sites within the City of Baltimore, Anne Arundel, Baltimore, Cecil and Harford counties.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Foreign Trade Zones",
@@ -1190,13 +1190,13 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "OpenBaltimore",
-                "sourceURL": "https://data.baltimorecity.gov/",
+                "sourceDescription": "Baltimore Development Corporation",
+                "sourceURL": "http://baltimoredevelopment.com/high-performance-tax-credit",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Foreign Trade Zones",
-            "order": 4,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/FTZ.png"
@@ -1238,7 +1238,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more information",
+                "description": "Habitat Protection Areas are designated areas that receive special protection within the Critical Area because they provide habitat for fish, wildlife, and plant species that are significant to the local ecosystem.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Habitat Projection Areas - Water",
@@ -1256,13 +1256,13 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "Maryland.gov",
-                "sourceURL": "http://data.imap.maryland.gov/datasets",
+                "sourceDescription": "City of Baltimore Zoning Department",
+                "sourceURL": "http://archive.baltimorecity.gov/Government/AgenciesDepartments/Planning/MasterPlansMapsPublications/Maps.aspx",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse2",
             "mouseoverName": "Habitat Protection Areas",
-            "order": 3,
+            "order": 0,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/HPA.png"
@@ -1304,7 +1304,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more information",
+                "description": "The HUBZone (Historically Underutilized Business Zone) Empowerment Contracting Program provides federal contracting preferences to businesses in certain urban and rural areas.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Hub Zones",
@@ -1312,13 +1312,13 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "OpenBaltimore",
-                "sourceURL": "https://data.baltimorecity.gov/",
+                "sourceDescription": "Baltimore Development Corporation",
+                "sourceURL": "http://baltimoredevelopment.com/high-performance-tax-credit",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Hub Zones",
-            "order": 5,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HUB.png"
@@ -1374,7 +1374,7 @@
             },
             "menuSection": "CityInfo1",
             "mouseoverName": "Legislative Districts",
-            "order": 4,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/LD.png"
@@ -1418,7 +1418,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Maritime Industrial Zoning Overlay District boundaries.",
+                "description": "The Maritime Industrial Overlay District is designed to ensure the preservation of limited deepwater frontage of the Port of Baltimore for maritime use.",
                 "listItemsLeft": {
                     "item1": {
                         "boxDescription": "Canton/Marine Terminal",
@@ -1443,13 +1443,13 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "OpenBaltimore",
-                "sourceURL": "https://data.baltimorecity.gov/Geographic/MIZOD/hkck-wphk",
+                "sourceDescription": "City of Baltimore Zoning Department",
+                "sourceURL": "http://archive.baltimorecity.gov/Government/AgenciesDepartments/Planning/MasterPlansMapsPublications/Maps.aspx",
                 "type": "doubleColumn"
             },
             "menuSection": "LandUse2",
             "mouseoverName": "MIZOD",
-            "order": 4,
+            "order": 0,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/MIZOD.png"
@@ -1547,7 +1547,7 @@
             },
             "menuSection": "ParkHeights1",
             "mouseoverName": "Major Land Use Initiatives",
-            "order": 2,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/MLUI.png"
@@ -1589,7 +1589,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more information",
+                "description": "In the United States, a historic district is a group of buildings, properties, or sites that have been designated by one of several entities on different levels as historically or architecturally significant.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "National Register of Historic Places",
@@ -1597,13 +1597,13 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "OpenBaltimore",
-                "sourceURL": "https://data.baltimorecity.gov/",
+                "sourceDescription": "Historical and Architectural Preservation",
+                "sourceURL": "http://chap.baltimorecity.gov/historic-districts",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse3",
             "mouseoverName": "NRHP Historic Districts",
-            "order": 1,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HD.png"
@@ -1661,7 +1661,7 @@
             },
             "menuSection": "ParkHeights1",
             "mouseoverName": "Park Heights Boundary",
-            "order": 3,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/PHB.png"
@@ -1719,7 +1719,7 @@
             },
             "menuSection": "ParkHeights1",
             "mouseoverName": "Park Heights Vacant Properties",
-            "order": 4,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/PHV.png"
@@ -1777,7 +1777,7 @@
             },
             "menuSection": "ParkHeights1",
             "mouseoverName": "Pimlico Park Redevelopment Plan",
-            "order": 5,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/PPR.png"
@@ -1877,12 +1877,12 @@
                 "type": "singleColumn"
             },
             "mouseoverName": "Planning Districts",
-            "order": 4,
+            "order": 0,
             "subCategory": "6",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PD.png"
         },
-        "Property Types": {
+        "Property Use Types": {
             "category": "1",
             "colors": {
                 "hex": {},
@@ -1905,7 +1905,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Baltimore Data: Parcel Use Layer'"
+                        "param1": "'Baltimore Data: Property Use Types'"
                     }
                 },
                 "removeFunctions": {
@@ -1924,7 +1924,7 @@
             "layerUsed": true,
             "menuSection": "LandUse1",
             "mouseoverName": "Property Use Types",
-            "order": 2,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/layerPropertyType.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png"
@@ -1982,7 +1982,7 @@
             },
             "menuSection": "ParkHeights1",
             "mouseoverName": "Proposed Development Plan",
-            "order": 7,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/PDP.png"
@@ -2060,7 +2060,7 @@
             },
             "menuSection": "ParkHeights1",
             "mouseoverName": "Proposed Park Heights Shuttle Loop",
-            "order": 8,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/PPHSL.png"
@@ -2130,7 +2130,7 @@
             },
             "menuSection": "CityInfo2",
             "mouseoverName": "Rail Transit",
-            "order": 1,
+            "order": 0,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/RT.png"
@@ -2186,7 +2186,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Tax Credit Areas",
-            "order": 7,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/TCA.png"
@@ -2243,7 +2243,7 @@
                 "type": "singleColumn"
             },
             "mouseoverName": "Urban Renewal Plans",
-            "order": 2,
+            "order": 0,
             "subCategory": "6",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/URP.png"
@@ -2311,7 +2311,7 @@
             },
             "menuSection": "LandUse4",
             "mouseoverName": "Vacant Buildings",
-            "order": 8,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/VB.png"
@@ -2379,7 +2379,7 @@
             },
             "menuSection": "LandUse4",
             "mouseoverName": "Vacant Lots",
-            "order": 9,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/VL.png"
@@ -2394,7 +2394,7 @@
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "Vacant Lots",
+            "displayName": "Planned Unit Developments",
             "functions": {
                 "addFunctions": {
                     "func1": {
@@ -2433,7 +2433,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "",
+                "description": "Planned unit developments (PUD) encourage flexibility and a creative approach in the development of land and structures, provide for a more effective arrangement of land uses and buildings while providing a predictable quality of development compatible with the characters of the surrounding area and adjoining properties.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Planned Unit Developements",
@@ -2441,13 +2441,13 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "",
-                "sourceURL": "",
+                "sourceDescription": "City of Baltimore Planning Department",
+                "sourceURL": "http://archive.baltimorecity.gov/Government/AgenciesDepartments/Planning/MasterPlansMapsPublications/Maps.aspx",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Planned Unit Developments",
-            "order": 1,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/VL.png"
@@ -2503,7 +2503,7 @@
             },
             "menuSection": "CityInfo1",
             "mouseoverName": "Ward Precincts",
-            "order": 4,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/WP.png"
@@ -2545,7 +2545,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more information",
+                "description": "A zoning district is a residence, business, office-residence, open space or industrial area of the city within which zoning regulations govern land use and building bulk. <nl> <nl> Click map polygons for more information",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Business",
@@ -2573,82 +2573,16 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "OpenBaltimore",
-                "sourceURL": "https://data.baltimorecity.gov/",
+                "sourceDescription": "City of Baltimore Zoning Department",
+                "sourceURL": "http://archive.baltimorecity.gov/Government/AgenciesDepartments/Planning/MasterPlansMapsPublications/Maps.aspx",
                 "type": "singleColumn"
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Zoning Districts",
-            "order": 3,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
-        },
-        "historic district landmarks": {
-            "category": "1",
-            "denyList": {
-                "denyList1": null
-            },
-            "denyToggle": false,
-            "displayName": "CHAP Historic Landmarks",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "historic-district-landmarks"
-                        },
-                        "service": "mapOverlayService"
-                    }
-                },
-                "emits": {
-                    "emit1": {
-                        "parameters": {
-                            "param1": "clearBillboard"
-                        },
-                        "type": "remove"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Data: CHAP Historic Districts'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "historic-district-landmarks"
-                        },
-                        "service": "mapOverlayService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 7,
-            "isActive": false,
-            "layerUsed": true,
-            "legendContents": {
-                "description": "Locations of Local (CHAP) Historic Landmarks as designated by the Commission on Historical & Architectural Preservation and the Mayor & City Council.",
-                "listItems": {
-                    "item1": {
-                        "boxDescription": "Historic Landmarks - CHAP",
-                        "boxStyle": "",
-                        "imageUrl": "../../geoJSON/layerIcons/circle-60.png"
-                    }
-                },
-                "sourceDescription": "OpenBaltimore",
-                "sourceURL": "https://data.baltimorecity.gov/Culture-Arts/Historic-Landmarks-CHAP/67u5-qhe5",
-                "type": "singleColumn"
-            },
-            "menuSection": "LandUse3",
-            "mouseoverName": "CHAP Historic Landmarks",
-            "order": 2,
-            "subCategory": "3",
-            "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HL.png"
         }
     },
     "allTheSections": {
