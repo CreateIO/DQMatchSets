@@ -3060,12 +3060,12 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Marta Stations",
-                        "boxStyle": "background:#ffffff; border-radius: 20px; border: 8px solid #a3d3b5",
+                        "boxStyle": "background:#00a78d; border-radius: 20px; border: 8px solid #00a78d",
                         "imageUrl": null
                     },
                     "item2": {
                         "boxDescription": "Marta Rail",
-                        "boxStyle": "background:#a3d3b5; border-radius: 20px; border: 8px solid #a3d3b5",
+                        "boxStyle": "background:#00a78d; border-radius: 20px; border: 8px solid #00a78d",
                         "imageUrl": null
                     }
                 },
