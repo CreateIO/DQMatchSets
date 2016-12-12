@@ -2810,7 +2810,7 @@
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/VB.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/VacantB.png"
         },
         "Vacant Lots": {
             "category": "4",
@@ -2878,7 +2878,7 @@
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/VL.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/VacantL.png"
         },
         "Planned Unit Developments": {
             "category": "4",
