@@ -575,7 +575,7 @@
             "order": 0,
             "subCategory": "6",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/AMP.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/AMP.png"
         },
         "Hurricane Innundation Zones": {
             "category": "1",
@@ -1653,7 +1653,7 @@
             "order": 0,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/FZ.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/FLOOD.png"
         },
         "Food Desert Incentive Areas": {
             "category": "4",
