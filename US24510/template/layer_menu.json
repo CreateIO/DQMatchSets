@@ -960,7 +960,7 @@
             },
             "menuSection": "CityInfo2",
             "mouseoverName": "Colleges & Universities",
-            "order": 0,
+            "order": 1,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
@@ -3003,9 +3003,7 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/WP.png"
         },
-
-
-        "Marta Rail & Stations": {
+        "Commuter Rail & Stations": {
             "category": "2",
             "denyList": {
                 "denyList1": null
@@ -3024,14 +3022,42 @@
                     "func2": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
+                            "param1": "baci_AmtrackRail"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func3": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_LightRail"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func4": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
                             "param1": "baci_SubwayStations"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func5": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_LightRailStations"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func6": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_AmtrackRailStations"
                         },
                         "service": "tileMapServiceService"
                     }
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Baltimore Data: Marta Rail & Stations'"
+                        "param1": "'Baltimore Data: Commuter Rail & Stations'"
                     }
                 },
                 "removeFunctions": {
@@ -3045,79 +3071,32 @@
                     "func2": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
+                            "param1": "baci_AmtrackRail"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func3": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_LightRail"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func4": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
                             "param1": "baci_SubwayStations"
                         },
                         "service": "tileMapServiceService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 6,
-            "isActive": false,
-            "layerUsed": true,
-            "legendContents": {
-                "description": "",
-                "listItems": {
-                    "item1": {
-                        "boxDescription": "Marta Stations",
-                        "boxStyle": "background:#00a78d; border-radius: 20px; border: 8px solid #00a78d",
-                        "imageUrl": null
                     },
-                    "item2": {
-                        "boxDescription": "Marta Rail",
-                        "boxStyle": "background:#00a78d; border-radius: 20px; border: 8px solid #00a78d",
-                        "imageUrl": null
-                    }
-                },
-                "sourceDescription": "OpenBaltimore",
-                "sourceURL": "https://data.baltimorecity.gov/",
-                "type": "singleColumn"
-            },
-            "menuSection": "CityInfo2",
-            "mouseoverName": "Marta Rail & Stations",
-            "order": 0,
-            "subCategory": "1",
-            "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/WP.png"
-        },
-        "Amtrak Rail & Stations": {
-            "category": "2",
-            "denyList": {
-                "denyList1": null
-            },
-            "denyToggle": false,
-            "displayName": "",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "baci_AmtrackRail"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func2": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "baci_AmtrackRailStations"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Data: Amtrak Rail & Stations'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
+                    "func5": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "baci_AmtrackRail"
+                            "param1": "baci_LightRailStations"
                         },
                         "service": "tileMapServiceService"
                     },
-                    "func2": {
+                    "func6": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
                             "param1": "baci_AmtrackRailStations"
@@ -3134,87 +3113,17 @@
                 "description": "",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Amtrak Stations",
-                        "boxStyle": "background:#ee352e; border-radius: 20px; border: 8px solid #ee352e",
+                        "boxDescription": "Marta Rail & Stations",
+                        "boxStyle": "background:#00a78d; border-radius: 20px; border: 8px solid #00a78d",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "Amtrak Rail",
+                        "boxDescription": "Amtrak Rail & Stations",
                         "boxStyle": "background:#ee352e; border-radius: 20px; border: 8px solid #ee352e",
                         "imageUrl": null
-                    }
-                },
-                "sourceDescription": "OpenBaltimore",
-                "sourceURL": "https://data.baltimorecity.gov/",
-                "type": "singleColumn"
-            },
-            "menuSection": "CityInfo2",
-            "mouseoverName": "Amtrak Rail & Stations",
-            "order": 0,
-            "subCategory": "1",
-            "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/WP.png"
-        },
-        "Light Rail & Stations": {
-            "category": "2",
-            "denyList": {
-                "denyList1": null
-            },
-            "denyToggle": false,
-            "displayName": "",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "baci_LightRail"
-                        },
-                        "service": "tileMapServiceService"
                     },
-                    "func2": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "baci_LightRailStations"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Data: Light Rail & Stations'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "baci_LightRail"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func2": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "baci_LightRailStations"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 6,
-            "isActive": false,
-            "layerUsed": true,
-            "legendContents": {
-                "description": "",
-                "listItems": {
-                    "item1": {
-                        "boxDescription": "Amtrak Stations",
-                        "boxStyle": "background:#2850ad; border-radius: 20px; border: 8px solid #2850ad",
-                        "imageUrl": null
-                    },
-                    "item2": {
-                        "boxDescription": "Amtrak Rail",
+                    "item3": {
+                        "boxDescription": "Light Rail & Stations",
                         "boxStyle": "background:#2850ad; border-radius: 20px; border: 8px solid #2850ad",
                         "imageUrl": null
                     }
@@ -3224,14 +3133,12 @@
                 "type": "singleColumn"
             },
             "menuSection": "CityInfo2",
-            "mouseoverName": "Light Rail & Stations",
-            "order": 0,
+            "mouseoverName": "Commuter Rail & Stations",
+            "order": 3,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/WP.png"
         },
-
-
         "Zoning Districts": {
             "category": "1",
             "denyList": {
