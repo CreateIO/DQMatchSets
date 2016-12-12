@@ -1371,7 +1371,7 @@
                         "boxDescription": "Less than -50%",
                         "boxStyle": "background:#1d796c",
                         "imageUrl": null
-                    },
+                    }
                 },
                 "sourceDescription": "ESRI",
                 "sourceURL": "www.esri.gov",
