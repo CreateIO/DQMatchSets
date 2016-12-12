@@ -519,7 +519,7 @@
             "order": 0,
             "subCategory": "4",
             "urlLegend": "../../legends/template-color-ramp.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HPA.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/RHM.png"
         },
         "Area Master Plans": {
             "category": "1",
@@ -651,7 +651,7 @@
             "order": 0,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/HPA.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/HIZ.png"
         },
         "CHAP Historic District Incentive Areas": {
             "category": "4",
