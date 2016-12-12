@@ -1518,6 +1518,87 @@
         "exists": false
       }
     },
+    "baci_LightRail": {
+      "name": "baci_LightRail",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_LightRail",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_LightRail@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.6570413437036,
+          "yMin": 39.1715958051813,
+          "xMax": -76.6156125277151,
+          "yMax": 39.4496864042835
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "baci_LightRailStations": {
+      "name": "baci_LightRailStations",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_LightRailStations",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_LightRailStations@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.6566392335279,
+          "yMin": 39.1716024163516,
+          "xMax": -76.615517272159,
+          "yMax": 39.4485562352754
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+
+
+
+
+
 
     "baci_AreaMasterPlans": {
       "name": "baci_AreaMasterPlans",
