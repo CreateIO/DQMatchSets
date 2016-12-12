@@ -967,7 +967,7 @@
         },
 
 
-        "Median Household Income Growth": {
+        "Projected Household Income Growth": {
             "category": "2",
             "denyList": {
                 "denyList1": null
@@ -986,7 +986,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Baltimore Data: Median Household Income Growth'"
+                        "param1": "'Baltimore Data: Projected Household Income Growth'"
                     }
                 },
                 "removeFunctions": {
@@ -1004,7 +1004,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "",
+                "description": "Projected Median Household Income Growth (2016 - 2021 by Neighborhood)",
                 "listItems": {
                     "item1": {
                         "boxDescription": "< -10%",
@@ -1037,13 +1037,13 @@
                 "type": "singleColumn"
             },
             "menuSection": "Development3",
-            "mouseoverName": "Median Household Income Growth",
+            "mouseoverName": "Projected Household Income Growth",
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
         },
-        "Median Home Value": {
+        "Projected Home Value Growth": {
             "category": "2",
             "denyList": {
                 "denyList1": null
@@ -1062,7 +1062,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Baltimore Data: Median Home Value'"
+                        "param1": "'Baltimore Data: Projected Home Value Growth'"
                     }
                 },
                 "removeFunctions": {
@@ -1080,7 +1080,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "",
+                "description": "Projected Home value Growth (2016 - 2021 by Neighborhood)",
                 "listItems": {
                     "item1": {
                         "boxDescription": "< 0%",
@@ -1113,13 +1113,13 @@
                 "type": "singleColumn"
             },
             "menuSection": "Development3",
-            "mouseoverName": "Median Home Value",
+            "mouseoverName": "Projected Home Value Growth",
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
         },
-        "Housing Units Growth": {
+        "Projected Housing Units Growth": {
             "category": "2",
             "denyList": {
                 "denyList1": null
@@ -1138,7 +1138,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Baltimore Data: Housing Units Growth'"
+                        "param1": "'Baltimore Data: Projected Housing Units Growth'"
                     }
                 },
                 "removeFunctions": {
@@ -1156,7 +1156,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Percent Change of Housing Units Growth",
+                "description": "Projected Total Housing Units Growth (2016 - 2021 by Neighborhood)",
                 "listItems": {
                     "item1": {
                         "boxDescription": "= 0%",
@@ -1184,13 +1184,13 @@
                 "type": "singleColumn"
             },
             "menuSection": "Development3",
-            "mouseoverName": "Housing Units Growth",
+            "mouseoverName": "Projected Housing Units Growth",
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
         },
-        "Household Growth": {
+        "Projected Households Growth": {
             "category": "2",
             "denyList": {
                 "denyList1": null
@@ -1209,7 +1209,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'Baltimore Data: Household Growth'"
+                        "param1": "'Baltimore Data: Projected Households Growth'"
                     }
                 },
                 "removeFunctions": {
@@ -1227,7 +1227,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Percent Change of Household Growth",
+                "description": "Projected Total Households Growth (2016 - 2021 by Neighborhood)",
                 "listItems": {
                     "item1": {
                         "boxDescription": "<= -50%",
@@ -1248,7 +1248,7 @@
                         "boxDescription": "-10% - -5%",
                         "boxStyle": "background:#c0cb85",
                         "imageUrl": null
-},
+                    },
                     "item5": {
                         "boxDescription": "-5% - 5%",
                         "boxStyle": "background:#e6f598",
@@ -1280,12 +1280,113 @@
                 "type": "singleColumn"
             },
             "menuSection": "Development3",
-            "mouseoverName": "Household Growth",
+            "mouseoverName": "Projected Households Growth",
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
         },
+        "Projected Population Growth": {
+            "category": "2",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_PopulationGrowth"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Projected Population Growth'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_PopulationGrowth"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Projected Population Growth (2016 - 2021 by Neighborhood)",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "<= -50%",
+                        "boxStyle": "background:#1d796c",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "-50% - -25%",
+                        "boxStyle": "background:#4a9489",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "-25% - -10%",
+                        "boxStyle": "background:#77afa7",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "-10% - -5%",
+                        "boxStyle": "background:#a5c9c4",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "-5% - 5%",
+                        "boxStyle": "background:#e2dfe3",
+                        "imageUrl": null
+                    },
+                    "item6": {
+                        "boxDescription": "5% - 10%",
+                        "boxStyle": "background:#e3b3c9",
+                        "imageUrl": null
+                    },
+                    "item7": {
+                        "boxDescription": "10% - 25%",
+                        "boxStyle": "background:#d48dae",
+                        "imageUrl": null
+                    },
+                    "item8": {
+                        "boxDescription": "25% - 50%",
+                        "boxStyle": "background:#c66793",
+                        "imageUrl": null
+                    },
+                    "item1": {
+                        "boxDescription": "50% >",
+                        "boxStyle": "background:#b84178",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "US Census Bureau",
+                "sourceURL": "www.census.gov",
+                "type": "singleColumn"
+            },
+            "menuSection": "Development3",
+            "mouseoverName": "Projected Population Growth",
+            "order": 0,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
+        },
+
+
+
+
+
 
         "Neighborhoods": {
             "category": "2",
