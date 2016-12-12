@@ -321,7 +321,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Where people live, work & work.",
+                "description": "Mixed Use / Industrial zoned areas--Where people live & work.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Moderate",
@@ -404,7 +404,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Where people Live, Work and Play.",
+                "description": "Business / Retail zoned areas--Where people work and shop.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Moderate",
@@ -487,7 +487,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Where people live.",
+                "description": "Residential zoned areas--Where people live.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Moderate",
@@ -558,7 +558,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Plans take a comprehensive look at the planning area and includes recommendations for such things as, but not exclusively, land use (including open space and commercial), issues.",
+                "description": "Area Master Plans take a comprehensive look at the planning areas & include recommendations for current & future land use issues.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Area Master Plans",
@@ -642,7 +642,7 @@
                         "imageUrl": null 
                     }
                 },
-                "sourceDescription": "Cit of Baltimore Open Data",
+                "sourceDescription": "City of Baltimore Open Data",
                 "sourceURL": "https://data.baltimorecity.gov/",
                 "type": "singleColumn"
             },
@@ -1080,7 +1080,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Projected Home value Growth (2016 - 2021 by Neighborhood)",
+                "description": "Projected Home Value Growth (2016 - 2021 by Neighborhood)",
                 "listItems": {
                     "item1": {
                         "boxDescription": "More than 25%",
@@ -1694,7 +1694,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Baltimore City offers a personal property tax credit for supermarkets locating or renovating in food desert incentive areas in the City.",
+                "description": "Baltimore City offers a personal property tax credit for supermarkets locating or renovating in Food Desert Incentive Areas in the City.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Food Desert Incentive Areas",
@@ -1750,7 +1750,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "The City of Baltimore's Foreign-Trade Zone, FTZ #74 was established in 1982 and has been continually expanded and modified due to various requests for additional space. Zone space, originally 60,000 square feet, currently contains more than 1,200 acres at multiple sites within the City of Baltimore, Anne Arundel, Baltimore, Cecil and Harford counties.",
+                "description": "The City of Baltimore's Foreign-Trade Zone (FTZ #74) was established in 1982 and has been continually expanded and modified due to various requests for additional space. Zone space, originally 60,000 square feet, currently contains more than 1,200 acres at multiple sites within the City of Baltimore, Anne Arundel, Baltimore, Cecil and Harford counties.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Foreign Trade Zones",
@@ -2157,7 +2157,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "In the United States, a historic district is a group of buildings, properties, or sites that have been designated by one of several entities on different levels as historically or architecturally significant.",
+                "description": "A historic district is a group of buildings, properties, or sites that have been designated as historically or architecturally significant.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "National Register of Historic Places",
@@ -2863,10 +2863,10 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "City of Baltimore vacant lots.",
+                "description": "City of Baltimore vacant properties.",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "LandUse4",
+                        "boxDescription": "Vacant Lots",
                         "boxStyle": "border-radius: 20px; border: 8px solid #FF7F00",
                         "imageUrl": null
                     }
@@ -2931,7 +2931,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Planned unit developments (PUD) encourage flexibility and a creative approach in the development of land and structures, provide for a more effective arrangement of land uses and buildings while providing a predictable quality of development compatible with the characters of the surrounding area and adjoining properties.",
+                "description": "Planned unit developments (PUD) encourage flexibility and a creative approach in the development of land and structures, provide for a more effective arrangement of land uses and buildings while providing a predictable quality of development compatible with the character of the surrounding area and adjoining properties.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Planned Unit Developements",
