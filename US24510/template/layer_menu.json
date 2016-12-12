@@ -1041,7 +1041,7 @@
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/D1.png"
         },
         "Projected Home Value Growth": {
             "category": "2",
@@ -1117,7 +1117,7 @@
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/D3.png"
         },
         "Projected Housing Units Growth": {
             "category": "2",
@@ -1188,7 +1188,7 @@
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/D4.png"
         },
         "Projected Households Growth": {
             "category": "2",
@@ -1284,7 +1284,7 @@
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/D2.png"
         },
         "Projected Population Growth": {
             "category": "2",
@@ -1324,70 +1324,66 @@
             "layerUsed": true,
             "legendContents": {
                 "description": "Projected Population Growth (2016 - 2021 by Neighborhood)",
-                "listItems": {
+                "listItemsLeft": {
                     "item1": {
-                        "boxDescription": "<= -50%",
-                        "boxStyle": "background:#1d796c",
+                        "boxDescription": "More than 50%",
+                        "boxStyle": "background:#b84178",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "-50% - -25%",
-                        "boxStyle": "background:#4a9489",
-                        "imageUrl": null
-                    },
-                    "item3": {
-                        "boxDescription": "-25% - -10%",
-                        "boxStyle": "background:#77afa7",
-                        "imageUrl": null
-                    },
-                    "item4": {
-                        "boxDescription": "-10% - -5%",
-                        "boxStyle": "background:#a5c9c4",
-                        "imageUrl": null
-                    },
-                    "item5": {
-                        "boxDescription": "-5% - 5%",
-                        "boxStyle": "background:#e2dfe3",
-                        "imageUrl": null
-                    },
-                    "item6": {
-                        "boxDescription": "5% - 10%",
-                        "boxStyle": "background:#e3b3c9",
-                        "imageUrl": null
-                    },
-                    "item7": {
-                        "boxDescription": "10% - 25%",
-                        "boxStyle": "background:#d48dae",
-                        "imageUrl": null
-                    },
-                    "item8": {
-                        "boxDescription": "25% - 50%",
+                        "boxDescription": "25% to 50%",
                         "boxStyle": "background:#c66793",
                         "imageUrl": null
                     },
-                    "item1": {
-                        "boxDescription": "50% >",
-                        "boxStyle": "background:#b84178",
+                    "item3": {
+                        "boxDescription": "10% to 25%",
+                        "boxStyle": "background:#d48dae",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "5% to 10%",
+                        "boxStyle": "background:#e3b3c9",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "-5% to 5%",
+                        "boxStyle": "background:#e2dfe3",
                         "imageUrl": null
                     }
                 },
+                "listItemsRight": {
+                    "item6": {
+                        "boxDescription": "-10% to -5%",
+                        "boxStyle": "background:#a5c9c4",
+                        "imageUrl": null
+                    },
+                    "item7": {
+                        "boxDescription": "-25% to -10%",
+                        "boxStyle": "background:#77afa7",
+                        "imageUrl": null
+                    },
+                    "item8": {
+                        "boxDescription": "-50% to -25%",
+                        "boxStyle": "background:#4a9489",
+                        "imageUrl": null
+                    },
+                    "item9": {
+                        "boxDescription": "Less than -50%",
+                        "boxStyle": "background:#1d796c",
+                        "imageUrl": null
+                    },
+                },
                 "sourceDescription": "ESRI",
                 "sourceURL": "www.esri.gov",
-                "type": "singleColumn"
+                "type": "doubleColumn"
             },
             "menuSection": "Development3",
             "mouseoverName": "Projected Population Growth",
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/CD.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/PopGrowth.png"
         },
-
-
-
-
-
-
         "Neighborhoods": {
             "category": "2",
             "denyList": {
@@ -3200,7 +3196,7 @@
                     },
                     "item5": {
                         "boxDescription": "Residence",
-                        "boxStyle": "background:#",
+                        "boxStyle": "background:#6f94d7",
                         "imageUrl": null
                     }
                 },
