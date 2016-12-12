@@ -651,7 +651,7 @@
             "order": 0,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/HIZ.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HIZ.png"
         },
         "CHAP Historic District Incentive Areas": {
             "category": "4",
@@ -2018,7 +2018,7 @@
             "order": 0,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/MIZOD.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/MIZOD.png"
         },
         "Major Land Use Initiatives": {
             "category": "7",
@@ -2172,7 +2172,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HD.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/NRHP.png"
         },
         "Park Heights Boundary": {
             "category": "7",
