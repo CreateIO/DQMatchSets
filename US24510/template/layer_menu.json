@@ -1826,7 +1826,7 @@
             "order": 0,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/HPA.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HPA.png"
         },
         "HUB Zones": {
             "category": "4",
