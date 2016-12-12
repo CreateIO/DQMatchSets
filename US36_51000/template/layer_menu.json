@@ -2212,7 +2212,7 @@
                 "sourceURL": "http://gis.ny.gov/gisdata",
                 "type": "doubleColumn"
             },
-            "menuSection": "CityInfo2",
+            "menuSection": "",
             "mouseoverName": "NYS Commuter Rail System",
             "order": 2,
             "subCategory": "3",
