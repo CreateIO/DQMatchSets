@@ -1083,13 +1083,13 @@
                 "description": "Projected Home value Growth (2016 - 2021 by Neighborhood)",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Less than 0%",
-                        "boxStyle": "background:#6bbed0",
+                        "boxDescription": "More than 25%",
+                        "boxStyle": "background:#405067",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "0% to 5%",
-                        "boxStyle": "background:#60a2b5",
+                        "boxDescription": "15% to 25%",
+                        "boxStyle": "background:#4a6b81",
                         "imageUrl": null
                     },
                     "item3": {
@@ -1098,13 +1098,13 @@
                         "imageUrl": null
                     },
                     "item4": {
-                        "boxDescription": "15% to 25%",
-                        "boxStyle": "background:#4a6b81",
+                        "boxDescription": "0% to 5%",
+                        "boxStyle": "background:#60a2b5",
                         "imageUrl": null
                     },
                     "item5": {
-                        "boxDescription": "More than 25%",
-                        "boxStyle": "background:#405067",
+                        "boxDescription": "Less than 0%",
+                        "boxStyle": "background:#6bbed0",
                         "imageUrl": null
                     }
                 },
@@ -1159,23 +1159,23 @@
                 "description": "Projected Total Housing Units Growth (2016 - 2021 by Neighborhood)",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Equal to 0%",
-                        "boxStyle": "background:#a2d0ce",
+                        "boxDescription": "More than 2.5%",
+                        "boxStyle": "background:#895372",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "0% to 1%",
-                        "boxStyle": "background:#9aa6af",
-                        "imageUrl": null
-                    },
-                    "item3": {
                         "boxDescription": "1% to 2.5%",
                         "boxStyle": "background:#927d91",
                         "imageUrl": null
                     },
+                    "item3": {
+                        "boxDescription": "0% to 1%",
+                        "boxStyle": "background:#9aa6af",
+                        "imageUrl": null
+                    },
                     "item4": {
-                        "boxDescription": "More than 2.5%",
-                        "boxStyle": "background:#895372",
+                        "boxDescription": "Equal to 0%",
+                        "boxStyle": "background:#a2d0ce",
                         "imageUrl": null
                     }
                 },
@@ -1228,56 +1228,58 @@
             "layerUsed": true,
             "legendContents": {
                 "description": "Projected Total Households Growth (2016 - 2021 by Neighborhood)",
-                "listItems": {
+                "listItemsLeft": {
                     "item1": {
-                        "boxDescription": "Less than -50%",
-                        "boxStyle": "background:#4d4d4d",
+                        "boxDescription": "More than 50%",
+                        "boxStyle": "background:#5ab4ac",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "-50% to -25%",
-                        "boxStyle": "background:#737760",
+                        "boxDescription": "25% to 50%",
+                        "boxStyle": "background:#7dc4a7",
                         "imageUrl": null
                     },
                     "item3": {
-                        "boxDescription": "-25% to -10%",
-                        "boxStyle": "background:#9aa173",
+                        "boxDescription": "10% to 25%",
+                        "boxStyle": "background:#a0d5a2",
                         "imageUrl": null
                     },
                     "item4": {
-                        "boxDescription": "-10% to -5%",
-                        "boxStyle": "background:#c0cb85",
+                        "boxDescription": "5% to 10%",
+                        "boxStyle": "background:#c3d59d",
                         "imageUrl": null
                     },
                     "item5": {
                         "boxDescription": "-5% to 5%",
                         "boxStyle": "background:#e6f598",
                         "imageUrl": null
-                    },
+                    }
+                },
+                "listItemsRight": {
                     "item6": {
-                        "boxDescription": "5% to 10%",
-                        "boxStyle": "background:#c3d59d",
+                        "boxDescription": "-10% to -5%",
+                        "boxStyle": "background:#c0cb85",
                         "imageUrl": null
                     },
                     "item7": {
-                        "boxDescription": "10% to 25%",
-                        "boxStyle": "background:#a0d5a2",
+                        "boxDescription": "-25% to -10%",
+                        "boxStyle": "background:#9aa173",
                         "imageUrl": null
                     },
                     "item8": {
-                        "boxDescription": "25% to 50%",
-                        "boxStyle": "background:#7dc4a7",
+                        "boxDescription": "-50% to -25%",
+                        "boxStyle": "background:#737760",
                         "imageUrl": null
                     },
-                    "item1": {
-                        "boxDescription": "More than 50%",
-                        "boxStyle": "background:#5ab4ac",
+                    "item9": {
+                        "boxDescription": "Less than -50%",
+                        "boxStyle": "background:#4d4d4d",
                         "imageUrl": null
                     }
                 },
                 "sourceDescription": "ESRI",
                 "sourceURL": "www.esri.gov",
-                "type": "singleColumn"
+                "type": "doubleColumn"
             },
             "menuSection": "Development3",
             "mouseoverName": "Projected Households Growth",
