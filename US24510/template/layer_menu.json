@@ -1038,7 +1038,7 @@
             },
             "menuSection": "Development3",
             "mouseoverName": "Projected Household Income Growth",
-            "order": 0,
+            "order": 1,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/D1.png"
@@ -1114,7 +1114,7 @@
             },
             "menuSection": "Development3",
             "mouseoverName": "Projected Home Value Growth",
-            "order": 0,
+            "order": 3,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/D3.png"
@@ -1185,7 +1185,7 @@
             },
             "menuSection": "Development3",
             "mouseoverName": "Projected Housing Units Growth",
-            "order": 0,
+            "order": 3,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/D4.png"
@@ -1283,7 +1283,7 @@
             },
             "menuSection": "Development3",
             "mouseoverName": "Projected Households Growth",
-            "order": 0,
+            "order": 2,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/D2.png"
@@ -1381,7 +1381,7 @@
             },
             "menuSection": "Development3",
             "mouseoverName": "Projected Population Growth",
-            "order": 0,
+            "order": 4,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/PopGrowth.png"
