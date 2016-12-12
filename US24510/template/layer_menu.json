@@ -707,7 +707,7 @@
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/CHAP.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/CHAP.png"
         },
         "Cold Spring Center Redevelopment Plan": {
             "category": "7",
@@ -1575,7 +1575,7 @@
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/EZ.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/EZ.png"
         },
         "Flood Zones": {
             "category": "1",
@@ -1704,7 +1704,7 @@
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/FD.png"
         },
         "Foreign Trade Zones": {
             "category": "4",
@@ -1760,7 +1760,7 @@
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/FTZ.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/FT.png"
         },
         "Habitat Protection Areas": {
             "category": "1",
@@ -1882,7 +1882,7 @@
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/HUB.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HUB.png"
         },
         "Legislative Districts": {
             "category": "2",
@@ -2680,7 +2680,7 @@
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/TCA.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HPTC.png"
         },
         "URP": {
             "category": "1",
