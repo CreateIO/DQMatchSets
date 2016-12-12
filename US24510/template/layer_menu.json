@@ -1007,33 +1007,33 @@
                 "description": "Projected Median Household Income Growth (2016 - 2021 by Neighborhood)",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "< -10%",
-                        "boxStyle": "background:#5597bd",
+                        "boxDescription": "More than 10%",
+                        "boxStyle": "background:#eda153",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "-10% - -5%",
-                        "boxStyle": "background:#97b89d",
+                        "boxDescription": "5% to 10%",
+                        "boxStyle": "background:#e3bd68",
                         "imageUrl": null
                     },
                     "item3": {
-                        "boxDescription": "-5% - 5%",
+                        "boxDescription": "-5% to 5%",
                         "boxStyle": "background:#d9d97d",
                         "imageUrl": null
                     },
                     "item4": {
-                        "boxDescription": "5% - 10%",
-                        "boxStyle": "background:#e3bd68",
+                        "boxDescription": "-10% to -5%",
+                        "boxStyle": "background:#97b89d",
                         "imageUrl": null
                     },
                     "item5": {
-                        "boxDescription": "10% >",
-                        "boxStyle": "background:#eda153",
+                        "boxDescription": "Less than -10%",
+                        "boxStyle": "background:#5597bd",
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "US Census Bureau",
-                "sourceURL": "www.census.gov",
+                "sourceDescription": "ESRI",
+                "sourceURL": "www.esri.gov",
                 "type": "singleColumn"
             },
             "menuSection": "Development3",
@@ -1108,8 +1108,8 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "US Census Bureau",
-                "sourceURL": "www.census.gov",
+                "sourceDescription": "ESRI",
+                "sourceURL": "www.esri.gov",
                 "type": "singleColumn"
             },
             "menuSection": "Development3",
@@ -1179,8 +1179,8 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "US Census Bureau",
-                "sourceURL": "www.census.gov",
+                "sourceDescription": "ESRI",
+                "sourceURL": "www.esri.gov",
                 "type": "singleColumn"
             },
             "menuSection": "Development3",
@@ -1275,8 +1275,8 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "US Census Bureau",
-                "sourceURL": "www.census.gov",
+                "sourceDescription": "ESRI",
+                "sourceURL": "www.esri.gov",
                 "type": "singleColumn"
             },
             "menuSection": "Development3",
@@ -1371,8 +1371,8 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "US Census Bureau",
-                "sourceURL": "www.census.gov",
+                "sourceDescription": "ESRI",
+                "sourceURL": "www.esri.gov",
                 "type": "singleColumn"
             },
             "menuSection": "Development3",
@@ -2630,76 +2630,6 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/parkHeights/PPHSL.png"
         },
-        "Rail Transit": {
-            "category": "2",
-            "denyList": {
-                "denyList1": null
-            },
-            "denyToggle": false,
-            "displayName": "transit",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "Rail Transit"
-                        },
-                        "service": "mapOverlayService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Baltimore Data: Rail Transit'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeLayer",
-                        "parameters": {
-                            "param1": "$scope",
-                            "param2": "Rail Transit"
-                        },
-                        "service": "mapOverlayService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 2,
-            "isActive": false,
-            "layerUsed": true,
-            "legendContents": {
-                "description": "",
-                "listItemsLeft": {
-                    "item1": {
-                        "boxDescription": "Subway",
-                        "boxStyle": "background:#DE3B38;",
-                        "imageUrl": null
-                    },
-                    "item2": {
-                        "boxDescription": "Light Rail",
-                        "boxStyle": "background:#FFDF01;",
-                        "imageUrl": null
-                    }
-                },
-                "listItemsRight": {
-                    "item1": {
-                        "boxDescription": "Light Rail Stations",
-                        "boxStyle": "display: inline-block; width: 15px; height: 15px; margin-right: .4em; vertical-align: middle;",
-                        "imageUrl": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/RT.png"
-                    }
-                },
-                "sourceDescription": "Baltimore Open Data",
-                "sourceURL": "http://www.urbanrail.net/am/balt/baltimore.htm",
-                "type": "doubleColumn"
-            },
-            "menuSection": "CityInfo2",
-            "mouseoverName": "Rail Transit",
-            "order": 0,
-            "subCategory": "2",
-            "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/RT.png"
-        },
         "High Performance Tax Credit Areas": {
             "category": "4",
             "denyList": {
@@ -3073,6 +3003,85 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/WP.png"
         },
+
+
+        "Marta Rail & Stations": {
+            "category": "2",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_SubwayLines"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_SubwayStations"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Marta Rail & Stations'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_SubwayLines"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "baci_SubwayStations"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Marta Stations",
+                        "boxStyle": "background:#ffffff; border-radius: 20px; border: 8px solid #a3d3b5",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Marta Rail",
+                        "boxStyle": "background:#a3d3b5; border-radius: 20px; border: 8px solid #a3d3b5",
+                        "imageUrl": null
+                },
+                "sourceDescription": "OpenBaltimore",
+                "sourceURL": "https://data.baltimorecity.gov/",
+                "type": "singleColumn"
+            },
+            "menuSection": "CityInfo2",
+            "mouseoverName": "Marta Rail & Stations",
+            "order": 0,
+            "subCategory": "1",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityinfo/WP.png"
+        },
+
+
+
         "Zoning Districts": {
             "category": "1",
             "denyList": {
@@ -3274,14 +3283,14 @@
     "allTheTabs": {
         "LandUse": {
             "isActive": false,
-            "order": 0,
+            "order": 1,
             "permissions": null,
             "redact": false,
             "title": "Land Use"
         },
         "CityInfo": {
             "isActive": false,
-            "order": 1,
+            "order": 2,
             "permissions": null,
             "redact": false,
             "title": "City Info"

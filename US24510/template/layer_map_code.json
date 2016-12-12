@@ -1364,6 +1364,86 @@
         "exists": false
       }
     },
+
+
+    "baci_SubwayLines": {
+      "name": "baci_SubwayLines",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_SubwayLines",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_SubwayLines@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.7782002117857,
+          "yMin": 39.2894224018697,
+          "xMax": -76.5942215028099,
+          "yMax": 39.4078119067166
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "baci_SubwayStations": {
+      "name": "baci_SubwayStations",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_SubwayStations",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_SubwayStations@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.7781372317995,
+          "yMin": 39.2896988955047,
+          "xMax": -76.5945103498013,
+          "yMax": 39.4078639502511
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+
+    
     "baci_AreaMasterPlans": {
       "name": "baci_AreaMasterPlans",
       "removeName": null,
