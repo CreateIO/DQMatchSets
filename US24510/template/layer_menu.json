@@ -353,7 +353,7 @@
             "order": 0,
             "subCategory": "4",
             "urlLegend": "../../legends/template-color-ramp.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ODH.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/MUHM.png"
         },
         "Business / Retail Density Heatmap": {
             "category": "1",
@@ -436,7 +436,7 @@
             "order": 0,
             "subCategory": "4",
             "urlLegend": "../../legends/template-color-ramp.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ODH.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/BHM.png"
         },
         "Residential Density Heatmap": {
             "category": "1",
@@ -519,7 +519,7 @@
             "order": 0,
             "subCategory": "4",
             "urlLegend": "../../legends/template-color-ramp.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ODH.png"
+            "urlPicture": "https://s3.amazonaws.com/RHM.png"
         },
         "Area Master Plans": {
             "category": "1",
@@ -2941,7 +2941,7 @@
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/incentives/VL.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/PUDs.png"
         },
         "Ward Precincts": {
             "category": "2",
