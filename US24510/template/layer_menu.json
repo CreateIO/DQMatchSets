@@ -1185,7 +1185,7 @@
             },
             "menuSection": "Development3",
             "mouseoverName": "Projected Housing Units Growth",
-            "order": 3,
+            "order": 2,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/D4.png"
