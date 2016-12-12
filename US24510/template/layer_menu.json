@@ -1283,7 +1283,7 @@
             },
             "menuSection": "Development3",
             "mouseoverName": "Projected Households Growth",
-            "order": 2,
+            "order": 1,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/D2.png"
