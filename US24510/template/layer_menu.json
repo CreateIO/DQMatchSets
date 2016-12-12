@@ -519,7 +519,7 @@
             "order": 0,
             "subCategory": "4",
             "urlLegend": "../../legends/template-color-ramp.jade",
-            "urlPicture": "https://s3.amazonaws.com/RHM.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HPA.png"
         },
         "Area Master Plans": {
             "category": "1",
@@ -1500,6 +1500,11 @@
                         "imageUrl": null
                     },
                     "item5": {
+                        "boxDescription": "Waterfront Revitalization Areas - 100ft Buffer",
+                        "boxStyle": "background:#fb9a99",
+                        "imageUrl": null
+                    },
+                    "item6": {
                         "boxDescription": "Waterfront Revitalization Areas - 1000ft Buffer",
                         "boxStyle": "background:#fb9a99",
                         "imageUrl": null
@@ -1514,7 +1519,7 @@
             "order": 0,
             "subCategory": "2",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/cityInfo/COA.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/CAO.png"
         },
         "Enterprise Zone & EZ Focus Areas": {
             "category": "4",
