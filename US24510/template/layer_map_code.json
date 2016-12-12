@@ -1679,9 +1679,7 @@
         "exists": false
     }
   },
-
-
-    "baci_PopulationGrowth": {
+  "baci_PopulationGrowth": {
       "name": "baci_PopulationGrowth",
       "removeName": null,
       "url": null,
@@ -1720,7 +1718,7 @@
     }
   },
   "baci_HouseholdGrowth": {
-      "name": "baci_PopulationGrowth",
+      "name": "baci_HouseholdGrowth",
       "removeName": null,
       "url": null,
       "cartographic": false,
@@ -1734,8 +1732,8 @@
         "exists": false
       },
       "tms": {
-        "tmsLayerName": "baci_PopulationGrowth",
-        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_PopulationGrowth@EPSG:900913@png",
+        "tmsLayerName": "baci_HouseholdGrowth",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_HouseholdGrowth@EPSG:900913@png",
         "extension": "png",
         "coords": {
           "xMin": -76.7123184204102,
@@ -1795,8 +1793,8 @@
         "exists": false
     }
   },
-  "baci_MedHomeValue": {
-      "name": "baci_MedHomeValue",
+  "baci_HousingUnitsGrowth": {
+      "name": "baci_HousingUnitsGrowth",
       "removeName": null,
       "url": null,
       "cartographic": false,
@@ -1810,8 +1808,8 @@
         "exists": false
       },
       "tms": {
-        "tmsLayerName": "baci_MedHomeValue",
-        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_MedHomeValue@EPSG:900913@png",
+        "tmsLayerName": "baci_HousingUnitsGrowth",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_HousingUnitsGrowth@EPSG:900913@png",
         "extension": "png",
         "coords": {
           "xMin": -76.7123184204102,
@@ -1871,9 +1869,6 @@
         "exists": false
     }
   },
-
-
-
   "parcelFills": {
             "name": "parcelFills",
             "removeName": null,
