@@ -804,7 +804,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "The City Council is the City's legislative body, with the power to enact all ordinances and resolutions.",
+                "description": "City of Baltimore Council District boundaries.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "2011 Council Districts",
@@ -860,7 +860,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "",
+                "description": "U.S. Congressional District boundaries.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Congressional Districts",
@@ -1928,7 +1928,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "",
+                "description": "U.S. Legislative District boundaries.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Legislative Districts",
@@ -2807,7 +2807,7 @@
                 "sourceURL": "http://gisdata.baltimorecity.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse4",
+            "menuSection": "Development4",
             "mouseoverName": "Vacant Buildings",
             "order": 0,
             "subCategory": "1",
@@ -2875,7 +2875,7 @@
                 "sourceURL": "http://gisdata.baltimorecity.gov/",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse4",
+            "menuSection": "Development4",
             "mouseoverName": "Vacant Lots",
             "order": 0,
             "subCategory": "1",
@@ -2987,7 +2987,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "",
+                "description": "City of Baltimore Ward Precinct boundaries.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Ward precinct boundaries prior to 2012",
@@ -3303,6 +3303,13 @@
             "permissions": null,
             "redact": false,
             "title": "Demographics"
+        },
+        "Development4": {
+            "order": 0,
+            "parentTab": "Development",
+            "permissions": null,
+            "redact": false,
+            "title": "Vacant Properties"
         },
         "Incentives1": {
             "order": 0,
