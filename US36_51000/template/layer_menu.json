@@ -1347,7 +1347,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "LandUse4",
-            "mouseoverName": "Historic Landmarks",
+            "mouseoverName": "Historic Districts",
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
