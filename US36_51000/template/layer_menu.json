@@ -663,7 +663,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Parks",
-                        "boxStyle": "background:#a4d5c1; border: 1px solid #cad5aa",
+                        "boxStyle": "background:#a4d51c; border: 1px solid #cad5aa",
                         "imageUrl": null
                     }
                 },
@@ -676,7 +676,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/Parks.png"
         },
         "Business Improvement Districts": {
             "category": "6",
@@ -732,7 +732,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/BIDs.png"
         },
         "Limited Height Districts": {
             "category": "6",
@@ -1282,7 +1282,7 @@
                 "listItems": {
                     "item1": {
                         "boxDescription": "Historic Landmarks",
-                        "boxStyle": "background:#d24530; border-radius: 15px;border: 1px solid #f7ba7e",
+                        "boxStyle": "background:#d24530; border-radius: 15px;border: 1px solid #fcc4cd",
                         "imageUrl": null
                     }
                 },
@@ -1795,7 +1795,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/EmpZ.png"
         },
         "Fresh Food Stores Zoning": {
             "category": "6",
@@ -1861,7 +1861,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/FOOD.png"
         },
         "NYCHA Community Engagement & Partnership Zones": {
             "category": "6",
@@ -1917,7 +1917,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/NYCHA.png"
         },
         "Transit Zones": {
             "category": "6",
@@ -2029,7 +2029,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/CPIZ.png"
         },
         "NJT Commuter Rail": {
             "category": "6",
@@ -2151,7 +2151,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/A1.png"
         },
         "NYS Commuter Rail": {
             "category": "6",
@@ -2414,7 +2414,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/A2"
         },
         "Bike Parking": {
             "category": "6",
@@ -2508,7 +2508,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/A3"
         },
         "Zoning Districts": {
             "category": "6",
