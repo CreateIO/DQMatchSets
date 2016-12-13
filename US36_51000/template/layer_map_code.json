@@ -1,0 +1,1334 @@
+{
+    "layerjson": {
+    "PLUTO": {
+      "name": "PLUTO",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "PLUTO",
+        "url": "https://s3.amazonaws.com/models-dc/img_tilesets/PLUTO",
+        "extension": "png",
+        "coords": {
+          "xMin": -74.28,
+          "yMin": 40.48,
+          "xMax": -73.69,
+          "yMax": 40.94
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 8,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OSM"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+        },
+        "parcelFills": {
+            "name": "parcelFills",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "parcelFills",
+                "url": "https://s3.amazonaws.com/models-dc/img_tilesets/PLUTO/",
+                "extension": "png",
+            "coords" : {
+                "xMin" : -74.04761,
+                "yMin" : 40.68395,
+                "xMax" : -73.90682,
+                "yMax" : 40.87913
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 17,
+                "alpha": 0.45,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_SpecialPurposeDistricts": {
+            "name": "ny_SpecialPurposeDistricts",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_SpecialPurposeDistricts",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SpecialPurposeDistricts@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.2589263916016,
+                    "yMin": 40.4910697937012,
+                    "xMax": -73.7683029174805,
+                    "yMax": 40.9180908203125
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_NTAs": {
+            "name": "ny_NTAs",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_NTAs",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_NTAs@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.2583694458008,
+                    "yMin": 40.4940147399902,
+                    "xMax": -73.6972274780273,
+                    "yMax": 40.9176330566406
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_PublicUseMicrodataAreas": {
+            "name": "ny_PublicUseMicrodataAreas",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_PublicUseMicrodataAreas",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_PublicUseMicrodataAreas@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.2583694458008,
+                    "yMin": 40.4940147399902,
+                    "xMax": -73.6972274780273,
+                    "yMax": 40.9176330566406
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_SpecialPurposeDistricts_base": {
+            "name": "ny_SpecialPurposeDistricts_base",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_SpecialPurposeDistricts_base",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SpecialPurposeDistricts_base@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.2589263916016,
+                    "yMin": 40.4910697937012,
+                    "xMax": -73.7683029174805,
+                    "yMax": 40.9180908203125
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_LimitedHeightDistricts": {
+            "name": "ny_LimitedHeightDistricts",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_LimitedHeightDistricts",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_LimitedHeightDistricts@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.0006413059925,
+                    "yMin": 40.6837408183463,
+                    "xMax": -73.9549275741795,
+                    "yMax": 40.7866796405202
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_Parks": {
+            "name": "ny_Parks",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_Parks",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_Parks@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.0192642211914,
+                    "yMin": 40.5594863891602,
+                    "xMax": -73.7002410888672,
+                    "yMax": 40.8073120117188
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_BID": {
+            "name": "ny_BID",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_BID",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_BID@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.2006530761719,
+                    "yMin": 40.5372695922852,
+                    "xMax": -73.7633819580078,
+                    "yMax": 40.8859977722168
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_InclusionaryHousing": {
+            "name": "ny_InclusionaryHousing",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_InclusionaryHousing",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_InclusionaryHousing@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.0225448608398,
+                    "yMin": 40.5706176757812,
+                    "xMax": -73.7804183959961,
+                    "yMax": 40.8752784729004
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_CommercialDistrictsOverlay": {
+            "name": "ny_CommercialDistrictsOverlay",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_CommercialDistrictsOverlay",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_CommercialDistrictsOverlay@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.2039184570312,
+                    "yMin": 40.5111427307129,
+                    "xMax": -73.6989974975586,
+                    "yMax": 40.9136123657227
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_COLP": {
+            "name": "ny_COLP",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_COLP",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_COLP@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.2586898803711,
+                    "yMin": 40.4923820495605,
+                    "xMax": -73.6991348266602,
+                    "yMax": 40.9184265136719
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_SPD_wSubDistricts": {
+            "name": "ny_SPD_wSubDistricts",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_SPD_wSubDistricts",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SPD_wSubDistricts@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.0818328857422,
+                    "yMin": 40.5707092285156,
+                    "xMax": -73.7691802978516,
+                    "yMax": 40.8798942565918
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_LowerDensityGrowthManagementAreas": {
+            "name": "ny_LowerDensityGrowthManagementAreas",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_LowerDensityGrowthManagementAreas",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_LowerDensityGrowthManagementAreas@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.2562523522881,
+                    "yMin": 40.4911128782193,
+                    "xMax": -73.765343967245,
+                    "yMax": 40.8818856575403
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_ZoningMapAmendments": {
+            "name": "ny_ZoningMapAmendments",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_ZoningMapAmendments",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_ZoningMapAmendments@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.2599258422852,
+                    "yMin": 40.4932899475098,
+                    "xMax": -73.6973495483398,
+                    "yMax": 40.9153785705566
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "mappluto": {
+            "name": "mappluto",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "mappluto",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:mappluto@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.0422,
+                    "yMin": 40.5658,
+                    "xMax": -73.6985,
+                    "yMax": 40.9145
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 18,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_Hurricane_Shelters": {
+            "name": "ny_Hurricane_Shelters",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_Hurricane_Shelters",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_Hurricane_Shelters@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.1995620727539,
+                    "yMin": 40.5425643920898,
+                    "xMax": -73.7239990234375,
+                    "yMax": 40.8898468017578
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_HurricaneInnundationZones": {
+            "name": "ny_HurricaneInnundationZones",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_HurricaneInnundationZones",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_HurricaneInnundationZones@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.2587475062895,
+                    "yMin": 40.4860830862162,
+                    "xMax": -73.7000090939948,
+                    "yMax": 40.9176617245314
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_WP": {
+            "name": "ny_WP",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_WP",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_WP@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.2580871582031,
+                    "yMin": 40.4937362670898,
+                    "xMax": -73.7343902587891,
+                    "yMax": 40.9057579040527
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_WAP": {
+            "name": "ny_WAP",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_WAP",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_WAP@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -73.9664688493479,
+                    "yMin": 40.7181641532872,
+                    "xMax": -73.8341297473751,
+                    "yMax": 40.8193475232473
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_PAWS": {
+            "name": "ny_PAWS",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_PAWS",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_PAWS@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.2451171875,
+                    "yMin": 40.5079231262207,
+                    "xMax": -73.7791137695312,
+                    "yMax": 40.876335144043
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_SidewalkCafes": {
+            "name": "ny_SidewalkCafes",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_SidewalkCafes",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SidewalkCafes@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.2507095336914,
+                    "yMin": 40.5210800170898,
+                    "xMax": -73.6974334716797,
+                    "yMax": 40.91357421875
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_EmpowermentZones": {
+            "name": "ny_EmpowermentZones",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_EmpowermentZones",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_EmpowermentZones@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -73.9636953088846,
+                    "yMin": 40.7880169462688,
+                    "xMax": -73.8660664599588,
+                    "yMax": 40.8791878748926
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_FreshFoodStoresZoning": {
+            "name": "ny_FreshFoodStoresZoning",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_FreshFoodStoresZoning",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_FreshFoodStoresZoning@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.1958993217393,
+                    "yMin": 40.5627324159395,
+                    "xMax": -73.7189440549245,
+                    "yMax": 40.9114170605699
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_TransitZones": {
+            "name": "ny_TransitZones",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_TransitZones",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_TransitZones@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.0333426831925,
+                    "yMin": 40.5720107481876,
+                    "xMax": -73.7727383830257,
+                    "yMax": 40.9037423687272
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_NYCHA": {
+            "name": "nny_NYCHA",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_NYCHA",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_NYCHA@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.2060173822357,
+                    "yMin": 40.54815578032,
+                    "xMax": -73.7000090638734,
+                    "yMax": 40.9155327760001
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_CommunityParksInitiative": {
+            "name": "ny_CommunityParksInitiative",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "nny_CommunityParksInitiative",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_CommunityParksInitiative@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.1978530883789,
+                    "yMin": 40.5680618286133,
+                    "xMax": -73.7353439331055,
+                    "yMax": 40.8642234802246
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_SubwayRoutes": {
+            "name": "ny_SubwayRoutes",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_SubwayRoutes",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SubwayRoutes@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.2544479370117,
+                    "yMin": 40.5108108520508,
+                    "xMax": -73.7529220581055,
+                    "yMax": 40.9050788879395
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_SubwayStations": {
+            "name": "ny_SubwayStations",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_SubwayStations",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SubwayStations@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.166618347168,
+                    "yMin": 40.5428047180176,
+                    "xMax": -73.7533569335938,
+                    "yMax": 40.9049186706543
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_SubwayEntrances": {
+            "name": "ny_SubwayEntrances",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_SubwayEntrances",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_SubwayEntrances@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.0327377319336,
+                    "yMin": 40.5738563537598,
+                    "xMax": -73.7602386474609,
+                    "yMax": 40.9052391052246
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_MetroNorthRoutes": {
+            "name": "ny_MetroNorthRoutes",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_MetroNorthRoutes",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_MetroNorthRoutes@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -73.984528,
+                    "yMin": 40.75299799999,
+                    "xMax": -72.921747,
+                    "yMax": 41.814721999999854
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_MetroNorthStops": {
+            "name": "ny_MetroNorthStops",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_MetroNorthStops",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_MetroNorthStops@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -73.98452800000001,
+                    "yMin": 40.75299799999982,
+                    "xMax": -72.92174700000002,
+                    "yMax": 41.814721999999854
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_LongIslandRR_Routes": {
+            "name": "ny_LongIslandRR_Routes",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_LongIslandRR_Routes",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_LongIslandRR_Routes@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -73.99308741050001,
+                    "yMin": 40.59018166349982,
+                    "xMax": -71.9541238589,
+                    "yMax": 41.09965216909983
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_LongIslandRR_Stops": {
+            "name": "ny_LongIslandRR_Stops",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_LongIslandRR_Stops",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_LongIslandRR_Stops@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": 73.99358000000001,
+                    "yMin": 40.590169999999844,
+                    "xMax": -71.95388000000001,
+                    "yMax": 41.099699999999835
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_Zoning": {
+            "name": "ny_Zoning",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_Zoning",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_Zoning@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.259033203125,
+                    "yMin": 40.4889831542969,
+                    "xMax": -73.6973724365234,
+                    "yMax": 40.918643951416
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        }
+    }
+}

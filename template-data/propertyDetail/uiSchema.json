@@ -1,1 +1,9 @@
-{}
+{
+  "ui:field": "container",
+  "ui:options": {
+    "key": "items"
+  },
+  "items": {
+    "ui:field": "tree"
+  }
+}

@@ -55,7 +55,7 @@
             "mouseoverName": "Available Retail Sites (WDCEP)",
             "order": 1,
             "subCategory": "1",
-            "urlLegend": "",
+            "urlLegend": "../../legends/layerLegendRetailSitePoints.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/RSL.png"
         },
         "Business Improvement Districts": {
@@ -114,18 +114,18 @@
                 "description": "",
                 "listItemsLeft": {
                     "item1": {
-                        "boxDescription": "Capitol Hill BID",
-                        "boxStyle": "background:#e41a1c;",
+                        "boxDescription": "Adams Morgan BID",
+                        "boxStyle": "background:#ff7f00;",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "Golden Triangle BID",
-                        "boxStyle": "background:#377eb8;",
+                        "boxDescription": "Anacostia BID",
+                        "boxStyle": "background:#4daf4a;",
                         "imageUrl": null
                     },
                     "item3": {
-                        "boxDescription": "Anacostia BID",
-                        "boxStyle": "background:#4daf4a;",
+                        "boxDescription": "Capitol Hill BID",
+                        "boxStyle": "background:#e41a1c;",
                         "imageUrl": null
                     },
                     "item4": {
@@ -134,28 +134,28 @@
                         "imageUrl": null
                     },
                     "item5": {
-                        "boxDescription": "Adams Morgan BID",
-                        "boxStyle": "background:#ff7f00;",
+                        "boxDescription": "Downtown BID",
+                        "boxStyle": "background:#edaacc;",
                         "imageUrl": null
                     }
                 },
                 "listItemsRight": {
-                    "item1": {
-                        "boxDescription": "Adams Morgan BID",
-                        "boxStyle": "background:#ffff33;",
-                        "imageUrl": null
-                    },
-                    "item2": {
-                        "boxDescription": "Mount Vernon Triangle BID",
+                    "item6": {                        
+                        "boxDescription": "Georgetown BID",
                         "boxStyle": "background:#a65628;",
                         "imageUrl": null
                     },
-                    "item3": {
-                        "boxDescription": "Georgetown BID",
-                        "boxStyle": "background:#f781bf;",
+                    "item7": {
+                        "boxDescription": "Golden Triangle BID",
+                        "boxStyle": "background:#377eb8;",
                         "imageUrl": null
                     },
-                    "item4": {
+                    "item8": {
+                        "boxDescription": "Mount Vernon Triangle BID",
+                        "boxStyle": "background:#ffff33;",
+                        "imageUrl": null
+                    },
+                    "item9": {
                         "boxDescription": "NoMa BID",
                         "boxStyle": "background:#999999;",
                         "imageUrl": null
@@ -1272,7 +1272,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Neighborhood commercial overlay zones establish pedestrian and mixed use development goals specific to each neighborhood.",
+                "description": "There are more than fifty historic districts in Washington, including the monumental civic complexes of the National Mall and Federal Triangle. Local neighborhoods account for more than thirty districts, and there are more than a dozen military and campus districts. Cemeteries, parks and parkways make up the remainder.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Historic Neighborhoods",
@@ -2030,7 +2030,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more details.<br><br>Hotel incentive and houseing priority overlay zones encourage downtown lodging and residential development.",
+                "description": "Click map polygons for more details.<br><br>Hotel incentive and housing priority overlay zones encourage downtown lodging and residential development.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Hotel & Residential Incentive Areas",
@@ -2893,6 +2893,13 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_wdcep_resi_com_geo"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
@@ -2909,26 +2916,6 @@
                         "type": "remove"
                     }
                 },
-                "infoboxAdd": {
-                    "functionName": "getCircles",
-                    "parameters": {
-                        "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_resi_com_geo.geojson",
-                        "param2": "status",
-                        "param3": "resunits",
-                        "param4": 100,
-                        "param5": 400,
-                        "param6": 1000,
-                        "param7": 3500
-                    },
-                    "service": "infoBoxService"
-                },
-                "infoboxRemove": {
-                    "functionName": "clearBufferRings",
-                    "parameters": {
-                        "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_resi_com_geo.geojson"
-                    },
-                    "service": "infoBoxService"
-                },
                 "piwikTrack": {
                     "parameters": {
                         "param1": "'Data: WDCEP: Residential Completed Projects'"
@@ -2936,6 +2923,13 @@
                 },
                 "removeFunctions": {
                     "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_wdcep_resi_com_geo"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
@@ -2949,11 +2943,24 @@
             "id": 9,
             "isActive": false,
             "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "",
+                        "boxStyle": "width: 224px; height: 155px; display: block; margin-left: 0px; margin-top: 0px;",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/images/ResiComLegend.png"
+                    }
+                },
+                "sourceDescription": "WDCEP",
+                "sourceURL": "http://wdcep.com/",
+                "type": "singleColumn"
+            },
             "menuSection": "Development2",
             "mouseoverName": "Residential Completed Projects (WDCEP)",
             "order": 3,
             "subCategory": "2",
-            "urlLegend": "../../legends/layerResidentialDev.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/ResC.png"
         },
         "Residential Density Heatmap": {
@@ -3053,6 +3060,13 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_wdcep_resi_pipeline_geo"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                     "func2": {
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
@@ -3069,26 +3083,6 @@
                         "type": "remove"
                     }
                 },
-                "infoboxAdd": {
-                    "functionName": "getCircles",
-                    "parameters": {
-                        "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_resi_pipeline_geo.geojson",
-                        "param2": null,
-                        "param3": "resunits",
-                        "param4": 100,
-                        "param5": 400,
-                        "param6": 1000,
-                        "param7": 3500
-                    },
-                    "service": "infoBoxService"
-                },
-                "infoboxRemove": {
-                    "functionName": "clearBufferRings",
-                    "parameters": {
-                        "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_resi_pipeline_geo.geojson"
-                    },
-                    "service": "infoBoxService"
-                },
                 "piwikTrack": {
                     "parameters": {
                         "param1": "'Data: WDCEP: Residential Pipeline Projects'"
@@ -3096,6 +3090,13 @@
                 },
                 "removeFunctions": {
                     "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_wdcep_resi_pipeline_geo"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
@@ -3109,11 +3110,25 @@
             "id": 8,
             "isActive": false,
             "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "",
+                        "boxStyle": "width: 224px; height: 155px; display: block; margin-left: 0px; margin-top: 0px;",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/images/ResiPipeLegend.png"
+                    }
+                },
+                "sourceDescription": "WDCEP",
+                "sourceURL": "http://wdcep.com/",
+                "type": "singleColumn"
+            },
+
             "menuSection": "Development2",
             "mouseoverName": "Residential Pipeline Projects (WDCEP)",
             "order": 2,
             "subCategory": "2",
-            "urlLegend": "../../legends/layerResidentialPip.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/ResP.png"
         },
         "Retail Completed Projects (WDCEP)": {
@@ -3130,6 +3145,13 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_wdcep_retail_com_geo"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
@@ -3146,26 +3168,6 @@
                         "type": "remove"
                     }
                 },
-                "infoboxAdd": {
-                    "functionName": "getCircles",
-                    "parameters": {
-                        "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_retail_com_geo.geojson",
-                        "param2": "status",
-                        "param3": "retailsf",
-                        "param4": 10000,
-                        "param5": 100000,
-                        "param6": 450000,
-                        "param7": null
-                    },
-                    "service": "infoBoxService"
-                },
-                "infoboxRemove": {
-                    "functionName": "clearBufferRings",
-                    "parameters": {
-                        "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_retail_com_geo.geojson"
-                    },
-                    "service": "infoBoxService"
-                },
                 "piwikTrack": {
                     "parameters": {
                         "param1": "'Data: WDCEP: Retail Completed Projects'"
@@ -3173,6 +3175,13 @@
                 },
                 "removeFunctions": {
                     "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_wdcep_retail_com_geo"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
@@ -3186,11 +3195,24 @@
             "id": 7,
             "isActive": false,
             "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "",
+                        "boxStyle": "width: 224px; height: 132px;",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/images/RetComLegend.png"
+                    }
+                },
+                "sourceDescription": "WDCEP",
+                "sourceURL": "http://wdcep.com/",
+                "type": "singleColumn"
+            },
             "menuSection": "Development2",
             "mouseoverName": "Retail Completed Projects (WDCEP)",
             "order": 5,
             "subCategory": "2",
-            "urlLegend": "../../legends/layerRetailDev.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/RetC.png"
         },
         "Retail Density Heatmap": {
@@ -3290,6 +3312,13 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_wdcep_retail_pipeline_geo"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
@@ -3306,26 +3335,6 @@
                         "type": "remove"
                     }
                 },
-                "infoboxAdd": {
-                    "functionName": "getCircles",
-                    "parameters": {
-                        "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_retail_pipeline_geo.geojson",
-                        "param2": null,
-                        "param3": "retailsf",
-                        "param4": 10000,
-                        "param5": 100000,
-                        "param6": 450000,
-                        "param7": null
-                    },
-                    "service": "infoBoxService"
-                },
-                "infoboxRemove": {
-                    "functionName": "clearBufferRings",
-                    "parameters": {
-                        "param1": "https://s3.amazonaws.com/models-dc/WDCEP/wdcep_retail_pipeline_geo.geojson"
-                    },
-                    "service": "infoBoxService"
-                },
                 "piwikTrack": {
                     "parameters": {
                         "param1": "'Data: WDCEP: Retail Pipeline Projects'"
@@ -3333,6 +3342,13 @@
                 },
                 "removeFunctions": {
                     "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "dc_wdcep_retail_pipeline_geo"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
@@ -3345,12 +3361,24 @@
             "hasLegend": true,
             "id": 6,
             "isActive": false,
-            "layerUsed": true,
+            "legendContents": {
+                "description": "",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "",
+                        "boxStyle": "width: 224px; height: 120px; display: block; margin-left: 0px; margin-top: 0px;",
+                        "imageUrl": "https://s3.amazonaws.com/models-dc/images/RetPipeLegend.png"
+                    }
+                },
+                "sourceDescription": "WDCEP",
+                "sourceURL": "http://wdcep.com/",
+                "type": "singleColumn"
+            },
             "menuSection": "Development2",
             "mouseoverName": "Retail Pipeline Projects (WDCEP)",
             "order": 4,
             "subCategory": "2",
-            "urlLegend": "../../legends/layerRetailPip.jade",
+            "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/wdcep/RetP.png"
         },
         "AND & SMD Neighborhood Districts": {
@@ -4254,20 +4282,21 @@
             "functions": {
                 "addFunctions": {
                     "func1": {
-                        "functionName": "addLayer",
+                        "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "zoning"
+                            "param1": "dc_zoning"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     },
                     "func2": {
-                        "functionName": "addSingleTMSLayer",
+                        "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "zoningLayer"
+                            "param1": "dc_ZoningLabelPoints"
                         },
                         "service": "tileMapServiceService"
                     }
+
+
                 },
                 "emits": {
                     "emit1": {
@@ -4284,17 +4313,16 @@
                 },
                 "removeFunctions": {
                     "func1": {
-                        "functionName": "removeLayer",
+                        "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "$scope",
-                            "param2": "zoning"
+                            "param1": "dc_zoning"
                         },
-                        "service": "mapOverlayService"
+                        "service": "tileMapServiceService"
                     },
                     "func2": {
-                        "functionName": "removeSingleTMSLayer",
+                        "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "zoningLayer"
+                            "param1": "dc_ZoningLabelPoints"
                         },
                         "service": "tileMapServiceService"
                     }

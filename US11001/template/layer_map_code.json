@@ -1,6 +1,158 @@
 {
     "$template": "layerMapCode",
     "layerjson": {
+        "dc_wdcep_resi_pipeline_geo": {
+            "name": "dc_wdcep_resi_pipeline_geo",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_wdcep_resi_pipeline_geo",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_wdcep_resi_pipeline_geo@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.0883255004883,
+                    "yMin": 38.8303298950195,
+                    "xMax": -76.912460327184,
+                    "yMax": 38.9852104187012
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "dc_wdcep_resi_com_geo": {
+            "name": "dc_wdcep_resi_com_geo",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_wdcep_resi_com_geo",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_wdcep_resi_com_geo@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.0897064208984,
+                    "yMin": 38.8284301757812,
+                    "xMax": -76.9151382446289,
+                    "yMax": 38.9837455749512
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "dc_wdcep_retail_com_geo": {
+            "name": "dc_wdcep_retail_com_geo",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_wdcep_retail_com_geo",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_wdcep_retail_com_geo@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.0814971923828,
+                    "yMin": 38.857063293457,
+                    "xMax": -76.9471969604492,
+                    "yMax": 38.9757423400879
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "dc_wdcep_retail_pipeline_geo": {
+            "name": "dc_wdcep_retail_pipeline_geo",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_wdcep_retail_pipeline_geo",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_wdcep_retail_pipeline_geo@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.0876159667969,
+                    "yMin": 38.8303756713867,
+                    "xMax": -76.9281387329102,
+                    "yMax": 38.975715637207
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
         "zillow-label": {
             "name": "zillow-label",
             "removeName": "zillowLabel.geojson",
@@ -177,46 +329,74 @@
                 "exists": false
             }
         },
-        "zoning": {
-            "name": "zoning",
-            "removeName": "zoningLabels.geojson",
-            "url": "https://s3.amazonaws.com/models-dc/geoJSON/prod/zoningLabels.geojson",
+        "dc_zoning": {
+            "name": "dc_zoning",
+            "removeName": null,
+            "url": null,
             "cartographic": false,
             "id": {
                 "exists": false
             },
             "labels": {
-                "exists": true,
-                "labelLayers": {
-                    "label1": {
-                        "name": "zoningLabels",
-                        "position": {
-                            "x": "entity._properties.X",
-                            "y": "entity._properties.Y",
-                            "z": 20
-                        },
-                        "text": "entity.properties.ZONING",
-                        "font": "13px sans-serif",
-                        "fillColor": "Cesium.Color.WHITE",
-                        "outlineColor": "Cesium.Color.BLACK",
-                        "outlineWidth": 1,
-                        "style": "Cesium.LabelStyle.FILL",
-                        "pixelOffset": "Cesium.Cartesian2.ZERO",
-                        "eyeOffset": "Cesium.Cartesian3.ZERO",
-                        "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-                        "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
-                        "translucencyByDistance": {
-                            "minElevation": 5000,
-                            "maxElevation": 6000,
-                            "minScale": 1,
-                            "maxScale": 0
-                        },
-                        "scale": 1
-                    }
-                }
+                "exists": false
             },
             "polygons": {
                 "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_zoning",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_zoning@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.16,
+                    "yMin": 38.79,
+                    "xMax": -76.86,
+                    "yMax": 39.00
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "dc_ZoningLabelPoints": {
+            "name": "dc_ZoningLabelPoints",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_ZoningLabelPoints",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_ZoningLabelPoints@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.14,
+                    "yMin": 38.80,
+                    "xMax": -76.89,
+                    "yMax": 38.99
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
             },
             "rasters": {
                 "exists": false
@@ -1552,7 +1732,7 @@
                 "minimumLevel": 1,
                 "maximumLevel": 20,
                 "alpha": 1,
-                "tmsStyle": "GWC"
+                "tmsStyle": "OGC"
             },
             "rasters": {
                 "exists": false
@@ -1590,7 +1770,7 @@
                 "minimumLevel": 1,
                 "maximumLevel": 20,
                 "alpha": 1,
-                "tmsStyle": "GWC"
+                "tmsStyle": "OGC"
             },
             "rasters": {
                 "exists": false
@@ -1628,7 +1808,7 @@
                 "minimumLevel": 1,
                 "maximumLevel": 20,
                 "alpha": 1,
-                "tmsStyle": "GWC"
+                "tmsStyle": "OGC"
             },
             "rasters": {
                 "exists": false
@@ -1666,7 +1846,7 @@
                 "minimumLevel": 1,
                 "maximumLevel": 20,
                 "alpha": 1,
-                "tmsStyle": "GWC"
+                "tmsStyle": "OGC"
             },
             "rasters": {
                 "exists": false
@@ -1704,7 +1884,45 @@
                 "minimumLevel": 1,
                 "maximumLevel": 20,
                 "alpha": 1,
-                "tmsStyle": "GWC"
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "dc_OverlayHotelResIncentive": {
+            "name": "dc_OverlayHotelResIncentive",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "dc_OverlayHotelResIncentive",
+                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/dc_prod:dc_OverlayHotelResIncentive@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -77.10,
+                    "yMin": 38.86,
+                    "xMax": -76.92,
+                    "yMax": 38.98
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
             },
             "rasters": {
                 "exists": false
@@ -2841,7 +3059,7 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 9
+                            "z": 20
                         },
                         "NearFarScalar": {
                             "minElevation": 1000,
@@ -2885,7 +3103,7 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 9
+                            "z": 10
                         },
                         "NearFarScalar": {
                             "minElevation": 1000,
@@ -2929,7 +3147,7 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 9
+                            "z": 20
                         },
                         "NearFarScalar": {
                             "minElevation": 1000,
@@ -2973,7 +3191,7 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 9
+                            "z": 10
                         },
                         "NearFarScalar": {
                             "minElevation": 1000,
@@ -3088,7 +3306,7 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 5
+                            "z": 20
                         },
                         "NearFarScalar": {
                             "minElevation": 1000,
@@ -3132,7 +3350,7 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 5
+                            "z": 20
                         },
                         "NearFarScalar": {
                             "minElevation": 1000,
@@ -3194,7 +3412,7 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 5
+                            "z": 20
                         },
                         "NearFarScalar": {
                             "minElevation": 1000,
@@ -3211,7 +3429,7 @@
                         "position": {
                             "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
                             "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-                            "z": 5
+                            "z": 20
                         },
                         "NearFarScalar": {
                             "minElevation": 1000,
