@@ -115,7 +115,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Property Use Types",
-            "order": 8,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -202,9 +202,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse2",
+            "menuSection": "LandUse1",
             "mouseoverName": "Special Purpose Districts & Sub-Districts",
-            "order": 7,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -258,9 +258,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse2",
+            "menuSection": "LandUse1",
             "mouseoverName": "Lower Density Growth Management Areas",
-            "order": 6,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -321,7 +321,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Zoning Map Amendments",
-            "order": 3,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -380,9 +380,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse2",
+            "menuSection": "LandUse1",
             "mouseoverName": "Inclusionary Housing",
-            "order": 4,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -451,9 +451,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse2",
+            "menuSection": "LandUse1",
             "mouseoverName": "Sidewalk Cafes",
-            "order": 8,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -514,7 +514,7 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "City Owned & Leased Properties",
-            "order": 1,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -615,9 +615,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "doubleColumn"
             },
-            "menuSection": "LandUse2",
+            "menuSection": "LandUse1",
             "mouseoverName": "Commercial Districts Overlay",
-            "order": 2,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -673,7 +673,7 @@
             },
             "menuSection": "CityInfo1",
             "mouseoverName": "Parks",
-            "order": 1,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -729,7 +729,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Business Improvement Districts",
-            "order": 1,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -783,7 +783,7 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse2",
+            "menuSection": "LandUse1",
             "mouseoverName": "Limited Height Zoning Districts",
             "order": 0,
             "subCategory": "3",
@@ -915,7 +915,7 @@
                 "sourceURL": "https://data.cityofnewyork.us/",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse3",
+            "menuSection": "LandUse1",
             "mouseoverName": "Waterfront Revitalization Program",
             "order": 0,
             "subCategory": "3",
@@ -1136,7 +1136,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "TheSandy Inundation Zones show the areas of New York City that were flooded as a result of Hurricane Sandy.<nl> The Worst Case Storm Surge Inundation Zones are calculated from NOAAs NY3 Sea, Lake and Overland Surges from Hurricanes (SLOSH) basin & Maximum of Maximum (MOM) surge height values.",
+                "description": "The Worst Case Storm Surge Inundation Zones are calculated from NOAAs NY3 Sea, Lake and Overland Surges from Hurricanes (SLOSH) basin & Maximum of Maximum (MOM) surge height values.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Sandy Inundation Zones",
@@ -1170,7 +1170,7 @@
             },
             "menuSection": "LandUse6",
             "mouseoverName": "Hurricane Inundation Zones",
-            "order": 1,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -1236,7 +1236,7 @@
             },
             "menuSection": "LandUse6",
             "mouseoverName": "100-Year Floodplain (2020)",
-            "order": 1,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -1297,13 +1297,13 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
-        "Neighborhood Tabulation Areas": {
+        "Neighborhoods": {
             "category": "6",
             "denyList": {
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "Neighborhood Tabulation Areas",
+            "displayName": "Neighborhoods",
             "functions": {
                 "addFunctions": {
                     "func1": {
@@ -1316,7 +1316,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'NY Data: Neighborhood Tabulation Areas'"
+                        "param1": "'NY Data: Neighborhoods'"
                     }
                 },
                 "removeFunctions": {
@@ -1347,7 +1347,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "LandUse3",
-            "mouseoverName": "Neighborhood Tabulation Areas",
+            "mouseoverName": "Neighborhoods",
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
@@ -1460,7 +1460,7 @@
             },
             "menuSection": "LandUse3",
             "mouseoverName": "Waterfront Access Plan",
-            "order": 9,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -1535,7 +1535,7 @@
             },
             "menuSection": "LandUse3",
             "mouseoverName": "Waterfront Areas",
-            "order": 2,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -1643,7 +1643,7 @@
             },
             "menuSection": "",
             "mouseoverName": "Property Use Types",
-            "order": 2,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png"
@@ -1736,7 +1736,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Empowerment Zones",
-            "order": 3,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -1802,7 +1802,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Fresh Food Stores Zoning",
-            "order": 4,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -1858,7 +1858,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "NYCHA Community Engagement & Partnership Zones",
-            "order": 5,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -1912,9 +1912,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse2",
+            "menuSection": "LandUse1",
             "mouseoverName": "Transit Zones",
-            "order": 8,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -1970,7 +1970,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Community Parks Initiative Zones",
-            "order": 2,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -2092,7 +2092,7 @@
             },
             "menuSection": "CityInfo2",
             "mouseoverName": "NJT Commuter Rail System",
-            "order": 2,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -2214,7 +2214,7 @@
             },
             "menuSection": "",
             "mouseoverName": "NYS Commuter Rail System",
-            "order": 2,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -2355,7 +2355,7 @@
             },
             "menuSection": "CityInfo2",
             "mouseoverName": "NYC Subway System",
-            "order": 3,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -2449,7 +2449,7 @@
             },
             "menuSection": "CityInfo2",
             "mouseoverName": "Bike Parking",
-            "order": 3,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -2525,7 +2525,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Zoning Districts",
-            "order": 1,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -2617,7 +2617,7 @@
             "title": "Natural Hazards"
         },
         "Pivitol1": {
-            "order": 4,
+            "order": 0,
             "parentTab": "Pivitol",
             "permissions": "Pivitol",
             "redact": false,
