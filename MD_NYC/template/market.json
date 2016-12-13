@@ -11,7 +11,6 @@
       "detailPane": "details-scroll-nyc",
       "model3dTiles": true,
       "model3dTileSrc": "https://s3.amazonaws.com/create-common/3dtiles/nyc/d_tileset.json",
-      "model3dTileCzm": "https://s3.amazonaws.com/create-common/3dtiles/nyc/d.czml",
       "camera": [
         {
           "name": "Brooklyn Bridge",
