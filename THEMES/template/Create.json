@@ -8,6 +8,7 @@
     "url": "http://www.create.io",
     "favicon": "/favicon-96x96.png",
     "logo": "",
-    "sponsor_logo": ""
-  }
+    "sponsor_logo": "",
+    "layerLimit": null
+  }  
 }

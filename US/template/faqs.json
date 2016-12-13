@@ -1,0 +1,40 @@
+{
+    "faqs": [
+        {
+            "common_order": 0,
+            "common_toggle": false,
+            "common_question": "How do I start using Create?",
+            "common_answer": "You can <ul><li>Type in an address of a property you'd like to see more information about.</li><li>Click on any building on the map to open a detail pane showing you the property's owner, permits, zoning and other critical information.</li><li>Click on the<i class='icon-user-tour'></i>icon in the bottom right corner to take a tour of Create’s features.</li></ul>"
+        },
+        {
+            "common_order": 1,
+            "common_toggle": false,
+            "common_question": "What are Filters and Layers?",
+            "common_answer": "<ul><li>Filters allow you to search for specific criteria (parcel size, use -commercial, residential, mixed use, home value growth percentages, retail space availability, HUB zones to name a few). You’ll get a list of properties that match your criteria.</li><li>Layers allow you to see an overlay of results on the visible map. Criteria include historic districts, zoning, projected housing units growth, public schools and BIDs.</li></ul>"
+        },
+        {
+            "common_order": 2,
+            "common_toggle": false,
+            "common_question": "What's the difference between using Create’s free version and a Premium subscription?",
+            "common_answer": "<ul><li>The free version of Create allows you to see property data, but only allows 2 filters to be applied at once. Certain information (community demographic data, detailed tenant data, and CMBS data) is blocked. Results cannot be exported into PDF or Excel reports.</li><li>Premium subscriptions allow up to 10 report exports monthly and an unlimited number of filters to be applied simultaneously. Premium users can see demographic visualizations (income, gender, Power up your search and get to the properties you’re interested in faster by upgrading. You can test it by using<a data-toggle='modal' data-target='#freemiumModal' ng-click='selectFreeUpgrade()'>Premium Trial for 14 days for free!</a></li><li>See<a data-toggle='modal' data-target='#freemiumModal' ng-click='selectFreeUpgrade()'>our chart here</a>to compare Free and Premium</li></ul>"
+        },
+        {
+            "common_order": 3,
+            "common_toggle": false,
+            "common_question": "My filter/layers returned 'no results.'",
+            "common_answer": "Your filters and layers are applied to the portion of the map currently visible in the app. Try using the '-' sign in the compass in the lower left corner to zoom out and try applying the filter/layer again."
+        },
+        {
+            "common_order": 4,
+            "common_toggle": false,
+            "common_question": "Where do you get your data from to draw the buildings in Create's map?",
+            "common_answer": "Create takes data from Cesium to draw the maps and buildings you see in our application."
+        },
+        {
+            "common_order": 5,
+            "common_toggle": false,
+            "common_question": "Can you print out full page maps?",
+            "common_answer": "If you’d like to print out a block of buildings along with a detail pane, take a screenshot with your computer and print, or add to a presentation."
+        }
+    ]
+}

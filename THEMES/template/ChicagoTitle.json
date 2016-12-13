@@ -6,8 +6,22 @@
     "class_name": "ctic",
     "group_display_name": "",
     "url": "http://dcncs.ctic.com/",
-    "favicon": "",
+    "favicon": "/favicon-96x96.png",
     "logo": "",
-    "sponsor_logo": "https://s3.amazonaws.com/create-common/logo/logo-ct_ncs_c.png"
-  }
+    "sponsor_logo": "https://s3.amazonaws.com/create-common/logo/logo-ct_ncs_c.png",
+    "layerLimit": null,
+    "sponsored_content":{
+      "content": "",
+      "client_image": "https://s3.amazonaws.com/create-common/images/chicago-title/charlotte-portrait.png",
+      "longitude": "-77.045",
+      "latitude":"38.905",
+      "external_id":"129235",
+      "address": "2000 M Street, NW, Suite 610 Washington, DC 20036",
+      "email_address": "charlotte.troup@ctt.com",
+      "phone_number":"202-263-4755",
+      "intro_optional_image": "https://s3.amazonaws.com/create-common/images/chicago-title/ctic-group.png",
+      "intro_text": "Your Create Premium 90-day subscription is sponsored by:",
+      "intro_button_text": "Learn more"
+    }
+  }  
 }

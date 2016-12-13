@@ -1,189 +1,161 @@
 {
-  "$template": "layerMenu",
-  "allTheLayers": {
-    "Property Types": {
-      "category": "1",
-      "colors": {
-        "hex": {},
-        "type": "?"
-      },
-      "denyList": {
-        "denyList1": null
-      },
-      "denyToggle": false,
-      "displayName": "Property Types",
-      "functions": {
-        "addFunctions": {
-          "func1": {
-            "functionName": "toggleParcelFills",
-            "parameters": {
-              "param1": "add"
+    "$template": "layerMenu",
+    "allTheLayers": {
+        "Property Types": {
+            "category": "1",
+            "colors": {
+                "hex": {},
+                "type": "?"
             },
-            "service": "gltf3DService"
-          }
-        },
-        "piwikTrack": {
-          "parameters": {
-            "param1": "'Data: Parcel Use Layer'"
-          }
-        },
-        "removeFunctions": {
-          "func1": {
-            "functionName": "toggleParcelFills",
-            "parameters": {
-              "param1": "remove"
+            "denyList": {
+                "denyList1": null
             },
-            "service": "gltf3DService"
-          }
+            "denyToggle": false,
+            "displayName": "Property Types",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "parcelFills"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Data: Parcel Use Layer'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "RemoveDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "parcelFills"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 48,
+            "isActive": false,
+            "layerUsed": true,
+            "menuSection": "LandUse1",
+            "mouseoverName": "Property Types",
+            "order": 1,
+            "subCategory": "1",
+            "urlLegend": "../../legends/layerPropertyType.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png"
         }
-      },
-      "hasLegend": true,
-      "id": 48,
-      "isActive": false,
-      "layerUsed": true,
-      "menuSection": "LandUse1",
-      "mouseoverName": "Property Types",
-      "order": 1,
-      "subCategory": "1",
-      "urlLegend": "../../legends/layerPropertyType.jade",
-      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png"
+    },
+    "allTheSections": {
+        "CityInfo1": {
+            "order": 0,
+            "parentTab": "CityInfo",
+            "permissions": null,
+            "redact": false,
+            "title": "Geography"
+        },
+        "CityInfo2": {
+            "order": 0,
+            "parentTab": "CityInfo",
+            "permissions": null,
+            "redact": false,
+            "title": "Amenities"
+        },
+        "Development1": {
+            "order": 0,
+            "parentTab": "Development",
+            "permissions": null,
+            "redact": false,
+            "title": "Leasing"
+        },
+        "Development2": {
+            "order": 0,
+            "parentTab": "Development",
+            "permissions": null,
+            "redact": false,
+            "title": "Development"
+        },
+        "Development3": {
+            "order": 0,
+            "parentTab": "Development",
+            "permissions": null,
+            "redact": false,
+            "title": "Demographics"
+        },
+        "Incentives1": {
+            "order": 0,
+            "parentTab": "Incentives",
+            "permissions": null,
+            "redact": false,
+            "title": "Incentives"
+        },
+        "LandUse1": {
+            "order": 0,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Land Use & Entitlement"
+        },
+        "LandUse2": {
+            "order": -1,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Overlay Zones"
+        },
+        "LandUse3": {
+            "order": 2,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Historic Districts"
+        },
+        "LandUse4": {
+            "order": 0,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Heatmaps"
+        },
+        "LandUse5": {
+            "order": 0,
+            "parentTab": "LandUse",
+            "permissions": null,
+            "redact": false,
+            "title": "Natural Hazards"
+        }
+    },
+    "allTheTabs": {
+        "CityInfo": {
+            "isActive": false,
+            "order": 2,
+            "permissions": null,
+            "redact": false,
+            "title": "City Info"
+        },
+        "Development": {
+            "isActive": false,
+            "order": 1,
+            "permissions": null,
+            "redact": false,
+            "title": "Development"
+        },
+        "Incentives": {
+            "isActive": false,
+            "order": 3,
+            "permissions": null,
+            "redact": false,
+            "title": "Incentives"
+        },
+        "LandUse": {
+            "isActive": true,
+            "order": 0,
+            "permissions": null,
+            "redact": false,
+            "title": "Land Use"
+        }
     }
-  },
-  "allTheSections": {
-    "CityInfo1": {
-      "order": 0,
-      "parentTab": "CityInfo",
-      "permissions": null,
-      "redact": false,
-      "title": "Geography"
-    },
-    "CityInfo2": {
-      "order": 0,
-      "parentTab": "CityInfo",
-      "permissions": null,
-      "redact": false,
-      "title": "Amenities"
-    },
-    "Development1": {
-      "order": 0,
-      "parentTab": "Development",
-      "permissions": null,
-      "redact": false,
-      "title": "Leasing"
-    },
-    "Development2": {
-      "order": 0,
-      "parentTab": "Development",
-      "permissions": null,
-      "redact": false,
-      "title": "Development"
-    },
-    "Development3": {
-      "order": 0,
-      "parentTab": "Development",
-      "permissions": null,
-      "redact": false,
-      "title": "Demographics"
-    },
-    "Incentives1": {
-      "order": 0,
-      "parentTab": "Incentives",
-      "permissions": null,
-      "redact": false,
-      "title": "Incentives"
-    },
-    "LandUse1": {
-      "order": 0,
-      "parentTab": "LandUse",
-      "permissions": null,
-      "redact": false,
-      "title": "Land Use & Entitlement"
-    },
-    "LandUse2": {
-      "order": -1,
-      "parentTab": "LandUse",
-      "permissions": null,
-      "redact": false,
-      "title": "Overlay Zones"
-    },
-    "LandUse3": {
-      "order": 2,
-      "parentTab": "LandUse",
-      "permissions": null,
-      "redact": false,
-      "title": "Historic Districts"
-    },
-    "LandUse4": {
-      "order": 0,
-      "parentTab": "LandUse",
-      "permissions": null,
-      "redact": false,
-      "title": "Heatmaps"
-    },
-    "LandUse5": {
-      "order": 0,
-      "parentTab": "LandUse",
-      "permissions": null,
-      "redact": false,
-      "title": "Natural Hazards"
-    },
-    "WDCEP1": {
-      "order": 0,
-      "parentTab": "WDCEP",
-      "permissions": "layer.section.WDCEP",
-      "redact": false,
-      "title": "WDCEP"
-    }
-  },
-  "allTheTabs": {
-    "CityInfo": {
-      "isActive": false,
-      "order": 2,
-      "permissions": null,
-      "redact": false,
-      "title": "City Info"
-    },
-    "Development": {
-      "isActive": false,
-      "order": 1,
-      "permissions": null,
-      "redact": false,
-      "title": "Development"
-    },
-    "InPatient": {
-      "isActive": false,
-      "order": 5,
-      "permissions": "group.tab.Array",
-      "redact": false,
-      "title": "In Patient"
-    },
-    "Incentives": {
-      "isActive": false,
-      "order": 3,
-      "permissions": null,
-      "redact": false,
-      "title": "Incentives"
-    },
-    "LandUse": {
-      "isActive": true,
-      "order": 0,
-      "permissions": null,
-      "redact": false,
-      "title": "Land Use"
-    },
-    "ParkHeights": {
-      "isActive": false,
-      "order": 6,
-      "permissions": null,
-      "redact": false,
-      "title": "Park Heights"
-    },
-    "WDCEP": {
-      "isActive": false,
-      "order": 4,
-      "permissions": "layer.tab.WDCEP",
-      "redact": false,
-      "title": "WDCEP"
-    }
-  }
 }

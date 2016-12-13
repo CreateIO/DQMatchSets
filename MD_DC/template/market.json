@@ -6,24 +6,16 @@
       "name": "District of Columbia",
       "regionTag": "US11001",
       "filterTemplate": "filters",
-      "layerMenuTemplate": "layer_menu",
-      "layerMapCodeTemplate": "layer_map_code",
-      "infoboxTemplate": "infobox",
+      "layerMenuTemplate":"layer_menu",
+      "layerMapCodeTemplate":"layer_map_code",
+      "infoboxTemplate":"infobox_050416",
+      "hasPdf": "true",
       "camera": [
         {
           "name": "Dupont Circle",
           "cameraPosition": {
-            "type": "LineString",
-            "coordinates": [
-              [
-                -77.04346,
-                38.909624
-              ],
-              [
-                -77.04346,
-                38.908131
-              ]
-            ],
+            "type":"LineString",
+            "coordinates":[[-77.04346,38.909624],[-77.04346,38.908131]],
             "height": null
           }
         }

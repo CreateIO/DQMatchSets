@@ -20,13 +20,6 @@
           "deny": ""
         },
         {
-          "id": "navMedicals",
-          "name": "Facility Data",
-          "url": "med-info.html",
-          "hasCharts": true,
-          "deny": ""
-        },
-        {
           "id": "navListings",
           "name": "Listings",
           "url": "tenant.html",
@@ -148,14 +141,14 @@
           "name": "CMBS Loans",
           "url": "financing.html",
           "hasCharts": false,
-          "deny": ""
+          "deny": "Limited Project Premium Monthly DC_Public_Access Freemium beta_premium beta_freemium"
         },
         {
           "id": "navProforma",
           "name": "CMBS Proforma",
           "url": "financing.html",
           "hasCharts": false,
-          "deny": ""
+          "deny": "Limited Project Premium Monthly DC_Public_Access Freemium beta_premium beta_freemium"
         },
         {
           "id": "navEquity",
