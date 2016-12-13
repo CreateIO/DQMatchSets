@@ -344,7 +344,7 @@
             {
               "size": "half",
               "layer": [
-                "Property Types"
+                "Property Use Types"
               ],
               "value": {
                 "values": [
@@ -2198,13 +2198,10 @@
           "type": "subsection",
           "children": [
             {
-              "size": "half",
+              "size": "quarter",
               "layer": [
-                "Property Use Types"
+                "Property Types"
               ],
-              "type": "keyvalue",
-              "link": {},
-              "key": "Current Use",
               "value": {
                 "values": [
                   {
@@ -2232,10 +2229,14 @@
                 ],
                 "template": "{0} - {1}",
                 "kind": "multi"
-              }
+              },
+              "medium": "all",
+              "type": "keyvalue",
+              "link": {},
+              "key": "Current Use"
             },
             {
-              "size": "half",
+              "size": "quarter",
               "value": {
                 "values": [
                   {
@@ -2250,12 +2251,13 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "Conforming Use"
             },
             {
-              "size": "half",
+              "size": "quarter",
               "layer": [
                 "Zoning"
               ],
@@ -2268,12 +2270,13 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "Zoning District"
             },
             {
-              "size": "half",
+              "size": "quarter",
               "value": {
                 "values": [
                   {
@@ -2289,12 +2292,13 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "Comprehensive Plan"
             },
             {
-              "size": "half",
+              "size": "quarter",
               "value": {
                 "values": [
                   {
@@ -2304,12 +2308,13 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "Downtown Comprehensive Plan"
             },
             {
-              "size": "half",
+              "size": "quarter",
               "layer": [
                 "TDR"
               ],
@@ -2322,12 +2327,13 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "Transfer of Development Rights"
             },
             {
-              "size": "half",
+              "size": "quarter",
               "value": {
                 "values": [
                   {
@@ -2337,12 +2343,13 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "District Revitalization Area"
             },
             {
-              "size": "half",
+              "size": "quarter",
               "layer": [
                 "PUD"
               ],
@@ -2355,12 +2362,13 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "Planned Unit Developments (PUD)"
             },
             {
-              "size": "half",
+              "size": "quarter",
               "value": {
                 "values": [
                   {
@@ -2370,12 +2378,13 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "PUD Zoning"
             },
             {
-              "size": "half",
+              "size": "quarter",
               "value": {
                 "values": [
                   {
@@ -2385,12 +2394,13 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "PUD Status"
             },
             {
-              "size": "half",
+              "size": "quarter",
               "value": {
                 "values": [
                   {
@@ -2400,12 +2410,13 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "PUD Case Number/Data"
             },
             {
-              "size": "half",
+              "size": "quarter",
               "value": {
                 "values": [
                   {
@@ -2415,6 +2426,7 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "Great Streets Corridor"
@@ -2427,7 +2439,7 @@
           "type": "subsection",
           "children": [
             {
-              "size": "half",
+              "size": "quarter",
               "layer": [
                 "BIDs"
               ],
@@ -2440,12 +2452,13 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "Business Improvement District"
             },
             {
-              "size": "half",
+              "size": "quarter",
               "layer": [
                 "CEA"
               ],
@@ -2463,12 +2476,13 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "Central Employment Area (Federal)"
             },
             {
-              "size": "half",
+              "size": "quarter",
               "layer": [
                 "WIC"
               ],
@@ -2481,12 +2495,13 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "DC Workforce Investment Council (WIC)"
             },
             {
-              "size": "half",
+              "size": "quarter",
               "value": {
                 "values": [
                   {
@@ -2501,12 +2516,13 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "Tax Increment Financing Zone"
             },
             {
-              "size": "half",
+              "size": "quarter",
               "layer": [
                 "Great Streets"
               ],
@@ -2527,12 +2543,13 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "Great Streets"
             },
             {
-              "size": "half",
+              "size": "quarter",
               "layer": [
                 "HUBs"
               ],
@@ -2550,12 +2567,13 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "HUB Zone"
             },
             {
-              "size": "half",
+              "size": "quarter",
               "layer": [
                 "IRB"
               ],
@@ -2568,12 +2586,13 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "IRB-Tax Exempt Bond Financing"
             },
             {
-              "size": "auto",
+              "size": "quarter",
               "layer": [
                 "taxAbatement"
               ],
@@ -2586,12 +2605,13 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "Nonprofit Tax Abatement"
             },
             {
-              "size": "half",
+              "size": "quarter",
               "layer": [
                 "HTDZ"
               ],
@@ -2609,12 +2629,13 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "High Technology Development"
             },
             {
-              "size": "half",
+              "size": "quarter",
               "layer": [
                 "SMTCZ"
               ],
@@ -2632,12 +2653,13 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "Supermarket Tax Credit Zone"
             },
             {
-              "size": "half",
+              "size": "quarter",
               "value": {
                 "values": [
                   {
@@ -2652,6 +2674,7 @@
                 ],
                 "kind": "dynamic"
               },
+              "medium": "all",
               "type": "keyvalue",
               "link": {},
               "key": "H Street NE Retail Priority Area"
@@ -2928,12 +2951,47 @@
                   "type": "tab",
                   "children": [
                     {
-                      "columns": [
-                        "Census Tract: xxxx",
-                        "Tract",
-                        "Washington, DC"
-                      ],
+                      "columns": [],
                       "rows": [
+                        [
+                          {
+                            "source": {
+                              "kind": "multi",
+                              "template": "Census Tract: {0}",
+                              "values": [
+                                {
+                                  "source": "#/property/censusTract",
+                                  "filters": [
+                                    {
+                                      "name": "census",
+                                      "args": [
+                                        "tract"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "width": 1,
+                            "header": true
+                          },
+                          {
+                            "source": {
+                              "kind": "static",
+                              "value": "Tract"
+                            },
+                            "width": 1,
+                            "header": true
+                          },
+                          {
+                            "source": {
+                              "kind": "static",
+                              "value": "Washington, DC"
+                            },
+                            "width": 1,
+                            "header": true
+                          }
+                        ],
                         [
                           {
                             "source": {
