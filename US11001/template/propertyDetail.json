@@ -2951,12 +2951,47 @@
                   "type": "tab",
                   "children": [
                     {
-                      "columns": [
-                        "Census Tract: xxxx",
-                        "Tract",
-                        "Washington, DC"
-                      ],
+                      "columns": [],
                       "rows": [
+                        [
+                          {
+                            "source": {
+                              "kind": "multi",
+                              "template": "Census Tract: {0}",
+                              "values": [
+                                {
+                                  "source": "#/property/censusTract",
+                                  "filters": [
+                                    {
+                                      "name": "census",
+                                      "args": [
+                                        "tract"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "width": 1,
+                            "header": true
+                          },
+                          {
+                            "source": {
+                              "kind": "static",
+                              "value": "Tract"
+                            },
+                            "width": 1,
+                            "header": true
+                          },
+                          {
+                            "source": {
+                              "kind": "static",
+                              "value": "Washington, DC"
+                            },
+                            "width": 1,
+                            "header": true
+                          }
+                        ],
                         [
                           {
                             "source": {
