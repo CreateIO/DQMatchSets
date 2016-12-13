@@ -1297,6 +1297,62 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
         },
+       "Historic Districts": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Historic Landmarks",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_Hist_Districts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Historic Districts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_Hist_Districts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "NYC Designated Historic Districts",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Historic Districts",
+                        "boxStyle": "background:#b399b5; border-radius: 15px;border: 1px solid #a27b9e",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse4",
+            "mouseoverName": "Historic Landmarks",
+            "order": 0,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+        },
         "Neighborhoods": {
             "category": "6",
             "denyList": {
