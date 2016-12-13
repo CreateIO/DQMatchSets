@@ -118,7 +118,7 @@
             "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LU.png"
         },
         "Special Purpose Districts": {
             "category": "6",
@@ -207,7 +207,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/SPD.png"
         },
         "Lower Density Growth Management Areas": {
             "category": "6",
@@ -263,7 +263,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LowDen.png"
         },
         "Zoning Map Amendments": {
             "category": "6",
@@ -324,7 +324,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
         },
         "Inclusionary Housing": {
             "category": "6",
@@ -385,7 +385,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/IncHou.png"
         },
         "Sidewalk Cafes": {
             "category": "6",
@@ -456,7 +456,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/SW.png"
         },
         "City Owned & Leased Properties": {
             "category": "6",
@@ -517,7 +517,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/OnLP.png"
         },
         "Commercial Districts Overlay": {
             "category": "6",
@@ -620,7 +620,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/CDO.png"
         },
         "Parks": {
             "category": "6",
@@ -788,7 +788,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LHD.png"
         },
         "Waterfront Revitalization Program": {
             "category": "6",
@@ -920,7 +920,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/WRP.png"
         },
         "Coastal Zone Boundary": {
             "category": "6",
@@ -976,7 +976,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/CZB.png"
         },
         "Hurricane Evacuation Zones": {
             "category": "6",
@@ -1083,7 +1083,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HEZ.png"
         },
         "Hurricane Inundation Zones": {
             "category": "6",
@@ -1173,7 +1173,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HIZ.png"
         },
         "100-Year Floodplain (2020)": {
             "category": "6",
@@ -1239,7 +1239,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/100yrFP.png"
         },
        "Historic Landmarks": {
             "category": "6",
@@ -1295,7 +1295,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HLM.png"
         },
        "Historic Districts": {
             "category": "6",
@@ -1351,7 +1351,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HD.png"
         },
         "Neighborhoods": {
             "category": "6",
@@ -1407,7 +1407,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/NTA.png"
         },
         "Public Use Microdata Areas": {
             "category": "6",
@@ -1463,7 +1463,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/PUMAs.png"
         },
         "Waterfront Access Plan": {
             "category": "6",
@@ -1519,7 +1519,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/WAP.png"
         },
         "Waterfront Areas": {
             "category": "6",
@@ -1594,7 +1594,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/WP.png"
         },
         "Property Use Types (GS)": {
             "category": "6",
@@ -1702,7 +1702,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LU.png"
         },
         "Empowerment Zones": {
             "category": "6",
@@ -1973,7 +1973,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/TranZone.png"
         },
         "Community Parks Initiative Zones": {
             "category": "6",
@@ -2414,7 +2414,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/A2"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/A2.png"
         },
         "Bike Parking": {
             "category": "6",
@@ -2508,7 +2508,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/A3"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/A3.png"
         },
         "Zoning Districts": {
             "category": "6",
@@ -2584,7 +2584,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/Z.png"
         }
     },
     "allTheSections": {
