@@ -321,7 +321,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Zoning Map Amendments",
-            "order": 12,
+            "order": 012,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
@@ -1458,9 +1458,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse3",
+            "menuSection": "CityInfo1",
             "mouseoverName": "Public Use Microdata Areas",
-            "order": 0,
+            "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/PUMAs.png"
@@ -1859,6 +1859,72 @@
             "menuSection": "LandUse1",
             "mouseoverName": "Fresh Food Stores Zoning",
             "order": 2,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/FOOD.png"
+        },
+        "Fresh Food Stores Zoning": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Fresh Food Stores Zoning",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_FreshFoodStoresZoning"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Fresh Food Stores Zoning'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_FreshFoodStoresZoning"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "A FRESH food store is a full-line grocery store, established in underserved neighborhoods through zoning incentives, that promotes the sale of fresh food products.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Discretionary Tax Incentives",
+                        "boxStyle": "background:#fbc709",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Zoning & Disretionary Tax Incentives",
+                        "boxStyle": "background:#fb9709",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Zoning Incentives",
+                        "boxStyle": "background:#fb5a09",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "Incentives1",
+            "mouseoverName": "Fresh Food Stores Zoning",
+            "order": 4,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/FOOD.png"
@@ -2581,7 +2647,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Zoning Districts",
-            "order": 11,
+            "order": 011,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/Z.png"
@@ -2589,18 +2655,25 @@
     },
     "allTheSections": {
         "CityInfo1": {
-            "order": 0,
+            "order": 2,
             "parentTab": "CityInfo",
             "permissions": null,
             "redact": false,
             "title": "Geography"
         },
         "CityInfo2": {
-            "order": 0,
+            "order": 1,
             "parentTab": "CityInfo",
             "permissions": null,
             "redact": false,
             "title": "Amenities"
+        },
+        "CityInfo3": {
+            "order": 3,
+            "parentTab": "CityInfo",
+            "permissions": null,
+            "redact": false,
+            "title": "Neighborhoods"
         },
         "Development1": {
             "order": 0,
