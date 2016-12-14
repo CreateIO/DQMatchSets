@@ -1170,7 +1170,7 @@
             },
             "menuSection": "LandUse6",
             "mouseoverName": "Hurricane Inundation Zones",
-            "order": 0,
+            "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HIZ.png"
@@ -1236,7 +1236,7 @@
             },
             "menuSection": "LandUse6",
             "mouseoverName": "100-Year Floodplain (2020)",
-            "order": 0,
+            "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/100yrFP.png"
