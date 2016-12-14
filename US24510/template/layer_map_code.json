@@ -293,6 +293,108 @@
         "exists": false
       }
     },
+    "Residential_Heat": {
+            "name": "Residential_Heat",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "Residential_Heat",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/Residential_Heat.png",
+                        "xMin": -76.72,
+                        "yMin": 39.22,
+                        "xMax": -76.52,
+                        "yMax": 39.38,
+                        "alpha": 1,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "MixedUseIndustrial_Heat": {
+            "name": "MixedUseIndustrial_Heat",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "MixedUseIndustrial_Heat",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/MixedUseIndustrial_Heat.png",
+                        "xMin": -76.72,
+                        "yMin": 39.22,
+                        "xMax": -76.52,
+                        "yMax": 39.38,
+                        "alpha": 1,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "BusinessRetail_Heat": {
+            "name": "BusinessRetail_Heat",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "BusinessRetail_Heat",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/BusinessRetail_Heat.png",
+                        "xMin": -76.72,
+                        "yMin": 39.22,
+                        "xMax": -76.52,
+                        "yMax": 39.38,
+                        "alpha": 1,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
     "parkHeights": {
       "name": "parkHeights",
       "removeName": "parkHeights.geojson",
@@ -396,7 +498,7 @@
         "minimumLevel": 1,
         "maximumLevel": 20,
         "alpha": 0.75,
-        "tmsStyle": "OGC"
+        "tmsStyle": "GWC"
       },
       "rasters": {
         "exists": false
@@ -471,8 +573,8 @@
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
-        "tmsStyle": "OGC"
+        "alpha": 1,
+        "tmsStyle": "GWC"
       },
       "rasters": {
         "exists": false
@@ -500,55 +602,17 @@
         "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_ForeignTradeZone@EPSG:900913@png",
         "extension": "png",
         "coords": {
-          "xMin": -76.659,
-          "yMin": 39.236,
-          "xMax": -76.473,
-          "yMax": 39.321
+          "xMin": -76.60147948067379,
+          "yMin": 39.238086169653954,
+          "xMax": -76.52979899827905,
+          "yMax": 39.31943009663018
         },
         "tileWidth": 256,
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
-        "tmsStyle": "OGC"
-      },
-      "rasters": {
-        "exists": false
-      },
-      "billboards": {
-        "exists": false
-      }
-    },
-    "baci_City_of_Baltimore": {
-      "name": "baci_City_of_Baltimore",
-      "removeName": null,
-      "url": null,
-      "cartographic": false,
-      "id": {
-        "exists": false
-      },
-      "labels": {
-        "exists": false
-      },
-      "polygons": {
-        "exists": false
-      },
-      "tms": {
-        "tmsLayerName": "baci_City_of_Baltimore",
-        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_City_of_Baltimore@EPSG:900913@png",
-        "extension": "png",
-        "coords": {
-          "xMin": -76.82,
-          "yMin": 39.19,
-          "xMax": -76.42,
-          "yMax": 39.38
-        },
-        "tileWidth": 256,
-        "tileHeight": 256,
-        "minimumLevel": 1,
-        "maximumLevel": 20,
-        "alpha": 0.75,
-        "tmsStyle": "OGC"
+        "alpha": 1,
+        "tmsStyle": "GWC"
       },
       "rasters": {
         "exists": false
@@ -573,19 +637,19 @@
       },
       "tms": {
         "tmsLayerName": "baci_LegislativeDistricts",
-        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_LegislativeDistricts@EPSG:900913@png",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_LegislativeDistricts@EPSG:900913@png",
         "extension": "png",
         "coords": {
-          "xMin": -76.77,
-          "yMin": 39.19,
-          "xMax": -76.47,
-          "yMax": 39.38
+          "xMin": -76.7115212224123,
+          "yMin": 39.1972148638792,
+          "xMax": -76.5294551646828,
+          "yMax": 39.3722138990865
         },
         "tileWidth": 256,
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
+        "alpha": 1,
         "tmsStyle": "OGC"
       },
       "rasters": {
@@ -633,8 +697,8 @@
         "exists": false
       }
     },
-    "baci_CouncilDistricts2011": {
-      "name": " baci_CouncilDistricts2011",
+    "baci_CouncilDistricts": {
+      "name": "baci_CouncilDistricts",
       "removeName": null,
       "url": null,
       "cartographic": false,
@@ -648,20 +712,96 @@
         "exists": false
       },
       "tms": {
-        "tmsLayerName": "baci_CouncilDistricts2011",
-        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_CouncilDistricts2011@EPSG:900913@png",
+        "tmsLayerName": "baci_CouncilDistricts",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_CouncilDistricts@EPSG:900913@png",
         "extension": "png",
         "coords": {
-          "xMin": -76.77,
-          "yMin": 39.19,
-          "xMax": -76.47,
-          "yMax": 39.38
+          "xMin": -76.7114053203405,
+          "yMin": 39.1972334506251,
+          "xMax": -76.5296742351015,
+          "yMax": 39.3719999156841
         },
         "tileWidth": 256,
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "baci_CongressionalDistricts": {
+      "name": "baci_CongressionalDistricts",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_CongressionalDistricts",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_CongressionalDistricts@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.7114000000036,
+          "yMin": 39.1972782719998,
+          "xMax": -76.5296963339838,
+          "yMax": 39.3720370738593
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "baci_CollegesAndUniversities": {
+      "name": "baci_CollegesAndUniversities",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_CollegesAndUniversities",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_CollegesAndUniversities@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.6640396118164,
+          "yMin": 39.2839851379395,
+          "xMax": -76.5859222412109,
+          "yMax": 39.3543701171875
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
         "tmsStyle": "OGC"
       },
       "rasters": {
@@ -725,19 +865,19 @@
       },
       "tms": {
         "tmsLayerName": "baci_Wards",
-        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_Wards@EPSG:900913@png",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_Wards@EPSG:900913@png",
         "extension": "png",
         "coords": {
-          "xMin": -76.72,
-          "yMin": 39.19,
-          "xMax": -76.52,
-          "yMax": 39.38
+          "xMin": -76.71140532036993,
+          "yMin": 39.19723345054751,
+          "xMax": -76.52967423486248,
+          "yMax": 39.371999915708365
         },
         "tileWidth": 256,
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
+        "alpha": 1,
         "tmsStyle": "OGC"
       },
       "rasters": {
@@ -775,8 +915,8 @@
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
-        "tmsStyle": "OGC"
+        "alpha": 1,
+        "tmsStyle": "GWC"
       },
       "rasters": {
         "exists": false
@@ -813,8 +953,8 @@
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
-        "tmsStyle": "OGC"
+        "alpha": 1,
+        "tmsStyle": "GWC"
       },
       "rasters": {
         "exists": false
@@ -851,7 +991,7 @@
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
+        "alpha": 1,
         "tmsStyle": "OGC"
       },
       "rasters": {
@@ -861,40 +1001,44 @@
         "exists": false
       }
     },
-    "BaltimoreHurricaneInnundationZones": {
-      "name": "BaltimoreHurricaneInnundationZones",
-      "removeName": null,
-      "url": null,
-      "cartographic": false,
-      "id": {
-        "exists": false
-      },
-      "labels": {
-        "exists": false
-      },
-      "polygons": {
-        "exists": false
-      },
-      "rasters": {
-        "exists": true,
-        "rasterLayers": {
-          "raster1": {
-            "name": "balt-hurricane-inundation",
-            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/balt-hurricane-inundation.png",
-            "xMin": -76.6564289,
-            "yMin": 39.1989232,
-            "xMax": -76.5293942,
-            "yMax": 39.297007,
-            "alpha": 0.75,
-            "show": true,
-            "hasDropdown": false
-          }
-        }
-      },
-      "billboards": {
-        "exists": false
-      }
-    },
+    "baci_HurricaneInundationZones": {
+            "name": "baci_HurricaneInundationZones",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "baci_HurricaneInundationZones",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_HurricaneInundationZones@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -76.6544494628906,
+                    "yMin": 39.1990432739258,
+                    "xMax": -76.529182434082,
+                    "yMax": 39.2970008850098
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
     "baci_EnterpriseZones": {
       "name": "baci_EnterpriseZones",
       "removeName": null,
@@ -923,8 +1067,8 @@
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
-        "tmsStyle": "OGC"
+        "alpha": 1,
+        "tmsStyle": "GWC"
       },
       "rasters": {
         "exists": false
@@ -1183,44 +1327,36 @@
         "exists": false
       }
     },
-    "PUD1": {
-      "name": "PUD1",
-      "removeName": "balt_PUD_full.geojson",
-      "url": "https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/balt_PUD_full.geojson",
+    "baci_PUD": {
+      "name": "baci_PUD",
+      "removeName": null,
+      "url": null,
       "cartographic": false,
       "id": {
-        "exists": true,
-        "poly": true,
-        "objClass": "UserInfo-poly",
-        "id": "entity.properties.UNIQUEID",
-        "name": "balt_PUD_full",
-        "folder": "https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/",
-        "applyFunction": null
+        "exists": false
       },
       "labels": {
         "exists": false
       },
       "polygons": {
-        "exists": true,
-        "polygonLayers": {
-          "polygon1": {
-            "type": "singleColor",
-            "name": "entity.properties.NAME",
-            "color": {
-              "alpha": 0.5,
-              "type": "rgb",
-              "rgb": {
-                "r": 255,
-                "g": 255,
-                "b": 0,
-                "a": 100
-              }
-            },
-            "material": "new Cesium.ColorMaterialProperty(color)",
-            "outlineColor": "Cesium.Color.ANTIQUEWHITE",
-            "outlineWidth": 2.0
-          }
-        }
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_PUD",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_PUD@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.7122116088867,
+          "yMin": 39.224925994873,
+          "xMax": -76.5309906005859,
+          "yMax": 39.372730255127
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
       },
       "rasters": {
         "exists": false
@@ -1229,83 +1365,234 @@
         "exists": false
       }
     },
-    "Rail Transit": {
-      "name": "Light_Rail_Stations",
-      "removeName": "Light_Rail_Stations.geojson",
-      "url": "https://s3.amazonaws.com/create-common/layerFiles/mapGeoJSONs/Light_Rail_Stations.geojson",
-      "cartographic": true,
+
+
+    "baci_SubwayLines": {
+      "name": "baci_SubwayLines",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
       "id": {
         "exists": false
       },
       "labels": {
-        "exists": true,
-        "labelLayers": {
-          "label1": {
-            "name": "transitlabels",
-            "position": {
-              "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
-              "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-              "z": 20
-            },
-            "text": "entity.properties.NAME",
-            "font": "12px sans-serif",
-            "fillColor": "Cesium.Color.WHITE",
-            "outlineColor": "Cesium.Color.BLACK",
-            "outlineWidth": 1,
-            "style": "Cesium.LabelStyle.FILL",
-            "pixelOffset": "Cesium.Cartesian2.ZERO",
-            "eyeOffset": "Cesium.Cartesian3.ZERO",
-            "horizontalOrigin": "Cesium.HorizontalOrigin.CENTER",
-            "verticalOrigin": "Cesium.VerticalOrigin.BOTTOM",
-            "translucencyByDistance": {
-              "minElevation": 1000,
-              "maxElevation": 3000,
-              "minScale": 1.0,
-              "maxScale": 0.0
-            },
-            "scale": 1.0
-          }
-        }
+        "exists": false
       },
       "polygons": {
         "exists": false
       },
+      "tms": {
+        "tmsLayerName": "baci_SubwayLines",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_SubwayLines@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.7782002117857,
+          "yMin": 39.2894224018697,
+          "xMax": -76.5942215028099,
+          "yMax": 39.4078119067166
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
       "rasters": {
-        "exists": true,
-        "rasterLayers": {
-          "raster1": {
-            "name": "metrorail",
-            "url": "https://s3.amazonaws.com/create-common/layerFiles/layerPNGs/balt_transit_lines.png",
-            "xMin": -76.7903,
-            "yMin": 39.1657,
-            "xMax": -76.5905,
-            "yMax": 39.5009,
-            "alpha": 0.7,
-            "show": true,
-            "hasDropdown": false
-          }
-        }
+        "exists": false
       },
       "billboards": {
-        "exists": true,
-        "billboardLayers": {
-          "billboard1": {
-            "type": "custom",
-            "name": "baltstationbillboards",
-            "url": "../../geoJSON/layerIcons/icon-metro.png",
-            "position": {
-              "x": "Cesium.Math.toDegrees(cartographic.longitude).toFixed(8)",
-              "y": "Cesium.Math.toDegrees(cartographic.latitude).toFixed(8)",
-              "z": 20
-            },
-            "NearFarScalar": {
-              "minElevation": 3000,
-              "maxElevation": 4000,
-              "minScale": 1.0,
-              "maxScale": 0.0
-            }
-          }
-        }
+        "exists": false
+      }
+    },
+    "baci_SubwayStations": {
+      "name": "baci_SubwayStations",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_SubwayStations",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_SubwayStations@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.7781372317995,
+          "yMin": 39.2896988955047,
+          "xMax": -76.5945103498013,
+          "yMax": 39.4078639502511
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "baci_AmtrackRail": {
+      "name": "baci_AmtrackRail",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_AmtrackRail",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_AmtrackRail@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -77.0319519042969,
+          "yMin": 38.9491996765137,
+          "xMax": -75.8674850463867,
+          "yMax": 39.6889572143555
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "baci_AmtrackRailStations": {
+      "name": "baci_AmtrackRailStations",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_AmtrackRailStations",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_AmtrackRailStations@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.7389253789985,
+          "yMin": 39.3200554494906,
+          "xMax": -76.7014127044019,
+          "yMax": 39.3443141829547
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "baci_LightRail": {
+      "name": "baci_LightRail",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_LightRail",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_LightRail@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.6570413437036,
+          "yMin": 39.1715958051813,
+          "xMax": -76.6156125277151,
+          "yMax": 39.4496864042835
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+      }
+    },
+    "baci_LightRailStations": {
+      "name": "baci_LightRailStations",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_LightRailStations",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_LightRailStations@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.6566392335279,
+          "yMin": 39.1716024163516,
+          "xMax": -76.615517272159,
+          "yMax": 39.4485562352754
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
       }
     },
     "baci_AreaMasterPlans": {
@@ -1336,7 +1623,7 @@
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
+        "alpha": 1,
         "tmsStyle": "OGC"
       },
       "rasters": {
@@ -1475,7 +1762,7 @@
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.75,
+        "alpha": 1,
         "tmsStyle": "OGC"
       },
       "rasters": {
@@ -1601,19 +1888,19 @@
       },
       "tms": {
         "tmsLayerName": "baci_ZoningDistricts",
-        "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_ZoningDistricts@EPSG:900913@png",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_ZoningDistricts@EPSG:900913@png",
         "extension": "png",
         "coords": {
-          "xMin": -76.74,
-          "yMin": 39.19,
-          "xMax": -76.50,
-          "yMax": 39.38
+          "xMin": -76.7122039794922,
+          "yMin": 39.1963577270508,
+          "xMax": -76.5287170410156,
+          "yMax": 39.372875213623
         },
         "tileWidth": 256,
         "tileHeight": 256,
         "minimumLevel": 1,
         "maximumLevel": 20,
-        "alpha": 0.5,
+        "alpha": 1,
         "tmsStyle": "OGC"
       },
       "rasters": {
@@ -1623,7 +1910,197 @@
         "exists": false
     }
   },
-        "parcelFills": {
+  "baci_PopulationGrowth": {
+      "name": "baci_PopulationGrowth",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_PopulationGrowth",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_PopulationGrowth@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.7123184204102,
+          "yMin": 39.1963577270508,
+          "xMax": -76.5287628173828,
+          "yMax": 39.372875213623
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+    }
+  },
+  "baci_HouseholdGrowth": {
+      "name": "baci_HouseholdGrowth",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_HouseholdGrowth",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_HouseholdGrowth@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.7123184204102,
+          "yMin": 39.1963577270508,
+          "xMax": -76.5287628173828,
+          "yMax": 39.372875213623
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+    }
+  },
+  "baci_MedHomeValue": {
+      "name": "baci_MedHomeValue",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_MedHomeValue",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_MedHomeValue@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.7123184204102,
+          "yMin": 39.1963577270508,
+          "xMax": -76.5287628173828,
+          "yMax": 39.372875213623
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+    }
+  },
+  "baci_HousingUnitsGrowth": {
+      "name": "baci_HousingUnitsGrowth",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_HousingUnitsGrowth",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_HousingUnitsGrowth@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.7123184204102,
+          "yMin": 39.1963577270508,
+          "xMax": -76.5287628173828,
+          "yMax": 39.372875213623
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+    }
+  },
+  "baci_MedianHouseholdIncomeGrowth": {
+      "name": "baci_MedianHouseholdIncomeGrowth",
+      "removeName": null,
+      "url": null,
+      "cartographic": false,
+      "id": {
+        "exists": false
+      },
+      "labels": {
+        "exists": false
+      },
+      "polygons": {
+        "exists": false
+      },
+      "tms": {
+        "tmsLayerName": "baci_MedianHouseholdIncomeGrowth",
+        "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/baci_prod:baci_MedianHouseholdIncomeGrowth@EPSG:900913@png",
+        "extension": "png",
+        "coords": {
+          "xMin": -76.7123184204102,
+          "yMin": 39.1963577270508,
+          "xMax": -76.5287628173828,
+          "yMax": 39.372875213623
+        },
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "minimumLevel": 1,
+        "maximumLevel": 20,
+        "alpha": 1,
+        "tmsStyle": "OGC"
+      },
+      "rasters": {
+        "exists": false
+      },
+      "billboards": {
+        "exists": false
+    }
+  },
+  "parcelFills": {
             "name": "parcelFills",
             "removeName": null,
             "url": null,
