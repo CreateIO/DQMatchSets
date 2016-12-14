@@ -115,7 +115,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Property Use Types",
-            "order": 0,
+            "order": 6,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LU.png"
@@ -204,7 +204,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Special Purpose Districts & Sub-Districts",
-            "order": 0,
+            "order": 8,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/SPD.png"
@@ -260,7 +260,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Lower Density Growth Management Areas",
-            "order": 0,
+            "order": 5,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LowDen.png"
@@ -321,7 +321,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Zoning Map Amendments",
-            "order": 0,
+            "order": 12,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
@@ -382,7 +382,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Inclusionary Housing",
-            "order": 0,
+            "order": 3,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/IncHou.png"
@@ -453,7 +453,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Sidewalk Cafes",
-            "order": 0,
+            "order": 7,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/SW.png"
@@ -617,7 +617,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Commercial Districts Overlay",
-            "order": 0,
+            "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/CDO.png"
@@ -729,7 +729,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Business Improvement Districts",
-            "order": 0,
+            "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/BIDs.png"
@@ -785,7 +785,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Limited Height Zoning Districts",
-            "order": 0,
+            "order": 4,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LHD.png"
@@ -917,7 +917,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Waterfront Revitalization Program",
-            "order": 0,
+            "order": 4,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/WRP.png"
@@ -973,7 +973,7 @@
             },
             "menuSection": "LandUse3",
             "mouseoverName": "Coastal Zone Boundary",
-            "order": 0,
+            "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/CZB.png"
@@ -1080,7 +1080,7 @@
             },
             "menuSection": "LandUse3",
             "mouseoverName": "Hurricane Evacuation Zones",
-            "order": 0,
+            "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HEZ.png"
@@ -1292,7 +1292,7 @@
             },
             "menuSection": "LandUse4",
             "mouseoverName": "Historic Landmarks",
-            "order": 0,
+            "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HLM.png"
@@ -1348,7 +1348,7 @@
             },
             "menuSection": "LandUse4",
             "mouseoverName": "Historic Districts",
-            "order": 0,
+            "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HD.png"
@@ -1516,7 +1516,7 @@
             },
             "menuSection": "LandUse3",
             "mouseoverName": "Waterfront Access Plan",
-            "order": 0,
+            "order": 3,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/WAP.png"
@@ -1591,7 +1591,7 @@
             },
             "menuSection": "LandUse3",
             "mouseoverName": "Waterfront Areas",
-            "order": 0,
+            "order": 10,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/WP.png"
@@ -1792,7 +1792,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Empowerment Zones",
-            "order": 0,
+            "order": 3,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/EmpZ.png"
@@ -1856,9 +1856,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "Incentives1",
+            "menuSection": "LandUse1",
             "mouseoverName": "Fresh Food Stores Zoning",
-            "order": 0,
+            "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/FOOD.png"
@@ -1914,7 +1914,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "NYCHA Community Engagement & Partnership Zones",
-            "order": 0,
+            "order": 5,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/NYCHA.png"
@@ -1970,7 +1970,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Transit Zones",
-            "order": 0,
+            "order": 9,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/TranZone.png"
@@ -2026,7 +2026,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Community Parks Initiative Zones",
-            "order": 0,
+            "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/CPIZ.png"
@@ -2581,7 +2581,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Zoning Districts",
-            "order": 0,
+            "order": 11,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/Z.png"
