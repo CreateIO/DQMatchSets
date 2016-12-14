@@ -1,4 +1,4 @@
 {
-    "layerjson": {
-    }
+  "$template": "layerMapCode",
+  "layerjson": {}
 }

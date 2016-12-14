@@ -1,0 +1,12 @@
+{
+  "ui:field": "container",
+  "ui:options": {
+    "key": "tmsLayers"
+  },
+  "tmsLayers": {
+    "ui:field": "cardList",
+    "ui:options": {
+      "name": "layer"
+    }
+  }
+}

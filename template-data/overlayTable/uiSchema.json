@@ -1,0 +1,21 @@
+{
+  "ui:field": "container",
+  "ui:options": {
+    "key": "overlayTable"
+  },
+  "overlayTable": {
+    "ui:field": "cardList",
+    "ui:options": {
+      "name": "zone",
+      "id": "zone"
+    },
+    "items": {
+      "initialFAR": { "ui:field": "stringOrNumber" },
+      "overlayFAR": { "ui:field": "stringOrNumber" },
+      "initialOcc": { "ui:field": "stringOrNumber" },
+      "overlayOcc": { "ui:field": "stringOrNumber" },
+      "InitialHeight": { "ui:field": "stringOrNumber" },
+      "OverlayHeight": { "ui:field": "stringOrNumber" }
+    }
+  }
+}

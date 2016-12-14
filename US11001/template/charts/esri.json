@@ -7,55 +7,94 @@
       "fields": [
         {
           "label": "Agriculture",
-          "value": ["INDAGRI_CY", "calcBuffer0"]
-        } ,
+          "value": [
+            "INDAGRI_CY",
+            "calcBuffer0"
+          ]
+        },
         {
           "label": "Construction",
-          "value": ["INDCONS_CY", "calcBuffer0"]
-        } ,
+          "value": [
+            "INDCONS_CY",
+            "calcBuffer0"
+          ]
+        },
         {
           "label": "Manufacturing",
-          "value": ["INDMANU_CY", "calcBuffer0"]
-        } ,
+          "value": [
+            "INDMANU_CY",
+            "calcBuffer0"
+          ]
+        },
         {
           "label": "Wholesale Trade",
-          "value": ["INDWHTR_CY", "calcBuffer0"]
-        } ,
+          "value": [
+            "INDWHTR_CY",
+            "calcBuffer0"
+          ]
+        },
         {
           "label": "Retail Trade",
-          "value": ["INDRTTR_CY", "calcBuffer0"]
-        } ,
+          "value": [
+            "INDRTTR_CY",
+            "calcBuffer0"
+          ]
+        },
         {
           "label": "Transport., Utilities",
-          "value": ["INDTRAN_CY", "calcBuffer0"]
-        } ,
+          "value": [
+            "INDTRAN_CY",
+            "calcBuffer0"
+          ]
+        },
         {
           "label": "Information",
-          "value": ["INDINFO_CY", "calcBuffer0"]
-        } ,
+          "value": [
+            "INDINFO_CY",
+            "calcBuffer0"
+          ]
+        },
         {
           "label": "Finance, Real Estate, Insur. ",
-          "value": ["INDFIN_CY", "calcBuffer0"]
-        } ,
+          "value": [
+            "INDFIN_CY",
+            "calcBuffer0"
+          ]
+        },
         {
           "label": "Professional, Mgmt.",
-          "value": ["INDTECH_CY", "calcBuffer0"]
-        } ,
+          "value": [
+            "INDTECH_CY",
+            "calcBuffer0"
+          ]
+        },
         {
           "label": "Edu., Health & Social Assist.",
-          "value": ["INDEDUC_CY", "calcBuffer0"]
-        } ,
+          "value": [
+            "INDEDUC_CY",
+            "calcBuffer0"
+          ]
+        },
         {
           "label": "Arts, Entertain., Food Serv.",
-          "value": ["INDARTS_CY", "calcBuffer0"]
-        } ,
+          "value": [
+            "INDARTS_CY",
+            "calcBuffer0"
+          ]
+        },
         {
           "label": "Other Services",
-          "value": ["INDOTSV_CY", "calcBuffer0"]
-        } ,
+          "value": [
+            "INDOTSV_CY",
+            "calcBuffer0"
+          ]
+        },
         {
           "label": "Public Administration",
-          "value": ["INDPUBL_CY", "calcBuffer0"]
+          "value": [
+            "INDPUBL_CY",
+            "calcBuffer0"
+          ]
         }
       ]
     }
@@ -191,55 +230,94 @@
       "fields": [
         {
           "label": "Agriculture",
-          "value": ["INDAGRI_CY", "calcBuffer1"]
-        } ,
+          "value": [
+            "INDAGRI_CY",
+            "calcBuffer1"
+          ]
+        },
         {
           "label": "Construction",
-          "value": ["INDCONS_CY", "calcBuffer1"]
-        } ,
+          "value": [
+            "INDCONS_CY",
+            "calcBuffer1"
+          ]
+        },
         {
           "label": "Manufacturing",
-          "value": ["INDMANU_CY", "calcBuffer1"]
-        } ,
+          "value": [
+            "INDMANU_CY",
+            "calcBuffer1"
+          ]
+        },
         {
           "label": "Wholesale Trade",
-          "value": ["INDWHTR_CY", "calcBuffer1"]
-        } ,
+          "value": [
+            "INDWHTR_CY",
+            "calcBuffer1"
+          ]
+        },
         {
           "label": "Retail Trade",
-          "value": ["INDRTTR_CY", "calcBuffer1"]
-        } ,
+          "value": [
+            "INDRTTR_CY",
+            "calcBuffer1"
+          ]
+        },
         {
           "label": "Transport., Utilities",
-          "value": ["INDTRAN_CY", "calcBuffer1"]
-        } ,
+          "value": [
+            "INDTRAN_CY",
+            "calcBuffer1"
+          ]
+        },
         {
           "label": "Information",
-          "value": ["INDINFO_CY", "calcBuffer1"]
-        } ,
+          "value": [
+            "INDINFO_CY",
+            "calcBuffer1"
+          ]
+        },
         {
           "label": "Finance, Real Estate, Insur. ",
-          "value": ["INDFIN_CY", "calcBuffer1"]
-        } ,
+          "value": [
+            "INDFIN_CY",
+            "calcBuffer1"
+          ]
+        },
         {
           "label": "Professional, Mgmt.",
-          "value": ["INDTECH_CY", "calcBuffer1"]
-        } ,
+          "value": [
+            "INDTECH_CY",
+            "calcBuffer1"
+          ]
+        },
         {
           "label": "Edu., Health & Social Assist.",
-          "value": ["INDEDUC_CY", "calcBuffer1"]
-        } ,
+          "value": [
+            "INDEDUC_CY",
+            "calcBuffer1"
+          ]
+        },
         {
           "label": "Arts, Entertain., Food Serv.",
-          "value": ["INDARTS_CY", "calcBuffer1"]
-        } ,
+          "value": [
+            "INDARTS_CY",
+            "calcBuffer1"
+          ]
+        },
         {
           "label": "Other Services",
-          "value": ["INDOTSV_CY", "calcBuffer1"]
-        } ,
+          "value": [
+            "INDOTSV_CY",
+            "calcBuffer1"
+          ]
+        },
         {
           "label": "Public Administration",
-          "value": ["INDPUBL_CY", "calcBuffer1"]
+          "value": [
+            "INDPUBL_CY",
+            "calcBuffer1"
+          ]
         }
       ]
     }
@@ -310,8 +388,13 @@
       "fields": [
         {
           "label": "<$25,000",
-          "sum":
-          [["HINC0_CY", "calcBuffer1"]]},
+          "sum": [
+            [
+              "HINC0_CY",
+              "calcBuffer1"
+            ]
+          ]
+        },
         {
           "label": "$25k to $34,999",
           "value": [
@@ -372,55 +455,94 @@
       "fields": [
         {
           "label": "Agriculture",
-          "value": ["INDAGRI_CY", "calcBuffer2"]
-        } ,
+          "value": [
+            "INDAGRI_CY",
+            "calcBuffer2"
+          ]
+        },
         {
           "label": "Construction",
-          "value": ["INDCONS_CY", "calcBuffer2"]
-        } ,
+          "value": [
+            "INDCONS_CY",
+            "calcBuffer2"
+          ]
+        },
         {
           "label": "Manufacturing",
-          "value": ["INDMANU_CY", "calcBuffer2"]
-        } ,
+          "value": [
+            "INDMANU_CY",
+            "calcBuffer2"
+          ]
+        },
         {
           "label": "Wholesale Trade",
-          "value": ["INDWHTR_CY", "calcBuffer2"]
-        } ,
+          "value": [
+            "INDWHTR_CY",
+            "calcBuffer2"
+          ]
+        },
         {
           "label": "Retail Trade",
-          "value": ["INDRTTR_CY", "calcBuffer2"]
-        } ,
+          "value": [
+            "INDRTTR_CY",
+            "calcBuffer2"
+          ]
+        },
         {
           "label": "Transport., Utilities",
-          "value": ["INDTRAN_CY", "calcBuffer2"]
-        } ,
+          "value": [
+            "INDTRAN_CY",
+            "calcBuffer2"
+          ]
+        },
         {
           "label": "Information",
-          "value": ["INDINFO_CY", "calcBuffer2"]
-        } ,
+          "value": [
+            "INDINFO_CY",
+            "calcBuffer2"
+          ]
+        },
         {
           "label": "Finance, Real Estate, Insur. ",
-          "value": ["INDFIN_CY", "calcBuffer2"]
-        } ,
+          "value": [
+            "INDFIN_CY",
+            "calcBuffer2"
+          ]
+        },
         {
           "label": "Professional, Mgmt.",
-          "value": ["INDTECH_CY", "calcBuffer2"]
-        } ,
+          "value": [
+            "INDTECH_CY",
+            "calcBuffer2"
+          ]
+        },
         {
           "label": "Edu., Health & Social Assist.",
-          "value": ["INDEDUC_CY", "calcBuffer2"]
-        } ,
+          "value": [
+            "INDEDUC_CY",
+            "calcBuffer2"
+          ]
+        },
         {
           "label": "Arts, Entertain., Food Serv.",
-          "value": ["INDARTS_CY", "calcBuffer2"]
-        } ,
+          "value": [
+            "INDARTS_CY",
+            "calcBuffer2"
+          ]
+        },
         {
           "label": "Other Services",
-          "value": ["INDOTSV_CY", "calcBuffer2"]
-        } ,
+          "value": [
+            "INDOTSV_CY",
+            "calcBuffer2"
+          ]
+        },
         {
           "label": "Public Administration",
-          "value": ["INDPUBL_CY", "calcBuffer2"]
+          "value": [
+            "INDPUBL_CY",
+            "calcBuffer2"
+          ]
         }
       ]
     }
@@ -491,8 +613,13 @@
       "fields": [
         {
           "label": "<$25,000",
-          "sum":
-          [["HINC0_CY", "calcBuffer2"]]},
+          "sum": [
+            [
+              "HINC0_CY",
+              "calcBuffer2"
+            ]
+          ]
+        },
         {
           "label": "$25k to $34,999",
           "value": [
@@ -553,55 +680,94 @@
       "fields": [
         {
           "label": "Agriculture",
-          "value": ["INDAGRI_CY", "calcBuffer3"]
-        } ,
+          "value": [
+            "INDAGRI_CY",
+            "calcBuffer3"
+          ]
+        },
         {
           "label": "Construction",
-          "value": ["INDCONS_CY", "calcBuffer3"]
-        } ,
+          "value": [
+            "INDCONS_CY",
+            "calcBuffer3"
+          ]
+        },
         {
           "label": "Manufacturing",
-          "value": ["INDMANU_CY", "calcBuffer3"]
-        } ,
+          "value": [
+            "INDMANU_CY",
+            "calcBuffer3"
+          ]
+        },
         {
           "label": "Wholesale Trade",
-          "value": ["INDWHTR_CY", "calcBuffer3"]
-        } ,
+          "value": [
+            "INDWHTR_CY",
+            "calcBuffer3"
+          ]
+        },
         {
           "label": "Retail Trade",
-          "value": ["INDRTTR_CY", "calcBuffer3"]
-        } ,
+          "value": [
+            "INDRTTR_CY",
+            "calcBuffer3"
+          ]
+        },
         {
           "label": "Transport., Utilities",
-          "value": ["INDTRAN_CY", "calcBuffer3"]
-        } ,
+          "value": [
+            "INDTRAN_CY",
+            "calcBuffer3"
+          ]
+        },
         {
           "label": "Information",
-          "value": ["INDINFO_CY", "calcBuffer3"]
-        } ,
+          "value": [
+            "INDINFO_CY",
+            "calcBuffer3"
+          ]
+        },
         {
           "label": "Finance, Real Estate, Insur. ",
-          "value": ["INDFIN_CY", "calcBuffer3"]
-        } ,
+          "value": [
+            "INDFIN_CY",
+            "calcBuffer3"
+          ]
+        },
         {
           "label": "Professional, Mgmt.",
-          "value": ["INDTECH_CY", "calcBuffer3"]
-        } ,
+          "value": [
+            "INDTECH_CY",
+            "calcBuffer3"
+          ]
+        },
         {
           "label": "Edu., Health & Social Assist.",
-          "value": ["INDEDUC_CY", "calcBuffer3"]
-        } ,
+          "value": [
+            "INDEDUC_CY",
+            "calcBuffer3"
+          ]
+        },
         {
           "label": "Arts, Entertain., Food Serv.",
-          "value": ["INDARTS_CY", "calcBuffer3"]
-        } ,
+          "value": [
+            "INDARTS_CY",
+            "calcBuffer3"
+          ]
+        },
         {
           "label": "Other Services",
-          "value": ["INDOTSV_CY", "calcBuffer3"]
-        } ,
+          "value": [
+            "INDOTSV_CY",
+            "calcBuffer3"
+          ]
+        },
         {
           "label": "Public Administration",
-          "value": ["INDPUBL_CY", "calcBuffer3"]
+          "value": [
+            "INDPUBL_CY",
+            "calcBuffer3"
+          ]
         }
       ]
     }
@@ -672,8 +838,13 @@
       "fields": [
         {
           "label": "<$25,000",
-          "sum":
-          [["HINC0_CY", "calcBuffer3"]]},
+          "sum": [
+            [
+              "HINC0_CY",
+              "calcBuffer3"
+            ]
+          ]
+        },
         {
           "label": "$25k to $34,999",
           "value": [

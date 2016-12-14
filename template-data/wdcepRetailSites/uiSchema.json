@@ -1,0 +1,12 @@
+{
+  "ui:field": "container",
+  "ui:options": {
+    "key": "wdcepRetailSites"
+  },
+  "wdcepRetailSites": {
+    "ui:field": "cardList",
+    "ui:options": {
+      "name": "layer"
+    }
+  }
+}

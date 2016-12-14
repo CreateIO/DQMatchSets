@@ -1,0 +1,13 @@
+{
+  "ui:field": "container",
+  "ui:options": {
+    "key": "arrayData"
+  },
+  "arrayData": {
+    "ui:field": "cardList",
+    "ui:options": {
+      "name": "facility",
+      "id": "name"
+    }
+  }
+}

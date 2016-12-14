@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "ngkf": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "number" },
+          "pptyType": { "type": "string" },
+          "address": { "type": "string" },
+          "builtRenovated": { "type": "string" },
+          "available": { "type": "string" },
+          "totSf": { "type": "number" },
+          "availSf": { "type": "number" },
+          "largestBlock": { "type": "number" },
+          "divisTo": { "type": "number" },
+          "flrPlates": { "type": "number" },
+          "askRate": { "type": "string" },
+          "projTI": { "type": "string" },
+          "owner": { "type": "string" },
+          "mgr": { "type": "string" },
+          "leaseAgt": { "type": "string" },
+          "leaseTeam": { "type": "string" },
+          "agents": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": { "type": "string" },
+                "phone": { "type": "string" },
+                "email": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "ngkf"
+  ]
+}

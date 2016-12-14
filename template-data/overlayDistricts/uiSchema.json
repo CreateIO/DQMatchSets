@@ -1,0 +1,13 @@
+{
+  "ui:field": "container",
+  "ui:options": {
+    "key": "overlayDistricts"
+  },
+  "overlayDistricts": {
+    "ui:field": "cardList",
+    "ui:options": {
+      "name": "district",
+      "id": "district"
+    }
+  }
+}

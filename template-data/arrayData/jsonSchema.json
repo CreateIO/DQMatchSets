@@ -1,0 +1,82 @@
+{
+  "type": "object",
+  "properties": {
+    "arrayData": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "number" },
+          "name": { "type": "string" },
+          "number_employees": { "type": "string" },
+          "patients_rate_9_10_previous": { "type": "string" },
+          "patients_rate_9_10_nat_ave": { "type": "string" },
+          "patients_recommend_hospital_state_ave": { "type": "string" },
+          "patients_recommend_hospital_percentile": { "type": "string" },
+          "cmi_med": { "type": "string" },
+          "pct_revenues_medicare": { "type": "string" },
+          "cbsa_population_growth_most_recent": { "type": "string" },
+          "cmi_surg": { "type": "string" },
+          "patients_rate_9_10_state_ave": { "type": "string" },
+          "pct_revenues_private": { "type": "string" },
+          "patients_recommend_hospital": { "type": "string" },
+          "number_discharges": { "type": "string" },
+          "hq_phone": { "type": "string" },
+          "patients_rate_9_10_percentile": { "type": "string" },
+          "pct_revenues_medicaid": { "type": "string" },
+          "website": { "type": "string" },
+          "net_medicare_revenue": { "type": "string" },
+          "patients_recommend_hospital_change": { "type": "string" },
+          "hq_address": { "type": "string" },
+          "net_patient_revenue": { "type": "string" },
+          "patients_rate_9_10": { "type": "string" },
+          "patients_recommend_hospital_nat_ave": { "type": "string" },
+          "number_affiliated_physicians": { "type": "string" },
+          "net_medicaid_revenue": { "type": "string" },
+          "cmi": { "type": "string" },
+          "cbsa_population_est_most_recent": { "type": "string" },
+          "patients_recommend_hospital_previous": { "type": "string" },
+          "tot_patient_revenue": { "type": "string" },
+          "patients_rate_9_10_change": { "type": "string" }
+        },
+        "required": [
+          "id",
+          "name",
+          "number_employees",
+          "patients_rate_9_10_previous",
+          "patients_rate_9_10_nat_ave",
+          "patients_recommend_hospital_state_ave",
+          "patients_recommend_hospital_percentile",
+          "cmi_med",
+          "pct_revenues_medicare",
+          "cbsa_population_growth_most_recent",
+          "cmi_surg",
+          "patients_rate_9_10_state_ave",
+          "pct_revenues_private",
+          "patients_recommend_hospital",
+          "number_discharges",
+          "hq_phone",
+          "patients_rate_9_10_percentile",
+          "pct_revenues_medicaid",
+          "website",
+          "net_medicare_revenue",
+          "patients_recommend_hospital_change",
+          "hq_address",
+          "net_patient_revenue",
+          "patients_rate_9_10",
+          "patients_recommend_hospital_nat_ave",
+          "number_affiliated_physicians",
+          "net_medicaid_revenue",
+          "cmi",
+          "cbsa_population_est_most_recent",
+          "patients_recommend_hospital_previous",
+          "tot_patient_revenue",
+          "patients_rate_9_10_change"
+        ]
+      }
+    }
+  },
+  "required": [
+    "arrayData"
+  ]
+}

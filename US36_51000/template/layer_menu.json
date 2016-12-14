@@ -115,10 +115,10 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Property Use Types",
-            "order": 8,
+            "order": 0,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LU.png"
         },
         "Special Purpose Districts": {
             "category": "6",
@@ -202,12 +202,12 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse2",
+            "menuSection": "LandUse1",
             "mouseoverName": "Special Purpose Districts & Sub-Districts",
-            "order": 7,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/SPD.png"
         },
         "Lower Density Growth Management Areas": {
             "category": "6",
@@ -258,12 +258,12 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse2",
+            "menuSection": "LandUse1",
             "mouseoverName": "Lower Density Growth Management Areas",
-            "order": 6,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LowDen.png"
         },
         "Zoning Map Amendments": {
             "category": "6",
@@ -321,10 +321,10 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Zoning Map Amendments",
-            "order": 3,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
         },
         "Inclusionary Housing": {
             "category": "6",
@@ -380,12 +380,12 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse2",
+            "menuSection": "LandUse1",
             "mouseoverName": "Inclusionary Housing",
-            "order": 4,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/IncHou.png"
         },
         "Sidewalk Cafes": {
             "category": "6",
@@ -451,12 +451,12 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse2",
+            "menuSection": "LandUse1",
             "mouseoverName": "Sidewalk Cafes",
-            "order": 8,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/SW.png"
         },
         "City Owned & Leased Properties": {
             "category": "6",
@@ -514,10 +514,10 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "City Owned & Leased Properties",
-            "order": 1,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/OnLP.png"
         },
         "Commercial Districts Overlay": {
             "category": "6",
@@ -615,12 +615,12 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "doubleColumn"
             },
-            "menuSection": "LandUse2",
+            "menuSection": "LandUse1",
             "mouseoverName": "Commercial Districts Overlay",
-            "order": 2,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/CDO.png"
         },
         "Parks": {
             "category": "6",
@@ -659,11 +659,11 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "City parks and public green spaces.",
+                "description": "City parks, playgrounds & public green spaces.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Parks",
-                        "boxStyle": "background:#005a50",
+                        "boxStyle": "background:#a4d51c; border: 1px solid #cad5aa",
                         "imageUrl": null
                     }
                 },
@@ -673,10 +673,10 @@
             },
             "menuSection": "CityInfo1",
             "mouseoverName": "Parks",
-            "order": 1,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/Parks.png"
         },
         "Business Improvement Districts": {
             "category": "6",
@@ -729,10 +729,10 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Business Improvement Districts",
-            "order": 1,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/BIDs.png"
         },
         "Limited Height Districts": {
             "category": "6",
@@ -783,12 +783,200 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse2",
+            "menuSection": "LandUse1",
             "mouseoverName": "Limited Height Zoning Districts",
-            "order": 5,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LHD.png"
+        },
+        "Waterfront Revitalization Program": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Waterfront Revitalization Program",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SNWA"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_ESMIA"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func3": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_PMAZ"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func4": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SMIA"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func5": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_REC"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Waterfront Revitalization Program (WRP)'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SNWA"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_ESMIA"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func3": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_PMAZ"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func4": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SMIA"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func5": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_REC"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "The New York City Waterfront Revitalization Program (WRP) is the city's principal coastal zone management tool. It establishes the City's policies for development and use of the waterfront. Most City, State and Federal discretionary actions in the Coastal Zone must be reviewed for consistency with these policies.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Recognized Ecological Complexes (REC)",
+                        "boxStyle": "background:#ffffff; border: 1px solid #24598f",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Priority Marine Activity Zones (PMAZ)",
+                        "boxStyle": "background:#8275b4; border-radius: 15px; border: 1px solid #534b74",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Significant Maritime & Industrial Areas (SMIA)",
+                        "boxStyle": "background:#a4d51c; border: 1px solid #709213",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "Environmental Significant Maritime & !ndustrial Areas (ESMIA)",
+                        "boxStyle": "background:#a7cff8; border: 1px solid #3288bd",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "Special Natural Waterfront Areas (SNWA)",
+                        "boxStyle": "background:#57afaa; border: 1px solid #3b7773",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Open Data",
+                "sourceURL": "https://data.cityofnewyork.us/",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse1",
+            "mouseoverName": "Waterfront Revitalization Program",
+            "order": 0,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/WRP.png"
+        },
+        "Coastal Zone Boundary": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Coastal Zone Boundary",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_CZB"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Coastal Zone Boundary'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_CZB"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "The Coastal Zone Boundary defines the geographic scope of New York City's Waterfront Revitalization Program (WRP). The boundary encompasses all land and water of direct and significant impact on coastal waters.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Coastal Zone Boundary (CZB)",
+                        "boxStyle": "background:#6bbed0; border: 1px solid #29739d",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Open Data",
+                "sourceURL": "https://data.cityofnewyork.us/",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse3",
+            "mouseoverName": "Coastal Zone Boundary",
+            "order": 0,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/CZB.png"
         },
         "Hurricane Evacuation Zones": {
             "category": "6",
@@ -802,7 +990,7 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_HurricaneInnundationZones"
+                            "param1": "ny_HurricaneInundationZones"
                         },
                         "service": "tileMapServiceService"
                     },
@@ -823,7 +1011,7 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_HurricaneInnundationZones"
+                            "param1": "ny_HurricaneInundationZones"
                         },
                         "service": "tileMapServiceService"
                     },
@@ -895,15 +1083,283 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HEZ.png"
         },
-        "Neighborhood Tabulation Areas": {
+        "Hurricane Inundation Zones": {
             "category": "6",
             "denyList": {
                 "denyList1": null
             },
             "denyToggle": false,
-            "displayName": "Neighborhood Tabulation Areas",
+            "displayName": "Hurricane Inundation Zones",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HurricaneWorstCase"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SandyInundationZones"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Hurricane Inundation Zones including worst case & Sandy Zones'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HurricaneWorstCase"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_SandyInundationZones"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "The Worst Case Storm Surge Inundation Zones are calculated from NOAAs NY3 Sea, Lake and Overland Surges from Hurricanes (SLOSH) basin & Maximum of Maximum (MOM) surge height values.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Sandy Inundation Zones",
+                        "boxStyle": "background:#ffffff; border: 1px solid #fb102c",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Maximum Surge from Category 4 Storm",
+                        "boxStyle": "background:#bae4bc",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Maximum Surge from Category 3 Storm",
+                        "boxStyle": "background:#7bccc4",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "Maximum Surge from Category 2 Storm",
+                        "boxStyle": "background:#43a2ca",
+                        "imageUrl": null 
+                    },
+                    "item5": {
+                        "boxDescription": "Maximum Surge from Category 1 Storm",
+                        "boxStyle": "background:#0868ac",
+                        "imageUrl": null   
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse6",
+            "mouseoverName": "Hurricane Inundation Zones",
+            "order": 0,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HIZ.png"
+        },
+        "100-Year Floodplain (2020)": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "100-Year Floodplain (2020)",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_2020Floodplain100yr"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: 100-Year Floodplain (2020)'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_2020Floodplain100yr"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "The 100-Year Floodplain for the 2020s is based on FEMA's Preliminary Work Map data and the New York Panel on Climate Change's 90th Percentile Projects for Sea-Level Rise (11 inches).",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Zones VE - High Risk: Flooding & Waves",
+                        "boxStyle": "background:#178081",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Zones AE - High Risk Flooding",
+                        "boxStyle": "background:#3bb3ba",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Zones AO - Moderate Risk of Shallow Flooding",
+                        "boxStyle": "background:#72c4cd",
+                        "imageUrl": null  
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse6",
+            "mouseoverName": "100-Year Floodplain (2020)",
+            "order": 0,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/100yrFP.png"
+        },
+       "Historic Landmarks": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Historic Landmarks",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HistoricLM"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Historic Landmarks'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HistoricLM"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "NYC Designated Historic Landmarks",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Historic Landmarks",
+                        "boxStyle": "background:#d24530; border-radius: 15px;border: 1px solid #fcc4cd",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse4",
+            "mouseoverName": "Historic Landmarks",
+            "order": 0,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HLM.png"
+        },
+       "Historic Districts": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Historic Districts",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_Hist_Districts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Historic Districts'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_Hist_Districts"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "NYC Designated Historic Districts",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Historic Districts",
+                        "boxStyle": "background:#00cfb9",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse4",
+            "mouseoverName": "Historic Districts",
+            "order": 0,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HD.png"
+        },
+        "Neighborhoods": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Neighborhoods",
             "functions": {
                 "addFunctions": {
                     "func1": {
@@ -916,7 +1372,7 @@
                 },
                 "piwikTrack": {
                     "parameters": {
-                        "param1": "'NY Data: Neighborhood Tabulation Areas'"
+                        "param1": "'NY Data: Neighborhoods'"
                     }
                 },
                 "removeFunctions": {
@@ -947,11 +1403,11 @@
                 "type": "singleColumn"
             },
             "menuSection": "LandUse3",
-            "mouseoverName": "Neighborhood Tabulation Areas",
+            "mouseoverName": "Neighborhoods",
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/NTA.png"
         },
         "Public Use Microdata Areas": {
             "category": "6",
@@ -1007,7 +1463,7 @@
             "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/PUMAs.png"
         },
         "Waterfront Access Plan": {
             "category": "6",
@@ -1058,12 +1514,12 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse2",
+            "menuSection": "LandUse3",
             "mouseoverName": "Waterfront Access Plan",
-            "order": 9,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/WAP.png"
         },
         "Waterfront Areas": {
             "category": "6",
@@ -1133,12 +1589,12 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "CityInfo1",
+            "menuSection": "LandUse3",
             "mouseoverName": "Waterfront Areas",
-            "order": 2,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/WP.png"
         },
         "Property Use Types (GS)": {
             "category": "6",
@@ -1243,10 +1699,10 @@
             },
             "menuSection": "",
             "mouseoverName": "Property Use Types",
-            "order": 2,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LU.png"
         },
         "Empowerment Zones": {
             "category": "6",
@@ -1336,10 +1792,10 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Empowerment Zones",
-            "order": 3,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/EmpZ.png"
         },
         "Fresh Food Stores Zoning": {
             "category": "6",
@@ -1402,10 +1858,10 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Fresh Food Stores Zoning",
-            "order": 4,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/FOOD.png"
         },
         "NYCHA Community Engagement & Partnership Zones": {
             "category": "6",
@@ -1458,10 +1914,10 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "NYCHA Community Engagement & Partnership Zones",
-            "order": 5,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/NYCHA.png"
         },
         "Transit Zones": {
             "category": "6",
@@ -1512,12 +1968,12 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse2",
+            "menuSection": "LandUse1",
             "mouseoverName": "Transit Zones",
-            "order": 8,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/TranZone.png"
         },
         "Community Parks Initiative Zones": {
             "category": "6",
@@ -1570,7 +2026,251 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Community Parks Initiative Zones",
-            "order": 2,
+            "order": 0,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/CPIZ.png"
+        },
+        "NJT Commuter Rail": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "NJT Commuter Rail",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "nj_NJT_Rail"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "nj_NJT_Stations"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: NJT Commuter Rail'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "nj_NJT_Rail"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "nj_NJT_Stations"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "New Jersey Transit commuter rail lines & stations.",
+                "listItemsLeft": {
+                    "item00": {
+                        "boxDescription": "Pascack Valley Line (PVL)",
+                        "boxStyle": "background:#9e278c",
+                        "imageUrl": null
+                    },
+                    "item01": {
+                        "boxDescription": "Bergen County Line (BCL)",
+                        "boxStyle": "background:#bccbe1",
+                        "imageUrl": null
+                    },
+                    "item02": {
+                        "boxDescription": "Main Line (ML) & Port Jervis",
+                        "boxStyle": "background:#fecd31",
+                        "imageUrl": null
+                    },
+                    "item03": {
+                        "boxDescription": "Montclair-Boonton Line",
+                        "boxStyle": "background:#e46c60",
+                        "imageUrl": null
+                    },
+                    "item04": {
+                        "boxDescription": "Morris & Essex via Gladstone Line (M&E)",
+                        "boxStyle": "background:#1aa757",
+                        "imageUrl": null
+                    },
+                    "item05": {
+                        "boxDescription": "Morris & Essex via Morristown Line (M&E)",
+                        "boxStyle": "background:#a3d3b5",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item06": {
+                        "boxDescription": "Raritan Valley Line (RVL)",
+                        "boxStyle": "background:#f8a444",
+                        "imageUrl": null
+                    },
+                    "item07": {
+                        "boxDescription": "Northeast Corridor (NEC)",
+                        "boxStyle": "background:#ea3b48",
+                        "imageUrl": null
+                    },
+                    "item08": {
+                        "boxDescription": "North Jesey Coast Line (NJCL)",
+                        "boxStyle": "background:#1ba6e5",
+                        "imageUrl": null
+                    },
+                    "item09": {
+                        "boxDescription": "Light Rail",
+                        "boxStyle": "background:#000000",
+                        "imageUrl": null
+                    },
+                    "item091": {
+                        "boxDescription": "Stations",
+                        "boxStyle": "background:#000000; border-radius: 15px; border: 1px solid #ffffff",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "New Jersey Office of GIS Open Data",
+                "sourceURL": "http://njogis.newjersey.opendata.arcgis.com/",
+                "type": "doubleColumn"
+            },
+            "menuSection": "CityInfo2",
+            "mouseoverName": "NJT Commuter Rail System",
+            "order": 0,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/A1.png"
+        },
+        "NYS Commuter Rail": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "NYS Commuter Rail",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_NYS_Railline"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_NYS_Stations"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: NYS Commuter Rail'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_NYS_Railline"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_NYS_Stations"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "New York System commuter rail lines & stations.",
+                "listItemsLeft": {
+                    "item00": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#9e278c",
+                        "imageUrl": null
+                    },
+                    "item01": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#bccbe1",
+                        "imageUrl": null
+                    },
+                    "item02": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#fecd31",
+                        "imageUrl": null
+                    },
+                    "item03": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#e46c60",
+                        "imageUrl": null
+                    },
+                    "item04": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#1aa757",
+                        "imageUrl": null
+                    },
+                    "item05": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#a3d3b5",
+                        "imageUrl": null
+                    }
+                },
+                "listItemsRight": {
+                    "item06": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#f8a444",
+                        "imageUrl": null
+                    },
+                    "item07": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#ea3b48",
+                        "imageUrl": null
+                    },
+                    "item08": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#1ba6e5",
+                        "imageUrl": null
+                    },
+                    "item09": {
+                        "boxDescription": "xxxx",
+                        "boxStyle": "background:#000000",
+                        "imageUrl": null
+                    },
+                    "item091": {
+                        "boxDescription": "Stations",
+                        "boxStyle": "background:#000000; border-radius: 15px; border: 1px solid #ffffff",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "New York State GIS",
+                "sourceURL": "http://gis.ny.gov/gisdata",
+                "type": "doubleColumn"
+            },
+            "menuSection": "",
+            "mouseoverName": "NYS Commuter Rail System",
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
@@ -1587,7 +2287,7 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_SubwayRoutes"
+                            "param1": "ny_subwaytemp"
                         },
                         "service": "tileMapServiceService"
                     },
@@ -1615,7 +2315,7 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_SubwayRoutes"
+                            "param1": "ny_subwaytemp"
                         },
                         "service": "tileMapServiceService"
                     },
@@ -1643,54 +2343,54 @@
                 "description": "New York City Subway lines, stations & entrances.",
                 "listItemsLeft": {
                     "item00": {
-                        "boxDescription": "Routes 1, 2 & 3",
+                        "boxDescription": "Lines 1, 2 & 3",
                         "boxStyle": "background:#ff0000",
                         "imageUrl": null
                     },
                     "item01": {
-                        "boxDescription": "Routes B, D, F & M",
+                        "boxDescription": "Lines B, D, F & M",
                         "boxStyle": "background:#fdae61",
                         "imageUrl": null
                     },
                     "item02": {
-                        "boxDescription": "Routes 4, 5 & 6",
+                        "boxDescription": "Lines 4, 5 & 6",
                         "boxStyle": "background:#19aa83",
                         "imageUrl": null
                     },
                     "item03": {
-                        "boxDescription": "Route GS",
+                        "boxDescription": "Line GS",
                         "boxStyle": "background:#6cbe45",
                         "imageUrl": null
                     },
                     "item04": {
-                        "boxDescription": "Routes A, C & E",
+                        "boxDescription": "Lines A, C & E",
                         "boxStyle": "background:#2850ad",
                         "imageUrl": null
                     },
                     "item05": {
-                        "boxDescription": "Route 7",
+                        "boxDescription": "Line 7",
                         "boxStyle": "background:#b933ad",
                         "imageUrl": null
                     }
                 },
                 "listItemsRight": {
                     "item06": {
-                        "boxDescription": "Routes J & Z",
+                        "boxDescription": "Lines J & Z",
                         "boxStyle": "background:#896d46",
                         "imageUrl": null
                     },
                     "item07": {
-                        "boxDescription": "Route L",
+                        "boxDescription": "Line L",
                         "boxStyle": "background:#a7a9ac",
                         "imageUrl": null
                     },
                     "item08": {
-                        "boxDescription": "Routes N, Q & R",
+                        "boxDescription": "Lines N, Q & R",
                         "boxStyle": "background:#f8e701",
                         "imageUrl": null
                     },
                     "item09": {
-                        "boxDescription": "Route SI",
+                        "boxDescription": "Line SI",
                         "boxStyle": "background:#808183",
                         "imageUrl": null
                     },
@@ -1711,10 +2411,104 @@
             },
             "menuSection": "CityInfo2",
             "mouseoverName": "NYC Subway System",
-            "order": 2,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/A2.png"
+        },
+        "Bike Parking": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Bike Parking",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BikeRacks"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BikeStations"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func3": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BikeShelters"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: NYC Bike Parking'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BikeRacks"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func2": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BikeStations"
+                        },
+                        "service": "tileMapServiceService"
+                    },
+                    "func3": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_BikeShelters"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "New York City Bike Data including city owned racks & shelters & CityBike stations. Zoom in to see storage capacity.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Bike Shelters",
+                        "boxStyle": "background:#f8a444; border: 1px solid #bd7d36",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Bike Stations",
+                        "boxStyle": "background:#1bbfe8; border: 1px solid #0e677d",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Bike Racks",
+                        "boxStyle": "background:#22d06d; border: 1px solid #106233",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC DOT",
+                "sourceURL": "http://www.nyc.gov/html/dot/html/about/datafeeds.shtml#Bikes",
+                "type": "singleColumn"
+            },
+            "menuSection": "CityInfo2",
+            "mouseoverName": "Bike Parking",
+            "order": 0,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/A3.png"
         },
         "Zoning Districts": {
             "category": "6",
@@ -1756,18 +2550,18 @@
                 "description": "Zoning District are residential, commercial or manufac­turing areas of the city within which zoning regulations govern land use and building bulk.",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Battery Park City District",
+                        "boxDescription": "Battery Park City District (BPC)",
                         "boxStyle": "background:#ee4731",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "Commercial Districts",
+                        "boxDescription": "Commercial Districts (C)",
                         "boxStyle": "background:#fadd57",
                         "imageUrl": null
                     },
                     "item3": {
-                        "boxDescription": "Mixed Use Districts",
-                        "boxStyle": "background:#f68c9d",
+                        "boxDescription": "Mixed Use Districts (M)",
+                        "boxStyle": "background:#f2a56c",
                         "imageUrl": null
                     },
                     "item4": {
@@ -1776,7 +2570,7 @@
                         "imageUrl": null
                     },
                     "item5": {
-                        "boxDescription": "Residential Districts",
+                        "boxDescription": "Residential Districts (R)",
                         "boxStyle": "background:#6f94f7",
                         "imageUrl": null
                     }
@@ -1787,10 +2581,10 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Zoning Districts",
-            "order": 1,
+            "order": 0,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/ZON.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/Z.png"
         }
     },
     "allTheSections": {
@@ -1879,7 +2673,7 @@
             "title": "Natural Hazards"
         },
         "Pivitol1": {
-            "order": 4,
+            "order": 0,
             "parentTab": "Pivitol",
             "permissions": "Pivitol",
             "redact": false,

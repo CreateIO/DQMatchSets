@@ -1,51 +1,50 @@
 {
-    "allTheLayers": {
-        "Property Types": {
-            "id": 48,
-            "displayName": "Property Types",
-            "mouseoverName": "Property Types",
-            "denyToggle": false,
-            "denyList": {
-                "denyList1": null
-            },
-            "isActive": false,
-            "layerUsed": true,
-            "hasLegend": true,
-            "urlLegend": "../../legends/layerPropertyType.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png",
-            "colors": {
-                "type": "?",
-                "hex": {
-                }
-            },
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "service": "gltf3DService",
-                        "functionName": "toggleParcelFills",
-                        "parameters": {
-                            "param1": "add"
-                        }
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Data: Parcel Use Layer'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "service": "gltf3DService",
-                        "functionName": "toggleParcelFills",
-                        "parameters": {
-                            "param1": "remove"
-                        }
-                    }
-                }
-            },
-            "category": "1",
-            "subCategory": "1",
-            "order": 1
+  "allTheLayers": {
+    "Property Types": {
+      "id": 48,
+      "displayName": "Property Types",
+      "mouseoverName": "Property Types",
+      "denyToggle": false,
+      "denyList": {
+        "denyList1": null
+      },
+      "isActive": false,
+      "layerUsed": true,
+      "hasLegend": true,
+      "urlLegend": "../../legends/layerPropertyType.jade",
+      "urlPicture": "https://s3.amazonaws.com/models-dc/tiles/landUse/PU.png",
+      "colors": {
+        "type": "?",
+        "hex": {}
+      },
+      "functions": {
+        "addFunctions": {
+          "func1": {
+            "service": "gltf3DService",
+            "functionName": "toggleParcelFills",
+            "parameters": {
+              "param1": "add"
+            }
+          }
+        },
+        "piwikTrack": {
+          "parameters": {
+            "param1": "'Data: Parcel Use Layer'"
+          }
+        },
+        "removeFunctions": {
+          "func1": {
+            "service": "gltf3DService",
+            "functionName": "toggleParcelFills",
+            "parameters": {
+              "param1": "remove"
+            }
+          }
         }
+      },
+      "category": "1",
+      "subCategory": "1",
+      "order": 1
     }
+  }
 }

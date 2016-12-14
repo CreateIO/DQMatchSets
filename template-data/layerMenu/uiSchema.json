@@ -1,0 +1,56 @@
+{
+  "ui:field": "container",
+  "ui:options": {
+    "key": "allTheLayers"
+  },
+  "allTheLayers": {
+    "ui:field": "cardList",
+    "properties": {},
+    "patternProperties": {
+      ".*": {
+        "denyList": {
+          "ui:field": "flexibleObject",
+          "patternProperties": {
+            ".*": {
+              "type": { "ui:field": "nullableString" },
+              "enum": { "ui:field": "nullableStringDropdown" }
+            }
+          }
+        },
+        "colors": {
+          "hex": { "ui:field": "flexibleObject" }
+        },
+        "order": { "ui:field": "stringOrNumber" },
+        "legendContents": {
+          "listItems": {
+            "ui:field": "flexibleObject",
+            "patternProperties": {
+              ".*": {
+                "imageUrl": { "ui:field": "nullableString" }
+              }
+            }
+          }
+        },
+        "functions": {
+          "ui:field": "flexibleObject",
+          "piwikTrack": {
+            "parameters": { "ui:field": "flexibleObject" }
+          },
+          "emits": {
+            "parameters": { "ui:field": "flexibleObject" }
+          },
+          "patternProperties": {
+            ".*": {
+              "ui:field": "flexibleObject",
+              "patternProperties": {
+                ".*": {
+                  "parameters": { "ui:field": "flexibleObject" }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
