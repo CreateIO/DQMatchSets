@@ -113,6 +113,182 @@
                 }
             }
         },
+        "baci_TaxCreditAreas":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"UNIQUEID",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "streetView": false,
+            "header":"'High Performance Tax Credit Areas'",
+            "boxValues":{
+                "field1":{
+                    "value":"AreaName",
+                    "display":"Area Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"CCB",
+                    "display":"CCB#: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field5":{
+                    "value":"http://baltimoredevelopment.com/high-performance-tax-credit",
+                    "display":"URL: ",
+                    "fieldtype":"hardAttr",
+                    "units": "Click to view more info"
+                }
+            }
+        },
+        "baci_CHAP_HistoricDistricts":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"UNIQUEID",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "streetView": false,
+            "header":"'CHAP Historic District Incentive Areas'",
+            "boxValues":{
+                "field1":{
+                    "value":"NAME",
+                    "display":"Area Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"ACRES",
+                    "display":"Acres: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"SqFt",
+                    "display":"Area: ",
+                    "fieldtype":"text",
+                    "units":"' SqFt'",
+                },
+                "field4":{
+                    "value":"http://baltimoredevelopment.com/chap",
+                    "display":"URL: ",
+                    "fieldtype":"hardAttr",
+                    "units": "Click to view more info"
+                }
+            }
+        },
+        "baci_EnterpriseZones":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"UNIQUEID",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "streetView": false,
+            "header":"'Enterprise Zones & EZ Focus Areas'",
+            "boxValues":{
+                "field1":{
+                    "value":"name",
+                    "display":"Area Type: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"http://baltimoredevelopment.com/incentives/enterprise-zone/",
+                    "display":"URL: ",
+                    "fieldtype":"hardAttr",
+                    "units": "Enterprise Zones info"
+                },
+                "field3":{
+                    "value":"http://baltimoredevelopment.com/incentives/ez-focus-area/",
+                    "display":"URL: ",
+                    "fieldtype":"hardAttr",
+                    "units": "EZ Focus Area info"
+                }
+            }
+        },
+        "baci_ForeignTradeZone":{
+            "referenceid":"UNIQUEID",
+            "propertyid":"UNIQUEID",
+            "offset":157,
+            "fieldtype":"business",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "streetView": false,
+            "header":"'Foreign Trade Zones'",
+            "boxValues":{
+                "field1":{
+                    "value":"CNTCT_NME",
+                    "display":"Contact Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"CNTCT_PHN",
+                    "display":"Phone: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"CNTCT_EML",
+                    "display":"Email: ",
+                    "fieldtype":"email",
+                    "units":null
+                },
+                "field4":{
+                    "value":"CNTCT_ADDR",
+                    "display":"Address: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field5":{
+                    "value":"'Baltimore, MD'",
+                    "display":"City/State: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field6":{
+                    "value":"http://baltimoredevelopment.com/initiatives/foreign-trade-zone/",
+                    "display":"URL: ",
+                    "fieldtype":"hardAttr",
+                    "units": "Click to view more info"
+                }
+            }
+        },
         "baltimore_hist_dist_chap":{
             "referenceid":"UNIQUEID",
             "propertyid":"UNIQUEID",

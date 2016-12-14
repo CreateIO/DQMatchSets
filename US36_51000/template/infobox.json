@@ -92,7 +92,7 @@
                 },
                 "field5":{
                     "value":"cont_title",
-                    "display":"Titlel: ",
+                    "display":"Title: ",
                     "fieldtype":"text",
                     "units":null
                 },
@@ -105,6 +105,68 @@
                 "field7":{
                     "value":"cont_phone",
                     "display":"Phone: ",
+                    "fieldtype":"text",
+                    "units":null
+                }
+            }
+        },
+        "ny_HistoricLM":{
+            "referenceid":"UNIQUEID",
+            "propertyid":null,
+            "offset":null,
+            "fieldtype":"residential",
+            "photos":{
+                "active":false,
+                "value":null
+            },
+            "streetView": true,
+            "pdfs":{
+                "active":false,
+                "value":null
+            },
+            "viewDetailsBox":false,
+            "wdcepDetailsBox":false,
+            "header":"'Historic Landmarks'",
+            "boxValues":{               
+                "field1":{
+                    "value":"lm_name",
+                    "display":"Name: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field2":{
+                    "value":"hist_distr",
+                    "display":"District: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field3":{
+                    "value":"lm_type",
+                    "display":"Type: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field4":{
+                    "value":"non_bldg",
+                    "display":"Note: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field5":{
+                    "value":"date_desig",
+                    "display":"Date: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field6": {
+                    "value":"lp_number",
+                    "display":"Number: ",
+                    "fieldtype":"text",
+                    "units":null
+                },
+                "field7":{
+                    "value":"status",
+                    "display":"Status: ",
                     "fieldtype":"text",
                     "units":null
                 }
