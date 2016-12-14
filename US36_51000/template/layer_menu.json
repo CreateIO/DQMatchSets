@@ -1837,7 +1837,7 @@
                 "description": "A FRESH food store is a full-line grocery store, established in underserved neighborhoods through zoning incentives, that promotes the sale of fresh food products.",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Descretionary Tax Incentives",
+                        "boxDescription": "Discretionary Tax Incentives",
                         "boxStyle": "background:#fbc709",
                         "imageUrl": null
                     },
@@ -1900,7 +1900,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "A FRESH food store is a full-line grocery store, established in underserved neighborhoods through zoning incentives, that promotes the sale of fresh food products.",
+                "description": "The New York City Housing Authority’s (NYCHA) Office of Resident Economic Empowerment & Sustainability (REES) coordinates services with local partners to support residents to increase their income and assets.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "NYCHA Zones",
@@ -2481,7 +2481,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "New York City Bike Data including city owned racks & shelters & CityBike stations. Zoom in to see storage capacity.",
+                "description": "New York City Bike Data including city owned racks & shelters & CityBike stations. Zoom in to see bike storage capacity.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Bike Shelters",
@@ -2656,7 +2656,7 @@
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
-            "title": "Historic Districts"
+            "title": "Historic Preservation"
         },
         "LandUse5": {
             "order": 4,
