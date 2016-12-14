@@ -2343,54 +2343,54 @@
                 "description": "New York City Subway lines, stations & entrances.",
                 "listItemsLeft": {
                     "item00": {
-                        "boxDescription": "Routes 1, 2 & 3",
+                        "boxDescription": "Lines 1, 2 & 3",
                         "boxStyle": "background:#ff0000",
                         "imageUrl": null
                     },
                     "item01": {
-                        "boxDescription": "Routes B, D, F & M",
+                        "boxDescription": "Lines B, D, F & M",
                         "boxStyle": "background:#fdae61",
                         "imageUrl": null
                     },
                     "item02": {
-                        "boxDescription": "Routes 4, 5 & 6",
+                        "boxDescription": "Lines 4, 5 & 6",
                         "boxStyle": "background:#19aa83",
                         "imageUrl": null
                     },
                     "item03": {
-                        "boxDescription": "Route GS",
+                        "boxDescription": "Line GS",
                         "boxStyle": "background:#6cbe45",
                         "imageUrl": null
                     },
                     "item04": {
-                        "boxDescription": "Routes A, C & E",
+                        "boxDescription": "Lines A, C & E",
                         "boxStyle": "background:#2850ad",
                         "imageUrl": null
                     },
                     "item05": {
-                        "boxDescription": "Route 7",
+                        "boxDescription": "Line 7",
                         "boxStyle": "background:#b933ad",
                         "imageUrl": null
                     }
                 },
                 "listItemsRight": {
                     "item06": {
-                        "boxDescription": "Routes J & Z",
+                        "boxDescription": "Lines J & Z",
                         "boxStyle": "background:#896d46",
                         "imageUrl": null
                     },
                     "item07": {
-                        "boxDescription": "Route L",
+                        "boxDescription": "Line L",
                         "boxStyle": "background:#a7a9ac",
                         "imageUrl": null
                     },
                     "item08": {
-                        "boxDescription": "Routes N, Q & R",
+                        "boxDescription": "Lines N, Q & R",
                         "boxStyle": "background:#f8e701",
                         "imageUrl": null
                     },
                     "item09": {
-                        "boxDescription": "Route SI",
+                        "boxDescription": "Line SI",
                         "boxStyle": "background:#808183",
                         "imageUrl": null
                     },
