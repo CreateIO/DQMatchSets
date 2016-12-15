@@ -9,6 +9,8 @@
       "layerMenuTemplate": "layer_menu",
       "layerMapCodeTemplate": "layer_map_code",
       "infoboxTemplate": "infobox",
+      "model3dTiles": true,
+      "model3dTileSrc": "https://s3.amazonaws.com/create-common/3dtiles/baci/tileset.json",
       "camera": [
         {
           "name": "Inner Harbor",
