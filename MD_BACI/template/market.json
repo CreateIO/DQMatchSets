@@ -11,6 +11,11 @@
       "infoboxTemplate": "infobox",
       "model3dTiles": true,
       "model3dTileSrc": "https://s3.amazonaws.com/create-common/3dtiles/baci/tileset.json",
+      "model3DTiles": {
+        "buildingModels": {"src": "https://s3.amazonaws.com/create-common/3dtiles/baci/tileset.json",
+          "active": true
+                }    
+      },
       "camera": [
         {
           "name": "Inner Harbor",
