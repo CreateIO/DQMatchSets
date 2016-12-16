@@ -321,7 +321,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Zoning Map Amendments",
-            "order": 012,
+            "order": 12,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
@@ -2647,7 +2647,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Zoning Districts",
-            "order": 011,
+            "order": 11,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/Z.png"
