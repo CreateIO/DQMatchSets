@@ -4,23 +4,29 @@
     {
       "name": "New York City",
       "regionTag": "US36_51000",
-      "filterTemplate": "filters_021216",
-      "layerMenuTemplate": "layer_menu_021216",
-      "layerMapCodeTemplate": "layer_map_code_021216",
-      "infoboxTemplate": "infobox_021216",
+      "filterTemplate": "filters",
+      "layerMenuTemplate": "layer_menu",
+      "layerMapCodeTemplate": "layer_map_code",
+      "infoboxTemplate": "infobox",
+      "hasPdf": "false",
+      "detailPane": "details-scroll-nyc",
+      "model3dTiles": true,
+      "model3dTileSrc": "https://s3.amazonaws.com/create-common/3dtiles/nyc/d_tileset.json",
       "camera": [
         {
-          "name": "Lower Manhattan",
+          "name": "Brooklyn Bridge",
           "cameraPosition": {
             "type": "LineString",
             "coordinates": [
               [
-                -74.017486,
-                40.705450
+                -73.999120,
+                40.704414,
+                3.0
               ],
               [
-                -74.017486,
-                40.704902
+                -73.991128,
+                40.688932,
+                787.0
               ]
             ],
             "height": null

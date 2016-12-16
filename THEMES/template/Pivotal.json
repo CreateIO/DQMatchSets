@@ -1,4 +1,5 @@
 {
+  "$template": "theme",
   "group_name": "Array Pivotal Product",
   "entry": "http://pivotal.create.io",
   "init": {
@@ -10,4 +11,4 @@
     "sponsor_logo": "",
     "layerLimit": null
   }
-} 
+}

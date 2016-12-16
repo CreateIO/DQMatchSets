@@ -2,7 +2,8 @@
   "name": "Projects",
   "tabs": [
     {
-      "name": "Organizer", "url": "projects/organizer"
+      "name": "Organizer",
+      "url": "projects/organizer"
     }
   ]
 }

@@ -9,6 +9,7 @@
       "layerMenuTemplate":"layer_menu",
       "layerMapCodeTemplate":"layer_map_code",
       "infoboxTemplate":"infobox_050416",
+      "hasPdf": "true",
       "camera": [
         {
           "name": "Dupont Circle",
@@ -26,4 +27,3 @@
     }
   ]
 }
-

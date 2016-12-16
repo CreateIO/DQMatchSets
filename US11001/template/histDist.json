@@ -1,11 +1,11 @@
 {
+  "$template": "historicalDistricts",
   "histDist": [
     {
       "objectID": 6,
       "layerGroup": "Corridor",
       "name": "Pennsylvania Avenue National Historic Site",
       "description": "Pennsylvania Avenue National Historic Site, a unit of National Mall and Memorial Parks. This unique site preserves locations related to the creation of the Federal City, Presidential Inaugurations, and historically significant events.",
-
       "label": "Pennsylvania Ave NHS",
       "address": ""
     },
@@ -113,7 +113,6 @@
       "layerGroup": "Institution",
       "name": "Ford's Theatre National Historic Site",
       "description": "Ford's Theatre National Historic Site includes Ford's Theatre",
-
       "label": "Ford's Theatre NHS",
       "address": "10th St, between E & F Sts, NW"
     },
@@ -140,7 +139,6 @@
       "layerGroup": "Institution",
       "name": "Fort McNair (The Old Arsenal)",
       "description": "Fort McNair, Washington D.C. is a US Army operated military facility located in a small peninsula at the intersection of two rivers- Anacostia and Potomac.",
-
       "label": "Fort McNair",
       "address": "4th & P Streets, SW"
     },
@@ -245,7 +243,6 @@
       "layerGroup": "Neighborhood",
       "name": "Blagden Alley/Naylor Court",
       "description": "",
-
       "label": "Blagden Alley/Naylor Court HD",
       "address": "http://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Blagden_Naylor_Historic_%2520District_%2520Map.pdf"
     },
@@ -389,7 +386,6 @@
       "layerGroup": "Neighborhood",
       "name": "Meridian Hill Historic District",
       "description": "Meridian Hill Park is a structured urban park located in the Washington, D.C neighborhood of Columbia Heights; it abuts the nearby neighborhood of Adams Morgan. The park was designed and built between 1912 and 1940.",
-
       "label": "Meridian Hill",
       "address": "Meridian Hill"
     },
@@ -398,7 +394,6 @@
       "layerGroup": "Park",
       "name": "Chesapeake and Ohio Canal National Historical Park",
       "description": "The C&O Canal follows the route of the Potomac River for 184.5 miles from Washington, D.C. to Cumberland, MD.",
-
       "label": "C & O Canal NHP",
       "address": "Along C&O Canal from Rock Creek to D.C. boundary"
     },
@@ -407,7 +402,6 @@
       "layerGroup": "Park",
       "name": "Lafayette Square Historic District",
       "description": "Lafayette Square Historic District is a historic district in Washington, D.C.. It includes the 7-acre. Lafayette Square park, and surrounding buildings. It is part of President's Park.",
-
       "label": "Lafayette Square HD",
       "address": ""
     },
@@ -425,7 +419,6 @@
       "layerGroup": "Park",
       "name": "Glover-Archbold Park (Res 450 & 351)",
       "description": "Glover-Archbold Park is a stream valley park, Northwest, Washington, D.C., on the western edge of the Glover Park neighborhood. It includes Foundry Branch from Van Ness Street, to Canal Road, on the Potomac River.",
-
       "label": "Glover-Archbold Park",
       "address": "Glover-Archbold Park"
     },

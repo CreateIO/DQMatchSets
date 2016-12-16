@@ -1,217 +1,218 @@
 {
+  "$template": "overlayDistricts",
   "overlayDistricts": [
     {
-      "overlayZone":"ARTS",
+      "overlayZone": "ARTS",
       "district": "Uptown Arts-Mixed Use Overlay District (ARTS)",
       "description": "The Uptown Arts-Mixed Use (ARTS) Overlay District was established to encourage retail, entertainment and residential uses",
       "lookup": "Chapter 19 of the Zoning Regulations."
     },
     {
-      "overlayZone":"CAP",
+      "overlayZone": "CAP",
       "district": "Capitol Interest Overlay District (CAP)",
       "description": "The Capitol Interest (CAP) Overlay District was established to promote and protect the public health, safety, and general welfare of the U.S. Capitol precinct and the area adjacent to this jurisdiction, in a manner consistent with the goals and mandates of the United States Congress.",
       "lookup": "Chapter 12 of the Zoning Regulations."
     },
     {
-      "overlayZone":"CG",
+      "overlayZone": "CG",
       "district": "Capitol Gateway Overlay District (CG)",
       "description": "The Capitol Gateway (CG) Overlay District was established to provide use, height, density, combined lot development, and design requirements to ensure an appropriate mixture of residential and commercial uses and suitable height, bulk, and design of buildings.",
       "lookup": "Chapter 16 of the Zoning Regulations."
     },
     {
-      "overlayZone":"CHC",
+      "overlayZone": "CHC",
       "district": "Capitol Hill Commercial Overlay District (CHC)",
       "description": "The Capitol Hill Commercial (CHC) Overlay District was established to implement those land use objectives and policies related to improving the physical condition of Capitol Hill through the provision of functional, efficient, and attractive commercial areas.",
       "lookup": "Sections 1570 through 1573 of the Zoning Regulations."
     },
     {
-      "overlayZone":"CP",
+      "overlayZone": "CP",
       "district": "Cleveland Park Neighborhood Commercial Overlay District (CP)",
       "description": "The Cleveland Park Neighborhood Commercial (CP) Overlay District was established to provide for safe and efficient pedestrian movement; to encourage compatibility of development with the Historic Landmark and Historic District Protection Act of 1978; and to provide for retention of existing housing to help meet the need for affordable housing.",
       "lookup": "Section 1306 of the Zoning Regulations."
     },
     {
-      "overlayZone":"D",
+      "overlayZone": "D",
       "district": "Diplomatic Overlay District (D)",
       "description": "The Diplomatic (D) Overlay District was established to implement the Foreign Missions Act and is mapped at suitable locations in the District pursuant to the Act and the Foreign Missions and International Organizations element of the Comprehensive Plan.",
       "lookup": "Chapter 10 of the Zoning Regulations."
     },
     {
-      "overlayZone":"ES",
+      "overlayZone": "ES",
       "district": "Eighth Street Southeast Neighborhood Commercial Overlay District (ES)",
       "description": "The Eighth Street Southeast Neighborhood Commercial (ES) Overlay District was established to encourage and allow new business and office development in close proximity to the Navy Yard, with emphasis on firms that will conduct business with the Navy, as well as neighborhood-serving retail and service businesses.",
       "lookup": "1309 of the Zoning Regulations."
     },
     {
-      "overlayZone":"FB",
+      "overlayZone": "FB",
       "district": "Foggy Bottom Overlay District (FB)",
       "description": "The Foggy Bottom (FB) Overlay District was established to require the scale of development to be consistent with the Comprehensive Plan and the characteristics of the low-scale residential neighborhood.",
       "lookup": "Sections 1521 through 1524 of the Zoning Regulations."
     },
     {
-      "overlayZone":"FH",
+      "overlayZone": "FH",
       "district": "Forest Hills Tree and Slope Protection Overlay District (FH)",
       "description": "The Forest Hills Tree and Slope Protection (FH/TSP) Overlay District was established to preserve and enhance the park-like setting of certain designated neighborhoods including Soapstone Valley and Melvin C. Hazen Park.",
       "lookup": "Sections 1516 through 1520 of the Zoning Regulations."
     },
     {
-      "overlayZone":"FT",
+      "overlayZone": "FT",
       "district": "Fort Totten Overlay District (FT)",
       "description": "The Fort Totten (FT) Overlay District was established to allow existing industrial businesses to remain and expand and to propose land use control policies to further implement the Comprehensive Plan.",
       "lookup": "Sections 1561 through 1564 of the Zoning Regulations"
     },
     {
-      "overlayZone":"GA",
+      "overlayZone": "GA",
       "district": "Georgia Avenue Neighborhood Commercial Overlay District (GA)",
       "description": "The Georgia Avenue (GA) Overlay District was established to encourage additional residential uses and improved commercial uses; to provide uniform building design standards and set guidelines for development review for PUD and special exception proceedings; and to encourage vertically-mixed uses.",
       "lookup": "Sections 1327 through 1331 of the Zoning Regulations"
     },
     {
-      "overlayZone":"HS-A",
+      "overlayZone": "HS-A",
       "district": "H Street Northeast Neighborhood Commercial Overlay District (HS)",
       "description": "The H Street (HS) Northeast Neighborhood Commercial Overlay District was established to provide use, density, design, and planned unit development requirements for lots fronting on H Street, N.E. from 2nd Street to 15th Street, N.E.",
       "lookup": "Sections 1320 through 1326 of the Zoning Regulations."
     },
     {
-      "overlayZone":"HS-H",
+      "overlayZone": "HS-H",
       "district": "H Street Northeast Neighborhood Commercial Overlay District (HS)",
       "description": "The H Street (HS) Northeast Neighborhood Commercial Overlay District was established to provide use, density, design, and planned unit development requirements for lots fronting on H Street, N.E. from 2nd Street to 15th Street, N.E.",
       "lookup": "Sections 1320 through 1326 of the Zoning Regulations."
     },
     {
-      "overlayZone":"HS-R",
+      "overlayZone": "HS-R",
       "district": "H Street Northeast Neighborhood Commercial Overlay District (HS)",
       "description": "The H Street (HS) Northeast Neighborhood Commercial Overlay District was established to provide use, density, design, and planned unit development requirements for lots fronting on H Street, N.E. from 2nd Street to 15th Street, N.E.",
       "lookup": "Sections 1320 through 1326 of the Zoning Regulations."
     },
     {
-      "overlayZone":"HR",
+      "overlayZone": "HR",
       "district": "Hotel/Residential Incentive Overlay District (HR)",
       "description": "The Hotel/Residential (HR) Incentive Overlay District was established to encourage construction of hotels and apartment houses to further elements of the District of Columbia's development plans, including goals in employment, population, transportation, housing, public facilities, and environmental quality.",
       "lookup": "Chapter 11 of the Zoning Regulations"
     },
     {
-      "overlayZone":"LO",
+      "overlayZone": "LO",
       "district": "Langdon Overlay District (LO)",
       "description": "The Langdon Overlay (LO) District was established to implement the Comprehensive Plan by protecting residences and residents from the adverse environmental, safety, and aesthetic impacts of abutting industrially zoned properties and uses.",
       "lookup": "Section 806 of the Zoning Regulations."
     },
     {
-      "overlayZone":"MW",
+      "overlayZone": "MW",
       "district": "Macomb-Wisconsin Neighborhood Commercial Overlay District (MW)",
       "description": "The Macomb-Wisconsin Neighborhood Commercial (MW) Overlay District was established to provide public review of large developments in respect to their proposed uses, vehicular access, and the scale and massing of proposed buildings.",
       "lookup": "Section 1308 of the Zoning Regulations."
     },
     {
-      "overlayZone":"NO",
+      "overlayZone": "NO",
       "district": "Naval Observatory Overlay District (NO)",
       "description": "The Naval Observatory Precinct (NO) Overlay District was established to promote the public health, safety, and general welfare on land adjacent to or in close proximity to the highly sensitive and historically important Naval Observatory.",
       "lookup": "Sections 1531 through 1534 of the Zoning Regulations."
     },
     {
-      "overlayZone":"RC",
+      "overlayZone": "RC",
       "district": "Reed-Cooke Overlay District (RC)",
       "description": "The Reed-Cooke (RC) Overlay District was established to protect existing housing and provide for the development of new housing; maintain heights and densities at appropriate levels, encourage small-scale business development that will not adversely affect the residential community.",
       "lookup": "Chapter 14 of the Zoning Regulations."
     },
     {
-      "overlayZone":"SEFC",
+      "overlayZone": "SEFC",
       "district": "Southeast Federal Center Overlay District (SEFC)",
       "description": "The Southeast Federal Center (SEFC) Overlay District was established to provide for the development of a vibrant, urban, mixed-use waterfront neighborhood, offering a combination of uses that will attract residents, office workers, and visitors from across the District and beyond.",
       "lookup": "Chapter 18 of the Zoning Regulations"
     },
     {
-      "overlayZone":"SSH-1",
+      "overlayZone": "SSH-1",
       "district": "Sixteenth Street Heights Overlay District (SSH)",
       "description": "The Sixteenth Street Heights (SSH) Overlay District was established to preserve and enhance the residential character of the neighborhood by regulating the expansion of non-residential uses of residential property, regulating the expansion of existing non-residential uses, and preserving residential housing units.",
       "lookup": "Sections 1551 through 1553 of the Zoning Regulations."
     },
     {
-      "overlayZone":"SSH-2",
+      "overlayZone": "SSH-2",
       "district": "Sixteenth Street Heights Overlay District (SSH)",
       "description": "The Sixteenth Street Heights (SSH) Overlay District was established to preserve and enhance the residential character of the neighborhood by regulating the expansion of non-residential uses of residential property, regulating the expansion of existing non-residential uses, and preserving residential housing units.",
       "lookup": "Sections 1551 through 1553 of the Zoning Regulations."
     },
     {
-      "overlayZone":"TK",
+      "overlayZone": "TK",
       "district": "Takoma Neighborhood Commercial Overlay District (TK)",
       "description": "The Takoma (TK) Neighborhood Commercial Overlay District was established to reserve sufficient open space to provide adequate light and air to encourage retail and service uses and for pedestrian circulation around the Takoma Metro station.",
       "lookup": "Section 1310 of the Zoning Regulations."
     },
     {
-      "overlayZone":"TSP",
+      "overlayZone": "TSP",
       "district": "Tree and Slope Protection Overlay District (TSP)",
       "description": "The Tree and Slope Protection (TSP) Overlay District was established to preserve and enhance the park-like setting of designated neighborhoods adjacent to streams or parks.",
       "lookup": "Sections 1511 through 1515 of the Zoning Regulations"
     },
     {
-      "overlayZone":"WH",
+      "overlayZone": "WH",
       "district": "Wesley Heights Overlay District (WH)",
       "description": "The Wesley Heights (WH) Overlay District was established to preserve and enhance the low density character of Wesley Heights by regulating construction and alteration of residential and other buildings in the area.",
       "lookup": "Sections 1541 through 1543 of the Zoning Regulations"
     },
     {
-      "overlayZone":"WP",
+      "overlayZone": "WP",
       "district": "Woodley Park Neighborhood Commercial Overlay District (WP)",
       "description": "The Woodley Park Neighborhood Commercial (WP) Overlay District was established to provide for safe and efficient pedestrian movement, so as to improve access to retail services, the Metrorail station, and other uses in the area.",
       "lookup": "Section 1307 of the Zoning Regulations"
     },
     {
-      "overlayZone":"DC",
+      "overlayZone": "DC",
       "district": "Dupont Circle Overlay District (DC)",
       "description": "The Dupont Circle area is a unique resource that must be preserved and enhanced. Strong protections are needed to retain its low scale, predominately residential character, independent small retail businesses, human scale streetscapes, and historic character, given the high-density development pressures caused by the proximity of the Central Employment Area and Dupont Circle Metrorail Station.",
       "lookup": "Sections 1501 through 1505 of the Zoning Regulations"
     },
     {
-      "overlayZone":"CB/UT",
+      "overlayZone": "CB/UT",
       "district": "Chain Bridge Road / University Terrace (CB/UT)",
       "description": "The Chain Bridge Road/University Terrace (CB/UT) Overlay District is established to preserve and enhance the park-like setting of the Chain Bridge Road/University Terrace area by regulating alteration or disturbance of terrain, destruction of trees, and ground coverage of permitted buildings and other impervious surfaces, and by providing for widely spaced residences.",
       "lookup": "Sections 1565 through 1569 of the Zoning Regulations"
     },
     {
-      "overlayZone":"DD",
+      "overlayZone": "DD",
       "district": "Downtown Development (DD)",
       "description": "The Downtown Development (DD) Overlay District is applied to the core of the Downtown area, including subareas identified in the Comprehensive Plan as the Downtown Shopping District (Retail Core), the Arts District, Gallery Place, Chinatown, Pennsylvania Quarter, Convention Center, and Mount Vernon Square, and areas designated for historic preservation and housing mixed use, which areas overlap geographically with the subareas.",
       "lookup": "Chapter 17 of the Zoning Regulations."
     },
     {
-      "overlayZone":"DD-ARTS",
+      "overlayZone": "DD-ARTS",
       "district": "Downtown Arts District",
       "description": "The district is created to retain, expand, and support a concentration of spaces and activities for the arts and artists, including the performing and visual arts, cultural facilities, entertainment, and arts-related retail uses.",
       "lookup": "Chapter 1704 of the Zoning Regulations."
     },
     {
-      "overlayZone":"DD-CHI",
+      "overlayZone": "DD-CHI",
       "district": "Chinatown",
       "description": "The overlay district is created to protect and enhance Chinatown as Downtown's only ethnic cultural area.",
       "lookup": "Chapter 1705 of the Zoning Regulations."
     },
     {
-      "overlayZone":"DD-HPA",
+      "overlayZone": "DD-HPA",
       "district": "Housing Priority Area A",
       "description": "Housing Priority Area A, the Mount Vernon Square North area, is located north of Massachusetts Avenue and comprises the DD/C-2-C and DD/C-3-C zoned squares and parts of squares numbered 369, 370, 401, 402, 425, 426, 450, 451, 483, 484, W484, 514, 515, N515, 516, S516, 525, 526, 527, 528, 556, and 558.",
       "lookup": "Chapter 1706.8 of the Zoning Regulations."
     },
     {
-      "overlayZone":"DD-HPB",
+      "overlayZone": "DD-HPB",
       "district": "Housing Priority Area B",
       "description": "Housing Priority Area B, the Mount Vernon Square South area, comprises the DD/C-2-C and DD/C-3-C zoned properties that are located south of Massachusetts Avenue, including squares and parts of squares numbered 247, 283, 284, 316, 317, 342, 343, 371, 372,  374, 427, 428, 452, 453, 485, 486, 517, and 529, National Park Service Reservation 174, and the commercial and underdeveloped properties in square 247 with an approved plan unit development on or before January 18, 1991, for so long as the planned unit development approval remains valid.",
       "lookup": "Chapter 1706.8 of the Zoning Regulations."
     },
     {
-      "overlayZone":"DD-HPC",
+      "overlayZone": "DD-HPC",
       "district": "Housing Priority Area C",
       "description": "Housing Priority Area C, the Downtown Core area, comprises the following DD/C-4 zoned properties located south of H Street: Squares and parts of squares numbered 377 (Lots 36, 37, 42, 806, 828, 829, 847, and 848),406,407, 408, 431, 432, 454, 455, 456, 457, 458, 459, 460, and 491.",
       "lookup": "Chapter 1706.8 of the Zoning Regulations."
     },
     {
-      "overlayZone":"DD-MVT",
+      "overlayZone": "DD-MVT",
       "district": "Mount Vernon Triangle District",
       "description": "The overlay district is created to promote the development of ground floor level street frontages that will be active and pedestrian-friendly, particularly along the sections of K and 5th Streets, that are within the MVT District boundaries, as defined in § 1720.2.",
       "lookup": "Chapter 1720 of the Zoning Regulations."
     },
     {
-      "overlayZone":"DD-SHOP",
+      "overlayZone": "DD-SHOP",
       "district": "Downtown Shopping District",
       "description": "The overlay district is created to be the most concentrated area of retail, service, arts, and arts-related uses in Downtown, in excess of one floor of these uses, with the greatest retail concentration oriented to F and G Streets, N.W.",
       "lookup": "Chapter 1703 of the Zoning Regulations."

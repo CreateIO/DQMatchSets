@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "overlayTable": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "overlayZone": { "type": "string" },
+          "zone": { "type": "string" },
+          "initialFAR": { "type": ["string", "number"] },
+          "overlayFAR": { "type": ["string", "number"] },
+          "initialOcc": { "type": ["string", "number"] },
+          "overlayOcc": { "type": ["string", "number"] },
+          "InitialHeight": { "type": ["string", "number"] },
+          "OverlayHeight": { "type": ["string", "number"] },
+          "note": { "type": "string" },
+          "lookup": { "type": "string" }
+        },
+        "additionalProperties": false,
+        "required": [
+          "overlayZone",
+          "zone",
+          "initialFAR",
+          "overlayFAR",
+          "initialOcc",
+          "overlayOcc",
+          "InitialHeight",
+          "OverlayHeight",
+          "lookup"
+        ]
+      }
+    }
+  },
+  "required": [
+    "overlayTable"
+  ]
+}
