@@ -326,6 +326,92 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
         },
+
+
+        "Projected Home Value Growth": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Projected Home Value Growth",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HomeValueGrowth"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Projected Home Value Growth'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HomeValueGrowth"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Projected Home Value Growth (2016 - 2021 by Neighborhood)",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "More than 50%",
+                        "boxStyle": "background:#2c3647",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "25.1% to 50%",
+                        "boxStyle": "background:#405067",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "15.1% to 25%",
+                        "boxStyle": "background:#4a6b81",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "5.1% to 15%",
+                        "boxStyle": "background:#55879b",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "0.1% to 5%",
+                        "boxStyle": "background:#60a2b5",
+                        "imageUrl": null
+                    },
+                    "item6": {
+                        "boxDescription": "Less than 0%",
+                        "boxStyle": "background:#6bbed0",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "ESRI",
+                "sourceURL": "www.esri.gov",
+                "type": "singleColumn"            
+            },
+            "menuSection": "Development3",
+            "mouseoverName": "Projected Home Value Growth",
+            "order": 1,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
+        },
+
+
+
         "Inclusionary Housing": {
             "category": "6",
             "denyList": {
