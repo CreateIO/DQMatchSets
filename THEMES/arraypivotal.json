@@ -1,0 +1,24 @@
+{
+  "Array Pivotal Group": {
+    "group_name": "Array Pivotal Product",
+    "last_update": "08/24/16",
+    "entry": "http://pivotal.create.io",
+    "init": {
+      "group_display_name": "Pivotal",
+      "url": "http://array-analytics.io/",
+      "favicon": "https://s3.amazonaws.com/create-common/logo/pivotal-icon-192x192.png",
+      "logo": "https://s3.amazonaws.com/create-common/logo/pivotal-mark.png"
+    }
+  },
+  "Chicago Title Insurance Company": {
+    "group_name": "Chicago Title Insurance Company",
+    "last_update": "08/24/16",
+    "entry": "http://ctic.create.io",
+    "init": {
+      "group_display_name": "Chicago Title Insurance Company",
+      "url": "http://http://www.ctic.com/",
+      "favicon": "",
+      "logo": "https://s3.amazonaws.com/create-common/logo/logo-ct_ncs_c.png"
+    }
+  }
+}

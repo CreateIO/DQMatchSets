@@ -24,7 +24,7 @@
           "name": "Listings",
           "url": "tenant.html",
           "hasCharts": true,
-          "deny":""
+          "deny": ""
         },
         {
           "id": "navTenants",
@@ -33,7 +33,7 @@
           "hasCharts": false,
           "deny": ""
         },
-       {
+        {
           "id": "navZoning",
           "name": "Zoning",
           "url": "zoning.html",
@@ -161,4 +161,3 @@
     }
   ]
 }
-

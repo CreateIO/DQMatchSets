@@ -1,4 +1,5 @@
 {
+    "$template": "layerMenu",
     "allTheLayers": {
         "Available Retail Sites (WDCEP)": {
             "category": "3",

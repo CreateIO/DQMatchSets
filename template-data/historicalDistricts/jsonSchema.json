@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "histDist": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "objectID": { "type": "number" },
+          "layerGroup": {
+            "type": "string",
+            "enum": ["Corridor", "Neighborhood", "Institution", "Park"]
+          },
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "mapLink": { "type": "string" },
+          "label": { "type": "string" },
+          "address": { "type": "string" }
+        }
+      }
+    }
+  }
+}

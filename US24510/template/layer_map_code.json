@@ -1,5 +1,6 @@
 {
-   "layerjson": {
+    "$template": "layerMapCode",
+    "layerjson": {
         "MainBaciHospitals_Array": {
             "name": "MainBaciHospitals_Array",
             "removeName": "MainBaciHospitals_Array.geojson",

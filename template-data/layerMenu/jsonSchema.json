@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "layerObject": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "number" },
+        "displayName": { "type": "string" },
+        "denyToggle": { "type": "boolean" },
+        "mouseoverName": { "type": "string" },
+        "denyList": {
+          "type": "object",
+          "properties": {},
+          "patternProperties": {
+            ".*": {
+              "type": ["string", "null"],
+              "enum": ["Limited", null]
+            }
+          }
+        },
+        "isActive": { "type": "boolean" },
+        "layerUsed": { "type": "boolean" },
+        "hasLegend": { "type": "boolean" },
+        "urlLegend": { "type": "string" },
+        "urlPicture": { "type": "string" },
+        "colors": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["?", "single", "multi"]
+            },
+            "hex": {
+              "type": "object",
+              "properties": {},
+              "patternProperties": {
+                ".*": { "type": "string" }
+              }
+            }
+          }
+        },
+        "category": { "type": "string" },
+        "subCategory": { "type": "string" },
+        "order": { "type": ["string", "number"] },
+        "legendContents": { "$ref": "#/definitions/legendContents" },
+        "functions": {
+          "type": "object",
+          "properties": {
+            "piwikTrack": {
+              "type": "object",
+              "properties": {
+                "parameters": { "$ref": "#/definitions/functionParameters" }
+              }
+            },
+            "emits": {
+              "type": "object",
+              "properties": {
+                "type": { "type": "string" },
+                "parameters": { "$ref": "#/definitions/functionParameters" }
+              }
+            }
+          },
+          "patternProperties": {
+            ".*": { "$ref": "#/definitions/functionList" }
+          }
+        }
+      }
+    },
+    "functionList": {
+      "type": "object",
+      "properties": {},
+      "patternProperties": {
+        ".*": { "$ref": "#/definitions/function" }
+      }
+    },
+    "function": {
+      "type": "object",
+      "properties": {
+        "service": { "type": "string" },
+        "functionName": { "type": "string" },
+        "parameters": { "$ref": "#/definitions/functionParameters" }
+      },
+      "required": [
+        "service",
+        "functionName"
+      ]
+    },
+    "functionParameters": {
+      "type": "object",
+      "properties": {},
+      "patternProperties": {
+        ".*": { "type": "string" }
+      }
+    },
+    "legendContents": {
+      "type": "object",
+      "properties": {
+        "description": { "type": "string" },
+        "sourceURL": { "type": "string" },
+        "sourceDescription": { "type": "string" },
+        "type": {
+          "type": "string",
+          "enum": ["singleColumn", "doubleColumn"]
+        },
+        "listItems": {
+          "type": "object",
+          "properties": {},
+          "patternProperties": {
+            ".*": {
+              "type": "object",
+              "properties": {
+                "boxStyle": { "type": "string" },
+                "boxDescription": { "type": "string" },
+                "imageUrl": { "type": ["string", "null"] }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "type": "object",
+  "properties": {
+    "allTheLayers": {
+      "type": "object",
+      "minProperties": 1,
+      "properties": {},
+      "patternProperties": {
+        ".*": { "$ref": "#/definitions/layerObject" }
+      }
+    }
+  },
+  "required": [
+    "allTheLayers"
+  ]
+}

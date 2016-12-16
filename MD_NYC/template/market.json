@@ -10,6 +10,8 @@
       "infoboxTemplate": "infobox",
       "hasPdf": "false",
       "detailPane": "details-scroll-nyc",
+      "model3dTiles": true,
+      "model3dTileSrc": "https://s3.amazonaws.com/create-common/3dtiles/nyc/d_tileset.json",
       "camera": [
         {
           "name": "Brooklyn Bridge",

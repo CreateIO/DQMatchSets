@@ -1,0 +1,202 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "layerjson": {
+      "type": "object",
+      "properties": {},
+      "patternProperties": {
+        ".*": { "$ref": "#/definitions/layer" }
+      }
+    }
+  },
+  "required": [
+    "layerjson"
+  ],
+  "definitions": {
+    "layer": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "removeName": { "type": ["string", "null"] },
+        "url": { "type": ["string", "null"] },
+        "cartographic": { "type": "boolean" },
+        "id": { "$ref": "#/definitions/id" },
+        "labels": { "$ref": "#/definitions/labels" },
+        "polygons": { "$ref": "#/definitions/polygons" },
+        "rasters": { "$ref": "#/definitions/rasters" },
+        "billboards": { "$ref": "#/definitions/billboards" }
+      }
+    },
+    "id": {
+      "type": "object",
+      "properties": {
+        "exists": { "type": "boolean" },
+        "poly": { "type": "boolean" },
+        "objClass": { "type": "string" },
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "folder": { "type": "string" },
+        "applyFunction": { "type": ["string", "null"] }
+      }
+    },
+    "labels": {
+      "type": "object",
+      "properties": {
+        "exists": { "type": "boolean" },
+        "labelLayers": {
+          "type": "object",
+          "properties": {},
+          "patternProperties": {
+            ".*": { "$ref": "#/definitions/labelItem" }
+          }
+        }
+      }
+    },
+    "labelItem": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "position": {
+          "type": "object",
+          "properties": {
+            "x": { "type": "string" },
+            "y": { "type": "string" },
+            "z": { "type": "number" }
+          }
+        },
+        "text": { "type": "string" },
+        "font": { "type": "string" },
+        "fillColor": { "type": "string" },
+        "outlineColor": { "type": "string" },
+        "outlineWidth": { "type": "number" },
+        "style": { "type": "string" },
+        "pixelOffset": { "type": "string" },
+        "horizontalOrigin": { "type": "string" },
+        "verticalOrigin": { "type": "string" },
+        "translucencyByDistance": {
+          "type": "object",
+          "properties": {
+            "minElevation": { "type": "number" },
+            "maxElevation": { "type": "number" },
+            "minScale": { "type": "number" },
+            "maxScale": { "type": "number" }
+          }
+        },
+        "scale": { "type": "number" }
+      }
+    },
+    "polygons": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string" },
+        "polygonLayers": {
+          "type": "object",
+          "properties": {},
+          "patternProperties": {
+            ".*": { "$ref": "#/definitions/polygonItem" }
+          }
+        }
+      }
+    },
+    "polygonItem": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string" },
+        "name": { "type": ["string", "null"] },
+        "color": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["random", "rgb"]
+            },
+            "alpha": { "type": "number" },
+            "assignments": {
+              "type": "object",
+              "properties": {},
+              "patternProperties": {
+                ".*": { "$ref": "#/definitions/polygonColor" }
+              }
+            }
+          }
+        },
+        "material": { "type": "string" },
+        "outlineColor": { "type": "string" },
+        "outlineWidth": { "type": "number" }
+      }
+    },
+    "polygonColor": {
+      "type": "object",
+      "properties": {
+        "field": { "type": "string" },
+        "hexValue": { "type": "string" }
+      }
+    },
+    "rasters": {
+      "type": "object",
+      "properties": {
+        "exists": { "type": "boolean" },
+        "rasterLayers": {
+          "type": "object",
+          "properties": {},
+          "patternProperties": {
+            ".*": { "$ref": "#/definitions/rasterLayer" }
+          }
+        }
+      }
+    },
+    "rasterLayer": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "url": { "type": "string" },
+        "xMin": { "type": "number" },
+        "yMin": { "type": "number" },
+        "xMax": { "type": "number" },
+        "yMax": { "type": "number" },
+        "alpha": { "type": "number" },
+        "show": { "type": "boolean" },
+        "hasDropdown": { "type": "boolean" }
+      }
+    },
+    "billboards": {
+      "type": "object",
+      "properties": {
+        "exists": { "type": "boolean" },
+        "billboardLayers": {
+          "type": "object",
+          "properties": {},
+          "patternProperties": {
+            ".*": { "$ref": "#/definitions/billboardLayer" }
+          }
+        }
+      }
+    },
+    "billboardLayer": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string" },
+        "name": { "type": "string" },
+        "url": { "type": "string" },
+        "position": {
+          "type": "object",
+          "properties": {
+            "x": { "type": "string" },
+            "y": { "type": "string" },
+            "z": { "type": "number" }
+          }
+        },
+        "NearFarScalar": {
+          "type": "object",
+          "properties": {
+            "minElevation": { "type": "number" },
+            "maxElevation": { "type": "number" },
+            "minScale": { "type": "number" },
+            "maxScale": { "type": "number" }
+          }
+        }
+      }
+    }
+  }
+}

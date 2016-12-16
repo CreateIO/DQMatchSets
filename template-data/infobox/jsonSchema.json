@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "infoboxContent": {
+      "type": "object",
+      "properties": {},
+      "patternProperties": {
+        ".*": {
+          "type": "object",
+          "properties": {
+            "referenceid": {
+              "type": "string",
+              "enum": ["UNIQUEID", "OBJECTID", "property_i", "property_id", null]
+            },
+            "propertyid": {
+              "type": ["string", "null"],
+              "enum": ["UNIQUEID", "OBJECTID", "property_i", "property_id", null]
+            },
+            "offset": { "type": ["integer", "null"] },
+            "fieldtype": {
+              "type": "string",
+              "enum": ["residential", "neighborhoods", "retail", "retailsites", "business"]
+            },
+            "photos": {
+              "type": "object",
+              "properties": {
+                "active": { "type": "boolean" },
+                "value": { "type": ["string", "null"] }
+              }
+            },
+            "pdfs": {
+              "type": "object",
+              "properties": {
+                "active": { "type": "boolean" },
+                "value": { "type": ["string", "null"] }
+              }
+            },
+            "viewDetailsBox": { "type": "boolean" },
+            "wdcepDetailsBox": { "type": "boolean" },
+            "header": { "type": "string" },
+            "boxValues": {
+              "type": "object",
+              "properties": {},
+              "patternProperties": {
+                ".*": {
+                  "type": "object",
+                  "properties": {
+                    "value": { "type": ["string", "null"] },
+                    "display": { "type": "string" },
+                    "fieldtype": {
+                      "type": "string",
+                      "enum": ["text", "longText", "number", "number-with-cents", "number-no-cents", "url", "email", "hardAttr", "meta"]
+                    },
+                    "units": {
+                      "type": ["string", "null"]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "infoboxContent"
+  ]
+}

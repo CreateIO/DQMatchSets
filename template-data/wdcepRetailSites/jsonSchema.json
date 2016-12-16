@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schena.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "wdcepRetailSites": {
+      "type": "object",
+      "properties": {},
+      "patternProperties": {
+        ".*": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["tile", "single"]
+            },
+            "title": { "type": "string" },
+            "tmsProvider": { "type": "string" },
+            "tmsLayer": { "type": "string" },
+            "tmsLayerName": { "type": "string" },
+            "url": { "type": "string" },
+            "extension": { "type": "string" },
+            "coords": {
+              "type": "object",
+              "properties": {
+                "xMin": { "type": "number" },
+                "yMin": { "type": "number" },
+                "xMax": { "type": "number" },
+                "yMax": { "type": "number" }
+              },
+              "required": [
+                "xMin",
+                "yMin",
+                "xMax",
+                "yMax"
+              ]
+            },
+            "tileWidth": { "type": "number" },
+            "tileHeight": { "type": "number" },
+            "minimumLevel": { "type": "number" },
+            "maximumLevel": { "type": "number" },
+            "alpha": { "type": "number" },
+            "flag": { "type": "boolean" },
+            "flag1": { "type": "boolean" },
+            "flag2": { "type": "boolean" }
+          },
+          "additionalProperties": false
+        }
+      }
+    }
+  },
+  "required": [
+    "wdcepRetailSites"
+  ]
+}

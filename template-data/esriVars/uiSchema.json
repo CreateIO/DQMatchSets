@@ -1,0 +1,22 @@
+{
+  "ui:field": "container",
+  "ui:options": {
+    "key": "allTheItems"
+  },
+  "allTheItems": {
+    "ui:field": "cardList",
+    "ui:options": {
+      "name": "variable"
+    },
+    "patternProperties": {
+      ".*": {
+        "ui:field": "flexibleObject",
+        "patternProperties": {
+          ".*": {
+            "ui:field": "null"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,4 +1,5 @@
 {
+    "$template": "layerMenu",
     "allTheLayers": {
         "Facilities - Hospitals": {
             "category": "7",
@@ -3268,7 +3269,7 @@
             "permissions": null,
             "redact": false,
             "title": "Planning"
-        },     
+        },
         "CityInfo1": {
             "order": 0,
             "parentTab": "CityInfo",
