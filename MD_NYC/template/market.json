@@ -11,11 +11,14 @@
       "hasPdf": "false",
       "detailPane": "details-scroll-nyc",
       "model3dTiles": true,
-      "model3dTileSrc": "https://s3.amazonaws.com/create-common/3dtiles/nyc2/tileset.json",
-      "model3DTiles": {
-        "buildingModels": {"src": "https://s3.amazonaws.com/create-common/3dtiles/nyc3/tileset.json",
+      "model3dTileSrc": "https://s3.amazonaws.com/create-common/3dtiles/nyc3/tileset.json",
+      "model3DContent": {
+        "buildingModels": {"url": "https://s3.amazonaws.com/create-common/3dtiles/nyc3/tileset.json",
+          "type": "3DTileset",
           "active": true
-                }    
+                },
+        "WalMart_77": {"url": "https://s3.amazonaws.com/models-dc/", "type": "cgltf"},
+        "3505_t": {"url": "https://s3.amazonaws.com/models-dc/", "type": "cgltf"}  
       },
       "camera": [
         {
