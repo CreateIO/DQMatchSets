@@ -409,7 +409,77 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
         },
-
+        "Projected Population Growth": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Projected Population Growth",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_PopGrowth"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Projected Population Growth'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_PopGrowth"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Projected Population Growth (2016 - 2021 by Neighborhood)",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "More than 150%",
+                        "boxStyle": "background:#b84178",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "100.1% to 150%",
+                        "boxStyle": "background:#c66793",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "50% to 100%",
+                        "boxStyle": "background:#d48dae",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "0% to 50%",
+                        "boxStyle": "background:#e3b3c9",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "ESRI",
+                "sourceURL": "www.esri.gov",
+                "type": "singleColumn"            
+            },
+            "menuSection": "Development3",
+            "mouseoverName": "Projected Population Growth",
+            "order": 2,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
+        },
 
 
         "Inclusionary Housing": {
