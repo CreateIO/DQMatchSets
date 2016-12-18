@@ -635,7 +635,82 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
         },
-
+        "Projected Households Growth": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Projected Households Growth",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HouseholdsGrowth"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Projected Households Growth'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HouseholdsGrowth"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Projected Households Growth (2016 - 2021 by Neighborhood)",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "200% to 314%",
+                        "boxStyle": "background:#5ab4ac",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "100% to 200%",
+                        "boxStyle": "background:#89caa5",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "5% to 100%",
+                        "boxStyle": "background:#b7df9f",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "-5% to 5%",
+                        "boxStyle": "background:#e6f598",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "-30% to -5%",
+                        "boxStyle": "background:#9aa173",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "ESRI",
+                "sourceURL": "www.esri.gov",
+                "type": "singleColumn"            
+            },
+            "menuSection": "Development3",
+            "mouseoverName": "Projected Households Growth",
+            "order": 2,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
+        },
 
 
 
