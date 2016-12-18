@@ -326,8 +326,6 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
         },
-
-
         "Projected Home Value Growth": {
             "category": "6",
             "denyList": {
@@ -561,6 +559,85 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
         },
+        "Projected Housing Units Growth": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Projected Housing Units Growth",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HousingUnits"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Projected Housing Units Growth'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HousingUnits"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Projected Housing Units Growth (2016 - 2021 by Neighborhood)",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "6% to 9%",
+                        "boxStyle": "background:#895372",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "4% to 6%",
+                        "boxStyle": "background:#8f7289",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "2% to 4%",
+                        "boxStyle": "background:#9692a0",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "0% to 2%",
+                        "boxStyle": "background:#9cb1b7",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "0%",
+                        "boxStyle": "background:#a2d0ce",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "ESRI",
+                "sourceURL": "www.esri.gov",
+                "type": "singleColumn"            
+            },
+            "menuSection": "Development3",
+            "mouseoverName": "Projected Housing Units Growth",
+            "order": 3,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
+        },
+
+
+
 
         "Inclusionary Housing": {
             "category": "6",

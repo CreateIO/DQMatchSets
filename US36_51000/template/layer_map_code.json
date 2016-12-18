@@ -228,7 +228,44 @@
                 "exists": false
             }
         },
-
+        "ny_HousingUnits": {
+            "name": "ny_HousingUnits",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_HousingUnits",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_HousingUnits@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.2583694458008,
+                    "yMin": 440.4940147399902,
+                    "xMax": -73.6972274780273,
+                    "yMax": 40.9176330566406
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
 
 
 
