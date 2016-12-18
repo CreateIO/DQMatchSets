@@ -168,7 +168,7 @@
             },
             "tms": {
                 "tmsLayerName": "ny_PopGrowth",
-                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:nny_PopGrowth@EPSG:900913@png",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_PopGrowth@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.2583694458008,
@@ -190,6 +190,49 @@
                 "exists": false
             }
         },
+        "ny_HH_IncomeGrowth": {
+            "name": "ny_HH_IncomeGrowth",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_HH_IncomeGrowth",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_HH_IncomeGrowth@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.2583770751953,
+                    "yMin": 40.4940338134766,
+                    "xMax": -73.6972427368164,
+                    "yMax": 40.9176330566406
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "GWC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+
+
+
+
+        
         "ny_HistoricLM": {
             "name": "ny_HistoricLM",
             "removeName": null,

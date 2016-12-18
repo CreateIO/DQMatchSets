@@ -399,7 +399,7 @@
             },
             "menuSection": "Development3",
             "mouseoverName": "Projected Home Value Growth",
-            "order": 1,
+            "order": 4,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
@@ -449,7 +449,7 @@
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "100.1% to 150%",
+                        "boxDescription": "100% to 150%",
                         "boxStyle": "background:#c66793",
                         "imageUrl": null
                     },
@@ -470,12 +470,97 @@
             },
             "menuSection": "Development3",
             "mouseoverName": "Projected Population Growth",
-            "order": 2,
+            "order": 5,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
         },
-
+        "Projected Household Income Growth": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Projected Household Income Growth",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HH_IncomeGrowth"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Projected Household Income Growth'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HH_IncomeGrowth"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Projected Household Income Growth (2016 - 2021 by Neighborhood)",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "300% to 400%",
+                        "boxStyle": "background:#ed7a49",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "200% to 300%",
+                        "boxStyle": "background:#e8924c",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "100% to 200%",
+                        "boxStyle": "background:#e3aa50",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "5% to 100%",
+                        "boxStyle": "background:#dec153",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "-5% to 5%",
+                        "boxStyle": "background:#d9d956",
+                        "imageUrl": null
+                    },
+                    "item6": {
+                        "boxDescription": "-100% to -5%",
+                        "boxStyle": "background:#97b89d",
+                        "imageUrl": null
+                    },
+                    "item7": {
+                        "boxDescription": "-151% to -100%",
+                        "boxStyle": "background:#5597bd",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "ESRI",
+                "sourceURL": "www.esri.gov",
+                "type": "singleColumn"            
+            },
+            "menuSection": "Development3",
+            "mouseoverName": "Projected Household Income Growth",
+            "order": 1,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
+        },
 
         "Inclusionary Housing": {
             "category": "6",
