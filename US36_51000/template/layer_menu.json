@@ -100,7 +100,7 @@
                     },
                     "item10": {
                         "boxDescription": "Parking Facilities",
-                        "boxStyle": "background:#f4a99b",
+                        "boxStyle": "background:#f4a99",
                         "imageUrl": null
                     },
                     "item11": {
@@ -366,7 +366,7 @@
                 "description": "Projected Home Value Growth (2016 - 2021 by Neighborhood)",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "60% to 80$",
+                        "boxDescription": "60% to 80%",
                         "boxStyle": "background:#405067",
                         "imageUrl": null
                     },
