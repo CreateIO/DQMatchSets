@@ -10,15 +10,13 @@
       "infoboxTemplate": "infobox",
       "hasPdf": "false",
       "detailPane": "details-scroll-nyc",
-      "model3dTiles": true,
-      "model3dTileSrc": "https://s3.amazonaws.com/create-common/3dtiles/nyc3/tileset.json",
-      "model3DContent": {
+      "model3dContent": {
         "buildingModels": {"url": "https://s3.amazonaws.com/create-common/3dtiles/nyc3/tileset.json",
-          "type": "3DTileset",
-          "active": true
-                },
-        "WalMart_77": {"url": "https://s3.amazonaws.com/models-dc/", "type": "cgltf"},
-        "3505_t": {"url": "https://s3.amazonaws.com/models-dc/", "type": "cgltf"}  
+           "type": "3dTileset", "active": true, "role": "buildingModels", "initialState": "active", "permissions": null },
+        "WalMart_77": {"url": "https://s3.amazonaws.com/models-dc/", "type": "cgltf",
+           "role": "customModels", "initialState": false, "permissions": null},
+        "3505_t": {"url": "https://s3.amazonaws.com/models-dc/", "type": "cgltf",
+           "role": "customModels", "initialState": false, "permissions": null}  
       },
       "camera": [
         {
