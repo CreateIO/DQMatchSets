@@ -51,59 +51,59 @@
             "legendContents": {
                 "description": "",
                 "listItemsLeft": {
-                    "item1": {
+                    "item01": {
                         "boxDescription": "One & Two Family",
                         "boxStyle": "background:#acd8ec",
                         "imageUrl": null
                     },
-                    "item2": {
+                    "item02": {
                         "boxDescription": "Multi-Family Walk-up",
                         "boxStyle": "background:#6f94d7",
                         "imageUrl": null
                     },
-                    "item3": {
+                    "item03": {
                         "boxDescription": "Multi-family Elevator",
                         "boxStyle": "background:#1f356c",
                         "imageUrl": null
                     },
-                    "item4": {
+                    "item04": {
                         "boxDescription": "Mixed Residential & Commercial",
                         "boxStyle": "background:#eb8232",
                         "imageUrl": null
                     },
-                    "item5": {
+                    "item05": {
                         "boxDescription": "Commercial & Office",
                         "boxStyle": "background:#fadd57",
                         "imageUrl": null
                     },
-                    "item6": {
+                    "item06": {
                         "boxDescription": "Industrial & Manufacturing",
                         "boxStyle": "background:#96335e",
                         "imageUrl": null
                     }
                 },
                 "listItemsRight": {
-                    "item7": {
+                    "item01": {
                         "boxDescription": "Transportation & Utility",
                         "boxStyle": "background:#d8676f",
                         "imageUrl": null
                     },
-                    "item8": {
+                    "item02": {
                         "boxDescription": "Public Facilities & Institutions",
                         "boxStyle": "background:#b599c9",
                         "imageUrl": null
                     },
-                    "item9": {
+                    "item03": {
                         "boxDescription": "Open Space & Outdoor Recreation",
                         "boxStyle": "background:#93d08d",
                         "imageUrl": null
                     },
-                    "item10": {
+                    "item04": {
                         "boxDescription": "Parking Facilities",
-                        "boxStyle": "background:#f4a99",
+                        "boxStyle": "background:#f4a99b",
                         "imageUrl": null
                     },
-                    "item11": {
+                    "item05": {
                         "boxDescription": "Vacant Land",
                         "boxStyle": "background:#cdcdcd",
                         "imageUrl": null
@@ -1983,114 +1983,6 @@
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/WP.png"
-        },
-        "Property Use Types (GS)": {
-            "category": "6",
-            "denyList": {
-                "denyList1": null
-            },
-            "denyToggle": false,
-            "displayName": "Proerty Use Types",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "mappluto"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'NY Data: Property Use Types"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "mappluto"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 6,
-            "isActive": false,
-            "layerUsed": true,
-            "legendContents": {
-                "description": "Property use types",
-                "listItemsLeft": {
-                    "item1": {
-                        "boxDescription": "One & Two Family",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    },
-                    "item2": {
-                        "boxDescription": "Multi-Family Walk-up",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    },
-                    "item3": {
-                        "boxDescription": "Multi-family Elevator",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    },
-                    "item4": {
-                        "boxDescription": "Mixed Residential & Commercial",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    },
-                    "item5": {
-                        "boxDescription": "Commercial & Office",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    },
-                    "item6": {
-                        "boxDescription": "Industrial & Manufacturing",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    }
-                },
-                "listItemsRight": {
-                    "item1": {
-                        "boxDescription": "Transportation & Utility",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    },
-                    "item2": {
-                        "boxDescription": "Public Facilities & Institutions",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    },
-                    "item3": {
-                        "boxDescription": "Open Space & Outdoor Recreation",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    },
-                    "item4": {
-                        "boxDescription": "Parking Facilities",
-                        "boxStyle": "background:#f4a99b",
-                        "imageUrl": null
-                    },
-                    "item5": {
-                        "boxDescription": "Vacant Land",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    }
-                },
-                "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
-                "type": "doubleColumn"
-            },
-            "menuSection": "",
-            "mouseoverName": "Property Use Types",
-            "order": 0,
-            "subCategory": "3",
-            "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LU.png"
         },
         "Empowerment Zones": {
             "category": "6",
