@@ -2055,27 +2055,27 @@
                     }
                 },
                 "listItemsRight": {
-                    "item7": {
+                    "item1": {
                         "boxDescription": "Transportation & Utility",
                         "boxStyle": "background:#1bf198",
                         "imageUrl": null
                     },
-                    "item8": {
+                    "item2": {
                         "boxDescription": "Public Facilities & Institutions",
                         "boxStyle": "background:#1bf198",
                         "imageUrl": null
                     },
-                    "item9": {
+                    "item3": {
                         "boxDescription": "Open Space & Outdoor Recreation",
                         "boxStyle": "background:#1bf198",
                         "imageUrl": null
                     },
-                    "item91": {
+                    "item4": {
                         "boxDescription": "Parking Facilities",
                         "boxStyle": "background:#f4a99b",
                         "imageUrl": null
                     },
-                    "item92": {
+                    "item5": {
                         "boxDescription": "Vacant Land",
                         "boxStyle": "background:#1bf198",
                         "imageUrl": null
