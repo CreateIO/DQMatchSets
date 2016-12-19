@@ -513,38 +513,33 @@
                 "description": "Projected Household Income Growth (2016 - 2021 by Neighborhood)",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "300% to 400%",
+                        "boxDescription": "15% to 20%",
                         "boxStyle": "background:#ed7a49",
                         "imageUrl": null
                     },
                     "item2": {
-                        "boxDescription": "200% to 300%",
-                        "boxStyle": "background:#e8924c",
+                        "boxDescription": "10% to 15%",
+                        "boxStyle": "background:#eda153",
                         "imageUrl": null
                     },
                     "item3": {
-                        "boxDescription": "100% to 200%",
-                        "boxStyle": "background:#e3aa50",
+                        "boxDescription": "5% to 10%",
+                        "boxStyle": "background:#e3bd68",
                         "imageUrl": null
                     },
                     "item4": {
-                        "boxDescription": "5% to 100%",
-                        "boxStyle": "background:#dec153",
+                        "boxDescription": "0% to 5%",
+                        "boxStyle": "background:#d9d97d",
                         "imageUrl": null
                     },
                     "item5": {
-                        "boxDescription": "-5% to 5%",
-                        "boxStyle": "background:#d9d956",
+                        "boxDescription": "-5% to 0%",
+                        "boxStyle": "background:#adc392",
                         "imageUrl": null
                     },
                     "item6": {
-                        "boxDescription": "-100% to -5%",
-                        "boxStyle": "background:#97b89d",
-                        "imageUrl": null
-                    },
-                    "item7": {
-                        "boxDescription": "-151% to -100%",
-                        "boxStyle": "background:#5597bd",
+                        "boxDescription": "-10% to -5%",
+                        "boxStyle": "background:#81ada7",
                         "imageUrl": null
                     }
                 },
