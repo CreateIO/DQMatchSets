@@ -16,7 +16,7 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "PLUTO"
+                            "param1": "ny_LandUse"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -38,7 +38,7 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "PLUTO"
+                            "param1": "ny_LandUse"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -51,59 +51,59 @@
             "legendContents": {
                 "description": "",
                 "listItemsLeft": {
-                    "item1": {
+                    "item01": {
                         "boxDescription": "One & Two Family",
                         "boxStyle": "background:#acd8ec",
                         "imageUrl": null
                     },
-                    "item2": {
+                    "item02": {
                         "boxDescription": "Multi-Family Walk-up",
                         "boxStyle": "background:#6f94d7",
                         "imageUrl": null
                     },
-                    "item3": {
+                    "item03": {
                         "boxDescription": "Multi-family Elevator",
                         "boxStyle": "background:#1f356c",
                         "imageUrl": null
                     },
-                    "item4": {
+                    "item04": {
                         "boxDescription": "Mixed Residential & Commercial",
                         "boxStyle": "background:#eb8232",
                         "imageUrl": null
                     },
-                    "item5": {
+                    "item05": {
                         "boxDescription": "Commercial & Office",
                         "boxStyle": "background:#fadd57",
                         "imageUrl": null
                     },
-                    "item6": {
+                    "item06": {
                         "boxDescription": "Industrial & Manufacturing",
                         "boxStyle": "background:#96335e",
                         "imageUrl": null
                     }
                 },
                 "listItemsRight": {
-                    "item7": {
+                    "item01": {
                         "boxDescription": "Transportation & Utility",
-                        "boxStyle": "background:#cac5ea",
+                        "boxStyle": "background:#d8676f",
                         "imageUrl": null
                     },
-                    "item8": {
+                    "item02": {
                         "boxDescription": "Public Facilities & Institutions",
-                        "boxStyle": "background:#a394bf",
+                        "boxStyle": "background:#b599c9",
                         "imageUrl": null
                     },
-                    "item9": {
+                    "item03": {
                         "boxDescription": "Open Space & Outdoor Recreation",
                         "boxStyle": "background:#93d08d",
                         "imageUrl": null
                     },
-                    "item10": {
+                    "item04": {
                         "boxDescription": "Parking Facilities",
-                        "boxStyle": "background:#b3abd4",
+                        "boxStyle": "background:#f4a99b",
                         "imageUrl": null
                     },
-                    "item11": {
+                    "item05": {
                         "boxDescription": "Vacant Land",
                         "boxStyle": "background:#cdcdcd",
                         "imageUrl": null
@@ -115,7 +115,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Property Use Types",
-            "order": 0,
+            "order": 6,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LU.png"
@@ -204,7 +204,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Special Purpose Districts & Sub-Districts",
-            "order": 0,
+            "order": 8,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/SPD.png"
@@ -260,7 +260,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Lower Density Growth Management Areas",
-            "order": 0,
+            "order": 5,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LowDen.png"
@@ -321,11 +321,394 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Zoning Map Amendments",
-            "order": 0,
+            "order": 93,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
         },
+        "Projected Home Value Growth": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Projected Home Value Growth",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HomeValueGrowth"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Projected Home Value Growth'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HomeValueGrowth"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Projected Home Value Growth (2016 - 2021 by Neighborhood)",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "60% to 80%",
+                        "boxStyle": "background:#405067",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "40% to 60%",
+                        "boxStyle": "background:#4a6b81",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "20% to 40%",
+                        "boxStyle": "background:#55879b",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "2% to 20%",
+                        "boxStyle": "background:#60a2b5",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "-2% to 2%",
+                        "boxStyle": "background:#6bbed0",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "ESRI",
+                "sourceURL": "www.esri.gov",
+                "type": "singleColumn"            
+            },
+            "menuSection": "Development3",
+            "mouseoverName": "Projected Home Value Growth",
+            "order": 4,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HomeValue.png"
+        },
+        "Projected Population Growth": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Projected Population Growth",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_PopGrowth"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Projected Population Growth'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_PopGrowth"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Projected Population Growth (2016 - 2021 by Neighborhood)",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "More than 150%",
+                        "boxStyle": "background:#b84178",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "100% to 150%",
+                        "boxStyle": "background:#c66793",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "50% to 100%",
+                        "boxStyle": "background:#d48dae",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "0% to 50%",
+                        "boxStyle": "background:#e3b3c9",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "ESRI",
+                "sourceURL": "www.esri.gov",
+                "type": "singleColumn"            
+            },
+            "menuSection": "Development3",
+            "mouseoverName": "Projected Population Growth",
+            "order": 5,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/PopGrowth.png"
+        },
+        "Projected Household Income Growth": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Projected Household Income Growth",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HH_IncomeGrowth"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Projected Household Income Growth'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HH_IncomeGrowth"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Projected Household Income Growth (2016 - 2021 by Neighborhood)",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "15% to 20%",
+                        "boxStyle": "background:#ed7a49",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "10% to 15%",
+                        "boxStyle": "background:#eda153",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "5% to 10%",
+                        "boxStyle": "background:#e3bd68",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "0% to 5%",
+                        "boxStyle": "background:#d9d97d",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "-5% to 0%",
+                        "boxStyle": "background:#adc392",
+                        "imageUrl": null
+                    },
+                    "item6": {
+                        "boxDescription": "-10% to -5%",
+                        "boxStyle": "background:#81ada7",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "ESRI",
+                "sourceURL": "www.esri.gov",
+                "type": "singleColumn"            
+            },
+            "menuSection": "Development3",
+            "mouseoverName": "Projected Household Income Growth",
+            "order": 1,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/IncomeGrowth.png"
+        },
+        "Projected Housing Units Growth": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Projected Housing Units Growth",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HousingUnits"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Projected Housing Units Growth'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HousingUnits"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Projected Housing Units Growth (2016 - 2021 by Neighborhood)",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "6% to 9%",
+                        "boxStyle": "background:#895372",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "4% to 6%",
+                        "boxStyle": "background:#8f7289",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "2% to 4%",
+                        "boxStyle": "background:#9692a0",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "0% to 2%",
+                        "boxStyle": "background:#9cb1b7",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "0%",
+                        "boxStyle": "background:#a2d0ce",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "ESRI",
+                "sourceURL": "www.esri.gov",
+                "type": "singleColumn"            
+            },
+            "menuSection": "Development3",
+            "mouseoverName": "Projected Housing Units Growth",
+            "order": 3,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HousingUnits.png"
+        },
+        "Projected Households Growth": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Projected Households Growth",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HouseholdsGrowth"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Projected Households Growth'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_HouseholdsGrowth"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Projected Households Growth (2016 - 2021 by Neighborhood)",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "200% to 314%",
+                        "boxStyle": "background:#5ab4ac",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "100% to 200%",
+                        "boxStyle": "background:#89caa5",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "5% to 100%",
+                        "boxStyle": "background:#b7df9f",
+                        "imageUrl": null
+                    },
+                    "item4": {
+                        "boxDescription": "-5% to 5%",
+                        "boxStyle": "background:#e6f598",
+                        "imageUrl": null
+                    },
+                    "item5": {
+                        "boxDescription": "-30% to -5%",
+                        "boxStyle": "background:#9aa173",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "ESRI",
+                "sourceURL": "www.esri.gov",
+                "type": "singleColumn"            
+            },
+            "menuSection": "Development3",
+            "mouseoverName": "Projected Households Growth",
+            "order": 2,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HouseholdGrowth.png"
+        },
+
+
+
         "Inclusionary Housing": {
             "category": "6",
             "denyList": {
@@ -382,7 +765,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Inclusionary Housing",
-            "order": 0,
+            "order": 3,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/IncHou.png"
@@ -453,7 +836,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Sidewalk Cafes",
-            "order": 0,
+            "order": 7,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/SW.png"
@@ -617,7 +1000,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Commercial Districts Overlay",
-            "order": 0,
+            "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/CDO.png"
@@ -729,7 +1112,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Business Improvement Districts",
-            "order": 0,
+            "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/BIDs.png"
@@ -785,7 +1168,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Limited Height Zoning Districts",
-            "order": 0,
+            "order": 4,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LHD.png"
@@ -917,7 +1300,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Waterfront Revitalization Program",
-            "order": 0,
+            "order": 4,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/WRP.png"
@@ -973,7 +1356,7 @@
             },
             "menuSection": "LandUse3",
             "mouseoverName": "Coastal Zone Boundary",
-            "order": 0,
+            "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/CZB.png"
@@ -1080,7 +1463,7 @@
             },
             "menuSection": "LandUse3",
             "mouseoverName": "Hurricane Evacuation Zones",
-            "order": 0,
+            "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HEZ.png"
@@ -1170,7 +1553,7 @@
             },
             "menuSection": "LandUse6",
             "mouseoverName": "Hurricane Inundation Zones",
-            "order": 0,
+            "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HIZ.png"
@@ -1236,7 +1619,7 @@
             },
             "menuSection": "LandUse6",
             "mouseoverName": "100-Year Floodplain (2020)",
-            "order": 0,
+            "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/100yrFP.png"
@@ -1292,7 +1675,7 @@
             },
             "menuSection": "LandUse4",
             "mouseoverName": "Historic Landmarks",
-            "order": 0,
+            "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HLM.png"
@@ -1348,7 +1731,7 @@
             },
             "menuSection": "LandUse4",
             "mouseoverName": "Historic Districts",
-            "order": 0,
+            "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HD.png"
@@ -1458,9 +1841,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse3",
+            "menuSection": "CityInfo1",
             "mouseoverName": "Public Use Microdata Areas",
-            "order": 0,
+            "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/PUMAs.png"
@@ -1516,7 +1899,7 @@
             },
             "menuSection": "LandUse3",
             "mouseoverName": "Waterfront Access Plan",
-            "order": 0,
+            "order": 3,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/WAP.png"
@@ -1591,118 +1974,10 @@
             },
             "menuSection": "LandUse3",
             "mouseoverName": "Waterfront Areas",
-            "order": 0,
+            "order": 91,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/WP.png"
-        },
-        "Property Use Types (GS)": {
-            "category": "6",
-            "denyList": {
-                "denyList1": null
-            },
-            "denyToggle": false,
-            "displayName": "Proerty Use Types",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "mappluto"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'NY Data: Property Use Types"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "mappluto"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 6,
-            "isActive": false,
-            "layerUsed": true,
-            "legendContents": {
-                "description": "Property use types",
-                "listItemsLeft": {
-                    "item1": {
-                        "boxDescription": "One & Two Family",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    },
-                    "item2": {
-                        "boxDescription": "Multi-Family Walk-up",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    },
-                    "item3": {
-                        "boxDescription": "Multi-family Elevator",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    },
-                    "item4": {
-                        "boxDescription": "Mixed Residential & Commercial",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    },
-                    "item5": {
-                        "boxDescription": "Commercial & Office",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    },
-                    "item6": {
-                        "boxDescription": "Industrial & Manufacturing",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    }
-                },
-                "listItemsRight": {
-                    "item7": {
-                        "boxDescription": "Transportation & Utility",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    },
-                    "item8": {
-                        "boxDescription": "Public Facilities & Institutions",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    },
-                    "item9": {
-                        "boxDescription": "Open Space & Outdoor Recreation",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    },
-                    "item10": {
-                        "boxDescription": "Parking Facilities",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    },
-                    "item11": {
-                        "boxDescription": "Vacant Land",
-                        "boxStyle": "background:#1bf198",
-                        "imageUrl": null
-                    }
-                },
-                "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
-                "type": "doubleColumn"
-            },
-            "menuSection": "",
-            "mouseoverName": "Property Use Types",
-            "order": 0,
-            "subCategory": "3",
-            "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LU.png"
         },
         "Empowerment Zones": {
             "category": "6",
@@ -1792,7 +2067,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Empowerment Zones",
-            "order": 0,
+            "order": 3,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/EmpZ.png"
@@ -1837,7 +2112,73 @@
                 "description": "A FRESH food store is a full-line grocery store, established in underserved neighborhoods through zoning incentives, that promotes the sale of fresh food products.",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Descretionary Tax Incentives",
+                        "boxDescription": "Discretionary Tax Incentives",
+                        "boxStyle": "background:#fbc709",
+                        "imageUrl": null
+                    },
+                    "item2": {
+                        "boxDescription": "Zoning & Disretionary Tax Incentives",
+                        "boxStyle": "background:#fb9709",
+                        "imageUrl": null
+                    },
+                    "item3": {
+                        "boxDescription": "Zoning Incentives",
+                        "boxStyle": "background:#fb5a09",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse1",
+            "mouseoverName": "Fresh Food Stores Zoning",
+            "order": 2,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/FOOD.png"
+        },
+        "Fresh Food Stores Zoning": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Fresh Food Stores Zoning",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_FreshFoodStoresZoning"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'NY Data: Fresh Food Stores Zoning'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_FreshFoodStoresZoning"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "A FRESH food store is a full-line grocery store, established in underserved neighborhoods through zoning incentives, that promotes the sale of fresh food products.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Discretionary Tax Incentives",
                         "boxStyle": "background:#fbc709",
                         "imageUrl": null
                     },
@@ -1858,7 +2199,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Fresh Food Stores Zoning",
-            "order": 0,
+            "order": 4,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/FOOD.png"
@@ -1900,7 +2241,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "A FRESH food store is a full-line grocery store, established in underserved neighborhoods through zoning incentives, that promotes the sale of fresh food products.",
+                "description": "The New York City Housing Authority’s (NYCHA) Office of Resident Economic Empowerment & Sustainability (REES) coordinates services with local partners to support residents to increase their income and assets.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "NYCHA Zones",
@@ -1914,7 +2255,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "NYCHA Community Engagement & Partnership Zones",
-            "order": 0,
+            "order": 5,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/NYCHA.png"
@@ -1970,7 +2311,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Transit Zones",
-            "order": 0,
+            "order": 9,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/TranZone.png"
@@ -2026,7 +2367,7 @@
             },
             "menuSection": "Incentives1",
             "mouseoverName": "Community Parks Initiative Zones",
-            "order": 0,
+            "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/CPIZ.png"
@@ -2481,7 +2822,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "New York City Bike Data including city owned racks & shelters & CityBike stations. Zoom in to see storage capacity.",
+                "description": "New York City Bike Data including city owned racks & shelters & CityBike stations. Zoom in to see bike storage capacity.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Bike Shelters",
@@ -2581,7 +2922,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Zoning Districts",
-            "order": 0,
+            "order": 92,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/Z.png"
@@ -2589,18 +2930,25 @@
     },
     "allTheSections": {
         "CityInfo1": {
-            "order": 0,
+            "order": 2,
             "parentTab": "CityInfo",
             "permissions": null,
             "redact": false,
             "title": "Geography"
         },
         "CityInfo2": {
-            "order": 0,
+            "order": 1,
             "parentTab": "CityInfo",
             "permissions": null,
             "redact": false,
             "title": "Amenities"
+        },
+        "CityInfo3": {
+            "order": 3,
+            "parentTab": "CityInfo",
+            "permissions": null,
+            "redact": false,
+            "title": "Neighborhoods"
         },
         "Development1": {
             "order": 0,
@@ -2656,7 +3004,7 @@
             "parentTab": "LandUse",
             "permissions": null,
             "redact": false,
-            "title": "Historic Districts"
+            "title": "Historic Preservation"
         },
         "LandUse5": {
             "order": 4,
