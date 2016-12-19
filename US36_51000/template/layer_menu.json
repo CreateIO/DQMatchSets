@@ -85,12 +85,12 @@
                 "listItemsRight": {
                     "item7": {
                         "boxDescription": "Transportation & Utility",
-                        "boxStyle": "background:#cac5ea",
+                        "boxStyle": "background:#d8676f",
                         "imageUrl": null
                     },
                     "item8": {
                         "boxDescription": "Public Facilities & Institutions",
-                        "boxStyle": "background:#a394bf",
+                        "boxStyle": "background:#b599c9",
                         "imageUrl": null
                     },
                     "item9": {
@@ -100,7 +100,7 @@
                     },
                     "item10": {
                         "boxDescription": "Parking Facilities",
-                        "boxStyle": "background:#b3abd4",
+                        "boxStyle": "background:#f4a99b",
                         "imageUrl": null
                     },
                     "item11": {

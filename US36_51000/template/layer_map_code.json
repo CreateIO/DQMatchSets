@@ -19,10 +19,10 @@
         "url": "https://s3.amazonaws.com/models-dc/img_tilesets/PLUTO",
         "extension": "png",
         "coords": {
-          "xMin": -74.28,
-          "yMin": 40.48,
+          "xMin": -74.27,
+          "yMin": 40.49,
           "xMax": -73.69,
-          "yMax": 40.94
+          "yMax": 40.93
         },
         "tileWidth": 256,
         "tileHeight": 256,
@@ -304,9 +304,6 @@
                 "exists": false
             }
         },
-
-
-        
         "ny_HistoricLM": {
             "name": "ny_HistoricLM",
             "removeName": null,
@@ -828,44 +825,6 @@
                 "tileWidth": 256,
                 "tileHeight": 256,
                 "minimumLevel": 1,
-                "maximumLevel": 20,
-                "alpha": 1,
-                "tmsStyle": "OGC"
-            },
-            "rasters": {
-                "exists": false
-            },
-            "billboards": {
-                "exists": false
-            }
-        },
-        "mappluto": {
-            "name": "mappluto",
-            "removeName": null,
-            "url": null,
-            "cartographic": false,
-            "id": {
-                "exists": false
-            },
-            "labels": {
-                "exists": false
-            },
-            "polygons": {
-                "exists": false
-            },
-            "tms": {
-                "tmsLayerName": "mappluto",
-                "url": "https://geodata.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:mappluto@EPSG:900913@png",
-                "extension": "png",
-                "coords": {
-                    "xMin": -74.0422,
-                    "yMin": 40.5658,
-                    "xMax": -73.6985,
-                    "yMax": 40.9145
-                },
-                "tileWidth": 256,
-                "tileHeight": 256,
-                "minimumLevel": 18,
                 "maximumLevel": 20,
                 "alpha": 1,
                 "tmsStyle": "OGC"
