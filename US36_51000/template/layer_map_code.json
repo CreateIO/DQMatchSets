@@ -1,7 +1,7 @@
 {
     "layerjson": {
-    "PLUTO": {
-      "name": "PLUTO",
+    "ny_LandUse": {
+      "name": "ny_LandUse",
       "removeName": null,
       "url": null,
       "cartographic": false,
@@ -15,8 +15,8 @@
         "exists": false
       },
       "tms": {
-        "tmsLayerName": "PLUTO",
-        "url": "https://s3.amazonaws.com/models-dc/img_tilesets/PLUTO",
+        "tmsLayerName": "ny_LandUse",
+        "url": "https://s3.amazonaws.com/models-dc/img_tilesets/PLUTO/ny_LandUse",
         "extension": "png",
         "coords": {
           "xMin": -74.27,
