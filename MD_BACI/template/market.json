@@ -9,6 +9,8 @@
       "layerMenuTemplate": "layer_menu",
       "layerMapCodeTemplate": "layer_map_code",
       "infoboxTemplate": "infobox",
+      "model3dTiles": true,
+      "model3dTileSrc": "https://s3.amazonaws.com/create-common/3dtiles/baci/tileset.json",
       "model3dContent": {
         "buildingModels": {"url": "https://s3.amazonaws.com/create-common/3dtiles/baci/tileset.json",
            "type": "3dTileset", "active": true, "role": "buildingModels", "initialState": "active", "permissions": null },

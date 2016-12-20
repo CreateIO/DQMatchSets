@@ -10,6 +10,8 @@
       "layerMapCodeTemplate":"layer_map_code",
       "infoboxTemplate":"infobox_050416",
       "hasPdf": "true",
+      "model3dTiles": true,
+      "model3dTileSrc": "https://s3.amazonaws.com/create-common/3dtiles/dc/tileset.json",
       "model3dContent": {
         "buildingModels": {"url": "https://s3.amazonaws.com/create-common/3dtiles/dc/tileset.json",
            "type": "3dTileset", "active": true, "role": "buildingModels", "initialState": "active", "permissions": null },
