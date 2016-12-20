@@ -115,7 +115,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Property Use Types",
-            "order": 6,
+            "order": 06,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LU.png"
@@ -204,7 +204,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Special Purpose Districts & Sub-Districts",
-            "order": 8,
+            "order": 08,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/SPD.png"
@@ -260,7 +260,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Lower Density Growth Management Areas",
-            "order": 5,
+            "order": 05,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LowDen.png"
@@ -321,7 +321,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Zoning Map Amendments",
-            "order": 93,
+            "order": 12,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
@@ -765,7 +765,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Inclusionary Housing",
-            "order": 3,
+            "order": 03,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/IncHou.png"
@@ -836,7 +836,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Sidewalk Cafes",
-            "order": 7,
+            "order": 07,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/SW.png"
@@ -1000,7 +1000,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Commercial Districts Overlay",
-            "order": 1,
+            "order": 01,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/CDO.png"
@@ -1168,142 +1168,10 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Limited Height Zoning Districts",
-            "order": 4,
+            "order": 04,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LHD.png"
-        },
-        "Waterfront Revitalization Program": {
-            "category": "6",
-            "denyList": {
-                "denyList1": null
-            },
-            "denyToggle": false,
-            "displayName": "Waterfront Revitalization Program",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_SNWA"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func2": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_ESMIA"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func3": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_PMAZ"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func4": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_SMIA"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func5": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_REC"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Waterfront Revitalization Program (WRP)'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_SNWA"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func2": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_ESMIA"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func3": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_PMAZ"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func4": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_SMIA"
-                        },
-                        "service": "tileMapServiceService"
-                    },
-                    "func5": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_REC"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 6,
-            "isActive": false,
-            "layerUsed": true,
-            "legendContents": {
-                "description": "The New York City Waterfront Revitalization Program (WRP) is the city's principal coastal zone management tool. It establishes the City's policies for development and use of the waterfront. Most City, State and Federal discretionary actions in the Coastal Zone must be reviewed for consistency with these policies.",
-                "listItems": {
-                    "item1": {
-                        "boxDescription": "Recognized Ecological Complexes (REC)",
-                        "boxStyle": "background:#ffffff; border: 1px solid #24598f",
-                        "imageUrl": null
-                    },
-                    "item2": {
-                        "boxDescription": "Priority Marine Activity Zones (PMAZ)",
-                        "boxStyle": "background:#8275b4; border-radius: 15px; border: 1px solid #534b74",
-                        "imageUrl": null
-                    },
-                    "item3": {
-                        "boxDescription": "Significant Maritime & Industrial Areas (SMIA)",
-                        "boxStyle": "background:#a4d51c; border: 1px solid #709213",
-                        "imageUrl": null
-                    },
-                    "item4": {
-                        "boxDescription": "Environmental Significant Maritime & !ndustrial Areas (ESMIA)",
-                        "boxStyle": "background:#a7cff8; border: 1px solid #3288bd",
-                        "imageUrl": null
-                    },
-                    "item5": {
-                        "boxDescription": "Special Natural Waterfront Areas (SNWA)",
-                        "boxStyle": "background:#57afaa; border: 1px solid #3b7773",
-                        "imageUrl": null
-                    }
-                },
-                "sourceDescription": "NYC Open Data",
-                "sourceURL": "https://data.cityofnewyork.us/",
-                "type": "singleColumn"
-            },
-            "menuSection": "LandUse1",
-            "mouseoverName": "Waterfront Revitalization Program",
-            "order": 3,
-            "subCategory": "3",
-            "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/WRP.png"
         },
         "Coastal Zone Boundary": {
             "category": "6",
@@ -1974,7 +1842,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Waterfront Areas",
-            "order": 91,
+            "order": 10,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/WP.png"
@@ -2133,12 +2001,12 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Fresh Food Stores Zoning",
-            "order": 2,
+            "order": 02,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/FOOD.png"
         },
-        "Fresh Food Stores Zoning": {
+        "Fresh Food Stores Incentives": {
             "category": "6",
             "denyList": {
                 "denyList1": null
@@ -2150,7 +2018,7 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_FreshFoodStoresZoning"
+                            "param1": "ny_FreshFoodStoresIncentives"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -2164,7 +2032,7 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_FreshFoodStoresZoning"
+                            "param1": "ny_FreshFoodStoresIncentives"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -2311,7 +2179,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Transit Zones",
-            "order": 9,
+            "order": 09,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/TranZone.png"
@@ -2863,7 +2731,7 @@
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "Res_HM.png"
+                            "param2": "Res_HM"
                         },
                         "service": "mapOverlayService"
                     }
@@ -2878,7 +2746,7 @@
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "Res_HM.png"
+                            "param2": "Res_HM"
                         },
                         "service": "mapOverlayService"
                     }
@@ -2946,7 +2814,7 @@
                         "functionName": "addLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "MixedUseIndustrial_Heat"
+                            "param2": "Comm_HM"
                         },
                         "service": "mapOverlayService"
                     }
@@ -2961,7 +2829,7 @@
                         "functionName": "removeLayer",
                         "parameters": {
                             "param1": "$scope",
-                            "param2": "MixedUseIndustrial_Heat"
+                            "param2": "Comm_HM"
                         },
                         "service": "mapOverlayService"
                     }
@@ -3171,7 +3039,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Zoning Districts",
-            "order": 92,
+            "order": 11,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/Z.png"
