@@ -10,6 +10,14 @@
       "layerMapCodeTemplate":"layer_map_code",
       "infoboxTemplate":"infobox_050416",
       "hasPdf": "true",
+      "model3dContent": {
+        "buildingModels": {"url": "https://s3.amazonaws.com/create-common/3dtiles/dc/d_tileset.json",
+           "type": "3dTileset", "active": true, "role": "buildingModels", "initialState": "active", "permissions": null },
+        "WalMart_77": {"url": "https://s3.amazonaws.com/models-dc/", "type": "cgltf",
+           "role": "customModels", "initialState": false, "permissions": null},
+        "3505_t": {"url": "https://s3.amazonaws.com/models-dc/", "type": "cgltf",
+           "role": "customModels", "initialState": false, "permissions": null}  
+      },
       "camera": [
         {
           "name": "Dupont Circle",
