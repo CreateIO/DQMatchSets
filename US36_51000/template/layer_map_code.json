@@ -1637,8 +1637,8 @@
                 "exists": false
             },
             "tms": {
-                "tmsLayerName": "ny_FreshFoodStoresZoning",
-                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_FreshFoodStoresZoning@EPSG:900913@png",
+                "tmsLayerName": "ny_FreshFoodStoresIncentives",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_FreshFoodStoresIncentives@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.1958993217393,

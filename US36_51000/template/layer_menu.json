@@ -2109,17 +2109,7 @@
                 "description": "A FRESH food store is a full-line grocery store, established in underserved neighborhoods through zoning incentives, that promotes the sale of fresh food products.",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Discretionary Tax Incentives",
-                        "boxStyle": "background:#fbc709",
-                        "imageUrl": null
-                    },
-                    "item2": {
-                        "boxDescription": "Zoning & Disretionary Tax Incentives",
-                        "boxStyle": "background:#fb9709",
-                        "imageUrl": null
-                    },
-                    "item3": {
-                        "boxDescription": "Zoning Incentives",
+                        "boxDescription": "Zoning Areas",
                         "boxStyle": "background:#fb5a09",
                         "imageUrl": null
                     }
@@ -2177,16 +2167,6 @@
                     "item1": {
                         "boxDescription": "Discretionary Tax Incentives",
                         "boxStyle": "background:#fbc709",
-                        "imageUrl": null
-                    },
-                    "item2": {
-                        "boxDescription": "Zoning & Disretionary Tax Incentives",
-                        "boxStyle": "background:#fb9709",
-                        "imageUrl": null
-                    },
-                    "item3": {
-                        "boxDescription": "Zoning Incentives",
-                        "boxStyle": "background:#fb5a09",
                         "imageUrl": null
                     }
                 },
