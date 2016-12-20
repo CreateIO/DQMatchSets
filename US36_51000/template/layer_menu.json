@@ -2123,7 +2123,7 @@
             "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/FOOD.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/FRESH_Z.png"
         },
         "Fresh Food Stores Incentives": {
             "category": "6",
@@ -2179,7 +2179,7 @@
             "order": 4,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/FOOD.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/FRESH_I.png"
         },
         "NYCHA Community Engagement & Partnership Zones": {
             "category": "6",
