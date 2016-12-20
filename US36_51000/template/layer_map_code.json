@@ -167,7 +167,7 @@
                 "rasterLayers": {
                     "raster1": {
                         "name": "Res_HM",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/Res_HM.png.png",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/Res_HM.png",
                         "xMin": -74.27,
                         "yMin": 40.49,
                         "xMax": -73.69,
@@ -201,7 +201,7 @@
                 "rasterLayers": {
                     "raster1": {
                         "name": "Comm_HM",
-                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/Comm_HM.png.png",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/Comm_HM.png",
                         "xMin": -74.27,
                         "yMin": 40.49,
                         "xMax": -73.69,
