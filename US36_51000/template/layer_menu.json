@@ -1050,8 +1050,8 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "sourceDescription": "NYC Parks Department",
+                "sourceURL": "https://www.nycgovparks.org/",
                 "type": "singleColumn"
             },
             "menuSection": "CityInfo1",
@@ -1106,8 +1106,8 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "sourceDescription": "NYCEDC",
+                "sourceURL": "http://www.nycedc.com/service/financing-incentives",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
@@ -1300,7 +1300,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Waterfront Revitalization Program",
-            "order": 4,
+            "order": 3,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/WRP.png"
@@ -1785,7 +1785,7 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse3",
+            "menuSection": "CityInfo3",
             "mouseoverName": "Neighborhoods",
             "order": 0,
             "subCategory": "3",
@@ -1841,7 +1841,7 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "CityInfo1",
+            "menuSection": "LandUse3",
             "mouseoverName": "Public Use Microdata Areas",
             "order": 1,
             "subCategory": "3",
@@ -1972,7 +1972,7 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse3",
+            "menuSection": "LandUse1",
             "mouseoverName": "Waterfront Areas",
             "order": 91,
             "subCategory": "3",
@@ -2061,8 +2061,8 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "NYC Open Data",
-                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "sourceDescription": "NYCEDC",
+                "sourceURL": "http://www.nycedc.com/service/financing-incentives",
                 "type": "doubleColumn"
             },
             "menuSection": "Incentives1",
@@ -2193,8 +2193,8 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "sourceDescription": "NYCEDC",
+                "sourceURL": "http://www.nycedc.com/service/financing-incentives",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
@@ -2249,8 +2249,8 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "sourceDescription": "NYCEDC",
+                "sourceURL": "http://www.nycedc.com/service/financing-incentives",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
@@ -2361,8 +2361,8 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "NYC Open Data",
-                "sourceURL": "https://data.cityofnewyork.us/",
+                "sourceDescription": "NYCEDC",
+                "sourceURL": "http://www.nycedc.com/service/financing-incentives",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
