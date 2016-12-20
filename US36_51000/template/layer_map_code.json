@@ -114,6 +114,108 @@
                 "exists": false
             }
         },
+    "Retail_HM": {
+            "name": "Retail_HM",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "Retail_HM",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/Retail_HM.png",
+                        "xMin": -74.27,
+                        "yMin": 40.49,
+                        "xMax": -73.69,
+                        "yMax": 40.93,
+                        "alpha": 1,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "Res_HM.png": {
+            "name": "Res_HM.png",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "Res_HM.png",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/Res_HM.png.png",
+                        "xMin": -74.27,
+                        "yMin": 40.49,
+                        "xMax": -73.69,
+                        "yMax": 40.93,
+                        "alpha": 1,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "Comm_HM.png": {
+            "name": "Comm_HM.png",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "Comm_HM.png",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/Comm_HM.png.png",
+                        "xMin": -74.27,
+                        "yMin": 40.49,
+                        "xMax": -73.69,
+                        "yMax": 40.93,
+                        "alpha": 1,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
         "ny_HomeValueGrowth": {
             "name": "ny_HomeValueGrowth",
             "removeName": null,
