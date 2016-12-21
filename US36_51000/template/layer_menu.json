@@ -2810,7 +2810,7 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse5",
+            "menuSection": "",
             "mouseoverName": "Retail Density Heatmap",
             "order": 0,
             "subCategory": "4",
@@ -2893,7 +2893,7 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse5",
+            "menuSection": "",
             "mouseoverName": "Residential Density Heatmap",
             "order": 0,
             "subCategory": "4",
@@ -2976,7 +2976,7 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse5",
+            "menuSection": "",
             "mouseoverName": "Commercial Density Heatmap",
             "order": 0,
             "subCategory": "4",
