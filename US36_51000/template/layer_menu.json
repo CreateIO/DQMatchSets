@@ -115,7 +115,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Property Use Types",
-            "order": 6,
+            "order": 1,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LU.png"
@@ -202,7 +202,7 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse1",
+            "menuSection": "LandUse2",
             "mouseoverName": "Special Purpose Districts & Sub-Districts",
             "order": 8,
             "subCategory": "3",
@@ -258,9 +258,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse1",
+            "menuSection": "LandUse2",
             "mouseoverName": "Lower Density Growth Management Areas",
-            "order": 5,
+            "order": 6,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LowDen.png"
@@ -321,7 +321,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Zoning Map Amendments",
-            "order": 93,
+            "order": 3,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
@@ -760,9 +760,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse1",
+            "menuSection": "LandUse2",
             "mouseoverName": "Inclusionary Housing",
-            "order": 3,
+            "order": 4,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/IncHou.png"
@@ -831,7 +831,7 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse1",
+            "menuSection": "LandUse2",
             "mouseoverName": "Sidewalk Cafes",
             "order": 7,
             "subCategory": "3",
@@ -894,7 +894,7 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "City Owned & Leased Properties",
-            "order": 0,
+            "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/OnLP.png"
@@ -995,9 +995,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "doubleColumn"
             },
-            "menuSection": "LandUse1",
+            "menuSection": "LandUse2",
             "mouseoverName": "Commercial Districts Overlay",
-            "order": 1,
+            "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/CDO.png"
@@ -1163,9 +1163,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse1",
+            "menuSection": "LandUse2",
             "mouseoverName": "Limited Height Zoning Districts",
-            "order": 4,
+            "order": 5,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LHD.png"
@@ -1969,9 +1969,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse1",
+            "menuSection": "LandUse2",
             "mouseoverName": "Waterfront Areas",
-            "order": 91,
+            "order": 10,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/WP.png"
@@ -2118,7 +2118,7 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse1",
+            "menuSection": "LandUse2",
             "mouseoverName": "Fresh Food Stores Zoning",
             "order": 2,
             "subCategory": "3",
@@ -2175,7 +2175,7 @@
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
-            "mouseoverName": "Fresh Food Stores Zoning",
+            "mouseoverName": "Fresh Food Stores Incentives",
             "order": 4,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
@@ -2286,7 +2286,7 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse1",
+            "menuSection": "LandUse2",
             "mouseoverName": "Transit Zones",
             "order": 9,
             "subCategory": "3",
@@ -3148,7 +3148,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Zoning Districts",
-            "order": 92,
+            "order": 9,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/Z.png"
