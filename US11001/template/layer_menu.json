@@ -129,7 +129,7 @@
                         "imageUrl": null
                     },
                     "item4": {
-                        "boxDescription": "Captiol Riverfront BID",
+                        "boxDescription": "Capitol Riverfront BID",
                         "boxStyle": "background:#984ea3;",
                         "imageUrl": null
                     },
@@ -1918,7 +1918,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Arts overlay zonies.",
+                "description": "Arts overlay zones.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Overlay - Arts",
@@ -1974,7 +1974,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more details.<br><br>Government and diplomatic overlay zones have special requirements related to historic preservation, density, and use restrictions.",
+                "description": "Government and diplomatic overlay zones have special requirements related to historic preservation, density, and use restrictions.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Government",
@@ -2030,7 +2030,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more details.<br><br>Hotel incentive and housing priority overlay zones encourage downtown lodging and residential development.",
+                "description": "Hotel incentive and housing priority overlay zones encourage downtown lodging and residential development.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Hotel & Residential Incentive Areas",
@@ -2091,7 +2091,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more details.<br><br>Downtown mixed-use development overlay zones encourage high-density mixed-use development for downtown commercial districts.",
+                "description": "Downtown mixed-use development overlay zones encourage high-density mixed-use development for downtown commercial districts.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Downtown and mixed use development.",
@@ -2147,7 +2147,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more details.<br><br>Neighborhood commercial overlay zones establish pedestrian and mixed use development goals specific to each neighborhood.",
+                "description": "Neighborhood commercial overlay zones establish pedestrian and mixed use development goals specific to each neighborhood.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Neighborhood Commercial",
@@ -2203,7 +2203,7 @@
             "isActive": false,
             "layerUsed": true,
             "legendContents": {
-                "description": "Click map polygons for more details.<br><br>Neighborhood and open space preservation overlay zones aim to preserve and enhance low-rise residential neighborhoods and natural areas.",
+                "description": "Neighborhood and open space preservation overlay zones aim to preserve and enhance low-rise residential neighborhoods and natural areas.",
                 "listItems": {
                     "item1": {
                         "boxDescription": "Preservation - Nature",

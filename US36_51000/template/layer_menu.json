@@ -115,7 +115,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Property Use Types",
-            "order": 6,
+            "order": 1,
             "subCategory": "1",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LU.png"
@@ -202,7 +202,7 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse1",
+            "menuSection": "LandUse2",
             "mouseoverName": "Special Purpose Districts & Sub-Districts",
             "order": 8,
             "subCategory": "3",
@@ -258,9 +258,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse1",
+            "menuSection": "LandUse2",
             "mouseoverName": "Lower Density Growth Management Areas",
-            "order": 5,
+            "order": 6,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LowDen.png"
@@ -321,7 +321,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Zoning Map Amendments",
-            "order": 93,
+            "order": 3,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/ZMA.png"
@@ -706,9 +706,6 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/HouseholdGrowth.png"
         },
-
-
-
         "Inclusionary Housing": {
             "category": "6",
             "denyList": {
@@ -763,9 +760,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse1",
+            "menuSection": "LandUse2",
             "mouseoverName": "Inclusionary Housing",
-            "order": 3,
+            "order": 4,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/IncHou.png"
@@ -834,7 +831,7 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse1",
+            "menuSection": "LandUse2",
             "mouseoverName": "Sidewalk Cafes",
             "order": 7,
             "subCategory": "3",
@@ -897,7 +894,7 @@
             },
             "menuSection": "LandUse2",
             "mouseoverName": "City Owned & Leased Properties",
-            "order": 0,
+            "order": 1,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/OnLP.png"
@@ -998,9 +995,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "doubleColumn"
             },
-            "menuSection": "LandUse1",
+            "menuSection": "LandUse2",
             "mouseoverName": "Commercial Districts Overlay",
-            "order": 1,
+            "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/CDO.png"
@@ -1050,8 +1047,8 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "sourceDescription": "NYC Parks Department",
+                "sourceURL": "https://www.nycgovparks.org/",
                 "type": "singleColumn"
             },
             "menuSection": "CityInfo1",
@@ -1106,8 +1103,8 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "sourceDescription": "NYCEDC",
+                "sourceURL": "http://www.nycedc.com/service/financing-incentives",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
@@ -1166,12 +1163,68 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse1",
+            "menuSection": "LandUse2",
             "mouseoverName": "Limited Height Zoning Districts",
-            "order": 4,
+            "order": 5,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/LHD.png"
+        },
+        "Coastal Zone Boundary": {
+            "category": "6",
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Coastal Zone Boundary",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_CZB"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Coastal Zone Boundary'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeDynamicTMSLayer",
+                        "parameters": {
+                            "param1": "ny_CZB"
+                        },
+                        "service": "tileMapServiceService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 6,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "The Coastal Zone Boundary defines the geographic scope of New York City's Waterfront Revitalization Program (WRP). The boundary encompasses all land and water of direct and significant impact on coastal waters.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Coastal Zone Boundary (CZB)",
+                        "boxStyle": "background:#6bbed0; border: 1px solid #29739d",
+                        "imageUrl": null
+                    }
+                },
+                "sourceDescription": "NYC Open Data",
+                "sourceURL": "https://data.cityofnewyork.us/",
+                "type": "singleColumn"
+            },
+            "menuSection": "LandUse3",
+            "mouseoverName": "Coastal Zone Boundary",
+            "order": 1,
+            "subCategory": "3",
+            "urlLegend": "../../legends/template-legend.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/CZB.png"
         },
         "Waterfront Revitalization Program": {
             "category": "6",
@@ -1298,68 +1351,12 @@
                 "sourceURL": "https://data.cityofnewyork.us/",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse1",
+            "menuSection": "LandUse3",
             "mouseoverName": "Waterfront Revitalization Program",
-            "order": 4,
+            "order": 3,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/WRP.png"
-        },
-        "Coastal Zone Boundary": {
-            "category": "6",
-            "denyList": {
-                "denyList1": null
-            },
-            "denyToggle": false,
-            "displayName": "Coastal Zone Boundary",
-            "functions": {
-                "addFunctions": {
-                    "func1": {
-                        "functionName": "addDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_CZB"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                },
-                "piwikTrack": {
-                    "parameters": {
-                        "param1": "'Coastal Zone Boundary'"
-                    }
-                },
-                "removeFunctions": {
-                    "func1": {
-                        "functionName": "removeDynamicTMSLayer",
-                        "parameters": {
-                            "param1": "ny_CZB"
-                        },
-                        "service": "tileMapServiceService"
-                    }
-                }
-            },
-            "hasLegend": true,
-            "id": 6,
-            "isActive": false,
-            "layerUsed": true,
-            "legendContents": {
-                "description": "The Coastal Zone Boundary defines the geographic scope of New York City's Waterfront Revitalization Program (WRP). The boundary encompasses all land and water of direct and significant impact on coastal waters.",
-                "listItems": {
-                    "item1": {
-                        "boxDescription": "Coastal Zone Boundary (CZB)",
-                        "boxStyle": "background:#6bbed0; border: 1px solid #29739d",
-                        "imageUrl": null
-                    }
-                },
-                "sourceDescription": "NYC Open Data",
-                "sourceURL": "https://data.cityofnewyork.us/",
-                "type": "singleColumn"
-            },
-            "menuSection": "LandUse3",
-            "mouseoverName": "Coastal Zone Boundary",
-            "order": 1,
-            "subCategory": "3",
-            "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/CZB.png"
         },
         "Hurricane Evacuation Zones": {
             "category": "6",
@@ -1785,7 +1782,7 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse3",
+            "menuSection": "CityInfo3",
             "mouseoverName": "Neighborhoods",
             "order": 0,
             "subCategory": "3",
@@ -1841,7 +1838,7 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "CityInfo1",
+            "menuSection": "LandUse3",
             "mouseoverName": "Public Use Microdata Areas",
             "order": 1,
             "subCategory": "3",
@@ -1972,9 +1969,9 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse3",
+            "menuSection": "LandUse2",
             "mouseoverName": "Waterfront Areas",
-            "order": 91,
+            "order": 10,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/WP.png"
@@ -2061,8 +2058,8 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "NYC Open Data",
-                "sourceURL": "http://www1.nyc.gov/site/planning/index.page",
+                "sourceDescription": "NYCEDC",
+                "sourceURL": "http://www.nycedc.com/service/financing-incentives",
                 "type": "doubleColumn"
             },
             "menuSection": "Incentives1",
@@ -2112,17 +2109,7 @@
                 "description": "A FRESH food store is a full-line grocery store, established in underserved neighborhoods through zoning incentives, that promotes the sale of fresh food products.",
                 "listItems": {
                     "item1": {
-                        "boxDescription": "Discretionary Tax Incentives",
-                        "boxStyle": "background:#fbc709",
-                        "imageUrl": null
-                    },
-                    "item2": {
-                        "boxDescription": "Zoning & Disretionary Tax Incentives",
-                        "boxStyle": "background:#fb9709",
-                        "imageUrl": null
-                    },
-                    "item3": {
-                        "boxDescription": "Zoning Incentives",
+                        "boxDescription": "Zoning Areas",
                         "boxStyle": "background:#fb5a09",
                         "imageUrl": null
                     }
@@ -2131,14 +2118,14 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse1",
+            "menuSection": "LandUse2",
             "mouseoverName": "Fresh Food Stores Zoning",
             "order": 2,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/FOOD.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/FRESH_Z.png"
         },
-        "Fresh Food Stores Zoning": {
+        "Fresh Food Stores Incentives": {
             "category": "6",
             "denyList": {
                 "denyList1": null
@@ -2150,7 +2137,7 @@
                     "func1": {
                         "functionName": "addDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_FreshFoodStoresZoning"
+                            "param1": "ny_FreshFoodStoresIncentives"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -2164,7 +2151,7 @@
                     "func1": {
                         "functionName": "removeDynamicTMSLayer",
                         "parameters": {
-                            "param1": "ny_FreshFoodStoresZoning"
+                            "param1": "ny_FreshFoodStoresIncentives"
                         },
                         "service": "tileMapServiceService"
                     }
@@ -2181,28 +2168,18 @@
                         "boxDescription": "Discretionary Tax Incentives",
                         "boxStyle": "background:#fbc709",
                         "imageUrl": null
-                    },
-                    "item2": {
-                        "boxDescription": "Zoning & Disretionary Tax Incentives",
-                        "boxStyle": "background:#fb9709",
-                        "imageUrl": null
-                    },
-                    "item3": {
-                        "boxDescription": "Zoning Incentives",
-                        "boxStyle": "background:#fb5a09",
-                        "imageUrl": null
                     }
                 },
-                "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "sourceDescription": "NYCEDC",
+                "sourceURL": "http://www.nycedc.com/service/financing-incentives",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
-            "mouseoverName": "Fresh Food Stores Zoning",
+            "mouseoverName": "Fresh Food Stores Incentives",
             "order": 4,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
-            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/FOOD.png"
+            "urlPicture": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/FRESH_I.png"
         },
         "NYCHA Community Engagement & Partnership Zones": {
             "category": "6",
@@ -2249,8 +2226,8 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "NYC Department of City Planning",
-                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "sourceDescription": "NYCEDC",
+                "sourceURL": "http://www.nycedc.com/service/financing-incentives",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
@@ -2309,7 +2286,7 @@
                 "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
                 "type": "singleColumn"
             },
-            "menuSection": "LandUse1",
+            "menuSection": "LandUse2",
             "mouseoverName": "Transit Zones",
             "order": 9,
             "subCategory": "3",
@@ -2361,8 +2338,8 @@
                         "imageUrl": null
                     }
                 },
-                "sourceDescription": "NYC Open Data",
-                "sourceURL": "https://data.cityofnewyork.us/",
+                "sourceDescription": "NYCEDC",
+                "sourceURL": "http://www.nycedc.com/service/financing-incentives",
                 "type": "singleColumn"
             },
             "menuSection": "Incentives1",
@@ -2757,6 +2734,255 @@
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/A2.png"
         },
+        "Retail Density Heatmap": {
+            "category": "1",
+            "colors": {
+                "hex": {
+                    "hex1": "#EEF7FD",
+                    "hex2": "#D7EAF8",
+                    "hex3": "#B7D3EF",
+                    "hex4": "#78C9F1",
+                    "hex5": "#55AADE"
+                },
+                "type": "multi"
+            },
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Retail Density Heatmap",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "Retail_HM"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'New York Data: Retail Density Heatmap'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "Retail_HM"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 40,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Retail square footage in buildings--Where people work & shop.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Moderate",
+                        "boxStyle": "background:#2b83ba"
+                    },
+                    "item2": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#abdda4"
+                    },
+                    "item3": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#ffffbf"
+                    },
+                    "item4": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#fdae61"
+                    },
+                    "item5": {
+                        "boxDescription": "High",
+                        "boxStyle": "background:#d7191c"
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "",
+            "mouseoverName": "Retail Density Heatmap",
+            "order": 0,
+            "subCategory": "4",
+            "urlLegend": "../../legends/template-color-ramp.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/MUHM.png"
+        },
+        "Residential Density Heatmap": {
+            "category": "1",
+            "colors": {
+                "hex": {
+                    "hex1": "#EEF7FD",
+                    "hex2": "#D7EAF8",
+                    "hex3": "#B7D3EF",
+                    "hex4": "#78C9F1",
+                    "hex5": "#55AADE"
+                },
+                "type": "multi"
+            },
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Residential Density Heatmap",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "Res_HM"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'New York Data: Mixed Use / Industrial Density Heatmap'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "Res_HM"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 40,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Residential square footage use areas--Where people live.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Moderate",
+                        "boxStyle": "background:#2b83ba"
+                    },
+                    "item2": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#abdda4"
+                    },
+                    "item3": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#ffffbf"
+                    },
+                    "item4": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#fdae61"
+                    },
+                    "item5": {
+                        "boxDescription": "High",
+                        "boxStyle": "background:#d7191c"
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "",
+            "mouseoverName": "Residential Density Heatmap",
+            "order": 0,
+            "subCategory": "4",
+            "urlLegend": "../../legends/template-color-ramp.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/MUHM.png"
+        },
+        "Commercial Density Heatmap": {
+            "category": "1",
+            "colors": {
+                "hex": {
+                    "hex1": "#EEF7FD",
+                    "hex2": "#D7EAF8",
+                    "hex3": "#B7D3EF",
+                    "hex4": "#78C9F1",
+                    "hex5": "#55AADE"
+                },
+                "type": "multi"
+            },
+            "denyList": {
+                "denyList1": null
+            },
+            "denyToggle": false,
+            "displayName": "Mixed Use / Industrial Density",
+            "functions": {
+                "addFunctions": {
+                    "func1": {
+                        "functionName": "addLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "Comm_HM"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                },
+                "piwikTrack": {
+                    "parameters": {
+                        "param1": "'Baltimore Data: Mixed Use / Industrial Density Heatmap'"
+                    }
+                },
+                "removeFunctions": {
+                    "func1": {
+                        "functionName": "removeLayer",
+                        "parameters": {
+                            "param1": "$scope",
+                            "param2": "Comm_HM"
+                        },
+                        "service": "mapOverlayService"
+                    }
+                }
+            },
+            "hasLegend": true,
+            "id": 40,
+            "isActive": false,
+            "layerUsed": true,
+            "legendContents": {
+                "description": "Commercial use square footage--Where people work.",
+                "listItems": {
+                    "item1": {
+                        "boxDescription": "Moderate",
+                        "boxStyle": "background:#2b83ba"
+                    },
+                    "item2": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#abdda4"
+                    },
+                    "item3": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#ffffbf"
+                    },
+                    "item4": {
+                        "boxDescription": "",
+                        "boxStyle": "background:#fdae61"
+                    },
+                    "item5": {
+                        "boxDescription": "High",
+                        "boxStyle": "background:#d7191c"
+                    }
+                },
+                "sourceDescription": "NYC Department of City Planning",
+                "sourceURL": "https://www1.nyc.gov/site/planning/data-maps/open-data.page",
+                "type": "singleColumn"
+            },
+            "menuSection": "",
+            "mouseoverName": "Commercial Density Heatmap",
+            "order": 0,
+            "subCategory": "4",
+            "urlLegend": "../../legends/template-color-ramp.jade",
+            "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/MUHM.png"
+        },
         "Bike Parking": {
             "category": "6",
             "denyList": {
@@ -2922,7 +3148,7 @@
             },
             "menuSection": "LandUse1",
             "mouseoverName": "Zoning Districts",
-            "order": 92,
+            "order": 9,
             "subCategory": "3",
             "urlLegend": "../../legends/template-legend.jade",
             "urlPicture": "https://s3.amazonaws.com/models-dc/newtiles/Z.png"

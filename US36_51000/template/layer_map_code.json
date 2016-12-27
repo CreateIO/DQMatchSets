@@ -114,6 +114,108 @@
                 "exists": false
             }
         },
+    "Retail_HM": {
+            "name": "Retail_HM",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "Retail_HM",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/Retail_HM.png",
+                        "xMin": -74.27,
+                        "yMin": 40.49,
+                        "xMax": -73.69,
+                        "yMax": 40.93,
+                        "alpha": 1,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "Res_HM": {
+            "name": "Res_HM",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "Res_HM",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/Res_HM.png",
+                        "xMin": -74.27,
+                        "yMin": 40.49,
+                        "xMax": -73.69,
+                        "yMax": 40.93,
+                        "alpha": 1,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "Comm_HM": {
+            "name": "Comm_HM",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "rasters": {
+                "exists": true,
+                "rasterLayers": {
+                    "raster1": {
+                        "name": "Comm_HM",
+                        "url": "https://s3.amazonaws.com/models-dc/geoJSON/layerPNG/Comm_HM.png",
+                        "xMin": -74.27,
+                        "yMin": 40.49,
+                        "xMax": -73.69,
+                        "yMax": 40.93,
+                        "alpha": 1,
+                        "show": true,
+                        "hasDropdown": false
+                    }
+                }
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
         "ny_HomeValueGrowth": {
             "name": "ny_HomeValueGrowth",
             "removeName": null,
@@ -1292,9 +1394,6 @@
                 "exists": false
             }
         },
-
-
-
         "ny_WP": {
             "name": "ny_WP",
             "removeName": null,
@@ -1502,6 +1601,44 @@
             "tms": {
                 "tmsLayerName": "ny_FreshFoodStoresZoning",
                 "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_FreshFoodStoresZoning@EPSG:900913@png",
+                "extension": "png",
+                "coords": {
+                    "xMin": -74.1958993217393,
+                    "yMin": 40.5627324159395,
+                    "xMax": -73.7189440549245,
+                    "yMax": 40.9114170605699
+                },
+                "tileWidth": 256,
+                "tileHeight": 256,
+                "minimumLevel": 1,
+                "maximumLevel": 20,
+                "alpha": 1,
+                "tmsStyle": "OGC"
+            },
+            "rasters": {
+                "exists": false
+            },
+            "billboards": {
+                "exists": false
+            }
+        },
+        "ny_FreshFoodStoresIncentives": {
+            "name": "ny_FreshFoodStoresIncentives",
+            "removeName": null,
+            "url": null,
+            "cartographic": false,
+            "id": {
+                "exists": false
+            },
+            "labels": {
+                "exists": false
+            },
+            "polygons": {
+                "exists": false
+            },
+            "tms": {
+                "tmsLayerName": "ny_FreshFoodStoresIncentives",
+                "url": "https://geodatap.create.io/geoserver/gwc/service/tms/1.0.0/ny_prod:ny_FreshFoodStoresIncentives@EPSG:900913@png",
                 "extension": "png",
                 "coords": {
                     "xMin": -74.1958993217393,
@@ -1979,9 +2116,6 @@
                 "exists": false
             }
         },
-
-
-
         "ny_BikeRacks": {
             "name": "ny_BikeRacks",
             "removeName": null,
@@ -2096,7 +2230,6 @@
                 "exists": false
             }
         },
-
         "ny_Zoning": {
             "name": "ny_Zoning",
             "removeName": null,
