@@ -54,7 +54,7 @@
             },
             "tms": {
                 "tmsLayerName": "parcelFills",
-                "url": "https://s3.amazonaws.com/models-dc/img_tilesets/PLUTO/",
+                "url": "https://s3.amazonaws.com/models-dc/img_tilesets/PLUTO/ny_LandUse",
                 "extension": "png",
             "coords" : {
                 "xMin" : -74.04761,
