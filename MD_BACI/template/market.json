@@ -12,8 +12,8 @@
       "model3dTiles": true,
       "model3dTileSrc": "https://s3.amazonaws.com/create-common/3dtiles/baci/tileset.json",
       "model3dContent": {
-        "buildingModels": {"url": "https://s3.amazonaws.com/create-common/3dtiles/baci/tileset.json",
-           "type": "3dTileset", "active": true, "role": "buildingModels", "initialState": "active", "permissions": null },
+        "buildingModels": {"url": "https://s3.amazonaws.com/create-common/3dtiles/bacic/tileset.json",
+           "type": "3dTileset", "active": true, "role": "buildingModels", "initialState": "active", "permissions": null, "description": "Landuse Colored Buildings" },
         "WalMart_77": {"url": "https://s3.amazonaws.com/models-dc/", "type": "cgltf",
            "role": "customModels", "initialState": false, "permissions": null},
         "3505_t": {"url": "https://s3.amazonaws.com/models-dc/", "type": "cgltf",
