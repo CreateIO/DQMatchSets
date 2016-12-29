@@ -13,7 +13,7 @@
       "model3dTiles": true,
       "model3dTileSrc": "https://s3.amazonaws.com/create-common/3dtiles/nycc/tileset.json",
       "model3dContent": {
-        "buildingModels": {"url": "https://s3.amazonaws.com/create-common/3dtiles/nyc/tileset.json",
+        "buildingModels": {"url": "https://s3.amazonaws.com/create-common/3dtiles/nycc/tileset.json",
            "type": "3dTileset", "active": true, "role": "buildingModels", "initialState": "active", "permissions": null }
       },
       "camera": [
