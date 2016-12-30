@@ -8,7 +8,7 @@
       "layerMapCodeTemplate": "layer_map_code",
       "infoboxTemplate": "infobox",
       "model3dContent": {
-        "buildingModels": {"url": "https://s3.amazonaws.com/create-common/3dtiles/cnshgc/tileset.json",
+        "buildingModels": {"url": "https://s3.amazonaws.com/create-common/3dtiles/shgc/tileset.json",
            "type": "3dTileset", "active": true, "role": "buildingModels", "initialState": "active", "permissions": null, "description": "Landuse Colored Buildings" }
       },
       "camera": [
